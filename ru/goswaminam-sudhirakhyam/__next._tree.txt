@@ -4,5 +4,5 @@
 :HL["/_next/static/css/a0517f20e93498b9.css","style"]
 :HL["/_next/static/css/63c03ed0c6920fa4.css","style"]
 :HL["/_next/static/css/9d3da8b57aef51c2.css","style"]
-:HL["/_next/static/css/81743e2a919d331a.css","style"]
-0:{"buildId":"EKzzR880-Jt4QTf8pv_Dx","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"ru","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"goswaminam-sudhirakhyam","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/_next/static/css/142d0e53726a5733.css","style"]
+0:{"buildId":"Q3HaBBcyJDgEhX3x_p99n","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"ru","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"goswaminam-sudhirakhyam","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
