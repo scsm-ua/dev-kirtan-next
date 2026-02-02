@@ -1,0 +1,4 @@
+:HL["/_next/static/css/ecae49b20d732b87.css","style"]
+:HL["/_next/static/css/a0517f20e93498b9.css","style"]
+:HL["/_next/static/css/6765384a6d98798a.css","style"]
+0:{"buildId":"EKzzR880-Jt4QTf8pv_Dx","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"en","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

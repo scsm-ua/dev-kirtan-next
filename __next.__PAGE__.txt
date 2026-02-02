@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[166,["974","static/chunks/app/page-9af76a004b3d0fc1.js"],"default"]
+3:I[484,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+:HL["/_next/static/css/63727af45f992f33.css","style"]
+0:{"buildId":"EKzzR880-Jt4QTf8pv_Dx","rsc":["$","$1","c",{"children":[["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"bookIdList":["lv","ru","ua","en","pt","es","en-pe"]}]}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/63727af45f992f33.css","precedence":"next"}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

@@ -1,0 +1,1 @@
+.Pills{display:flex;flex-wrap:wrap;margin:0 -8px 0 0;padding:0;list-style-type:none}.Pills__item{display:flex;padding:0 8px 8px 0}.Pills__button{height:32px;width:44px;padding:8px;border-radius:6px;border:1px solid var(--grey);color:var(--dark-grey);background-color:var(--song-bg-color);transition:color .25s;cursor:pointer}.Pills__button:hover{color:var(--accent-color)}

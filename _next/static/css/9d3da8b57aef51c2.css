@@ -1,0 +1,1 @@
+.SongBookItem{padding:var(--side-padding) 0}.SongBookItem:not(:last-child){border-bottom:1px solid var(--grey)}.SongBookItem__container{display:flex;align-items:center}.SongBookItem__info{margin:0 0 0 20px;width:calc(100% - 72px)}.SongBookItem__title--active{color:var(--accent-color)}.SongBookItem__subtitle{font-size:14px;font-weight:300;line-height:20px;color:var(--text-color)}
