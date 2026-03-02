@@ -1,14 +1,12 @@
 'use client';
-import { useEffect, useState } from 'react';
 
 import './BookCard.scss';
 import { displayVersionInfo } from '@/other/displayVersion';
 import { PATH } from '@/other/constants';
-import {
-  saveBookChoice,
-  shouldShowHiddenBooks
-} from '@/other/userPreferrences';
+import { saveBookChoice } from '@/other/userPreferrences';
 import { translate } from '@/other/i18n';
+import { useHiddenBooks } from '@/other/hooks/useHiddenBooks';
+
 import type { TBookDescription } from '@/types/book';
 
 /**/
@@ -24,13 +22,7 @@ displayVersionInfo();
  */
 function BookCard({ bookDescription }: Props) {
   const { hidden, slug, songsCount, subtitle, title } = bookDescription;
-  const [isDisplayed, setDisplayed] = useState<boolean>(false);
-
-  useEffect(() => {
-    if (!hidden || shouldShowHiddenBooks()) setDisplayed(true);
-  }, []);
-
-  if (!isDisplayed) return null;
+  if (!useHiddenBooks(hidden)) return null;
 
   const handleClick = () => saveBookChoice(slug);
   const href = '/' + slug + PATH.PAGE.A_Z;

@@ -20,12 +20,10 @@ function SongbookList({ bookId, bookDescriptions, slug }: Props) {
 
         return (
           <SongBookItem
-            bookId={description.slug}
+            description={description}
             href={href}
             isActive={description.slug === bookId}
             key={description.slug}
-            subtitle={description.subtitle}
-            title={description.title}
           />
         );
       })}

@@ -53,7 +53,12 @@ export async function getBookDescriptionsByBook(
           return slug && bookIds[idx];
         })
         .filter(Boolean)
-        .map((bookId: string) => booksMap[bookId]);
+        .map((bookId: string) => booksMap[bookId])
+        .sort(
+          (a: TBookDescription, b: TBookDescription) =>
+            (a.sort_order || Number.MAX_SAFE_INTEGER) -
+            (b.sort_order || Number.MAX_SAFE_INTEGER)
+        );
     })
     .catch(console.error);
 }
