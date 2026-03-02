@@ -90,11 +90,9 @@ function NotFound({ booksMap }: Props) {
 
                 return (
                   <SongBookItem
-                    bookId={description.slug}
+                    description={description}
                     href={href}
                     key={description.slug}
-                    subtitle={description.subtitle}
-                    title={description.title}
                   />
                 );
               })}
