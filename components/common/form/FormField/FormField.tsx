@@ -24,7 +24,6 @@ function FormField({
   zodError
 }: Props) {
   const msg = zodError[name]?.message;
-  // console.log('>>>>>>>>>>>', zodError, zodError[name], msg);
   const cls = classNames('FormField', className);
 
   const inputCls = classNames(

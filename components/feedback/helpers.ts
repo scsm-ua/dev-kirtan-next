@@ -51,8 +51,6 @@ export type TSubmitFormData = {
  *
  */
 export function onFeedbackSubmit(data: TSubmitFormData, file: File) {
-  console.info(data);
-
   fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
