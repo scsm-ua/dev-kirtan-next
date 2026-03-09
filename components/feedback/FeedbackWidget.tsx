@@ -21,7 +21,11 @@ const Form = lazy(() => import('./FeedbackForm'));
 function FeedbackWidget({ bookId }: Props) {
   const [isOpen, setOpen] = useState<boolean>(false);
   const t = translate(bookId, 'FEEDBACK') as TFeedbackTranslations;
+
   const handleOpen = () => setOpen(!isOpen);
+  const header = (
+    <div className="FeedbackWidget__header">{t.TITLE}</div>
+  );
 
   return (
     <div className="FeedbackWidget">
@@ -29,7 +33,7 @@ function FeedbackWidget({ bookId }: Props) {
         {t.TRIGGER_TEXT}
       </button>
 
-      <AppModal header={t.TITLE} isOpen={isOpen} onClose={handleOpen}>
+      <AppModal header={header} isOpen={isOpen} onClose={handleOpen}>
         <Form translations={t} />
       </AppModal>
     </div>
