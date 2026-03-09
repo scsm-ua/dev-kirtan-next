@@ -11,7 +11,7 @@ export const FIELDS = {
   IMAGE: 'image',
   MESSAGE: 'message',
   NAME: 'name'
-};
+} as any;
 
 const CHAT_ID = -1003735575930;
 const TOKEN = '8651091209:AAFp34KDkoZ8iaZtGWnPS7UglRUxns_yF8g';
@@ -66,7 +66,7 @@ export function onFeedbackSubmit(data: TSubmitFormData, file: File) {
   if (!file) return;
 
   const fd = new FormData();
-  fd.append('chat_id', CHAT_ID);
+  fd.append('chat_id', CHAT_ID + '');
   fd.append('photo', file);
 
   fetch(`https://api.telegram.org/bot${TOKEN}/sendPhoto`, {

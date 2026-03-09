@@ -20,7 +20,7 @@ const Form = lazy(() => import('./FeedbackForm'));
  */
 function FeedbackWidget({ bookId }: Props) {
   const [isOpen, setOpen] = useState<boolean>(false);
-  const t = translate(bookId, 'FEEDBACK') as TFeedbackTranslations;
+  const t = (translate(bookId, 'FEEDBACK') as any) as TFeedbackTranslations;
 
   const handleOpen = () => setOpen(!isOpen);
   const header = (

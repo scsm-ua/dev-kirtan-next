@@ -72,6 +72,7 @@ function FormInner({ onFinish, translations: t }: Props) {
           className="AppTextInput AppTextInput--gray"
           id={FIELDS.NAME}
           type="text"
+          // @ts-ignore
           {...register(FIELDS.NAME)}
         />
       </FormField>
@@ -85,6 +86,7 @@ function FormInner({ onFinish, translations: t }: Props) {
           className="AppTextInput AppTextInput--gray"
           id={FIELDS.EMAIL}
           type="email"
+          // @ts-ignore
           {...register(FIELDS.EMAIL)}
         />
       </FormField>
@@ -98,8 +100,9 @@ function FormInner({ onFinish, translations: t }: Props) {
         <textarea
           className="AppTextInput AppTextInput--area AppTextInput--gray"
           id={FIELDS.MESSAGE}
+          // @ts-ignore
           {...register(FIELDS.MESSAGE)}
-          rows="3"
+          rows={3}
         />
       </FormField>
 

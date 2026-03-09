@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client';
 
 import './TestPage.scss';
@@ -78,7 +79,7 @@ export default function TestPage() {
                <textarea
                  className="AppTextInput AppTextInput--area AppTextInput--gray"
                  placeholder="Enter your message"
-                 rows="3"
+                 rows={3}
                />
             </FormField>
 
@@ -91,7 +92,7 @@ export default function TestPage() {
                <textarea
                  className="AppTextInput AppTextInput--area AppTextInput--gray"
                  placeholder="Enter your message"
-                 rows="3"
+                 rows={3}
                />
             </FormField>
 
