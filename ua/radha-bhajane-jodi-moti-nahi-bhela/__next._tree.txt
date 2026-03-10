@@ -1,0 +1,8 @@
+:HL["/_next/static/css/584199992574daaa.css","style"]
+:HL["/_next/static/css/df4278d403dcd14f.css","style"]
+:HL["/_next/static/css/2ae9dc7a3118fc40.css","style"]
+:HL["/_next/static/css/1bed6f1127166984.css","style"]
+:HL["/_next/static/css/2b7fc7cf25593476.css","style"]
+:HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
+:HL["/_next/static/css/6949884813cac7be.css","style"]
+0:{"buildId":"wCni9Sr-1yoX0uw2Lm1sh","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"ua","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"radha-bhajane-jodi-moti-nahi-bhela","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
