@@ -1,7 +1,9 @@
 import type { MetadataRoute } from 'next';
 
-import { PATH, SITE } from '@/other/constants';
+import { getBookIdList } from '@/lib/books';
 import { getContentsByBookId } from '@/lib/contents';
+import { PATH, SITE } from '@/other/constants';
+
 import type { TContentGroup, TContentItem } from '@/types/common';
 
 /**/
@@ -31,7 +33,7 @@ function mapGroups(groups: TContentGroup[], bookId) {
  *
  */
 async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const bookIds = ['en-pe']; // await getBookIdList();
+  const bookIds = await getBookIdList();
 
   return Promise.all(
     bookIds.map((bookId) => getContentsByBookId(bookId))

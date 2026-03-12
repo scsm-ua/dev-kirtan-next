@@ -3,6 +3,7 @@ import { Modal } from 'react-responsive-modal';
 
 import 'react-responsive-modal/styles.css';
 import './AppModal.scss';
+import { isMobile } from '@/other/utils';
 
 /**/
 type Props = {
@@ -28,6 +29,7 @@ function AppModal({ children, header, isOpen, onClose }: Props) {
     <Modal
       center
       classNames={MODAL_CLASS_NAMES}
+      closeOnOverlayClick={!isMobile()}
       onClose={onClose}
       open={isOpen}
       showCloseIcon={false}
