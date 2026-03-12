@@ -1,9 +1,7 @@
 'use client';
-import { lazy } from 'react';
-import { useState } from 'react';
+import { lazy, useEffect, useState } from 'react';
 
 import './FeedbackWidget.scss';
-
 import AppModal from '@/components/common/Modal/AppModal';
 import { translate } from '@/other/i18n';
 import type { TFeedbackTranslations } from '@/types/translations';
@@ -20,9 +18,14 @@ const Form = lazy(() => import('./FeedbackForm'));
  */
 function FeedbackWidget({ bookId }: Props) {
   const [isOpen, setOpen] = useState<boolean>(false);
-  const t = (translate(bookId, 'FEEDBACK') as any) as TFeedbackTranslations;
+
+  useEffect(() => {
+    return () => setOpen(false);
+  }, []);
 
   const handleOpen = () => setOpen(!isOpen);
+  const t = (translate(bookId, 'FEEDBACK') as any) as TFeedbackTranslations;
+
   const header = (
     <div className="FeedbackWidget__header">{t.TITLE}</div>
   );

@@ -14,11 +14,12 @@ type Props = {
 };
 
 /**/
+const closeIcon = <span className="AppModal__close icon-xmark-large" />;
+
 const MODAL_CLASS_NAMES = {
   modal: 'AppModal__container',
   overlay: 'AppModal__mask',
-  closeButton: 'AppModal__button',
-  closeIcon: 'AppModal__icon'
+  closeButton: 'AppModal__button'
 };
 
 /**
@@ -29,20 +30,16 @@ function AppModal({ children, header, isOpen, onClose }: Props) {
     <Modal
       center
       classNames={MODAL_CLASS_NAMES}
+      closeIcon={closeIcon}
       closeOnOverlayClick={!isMobile()}
       onClose={onClose}
       open={isOpen}
-      showCloseIcon={false}
     >
       <div className="AppModal__content">
         <header className="AppModal__header">
           {header && (
             <h3 className="AppModal__title">{header}</h3>
           )}
-
-          <button className="NoBorderButton AppModal__close" onClick={onClose}>
-            <span className="icon-xmark-large" />
-          </button>
         </header>
 
         <main className="AppModal__main">{children}</main>
