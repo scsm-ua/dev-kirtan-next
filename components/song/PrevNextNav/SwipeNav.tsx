@@ -24,12 +24,13 @@ export function SwipeNav({ prevNext }: Props) {
   };
 
   useEffect(() => {
-    listener = SwipeListener(document);
-    document.addEventListener('swipe', goAway);
+    const el = document.getElementById('body');
+    listener = SwipeListener(el);
+    el.addEventListener('swipe', goAway);
 
     return () => {
       listener?.off();
-      document.removeEventListener('swipe', goAway);
+      el.removeEventListener('swipe', goAway);
     };
   }, [prevNext]);
 
