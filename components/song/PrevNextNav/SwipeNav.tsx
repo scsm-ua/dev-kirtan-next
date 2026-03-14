@@ -1,6 +1,6 @@
 'use client';
+import SwipeListener from 'swipe-listener';
 import { useEffect } from 'react';
-import VanillaSwipe, { type EventData } from 'vanilla-swipe';
 
 import type { TNavItems } from '@/types/song';
 
@@ -11,39 +11,28 @@ type Props = { prevNext: TNavItems };
  *
  */
 export function SwipeNav({ prevNext }: Props) {
+  const goAway = ({ detail }: CustomEvent) => {
+    // Skip if the modal window is being shown.
+    if (document.body.style.overflow === 'hidden') return console.log('Skipped +++++');
+
+    if (detail['directions'].left && prevNext.next) {
+      window.location.href = prevNext.next.path;
+    }
+
+    if (detail['directions'].right && prevNext.prev) {
+      window.location.href = prevNext.prev.path;
+    }
+  };
+
   useEffect(() => {
-    const listener = new VanillaSwipe({
-      element: getTargetEl(),
-      onSwiped: (e, data: EventData) => handleSwipe(data, prevNext)
-    });
+    const listener = SwipeListener(document.body);
+    document.body.addEventListener('swipe', goAway);
 
-    listener.init();
-
-    return () => listener?.destroy()
+    return () => {
+      listener?.off();
+      document.body.removeEventListener('swipe', goAway);
+    };
   }, [prevNext]);
 
   return null;
-}
-
-/**
- *
- */
-function getTargetEl(): HTMLElement {
-  return document.getElementById('body');
-}
-
-/**
- *
- */
-function handleSwipe(data: EventData, prevNext: TNavItems): void {
-  // Skip if the modal window is being shown.
-  if (getTargetEl().style.overflow === 'hidden') return;
-
-  if (data.directionX === 'LEFT' && prevNext.next) {
-    window.location.href = prevNext.next.path;
-  }
-
-  if (data.directionX === 'RIGHT' && prevNext.prev) {
-    window.location.href = prevNext.prev.path;
-  }
 }
