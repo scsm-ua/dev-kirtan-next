@@ -42,7 +42,7 @@ export function SwipeNav({ prevNext }: Props) {
     return () => {
       // listener?.off();
       listener?.destroy();
-      el.removeEventListener('swipe', goAway);
+      // el.removeEventListener('swipe', goAway);
     };
   }, [prevNext]);
 
