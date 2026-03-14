@@ -13,7 +13,7 @@ type Props = { prevNext: TNavItems };
 export function SwipeNav({ prevNext }: Props) {
   const goAway = ({ detail }: CustomEvent) => {
     // Skip if the modal window is being shown.
-    if (document.body.style.overflow === 'hidden') return console.log('Skipped +++++');
+    if (document.body.style.overflow === 'hidden') return;
 
     if (detail['directions'].left && prevNext.next) {
       window.location.href = prevNext.next.path;
