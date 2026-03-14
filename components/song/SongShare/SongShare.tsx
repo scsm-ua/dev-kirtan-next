@@ -1,15 +1,16 @@
 'use client';
-import { useState } from 'react';
+import { lazy, useState } from 'react';
 
 import './SongShare.scss';
 import AppModal from '@/components/common/Modal/AppModal';
-import SongShareForm from '@/components/song/SongShare/SongShareForm';
 import { translate } from '@/other/i18n';
 
 /**/
 type Props = {
   bookId: string;
 };
+
+const Form = lazy(() => import('./SongShareForm'));
 
 /**
  *
@@ -32,7 +33,7 @@ function SongShare({ bookId }: Props) {
         isOpen={isOpen}
         onClose={() => setOpen(false)}
       >
-        <SongShareForm bookId={bookId} onClose={() => setOpen(false)} />
+        <Form bookId={bookId} onClose={() => setOpen(false)} />
       </AppModal>
     </>
   );
