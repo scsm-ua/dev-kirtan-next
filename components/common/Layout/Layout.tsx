@@ -1,7 +1,6 @@
 import classNames from 'classnames';
 
 import './Layout.scss';
-import FeedbackWidget from '@/components/feedback/FeedbackWidget';
 import Footer from '@/components/common/Footer/Footer';
 import { GoogleAnalytics } from '@/components/common/GoogleAnalytics';
 import Header from '@/components/common/Header/Header';
@@ -61,7 +60,6 @@ function Layout({
             <Header bookId={bookId} />
             <main className={cls}>
               {children}
-              <FeedbackWidget bookId={bookId} />
             </main>
           </div>
 
