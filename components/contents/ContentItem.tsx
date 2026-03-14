@@ -35,12 +35,11 @@ function ContentItem({ bookId, item }: Props) {
           </h6>
 
           <div className="ContentItem__info">
-            {_pages && (
-              <span className="ContentItem__page" title="Page in paper songbook">{_pages}</span>
-            )}
-
             {has.audio && (
               <span className="ContentItem__embed" title="Audio">♪</span>
+            )}
+            {_pages && (
+              <span className="ContentItem__page" title="Page in paper songbook">{_pages}</span>
             )}
           </div>
         </div>

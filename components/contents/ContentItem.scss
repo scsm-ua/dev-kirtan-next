@@ -34,7 +34,7 @@
     display: inline;
     font-weight: 400;
     color: var(--gray);
-    margin: 0 6px 0 16px;
+    margin: 0 6px;
   }
 
   &__menu {
@@ -51,7 +51,7 @@
     font-weight: 400;
     line-height: 0;
     color: var(--gray);
-    margin: 0 8px 0 6px;
+    margin: 0 8px 0 16px;
   }
 
   &__views {
@@ -68,7 +68,7 @@
     position: absolute;
     font-size: 24px;
     color: var(--dark-gray);
-    top: 2px;
+    top: 1px;
     left: 0px;
   }
 }
