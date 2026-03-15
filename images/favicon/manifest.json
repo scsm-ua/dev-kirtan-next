@@ -1,6 +1,12 @@
 {
- "name": "Kirtan Site - Songbooks",
+ "name": "Kirtan Site",
  "short_name": "kirtan.site",
+ "description": "Kirtan songbook collection",
+ "start_url": "/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#ffffff",
+ "scope": "/",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
