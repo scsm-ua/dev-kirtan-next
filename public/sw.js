@@ -1,8 +1,18 @@
 // Minimal service worker for PWA with offline support
+
+// DEBUG: Set to true to skip pre-caching (runtime caching only)
+const DEBUG_MODE = false;
+
 const CACHE_NAME = 'kirtan-v2';
 
 // Install event - pre-cache all pages from sitemap
 self.addEventListener('install', (event) => {
+  if (DEBUG_MODE) {
+    console.log('🔧 DEBUG MODE: Skipping pre-cache, using runtime caching only');
+    self.skipWaiting();
+    return;
+  }
+
   event.waitUntil(
     fetch('/sitemap.xml')
       .then(response => response.text())
