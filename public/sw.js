@@ -92,8 +92,46 @@ self.addEventListener('fetch', (event) => {
             if (cached) {
               return cached;
             }
-            // Return a basic offline page if available
-            return caches.match('/');
+            // Page not cached - return offline message
+            return new Response(
+              `<!DOCTYPE html>
+              <html>
+                <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1">
+                  <title>Offline</title>
+                  <style>
+                    body {
+                      font-family: system-ui, -apple-system, sans-serif;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      min-height: 100vh;
+                      margin: 0;
+                      background: #f5f5f5;
+                    }
+                    .container {
+                      text-align: center;
+                      padding: 2rem;
+                    }
+                    h1 { color: #333; }
+                    p { color: #666; }
+                  </style>
+                </head>
+                <body>
+                  <div class="container">
+                    <h1>📡 You're Offline</h1>
+                    <p>This page is not available offline.</p>
+                    <p>Please check your connection and try again.</p>
+                  </div>
+                </body>
+              </html>`,
+              {
+                status: 503,
+                statusText: 'Service Unavailable',
+                headers: { 'Content-Type': 'text/html' }
+              }
+            );
           });
         })
     );
