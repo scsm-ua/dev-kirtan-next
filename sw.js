@@ -3,12 +3,11 @@
 // Set to true to skip pre-caching (runtime caching only)
 const SKIP_GLOBAL_CACHE = true;
 
-const CACHE_NAME = 'kirtan-v2';
+const CACHE_NAME = 'kirtan-v4';
 
 // Install event - pre-cache all pages from sitemap
 self.addEventListener('install', (event) => {
   if (SKIP_GLOBAL_CACHE) {
-    console.log('🔧 DEBUG MODE: Skipping pre-cache, using runtime caching only');
     self.skipWaiting();
     return;
   }
@@ -72,6 +71,14 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+// Helper: Normalize URL by removing query parameters for HTML pages
+function normalizeUrl(url) {
+  const urlObj = new URL(url);
+  // Remove query parameters (e.g., ?p=1)
+  urlObj.search = '';
+  return urlObj.href;
+}
+
 // Fetch event - cache first for static assets, network first for HTML
 self.addEventListener('fetch', (event) => {
   const { request } = event;
@@ -84,21 +91,25 @@ self.addEventListener('fetch', (event) => {
 
   // For HTML pages: Network first, fall back to cache
   if (request.headers.get('accept')?.includes('text/html')) {
+    // Normalize URL for caching (remove query params)
+    const normalizedUrl = normalizeUrl(request.url);
+    
     event.respondWith(
       fetch(request)
         .then((response) => {
-          // Cache successful HTML responses
+          // Cache successful HTML responses using normalized URL
           if (response.ok) {
             const responseClone = response.clone();
             caches.open(CACHE_NAME).then((cache) => {
-              cache.put(request, responseClone);
+              // Cache API accepts URL strings directly
+              cache.put(normalizedUrl, responseClone);
             });
           }
           return response;
         })
         .catch(() => {
-          // If network fails, try cache
-          return caches.match(request).then((cached) => {
+          // If network fails, try cache with normalized URL
+          return caches.match(normalizedUrl).then((cached) => {
             if (cached) {
               return cached;
             }
