@@ -76,6 +76,10 @@ function normalizeUrl(url) {
   const urlObj = new URL(url);
   // Remove query parameters (e.g., ?p=1)
   urlObj.search = '';
+  // Ensure trailing slash (Next.js trailingSlash: true)
+  if (!urlObj.pathname.endsWith('/')) {
+    urlObj.pathname = urlObj.pathname + '/';
+  }
   return urlObj.href;
 }
 
