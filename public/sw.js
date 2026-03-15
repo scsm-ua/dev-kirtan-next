@@ -124,15 +124,30 @@ self.addEventListener('fetch', (event) => {
                       text-align: center;
                       padding: 2rem;
                     }
-                    h1 { color: #333; }
-                    p { color: #666; }
+                    h1 { color: #333; margin-bottom: 1rem; }
+                    p { color: #666; margin: 0.5rem 0; }
+                    .back-button {
+                      display: inline-block;
+                      margin-top: 1.5rem;
+                      padding: 0.75rem 1.5rem;
+                      background: #007bff;
+                      color: white;
+                      text-decoration: none;
+                      border-radius: 6px;
+                      font-weight: 500;
+                      transition: background 0.2s;
+                    }
+                    .back-button:hover {
+                      background: #0056b3;
+                    }
                   </style>
                 </head>
                 <body>
                   <div class="container">
                     <h1>📡 You're Offline</h1>
-                    <p>This page is not available offline.</p>
+                    <p>This page hasn't been cached yet.</p>
                     <p>Please check your connection and try again.</p>
+                    <a href="javascript:history.back()" class="back-button">← Go Back</a>
                   </div>
                 </body>
               </html>`,
