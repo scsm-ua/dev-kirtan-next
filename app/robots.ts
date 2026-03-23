@@ -15,6 +15,6 @@ export default function robots(): MetadataRoute.Robots {
         ? { allow: '/' }
         : { disallow: '/' })
     },
-    sitemap: encodeURI(SITE.ORIGIN + '/' + FILES.SITEMAP)
+    sitemap: encodeURI(SITE.ORIGIN + FILES.SITEMAP)
   };
 }
