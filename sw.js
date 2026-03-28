@@ -212,9 +212,13 @@ self.addEventListener('activate', (event) => {
 
 // Message event - listen for commands from the page
 self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'CACHE_LANGUAGE') {
+  if (event.data && event.data.type === 'PAGE_LOADED') {
+    
     const url = event.data.url;
     const lang = getLanguageFromUrl(url);
+
+    // Refresh current page from network as it may be loaded from cache.
+    fetchAndCache(null, normalizeUrl(url)).catch(() => {});
     
     if (!lang) {
       console.log('⚠️  No language detected in URL:', url);
@@ -329,8 +333,13 @@ function createOfflineResponse() {
 
 // Helper: Fetch and cache resource (HTML or static asset)
 async function fetchAndCache(request, cacheUrl) {
-  const response = await fetch(request);
-  if (response.ok && request.method === 'GET') {
+  // If request is null, create a GET request for cacheUrl
+  let req = request;
+  if (!req) {
+    req = new Request(cacheUrl, { method: 'GET' });
+  }
+  const response = await fetch(req);
+  if (response.ok && req.method === 'GET') {
     const responseClone = response.clone();
     caches.open(CACHE_NAME).then((cache) => {
       cache.put(cacheUrl, responseClone);
@@ -356,8 +365,7 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       caches.match(normalizedUrl).then((cached) => {
         if (cached) {
-          // Return cached version immediately, update in background
-          fetchAndCache(request, normalizedUrl).catch(() => {});
+          // Return cached version immediately          
           return cached;
         }
         
