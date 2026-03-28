@@ -216,9 +216,6 @@ self.addEventListener('message', (event) => {
     
     const url = event.data.url;
     const lang = getLanguageFromUrl(url);
-
-    // Refresh current page from network as it may be loaded from cache.
-    fetchAndCache(null, normalizeUrl(url)).catch(() => {});
     
     if (!lang) {
       console.log('⚠️  No language detected in URL:', url);
@@ -358,20 +355,20 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // For HTML pages: Cache first, fall back to network (static site with rare updates)
+  // For HTML pages: Network first, fall back to cache, then offline page
   if (request.headers.get('accept')?.includes('text/html')) {
     const normalizedUrl = normalizeUrl(request.url);
-    
     event.respondWith(
-      caches.match(normalizedUrl).then((cached) => {
-        if (cached) {
-          // Return cached version immediately          
-          return cached;
-        }
-        
-        // Not in cache, fetch from network
-        return fetchAndCache(request, normalizedUrl).catch(() => createOfflineResponse());
-      })
+      fetchAndCache(request, normalizedUrl)
+        .then((response) => {
+          // If network fetch fails, response will be undefined/null
+          if (response && response.ok) {
+            return response;
+          }
+          // Try cache if network fails
+          return caches.match(normalizedUrl);
+        })
+        .catch(() => createOfflineResponse())
     );
     return;
   }
