@@ -1,8 +1,8 @@
-:HL["/_next/static/css/763330b36ee4fb38.css","style"]
+:HL["/_next/static/css/53b03a9325c9db9e.css","style"]
 :HL["/_next/static/css/df4278d403dcd14f.css","style"]
-:HL["/_next/static/css/4ebfb79e3fffd50d.css","style"]
+:HL["/_next/static/css/ca4902fbb637c4f3.css","style"]
 :HL["/_next/static/css/1bed6f1127166984.css","style"]
 :HL["/_next/static/css/2b7fc7cf25593476.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/e6d6ce0e7148be3b.css","style"]
-0:{"buildId":"Kp4HAg-XHpPz2nVmCuWUR","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"lv","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"yamunambu-krishna-radhikali-keli-mandalam","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/_next/static/css/6478641350b88fb5.css","style"]
+0:{"buildId":"RJSV40sX4Vgnofpf2GZ03","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"lv","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"yamunambu-krishna-radhikali-keli-mandalam","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
