@@ -1,8 +1,8 @@
 {
   "lv": "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git",
-  "ru": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru.git#links",
+  "ru": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru.git",
   "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git",
-  "en": "git+https://github.com/scsm-ua/kirtan-guide-en.git#links",
+  "en": "git+https://github.com/scsm-ua/kirtan-guide-en.git",
   "pt": "git+https://github.com/scsm-ua/kirtan-guide-pt.git",
   "es": "git+https://github.com/scsm-ua/kirtan-guide-es.git",
   "en-pe": "git+https://github.com/scsm-ua/kirtan-guide-pocket-edition.git",
