@@ -1,0 +1,54 @@
+.SwipeNav {
+  position: fixed;
+  top: 50%;
+  z-index: 9999;
+  pointer-events: none;
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: var(--swipe-diameter);
+  height: var(--swipe-diameter);
+
+  background: var(--main-bg-color);
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 1px var(--shadow-color);
+
+  // background stays --main-bg-color in all states
+
+  &__ring {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+  }
+
+  &__ring-fg {
+    fill: none;
+    stroke: var(--accent-color);
+    stroke-width: var(--swipe-stroke);
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.05s linear;
+  }
+
+  &--ready &__ring-fg {
+    stroke: var(--accent-color);
+  }
+
+  &__arrow {
+    font-size: 24px;
+    color: var(--title-color);
+
+    &--flip {
+      display: inline-block;
+      transform: rotate(180deg);
+    }
+  }
+
+  &--ready &__arrow {
+    color: var(--accent-color);
+  }
+}

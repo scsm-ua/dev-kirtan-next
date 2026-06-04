@@ -17,12 +17,12 @@ type Props = {
 function VerseText({ hasNumber, meta, text }: Props) {
   return (
     <ul className="VerseText">
-      {text.map((line) => {
+      {text.map((line, index) => {
         const content = getLineContent(line, meta, hasNumber);
 
         if (!content) {
           return (
-            <li key={line}>
+            <li key={index}>
               <br />
             </li>
           );
@@ -34,7 +34,7 @@ function VerseText({ hasNumber, meta, text }: Props) {
         );
 
         const dsc = { __html: content };
-        return <li className={cls} dangerouslySetInnerHTML={dsc} key={line} />;
+        return <li className={cls} dangerouslySetInnerHTML={dsc} key={index} />;
       })}
     </ul>
   );

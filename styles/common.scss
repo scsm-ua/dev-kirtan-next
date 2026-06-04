@@ -21,6 +21,7 @@ body {
   letter-spacing: 0.64px;
   color: var(--text-color);
   background-color: var(--main-bg-color);
+  touch-action: pan-y;
 }
 
 h6,
