@@ -11,6 +11,7 @@ const DIRECTION_LOCK = 5;       // px before direction is locked (horizontal vs 
 
 // — visual indicator layout —
 const CIRCLE_SIZE = 42;         // px container diameter — single source of truth (passed as --swipe-diameter)
+const ACTIVE_CIRCLE_SIZE = 55;
 const STROKE_WIDTH = 8;         // ring stroke px — single source of truth (passed as --swipe-stroke)
 const PULL_DISTANCE = 48;       // px the circle moves inward from the edge at progress=1
 
@@ -20,6 +21,8 @@ const SVG_CENTER = SVG_SIZE / 2;
 const RING_RADIUS = SVG_CENTER - STROKE_WIDTH / 2; // keep stroke inside viewBox boundary
 const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
 
+const EXIT_DURATION_MS = 400;
+
 type Props = { prevNext: TNavItems };
 type Direction = 'left' | 'right' | null;
 type SwipeState = { direction: Direction; progress: number };
@@ -28,6 +31,8 @@ const INITIAL: SwipeState = { direction: null, progress: 0 };
 
 export function SwipeNav({ prevNext }: Props) {
   const [swipe, setSwipe] = useState<SwipeState>(INITIAL);
+  const [releasing, setReleasing] = useState<Direction>(null);
+  const circleRef = useRef<HTMLDivElement>(null);
   const stateRef = useRef<SwipeState>(INITIAL);
   const prevNextRef = useRef(prevNext);
   prevNextRef.current = prevNext;
@@ -68,6 +73,7 @@ export function SwipeNav({ prevNext }: Props) {
         update(INITIAL);
         return;
       }
+
       const progress = Math.min((ax - MIN_SHOW) / (MIN_HORIZONTAL - MIN_SHOW), 1);
       update({ direction: dx < 0 ? 'left' : 'right', progress });
     };
@@ -75,14 +81,30 @@ export function SwipeNav({ prevNext }: Props) {
     const onEnd = () => {
       const { direction, progress } = stateRef.current;
       lock = null;
-      update(INITIAL);
 
-      if (!window.getSelection()?.isCollapsed) return;
-      if (progress < 1) return;
+      if (!window.getSelection()?.isCollapsed || progress < 1) {
+        update(INITIAL);
+        return;
+      }
 
       const { prev, next } = prevNextRef.current;
       const target = direction === 'left' ? next : prev;
-      if (target) window.location.href = target.path;
+      if (!target) { update(INITIAL); return; }
+
+      setReleasing(direction);
+      // drive exit via imperative transition on the next frame so the element is painted first
+      requestAnimationFrame(() => {
+        const el = circleRef.current;
+        if (el) {
+          const scale = ACTIVE_CIRCLE_SIZE / CIRCLE_SIZE;
+          const tx = direction === 'right' ? '105vw' : '-105vw';
+          el.style.transition = `transform ${EXIT_DURATION_MS}ms ease, opacity ${EXIT_DURATION_MS}ms ease`;
+          el.style.transform = `translateY(-50%) translateX(${tx}) scale(${scale})`;
+          el.style.opacity = '0';
+        }
+      });
+
+      window.location.href = target.path;
     };
 
     document.body.addEventListener('touchstart', onStart, { passive: true });
@@ -106,7 +128,7 @@ export function SwipeNav({ prevNext }: Props) {
   if (!target) return null;
 
   const ready = progress >= 1;
-  const cls = 'SwipeNav' + (ready ? ' SwipeNav--ready' : '');
+  const cls = 'SwipeNav' + (ready || releasing ? ' SwipeNav--ready' : '');
 
   // At progress=0 circle is fully visible, flush with the screen edge.
   // As progress → 1 it pulls inward by PULL_DISTANCE.
@@ -117,12 +139,14 @@ export function SwipeNav({ prevNext }: Props) {
 
   return (
     <div
+      ref={circleRef}
       className={cls}
       style={{
         left,
         opacity,
         ['--swipe-diameter' as string]: `${CIRCLE_SIZE}px`,
         ['--swipe-stroke' as string]: STROKE_WIDTH,
+        ['--swipe-scale-on-ready' as string]: ACTIVE_CIRCLE_SIZE / CIRCLE_SIZE,
       }}
       aria-hidden="true"
     >

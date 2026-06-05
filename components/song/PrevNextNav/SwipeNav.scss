@@ -3,7 +3,9 @@
   top: 50%;
   z-index: 9999;
   pointer-events: none;
-  transform: translateY(-50%);
+  --swipe-ready-scale: 1;
+  transform: translateY(-50%) scale(var(--swipe-ready-scale));
+  transition: transform 0.12s ease;
 
   display: flex;
   align-items: center;
@@ -36,6 +38,10 @@
 
   &--ready &__ring-fg {
     stroke: var(--accent-color);
+  }
+
+  &--ready {
+    --swipe-ready-scale: var(--swipe-scale-on-ready, 1);
   }
 
   &__arrow {
