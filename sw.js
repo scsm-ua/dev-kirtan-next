@@ -3,7 +3,8 @@
 // Set to true to skip pre-caching (runtime caching only)
 const SKIP_GLOBAL_CACHE = true;
 
-const CACHE_NAME = 'kirtan-2026-06-06-v1';
+const SW_VERSION = new URL(self.location.href).searchParams.get('v') || 'dev';
+const CACHE_NAME = `kirtan-${SW_VERSION}`;
 
 // Install event - pre-cache all pages from sitemap
 self.addEventListener('install', (event) => {
