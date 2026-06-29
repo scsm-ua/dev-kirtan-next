@@ -18,6 +18,25 @@
   &__toggle {
     margin: -4px 0 16px 0;
     max-width: var(--content-max-width);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__learn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: rgb(108, 108, 108);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+
+    input {
+      cursor: pointer;
+    }
   }
 
   &__list {

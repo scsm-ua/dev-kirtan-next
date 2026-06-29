@@ -3,6 +3,7 @@ import classnames from 'classnames';
 
 import './Verse.scss';
 import Collapse from '@/components/common/Collapse/Collapse';
+import LearnVerse from '@/components/song/Verse/LearnVerse';
 import VerseText from '@/components/song/Verse/VerseText';
 import VerseTranslation from '@/components/song/Verse/VerseTranslation';
 import VerseWbw from '@/components/song/Verse/VerseWbw';
@@ -12,6 +13,7 @@ import type { TTranslationMode } from '@/types/common';
 
 /**/
 type Props = {
+  isLearn?: boolean;
   isWBW: boolean;
   length: number;
   meta: TSong['meta'];
@@ -22,13 +24,15 @@ type Props = {
 /**
  *
  */
-function Verse({ isWBW, length, meta, mode, verse }: Props) {
+function Verse({ isLearn, isWBW, length, meta, mode, verse }: Props) {
   const { number, subtitle, text, translation, word_by_word } = verse;
   const isWide = mode === '2';
 
   const showVerse = mode === '1' || mode === '3';
   const showWbw = mode === '3';
   const showTranslation = mode === '2' || mode === '3';
+  const showWbwBlock = isWBW && !isLearn;
+  // const showWbwBlock = isWBW;
 
   const stCls = (classnames as any)(
     'Verse__subtitles',
@@ -53,11 +57,20 @@ function Verse({ isWBW, length, meta, mode, verse }: Props) {
 
       {text?.length > 0 && (
         <Collapse defaultOpen={showVerse} open={showVerse}>
-          <VerseText hasNumber={!!number} meta={meta} text={text} />
+          {isLearn ? (
+            <LearnVerse
+              hasNumber={!!number}
+              meta={meta}
+              text={text}
+              wordByWord={word_by_word}
+            />
+          ) : (
+            <VerseText hasNumber={!!number} meta={meta} text={text} />
+          )}
         </Collapse>
       )}
 
-      {isWBW && (
+      {showWbwBlock && (
         <Collapse defaultOpen={showWbw} open={showWbw}>
           <VerseWbw lines={word_by_word} />
         </Collapse>
@@ -78,3 +91,4 @@ function Verse({ isWBW, length, meta, mode, verse }: Props) {
 
 /**/
 export default Verse;
+

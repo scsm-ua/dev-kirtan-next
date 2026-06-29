@@ -1,0 +1,62 @@
+.LearnVerse {
+  list-style-type: none;
+  width: fit-content;
+  min-width: 300px;
+  margin: 0 auto 10px auto;
+  padding: 0;
+
+  &__empty {
+    line-height: 24px;
+  }
+
+  &__line {
+    // Hanging indent: first line flush at the base indent (set by
+    // __indent--N below); wrapped lines get +1em extra indent. Mirrors the
+    // text-indent / margin-left trick used in VerseText.
+    padding-left: 1em;
+    text-indent: -1em;
+    margin-bottom: 8px;
+  }
+
+  &__indent {
+    &--0 { margin-left: 0; }
+    &--1 { margin-left: 1em; }
+    &--2 { margin-left: 2em; }
+    &--3 { margin-left: 3em; }
+    &--4 { margin-left: 4em; }
+  }
+
+  &__pair {
+    // inline-flex so pairs flow inline and wrap with the surrounding text,
+    // letting `text-indent` apply hanging-indent to continuation lines.
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    vertical-align: top;
+    line-height: 1.2;
+    margin-bottom: 4px;
+    // Pairs themselves never inherit the parent's hanging indent.
+    text-indent: 0;
+  }
+
+  &__trans {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--mid-gray);
+    margin-top: 6px;
+    margin-right: 6px;
+
+    &--missing {
+      color: var(--dark);
+    }
+  }
+
+  &__word {
+    font-weight: 700;
+    color: var(--title-color);
+
+    &--light {
+      font-weight: initial;
+    }
+  }
+}
