@@ -1,5 +1,5 @@
 .Verse {
-  &:first-child:not(:has(.Verse__header)) {
+  .SongText__toggle + .SongText__list > &:first-child:not(:has(.Verse__header)) {
     margin-top: 24px;
   }
 
