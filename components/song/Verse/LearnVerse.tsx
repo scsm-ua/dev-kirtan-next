@@ -42,54 +42,57 @@ function LearnVerse({ hasNumber, lines, meta, text }: Props) {
     meta && meta['inline verse'] === 'non bold' && !hasNumber;
 
   return (
-    <ul className="LearnVerse">
-      {text.map((line, index) => {
-        if (!getLineContent(line, meta, hasNumber)) {
+    <div className="LearnVerse">
+      <span className="LearnVerse__gutter" aria-hidden />
+      <ul className="LearnVerse__lines">
+        {text.map((line, index) => {
+          if (!getLineContent(line, meta, hasNumber)) {
+            return (
+              <li key={index} className="LearnVerse__empty">
+                <br />
+              </li>
+            );
+          }
+
+          const cls = classNames(
+            'LearnVerse__line',
+            'LearnVerse__indent--' + getLineIndent(line)
+          );
+
           return (
-            <li key={index} className="LearnVerse__empty">
-              <br />
+            <li className={cls} key={index}>
+              {lines[index].map(({ text: groupText, trans, sep, error }, i) => {
+                const wordCls = classNames(
+                  'LearnVerse__word',
+                  (lineLight || (parensLight && /[()]/.test(groupText))) &&
+                    'LearnVerse__word--light'
+                );
+                const transCls = classNames(
+                  'LearnVerse__trans',
+                  trans === '-' && 'LearnVerse__trans--missing',
+                  error && `LearnVerse__trans--error-${error}`
+                );
+
+                // Convert each whitespace char to NBSP so multi-space indents
+                // (e.g. the `    ` gap rendered as Verse__space in VerseText)
+                // survive — plain spaces inside a flex item collapse to zero.
+                const displaySep = sep.replace(/\s/g, '\u00A0');
+
+                return (
+                  <span className="LearnVerse__pair" key={i}>
+                    <span className={wordCls}>
+                      {groupText}
+                      {displaySep}
+                    </span>
+                    <span className={transCls}>{renderTrans(trans)}</span>
+                  </span>
+                );
+              })}
             </li>
           );
-        }
-
-        const cls = classNames(
-          'LearnVerse__line',
-          'LearnVerse__indent--' + getLineIndent(line)
-        );
-
-        return (
-          <li className={cls} key={index}>
-            {lines[index].map(({ text: groupText, trans, sep, error }, i) => {
-              const wordCls = classNames(
-                'LearnVerse__word',
-                (lineLight || (parensLight && /[()]/.test(groupText))) &&
-                  'LearnVerse__word--light'
-              );
-              const transCls = classNames(
-                'LearnVerse__trans',
-                trans === '-' && 'LearnVerse__trans--missing',
-                error && `LearnVerse__trans--error-${error}`
-              );
-
-              // Convert each whitespace char to NBSP so multi-space indents
-              // (e.g. the `    ` gap rendered as Verse__space in VerseText)
-              // survive — plain spaces inside a flex item collapse to zero.
-              const displaySep = sep.replace(/\s/g, '\u00A0');
-
-              return (
-                <span className="LearnVerse__pair" key={i}>
-                  <span className={wordCls}>
-                    {groupText}
-                    {displaySep}
-                  </span>
-                  <span className={transCls}>{renderTrans(trans)}</span>
-                </span>
-              );
-            })}
-          </li>
-        );
-      })}
-    </ul>
+        })}
+      </ul>
+    </div>
   );
 }
 

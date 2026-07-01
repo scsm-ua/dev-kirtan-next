@@ -1,3 +1,5 @@
+@use '@/styles/mixins' as m;
+
 .SongText {
   width: 100%;
   background-color: var(--song-bg-color);
@@ -18,6 +20,10 @@
   &__toggle {
     margin: -4px 0 8px 0;
     min-width: 0;
+
+    @include m.breakpoint($max: 576) {
+      margin-top: 0;
+    }
   }
 
   &__btnGroup {

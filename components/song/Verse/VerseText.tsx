@@ -16,27 +16,30 @@ type Props = {
  */
 function VerseText({ hasNumber, meta, text }: Props) {
   return (
-    <ul className="VerseText">
-      {text.map((line, index) => {
-        const content = getLineContent(line, meta, hasNumber);
+    <div className="VerseText">
+      <span className="VerseText__gutter" aria-hidden />
+      <ul className="VerseText__lines">
+        {text.map((line, index) => {
+          const content = getLineContent(line, meta, hasNumber);
 
-        if (!content) {
-          return (
-            <li key={index}>
-              <br />
-            </li>
+          if (!content) {
+            return (
+              <li key={index}>
+                <br />
+              </li>
+            );
+          }
+
+          const cls = classNames(
+            'VerseText__line',
+            'VerseText__indent--' + getLineIndent(line)
           );
-        }
 
-        const cls = classNames(
-          'VerseText__line',
-          'VerseText__indent--' + getLineIndent(line)
-        );
-
-        const dsc = { __html: content };
-        return <li className={cls} dangerouslySetInnerHTML={dsc} key={index} />;
-      })}
-    </ul>
+          const dsc = { __html: content };
+          return <li className={cls} dangerouslySetInnerHTML={dsc} key={index} />;
+        })}
+      </ul>
+    </div>
   );
 }
 
