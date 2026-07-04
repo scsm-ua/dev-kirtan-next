@@ -1,8 +1,8 @@
-:HL["/_next/static/css/08f94aecf38e6bf8.css","style"]
+:HL["/_next/static/css/6129d0962b417a92.css","style"]
 :HL["/_next/static/css/df4278d403dcd14f.css","style"]
-:HL["/_next/static/css/2dfba1f1723fd115.css","style"]
+:HL["/_next/static/css/5345d9ef3692a2a0.css","style"]
 :HL["/_next/static/css/1bed6f1127166984.css","style"]
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/8778a1335adeb31b.css","style"]
-0:{"buildId":"YgtwziQe0rMNZmP1qywae","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"ua","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"thakura-vaishnava-pada-avanira","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/_next/static/css/5337ea5055d7a524.css","style"]
+0:{"buildId":"gSsb1fff0K9bh3wvRmqV_","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"ua","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"thakura-vaishnava-pada-avanira","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
