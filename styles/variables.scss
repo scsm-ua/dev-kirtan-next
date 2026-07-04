@@ -39,12 +39,6 @@ $sidebar-media: '(min-width: #{$bp-sidebar}px) and (max-height: #{$bp-sidebar-ma
   /**/
   --transition-duration: 0.25s;
 
-  /**/
-  --bp-992: 992px;
-  --bp-840: 840px;
-  --bp-768: 768px;
-  --bp-576: 576px;
-
   @media (max-width: #{$bp576}px) {
     --side-padding: 15px;
   }
