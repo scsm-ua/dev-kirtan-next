@@ -6,7 +6,8 @@ import {
   getBookDescriptionsByBook,
   getNavItems,
   getSongBySlug,
-  getSongSlugParam
+  getSongSlugParam,
+  getTelegraphUrl
 } from '@/lib/song';
 import { getBooksMap } from '@/lib/books';
 import { getSongPageMeta } from '@/other/metadata/getSongPageMeta';
@@ -47,6 +48,7 @@ async function SongPage({ params }: SongPageProps) {
   )) as TBookDescription[];
 
   const nav = await getNavItems(slug, bookId);
+  const telegraphUrl = await getTelegraphUrl(bookId, slug);
 
   return (
     <Layout
@@ -81,7 +83,7 @@ async function SongPage({ params }: SongPageProps) {
                   />
                 </OtherTranslations>
 
-                <SongShare bookId={bookId} />
+                <SongShare bookId={bookId} telegraphUrl={telegraphUrl} />
               </div>
             </section>
 

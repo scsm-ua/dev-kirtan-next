@@ -8,6 +8,7 @@ import { translate } from '@/other/i18n';
 /**/
 type Props = {
   bookId: string;
+  telegraphUrl?: string | null;
 };
 
 const Form = lazy(() => import('./SongShareForm'));
@@ -15,7 +16,7 @@ const Form = lazy(() => import('./SongShareForm'));
 /**
  *
  */
-function SongShare({ bookId }: Props) {
+function SongShare({ bookId, telegraphUrl }: Props) {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -33,7 +34,11 @@ function SongShare({ bookId }: Props) {
         isOpen={isOpen}
         onClose={() => setOpen(false)}
       >
-        <Form bookId={bookId} onClose={() => setOpen(false)} />
+        <Form
+          bookId={bookId}
+          onClose={() => setOpen(false)}
+          telegraphUrl={telegraphUrl}
+        />
       </AppModal>
     </>
   );

@@ -13,6 +13,41 @@ import type { TContentGroup, TContentItem } from '@/types/common';
 import type { TNavItems, TNavItemsMap, TSong, TVerse } from '@/types/song';
 import { getSongPathWithPage } from '@/other/utils';
 
+type TTelegraphPage = {
+  path: string;
+  url: string;
+  title: string;
+  author_url: string;
+};
+
+let telegraphPagesCache: Map<string, string> | null = null;
+
+async function getTelegraphPagesMap(): Promise<Map<string, string>> {
+  if (telegraphPagesCache) return telegraphPagesCache;
+  const p = path.join(process.cwd(), PATH.DIR.SOURCE_ROOT, 'telegraph-pages.json');
+  try {
+    const str = await fs.readFile(p, 'utf8');
+    const pages = JSON.parse(str) as TTelegraphPage[];
+    telegraphPagesCache = new Map(pages.map((x) => [x.author_url, x.url]));
+  } catch (e) {
+    console.error(e);
+    telegraphPagesCache = new Map();
+  }
+  return telegraphPagesCache;
+}
+
+/**
+ * Returns the Telegraph URL for a song by matching against its legacy
+ * kirtan.site .html URL, or null if no mapping exists.
+ */
+export async function getTelegraphUrl(
+  bookId: string,
+  slug: string
+): Promise<string | null> {
+  const map = await getTelegraphPagesMap();
+  return map.get(`https://kirtan.site/${bookId}/${slug}.html`) || null;
+}
+
 /**
  *
  */

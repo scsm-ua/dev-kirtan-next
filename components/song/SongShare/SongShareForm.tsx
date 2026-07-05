@@ -8,6 +8,7 @@ import { translate } from '@/other/i18n';
 type Props = {
   bookId: string;
   onClose: () => void;
+  telegraphUrl?: string | null;
 };
 
 /**/
@@ -18,11 +19,11 @@ function selectHref(e: SyntheticEvent) {
 /**
  *
  */
-function SongShareForm({ bookId, onClose }: Props) {
+function SongShareForm({ bookId, onClose, telegraphUrl }: Props) {
   const [href, setHref] = useState<string | null>(null);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(href).catch(console.error);
+  const handleCopy = (value: string) => {
+    navigator.clipboard.writeText(value).catch(console.error);
     setTimeout(onClose, 300);
   };
 
@@ -54,13 +55,39 @@ function SongShareForm({ bookId, onClose }: Props) {
 
           <button
             className="AppButton RoundButton RoundButton--L RoundButton--dark SongShare__share"
-            onClick={handleCopy}
+            onClick={() => handleCopy(href)}
             title={translate(bookId, 'SONG_PAGE.COPY')}
           >
             <span className="icon-copy" />
           </button>
         </div>
       </div>
+
+      {telegraphUrl && (
+        <div className="SongShare__copy">
+          <label htmlFor="" className="SongShare__label">
+            Telegraph
+          </label>
+
+          <div className="SongShare__form">
+            <input
+              className="SongShare__input"
+              onClick={selectHref}
+              readOnly
+              type="text"
+              value={telegraphUrl}
+            />
+
+            <button
+              className="AppButton RoundButton RoundButton--L RoundButton--dark SongShare__share"
+              onClick={() => handleCopy(telegraphUrl)}
+              title={translate(bookId, 'SONG_PAGE.COPY')}
+            >
+              <span className="icon-copy" />
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
