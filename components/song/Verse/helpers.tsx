@@ -66,10 +66,10 @@ export function getLineContent(
 
 /**/
 // Separators between words: whitespace, comma, dot, hyphen, sentence
-// punctuation (`! ? : ;`), brackets (`( ) [ ]`), apostrophe (`'`). Kept in output verbatim
+// punctuation (`! ? : ;`), brackets (`( ) [ ]`), apostrophe (`'` and `’`). Kept in output verbatim
 // as each token's trailing `sep`. Used by both `tokenizeLine` (text side) and
 // `parseWordByWord` (key side) — keep in lockstep or alignment breaks.
-const SEP_CHARS = "\\s,.\\-!?:;()\\[\\]'";
+const SEP_CHARS = "\\s,.\\-!?:;()\\[\\]'’";
 // Capture leading seps + word + trailing seps. `pre` is non-empty only on the
 // first token (subsequent tokens' leading seps are consumed by the previous
 // token's trailing `sep`) — but we keep it on every token for shape symmetry.
