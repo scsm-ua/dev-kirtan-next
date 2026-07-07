@@ -13,6 +13,10 @@
     max-width: var(--extra-max-width);
   }
 
+  &--learn {
+    max-width: var(--learn-max-width);
+  }
+
   &--transition {
     transition: max-width var(--transition-duration);
   }

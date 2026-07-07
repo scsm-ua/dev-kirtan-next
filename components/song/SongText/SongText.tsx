@@ -64,6 +64,7 @@ function SongText({ bookId, label, song }: Props) {
   const contentCls = classNames(
     'SongText',
     effectiveMode === VIEW_MODE.TRANSLATION && 'SongText--wide',
+    effectiveWbwMode === WBW_MODE.INLINE && 'SongText--learn',
     updateCount > 0 && 'SongText--transition'
   );
 
