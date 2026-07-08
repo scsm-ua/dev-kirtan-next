@@ -95,6 +95,19 @@ export function tokenizeLine(
   while ((m = re.exec(line)) !== null) {
     tokens.push({ pre: m[1], word: m[2], sep: m[3] });
   }
+  // Token boundary is whitespace; non-space punctuation should stick to
+  // whichever adjacent word has no space between it and the char. In each
+  // between-word `sep`, keep everything up to and including the LAST
+  // whitespace on the previous token; move any non-space tail after it
+  // to the next token's `pre`. Fixes e.g. `vande ’haṁ` and `ванде ‘хам̇`,
+  // where `’` / `‘` visually belong to the following word.
+  for (let i = 0; i < tokens.length - 1; i++) {
+    const split = tokens[i].sep.match(/^(.*\s)(\S+)$/);
+    if (split) {
+      tokens[i].sep = split[1];
+      tokens[i + 1].pre = split[2] + tokens[i + 1].pre;
+    }
+  }
   return tokens;
 }
 
@@ -151,9 +164,14 @@ export function buildInlineWordByWord(
       // that would otherwise be dropped at the start of a line.
       const first = slice[0];
       const last = slice[slice.length - 1];
-      const textOut =
-        first.pre +
-        slice.slice(0, -1).map((t) => t.word + t.sep).join('') + last.word;
+      // Include every token's `pre` (not just the first): the tokenizer may
+      // now emit a non-empty `pre` on any token when an apostrophe was
+      // shifted over from the previous token's trailing sep.
+      const textOut = slice
+        .map((t, idx) =>
+          t.pre + t.word + (idx < slice.length - 1 ? t.sep : '')
+        )
+        .join('');
       // Mirror `wbwInlineModeAvailable`'s per-entry checks, but classify:
       // - 'multi'    — dict entry has a multi-word key (rare, ambiguous slice)
       // - 'mismatch' — dict ran out, or key[0] doesn't match the text token
