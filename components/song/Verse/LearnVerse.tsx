@@ -8,12 +8,15 @@ import {
 } from '@/components/song/Verse/helpers';
 import type { TInlineWbwEntry, TSong } from '@/types/song';
 
-// Break a translation like "material senses (jada indriya)" into two visual
-// lines so the parenthesised qualifier sits under the main translation.
-// Triggers on ` (` (space before an open paren) so bare `(of Orissa)` or
-// `word(x)` stay on one line.
+// Break a translation around a parenthesised qualifier so it sits on its own
+// visual line — both "main (qualifier)" and "(qualifier) main" work.
+// Only triggers when the paren contents are ≥4 chars, so short refs like
+// `(x)` or `word(y)` stay on one line.
+const PAREN_BLOCK = /\([^)]{4,}\)/.source;
 function renderTrans(trans: string) {
-  const parts = trans.split(/ (?=\()/);
+  const parts = trans.split(
+    new RegExp(` (?=${PAREN_BLOCK})|(?<=^${PAREN_BLOCK}) `)
+  );
   if (parts.length === 1) return trans;
   return parts.map((p, i) => (
     <Fragment key={i}>
