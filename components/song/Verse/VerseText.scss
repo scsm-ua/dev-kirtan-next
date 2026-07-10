@@ -6,14 +6,6 @@
   align-items: flex-start;
   margin: 0 0 10px 0;
 
-  // Add breathing room above VerseText only when the verse has no header
-  // (number) of its own — the header otherwise provides that spacing.
-  // Skip the first verse so the song doesn't get an unexpected gap above
-  // its opening line.
-  .Verse:not(:first-child):not(:has(.Verse__header)) & {
-    margin-top: 12px;
-  }
-
   // Shrinkable left indent: grows via flex-grow up to 40px when there's
   // spare room. Basis is 0 so it contributes no shrink weight — the lines
   // column keeps its full max-content width until the gutter has already
