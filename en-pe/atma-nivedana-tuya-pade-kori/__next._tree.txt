@@ -4,5 +4,5 @@
 :HL["/_next/static/css/1bed6f1127166984.css","style"]
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/c4962afd4e37637d.css","style"]
-0:{"buildId":"Wv6EjUI90IqKxL6CdjiiC","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"en-pe","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"atma-nivedana-tuya-pade-kori","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/_next/static/css/284b957397c78b10.css","style"]
+0:{"buildId":"BpA1JJc8oY2CE-m1YcjCK","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"bookId","paramType":"d","paramKey":"en-pe","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"atma-nivedana-tuya-pade-kori","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
