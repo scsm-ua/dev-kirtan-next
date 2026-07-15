@@ -2,17 +2,22 @@
   "name": "kirtan-next",
   "version": "2.3.0",
   "private": true,
+  "packageManager": "pnpm@11.12.0+sha512.820a6fbd0d9f04c226638002aead1e45340a9139dd5dc077c1d83ef44aa2481c8eb6637b4c9aa696a3c7e35ba818e49cf27213e5f2b91138d09b7a3e26e898ba",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "next dev --webpack -p 3333",
     "build": "next build --webpack",
-    "build:prod": "env-cmd -f env/.env.prod npm run build",
-    "build:test": "env-cmd -f env/.env.dev npm run build",
-    "build:all": "npm run validation && npm run install:src && next build --webpack",
+    "build:prod": "env-cmd -f env/.env.prod pnpm run build",
+    "build:test": "env-cmd -f env/.env.dev pnpm run build",
+    "build:all": "pnpm run install:fetch && pnpm run install:post-fetch && pnpm run validation && next build --webpack",
     "start": "serve out -p 3334",
-    "lint": "eslint",
     "postbuild": "node scripts/postbuild.js",
-    "install:src": "node scripts/processSrc.js",
+    "install:fetch": "node scripts/shared/installShared.js && node scripts/shared/fetchTelegraphPages.js",
+    "install:post-fetch": "node scripts/processSrc.js",
     "validation": "node scripts/validate.js",
+    "lint": "eslint",
     "type-check": "tsc --noEmit --pretty true"
   },
   "dependencies": {
@@ -43,7 +48,6 @@
     "prettier": "^2.8.8",
     "sass": "^1.93.2",
     "serve": "^14.2.5",
-    "sync-request": "^6.1.0",
     "typescript": "^5"
   }
 }

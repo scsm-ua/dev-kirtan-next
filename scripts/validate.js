@@ -9,9 +9,9 @@ const { validateTranslations } = require('./validation/validateTranslations');
  *
  */
 function validate() {
-	const dependencies = readFile(
+	const songbookDeps = readFile(
 		path.resolve(__dirname, '..', CONST.FOLDER.SRC_ROOT),
-		CONST.FILES.DEPENDENCIES
+		CONST.FILES.SONGBOOKS
 	);
 	
 	const songbooks = readFile(
@@ -24,7 +24,7 @@ function validate() {
 		CONST.FILES.TRANSLATIONS
 	);
 	
-	const slugs = Object.keys(dependencies);
+	const slugs = Object.keys(songbookDeps);
 	validateSongbooks(slugs, songbooks);
 	validateTranslations(slugs, translations);
 }

@@ -46,7 +46,12 @@ function OtherTranslations({ bookId, children, disabled }: Props) {
       if (!links.length) return;
 
       const dir = e.key === 'ArrowDown' ? 1 : -1;
-      focusedIdx.current = (focusedIdx.current + dir + links.length) % links.length;
+      const isInitial = focusedIdx.current === -1;
+      focusedIdx.current = isInitial
+        ? dir === 1
+          ? 0
+          : links.length - 1
+        : (focusedIdx.current + dir + links.length) % links.length;
       links[focusedIdx.current].focus();
     };
 

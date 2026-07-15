@@ -8,19 +8,27 @@ jobs:
         steps:
             - name: Checkout 🛎️
               uses: actions/checkout@v4
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+
             - name: Configure Node.js
               uses: actions/setup-node@v4
               with:
-                  node-version: 23
+                  node-version: 24
+                  cache: 'pnpm'
 
             - name: Install dependencies
-              run: npm ci
+              run: pnpm install --frozen-lockfile
 
-            - name: Process sources
-              run: npm run install:src
+            - name: Install shared packages (download + build)
+              run: pnpm run install:fetch
+
+            - name: Process sources (copy json)
+              run: pnpm run install:post-fetch
 
             - name: Validation
-              run: npm run validation
+              run: pnpm run validation
 
             - name: Build 🔧
               env:
@@ -29,7 +37,7 @@ jobs:
                   NEXT_PUBLIC_G_ID: ${{ vars.NEXT_PUBLIC_G_ID }}
                   NEXT_PUBLIC_SEARCH_ACCOUNT_ID: ${{ vars.NEXT_PUBLIC_SEARCH_ACCOUNT_ID }}
                   NEXT_PUBLIC_SEARCH_API_KEY: ${{ vars.NEXT_PUBLIC_SEARCH_API_KEY }}
-              run: npm run build
+              run: pnpm run build
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4

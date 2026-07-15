@@ -6,20 +6,20 @@ const { addSongsCount } = require('./addSongsCount');
 const { CONST } = require('./constants');
 const { createAuthors } = require('./createAuthors');
 const { createAZ } = require('./createAZ');
-const dependencies = require('../source/dependencies.json');
-const { fetchSharedResources } = require('./fetchSharedResources');
-const { installPackage } = require('./installPackage');
+const songbooks = require('../source/songbooks.json');
+const { prepareSharedResources } = require('./shared/prepareSharedResources');
+const { copySongbook } = require('./shared/copySongbook');
 const { transformContents } = require('./transformContents');
 const { writeFile } = require('./ioHelpers');
 
 /**/
 const booksMap = {};
-const resourceMap = fetchSharedResources();
+const resourceMap = prepareSharedResources();
 
 /**
  *
  */
-Object.entries(dependencies).forEach(([bookSlug, npmSrc]) => {
+Object.keys(songbooks).forEach((bookSlug) => {
 	console.log(
 		chalk.bgBlueBright('~~~~~~~~~~~~~~~ Processing '),
 		chalk.bgYellow.underline.bold(bookSlug),
@@ -30,7 +30,7 @@ Object.entries(dependencies).forEach(([bookSlug, npmSrc]) => {
 	
 	try {
 		// Order matters.
-		installPackage(npmSrc, targetDir, bookSlug, booksMap);
+		copySongbook(targetDir, bookSlug, booksMap);
 		addSongsCount(booksMap, bookSlug);
 		
 		transformContents(targetDir, resourceMap);

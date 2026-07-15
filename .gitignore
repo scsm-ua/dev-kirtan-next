@@ -13,6 +13,9 @@
 !.yarn/releases
 !.yarn/versions
 
+# shared book packages + resources (installed fresh on every build)
+/shared
+
 # testing
 /coverage
 
