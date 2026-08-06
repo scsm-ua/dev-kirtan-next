@@ -26,6 +26,7 @@ function HotkeysModal({ bookId, isOpen, onClose }: Props) {
     { keys: ['c'], desc: t('FOOTER.CONTENTS') },
     { keys: ['i'], desc: t('FOOTER.INDEX') },
     { keys: ['s'], desc: t('FOOTER.SEARCH') },
+    { keys: ['e'], desc: 'Export songbook as HTML' }, // TODO: add HOTKEYS.EXPORT to translations.json
     { keys: ['l'], desc: `${t('SONG_PAGE.OTHER_TRANSLATIONS')} / ${t('FOOTER.BOOKS')}` },
     { keys: ['←'], desc: t('SONG_PAGE.PREVIOUS_SONG') },
     { keys: ['→'], desc: t('SONG_PAGE.NEXT_SONG') },

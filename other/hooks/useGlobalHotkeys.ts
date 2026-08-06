@@ -17,7 +17,7 @@ const KEY_TO_WBW: Record<string, TWbwMode> = {
   '6': WBW_MODE.CLASSICAL,
 };
 
-const NON_SONG_SEGMENTS = new Set(['contents', 'a-z', 'search', 'authors']);
+const NON_SONG_SEGMENTS = new Set(['contents', 'a-z', 'search', 'authors', 'export']);
 
 function isInputFocused(): boolean {
   const el = document.activeElement as HTMLElement | null;
@@ -84,6 +84,10 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
 
         case 's':
           router.push(`/${bookId}/search`);
+          break;
+
+        case 'e':
+          router.push(`/${bookId}/export`);
           break;
 
         case 'l':

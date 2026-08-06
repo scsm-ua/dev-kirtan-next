@@ -1,0 +1,95 @@
+.ExportToolbar {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  &--collapsed {
+    gap: 0;
+    padding: 4px;
+  }
+
+  &__toggle {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0 2px;
+    color: #666;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding-top: 4px;
+  }
+
+  &__group-title {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 0.05em;
+  }
+
+  &__number {
+    width: 50px;
+    font-size: 12px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1px 3px;
+  }
+
+  button {
+    padding: 4px 10px;
+    cursor: pointer;
+    align-self: stretch;
+  }
+
+  &__option {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  &__copied {
+    font-size: 12px;
+    color: #2a7a2a;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+// Preview-only styles; the same rules live in DOC_STYLE for the downloaded file.
+.ExportPage {
+  padding: 8px 40px;
+  section { margin-bottom: 2em; }
+  h5 { text-align: center; }
+  h4 { margin-bottom: 1em; }
+  div.verse-block { page-break-inside: avoid; break-inside: avoid; }
+  section.category h1 { page-break-before: always; break-before: page; }
+  h2.toc-item-group { margin-top: 0.5em; }
+  p.toc-item { margin: 2px 0; }
+  h2.first-line-group { margin-top: 0.5em; font-size: 1em; }
+  p.first-line { margin: 2px 0; }
+  p.wbw { font-size: 0.9em; }
+  span.nav-links { font-size: 0.6em; font-weight: normal; }
+}
