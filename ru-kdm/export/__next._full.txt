@@ -7,21 +7,53 @@
 b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/181d0c0650eb5cf4.css","style"]
-:HL["/_next/static/css/60aed38513f19669.css","style"]
-0:{"P":null,"c":["","ru-kdm","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ru-kdm","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/60aed38513f19669.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"YBUFzSBG5LBDUWZNZuIKz"}
+:HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
+0:{"P":null,"c":["","ru-kdm","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ru-kdm","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"q3aY1zU3XG1cndiODozlk"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 f:I[2342,[],"IconMark"]
 7:null
-c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"robots","content":"noindex, nofollow"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$Lf","3",{}]]
-10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-47d59e2233e600fd.js"],"default"]
-11:T163a1,<section class="category">
+c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$Lf","2",{}]]
+10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-1b3b0c9cb9da3dea.js"],"default"]
+11:T18d3c,<h1 class="book-title">Колесница Джаганнатха</h1>
+<p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
+<section class="toc" id="toc">
+<h1>Содержание</h1>
+<h2 class="toc-item-group">Арати</h2>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">Шри Гуру Арати<span class="page-num"> — 70</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">Шри Гуру Арати-стути<span class="page-num"> — 72</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">Шри Шри Нитаи-Чаитанйа-Арати<span class="page-num"> — 36</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">Прабхати Гити<span class="page-num"> — 38</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">Шри Нама-Киртан<span class="page-num"> — 60</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">Шри Шачинандана-вандана<span class="page-num"> — 61</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">Туласи пранам мантра<span class="page-num"> — 21</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">Гурудев<span class="page-num"> — 68</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">Арунодойа-киртан (часть 1)<span class="page-num"> — 42</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">Арунодойа-киртан (часть 2)<span class="page-num"> — 43</span></a></p>
+<h2 class="toc-item-group">Вандана</h2>
+<p class="toc-item" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">Вандана<span class="page-num"> — 11</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gurvabhishta-supurakam-guru-ganair">Шрила Бхакти Сундар Говинда Дев-Госвами Махарадж<span class="page-num"> — 13</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam">Шрила Бхакти Ракшак Шридхар Дев-Госвами Махрадж<span class="page-num"> — 14</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">Бхагаван Шрила Бхактисиддханта Сарасвати<span class="page-num"> — 15</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">Шрила Гауракишор Дас Бабаджи Махарадж<span class="page-num"> — 16</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">Шрила Бхактивинод Тхакур<span class="page-num"> — 17</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">Шрила Джаганнатх Дас Бабаджи Махарадж<span class="page-num"> — 18</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">Молитвы, обращенные к вайшнавам<span class="page-num"> — 19</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">Панча-таттва мантра<span class="page-num"> — 24</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">Харе Кршна маха-мантра<span class="page-num"> — 24</span></a></p>
+<h2 class="toc-item-group">⸻</h2>
+<p class="toc-item" data-translated="1"><a href="#song-cheto-darpana-marjanam">Шри Шикшаштакам<span class="page-num"> — 182</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">Нама-санкиртан<span class="page-num"> — 55</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22</span></a></p>
+</section>
+<section class="category">
 <h1>Арати</h1>
-<section class="song" data-translated="1">
-<h2>Шри Гуру Арати</h2>
-<h4>(прославление Шрилы Бхакти Сундара Говинды Дев-Госвами Махараджа)</h4>
+<section class="song" id="song-jaya-jaya-gurudever-arati-ujjvala" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Шри Гуру Арати <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>(прославление Шрилы Бхакти Сундара Говинды Дев-Госвами Махараджа)</h4>
 <h5>1</h5>
 <p class="verse"><strong>джайа джайа гурудевер а̄рати уджвала</strong><br>
 <strong>говардхана-па̄да-пӣтхе бхувана-ман̇гала</strong></p>
@@ -118,11 +150,11 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">О мой владыка, проявление милости Шри Гауранги, пожалуйста, будь милостив ко мне! Твой ничтожный слуга молит об этом, поклоняясь тебе.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шри Гуру Арати-стути</h2>
+<section class="song" id="song-jaya-guru-maharaja-jati-rajeshvara" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Шри Гуру Арати-стути <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Ш́рӣла Бхакти Сундар Говинда Дев-Госва̄мӣ Маха̄ра̄дж</h4>
 <h4>(прославление Шрилы Бхакти Ракшака Шридхара Дев-Госвами Махараджа)</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>джайа ‘гуру-маха̄ра̄джа’ джати-ра̄джеш́вара</strong><br>
 <strong>ш́рӣ-бхакти-ракш̣ака дева-госва̄мӣ ш́рӣдхара</strong></p>
@@ -219,10 +251,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Олицетворение Прекрасной Реальности, явленной Шри Чайтаньей Махапрабху! Твой покорный слуга радостно поет эту молитву, посвящая ее тебе.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шри Шри Нитаи-Чаитанйа-Арати</h2>
-<h4>Ш́рӣла Бхакти Сундар Говинда Дев-Госва̄мӣ Маха̄ра̄дж</h4>
+<section class="song" id="song-jaya-guru-maharaja-karuna-sagara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Шри Шри Нитаи-Чаитанйа-Арати <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Ш́рӣла Бхакти Сундар Говинда Дев-Госва̄мӣ Маха̄ра̄дж</h4>
 <h5>1</h5>
 <p class="verse"><strong>джайа гуру маха̄ра̄джа корун̣а̄-са̄гара</strong><br>
 <strong>ш́рӣ бхакти ракш̣ака дева-госва̄мӣ ш́рӣдхара</strong></p>
@@ -296,10 +328,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Непостижимым образом проявились Шри Шри Нитай-Чайтанья, и, по милости Шри Гурудева, эта падшая душа видит Их <i>арати</i> и присоединяется к <i>санкиртане! </i></p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Прабхати Гити</h2>
-<h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
+<section class="song" id="song-kali-kukkura-kadana-jadi-chao-he" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Прабхати Гити <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;кали-куккура-кадана джади ча̄о хе</strong><br>
 <strong>калийуга-па̄вана&nbsp;&nbsp;&nbsp;&nbsp;кали-бхайа-на̄ш́ана,</strong><br>
@@ -339,10 +371,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Шри Кришна Чайтанья поглощен сладостью Вриндавана! Он очищает ум от грязных мыслей, сводя на нет похоть и обман. Он изгоняет сухое эмпирическое знание, затмевающее красоту безраздельной преданности Богу. Он защищает, поддерживает и неустанно опекает всецело предавшиеся Ему души.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шри Нама-киртан</h2>
-<h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
+<section class="song" id="song-jashomati-nandana-vraja-vara-nagara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Шри Нама-киртан <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>джаш́оматӣ-нандана&nbsp;&nbsp;&nbsp;&nbsp;браджа-баро на̄гара</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;гокула-ран̃джана ка̄на</strong><br>
@@ -374,10 +406,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Гуляя по берегам реки Ямуны, Кришна похищает одежды купающихся юных <i>гопи</i>. Он наслаждается сладостью танца <i>расы</i>. Он очень милостив! Кришна — единственный возлюбленный Шримати Радхарани! Он самый лучший танцор Вриндавана и высочайшее прибежище Шрилы Бхактивинода Тхакура!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шри Шачинандана-вандана</h2>
-<h4>Ш́рӣла Бхакти Ракш̣ак Ш́рӣдхар Дев-Госва̄мӣ Маха̄ра̄дж</h4>
+<section class="song" id="song-jaya-shiachinandana-sura-muni-vandana" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Шри Шачинандана-вандана <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Ш́рӣла Бхакти Ракш̣ак Ш́рӣдхар Дев-Госва̄мӣ Маха̄ра̄дж</h4>
 <h5>1</h5>
 <p class="verse"><strong>джайа ш́ачӣнандана&nbsp;&nbsp;&nbsp;&nbsp;сура-муни-вандана</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;бхава-бхайа-кхан̣д̣ана джайо хе</strong><br>
@@ -410,9 +442,9 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Слава Мурари Гупте, слава Мукунде Датте! Слава вечным спутникам Шри Чайтаньи Махапрабху! Воспевая славу Шрилы Прабхупады и всех великих душ, вечных спутников Шри Чайтаньи Махапрабху, даже самый недостойный может обрести наивысшее сокровище любви!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Джайа Дхвани</h2>
+<section class="song" id="song-jaya-sa-parikara" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Джайа Дхвани <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>ш́рӣ ш́рӣ гаура-нитай ки джайа!</strong><br>
 <strong></strong><br>
 <strong>(ш́рӣ панча-таттва ки джайа!)</strong><br>
@@ -448,9 +480,9 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <strong>нита̄и-гаура-према̄нанде харибол!</strong></p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Туласи-пранама-мантра</h2>
+<section class="song" id="song-vrindayai-tulasi-devyai" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Туласи-пранама-мантра <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>вр̣нда̄йаи туласӣ-девйаи</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;прийа̄йаи кеш́авасйа ча</strong><br>
 <strong>кр̣ш̣н̣а-бхакти-праде деви</strong><br>
@@ -458,10 +490,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Я вечно преклоняюсь перед Шри Вриндой Деви, Шримати Туласи Махарани, которую нежно любит сам Господь Кешава! Я простираюсь перед Сатьявати, дарующей чистую преданность Господу Кришне!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Гурудев</h2>
-<h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
+<section class="song" id="song-gurudeva-kripa-bindu-diya-kara-ei-dase" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Гурудев <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>гурудев!</strong><br>
 <strong>кр̣па̄-бинду дийа̄&nbsp;&nbsp;&nbsp;&nbsp;коро’ эи да̄се,</strong><br>
@@ -495,11 +527,11 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Если ты внимательно посмотришь на меня, то не найдешь и следа хороших качеств. Твоя милость для меня — все! Если ты не будешь милостив ко мне, мне останется только горько оплакивать свою судьбу, и сама мысль о поддержании жизни станет мне ненавистна.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Арунодойа-киртан</h2>
+<section class="song" id="song-udilo-aruna-puraba-bhage" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Арунодойа-киртан <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3> Часть 1</h3>
 <h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>удило арун̣а пӯраба-бха̄ге,</strong><br>
 <strong>двиджа-ман̣и гора̄ амони джа̄ге,</strong><br>
@@ -564,11 +596,11 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Чтобы рассеять тьму невежества и благословить все души Вселенной, прекрасное Имя Кришны взошло, словно сияющее солнце!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Арунодойа-киртан</h2>
+<section class="song" id="song-jiv-jago-jiv-jago-gaurachanda-bole" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Арунодойа-киртан <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3> Часть 2</h3>
 <h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>джӣв джа̄го, джӣв джа̄го, гаурача̄н̇да боле</strong><br>
 <strong>кота нидра̄ джа̄о ма̄йа̄-пиш́а̄чӣра коле</strong></p>
@@ -602,9 +634,9 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 </section>
 <section class="category">
 <h1>Вандана</h1>
-<section class="song" data-translated="1">
-<h2>Вандана</h2>
+<section class="song" id="song-vande-ham-shri-guroh-shri-yuta-pada-kamalam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Вандана <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ш́рӣ-гурӯн ваиш̣н̣ава̄м̇ш́ ча</strong><br>
 <strong>ш́рӣ-рӯпам̇ са̄граджа̄там̇ саха-ган̣а-</strong><br>
@@ -621,9 +653,9 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Умастив мои глаза целительным бальзамом <i>самбандха-гьяны</i>, правильного восприятия окружающего мира, духовный учитель пробудил мое внутреннее видение и вывел меня из тьмы невежества, подарив надежду. В глубоком почтении я склоняюсь перед Шри Гурудевом.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шрила Бхакти Сундар Говинда Дев-Госвами Махарадж</h2>
+<section class="song" id="song-gurvabhishta-supurakam-guru-ganair" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Шрила Бхакти Сундар Говинда Дев-Госвами Махарадж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>гурвва̄бхӣш̣т̣а-супӯракам̇ гуру-ган̣аир</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;а̄ш́ӣш̣а-самбхӯш̣итам̇</strong><br>
 <strong>чинтйа̄чинтйа-самаста-веда-нипун̣ам̇</strong><br>
@@ -635,10 +667,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">С величайшим почтением я склоняюсь перед тем, кто украшен благословениями всей <i>гуру-варги</i> и исполняет самые сокровенные желания своего Гуру. Он знаток как постижимых, так и непостижимых истин. Выдающийся последователь божественного учения Шри Рупы, он известен как Шри Бхакти Сундар Говинда. Его сияющий облик излучает преданность Господу. Он явился из высшего мира и прославился в этом мире как истинный духовный учитель, способный даровать семя божественной любви.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шрила Бхакти Ракшак Шридхар Дев-Госвами Махрадж</h2>
-<h4>(составлено Шрилой Бхакти Сундаром Говиндой Дев-Госвами Махараджем)</h4>
+<section class="song" id="song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Шрила Бхакти Ракшак Шридхар Дев-Госвами Махрадж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>(составлено Шрилой Бхакти Сундаром Говиндой Дев-Госвами Махараджем)</h4>
 <p class="verse"><strong>девам̇ дивйа-танум̇ сучанда-ваданам̇-</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ба̄ла̄рка-чела̄н̃читам̇</strong><br>
 <strong>са̄ндра̄нанда-пурам̇ сад-эка-варанам̇</strong><br>
@@ -650,10 +682,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Я с благоговением припадаю к стопам Шрилы Шридхара-Дева, который очаровывает всех сладостными песнями преданности. Облаченный в одежды цвета восходящего солнца, он — святой, почитаемый преданными Господа. Он — океан духовного знания, образец отречения от мирского и хранитель совершенных истин. Он — воплощение любви и преданности Богу, дарующий высшую удачу, и сокровищница духовного экстаза. Он величайший из последователей Шрилы Бхактисиддханты, предводитель санньяси, мой владыка и учитель, мое единственное прибежище! С любовью я склоняюсь к лотосоподобным стопам Шрилы Шридхара-Дева.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Бхагаван Шрила Бхактисиддханта Сарасвати</h2>
-<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
+<section class="song" id="song-shri-siddhanta-sarasvatiti-vidito" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Бхагаван Шрила Бхактисиддханта Сарасвати <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
 <p class="verse"><strong>ш́рӣ-сиддха̄нта-сарасватӣти видито</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;гауд̣ӣйа-гурв-анвайе</strong><br>
 <strong>бхато бха̄нурива прабха̄та-гагане</strong><br>
@@ -665,10 +697,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Среди великих учителей Гаудия-вайшнавов он известен как Шрила Бхактисиддханта Сарасвати. Словно сияющее солнце, взошедшее на небосклоне, он явился, чтобы спасти души, поглощенные всепожирающей философией имперсонализма. Проповедуя учение Господа Гауранги о воспевании Святого Имени Господа Кришны, он даровал шанс погрузиться в океан любви к Шри Кришне, Высшей Личности. Шрила Бхактисиддханта — мой господин и божественный учитель. У его лотосоподобных стоп я молю о вечном служении ему!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шрила Гауракишор Дас Бабаджи Махарадж</h2>
-<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
+<section class="song" id="song-namo-gaurakishoraya-bhaktavadhuta-murtaye" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Шрила Гауракишор Дас Бабаджи Махарадж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
 <p class="verse"><strong>намо гауракиш́ора̄йа</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;бхакта̄вадхӯта мӯртайе</strong><br>
 <strong>гаура̄н̇гхри падма-бхр̣н̇га̄йа</strong><br>
@@ -676,10 +708,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Я склоняюсь перед нашим Гуру, Шрилой Гауракишором Дасом, чистым преданным, стоящим выше всяких социальных условностей. Он подобен пчеле у лотосоподобных стоп Шри Гауранги и в своем сердце вечно служит Шри Радхе.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шрила Бхактивинод Тхакур</h2>
-<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
+<section class="song" id="song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Шрила Бхактивинод Тхакур <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
 <p class="verse"><strong>ванде бхактивинодам̇ ш́рӣ-</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;гаура-ш́акти-сварӯпакам</strong><br>
 <strong>бхакти-ш́а̄страджн̃а-самра̄джам̇</strong><br>
@@ -687,10 +719,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Я преклоняюсь перед Шри Тхакуром Бхактивинодом, воплощением божественной любви Махапрабху. Он царь среди знатоков сокровенного смысла священных писаний и океан преданности Шри Радхе.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Шрила Джаганнатх Дас Бабаджи Махарадж</h2>
-<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
+<section class="song" id="song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Шрила Джаганнатх Дас Бабаджи Махарадж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>(составлено Шрилой Бхакти Ракшаком Шридхаром Дев-Госвами Махараджем)</h4>
 <p class="verse"><strong>гаура-враджа̄ш́рита̄ш́еш̣аир</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ваиш̣н̣аваир вандйа-виграхам</strong><br>
 <strong>джаганна̄тха-прабхум̇ ванде</strong><br>
@@ -698,9 +730,9 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Я поклоняюсь стопам великого учителя всех вайшнавов, признанного патриарха чистой преданности, любимого всеми вайшнавами Навадвипы и Вриндавана, океану любви, Шриле Джаганнатхе Прабху.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Молитвы, обращенные к вайшнавам</h2>
+<section class="song" id="song-vancha-kalpatarubhyas-cha" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Молитвы, обращенные к вайшнавам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>ва̄н̃чха̄-калпатарубхйаш́’ ча</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;кр̣па̄-синдхубхйа эва ча</strong><br>
 <strong>патита̄на̄м̇ па̄ванебхйо</strong><br>
@@ -722,18 +754,18 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Я склоняюсь перед Господом Гаурангой, чей божественный облик излучает золотое сияние, кто обладает качествами самого милостивого воплощения Бога. Его духовные игры щедро даруют каждому чистую любовь к Господу Кришне. Он не кто иной, как сам Шри Кришна, известный в век Кали под именем Шри Кришны Чайтаньи.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Панча-таттва мантра</h2>
+<section class="song" id="song-shri-krishna-chaitanya-prabhu-nityananda" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Панча-таттва мантра <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда</strong><br>
 <strong>ш́рӣ-адваита гада̄дхара ш́рӣва̄са̄ди-гаура-бхакта-вр̣нда</strong></p>
 <p class="translation">При воспевании Харе Кришна <i>маха-мантры</i> можно нанести десять оскорблений Святому Имени, но они не принимаются во внимание при воспевании Панча-таттва <i>мантры</i>. Шри Чайтанья Махапрабху — самое великодушное воплощение Бога, поскольку Он не принимает оскорбления падших душ. Поэтому, чтобы обрести полное благо при воспевании <i>маха-мантры</i>, следует прежде принять прибежище у Шри Чайтаньи Махапрабху и Его спутников, Панча-таттвы, дарующих Харе Кришна <i>маха-мантру</i>.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Харе Кршна маха-мантра</h2>
-<h4>Объяснение Шрилы Бхакти Ракшака Шридхара Дев-Госвами Махараджа из книги «Любовный поиск потерянного слуги»</h4>
+<section class="song" id="song-hare-krishna-hare-krishna-krishna-krishna-hare-hare" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Харе Кршна маха-мантра <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Объяснение Шрилы Бхакти Ракшака Шридхара Дев-Госвами Махараджа из книги «Любовный поиск потерянного слуги»</h4>
 <p class="verse"><strong>харе кр̣ш̣н̣а харе кр̣ш̣н̣а кр̣ш̣н̣а кр̣ш̣н̣а харе харе</strong><br>
 <strong>харе ра̄ма харе ра̄ма ра̄ма ра̄ма харе харе</strong></p>
 <p class="translation">Именем «Рама» в Харе Кришна <i>маха-мантре</i> гаудия-вайшнавы обращаются к Радха-рамана Раме. Радха-рамана Рама означает: «Кришна, дарующий наслаждение (<i>раман</i>) Шримати Радхарани». В нашем понимании Харе Кришна <i>маха-мантра</i> преисполнена Кришна-сознанием, а не Рама-сознанием. Наивысшая концепция Шри Чайтаньи Махапрабху — это Сваям Бхагаван, <i>кришна-лила, радха-говинда-лила</i>. Это истинная цель нисшествия и всех наставлений Шри Кришны Чайтаньи Махапрабху.<br>
@@ -743,10 +775,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 </section>
 <section class="category">
 <h1>⸻</h1>
-<section class="song" data-translated="1">
-<h2>Шри Шикшаштакам</h2>
-<h4>Ш́ри Чайтанья Маха̄прабху</h4>
+<section class="song" id="song-cheto-darpana-marjanam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Шри Шикшаштакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Ш́ри Чайтанья Маха̄прабху</h4>
 <p class="translation">Не в силах совладать с нахлынувшими чувствами, Махапрабху терял власть над Собой, речь Его обращалась в беспорядочные стихотворные обрывки. Прежде Он изрёк Своё Восьмистишье в назидание людям, нынче же Сам с упоением внимал Собственному слову. В человеке, который внемлет Господнему Напутственному Восьмистишью, естественно пробуждается любовная преданность Кришне, прирастающая день ото дня.<br>
 <i>ШРИ ЧАЙТАНЬЯ-ЧАРИТАМРИТА. АНТЬЯ-ЛИЛА. 20.63-65</i></p>
 </div>
@@ -840,10 +872,10 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 <p class="translation">Он волен заключить рабу Свою в объятья, волен в грязь Её втоптать. Он волен сердце Ей разбить, укрывшись прочь от любящих очей. Повеса, Сердцеед беспечный и беспутный Прожигатель жизни ― Он Мне один лишь мил. Ему Я отдана навеки.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Нама-санкиртан</h2>
-<h4>Ш́рӣла Нароттам Да̄с Т̣ха̄кур</h4>
+<section class="song" id="song-hari-haraye-namah-krishna-yadavaya-namah" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Нама-санкиртан <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Ш́рӣла Нароттам Да̄с Т̣ха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>хари харайе намах̣ кр̣ш̣н̣а джа̄дава̄йа намах̣</strong><br>
 <strong>джа̄дава̄йа ма̄дхава̄йа кеш́ава̄йа намах̣</strong></p>
@@ -905,28 +937,39 @@ c:[["$","title","0",{"children":"Export — ru-kdm"}],["$","meta","1",{"name":"r
 </div>
 </section>
 </section>
-<h1>First lines</h1>
-<p class="first-line" data-translated="1">ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇ — 11</p>
-<p class="first-line" data-translated="1">ванде бхактивинодам̇ ш́рӣ-гаура-ш́акти-сварӯпакам — 17</p>
-<p class="first-line" data-translated="1">ва̄н̃чха̄-калпатарубхйаш́’ ча кр̣па̄-синдхубхйа эва ча — 19</p>
-<p class="first-line" data-translated="1">вр̣нда̄йаи туласӣ-девйаи — 21</p>
-<p class="first-line" data-translated="1">гаура-враджа̄ш́рита̄ш́еш̣аир ваиш̣н̣аваир вандйа-виграхам — 18</p>
-<p class="first-line" data-translated="1">гурвва̄бхӣш̣т̣а-супӯракам̇ гуру-ган̣аир — 13</p>
-<p class="first-line" data-translated="1">гурудев! кр̣па̄-бинду дийа̄ коро’ эи да̄се — 68</p>
-<p class="first-line" data-translated="1">девам̇ дивйа-танум̇ сучанда-ваданам̇-ба̄ла̄рка-чела̄н̃читам̇ — 14</p>
-<p class="first-line" data-translated="1">джайа ‘гуру-маха̄ра̄джа’ джати-ра̄джеш́вара — 72</p>
-<p class="first-line" data-translated="1">джайа гуру маха̄ра̄джа корун̣а̄-са̄гара — 36</p>
-<p class="first-line" data-translated="1">джайа джайа гурудевер а̄рати уджвала — 70</p>
-<p class="first-line" data-translated="1">джайа са-парикара — 22</p>
-<p class="first-line" data-translated="1">джайа ш́ачӣнандана сура-муни-вандана — 61</p>
-<p class="first-line" data-translated="1">джаш́оматӣ-нандана браджа-баро на̄гара — 60</p>
-<p class="first-line" data-translated="1">джӣв джа̄го, джӣв джа̄го, гаурача̄н̇да боле — 43</p>
-<p class="first-line" data-translated="1">кали-куккура-кадана джади ча̄о хе — 38</p>
-<p class="first-line" data-translated="1">намо гауракиш́ора̄йа бхакта̄вадхӯта мӯртайе — 16</p>
-<p class="first-line" data-translated="1">удило арун̣а пӯраба-бха̄ге — 42</p>
-<p class="first-line" data-translated="1">харе кр̣ш̣н̣а харе кр̣ш̣н̣а кр̣ш̣н̣а кр̣ш̣н̣а харе харе — 24</p>
-<p class="first-line" data-translated="1">хари харайе намах̣ кр̣ш̣н̣а джа̄дава̄йа намах̣ — 55</p>
-<p class="first-line" data-translated="1">чето-дарпан̣а-ма̄рджанам̇ — 182</p>
-<p class="first-line" data-translated="1">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда — 24</p>
-<p class="first-line" data-translated="1">ш́рӣ-сиддха̄нта-сарасватӣти видито — 15</p>
+<section class="first-lines" id="first-lines">
+<h1>Индекс</h1>
+<h2 class="first-line-group">В</h2>
+<p class="first-line" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇<span class="page-num"> — 11</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">ванде бхактивинодам̇ ш́рӣ-гаура-ш́акти-сварӯпакам<span class="page-num"> — 17</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">ва̄н̃чха̄-калпатарубхйаш́’ ча кр̣па̄-синдхубхйа эва ча<span class="page-num"> — 19</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">вр̣нда̄йаи туласӣ-девйаи<span class="page-num"> — 21</span></a></p>
+<h2 class="first-line-group">Г</h2>
+<p class="first-line" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">гаура-враджа̄ш́рита̄ш́еш̣аир ваиш̣н̣аваир вандйа-виграхам<span class="page-num"> — 18</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gurvabhishta-supurakam-guru-ganair">гурвва̄бхӣш̣т̣а-супӯракам̇ гуру-ган̣аир<span class="page-num"> — 13</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">гурудев! кр̣па̄-бинду дийа̄ коро’ эи да̄се<span class="page-num"> — 68</span></a></p>
+<h2 class="first-line-group">Д</h2>
+<p class="first-line" data-translated="1"><a href="#song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam">девам̇ дивйа-танум̇ сучанда-ваданам̇-ба̄ла̄рка-чела̄н̃читам̇<span class="page-num"> — 14</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">джайа ‘гуру-маха̄ра̄джа’ джати-ра̄джеш́вара<span class="page-num"> — 72</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">джайа гуру маха̄ра̄джа корун̣а̄-са̄гара<span class="page-num"> — 36</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">джайа джайа гурудевер а̄рати уджвала<span class="page-num"> — 70</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-sa-parikara">джайа са-парикара<span class="page-num"> — 22</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">джайа ш́ачӣнандана сура-муни-вандана<span class="page-num"> — 61</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">джаш́оматӣ-нандана браджа-баро на̄гара<span class="page-num"> — 60</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">джӣв джа̄го, джӣв джа̄го, гаурача̄н̇да боле<span class="page-num"> — 43</span></a></p>
+<h2 class="first-line-group">К</h2>
+<p class="first-line" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">кали-куккура-кадана джади ча̄о хе<span class="page-num"> — 38</span></a></p>
+<h2 class="first-line-group">Н</h2>
+<p class="first-line" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">намо гауракиш́ора̄йа бхакта̄вадхӯта мӯртайе<span class="page-num"> — 16</span></a></p>
+<h2 class="first-line-group">У</h2>
+<p class="first-line" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">удило арун̣а пӯраба-бха̄ге<span class="page-num"> — 42</span></a></p>
+<h2 class="first-line-group">Х</h2>
+<p class="first-line" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">харе кр̣ш̣н̣а харе кр̣ш̣н̣а кр̣ш̣н̣а кр̣ш̣н̣а харе харе<span class="page-num"> — 24</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">хари харайе намах̣ кр̣ш̣н̣а джа̄дава̄йа намах̣<span class="page-num"> — 55</span></a></p>
+<h2 class="first-line-group">Ч</h2>
+<p class="first-line" data-translated="1"><a href="#song-cheto-darpana-marjanam">чето-дарпан̣а-ма̄рджанам̇<span class="page-num"> — 182</span></a></p>
+<h2 class="first-line-group">Ш</h2>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">ш́рӣ-сиддха̄нта-сарасватӣти видито<span class="page-num"> — 15</span></a></p>
+</section>
 4:["$","$L10",null,{"body":"$11","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}]

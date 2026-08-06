@@ -1,13 +1,112 @@
 1:"$Sreact.fragment"
-2:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-47d59e2233e600fd.js"],"default"]
+2:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-1b3b0c9cb9da3dea.js"],"default"]
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
-:HL["/_next/static/css/60aed38513f19669.css","style"]
-3:T552c8,<section class="category">
+:HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
+3:T5df35,<h1 class="book-title">Gaudija Gītandžalī</h1>
+<p class="nav-links"><a href="#first-lines">↓ Indekss</a></p>
+<section class="toc" id="toc">
+<h1>Saturs</h1>
+<h2 class="toc-item-group">Vandana</h2>
+<p class="toc-item" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">Vandana<span class="page-num"> — 11</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vande-vaikuntha-vritti-stham">Pranām Mantra Šrīlam Bhakti Bimal Avadhūtam Mahārādžam<span class="page-num"> — 11/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-goswaminam-sudhirakhyam">Pranām Mantra Šrīlam Bhakti Sudhīr Gosvāmī Mahārādžam<span class="page-num"> — 11/2</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-pujya-sri-guru-varga-vandita">Pranām Mantra Šrīlam Bhakti Nirmal Āčārjam Mahārādžam<span class="page-num"> — 12</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gurvabhishta-supurakam-guru-ganair">Pranām Mantra Šrīlam Bhakti Sundar Govindam Dēv-Gosvāmī Mahārādžam<span class="page-num"> — 13</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam">Pranām Mantra Šrīlam Bhakti Rakšak Šrīdhāram Dēv-Gosvāmī Mahārādžam<span class="page-num"> — 14</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">Pranām Mantra Bhagavānam Šrīlam Bhaktisiddhāntam Sarasvatī<span class="page-num"> — 15</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">Pranām Mantra Šrīlam Gaura Kišoram Dāsam Bābadžī Mahārādžam<span class="page-num"> — 16</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">Pranām Mantra Šrīlam Bhaktivinodam Thākuram<span class="page-num"> — 17</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">Pranām Mantra Šrīlam Džagannātham Dāsam Bābadžī Mahārādžam<span class="page-num"> — 18</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">Vāñchā-kalpatarubhyas’ cha<span class="page-num"> — 19</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jayatam-suratau-pangor">Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu, Kolkata<span class="page-num"> — 19</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-divyad-vrindaranya-kalpa-drumadhah">Šrī-Šrī-Guru-Gauranga-Gandharva-Govindasundardži, Nabadwīp<span class="page-num"> — 20</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu, Hāpāniyā<span class="page-num"> — 21</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">Vṛndāyai tulasī-devyai<span class="page-num"> — 22</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">Lūgšana Vaišnaviem<span class="page-num"> — 21</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">Pañcha-tattva mantra<span class="page-num"> — 24</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">Harē Krišna mahā-mantra<span class="page-num"> — 24</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">Daśa-vidha Nāmāparādha<span class="page-num"> — 26</span></a></p>
+<h2 class="toc-item-group">Rīta dziesmas</h2>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-girirajer-arati-vishiala">Gupta Govardhana Āratī<span class="page-num"> — 32</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-girirajer-arotiko-shobha">Śrī Śrī Girirāj-Govardhan Ārati<span class="page-num"> — 34</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">Śrī Śrī Nitāi-Chaitanya-Ārati<span class="page-num"> — 36</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">Śrī Guru Ārati<span class="page-num"> — 42</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">Śrī Guru Ārati-stuti<span class="page-num"> — 46</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">Prabhāti Gīti<span class="page-num"> — 38</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">Śrī Nām-kīrtan<span class="page-num"> — 39</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">Aruṇodoya-kīrtan 1<span class="page-num"> — 42</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">Aruṇodoya-kīrtan 2<span class="page-num"> — 43</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">Śrī Śrī Gurvāṣṭaka<span class="page-num"> — 48</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-jive-daya-kori">Śaraṇāgati – labvēlīgs aicinājums<span class="page-num"> — 50</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vibhavari-shiesha-aloka-praveshia">Vibhāvarī Śeṣa<span class="page-num"> — 52</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">Ṭhākura-vaiṣṇava-gaṇa<span class="page-num"> — 134</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">Nāma-Saṅkīrttan<span class="page-num"> — 55</span></a></p>
+<h2 class="toc-item-group">Dienas dziesmas</h2>
+<p class="toc-item" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">Mahāprasāda<span class="page-num"> — 62</span></a></p>
+<h2 class="toc-item-group">Vakara dziesmas</h2>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">Śrī Gaura-ārati<span class="page-num"> — 64</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">Śrī Sāraswat-ārati<span class="page-num"> — 66</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">Gurudeva<span class="page-num"> — 68</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-namo-namah-tulasi-maharani">Śrī Tulasī-parikramā-gīti<span class="page-num"> — 69</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">Śrī Guru-vaiṣṇava Māhātmya-gīti<span class="page-num"> — 80</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">Sāvaraṇa-Śrī-Gaura-pāda-padme Prārthanā<span class="page-num"> — 75</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vaishnava-thakura-dayara-sagara">Śrī Vaiṣṇava-mahimā-gīti<span class="page-num"> — 76</span></a></p>
+<h2 class="toc-item-group">Śrī Śrī Premadhāma-deva-stotram</h2>
+<p class="toc-item" data-translated="1"><a href="#song-deva-siddha-mukta-yukta-bhakta-vrinda">1-10. Sestdiena<span class="page-num"> — 81</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">11-20. Svētdiena<span class="page-num"> — 85</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram">21-30. Pirmdiena<span class="page-num"> — 88</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-prema-mugdha-rudra-raja-shiaurya-virya-vikramam">31-40. Otrdiena<span class="page-num"> — 92</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-prema-mugdha-nritya-kirtanakularitantikam">41-50. Trešdiena<span class="page-num"> — 96</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-sanatananu-rupa-jiva-sampradayakam">51-60. Ceturtdiena<span class="page-num"> — 101</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">61-72. Piektdiena<span class="page-num"> — 104</span></a></p>
+<h2 class="toc-item-group">Dziesmas Nitjānandam Prabhū</h2>
+<p class="toc-item" data-translated="1"><a href="#song-nitai-pada-kamala-koti-chandra-sushitala">Manaḥ-Śikṣā<span class="page-num"> — 111</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">Śrī Śrī Prabhupāda-padma Stavakaḥ<span class="page-num"> — 78</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-nitai-gunamani-amara-nitai-gunamani">Nitāi guṇamaṇi āmāra<span class="page-num"> — 113</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-dayal-nitai-chaitanya-bole-nach-re">Dayāl Nitāi Chaitanya<span class="page-num"> — 116</span></a></p>
+<h2 class="toc-item-group">Kungam Čaitanjam veltītas dziesmas</h2>
+<p class="toc-item" data-translated="1"><a href="#song-avatara-sara-gora-avatara">Avatāra Sāra<span class="page-num"> — 121</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gay-gora-madhur-svare">Śrī Nāma<span class="page-num"> — 122</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">Ke jabi ke jabi<span class="page-num"> — 127</span></a></p>
+<h2 class="toc-item-group">Citas dziesmas</h2>
+<p class="toc-item" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">Ṭhākura-vaiṣṇava-pada<span class="page-num"> — 134</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">Viraha-gīti<span class="page-num"> — 135</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-ei-vara-karuna-kara-vaishnava-gosani">Vaiṣṇava Vijñāpti<span class="page-num"> — 136</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-kripa-kara-vaishnava-thakura">Prārthanā Lalasāmayi<span class="page-num"> — 137</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-narada-muni-bajaya-vina">Śrī Nāmāṣṭakam 8<span class="page-num"> — 140</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-krishnotkirtana-gana-nartana-parau">Śrī Śrī Ṣaḍ-Gosvāmy-aṣṭakam<span class="page-num"> — 141</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-ohe-harinam-tava-mahima-apara">Šrī Nāmaštakam 7<span class="page-num"> — 144</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-ki-rupe-paibo-seva-mui-durachara">Ki-rūpe pāibo sevā<span class="page-num"> — 145</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">Bhajahu̐ Re Mana<span class="page-num"> — 146</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">Mānasa Deho Geho<span class="page-num"> — 147</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-e-ghora-samsare-podiya-manava">E ghora saṁsāre<span class="page-num"> — 148</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">Dainyātmikā<span class="page-num"> — 154</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-ki-jani-ki-bale-tomara-dhamete">Goptṛtve Varaṇa<span class="page-num"> — 155</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">Ātma-nivedana<span class="page-num"> — 160</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">Tumi sarveśvareśvara<span class="page-num"> — 162</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gopinath-amara-upaya-nai">Nivedana 3<span class="page-num"> — 171</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-durlabha-manava-janma-labhiya-samsare">Durlabha mānava-janma<span class="page-num"> — 175</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">Dainya O Prapatti<span class="page-num"> — 158</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-rupa-manjari-pada-sei-mora-sampada">Śrī-Rūpa-Mañjarī-pada<span class="page-num"> — 173</span></a></p>
+<h2 class="toc-item-group">Šrī Šikšāštakam</h2>
+<p class="toc-item" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">1. Pita-varaṇa kali<span class="page-num"> — 184</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">2. Tuhu̐ dayā-sāgara<span class="page-num"> — 185</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">3. Śrī-Kṛṣṇa-kīrtane jodi<span class="page-num"> — 185</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">4. Prabhu tava pada<span class="page-num"> — 186</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-anadi-karama-phole">5. Anādi karama phole<span class="page-num"> — 187</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-aparadha-phole-mama">6. Aparādha-phole mama<span class="page-num"> — 188</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">7a. Gāite gāite nāma<span class="page-num"> — 189</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">7b. Gāite ‘govinda’–nām<span class="page-num"> — 190</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">7c. Sakhī go kemote<span class="page-num"> — 191</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">8a. Bondhu-goṇ! śunoho<span class="page-num"> — 191</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">8b. Yoga-pīṭhopari-sthita<span class="page-num"> — 192</span></a></p>
+</section>
+<section class="category">
 <h1>Vandana</h1>
-<section class="song" data-translated="1">
-<h2>Vandana</h2>
+<section class="song" id="song-vande-ham-shri-guroh-shri-yuta-pada-kamalam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Vandana <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>vande ’haṁ śrī-guroḥ śrī-yuta-pada-kamalaṁ</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;śrī-gurūn vaiṣṇavāṁś cha</strong><br>
 <strong>śrī-rūpaṁ sāgrajātaṁ saha-gaṇa-</strong><br>
@@ -16,7 +115,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;kṛṣṇa-chaitanya-devaṁ</strong><br>
 <strong>śrī-rādhā-kṛṣṇa-pādān saha-gaṇa-lalitā-śrī-</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;viśākhānvitāṁś cha</strong></p>
-<p class="translation">Šrīla Krišnadāsa Kavirādža lūdzas: “Pazemīgi es klanos pie lotosam līdzīgajām mana iniciējošā garīgā skolotāja,  citu sludinošo garīgo skolotāju un Vaišnavu pēdām. Cieņas pilns es klanos savu šāstra guru priekšā: Šrīlas Rūpas Gosvāmī un viņa vecākā brāļa Šrīlas Sanātanas Gosvāmī, kā arī Šrīlas Raghunātha dāsa Gosvāmī un Šrīlas Džīvas Gosvāmī, priekšā. Es izrādu cieņu tiem, kas atrodas vēl augstāk – Šrī Čaitanjam Mahāprabhū, kurš nācis pie mums ar saviem atribūtiem un pavadoņiem, tādām diženām personībām kā Šrī Nitjānanda Prabhū and Šrī Advaita Āčārja. Visaugstākajā līmenī es klanos pie Šrī Šrī Rādhas un Govindas lotosu pēdām, kā arī pie visu gopiju lotosu pēdām, ar Lalitu Devī and Višakhu Devī priekšgalā!”</p>
+<p class="translation">Šrīla Krišnadāsa Kavirādža lūdzas: “Pazemīgi es klanos pie lotosam līdzīgajām mana iniciējošā garīgā skolotāja,  citu sludinošo garīgo skolotāju un Vaišnavu pēdām. Cieņas pilns es klanos savu šāstra guru priekšā: Šrīlas Rūpas Gosvāmī un viņa vecākā brāļa Šrīlas Sanātanas Gosvāmī, kā arī Šrīlas Raghunātha dāsa Gosvāmī un Šrīlas Džīvas Gosvāmī, priekšā. Es izrādu cieņu tiem, kas atrodas vēl augstāk – Šrī Čaitanjam Mahāprabhu, kurš nācis pie mums ar saviem atribūtiem un pavadoņiem, tādām diženām personībām kā Šrī Nitjānanda Prabhū and Šrī Advaita Āčārja. Visaugstākajā līmenī es klanos pie Šrī Šrī Rādhas un Govindas lotosu pēdām, kā arī pie visu gopiju lotosu pēdām, ar Lalitu Devī and Višakhu Devī priekšgalā!”</p>
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>oṁ ajñāna-timirāndhasya jñānāñjana-śalākayā</strong><br>
@@ -24,9 +123,9 @@
 <p class="translation">Pielietojot dziedējošās zināšanas par saikni ar Dievu – apkārtējās pasaules pareizas uztveres ziedi, mans garīgais skolotājs atmodināja manu iekšējo redzi. Tādējādi viņš izglāba mani no neziņas tumsas un dāvāja cerību. Cieņas pilns es klanos Šrī Gurudēva priekšā.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Bhakti Bimal Avadhūts Mahārādža</h2>
+<section class="song" id="song-vande-vaikuntha-vritti-stham" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Bhakti Bimal Avadhūts Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>vande vaikuṇṭha-vṛtti-stham</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;parama-karuṇāspadam</strong><br>
 <strong>vimalam avadhūtākhyaṁ</strong><br>
@@ -34,19 +133,19 @@
 <p class="translation">Es klanos Šrīlas Bhakti Bimal Avadhūta priekšā, kurš ir Nitai-Gauras līdzcietības iemiesojums. Ar savu dižo saprātu viņš meklē neskaitāmus veidus (<i>vaikuntha-vritti</i>) kalpot Viņiem un dalīt citiem Viņu augstāko žēlastību. Viņš ir neparasts bhakta (<i>bhaktavadhūta</i>), viņš ir tīrs (<i>bimal</i>), jo velta sevi tikai un vienīgi kalpošanai Govindas (Krišnas) un sava guru Šrīlas Bhakti Sundar Govindas Dev-Gosvāmī Mahārādžas lotosam līdzīgajām pēdām.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Bhakti Sudhīrs Gosvāmī Mahārādža</h2>
+<section class="song" id="song-goswaminam-sudhirakhyam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Bhakti Sudhīrs Gosvāmī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>goswāminaṁ sudhīrākhyaṁ</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;govinda-preṣṭham āśraye</strong><br>
 <strong>gaura-gāthā-rataṁ nityaṁ</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;śrīdhara-pāda-sevanam</strong></p>
-<p class="translation">Es pieņemu patvērumu pie Šrīlas Bhakti Sudhīra Gosvāmī Mahārādžas, Govindas (Krišnas) un Šrīlas Govinda Mahārādžas favorīta, jo viņš ir atkarīgs no nebeidzamas Gaurangas Mahāprabhū slavināšanas un ir pieņēmis mūžīgu patvērumu kalpošanā Šrīlas Šrīdhāra Mahārādžas (Šrī Rādhas otrā “es”) lotosam līdzīgajām pēdām.</p>
+<p class="translation">Es pieņemu patvērumu pie Šrīlas Bhakti Sudhīra Gosvāmī Mahārādžas, Govindas (Krišnas) un Šrīlas Govinda Mahārādžas favorīta, jo viņš ir atkarīgs no nebeidzamas Gaurangas Mahāprabhu slavināšanas un ir pieņēmis mūžīgu patvērumu kalpošanā Šrīlas Šrīdhāra Mahārādžas (Šrī Rādhas otrā “es”) lotosam līdzīgajām pēdām.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Bhakti Nirmal Āčārja Mahārādža</h2>
+<section class="song" id="song-pujya-sri-guru-varga-vandita" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Bhakti Nirmal Āčārja Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>pūjya śrī-guru-varga-vandita</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;mahā-bhāvānvitāyāḥ sadā</strong><br>
 <strong>paurvā paryya paramparā prachalita</strong><br>
@@ -58,9 +157,9 @@
 <p class="translation">Es noliecu galvu mūžībā klanoties Gurudēva – labākā no āčārjām, Šrīlas Bhakti Nirmal Āčārja Mahārādžas, priekšā. Viņš ir uzticams un modrs tīras garīgas kalpošanas straumes sargs. Šī straume plūst no mūsu slavētās Šrī Rūpanūga Guru-vargas viņu pašaizliedzīgajā sevis veltīšanā Mahābhāvai, Šrīmatī Rādharānī.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h2>
+<section class="song" id="song-gurvabhishta-supurakam-guru-ganair" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>gurvābhīṣṭa-supūrakaṁ guru-gaṇair</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;āśīṣa-saṁbhūṣitaṁ</strong><br>
 <strong>chintyāchintya-samasta-veda-nipuṇaṁ</strong><br>
@@ -72,10 +171,10 @@
 <p class="translation">Ar lielāko cieņu es klanos tā priekšā, kuru rotā visas Guru-vargas svētības un kurš piepilda sava guru visslēptākās vēlēšanās. Viņš ir visu patiesību zintnieks – gan tveramo, gan netveramo. Izcils Šrī Rūpas dievišķās mācības sekotājs, viņš ir pazīstams kā Šrī Bhakti Sundar Govinda. Viņa mirdzošais tēls izstaro Krišna-bhakti. Viņš ir nācis no augstākās pasaules un šajā pasaulē ticis slavēts kā patiess garīgais skolotājs, spējīgs dāvāt Dievišķās Mīlestības sēklas.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h2>
-<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>devaṁ divya-tanuṁ suchanda-vadanaṁ-</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bālārka-chelāñchitaṁ</strong><br>
 <strong>sāndrānanda-puraṁ sad-eka-varanaṁ</strong><br>
@@ -87,10 +186,10 @@
 <p class="translation">Es krītu pie Šrīlas Šrīdhār-Dēva pēdām. Viņš apbur visus ar savām saldā nektāra dziesmām. Tērpts austošas saules krāsas drānās, viņš ir svēts un Kunga uzticīgo bhaktu slavēts. Viņš ir garīgo zinību okeāns, atteikšanās no pasaulīgā paraugs un pašu pilnīgāko zināšanu glabātājs. Viņš iemieso mīlestību un kalpošanu Dievam, viņš dāvā augstāko veiksmi un ir garīgās ekstāzes dārgumu lāde. Viņš ir izcilākais Šrīlas Bhaktisiddhāntas sekotājs, sannjasī vadonis, mans valdnieks un skolotājs, mans vienīgais patvērums! Ar mīlestību es klanos pie Šrīlas Šrīdhār-Dēva lotosa ziedam līdzīgajām pēdām!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Bhagavāns Šrīla Bhaktisiddhānta Sarasvatī</h2>
-<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-shri-siddhanta-sarasvatiti-vidito" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Bhagavāns Šrīla Bhaktisiddhānta Sarasvatī <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>śrī-siddhānta-sarasvatīti vidito</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;gauḍīya-gurv-anvaye</strong><br>
 <strong>bhāto bhānuriva prabhāta-gagane</strong><br>
@@ -102,10 +201,10 @@
 <p class="translation">Izcilāko Gaudija-vaišnava skolotāju vidū viņš ir pazīstams kā Šrīla Bhaktisiddhānta Sarasvatī. Kā ausmā mirdzoša saule viņš nāca, lai glābtu dvēseles, kuras sagrābusi visu aprijošā impersonālisma filosofija. Sludinot Kunga Gaurangas mācību par Kunga Krišnas Svētā Vārda dziedāšanu, viņš dāvājis iespēju grimt Šrī Krišnas, Augstākās Personības mīlestības okeānā. Šrīla Bhaktisiddhānta – mans kungs un dievišķais skolotājs. Pie viņa lotosam līdzīgajām pēdām es lūdzu mūžīgu kalpošanu viņam!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Gaura Kišora Dāsa Bābadžī Mahārādža</h2>
-<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-namo-gaurakishoraya-bhaktavadhuta-murtaye" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Gaura Kišora Dāsa Bābadžī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>namo gaurakiśorāya</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bhaktāvadhūta mūrtaye</strong><br>
 <strong>gaurāṅghri padma-bhṛṅgāya</strong><br>
@@ -113,21 +212,21 @@
 <p class="translation">Es klanos mūsu guru Šrīlas Gaura Kišora Dāsa priekšā, kurš ir tīrs bhakta un stāv augstāk par visiem sociālajiem iedalījumiem. Viņš līdzinās bitei Šrī Gaurangas pēdu lotosā un savā sirdī vienmēr kalpo Šrī Rādhai.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Bhaktivinoda Thākurs</h2>
-<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Bhaktivinoda Thākurs <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;vande bhaktivinodaṁ śrī-</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;gaura-śakti-svarūpakam</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bhakti-śāstrajña-samrājaṁ</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;rādhā-rasa-sudhā-nidhim</strong></p>
-<p class="translation">Es klanos Šrī Thākura Bhaktivinodas priekšā, kurš ir Mahāprabhū dievišķās mīlestības iemiesojums. Viņš ir karalis Svēto Rakstu slēptās būtības pazinēju vidū. Viņš ir Šrī Rādhas garīgās kalpošanas okeāns.</p>
+<p class="translation">Es klanos Šrī Thākura Bhaktivinodas priekšā, kurš ir Mahāprabhu dievišķās mīlestības iemiesojums. Viņš ir karalis Svēto Rakstu slēptās būtības pazinēju vidū. Viņš ir Šrī Rādhas garīgās kalpošanas okeāns.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrīla Džagannātha Dāsa Bābadžī Mahārādža</h2>
-<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrīla Džagannātha Dāsa Bābadžī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>gaura-vrajāśritāśeṣair</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;vaiṣṇavair vandya-vigraham</strong><br>
 <strong>jagannātha-prabhuṁ vande</strong><br>
@@ -135,9 +234,9 @@
 <p class="translation">Es pielūdzu dižā visu Vaišnavu skolotāja pēdas, kurš ir atzīts tīras garīgas kalpošanas patriarhs, visu Navadvīpas un Vrindāvanas Vaišnavu mīļotais mīlestības okeāns, Šrīla Džagannātha Prabhū.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Vāñchā-kalpatarubhyas’ cha</h2>
+<section class="song" id="song-vancha-kalpatarubhyas-cha" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Vāñchā-kalpatarubhyas’ cha <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>vāñchā-kalpatarubhyas’ cha</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;kṛpā-sindhubhya eva cha</strong><br>
 <strong>patitānāṁ pāvanebhyo</strong><br>
@@ -162,10 +261,10 @@
 <i>(Šrīla Rūpa Gosvāmī)</i></p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu</h2>
-<h3>Kolkata, Sree Chaitanya Sāraswata Krishnanushilana Sangha</h3>
+<section class="song" id="song-jayatam-suratau-pangor" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h3>Kolkata, Sree Chaitanya Sāraswata Krishnanushilana Sangha</h3>
 <p class="verse"><strong>jayatāṁ suratau paṅgor</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;mama manda-mater gatī</strong><br>
 <strong>mat-sarvasva-padāmbhojau</strong><br>
@@ -173,10 +272,10 @@
 <p class="translation">Ak, Šrī Šrī Rādha-Madana-Mohan, es esmu bezpalīdzīgs kroplis! Mans vājais prāts ir piekalts pretīgajiem maņu apmierināšanas objektiem. Es lūdzu Jūs, apveltiet mani ar patiesu pieķeršanos manas dzīves nenovērtējamajai bagātībai – Jūsu lotosam līdzīgajām pēdām. Un lai Jūsu svētību, tik līdzcietīgu un mīlošu, vienmēr un visur pavada uzvara!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrī-Šrī-Guru-Gauranga-Gandharva-Govindasundardži</h2>
-<h3>Navadvīpa, Šrī Čaitanja Sarasvat Maths</h3>
+<section class="song" id="song-divyad-vrindaranya-kalpa-drumadhah" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Šrī-Šrī-Guru-Gauranga-Gandharva-Govindasundardži <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h3>Navadvīpa, Šrī Čaitanja Sarasvat Maths</h3>
 <p class="verse"><strong>dīvyad-vṛndāraṇya-kalpa-drumādhaḥ</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;śrīmad-ratnāgāra-siṁhāsana-sthau</strong><br>
 <strong>śrī gāndharvā-śrīla-govinda-devau</strong><br>
@@ -184,10 +283,10 @@
 <p class="translation">Es pastāvīgi domāju par Dievišķo Pāri, Šrī Šrī Gandharva-Govinda, kuri sēž brīnišķīgā, dimantiem rotātā tronī izslavētajā Vradžas mežā zem visus prātus pievelkošā vēlmju koka. Viņi sēž pašaizliedzīgo kalpotāju – Šrī Lalitas Devi un Šrī Rūpas Mandžārī kompānijā, kā arī citu tuvu pavadoņu, tādu kā prijanarma-sakhī, sabiedrībā.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu</h2>
-<h3>Hāpāniyā, Śrī Chaitanya Sāraswat Ashram</h3>
+<section class="song" id="song-shriman-rasa-rasarambhi" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h3>Hāpāniyā, Śrī Chaitanya Sāraswat Ashram</h3>
 <p class="verse"><strong>śrīmān rāsa-rasārambhī</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;vaṁśī-vaṭa-taṭa-sthitaḥ</strong><br>
 <strong>karṣan veṇu-svanair gopīr</strong><br>
@@ -195,9 +294,9 @@
 <p class="translation">Šrī Gopinātha, kurš dāvā garīgas kalpošanas garšu, stāv Jamūnas upes krastā vietā, kura pazīstama kā Vamšīvata. Uz šo vietu viņa flautas saldās skaņas vilina Vradža-dhāmas ganumeiteņu sirdis. Apburošais Kungs, atver mums savus labvēlīgos apskāvienus!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Vṛndāyai tulasī-devyai</h2>
+<section class="song" id="song-vrindayai-tulasi-devyai" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Vṛndāyai tulasī-devyai <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>vṛndāyai tulasī-devyai</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;priyāyai keśavasya cha</strong><br>
 <strong>kṛṣṇa-bhakti-prade devi</strong><br>
@@ -213,12 +312,12 @@
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>jayaḥ sa-parikara śrī-śrī-guru-gaurāṅga-gāndharvā-govindasundar-pādapadmānāṁ jayastu!</strong></p>
-<p class="translation">Lai Šrī Gurudēva, Šrīmāna Mahāprabhū un Šrī Šrī Gandharva-Govindasundara, kā arī viņu mūžīgo pavadoņu lotosam līdzīgās pēdas uzgavilē mūsu sirdīs!</p>
+<p class="translation">Lai Šrī Gurudēva, Šrīmāna Mahāprabhu un Šrī Šrī Gandharva-Govindasundara, kā arī viņu mūžīgo pavadoņu lotosam līdzīgās pēdas uzgavilē mūsu sirdīs!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Lūgšana Vaišnaviem</h2>
+<section class="song" id="song-sakala-vaishnava-pade-mora-namaskara" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Lūgšana Vaišnaviem <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>sakala vaiṣṇava-pade mora namaskāra</strong><br>
 <strong>ithe kichu aparādha nahuka āmāra</strong><br>
 <strong>hoiyachen hoiben prabhur jato bhakta jan</strong><br>
@@ -226,28 +325,28 @@
 <p class="translation">Es cieņpilni klanos pie visu Vaišnavu lotosam līdzīgajām pēdām, lūdzot par to, lai manus centienus kalpot viņiem neskartu apvainojumu ēna. Ar cieņu es klanos pie visu esošo un topošo Vaišnavu lotosam līdzīgajām pēdām.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Pañcha-tattva mantra</h2>
+<section class="song" id="song-shri-krishna-chaitanya-prabhu-nityananda" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Pañcha-tattva mantra <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>śrī-kṛṣṇa-chaitanya prabhu nityānanda</strong><br>
 <strong>śrī-advaita gadādhara śrīvāsādi-gaura-bhakta-vṛnda</strong></p>
-<p class="translation">Dziedot Harē Krišna mahā-mantru, Svēto Vārdu ir iespējams apvainot desmit veidos, bet apvainojumi netiek ņemti vērā dziedot Panča-tattva mantru. Šrī Čaitanja Mahāprabhū ir visaugstsirdīgākais Dieva iemiesojums, jo Viņš nepieņem kritušo dvēseļu apvainojumus. Tādēļ, lai gūtu pilnīgu labumu no mahā-mantras dziedāšanas, mums vispirms jāpieņem patvērums pie Šrī Čaitanjas Mahāprabhū un viņa Harē Krišna mahā-mantru dāvājošiem pavadoņiem – Panča-tattvas.</p>
+<p class="translation">Dziedot Harē Krišna mahā-mantru, Svēto Vārdu ir iespējams apvainot desmit veidos, bet apvainojumi netiek ņemti vērā dziedot Panča-tattva mantru. Šrī Čaitanja Mahāprabhu ir visaugstsirdīgākais Dieva iemiesojums, jo Viņš nepieņem kritušo dvēseļu apvainojumus. Tādēļ, lai gūtu pilnīgu labumu no mahā-mantras dziedāšanas, mums vispirms jāpieņem patvērums pie Šrī Čaitanjas Mahāprabhu un viņa Harē Krišna mahā-mantru dāvājošiem pavadoņiem – Panča-tattvas.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Harē Krišna mahā-mantra</h2>
-<h4>Šrīlas Šrīdhāra Mahārādžas komentārs</h4>
+<section class="song" id="song-hare-krishna-hare-krishna-krishna-krishna-hare-hare" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Harē Krišna mahā-mantra <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīlas Šrīdhāra Mahārādžas komentārs</h4>
 <p class="verse"><strong>hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare</strong><br>
 <strong>hare rāma hare rāma rāma rāma hare hare</strong></p>
-<p class="translation">Gaudija-vaišnavi Rāmas Vārdā, kuru satur Harē Krišna mantra, saskata Rādha-rāmana Rāmu. Tas nozīmē: “Krišna, kurš dāvā prieku (<i>raman</i>) Šrīmatī Rādharanī”. Mūsu izpratnē Harē Krišna mantra satur tikai un vienīgi Krišnas apziņu un nevis Rāmas (Kunga Rāmačandras) apziņu. Šrī Čaitanjas augstākais ideāls ir vienīgi <i>Svajam Bhagavāns</i>, <i>Krišna-līla</i>, <i>Rādha-Govinda-līla</i>. Tāds ir patiesais Šrī Čaitanjas Mahāprabhū atnākšanas un mācības mērķis. No šāda skatupunkta Harē Krišna mantrā netiek pieminēta Ajodhjas <i>Rāma-līla</i>. Augstākā Harē Krišna mantras nozīme nav saistīta ar to... No mantras iekšējās nozīmes izpratnes ir atkarīgi mūsu garīgie panākumi... Iekšēja izpratne virzīs bhaktas pretī viņu mērķim.</p>
+<p class="translation">Gaudija-vaišnavi Rāmas Vārdā, kuru satur Harē Krišna mantra, saskata Rādha-rāmana Rāmu. Tas nozīmē: “Krišna, kurš dāvā prieku (<i>raman</i>) Šrīmatī Rādharanī”. Mūsu izpratnē Harē Krišna mantra satur tikai un vienīgi Krišnas apziņu un nevis Rāmas (Kunga Rāmačandras) apziņu. Šrī Čaitanjas augstākais ideāls ir vienīgi <i>Svajam Bhagavāns</i>, <i>Krišna-līla</i>, <i>Rādha-Govinda-līla</i>. Tāds ir patiesais Šrī Čaitanjas Mahāprabhu atnākšanas un mācības mērķis. No šāda skatupunkta Harē Krišna mantrā netiek pieminēta Ajodhjas <i>Rāma-līla</i>. Augstākā Harē Krišna mantras nozīme nav saistīta ar to... No mantras iekšējās nozīmes izpratnes ir atkarīgi mūsu garīgie panākumi... Iekšēja izpratne virzīs bhaktas pretī viņu mērķim.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Daśa-vidha Nāmāparādha</h2>
+<section class="song" id="song-hari-nama-mahamantra-sarva-mantra-sara" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Daśa-vidha Nāmāparādha <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Desmit Svētā Vārda apvainojumi</h3>
 <h4>(bengāļu poēma, kuru sastādīja Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža)</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>hari-nāma mahāmantra sarva-mantra-sāra</strong><br>
 <strong>jādera karuṇābale jagate prachāra</strong><br>
@@ -264,7 +363,7 @@ Pirmais apvainojums: apvainot Kunga bhaktas.</p>
 <strong>bheda-jñāna nā koribe līlā-guṇa-rūpa</strong></p>
 <p class="translation">Vradžendra-nandana Krišna ir visu <i>rasu</i> ietvars un mūžam jaunais sākotnējais Visaugstais Kungs. Golokas Vrindāvana-dhamā Viņš ekstātiski bauda visas iespējamās garīgās attiecības (<i>rasas</i>). Viņš ir visupievilcīgais visu Dievu Dievs (Narājanas, Višnu un citu), visa un visu Kungs (<i>Sarvešvarešvara</i>). Visas Dieva ekspansijas un visi padievi ar Kungu Šivu (Mahešvaru) priekšgalā patiesi un iedvesmoti kalpo viņam, godājot Viņu par garīgas kalpošanas (<i>tatparas</i>) augstāko objektu.<br>
 Kunga Svētais Vārds ir transcendentāls dārgakmens, kas piepilda mūsu vēlēšanās. Tas nav atšķirams no paša Kunga Krišnas (<i>Nāma chintāmaṇi Kṛṣṇa-Chaitanya-svarūpa</i>), tādēļ nedrīkst uzskatīt, ka Kunga veidols, īpašības un dievišķās rotaļas (<i>līlā-guṇa-rūpa</i>) ir atšķiramas no Viņa Svētā Vārda (jo tās izpaužas mūsu sirdīs pateicoties Viņa Svētajam Vārdam, kurš piepilda visas mūsu vēlēšanās).<br>
-Vēl citādi “<i>Nāma chintāmaṇi Kṛṣṇa-Chaitanya-svarūpa...</i>” var tulkot šādi: Šrī Krišna Čaitanja Mahāprabhū ir visizcilākā, no Svētā Vārda – Harē Krišna mahā-mantras, neatšķirama Kunga forma. Svētais Vārds spēj piepildīt visas vēlēšanās. Nedrīkst domāt, ka ir atšķirība starp Svēto Vārdu, kurš piepilda vēlēšanās, pašu Mahāprabhū un viņa formu, īpašībām un rotaļām. Šajās rotaļās Viņš parāda Svētā Vārda bezgalīgi ekstātisko dievišķo dabu un piepilda ikviena vēlēšanās, personīgi dāvājot Vradžendra-nandana Krišnas <i>prēmu</i> visās iespējamās garīgajās attiecībās (<i>madhura-rasā</i> utt.) caur savu Svēto Vārdu, kurš piepilda visas vēlēšanās.<br>
+Vēl citādi “<i>Nāma chintāmaṇi Kṛṣṇa-Chaitanya-svarūpa...</i>” var tulkot šādi: Šrī Krišna Čaitanja Mahāprabhu ir visizcilākā, no Svētā Vārda – Harē Krišna mahā-mantras, neatšķirama Kunga forma. Svētais Vārds spēj piepildīt visas vēlēšanās. Nedrīkst domāt, ka ir atšķirība starp Svēto Vārdu, kurš piepilda vēlēšanās, pašu Mahāprabhu un viņa formu, īpašībām un rotaļām. Šajās rotaļās Viņš parāda Svētā Vārda bezgalīgi ekstātisko dievišķo dabu un piepilda ikviena vēlēšanās, personīgi dāvājot Vradžendra-nandana Krišnas <i>prēmu</i> visās iespējamās garīgajās attiecībās (<i>madhura-rasā</i> utt.) caur savu Svēto Vārdu, kurš piepilda visas vēlēšanās.<br>
 Otrais apvainojums: uzskatīt padievus vienlīdzīgus Visaugstajam, kā arī uzskatīt Kunga Svēto Vārdu, formu, īpašības un rotaļas par atšķirīgiem no viņa.</p>
 </div>
 <div class="verse-block" data-number="3">
@@ -342,16 +441,16 @@ Desmitais apvainojums: dziedot Svēto Vārdu saglabāt savas materiālās pieķe
 <strong>apūrva śrī-kṛṣṇa-prema labhya tāre hoy</strong><br>
 <strong>nāma-prabhu tāra hṛde nitya vilasay</strong></p>
 <p class="translation">Tās tīrās dvēseles, kas ir pārņemtas ar Harī-Nāma <i>sankirtanu</i>, izvairoties no šiem desmit Svētā Vārda apvainojumiem, izgaršo Šrī Krišnas <i>prēmas</i> brīnumaino augli, jo Šrī Nāma Prabhū (personiskais, patvarīgais un žēlsirdīgais Svētais Vārds, neatšķirams no paša Kunga) parādās viņu sirdīs un mūžam pauž tajā savu ekstātisko formu, īpašības un rotaļas.<br>
-Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedalās personīgā Mahāprabhū Šrī Čaitanjadēva Harī-Nāma <i>sankirtanā</i>, izvairoties no šiem desmit apvainojumiem, izgaršo Krišna-prēmas neatkārtojamo augli, kuru brīvi izplata vienīgi Mahāprabhū, jo Viņš pats (Nāma Prabhū) ir viņu sirdīs un ar savu dievišķi ekstātisko rotaļu viņus aizrauj.</p>
+Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedalās personīgā Mahāprabhu Šrī Čaitanjadēva Harī-Nāma <i>sankirtanā</i>, izvairoties no šiem desmit apvainojumiem, izgaršo Krišna-prēmas neatkārtojamo augli, kuru brīvi izplata vienīgi Mahāprabhu, jo Viņš pats (Nāma Prabhū) ir viņu sirdīs un ar savu dievišķi ekstātisko rotaļu viņus aizrauj.</p>
 </div>
 </section>
 </section>
 <section class="category">
 <h1>Rīta dziesmas</h1>
-<section class="song" data-translated="1">
-<h2>Gupta Govardhana Āratī</h2>
-<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-jaya-jaya-girirajer-arati-vishiala" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Gupta Govardhana Āratī <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
 <h5>1</h5>
 <p class="verse"><strong>jaya jaya girirājer ārati viśāla</strong><br>
 <strong>śrī gaura-maṇḍala-mājhe bhuvana-maṅgala</strong></p>
@@ -412,10 +511,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Mūžam Tu sevi izpaud kā Kungu, kuru pielūdz, un kā Kungu, kurš kalpo. Kritušais kalps redz tavu āratī un izjūt milzīgu prieku!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Girirāj-Govardhan Ārati</h2>
-<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-jaya-jaya-girirajer-arotiko-shobha" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Śrī Girirāj-Govardhan Ārati <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
 <h5>1</h5>
 <p class="verse"><strong>jaya jaya girirājer ārotiko śobhā</strong><br>
 <strong>śrī-vraja-maṇḍala mājhe jaga mana lobhā</strong></p>
@@ -455,7 +554,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h5>7</h5>
 <p class="verse"><strong>abhinna śrī kṛṣṇa jñāne bhajibāra tore</strong><br>
 <strong>mahāprabhu samarpilā raghunātha kore</strong></p>
-<p class="translation">Šrīmans Mahāprabhū dāvāja Šrī Raghunātham Gosvāmī Šrī Šrī Girirādžu-džiu, lai Šrī Dāsa Gosvāmī varētu pielūgt Šrī Girirādžu zinot, ka Viņš nav atšķirams no Kunga Krišnas.</p>
+<p class="translation">Šrīmans Mahāprabhu dāvāja Šrī Raghunātham Gosvāmī Šrī Šrī Girirādžu-džiu, lai Šrī Dāsa Gosvāmī varētu pielūgt Šrī Girirādžu zinot, ka Viņš nav atšķirams no Kunga Krišnas.</p>
 </div>
 <div class="verse-block" data-number="8">
 <h5>8</h5>
@@ -482,11 +581,11 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Šrī Šrī Girirādža-džiu mūžam pauž sevi kā Kungu, kuru pielūdz, un kā Kungu, kurš kalpo. Kritušais kalps sajūsmā vēro Šrī Girirādža-džiu <i>āratī</i>!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Nitāi-Chaitanya-Ārati</h2>
+<section class="song" id="song-jaya-guru-maharaja-karuna-sagara" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Śrī Śrī Nitāi-Chaitanya-Ārati <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
 <h4>Dzied *āratī* laikā Šrī Čaitanja Sarasvat Matha templī Džagannātha Purī</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>jaya guru mahārāja karuṇā-sāgara</strong><br>
 <strong>śrī bhakti rakṣaka deva-gosvāmī śrīdhara</strong></p>
@@ -550,7 +649,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h5>11</h5>
 <p class="verse"><strong>nadīyā prakāśe nityānanda-gauranidhi</strong><br>
 <strong>patita-pāvana-kṣetre milāila vidhi</strong></p>
-<p class="translation">Šrī Nitjānanda un Šrī Gaura Mahāprabhū mūžīgi mīt Navadvīpas Dhāmā, Nādijā. Taču tagad, pateicoties mūsu likteņus mainošā Šrī Gurudēva žēlsirdībai, Viņu dievišķās formas ir izpaudušas sevi arī Purī-dhāmā.</p>
+<p class="translation">Šrī Nitjānanda un Šrī Gaura Mahāprabhu mūžīgi mīt Navadvīpas Dhāmā, Nādijā. Taču tagad, pateicoties mūsu likteņus mainošā Šrī Gurudēva žēlsirdībai, Viņu dievišķās formas ir izpaudušas sevi arī Purī-dhāmā.</p>
 </div>
 <div class="verse-block" data-number="12">
 <h5>12</h5>
@@ -560,11 +659,11 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Neizprotamā kārtā Šrī Šrī Nitai-Čaitanja ir izpauduši sevi un, pateicoties Šrī Gurudēva žēlsirdībai, šī kritusī dvēsele redz Viņu <i>āratī</i> un piedalās <i>sankirtanā</i>!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Guru Ārati</h2>
+<section class="song" id="song-jaya-jaya-gurudever-arati-ujjvala" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Śrī Guru Ārati <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Šrīlas Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža slavināšana</h3>
 <h4>Šrīpāds B.A. Paramahamsa Mahārādža</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>&nbsp;jaya jaya gurudever ārati ujjvala</strong><br>
 <strong>&nbsp;govardhana-pāda-pīthe bhuvana-maṅgala</strong></p>
@@ -661,10 +760,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Ak, mans valdniek, Šrī Gaurangas žēlastības izpausme, lūdzu, esi žēlastīgs pret mani! Šādi, tevi pielūdzot, vienmēr lūdzas tavs nenozīmīgais kalps!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Guru Ārati-stuti</h2>
-<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-jaya-guru-maharaja-jati-rajeshvara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Guru Ārati-stuti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
 <h5>1</h5>
 <p class="verse"><strong>jaya ‘guru-mahārāja’ jati-rājeśvara</strong><br>
 <strong>śrī-bhakti-rakṣaka deva-gosvāmī śrīdhara</strong></p>
@@ -758,13 +857,13 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h5>16</h5>
 <p class="verse"><strong>avichintya-bhedābheda-siddhānta-prakāśa</strong><br>
 <strong>sānande ārati stuti kore dīna-dāsa</strong></p>
-<p class="translation">Šrī Čaitanjas Mahāprabhū atklātās Brīnišķīgās Realitātes iemiesojums! Tavs pazemīgais kalps ar prieku dzied šo lūgšanu un velta to tev!</p>
+<p class="translation">Šrī Čaitanjas Mahāprabhu atklātās Brīnišķīgās Realitātes iemiesojums! Tavs pazemīgais kalps ar prieku dzied šo lūgšanu un velta to tev!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Prabhāti Gīti</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-kali-kukkura-kadana-jadi-chao-he" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Prabhāti Gīti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;kali-kukkura-kadana jadi chāo he</strong><br>
 <strong>kaliyuga-pāvana&nbsp;&nbsp;&nbsp;&nbsp;kali-bhaya-nāśana,</strong><br>
@@ -785,7 +884,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nāma-prabartana-śūra</strong><br>
 <strong>gṛhījana-śikṣaka&nbsp;&nbsp;&nbsp;&nbsp;nyāsikula-nāyaka,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;mādhava-rādhābhāva pūra</strong></p>
-<p class="translation">Viņš ir Nādijas mēness, Majāpuras Kungs un augstsirdīgais glābējs! Viņš atklāja visiem Krišnas Svētā Vārda dziedāšanas slavu. Viņš ir mājsaimnieku skolotājs un <i>sannjāsī</i> virspavēlnieks. Šrī Čaitanja Mahāprabhū – tas ir Krišna, Rādharānī ekstātiskās mīlas jūtu pārpilns.</p>
+<p class="translation">Viņš ir Nādijas mēness, Majāpuras Kungs un augstsirdīgais glābējs! Viņš atklāja visiem Krišnas Svētā Vārda dziedāšanas slavu. Viņš ir mājsaimnieku skolotājs un <i>sannjāsī</i> virspavēlnieks. Šrī Čaitanja Mahāprabhu – tas ir Krišna, Rādharānī ekstātiskās mīlas jūtu pārpilns.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -804,10 +903,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Vrindāvanas maigā, saldā garša ir pilnībā pārņēmusi Šrī Krišnu Čaitanju. Šī saldā garša attīra prātu no netīrām domām, iznīcinot iekāri un maldus. Tā aizdzen sausas empīriskas zināšanas, kuras aizsedz skaistumu, kas piemīt nedalītai garīgai kalpošanai Dievam! Viņš aizstāv, balsta un nepagurstoši sargā sev pilnībā nodevušās dvēseles!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Nām-kīrtan</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-jashomati-nandana-vraja-vara-nagara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Nām-kīrtan <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>jaśomatī-nandana&nbsp;&nbsp;&nbsp;&nbsp;vraja-vara nāgara,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;gokula-rañjana kāna</strong><br>
@@ -839,11 +938,11 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Pastaigājoties pa Jamūnas upes krastiem, Krišna nolaupa peldošos <i>gopiju</i> drēbes. Viņš izbauda rāsas dejas saldo garšu! Viņš ir visžēlsirdīgākais! Viņš ir vienīgais Šrīmatī Rādharanī mīļotais. Krišna ir Vrindāvanas lieliskākais dejotājs un Šrīlas Bhaktivinoda Thākura augstākais patvērums!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Aruṇodoya-kīrtan</h2>
+<section class="song" id="song-udilo-aruna-puraba-bhage" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Aruṇodoya-kīrtan <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>I daļa</h3>
 <h4>Šrīla Bhaktivinoda Thākurs</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>udilo aruṇa pūraba-bhāge,</strong><br>
 <strong>dvija-maṇi gorā amani jāge,</strong><br>
@@ -865,7 +964,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <strong>bolore bolore vadana bhori’,</strong><br>
 <strong>miche nida-baśe gelo re rāti,</strong><br>
 <strong>divasa śorīra sāje</strong></p>
-<p class="translation">Mahāprabhū sauc guļošajiem ļaudīm: “Neizniekojiet naktis bezjēdzīgajam miegam un dienas savu ķermeņu rotāšanai! Sauciet skaļi vārdus Mukunda, Mādhava, Jādava un Harī!”</p>
+<p class="translation">Mahāprabhu sauc guļošajiem ļaudīm: “Neizniekojiet naktis bezjēdzīgajam miegam un dienas savu ķermeņu rotāšanai! Sauciet skaļi vārdus Mukunda, Mādhava, Jādava un Harī!”</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -908,11 +1007,11 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Lai kliedētu neziņas tumsu un svētītu dvēseles visā Visumā, brīnišķais Krišnas Vārds uzausa līdzīgi mirdzošai saulei!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Aruṇodoya-kīrttan</h2>
+<section class="song" id="song-jiv-jago-jiv-jago-gaurachanda-bole" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Aruṇodoya-kīrttan <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>II daļa</h3>
 <h4>Šrīla Bhaktivinoda Thākurs</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>jīv jāgo, jīv jāgo, gaurāchā̐da bole</strong><br>
 <strong>kota nidrā jāo māyā-piśāchīra kole</strong></p>
@@ -943,10 +1042,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Thākurs Bhaktivinoda - krītot pie lotosam līdzīgajām Kunga Gaurangas pēdām un lūdzot Svēto Vārdu, saņēma mahā-mantru.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Gurvāṣṭaka</h2>
-<h4>Šrīla Višvanāths Čakravartī Thākurs</h4>
+<section class="song" id="song-samsara-davanala-lidha-loka" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Śrī Gurvāṣṭaka <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Višvanāths Čakravartī Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>saṁsāra-dāvānala-līḍha-loka-</strong><br>
 <strong>trāṇāya kāruṇya-ghanāghanatvam</strong><br>
@@ -960,7 +1059,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <strong>vāditra-mādyan-manaso rasena</strong><br>
 <strong>romāñcha-kampāśru-taraṅga-bhājo</strong><br>
 <strong>vande guroḥ śrī-charaṇāravindam</strong></p>
-<p class="translation">Es pielūdzu garīgā skolotāja lotosam līdzīgās pēdas! Viņa sirds ir neprātīga no mīlestības nektāra uz Šrīmānu Mahāprabhū kopīgi dziedot Svēto Vārdu! Kad viņš, spēlējot kholu vai karatālas, dejo un dzied, viņa ķermenis laimē trīc un no viņa acīm plūst asaru straumes.</p>
+<p class="translation">Es pielūdzu garīgā skolotāja lotosam līdzīgās pēdas! Viņa sirds ir neprātīga no mīlestības nektāra uz Šrīmānu Mahāprabhu kopīgi dziedot Svēto Vārdu! Kad viņš, spēlējot kholu vai karatālas, dejo un dzied, viņa ķermenis laimē trīc un no viņa acīm plūst asaru straumes.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -1019,10 +1118,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Tas, kurš ar tīru sirdi dzied šīs astoņas lūgšanas garīgajam skolotājam <i>brahma-muhurtā</i> (deviņdesmit sešas minūtes pirms saules lēkta), varēs kalpot Vrindāvanas Valdniekam!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śaraṇāgati - labvēlīgs aicinājums</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-shri-krishna-chaitanya-prabhu-jive-daya-kori" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śaraṇāgati - labvēlīgs aicinājums <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>śrī-kṛṣṇa-chaitanya prabhu jīve dayā kori’</strong><br>
 <strong>svapārṣada svīya dhāma saha avatari</strong></p>
@@ -1065,10 +1164,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Raudot, lejot asaras, es vēršos pie viņiem: “Es esmu pats kritušākais! Lūdzu, māciet man pašatdevi, māciet man tīru kalpošanu!”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Vibhāvarī Śeṣa</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-vibhavari-shiesha-aloka-praveshia" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Vibhāvarī Śeṣa <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>vibhāvarī śeṣa,&nbsp;&nbsp;&nbsp;&nbsp;āloka-praveśa,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nidrā chāḍi’ uṭho jīva</strong><br>
@@ -1133,10 +1232,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Kungs Krišna ir Jamūnas upes dzīvība. Viņš ir vienmēr mīlas rotaļu pārņemts. Viņš ir kā mirdzošs mēness <i>gopījām</i>, kuras, līdzīgi putniem čakora, dzīvo pateicoties Mēness gaismai. Mans prāts, ak, ieklausies šajos vārdos un slavē Šrī Krišnu, dziedot Viņa Svētos Vārdus, kuri ir nektāra saldās garšas piepildīti!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Ṭhākura-vaiṣṇava-gaṇa</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-thakura-vaishnava-gana-kori-ei-nivedana" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Ṭhākura-vaiṣṇava-gaṇa <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ṭhākura vaiṣṇava-gaṇa&nbsp;&nbsp;&nbsp;&nbsp;kori ei nivedana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;mo boḍo adhama durāchāra</strong><br>
@@ -1169,10 +1268,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Manu prātu pievilināja īslaicīgs maņu apmierinājums un es neapzinājos patieso savas dzīves mērķi, tādēļ pat necentos krist pie Tavām lotosam līdzīgajām pēdām, ak, Kungs! Narottams Dāsa lūdzas: “Tagad, kad es varu redzēt un dzirdēt Vaišnavus, esmu atbrīvojies no visām bailēm.”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Nāma-Saṅkīrttan</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-hari-haraye-namah-krishna-yadavaya-namah" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Nāma-Saṅkīrttan <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>hari haraye namaḥ kṛṣṇa yādavāya namaḥ</strong><br>
 <strong>yādavāya mādhavāya keśavāya namaḥ</strong></p>
@@ -1188,7 +1287,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h5>3</h5>
 <p class="verse"><strong>śrī-chaitanya nityānanda śrī advaita-chandra</strong><br>
 <strong>gadādhara śrīvāsādi gaura-bhakta-vṛnda</strong></p>
-<p class="translation">Visa slava Šrī Čaitanjam Mahāprabhū un Nitjānandam Prabhū! Visa slava Mēnesim līdzīgajam Šrī Advaitam Āčārjam! Visa slava Šrī Gadādhāram Panditam un visiem Šrī Čaitanjas bhaktām ar Šrīvāsu Thākuru priekšgalā!</p>
+<p class="translation">Visa slava Šrī Čaitanjam Mahāprabhu un Nitjānandam Prabhū! Visa slava Mēnesim līdzīgajam Šrī Advaitam Āčārjam! Visa slava Šrī Gadādhāram Panditam un visiem Šrī Čaitanjas bhaktām ar Šrīvāsu Thākuru priekšgalā!</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -1236,9 +1335,9 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 </section>
 <section class="category">
 <h1>Dienas dziesmas</h1>
-<section class="song" data-translated="1">
-<h2>Mahāprasāda</h2>
+<section class="song" id="song-mahaprasade-govinde-nama-brahmani" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Mahāprasāda <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>mahāprasāde govinde nāma brahmaṇi vaiṣṇave</strong><br>
 <strong>svalpa pūṇya vatāṁ rājan viśvāso naiva jāyate</strong></p>
 <p class="translation">Tie, kam nav pietiekošu  garīgās tikumības uzkrājumu, nevarēs godāt <i>mahāprasādu</i>, Kungu Govindu, Kunga Svēto Vārdu un Vaišnavus.</p>
@@ -1247,10 +1346,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 </section>
 <section class="category">
 <h1>Vakara dziesmas</h1>
-<section class="song" data-translated="1">
-<h2>Śrī Gaura-ārati</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-jaya-jaya-gaurachander-arotiko-shobha" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Gaura-ārati <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="verse">(kiba)<strong> jaya jaya gorācāńder āratiko śobhā</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;jāhnavī-taṭa-vane jaga-mana-lobhā</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaga janer mana-lobhā)<br>
@@ -1316,10 +1415,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Apveltiet mani ar savu žēlsirdību! Šrī Bhaktivinoda, Šrī Sarasvatī Thākur, Gurudēv – kritušo glābēj! Kungs Gauraharī ar saviem pavadoņiem, lūdzu, dāvājiet man savu žēlsirdību.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Sāraswat-ārati</h2>
-<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
+<section class="song" id="song-jayare-jayare-jaya-gaura-sarasvati" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Sāraswat-ārati <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h5>1</h5>
 <p class="verse"><strong>jayare jayare jaya gaura-sarasvatī</strong><br>
 <strong>bhakativinoda nvaya koruṇā murati</strong></p>
@@ -1347,7 +1446,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h5>5</h5>
 <p class="verse"><strong>mādhuryya kaivalya rāga brajera nirjāsa</strong><br>
 <strong>prāpti parākāṣṭhā tāhe gaurāṅga vilāsa</strong></p>
-<p class="translation">Mādhurja-rasa (dievišķā laulāto mīlestība) ir Vradža-dhāmas būtība, bet Šrīmāna Mahāprabhū rotaļas uznes to līdz augstākajai pilnībai.</p>
+<p class="translation">Mādhurja-rasa (dievišķā laulāto mīlestība) ir Vradža-dhāmas būtība, bet Šrīmāna Mahāprabhu rotaļas uznes to līdz augstākajai pilnībai.</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
@@ -1377,13 +1476,13 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h5>10</h5>
 <p class="verse"><strong>nadīyā prakāśe Mahaprabhu gaura-nidhi</strong><br>
 <strong>patita pāvana deve milāila vidhi</strong></p>
-<p class="translation">Ar Kunga dievišķo gribu Visaugstais — kritušo dvēseļu glābējs, ieradās Nādijā kā visu mīļotais Šrī Gauranga Mahāprabhū.</p>
+<p class="translation">Ar Kunga dievišķo gribu Visaugstais — kritušo dvēseļu glābējs, ieradās Nādijā kā visu mīļotais Šrī Gauranga Mahāprabhu.</p>
 </div>
 <div class="verse-block" data-number="11">
 <h5>11</h5>
 <p class="verse"><strong>e-rūpa ārati brahmā śambhu agochara</strong><br>
 <strong>gaura bhakta kṛpā pātra mātra siddhi sāra</strong></p>
-<p class="translation">Šāda Mahāprabhū pielūgšana ir ārpus Kunga Brahmas un Kunga Šambhī (Šivas) redzes iespējām. Tikai saņemot Kunga Gaurangas bhaktu žēlastību, var sasniegt šādu pilnību.</p>
+<p class="translation">Šāda Mahāprabhu pielūgšana ir ārpus Kunga Brahmas un Kunga Šambhī (Šivas) redzes iespējām. Tikai saņemot Kunga Gaurangas bhaktu žēlastību, var sasniegt šādu pilnību.</p>
 </div>
 <div class="verse-block" data-number="12">
 <h5>12</h5>
@@ -1398,10 +1497,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Visa slava Šrī Guru, Kungam Gaurangam, Šrī Rādhai un brīnišķajam Kungam Govindam! Bhaktas, vienmēr un visur dziediet par Viņu slavu!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Gurudeva</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-gurudeva-kripa-bindu-diya-kara-ei-dase" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Gurudeva <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="verse"><strong>gurudeva!</strong><br>
 <strong>kṛpā-bindu diyā, koro’ ei dāse,</strong><br>
 <strong>tṛṇāpekṣā ati dīna</strong><br>
@@ -1430,10 +1529,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <strong>prāṇa nā rākhibo āra</strong></p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Tulasī-parikramā-gīti</h2>
-<h4>Šrīla Čandrašekhars Kavī</h4>
+<section class="song" id="song-namo-namah-tulasi-maharani" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Tulasī-parikramā-gīti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Čandrašekhars Kavī</h4>
 <p class="verse"><strong>namo namaḥ tulasī mahārāṇī,</strong><br>
 <strong>vṛnde mahārāṇī namo namaḥ</strong></p>
 <p class="translation">Tulasī Mahārānī, Vrinda Dēvī, es klanos tavā priekšā atkal un atkal!</p>
@@ -1469,10 +1568,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Kungs Šiva, Šukadēvs Gosvāmī, Nārada Mūnī, visi debesu iemītnieki ar Kungu Brahmu priekšgalā, mistiķi un diženie mūnī cieņpilni apiet apkārt tev. Ak, Tulasī Mahārānī, tā tevi slavē Čandrašekhars! Dāvā viņam šo velti — sevis pilnīgu veltīšanu Dievam!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Guru-vaiṣṇava Māhātmya-gīti</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-shri-guru-charana-padma-kevala-bhakati" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Guru-vaiṣṇava Māhātmya-gīti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>śrī guru charaṇa-padma, 	kevala-bhakati-sadma,</strong><br>
 <strong>bando mui sāvadhāna mate</strong><br>
@@ -1517,10 +1616,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Esmu nodevis sevi tavām lotosam līdzīgajām pēdām! Lūdzu, esi žēlsirdīgs pret mani, Šrī Gurudēv, kritušo glābēj, lūdzu, dāvā man savu žēlsirdību! Tu esi kritušo dvēseļu glābējs! Slava tev, Šrī Gurudēv!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Sāvaraṇa-Śrī-Gaura-pāda-padme Prārthanā</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-shri-krishna-chaitanya-prabhu-daya-kara-more" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Sāvaraṇa-Śrī-Gaura-pāda-padme Prārthanā <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>śrī kṛṣṇa chaitanya prabhu dayā kara more</strong><br>
 <strong>tomā vinā ke dayālu jagata mājhāre</strong></p>
@@ -1569,10 +1668,10 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <p class="translation">Lūdzu, dāvā man savas svētības, Šrīla Prabhupāda Sarasvatī Thākur, Šrī Gauras izpausme! Esmu kritis kalps un lūdzu tavu pavadoņu žēlastību!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Vaiṣṇava-mahimā-gīti</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-vaishnava-thakura-dayara-sagara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Vaiṣṇava-mahimā-gīti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse">(ohe)<strong> vaiṣṇava ṭhākura,&nbsp;&nbsp;&nbsp;&nbsp;dayāra sāgara,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;e dāse karuṇā kori</strong><br>
@@ -1619,12 +1718,12 @@ Seši svētas saskarsmes veidi: piedāvāt labdarības dāvanas, pieņemt ziedoj
 </section>
 <section class="category">
 <h1>Śrī Śrī Premadhāma-deva-stotram</h1>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Premadhāma-deva-stotram</h2>
+<section class="song" id="song-deva-siddha-mukta-yukta-bhakta-vrinda" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Śrī Śrī Premadhāma-deva-stotram <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Sestdiena</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h4>Svāmī Bhakti Pavan Džanardana redakcija</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>deva-siddha-mukta-yukta-bhakta-vṛnda-vanditaṁ</strong><br>
 <strong>pāpa-tāpa-dāva-dāha-dagdha duḥkha-khaṇḍitam</strong><br>
@@ -1632,7 +1731,7 @@ Seši svētas saskarsmes veidi: piedāvāt labdarības dāvanas, pieņemt ziedoj
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
 <p class="translation">Debesu iemītnieki, pilnīgās dvēseles, atbrīvošanas tīkotāji, mistiskie jogi un augstie Absolūtās Patiesības – Šrī Krišnas, kalpi, vienmēr slavē Šrī Gaurasundaru. Šrīla Rūpa Gosvāmī savā “Šrī Čaitanjaštakam” min šādu vārsmu:<br>
 <i>sadopāsyaḥ śrīmān dhṛta-manuja-kāyaiḥ praṇayitāṁ</i><br /><i>vahadbhir gīr-vāṇair giriśa-parameṣṭhi-prabhṛtibhiḥ</i><br>
-“Debesu iemītnieki, ar Kungu Šivu un Kungu Brahmu priekšgalā, tērpušies vienkāršu cilvēku drānās, piedalījās Šrī Čaitanjadēva rotaļās, lai patiesā maigumā mūžīgi pielūgtu Viņu”. Šrī Čaitanjadēvs ir plašā tīra nektāra okeāna iemiesojums, kurš rod savu sākumu Svētajā Kunga Krišnas Vārdā, kas ir nekas cits kā tīrs paša Šrī Gaurangas Vārds. Šrī Čaitanjadēvu salīdzina ar dižo piena okeānu, kuru kuļot izdalījās nektārs. Nektārs, kuru izplata Mahāprabhū, ir svētie Kunga Krišnas Vārdi. Tie novērš tādas materiālās esības likstas kā prom no Kunga vedošs grēcīgas rīcības radīts nemiers un trīskāršas ciešanas, kuras tikai pastiprina meža ugunsgrēku, kurā deg juteklisko baudu un atbrīvošanas meklētāji un mistiskie jogi. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
+“Debesu iemītnieki, ar Kungu Šivu un Kungu Brahmu priekšgalā, tērpušies vienkāršu cilvēku drānās, piedalījās Šrī Čaitanjadēva rotaļās, lai patiesā maigumā mūžīgi pielūgtu Viņu”. Šrī Čaitanjadēvs ir plašā tīra nektāra okeāna iemiesojums, kurš rod savu sākumu Svētajā Kunga Krišnas Vārdā, kas ir nekas cits kā tīrs paša Šrī Gaurangas Vārds. Šrī Čaitanjadēvu salīdzina ar dižo piena okeānu, kuru kuļot izdalījās nektārs. Nektārs, kuru izplata Mahāprabhu, ir svētie Kunga Krišnas Vārdi. Tie novērš tādas materiālās esības likstas kā prom no Kunga vedošs grēcīgas rīcības radīts nemiers un trīskāršas ciešanas, kuras tikai pastiprina meža ugunsgrēku, kurā deg juteklisko baudu un atbrīvošanas meklētāji un mistiskie jogi. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
@@ -1640,7 +1739,7 @@ Seši svētas saskarsmes veidi: piedāvāt labdarības dāvanas, pieņemt ziedoj
 <strong>padma-pārijāta-gandha-vanditāṅga-saurabham</strong><br>
 <strong>koṭi-kāma-mūrchitāṅghri-rūpa-rāsa-raṅgaraṁ</strong><br>
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
-<p class="translation">Šrī Gaurasundara dievišķā ķermeņa apburošais mirdzums līdzinās miljons žilbinošu zelta spoguļu mirdzumam. Pati lotosa un paridžāta smarža velta pazemīgas lūgšanas saldajam aromātam, kurš nāk no brīnišķīgā Šrī Čaitanjas Mahāprabhū ķermeņa. Miljoni un miljoni kupidonu zaudē samaņu pie graciozā Šrī Čaitanjadēva ķermeņa pēdām. Kupidonus satriec tas, ka viņu visā Visumā zināmā mirdzošā skaistuma slava ir nobālējusi. Šrī Gaurasundars izpilda savu priecīgo deju un Viņa dievišķais ķermenis graciozi kustas. Plūstoši, līdzīgi ūdens straumei, Kunga rokas un kājas kustas vienā ritmā ar dažādo kalpošanas jūtu apburošajiem toņiem – <i>bhāvām</i>, kuras valda pār Viņu. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
+<p class="translation">Šrī Gaurasundara dievišķā ķermeņa apburošais mirdzums līdzinās miljons žilbinošu zelta spoguļu mirdzumam. Pati lotosa un paridžāta smarža velta pazemīgas lūgšanas saldajam aromātam, kurš nāk no brīnišķīgā Šrī Čaitanjas Mahāprabhu ķermeņa. Miljoni un miljoni kupidonu zaudē samaņu pie graciozā Šrī Čaitanjadēva ķermeņa pēdām. Kupidonus satriec tas, ka viņu visā Visumā zināmā mirdzošā skaistuma slava ir nobālējusi. Šrī Gaurasundars izpilda savu priecīgo deju un Viņa dievišķais ķermenis graciozi kustas. Plūstoši, līdzīgi ūdens straumei, Kunga rokas un kājas kustas vienā ritmā ar dažādo kalpošanas jūtu apburošajiem toņiem – <i>bhāvām</i>, kuras valda pār Viņu. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -1707,15 +1806,15 @@ Allaž, kad mazulis Nīmajs dusmojās vai raudāja, tikai Kunga Krišnas Svēto 
 <strong>vyatyalaṅkṛtādi-doṣa-tarkitārtha-dūṣitam</strong><br>
 <strong>dhvasta-yukti-ruddha-buddhi-datta-dhīmadādaraṁ</strong><br>
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
-<p class="translation">Pēc tam, kad dižais sanskrita pazinējs Kēšava Kašmirī ar sava intelekta palīdzību bija guvis uzvaru visās desmit pasaules malās, Gangas krastā viņš stājās Šrī Čaitanjas Mahāprabhū priekšā. Izpildot Kunga lūgumu, viņš turpat, bez gatavošanās, sacerēja un nodeklamēja daudzas brīnišķīgas lūgšanas svētās Gangas slavai. Šrī Gaurangadēvs norādīja uz dažām retoriskām kļūdām viņa sacerējumos un ar to zinātnieku ļoti pārsteidza. Kēšava Kašmirī savai aizstāvībai prasmīgi izvirzīja daudzus loģiskus argumentus, taču beigu beigās cieta sakāvi. Kad tika atklāta Kēšavas Kašmirī nekompetence un viņa prāts bija pilnīgā mulsumā, Kungs Gauranga žēlsirdīgi izrādīja viņam cieņu kā dižam zinātniekam, lai novērstu izsmieklu no klātesošo Kunga skolnieku puses. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
+<p class="translation">Pēc tam, kad dižais sanskrita pazinējs Kēšava Kašmirī ar sava intelekta palīdzību bija guvis uzvaru visās desmit pasaules malās, Gangas krastā viņš stājās Šrī Čaitanjas Mahāprabhu priekšā. Izpildot Kunga lūgumu, viņš turpat, bez gatavošanās, sacerēja un nodeklamēja daudzas brīnišķīgas lūgšanas svētās Gangas slavai. Šrī Gaurangadēvs norādīja uz dažām retoriskām kļūdām viņa sacerējumos un ar to zinātnieku ļoti pārsteidza. Kēšava Kašmirī savai aizstāvībai prasmīgi izvirzīja daudzus loģiskus argumentus, taču beigu beigās cieta sakāvi. Kad tika atklāta Kēšavas Kašmirī nekompetence un viņa prāts bija pilnīgā mulsumā, Kungs Gauranga žēlsirdīgi izrādīja viņam cieņu kā dižam zinātniekam, lai novērstu izsmieklu no klātesošo Kunga skolnieku puses. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Premadhāma-deva-stotram</h2>
+<section class="song" id="song-sutra-vritti-tippanishta-sukshma-vachanadbhutam" data-translated="1">
+<div class="verse-block" data-number="11">
+<h2>Śrī Śrī Premadhāma-deva-stotram <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Svētdiena</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h4>Svāmī Bhakti Pavan Džanardana redakcija</h4>
-<div class="verse-block" data-number="11">
 <h5>11</h5>
 <p class="verse"><strong>sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ</strong><br>
 <strong>dhātu-mātra-kṛṣṇa-śakti-sarva-viśva-sambhṛtam</strong><br>
@@ -1796,12 +1895,12 @@ Allaž, kad mazulis Nīmajs dusmojās vai raudāja, tikai Kunga Krišnas Svēto 
 <p class="translation">Šrī Gaurangadēva dievišķais veidols bezgalīgi priecē debesu iemītniekus visā plašajā Visumā, jo Viņš ir apburošs tīras mīlestības iemiesojums. No Viņa ķermeņa nākošā mirdzošā gaisma aizēno miljons zelta lotosus, iekarojot tādas starojošas personības kā Čandradēva mīlestību. Šrī Gauranga ir visu garīgo rotaļu avots, jo Viņš ir mūžam svaigo un mainīgo <i>sattvika-bhāva</i> noskaņojumu iemiesojums. Šie noskaņojumi izpaužas Viņa prieka pilnajā kopīgajā Kunga Krišnas Svēto Vārdu slavas dziesmu dejā. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Premadhāma-deva-stotram</h2>
+<section class="song" id="song-dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram" data-translated="1">
+<div class="verse-block" data-number="21">
+<h2>Śrī Śrī Premadhāma-deva-stotram <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Pirmdiena</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h4>Svāmī Bhakti Pavan Džanardana redakcija</h4>
-<div class="verse-block" data-number="21">
 <h5>21</h5>
 <p class="verse"><strong>dhvasta-sārvabhauma-vāda-navya-tarka-śāṅkaraṁ</strong><br>
 <strong>dhvasta-tad-vivarta-vāda-dānavīya-ḍambaram</strong><br>
@@ -1888,12 +1987,12 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 “Mana dārgā draudzene, šeit Kurukšetrā, es beidzot atkal satiku savu mīļoto Krišnu! Es – tā pati Rādharānī, un Viņš – Tas pats Krišna! Mūsu satikšanās ir prieka pilna, taču es vēlos atgriezties Kālindī krastos. Tur, zem Vrindāvanas meža kokiem, es varētu klausīties Viņa piekto noti spēlējošās flautas saldo melodiju!” Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Premadhāma-deva-stotram</h2>
+<section class="song" id="song-prema-mugdha-rudra-raja-shiaurya-virya-vikramam" data-translated="1">
+<div class="verse-block" data-number="31">
+<h2>Śrī Śrī Premadhāma-deva-stotram <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Otrdiena</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h4>Svāmī Bhakti Pavan Džanardana redakcija</h4>
-<div class="verse-block" data-number="31">
 <h5>31</h5>
 <p class="verse"><strong>prema-mugdha-rudra-rāja-śaurya-vīrya-vikramaṁ</strong><br>
 <strong>prārthitāṅghri-varjitānya-sarva-dharma-saṅgamam</strong><br>
@@ -1976,12 +2075,12 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Tīras mīlestības viļņa pilnīgi satriekts, Kungs Gaurasundars ekstāzē dejoja un dziedāja Krišnas Svētos Vārdus! Bagātīgas asaru straumes lija no Viņa brīnišķīgajām acīm pāri milzīgajam, zeltītajam, starojošajam ķermenim, pāri Viņa mirdzošajam apģērbam, kurš atgādināja sauli, un tālāk pa zemi, izplūstot visos četros virzienos! Kunga rotaļu prieks ekstātiski pieauga! Neprāta stāvoklī Kungs nepareizi izrunāja Krišnas Svētos Vārdus un smejoties kauca, iegrimis dziļo pārdzīvojumu sajūsmā. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Premadhāma-deva-stotram</h2>
+<section class="song" id="song-prema-mugdha-nritya-kirtanakularitantikam" data-translated="1">
+<div class="verse-block" data-number="41">
+<h2>Śrī Śrī Premadhāma-deva-stotram <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Trešdiena</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h4>Svāmī Bhakti Pavan Džanardana redakcija</h4>
-<div class="verse-block" data-number="41">
 <h5>41</h5>
 <p class="verse"><strong>prema-mugdha-nṛtya-kīrtanākulāriṭāntikaṁ</strong><br>
 <strong>snāna-dhanya-vāri-dhānya-bhūmi-kuṇḍa-deśakam</strong><br>
@@ -1997,7 +2096,7 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <strong>nirjanaika-rādhikātma-bhāva-vaibhavāvṛtam</strong><br>
 <strong>śyāma-rādhikāpta-gaura-tattva-bhittikākaraṁ</strong><br>
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
-<p class="translation">Apmeklējot dažādas vietas Vrindāvanā, kur Šrī Krišna baudīja savas rotaļas, Kungs ieraudzīja slaveno tamarinda koku, kurš šajā vietā stāvējis jau kopš <i>Dvapara-jugas</i>. Kad Kungs sēdēja zem koka, skats uz Jamūnas dejojošajiem viļņiem atmodināja Viņā atmiņas par Viņa un ganumeiteņu slepenajām rotaļām ūdenī. Savas sirds dziļumos Kungs bija pilnībā pārņemts ar saldo Šrī Rādhas noskaņojuma garšu. Kungs juta, ka pats Viņš arī ir šis saldums! Šis pārdzīvojums valdīja pār Viņu, un pati dzīve slīdēja no Viņa prom. Uz šo vietu norāda kā uz Gaura-<i>tattvas</i> norises vietu, jo tieši šeit Kungs Šjāmasundars iegrima dievišķajā Šrīmatī Rādharānī noskaņojumā. Šajā vietā mūžam mīt Šrī Čaitanja Mahāprabhū, kurš pats ir visa avots! Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
+<p class="translation">Apmeklējot dažādas vietas Vrindāvanā, kur Šrī Krišna baudīja savas rotaļas, Kungs ieraudzīja slaveno tamarinda koku, kurš šajā vietā stāvējis jau kopš <i>Dvapara-jugas</i>. Kad Kungs sēdēja zem koka, skats uz Jamūnas dejojošajiem viļņiem atmodināja Viņā atmiņas par Viņa un ganumeiteņu slepenajām rotaļām ūdenī. Savas sirds dziļumos Kungs bija pilnībā pārņemts ar saldo Šrī Rādhas noskaņojuma garšu. Kungs juta, ka pats Viņš arī ir šis saldums! Šis pārdzīvojums valdīja pār Viņu, un pati dzīve slīdēja no Viņa prom. Uz šo vietu norāda kā uz Gaura-<i>tattvas</i> norises vietu, jo tieši šeit Kungs Šjāmasundars iegrima dievišķajā Šrīmatī Rādharānī noskaņojumā. Šajā vietā mūžam mīt Šrī Čaitanja Mahāprabhu, kurš pats ir visa avots! Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="43">
 <h5>43</h5>
@@ -2070,12 +2169,12 @@ Papagaiļa draudzene teica: “Kad Kungs Krišna atrodas blakus Rādharānī, pa
 “Pat atbrīvotās dvēseles, kuras smeļ pilnīgu apmierinātību sevī, izjūt nepārvaramu tiekšanos pie pārākajā veidā izcilajām Krišnas īpašībām un velta sevi pilnībā Viņam vienam.” Kungs atsevišķi izskatīja katru no vienpadsmit vārsmas vārdiem un atklāja, ka katrs no tiem ir milzīga neierobežotu dārgumu glabātuve un katrs no tiem apstiprina slēdzienus par tīru <i>bhakti</i>. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Premadhāma-deva-stotram</h2>
+<section class="song" id="song-shri-sanatananu-rupa-jiva-sampradayakam" data-translated="1">
+<div class="verse-block" data-number="51">
+<h2>Śrī Śrī Premadhāma-deva-stotram <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Ceturtdiena</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h4>Svāmī Bhakti Pavan Džanardana redakcija</h4>
-<div class="verse-block" data-number="51">
 <h5>51</h5>
 <p class="verse"><strong>śrī sanātanānu-rūpa-jīva-sampradāyakaṁ</strong><br>
 <strong>lupta-tīrtha-śuddha-bhakti-śāstra-suprachārakam</strong><br>
@@ -2105,7 +2204,7 @@ Papagaiļa draudzene teica: “Kad Kungs Krišna atrodas blakus Rādharānī, pa
 <strong>dvādaśābda-vahni-garbha-vipralambha-śīlanam</strong><br>
 <strong>rādhikādhirūḍha-bhāva-kānti-kṛṣṇa-kuñjaraṁ</strong><br>
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
-<p class="translation">Iegrimis dziļi sava skaistuma un saldās garšas patiesajā būtībā, Kungs Govinda nolaupīja Rādharānī noskaņojumu un, tērpies Viņas dzirkstošajā mirdzumā, atnāca kā Šrī Čaitanja Mahāprabhū. Pēdējos divpadsmit savu izpausto rotaļu gadus Viņš bija vienotības un atšķirtības jūtu pārņemts un dalījās ar savas sirds slepenajiem pārdzīvojumiem vienīgi ar Saviem uzticamākajiem bhaktām, tādiem kā Svarūpa Damodārs un Rāmanānda Rajs: <i>bāhire viṣajvālā hoy, antare ānandamoy</i>.<br>
+<p class="translation">Iegrimis dziļi sava skaistuma un saldās garšas patiesajā būtībā, Kungs Govinda nolaupīja Rādharānī noskaņojumu un, tērpies Viņas dzirkstošajā mirdzumā, atnāca kā Šrī Čaitanja Mahāprabhu. Pēdējos divpadsmit savu izpausto rotaļu gadus Viņš bija vienotības un atšķirtības jūtu pārņemts un dalījās ar savas sirds slepenajiem pārdzīvojumiem vienīgi ar Saviem uzticamākajiem bhaktām, tādiem kā Svarūpa Damodārs un Rāmanānda Rajs: <i>bāhire viṣajvālā hoy, antare ānandamoy</i>.<br>
 “Dievišķās mīlestības uz Krišnu pārsteidzošā īpatnība ir tajā, ka ārēji tā darbojas kā karsta lava, taču iekšēji līdzinās saldam nektāram, kas piepilda sirdi ar lielāko prieku.” Vulkāna izvirdumiem līdzīgās ekstāzes plūsmas tecēja no Šrī Gaurangas sirds, kas kvēloja atšķirtībā no Krišnas. Zeltītais Kungs, kurš izskatījās pēc apskurbuša ziloņa, bija neviens cits kā Kungs Govinda! Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="55">
@@ -2157,18 +2256,18 @@ Papagaiļa draudzene teica: “Kad Kungs Krišna atrodas blakus Rādharānī, pa
 <p class="translation">Satrauktie bhaktas sāka skaļi dziedāt Kunga Krišnas Svētos Vārdus un šī dievišķā skaņa iekļuva Kunga ausīs skardama Viņa sirds dziļumus. Kunga izmežģītās locītavas nekavējoties atgriezās savās vietās un Viņš atkal pieņēma to brīnišķīgo veidolu, kuru bija pieradušas baudīt bhaktu acis. Daļējas apziņas stāvoklī, pārdzīvodams dziļas atšķirtības ilgas,  Kungs sāka aprakstīt to, ko bija redzējis, kamēr bija gremdējies dievišķajā transā. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Premadhāma-deva-stotram</h2>
+<section class="song" id="song-yamunambu-krishna-radhikali-keli-mandalam" data-translated="1">
+<div class="verse-block" data-number="61">
+<h2>Śrī Śrī Premadhāma-deva-stotram <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Piektdiena</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <h4>Svāmī Bhakti Pavan Džanardana redakcija</h4>
-<div class="verse-block" data-number="61">
 <h5>61</h5>
 <p class="verse"><strong>yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalaṁ</strong><br>
 <strong>vyakta-gupta-dṛpta-tṛpta-bhaṅgi-mādanākulam</strong><br>
 <strong>gūḍha-divya-marma-moda-mūrchanā-chamatkaraṁ</strong><br>
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
-<p class="translation">Vrindāvanā, Jamūnas svētajos ūdeņos, Šrī Šrī Rādha Govinda kopā ar savām visdārgākajām draudzenēm ganumeitenēm nododas valdzinošām izklaidēm. Dažkārt šīs dievišķās rotaļas ir atklātas, dažkārt slēptas, dažkārt tās nonāk pretrunās, bet dažkārt tās ir harmonijā... Tā Kunga rotaļas izpaužas daudzveidīgos žestos, kurus izsauc dažādas dievišķās vēlmes. Šrī Čaitanja Mahāprabhū izplatīja slepeno garīgo dārgumu maigo melodiju, kura izbrīnīja visu Visumu. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
+<p class="translation">Vrindāvanā, Jamūnas svētajos ūdeņos, Šrī Šrī Rādha Govinda kopā ar savām visdārgākajām draudzenēm ganumeitenēm nododas valdzinošām izklaidēm. Dažkārt šīs dievišķās rotaļas ir atklātas, dažkārt slēptas, dažkārt tās nonāk pretrunās, bet dažkārt tās ir harmonijā... Tā Kunga rotaļas izpaužas daudzveidīgos žestos, kurus izsauc dažādas dievišķās vēlmes. Šrī Čaitanja Mahāprabhu izplatīja slepeno garīgo dārgumu maigo melodiju, kura izbrīnīja visu Visumu. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="62">
 <h5>62</h5>
@@ -2184,7 +2283,7 @@ Papagaiļa draudzene teica: “Kad Kungs Krišna atrodas blakus Rādharānī, pa
 <strong>prema-labhya-bhāva-siddha-chetanā-chamatkṛtam</strong><br>
 <strong>brahma-śambhu-veda-tantra-mṛgya-satya-sundaraṁ</strong><br>
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
-<p class="translation">Šrī Čaitanja Mahāprabhū ne tikai atrodas aiz materiālās redzes un skaņas robežām, bet arī aptur visus intelektuālos centienus viņu iepazīt. Vienmēr atrodoties tīras mīlestības uz Dievu stāvoklī, Viņš paliek noslēpums un izbrīna pat tās dzīvās būtnes, kuras nostiprinājušās savas garīgās dabas izpratnē. Kunga Brahmas atklātās Vēdas un Kunga Šivas tantriskie raksti ir Šrī Gaurasundara, Brīnišķīgās Realitātes, meklējumos! Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
+<p class="translation">Šrī Čaitanja Mahāprabhu ne tikai atrodas aiz materiālās redzes un skaņas robežām, bet arī aptur visus intelektuālos centienus viņu iepazīt. Vienmēr atrodoties tīras mīlestības uz Dievu stāvoklī, Viņš paliek noslēpums un izbrīna pat tās dzīvās būtnes, kuras nostiprinājušās savas garīgās dabas izpratnē. Kunga Brahmas atklātās Vēdas un Kunga Šivas tantriskie raksti ir Šrī Gaurasundara, Brīnišķīgās Realitātes, meklējumos! Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="64">
 <h5>64</h5>
@@ -2208,7 +2307,7 @@ Papagaiļa draudzene teica: “Kad Kungs Krišna atrodas blakus Rādharānī, pa
 <strong>svānubhāva-matta-nṛtya-kīrtanātma-vaṇṭanam</strong><br>
 <strong>advayaika-lakṣya-pūrṇa-tattva-tat-parātparaṁ</strong><br>
 <strong>prema-dhāma-devam eva naumi gaura-sundaram</strong></p>
-<p class="translation">Lūk, visu uzvarošs secinājums: Sākotnējai Realitātei ir jābūt arī augstākajai <i>ānandas</i> formai, ekstāzei! Šrī Čaitanja Mahāprabhū ir Krišna, pati ekstāze, kura bauda savu saldo garšu un ekstātiskā sajūsmā dejo! Viņa paša Svētais Vārds ir Viņa dejā izpaustās ekstāzes cēlonis, un Svētais Vārds ir Viņa dziesmā izpaustās ekstāzes sekas. Cēlonis ir sekas! Cēlonis rada ekstāzes enerģiju, kura liek Viņam dejot, bet Viņa dziedāšana izplata šo ekstāzi citiem. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
+<p class="translation">Lūk, visu uzvarošs secinājums: Sākotnējai Realitātei ir jābūt arī augstākajai <i>ānandas</i> formai, ekstāzei! Šrī Čaitanja Mahāprabhu ir Krišna, pati ekstāze, kura bauda savu saldo garšu un ekstātiskā sajūsmā dejo! Viņa paša Svētais Vārds ir Viņa dejā izpaustās ekstāzes cēlonis, un Svētais Vārds ir Viņa dziesmā izpaustās ekstāzes sekas. Cēlonis ir sekas! Cēlonis rada ekstāzes enerģiju, kura liek Viņam dejot, bet Viņa dziedāšana izplata šo ekstāzi citiem. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="67">
 <h5>67</h5>
@@ -2254,16 +2353,16 @@ Savā slavenajā darbā “Šrī Šikšāštakam” Kungs Gauranga nostiprināja
 <h5>72</h5>
 <p class="verse"><strong>pañchame śata-gaurābde śrī-siddhānta-sarasvatī</strong><br>
 <strong>śrīdharaḥ ko ’pi tach chiṣyas tridaṇḍī-nauti-sundaram</strong></p>
-<p class="translation">Šīs lūgšanas piektajā gadsimtā pēc Šrī Čaitanjas Mahāprabhū atnākšanas sastādīja Šrī Sarasvatī Thākura sannjāsī-skolnieks vārdā Šrīdhārs (Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža).</p>
+<p class="translation">Šīs lūgšanas piektajā gadsimtā pēc Šrī Čaitanjas Mahāprabhu atnākšanas sastādīja Šrī Sarasvatī Thākura sannjāsī-skolnieks vārdā Šrīdhārs (Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža).</p>
 </div>
 </section>
 </section>
 <section class="category">
 <h1>Dziesmas Nitjānandam Prabhū</h1>
-<section class="song" data-translated="1">
-<h2>Manaḥ-Śikṣā</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-nitai-pada-kamala-koti-chandra-sushitala" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Manaḥ-Śikṣā <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>nitāi-pada-kamala,&nbsp;&nbsp;&nbsp;&nbsp;koṭī-chandra-suśītala,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;je chāyāya jagata juḍāy</strong><br>
@@ -2296,11 +2395,11 @@ Savā slavenajā darbā “Šrī Šikšāštakam” Kungs Gauranga nostiprināja
 <p class="translation">Nitjānandas lotosam līdzīgās pēdas ir Patiesība, un Viņa kalpi ir mūžīgi. Vienmēr tiecies pieņemt patvērumu pie Viņa pēdām! Narottams dāsa ir ļoti nelaimīgs! Ak, Nītaj, padari mani laimīgu! Lūdzos.. ļauj man vienmēr atrasties pie Tavām brīnišķīgajām, lotosam līdzīgajām pēdām!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Prabhupāda-padma Stavakaḥ</h2>
+<section class="song" id="song-sujanarvuda-radhita-pada-yugam" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Śrī Śrī Prabhupāda-padma Stavakaḥ <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Lūgšana mana kunga un skolotāja Šrīlas Bhaktisiddhanta Sarasvatī Thākura Prabhupādas lotosam līdzīgajām pēdām</h3>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
-<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>sujanārvuda-rādhita-pāda-yugaṁ</strong><br>
 <strong>yuga-dharma-dhurandhara-pātra-varam</strong><br>
@@ -2389,10 +2488,10 @@ Savā slavenajā darbā “Šrī Šikšāštakam” Kungs Gauranga nostiprināja
 <p class="translation">Viņš ir Šrī Vrišabhanū dievišķās meitas tuvākais un dārgākais pavadonis, un es esmu neiedomājami veiksmīgs, jo putekļi no viņa svētajām kājām ir skāruši manu galvu. Es klanos pie viņa varenajām, lotosam līdzīgajām pēdām, kurām piemīt brīnumains attīrīšanas spēks! Atkal un atkal es klanos starojumam, kas nāk no mana Kunga lotosam līdzīgajām pēdām.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Nitāi guṇamaṇi āmāra</h2>
-<h4>Šrīla Ločans Dāsa Thākurs</h4>
+<section class="song" id="song-nitai-gunamani-amara-nitai-gunamani" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Nitāi guṇamaṇi āmāra <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Ločans Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>nitāi guṇamaṇi āmāra nitāi guṇamaṇi</strong><br>
 <strong>āniyā premera vanyā bhāsāla abanī</strong></p>
@@ -2423,10 +2522,10 @@ Savā slavenajā darbā “Šrī Šikšāštakam” Kungs Gauranga nostiprināja
 <p class="translation">Ločans dāsa saka: “Tas, kurš nepielūdz Kungu Nītaju un nepieņem velti, kuru Viņš dāvā, veic apzinātu pašnāvību!”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Dayāl Nitāi Chaitanya</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-dayal-nitai-chaitanya-bole-nach-re" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Dayāl Nitāi Chaitanya <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>‘dayāl nitāi chaitanya’ bo’le nāch re āmār man</strong><br>
 <strong>nāch re āmār man, nāch re āmār man</strong></p>
@@ -2454,10 +2553,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 </section>
 <section class="category">
 <h1>Kungam Čaitanjam veltītas dziesmas</h1>
-<section class="song" data-translated="1">
-<h2>Avatāra Sāra</h2>
-<h4>Šrīla Ločans Dāsa Thākurs</h4>
+<section class="song" id="song-avatara-sara-gora-avatara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Avatāra Sāra <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Ločans Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>avatāra sāra&nbsp;&nbsp;&nbsp;&nbsp;gorā avatāra</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;keno nā bhajili tā̐re</strong><br>
@@ -2498,10 +2597,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Iegrimis pasaulīgo raižu bezdibenī, es aizmirsu par Kungu Gaurangu un nesekoju svēto norādījumiem! Tagad, savu dienu nogalē, es saprotu, ka mirstu jau otru reizi, jo, izdabājot savām materiālajām vēlmēm, esmu pavadījis tukšu dzīvi un tādējādi nomiris vēl dzīvam esot!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Nāma</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-gay-gora-madhur-svare" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Nāma <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;gāy gorā madhur svare</strong><br>
 <strong>hare kṛṣṇa hare kṛṣṇa, kṛṣṇa kṛṣṇa hare hare</strong><br>
@@ -2527,10 +2626,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Tava dzīve nešaubīgi drīz beigsies, taču tu neesi pielūdzis Hrišīkēšu, jutekļu (maņu) Valdnieku. Bhaktivinoda lūdz tevi: pagaršo kaut reizi <i>nāma-rasu</i>, Svētā Vārda nektāru!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Ke jabi ke jabi</h2>
-<h4>Šrīla Ločans Dāsa Thākurs</h4>
+<section class="song" id="song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Ke jabi ke jabi <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Ločans Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ke jabi ke jabi bhāi bhava-sindhu pāra</strong><br>
 <strong>dhanya kali-yuge re chaitanya avatāra</strong></p>
@@ -2558,10 +2657,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 </section>
 <section class="category">
 <h1>Citas dziesmas</h1>
-<section class="song" data-translated="1">
-<h2>Ṭhākura-vaiṣṇava-pada</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-thakura-vaishnava-pada-avanira" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Ṭhākura-vaiṣṇava-pada <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ṭhākura-vaiṣṇava-pada,&nbsp;&nbsp;&nbsp;&nbsp;avanīra susampada,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;śuno bhāi! hoiya eka mana</strong><br>
@@ -2594,11 +2693,11 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Mirkli pēc mirkļa mans prāts smeļ nebeidzamu prieku Vaišnavu sabiedrībā. Es vienmēr meklēju Kunga Krišnas bhaktu sabiedrību. Garīgais ubags Narottams Dāsa raud: “Es vairs nevaldu pār sevi. Kā gan es varēju krist tik zemu, ka Vaišnavi mani atraida?”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Viraha-gīti</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
-<h4>Tiek dziedāta Šrīmana Mahāprabhū pavadoņu aiziešanas dienās</h4>
+<section class="song" id="song-je-anilo-prema-dhana-karuna-prachura" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Viraha-gīti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<h4>Tiek dziedāta Šrīmana Mahāprabhu pavadoņu aiziešanas dienās</h4>
 <h5>1</h5>
 <p class="verse"><strong>je ānilo prema-dhana karuṇā prachura</strong><br>
 <strong>heno prabhu kothā gelā āchārya-ṭhākura</strong></p>
@@ -2629,10 +2728,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Viņi visi ir aizgājuši, lai gremdētos savās rotaļās. Narottams Dāsa Thākurs sauc: “Man atliek vienīgi apraudāt savu rūgto likteni, jo nevaru būt viņu sabiedrībā!”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Vaiṣṇava Vijñāpti</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-ei-vara-karuna-kara-vaishnava-gosani" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Vaiṣṇava Vijñāpti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ei-vāra karuṇā kara vaiṣṇava gosāñi</strong><br>
 <strong>patita-pāvana tomā vine keha nāi</strong></p>
@@ -2669,10 +2768,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Es ceru, ka katrā dzīvē saskaršos ar putekļiem no tavām lotosam līdzīgajām pēdām. Šrī Narottams lūdzas: “Ak, svētais Vaišnav, lūdzu, esi žēlsirdīgs pret mani!”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Prārthanā Lalasāmayi</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-kripa-kara-vaishnava-thakura" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Prārthanā Lalasāmayi <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;kṛpa kara’ vaiṣṇava ṭhākura</strong><br>
 <strong>sambandha jāniyā,&nbsp;&nbsp;&nbsp;&nbsp;bhajite bhajite,</strong><br>
@@ -2712,10 +2811,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Ja tu dāvāsi man spēju dziedāt Svēto Vārdu, es izrādīšu cieņu citiem un necerēšu sagaidīt cieņu pret sevi. Ekstāzē es patiesi raudāšu, vārtoties pa zemi pie tavām lotosam līdzīgajām pēdām.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Nāmāṣṭakam 8</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-narada-muni-bajaya-vina" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Nāmāṣṭakam 8 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>nārada muni,&nbsp;&nbsp;&nbsp;&nbsp;bājāya vīṇā,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;‘rādhikā-ramaṇa’-nāme</strong><br>
@@ -2764,10 +2863,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Dejodams uz visu mēlēm, Šrī Krišnas Svētais Vārds piepildīja visas manas vēlēšanās! Tādēļ Kunga pazemīgais kalps Bhaktivinoda lūdzas pie Šrī Rūpas Gosvāmī pēdām, lai Harīnāma – Svētā Vārda dziedāšana šādā veidā turpinātos mūžam!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śrī Ṣaḍ-Gosvāmy-aṣṭakam</h2>
-<h4>Šrīla Šrīnivāss Āčārja</h4>
+<section class="song" id="song-krishnotkirtana-gana-nartana-parau" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Śrī Ṣaḍ-Gosvāmy-aṣṭakam <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Šrīnivāss Āčārja</h4>
 <h5>1</h5>
 <p class="verse"><strong>kṛṣṇotkīrtana-gāna-nartana-parau</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;premāmṛtāmbho-nidhī</strong><br>
@@ -2864,10 +2963,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Cieņas pilns es klanos sešiem Gosvāmī, pazīstamiem kā Šrī Rūpa Gosvāmī, Šrī Sanātana Gosvāmī, Šrī Raghunāths Bhatta Gosvāmī, Šrī Raghunāths Dāsa Gosvāmī, Šrī Džīva Gosvāmī un Šrī Gopāls Bhatta Gosvāmī, kuri pa visu Vrindāvanu skaļi sauca: “Ak, Rādharānī, Vrindāvanas karaliene! Ak, Lalīta! Ak, Nanda Māhārādžas dēls! Kur jūs šobrīd esat? Varbūt jūs pastaigājaties pa Govardhāna kalnu vai atpūšaties koku ēnā Jamūnas krastā? Kur gan jūs esat?” Šādā noskaņojumā viņi kalpo Krišnam.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Šrī Nāmaštakam 7</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-ohe-harinam-tava-mahima-apara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Šrī Nāmaštakam 7 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ohe harinām, tava mahimā apāra</strong><br>
 <strong>tava pade nati āmi kori bāro bāro</strong></p>
@@ -2916,10 +3015,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Katru savas dzīves mirkli Bhaktivinoda nepārstājoši lūdzas pie Šrīlas Rūpas Gosvāmī lotosam līdzīgajām pēdām par to, lai Svētais Vārds tam atklāj sevi skaidri un tieši!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Ki-rūpe pāibo sevā</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-ki-rupe-paibo-seva-mui-durachara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Ki-rūpe pāibo sevā <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ki-rūpe pāibo sevā mui durāchāra</strong><br>
 <strong>śrī-guru-vaiṣṇave rati na hoilo āmāra</strong></p>
@@ -2950,10 +3049,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Ak, grēciniekus attīrošais valdniek, kritušo glābēj, tu neievēro citu grēkus. Lūdzu, glāb Narottamu Dāsu!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Bhajahu̐ Re Mana</h2>
-<h4>Šrīla Govinda Dāsa Kavirādžs</h4>
+<section class="song" id="song-bhajahu-re-mana-shri-nanda-nandana" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Bhajahu̐ Re Mana <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Govinda Dāsa Kavirādžs</h4>
 <h5>1</h5>
 <p class="verse"><strong>bhajahu̐ re mana&nbsp;&nbsp;&nbsp;&nbsp;śrī-nanda-nandana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;abhaya-charaṇāravinda re</strong><br>
@@ -2986,10 +3085,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Govinda Dāsa lielākais sapnis un vēlme ir veltīt sevi deviņiem bhakti-jogas veidiem: klausīties par Kunga Harī slavu, dziedāt un stāstīt citiem par šo slavu, pastāvīgi atcerēties Kungu un piedāvāt Viņam lūgšanas, kalpot Viņa lotosam līdzīgajām pēdām, veltīt sevi Kungam kalpa lomā, pielūgt Viņu ar ziediem, vīraku un citām veltēm, kalpot Kungam drauga lomā un pilnībā  atdot sevi Kunga rokās.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Mānasa Deho Geho</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-manasa-deho-geho-jo-kichu-mora" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Mānasa Deho Geho <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>mānasa, deho, geho, jo kichū mora</strong><br>
 <strong>arpilu̐ tuyā pade, nanda-kiśora!</strong></p>
@@ -3038,10 +3137,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Bhaktivinoda saka: “Krišna, sadzirdi jel mani! Ak, Rādhas pavēlniek, Tu esi mana dzīvība un dvēsele!”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>E ghora saṁsāre</h2>
-<h4>Kālīdāsa</h4>
+<section class="song" id="song-e-ghora-samsare-podiya-manava" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>E ghora saṁsāre <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Kālīdāsa</h4>
 <h5>1</h5>
 <p class="verse"><strong>e ghora saṁsāre,&nbsp;&nbsp;&nbsp;&nbsp;poḍiyā mānava</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;na pāya duḥkhera śeṣa</strong><br>
@@ -3066,10 +3165,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Kālīdāsa saka: “Tas, kurš ir pieņēmis Kunga Čaitanjas un Kunga Nitjānandas lotosam līdzīgo pēdu patvērumu, pats kļūst par manu patvērumu dzīvē un nāvē.”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Dainyātmikā</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-emona-durmati-samsara-bhitore" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Dainyātmikā <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>(prabhu he!)</strong><br>
 <strong>emona durmati,&nbsp;&nbsp;&nbsp;&nbsp;saṁsāra bhitore,</strong><br>
@@ -3100,7 +3199,7 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;rukma-varṇa vipra-suta</strong><br>
 <strong>mahāprabhu nāme,&nbsp;&nbsp;&nbsp;&nbsp;nadīyā mātāya,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;soṅge bhāi avadhūta</strong></p>
-<p class="translation">“Lai piepildītu Vēdās solīto, brahmana dēls vārdā Mahāprabhū, kura ķermenis laistās zeltā, atnāca kopā ar savu brāli avadhūtu Nitjānandu. Kopīgi viņi pārpludināja Nādiju ar dievišķo ekstāzi.”</p>
+<p class="translation">“Lai piepildītu Vēdās solīto, brahmana dēls vārdā Mahāprabhu, kura ķermenis laistās zeltā, atnāca kopā ar savu brāli avadhūtu Nitjānandu. Kopīgi viņi pārpludināja Nādiju ar dievišķo ekstāzi.”</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
@@ -3119,10 +3218,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Ak, Kungs, dzirdot šos vārdus, Bhaktivinoda raud, lūdzas pēc Tavu lotosam līdzīgo pēdu dzīvinošās ēnas un stāsta savas dzīves stāstu.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Goptṛtve Varaṇa</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-ki-jani-ki-bale-tomara-dhamete" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Goptṛtve Varaṇa <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ki jāni ki bale,&nbsp;&nbsp;&nbsp;tomāra dhāmete,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;hoinu śaraṇāgata</strong><br>
@@ -3171,10 +3270,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Raudādams Bhaktivinoda pieņem Tavu pēdu patvērumu. Piedod viņa apvainojumus, ļauj viņam izgaršot Tavu Svēto Vārdu un balsti viņu!</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Ātma-nivedana</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-atma-nivedana-tuya-pade-kori" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Ātma-nivedana <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>ātma-nivedana,&nbsp;&nbsp;&nbsp;&nbsp;tuyā pade kori,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;hoinu parama sukhī</strong><br>
@@ -3223,10 +3322,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Bhaktivinoda, iegrimis svētlaimes okeānā, dzīvo Tavā mājā, visus savus spēkus veltot kalpošanai Tev un Tavu vēlmju piepildīšanai.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Tumi sarveśvareśvara</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-tumi-sarveshvareshvara-vrajendra-kumara" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Tumi sarveśvareśvara <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>tumi sarveśvareśvara, vrajendra-kumāra!</strong><br>
 <strong>tomāra ichāya viśve sṛjana saṁhāra</strong></p>
@@ -3275,10 +3374,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Bhaktivinoda lepnība ir sagrauta. Tagad viņš dzīvos vai mirs tikai saskaņā ar Tavu gribu.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Nivedana 3. daļa</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-gopinath-amara-upaya-nai" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Nivedana 3. daļa <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>gopīnāth,&nbsp;&nbsp;&nbsp;&nbsp;āmāra upāya nāi</strong><br>
 <strong>tumi kṛpā kori,&nbsp;&nbsp;&nbsp;&nbsp;āmāre loile,</strong><br>
@@ -3335,10 +3434,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Ak, Gopināth, materiālisma cilpa ir savilkusies cieši ap manu kaklu. Pārcērt šīs važas ar savas žēlastības zobenu un padari Bhaktivinodu par savu kalpu.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Durlabha mānava-janma</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-durlabha-manava-janma-labhiya-samsare" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Durlabha mānava-janma <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>durlabha mānava-janma labhiyā saṁsāre</strong><br>
 <strong>kṛṣṇa nā bhajinu duḥka kohibo kāhāre?</strong></p>
@@ -3417,9 +3516,9 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Tādēļ es lūdzu katru, kam piemīt saprāts: atraidi šos iluzoros vilinājumus, kurus radījusi maja. Meklē to, kas ir mūžīgs - garīgu kalpošanu Kungam Krišnam.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Dainya O Prapatti</h2>
+<section class="song" id="song-hari-he-dayala-mora-jaya-radha-natha" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Dainya O Prapatti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h5>1</h5>
 <p class="verse"><strong>hari he dayāla mora jaya rādhā-nātha</strong><br>
 <strong>bāro bāro ei-bāro loho nija sātha</strong></p>
@@ -3450,10 +3549,10 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <p class="translation">Šajā pasaulē nav neviena, kas varētu glābt šo kritušo kalpu – tikai Tu.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī-Rūpa-Mañjarī-pada</h2>
-<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<section class="song" id="song-shri-rupa-manjari-pada-sei-mora-sampada" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī-Rūpa-Mañjarī-pada <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>śrī-rūpa-mañjarī-pada,&nbsp;&nbsp;&nbsp;&nbsp;sei mora sampada,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;sei mora bhajana-pūjana</strong><br>
@@ -3511,9 +3610,9 @@ Pastāv divu veidu lotosi: baltais, kas nācis no saules, un sarkanais, kas nāc
 </section>
 <section class="category">
 <h1>Šrī Šikšāštakam</h1>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 1</h2>
+<section class="song" id="song-pita-varana-kali-pavana-gora" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 1 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="translation">Pirmais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -3579,10 +3678,10 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">“Visa slava Krišnas Svētā Vārda dziedāšanai! Tā atdzīvina Bhaktivinodas dvēseli. Svētā Vārda dziedāšana ir mīlestības uz Dievu dārgumu lāde.”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 2</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-tuhu-daya-sagara-tarayite-prani" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 2 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="translation">Otrais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -3624,10 +3723,10 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">Manī nekad nav bijis ne kripatiņas pieķeršanās tavam Svētajam Vārdam. Tādēļ Bhaktivinoda sirds ir skumju pilna.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 3</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-shri-krishna-kirtane-jodi-manasa-tohara" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 3 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="translation">Trešais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -3687,10 +3786,10 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">Bhaktivinoda, raudot pie Kunga lotosam līdzīgajām pēdām, lūdzas: “Mans Kungs, ak, kad gan Tu dāvāsi man īpašības, kuras nepieciešamas <i>Krišna-kīrtanam</i>?”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 4</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-prabhu-tava-pada-juge-mora-nivedana" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 4 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="translation">Ceturtais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -3744,10 +3843,10 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">Lai es kļūstu par putnu vai zvēru, lai dzīvoju paradīzē vai ellē, bet ļauj pazemīgajam Bhaktivinodam savas sirds dziļumos vienmēr lolot mīlošu garīgu kalpošanu tev.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 5</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-anadi-karama-phole" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 5 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="translation">Piektais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -3791,9 +3890,9 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">Esmu tavs mūžīgais kalps, ak, žēlsirdīgais Kungs. Kopš neatminamiem laikiem aizmirsis par to, tagad esmu sapinies ilūzijas tīklos. Pieņem savu kritušo kalpu, dāvā viņam vietu tavu lotosa pēdu putekļos. Dod savu pajumti pazemīgajam Bhaktivinodam.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 6</h2>
+<section class="song" id="song-aparadha-phole-mama" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 6 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="translation">Sestais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -3849,10 +3948,10 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">Bhaktivinoda, zaudējis saprātu raudot sauc: “Kad gan pienāks šī ilgi gaidītā diena?”</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 7a</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-gaite-gaite-nama-ki-doshia-hoilo" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 7a <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="translation">Septītais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -3916,9 +4015,9 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">Nespējot ilgāk paciest atšķirtību no mana Kunga, esmu gatavs atvadīties no dzīves kaut pēc dažām dienām.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 7b</h2>
+<section class="song" id="song-gaite-govinda-nam-upajilo-bhava-gram" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Śikṣāṣṭakam 7b <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h5>1</h5>
 <p class="verse"><strong>gāite ‘govinda’-nām,&nbsp;&nbsp;&nbsp;&nbsp;upajilo bhāva-grām,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;dekhilām yamunāra kūle</strong><br>
@@ -3935,10 +4034,10 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 <p class="translation">Vērojot šo skatu es sastingu. Es zaudēju maņas! Es noģību, zaudējot laika izjūtu. Taču, kad es pamodos, Dievišķais Pāris jau bija zudis. Vradža, kuru redzēju, bija zudusi.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 7c</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-sakhi-go-kemote-dhoribo-paran" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Śikṣāṣṭakam 7c <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>sakhi go kemote dhoribo parāṇ</strong><br>
 <strong>nimeṣa hoilo jugera samān</strong></p>
@@ -3962,10 +4061,10 @@ Ikviena sirdī mītoša vēlēšanās, kāda vien iedomājama, tiek atbildēta u
 Piezīme pie pirmā panta: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt "sakhi go", bet gan "bandhu he".</i></p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 8a</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-bondhu-gon-shiunoho-vachana-mora" data-translated="1">
 <div class="verse-block" data-number="">
+<h2>Śrī Śikṣāṣṭakam 8a <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <p class="translation">Astotais Šrī Šikšāštakam pants ir šāds:</p>
 </div>
 <div class="verse-block" data-number="">
@@ -4020,10 +4119,10 @@ Piezīme pie pirmā panta: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedā
 <p class="translation">Šādi, gan satiekot Krišnu, gan esot atšķirtībā no viņa, Bhaktivinoda zina, ka Krišna ir vienīgais viņa dvēseles Kungs. Krišnas laime ir mana laime. Viņš ir visas manas dzīves Kungs! Man nav neviena cita Kunga, kā vienīgi viņš.</p>
 </div>
 </section>
-<section class="song" data-translated="1">
-<h2>Śrī Śikṣāṣṭakam 8b</h2>
-<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<section class="song" id="song-yoga-pithopari-sthita-ashta-sakhi-subeshtita" data-translated="1">
 <div class="verse-block" data-number="1">
+<h2>Śrī Śikṣāṣṭakam 8b <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
 <p class="verse"><strong>yoga-pīṭhopari-sthita,&nbsp;&nbsp;&nbsp;&nbsp;aṣṭa-sakhī-subeṣṭita,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;vṛndāraṇye kadamba-kānane</strong><br>
@@ -4076,95 +4175,117 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 </div>
 </section>
 </section>
-<h1>First lines</h1>
-<p class="first-line" data-translated="1">anādi karama-phole — 187</p>
-<p class="first-line" data-translated="1">aparādha-phole mama — 188</p>
-<p class="first-line" data-translated="1">avatāra sāra gorā avatāra — 121</p>
-<p class="first-line" data-translated="1">ātma-nivedana, tuyā pade kori — 160</p>
-<p class="first-line" data-translated="1">bhajahu̐ re mana śrī-nanda-nandana — 146</p>
-<p class="first-line" data-translated="1">bondhu-goṇ! śunoho vachana mora — 191</p>
-<p class="first-line" data-translated="1">‘dayāl nitāi chaitanya’ bo’le nāch re — 116</p>
-<p class="first-line" data-translated="1">devaṁ divya-tanuṁ suchanda-vadanaṁ-bālārka-chelāñchitaṁ — 14</p>
-<p class="first-line" data-translated="1">deva-siddha-mukta-yukta-bhakta-vṛnda — 81</p>
-<p class="first-line" data-translated="1">dhvasta-sārvvabhauma-vāda-navya-tarka-śāṅkaraṁ — 88</p>
-<p class="first-line" data-translated="1">dīvyad-vṛndāraṇya-kalpa-drumādhaḥ — 20</p>
-<p class="first-line" data-translated="1">durlabha mānava-janma labhiyā saṁsāre — 175</p>
-<p class="first-line" data-translated="1">e ghora saṁsāre, poḍiyā mānava — 148</p>
-<p class="first-line" data-translated="1">ei-vāra karuṇā kara vaiṣṇava gosāñi — 136</p>
-<p class="first-line" data-translated="1">emona durmati, saṁsāra bhitore — 154</p>
-<p class="first-line" data-translated="1">gāite ‘govinda’-nām, upajilo bhāva-grām — 190</p>
-<p class="first-line" data-translated="1">gāite gāite nāma ki dośā hoilo — 189</p>
-<p class="first-line" data-translated="1">gaura-vrajāśritāśeṣair vaiṣṇavair vandya-vigraham — 18</p>
-<p class="first-line" data-translated="1">gāy gorā madhur svare — 122</p>
-<p class="first-line" data-translated="1">gopīnāth, āmāra upāya nāi — 171</p>
-<p class="first-line" data-translated="1">goswāminaṁ sudhīrākhyam — 11/2</p>
-<p class="first-line" data-translated="1">gurudeva kṛpā-bindu diyā — 68</p>
-<p class="first-line" data-translated="1">gurvābhīṣṭa-supūrakaṁ guru-gaṇair — 13</p>
-<p class="first-line" data-translated="1">hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare — 24</p>
-<p class="first-line" data-translated="1">hari haraye namaḥ kṛṣṇa yādavāya namaḥ — 55</p>
-<p class="first-line" data-translated="1">hari he dayāla mora jaya rādhā-nātha — 158</p>
-<p class="first-line" data-translated="1">hari-nāma mahāmantra sarva-mantra-sāra — 26</p>
-<p class="first-line" data-translated="1">jaśomatī-nandana vraja-vara nāgara — 39</p>
-<p class="first-line" data-translated="1">jaya ‘guru-mahārāja’ jati-rājeśvara — 46</p>
-<p class="first-line" data-translated="1">jaya guru mahārāja karuṇā-sāgara — 36</p>
-<p class="first-line" data-translated="1">jaya jaya gaurāchā̐der ārotiko śobhā — 64</p>
-<p class="first-line" data-translated="1">jaya jaya girirājer ārati viśāla — 32</p>
-<p class="first-line" data-translated="1">jaya jaya girirājer ārotiko śobhā — 34</p>
-<p class="first-line" data-translated="1">jaya jaya gurudever ārati ujjvala — 42</p>
-<p class="first-line" data-translated="1">jayare jayare jaya gaura-sarasvatī — 66</p>
-<p class="first-line" data-translated="1">jayatāṁ suratau paṅgor — 19</p>
-<p class="first-line" data-translated="1">je ānilo prema-dhana karuṇā prachura — 135</p>
-<p class="first-line" data-translated="1">jīv jāgo, jīv jāgo, gaurāchā̐da bole — 43</p>
-<p class="first-line" data-translated="1">kali-kukkura-kadana jadi chāo he — 38</p>
-<p class="first-line" data-translated="1">ke jabi ke jabi bhāi bhava-sindhu pāra — 127</p>
-<p class="first-line" data-translated="1">(kiba) jaya jaya gaurāchā̐der ārotiko śobhā — 64</p>
-<p class="first-line" data-translated="1">ki jāni ki bale, tomāra dhāmete — 155</p>
-<p class="first-line" data-translated="1">ki-rūpe pāibo sevā mui durāchāra — 145</p>
-<p class="first-line" data-translated="1">kṛpa kara’ vaiṣṇava ṭhākura — 137</p>
-<p class="first-line" data-translated="1">kṛṣṇotkīrtana-gāna-nartana-parau — 141</p>
-<p class="first-line" data-translated="1">mahāprasāde govinde nāma brahmaṇi — 62</p>
-<p class="first-line" data-translated="1">mānasa, deho, geho, jo kichū mora — 147</p>
-<p class="first-line" data-translated="1">namo gaurakiśorāya bhaktāvadhūta mūrtaye — 16</p>
-<p class="first-line" data-translated="1">namo namaḥ tulasī mahārāṇī — 69</p>
-<p class="first-line" data-translated="1">nārada muni, bājāya vīṇā — 140</p>
-<p class="first-line" data-translated="1">nitāi guṇamaṇi āmāra nitāi guṇamaṇi — 113</p>
-<p class="first-line" data-translated="1">nitāi-pada-kamala, koṭī-chandra-suśītala — 111</p>
-<p class="first-line" data-translated="1">ohe harinām, tava mahimā apāra — 144</p>
-<p class="first-line" data-translated="1">(ohe) vaiṣṇava ṭhākura, dayāra sāgara — 76</p>
-<p class="first-line" data-translated="1">pīta-varaṇa kali-pāvana gorā — 184</p>
-<p class="first-line" data-translated="1">prabhu tava pada-juge mora nivedana — 186</p>
-<p class="first-line" data-translated="1">prema-mugdha-nṛtya-kīrtanākulāriṭāntikaṁ — 96</p>
-<p class="first-line" data-translated="1">prema-mugdha-rudra-rāja-śaurya-vīrya-vikramaṁ — 92</p>
-<p class="first-line" data-translated="1">pūjya śrī-guru-varga-vandita — 12</p>
-<p class="first-line" data-translated="1">sakala vaiṣṇava-pade mora namaskāra — 21</p>
-<p class="first-line" data-translated="1">sakhi go kemote dhoribo parāṇ — 191</p>
-<p class="first-line" data-translated="1">saṁsāra-dāvānala-līḍha-loka — 48</p>
-<p class="first-line" data-translated="1">sujanārvuda-rādhita-pāda-yugaṁ — 78</p>
-<p class="first-line" data-translated="1">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ — 85</p>
-<p class="first-line" data-translated="1">śrī guru charaṇa-padma, kevala-bhakati — 80</p>
-<p class="first-line" data-translated="1">śrī kṛṣṇa chaitanya prabhu dayā kara more — 75</p>
-<p class="first-line" data-translated="1">śrī-kṛṣṇa-chaitanya prabhu jīve dayā kori’ — 50</p>
-<p class="first-line" data-translated="1">śrī-kṛṣṇa-chaitanya prabhu nityānanda — 24</p>
-<p class="first-line" data-translated="1">śrī-kṛṣṇa-kīrtane jodi mānasa tohāra — 185</p>
-<p class="first-line" data-translated="1">śrīmān rāsa-rasārambhī — 21</p>
-<p class="first-line" data-translated="1">śrī-rūpa-mañjarī-pada, sei mora sampada — 173</p>
-<p class="first-line" data-translated="1">śrī-sanātanānu-rūpa-jīva-sampradāyakaṁ — 101</p>
-<p class="first-line" data-translated="1">śrī-siddhānta-sarasvatīti vidito — 15</p>
-<p class="first-line" data-translated="1">tuhu̐ dayā-sāgara tārayite prāṇī — 185</p>
-<p class="first-line" data-translated="1">tumi sarveśvareśvara, vrajendra-kumāra! — 162</p>
-<p class="first-line" data-translated="1">ṭhākura vaiṣṇava-gaṇa kori ei nivedana — 134</p>
-<p class="first-line" data-translated="1">ṭhākura-vaiṣṇava-pada, avanīra — 134</p>
-<p class="first-line" data-translated="1">udilo aruṇa pūraba-bhāge — 42</p>
-<p class="first-line" data-translated="1">vaiṣṇava ṭhākura, dayāra sāgara — 76</p>
-<p class="first-line" data-translated="1">vāñchā-kalpatarubhyas’ cha — 19</p>
-<p class="first-line" data-translated="1">vande ’haṁ śrī-guroḥ śrī-yuta-pada-kamalaṁ — 11</p>
-<p class="first-line" data-translated="1">vande bhaktivinodaṁ śrī-gaura-śakti-svarūpakam — 17</p>
-<p class="first-line" data-translated="1">vande vaikuṇṭha-vṛtti-stham — 11/1</p>
-<p class="first-line" data-translated="1">vibhāvarī śeṣa, āloka-praveśa — 52</p>
-<p class="first-line" data-translated="1">vṛndāyai tulasī-devyai — 22</p>
-<p class="first-line" data-translated="1">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam — 104</p>
-<p class="first-line" data-translated="1">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita — 192</p>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YBUFzSBG5LBDUWZNZuIKz"}
-4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/60aed38513f19669.css","precedence":"next"}]
+<section class="first-lines" id="first-lines">
+<h1>Indekss</h1>
+<h2 class="first-line-group">A</h2>
+<p class="first-line" data-translated="1"><a href="#song-anadi-karama-phole">anādi karama-phole<span class="page-num"> — 187</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-aparadha-phole-mama">aparādha-phole mama<span class="page-num"> — 188</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra gorā avatāra<span class="page-num"> — 121</span></a></p>
+<h2 class="first-line-group">Ā</h2>
+<p class="first-line" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">ātma-nivedana, tuyā pade kori<span class="page-num"> — 160</span></a></p>
+<h2 class="first-line-group">B</h2>
+<p class="first-line" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">bhajahu̐ re mana śrī-nanda-nandana<span class="page-num"> — 146</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">bondhu-goṇ! śunoho vachana mora<span class="page-num"> — 191</span></a></p>
+<h2 class="first-line-group">D</h2>
+<p class="first-line" data-translated="1"><a href="#song-dayal-nitai-chaitanya-bole-nach-re">‘dayāl nitāi chaitanya’ bo’le nāch re<span class="page-num"> — 116</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam">devaṁ divya-tanuṁ suchanda-vadanaṁ-bālārka-chelāñchitaṁ<span class="page-num"> — 14</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-deva-siddha-mukta-yukta-bhakta-vrinda">deva-siddha-mukta-yukta-bhakta-vṛnda<span class="page-num"> — 81</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram">dhvasta-sārvvabhauma-vāda-navya-tarka-śāṅkaraṁ<span class="page-num"> — 88</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-divyad-vrindaranya-kalpa-drumadhah">dīvyad-vṛndāraṇya-kalpa-drumādhaḥ<span class="page-num"> — 20</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-durlabha-manava-janma-labhiya-samsare">durlabha mānava-janma labhiyā saṁsāre<span class="page-num"> — 175</span></a></p>
+<h2 class="first-line-group">E</h2>
+<p class="first-line" data-translated="1"><a href="#song-e-ghora-samsare-podiya-manava">e ghora saṁsāre, poḍiyā mānava<span class="page-num"> — 148</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-ei-vara-karuna-kara-vaishnava-gosani">ei-vāra karuṇā kara vaiṣṇava gosāñi<span class="page-num"> — 136</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">emona durmati, saṁsāra bhitore<span class="page-num"> — 154</span></a></p>
+<h2 class="first-line-group">G</h2>
+<p class="first-line" data-translated="1"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">gāite ‘govinda’-nām, upajilo bhāva-grām<span class="page-num"> — 190</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">gāite gāite nāma ki dośā hoilo<span class="page-num"> — 189</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">gaura-vrajāśritāśeṣair vaiṣṇavair vandya-vigraham<span class="page-num"> — 18</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gay-gora-madhur-svare">gāy gorā madhur svare<span class="page-num"> — 122</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gopinath-amara-upaya-nai">gopīnāth, āmāra upāya nāi<span class="page-num"> — 171</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-goswaminam-sudhirakhyam">goswāminaṁ sudhīrākhyam<span class="page-num"> — 11/2</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">gurudeva kṛpā-bindu diyā<span class="page-num"> — 68</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gurvabhishta-supurakam-guru-ganair">gurvābhīṣṭa-supūrakaṁ guru-gaṇair<span class="page-num"> — 13</span></a></p>
+<h2 class="first-line-group">H</h2>
+<p class="first-line" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare<span class="page-num"> — 24</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">hari haraye namaḥ kṛṣṇa yādavāya namaḥ<span class="page-num"> — 55</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">hari he dayāla mora jaya rādhā-nātha<span class="page-num"> — 158</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">hari-nāma mahāmantra sarva-mantra-sāra<span class="page-num"> — 26</span></a></p>
+<h2 class="first-line-group">J</h2>
+<p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">jaśomatī-nandana vraja-vara nāgara<span class="page-num"> — 39</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">jaya ‘guru-mahārāja’ jati-rājeśvara<span class="page-num"> — 46</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">jaya guru mahārāja karuṇā-sāgara<span class="page-num"> — 36</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">jaya jaya gaurāchā̐der ārotiko śobhā<span class="page-num"> — 64</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-girirajer-arati-vishiala">jaya jaya girirājer ārati viśāla<span class="page-num"> — 32</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-girirajer-arotiko-shobha">jaya jaya girirājer ārotiko śobhā<span class="page-num"> — 34</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">jaya jaya gurudever ārati ujjvala<span class="page-num"> — 42</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">jayare jayare jaya gaura-sarasvatī<span class="page-num"> — 66</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jayatam-suratau-pangor">jayatāṁ suratau paṅgor<span class="page-num"> — 19</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">je ānilo prema-dhana karuṇā prachura<span class="page-num"> — 135</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">jīv jāgo, jīv jāgo, gaurāchā̐da bole<span class="page-num"> — 43</span></a></p>
+<h2 class="first-line-group">K</h2>
+<p class="first-line" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">kali-kukkura-kadana jadi chāo he<span class="page-num"> — 38</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">ke jabi ke jabi bhāi bhava-sindhu pāra<span class="page-num"> — 127</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">(kiba) jaya jaya gaurāchā̐der ārotiko śobhā<span class="page-num"> — 64</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-ki-jani-ki-bale-tomara-dhamete">ki jāni ki bale, tomāra dhāmete<span class="page-num"> — 155</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-ki-rupe-paibo-seva-mui-durachara">ki-rūpe pāibo sevā mui durāchāra<span class="page-num"> — 145</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-kripa-kara-vaishnava-thakura">kṛpa kara’ vaiṣṇava ṭhākura<span class="page-num"> — 137</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-krishnotkirtana-gana-nartana-parau">kṛṣṇotkīrtana-gāna-nartana-parau<span class="page-num"> — 141</span></a></p>
+<h2 class="first-line-group">M</h2>
+<p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">mahāprasāde govinde nāma brahmaṇi<span class="page-num"> — 62</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">mānasa, deho, geho, jo kichū mora<span class="page-num"> — 147</span></a></p>
+<h2 class="first-line-group">N</h2>
+<p class="first-line" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">namo gaurakiśorāya bhaktāvadhūta mūrtaye<span class="page-num"> — 16</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-namo-namah-tulasi-maharani">namo namaḥ tulasī mahārāṇī<span class="page-num"> — 69</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-narada-muni-bajaya-vina">nārada muni, bājāya vīṇā<span class="page-num"> — 140</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-nitai-gunamani-amara-nitai-gunamani">nitāi guṇamaṇi āmāra nitāi guṇamaṇi<span class="page-num"> — 113</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-nitai-pada-kamala-koti-chandra-sushitala">nitāi-pada-kamala, koṭī-chandra-suśītala<span class="page-num"> — 111</span></a></p>
+<h2 class="first-line-group">O</h2>
+<p class="first-line" data-translated="1"><a href="#song-ohe-harinam-tava-mahima-apara">ohe harinām, tava mahimā apāra<span class="page-num"> — 144</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vaishnava-thakura-dayara-sagara">(ohe) vaiṣṇava ṭhākura, dayāra sāgara<span class="page-num"> — 76</span></a></p>
+<h2 class="first-line-group">P</h2>
+<p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">pīta-varaṇa kali-pāvana gorā<span class="page-num"> — 184</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">prabhu tava pada-juge mora nivedana<span class="page-num"> — 186</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-prema-mugdha-nritya-kirtanakularitantikam">prema-mugdha-nṛtya-kīrtanākulāriṭāntikaṁ<span class="page-num"> — 96</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-prema-mugdha-rudra-raja-shiaurya-virya-vikramam">prema-mugdha-rudra-rāja-śaurya-vīrya-vikramaṁ<span class="page-num"> — 92</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-pujya-sri-guru-varga-vandita">pūjya śrī-guru-varga-vandita<span class="page-num"> — 12</span></a></p>
+<h2 class="first-line-group">S</h2>
+<p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">sakala vaiṣṇava-pade mora namaskāra<span class="page-num"> — 21</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">sakhi go kemote dhoribo parāṇ<span class="page-num"> — 191</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 48</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 78</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 85</span></a></p>
+<h2 class="first-line-group">Ś</h2>
+<p class="first-line" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">śrī guru charaṇa-padma, kevala-bhakati<span class="page-num"> — 80</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">śrī kṛṣṇa chaitanya prabhu dayā kara more<span class="page-num"> — 75</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-jive-daya-kori">śrī-kṛṣṇa-chaitanya prabhu jīve dayā kori’<span class="page-num"> — 50</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">śrī-kṛṣṇa-chaitanya prabhu nityānanda<span class="page-num"> — 24</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">śrī-kṛṣṇa-kīrtane jodi mānasa tohāra<span class="page-num"> — 185</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">śrīmān rāsa-rasārambhī<span class="page-num"> — 21</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-rupa-manjari-pada-sei-mora-sampada">śrī-rūpa-mañjarī-pada, sei mora sampada<span class="page-num"> — 173</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-sanatananu-rupa-jiva-sampradayakam">śrī-sanātanānu-rūpa-jīva-sampradāyakaṁ<span class="page-num"> — 101</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">śrī-siddhānta-sarasvatīti vidito<span class="page-num"> — 15</span></a></p>
+<h2 class="first-line-group">T</h2>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">tuhu̐ dayā-sāgara tārayite prāṇī<span class="page-num"> — 185</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">tumi sarveśvareśvara, vrajendra-kumāra!<span class="page-num"> — 162</span></a></p>
+<h2 class="first-line-group">Ṭ</h2>
+<p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">ṭhākura vaiṣṇava-gaṇa kori ei nivedana<span class="page-num"> — 134</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">ṭhākura-vaiṣṇava-pada, avanīra<span class="page-num"> — 134</span></a></p>
+<h2 class="first-line-group">U</h2>
+<p class="first-line" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">udilo aruṇa pūraba-bhāge<span class="page-num"> — 42</span></a></p>
+<h2 class="first-line-group">V</h2>
+<p class="first-line" data-translated="1"><a href="#song-vaishnava-thakura-dayara-sagara">vaiṣṇava ṭhākura, dayāra sāgara<span class="page-num"> — 76</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">vāñchā-kalpatarubhyas’ cha<span class="page-num"> — 19</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">vande ’haṁ śrī-guroḥ śrī-yuta-pada-kamalaṁ<span class="page-num"> — 11</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">vande bhaktivinodaṁ śrī-gaura-śakti-svarūpakam<span class="page-num"> — 17</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vande-vaikuntha-vritti-stham">vande vaikuṇṭha-vṛtti-stham<span class="page-num"> — 11/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vibhavari-shiesha-aloka-praveshia">vibhāvarī śeṣa, āloka-praveśa<span class="page-num"> — 52</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">vṛndāyai tulasī-devyai<span class="page-num"> — 22</span></a></p>
+<h2 class="first-line-group">Y</h2>
+<p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 104</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 192</span></a></p>
+</section>
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"q3aY1zU3XG1cndiODozlk"}
+4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
