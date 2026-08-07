@@ -96,7 +96,7 @@ function renderVerse(
     html += heading(5, verse.number);
   }
   if (verse.subtitle?.length > 0) {
-    html += paragraph('verse-subtitle', verse.subtitle);
+    verse.subtitle.forEach((s) => (html += heading(3, s)));
   }
   html += paragraph('verse', verse.text?.map((l) => renderVerseLine(l, meta, hasNumber)), true);
   html += paragraph(
