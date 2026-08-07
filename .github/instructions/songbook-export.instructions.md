@@ -83,7 +83,7 @@ section.category                           ← one per contents group
       h4                                   ← author
       p.wbw                                ← song-level word_by_word
       h5                                   ← verse number (only if >1 verse)
-      p.verse-subtitle
+      h3                                   ← verse subtitle (one per line)
       p.verse
       p.wbw
       p.translation
