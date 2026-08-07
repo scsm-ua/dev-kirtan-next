@@ -8,7 +8,7 @@ b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/181d0c0650eb5cf4.css","style"]
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-0:{"P":null,"c":["","ru-kdm","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ru-kdm","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"P":null,"c":["","ru-kdm","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ru-kdm","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"meIf9nnV5FSptRl6XVe2Z"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[2342,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$Lf","2",{}]]
 10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-64679a2f3479cf66.js"],"default"]
-11:T18d3c,<h1 class="book-title">Колесница Джаганнатха</h1>
+11:T18ca9,<h1 class="book-title">Колесница Джаганнатха</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -783,7 +783,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <i>ШРИ ЧАЙТАНЬЯ-ЧАРИТАМРИТА. АНТЬЯ-ЛИЛА. 20.63-65</i></p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Понедельник</p>
+<h3>Понедельник</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -798,7 +798,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">Господне Имя проясняет зеркало сознания и гасит пламя суетных страстей. Оно как полная луна, в чьём нежном свете распускается удачи белый лотос. Оно дарует знание, вселяет жизнь, невестою подводит к Богу. Оно бросает в бесконечно ширящийся океан блаженства. Оно к устам подносит чашу, полную сладчайшего нектара, омывает душу чистою, живительной водой. Так пусть над миром шествует с победою Святых Имён Господних воспеванье!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Вторник</p>
+<h3>Вторник</h3>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
@@ -809,7 +809,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">О Господи, явился миру Ты в различных Именах, и каждое Ты наделил Своею полной властью. Для их памятования нет строгих правил и обрядов нет. Любой в каком угодно месте и в любое время может Твоё Имя призывать. Но Я настолько низок и настолько обделён удачею, что сладости не чувствую Твоих Имён и к ним влеченья не питаю.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Среда</p>
+<h3>Среда</h3>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -820,7 +820,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">Лишь тот, кто в сердце собственном смиреннее травинки, древа терпеливей кто, кто душу почитает всякую и сам лишён тщеславья, способен непрестанно Имя Божие святое воспевать.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Четверг</p>
+<h3>Четверг</h3>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -831,7 +831,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">Владыка мира! Я не желаю благ земных, толпы восторженных поклонников, красавиц нежных и влюблённых, Мне таланты не нужны и дарованья на поприще искусства. Всё, о чем мечтаю Я, ― из жизни в жизнь служить Тебе рабом покорным и смиренным.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Пятница</p>
+<h3>Пятница</h3>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
@@ -842,7 +842,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">О милосердный Сын Яшоды! Даруй убежище у стоп Твоих былинке малой, что с незапамятных времён была низвергнута во мрачную пучину наважденья!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Суббота</p>
+<h3>Суббота</h3>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
@@ -853,7 +853,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">О Господи, приблизь тот день, когда при воспевании Имён Твоих из глаз Моих ручьём прольются слёзы! Когда Мой голос задрожит, дыхание прервётся, и волосы поднимутся на теле!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Воскресенье</p>
+<h3>Воскресенье</h3>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>

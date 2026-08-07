@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T19f97b,<h1 class="book-title">Guía de Kīrtan</h1>
+3:T19f966,<h1 class="book-title">Guía de Kīrtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Contenido</h1>
@@ -5063,7 +5063,7 @@ Para Śrī Śrī Guru Gaura Nityānanda en Śrī Ekachakrā Dhām, India:</p>
 <p class="translation">Tu ausencia de mi visión es como una dosis de veneno fuerte, y sufriré hasta el final de mi vida. Narottama Dās Ṭhākur dice: “Por favor, dame tu misericordia y la sombra de tus pies de loto”.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Comentarios de Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj:</p>
+<h3>Comentarios de Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj:</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -10432,7 +10432,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 382</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 232</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

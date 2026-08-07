@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T5df35,<h1 class="book-title">Gaudija Gītandžalī</h1>
+3:T5df20,<h1 class="book-title">Gaudija Gītandžalī</h1>
 <p class="nav-links"><a href="#first-lines">↓ Indekss</a></p>
 <section class="toc" id="toc">
 <h1>Saturs</h1>
@@ -3581,7 +3581,7 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;narottama loilo śaraṇa</strong></p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Šrīlas Bhakti Rakšaka Šrīdhāra Mahrārādžas komentārs:</p>
+<h3>Šrīlas Bhakti Rakšaka Šrīdhāra Mahrārādžas komentārs:</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4285,7 +4285,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 104</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 192</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

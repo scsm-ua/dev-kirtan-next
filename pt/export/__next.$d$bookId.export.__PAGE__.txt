@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T9936b,<h1 class="book-title">Livro de Kirtan</h1>
+3:T992c3,<h1 class="book-title">Livro de Kirtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Conteúdo</h1>
@@ -3870,7 +3870,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">O Śrī Kṛṣṇa-saṅkīrtan limpa o espelho da consciência, extingue o feroz incêndio florestal da [que é a] existência material, faz brilhar o luar na lótus noturna da [nossa] boa fortuna, é a vida do conhecimento divino, expande o oceano de êxtase, é o sabor de todo o néctar a cada momento, e acalma a totalidade do ser. Que o Śrī Kṛṣṇa-saṅkīrtan seja supremamente vitorioso!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -3942,7 +3942,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Ó Senhor, Você manifestou Seus inúmeros Nomes, colocou todo o Seu poder dentro Deles e não fez quaisquer regras relativas ao momento de se lembrar Deles. Tal é Sua grande misericórdia. Meu infortúnio, porém, é que eu não tenho nenhum apego aos Seus Nomes.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -3991,7 +3991,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">“O Nome do Senhor deveria ser cantado sempre por aquele que é mais humilde que uma folha de grama, tão tolerante quanto uma árvore, respeitoso com os outros e livre de desejo por respeito.”</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4063,7 +4063,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">“Ó Senhor do universo! Eu não desejo riqueza, seguidores, mulheres bonitas, ou erudição. Nascimento após nascimento, eu desejo apenas devoção incondicional a Você.”</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4128,7 +4128,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Ó Filho de Nanda, misericordiosamente considere este Seu servo que caiu no terrível oceano da existência material como sendo uma partícula de poeira aos Seus pés de lótus.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4180,7 +4180,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Quando lágrimas cairão dos meus olhos, minha voz vacilará e os pelos do meu corpo ficarão em pé ao chamar Seu Nome?</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4245,7 +4245,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Em separação de Govinda, um momento é sentido como uma era, parece que chove de meus olhos, e sinto que todo o mundo está vazio.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4374,7 +4374,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Ele pode abraçar esta serva, Ele pode pisar em cima de mim, ou Ele pode ir embora e partir meu coração. O que quer que este debochado faça, Ele apenas, e ninguém mais, é o Senhor do meu coração.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -5995,7 +5995,7 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">ye ānila prema-dhana<span class="page-num"> — 207</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 155</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

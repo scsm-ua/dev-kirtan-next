@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:Tbdaf9,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
+3:Tbdaba,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
 <p class="nav-links"><a href="#first-lines">↓ Індекс</a></p>
 <section class="toc" id="toc">
 <h1>Зміст</h1>
@@ -2255,7 +2255,7 @@
 <p class="translation">Я біжу за тобою у відчаї. Я біжу за тобою з надією отримати скарб Крішни. Якщо ти забажаєш, ти можеш дати Крішну іншим. Крішна - скарб твого серця. Ти маєш силу дати Крішну. Якщо ти забажаєш, ти можеш дати Крішну іншим.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Примітка до строфи 2</p>
+<h3>Примітка до строфи 2</h3>
 <p class="translation"><i class="translation__term">Шість спонукань</i> — це прагнення мови, ума, гніву, язика, шлунка та статевих органів.<br>
 <i class="translation__term">Шість вад:</i><br />1) схильність переїдати або накопичення грошей понад необхідного;<br />2) зайві зусилля заради матеріальних цілей;<br />3) пусті балачки на мирські теми;<br />4) надмірна привʼязаність до вказівок святого письма або, навпаки, зневага до них;<br />5) близьке спілкування з людьми, зануреними в матеріалістичний настрій;<br />6) прагнення мирської слави та досягнень.<br>
 <i class="translation__term">Шість благих чеснот:</i><br />1) натхнення в служінні;<br />2) терпіння та терпимість;<br />3) впевненість;<br />4) рішучість виконувати дії, сприятливі відданому служінню;<br />5) твердий намір відмовитися від спілкування з невідданими;<br />6) внутрішня дисципліна завжди слідувати по стопам попередніх <i>ачарʼїв</i>.<br>
@@ -5105,7 +5105,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;нароттама лоіло шярана</strong></p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Коментар Шріли Б.Р. Шрідгара Дев-Ґосвамі Махараджа</p>
+<h3>Коментар Шріли Б.Р. Шрідгара Дев-Ґосвамі Махараджа</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -6831,7 +6831,7 @@
 <p class="translation">Господь Нарасімга присутній і тут, і там. Куди б я не пішов — усюди є Господь Нарасімга. Він одночасно перебуває і в серці, і зовні. Я вручаю себе Господу Нарасімзі — першоджерелу всього сущого і найвищому притулку.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Шрī Дашявата̄р-стотрам</p>
+<h3>Шрī Дашявата̄р-стотрам</h3>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -8878,7 +8878,7 @@
 <p class="first-line" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">яді те харі-па̄да-сароджа-судга̄</a></p>
 <p class="first-line" data-translated="0"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">ямуна̄мбу-кришна-ра̄дгіка̄лі-келі-мандалам<span class="page-num"> — 104</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

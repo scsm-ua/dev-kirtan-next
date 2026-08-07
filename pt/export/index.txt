@@ -8,7 +8,7 @@ b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/181d0c0650eb5cf4.css","style"]
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-0:{"P":null,"c":["","pt","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","pt","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"P":null,"c":["","pt","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","pt","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"meIf9nnV5FSptRl6XVe2Z"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[2342,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$Lf","2",{}]]
 10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-64679a2f3479cf66.js"],"default"]
-11:T9936b,<h1 class="book-title">Livro de Kirtan</h1>
+11:T992c3,<h1 class="book-title">Livro de Kirtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Conteúdo</h1>
@@ -3883,7 +3883,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">O Śrī Kṛṣṇa-saṅkīrtan limpa o espelho da consciência, extingue o feroz incêndio florestal da [que é a] existência material, faz brilhar o luar na lótus noturna da [nossa] boa fortuna, é a vida do conhecimento divino, expande o oceano de êxtase, é o sabor de todo o néctar a cada momento, e acalma a totalidade do ser. Que o Śrī Kṛṣṇa-saṅkīrtan seja supremamente vitorioso!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -3955,7 +3955,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Ó Senhor, Você manifestou Seus inúmeros Nomes, colocou todo o Seu poder dentro Deles e não fez quaisquer regras relativas ao momento de se lembrar Deles. Tal é Sua grande misericórdia. Meu infortúnio, porém, é que eu não tenho nenhum apego aos Seus Nomes.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4004,7 +4004,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">“O Nome do Senhor deveria ser cantado sempre por aquele que é mais humilde que uma folha de grama, tão tolerante quanto uma árvore, respeitoso com os outros e livre de desejo por respeito.”</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4076,7 +4076,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">“Ó Senhor do universo! Eu não desejo riqueza, seguidores, mulheres bonitas, ou erudição. Nascimento após nascimento, eu desejo apenas devoção incondicional a Você.”</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4141,7 +4141,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Ó Filho de Nanda, misericordiosamente considere este Seu servo que caiu no terrível oceano da existência material como sendo uma partícula de poeira aos Seus pés de lótus.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4193,7 +4193,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Quando lágrimas cairão dos meus olhos, minha voz vacilará e os pelos do meu corpo ficarão em pé ao chamar Seu Nome?</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4258,7 +4258,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Em separação de Govinda, um momento é sentido como uma era, parece que chove de meus olhos, e sinto que todo o mundo está vazio.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -4387,7 +4387,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="translation">Ele pode abraçar esta serva, Ele pode pisar em cima de mim, ou Ele pode ir embora e partir meu coração. O que quer que este debochado faça, Ele apenas, e ninguém mais, é o Senhor do meu coração.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Gīti</p>
+<h3>Gīti</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>

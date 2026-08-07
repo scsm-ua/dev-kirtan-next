@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T18d3c,<h1 class="book-title">Колесница Джаганнатха</h1>
+3:T18ca9,<h1 class="book-title">Колесница Джаганнатха</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -770,7 +770,7 @@
 <i>ШРИ ЧАЙТАНЬЯ-ЧАРИТАМРИТА. АНТЬЯ-ЛИЛА. 20.63-65</i></p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Понедельник</p>
+<h3>Понедельник</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -785,7 +785,7 @@
 <p class="translation">Господне Имя проясняет зеркало сознания и гасит пламя суетных страстей. Оно как полная луна, в чьём нежном свете распускается удачи белый лотос. Оно дарует знание, вселяет жизнь, невестою подводит к Богу. Оно бросает в бесконечно ширящийся океан блаженства. Оно к устам подносит чашу, полную сладчайшего нектара, омывает душу чистою, живительной водой. Так пусть над миром шествует с победою Святых Имён Господних воспеванье!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Вторник</p>
+<h3>Вторник</h3>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
@@ -796,7 +796,7 @@
 <p class="translation">О Господи, явился миру Ты в различных Именах, и каждое Ты наделил Своею полной властью. Для их памятования нет строгих правил и обрядов нет. Любой в каком угодно месте и в любое время может Твоё Имя призывать. Но Я настолько низок и настолько обделён удачею, что сладости не чувствую Твоих Имён и к ним влеченья не питаю.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Среда</p>
+<h3>Среда</h3>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -807,7 +807,7 @@
 <p class="translation">Лишь тот, кто в сердце собственном смиреннее травинки, древа терпеливей кто, кто душу почитает всякую и сам лишён тщеславья, способен непрестанно Имя Божие святое воспевать.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Четверг</p>
+<h3>Четверг</h3>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -818,7 +818,7 @@
 <p class="translation">Владыка мира! Я не желаю благ земных, толпы восторженных поклонников, красавиц нежных и влюблённых, Мне таланты не нужны и дарованья на поприще искусства. Всё, о чем мечтаю Я, ― из жизни в жизнь служить Тебе рабом покорным и смиренным.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Пятница</p>
+<h3>Пятница</h3>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
@@ -829,7 +829,7 @@
 <p class="translation">О милосердный Сын Яшоды! Даруй убежище у стоп Твоих былинке малой, что с незапамятных времён была низвергнута во мрачную пучину наважденья!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Суббота</p>
+<h3>Суббота</h3>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
@@ -840,7 +840,7 @@
 <p class="translation">О Господи, приблизь тот день, когда при воспевании Имён Твоих из глаз Моих ручьём прольются слёзы! Когда Мой голос задрожит, дыхание прервётся, и волосы поднимутся на теле!</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Воскресенье</p>
+<h3>Воскресенье</h3>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
@@ -959,7 +959,7 @@
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">ш́рӣ-сиддха̄нта-сарасватӣти видито<span class="page-num"> — 15</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

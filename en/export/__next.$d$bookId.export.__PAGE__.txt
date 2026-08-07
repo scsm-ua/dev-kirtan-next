@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:Td04f2,<h1 class="book-title">Kirtan Guide</h1>
+3:Td04b8,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -5482,7 +5482,7 @@ When you become offenceless, you will obtain love of God; but in these Names of 
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;narottama loilo śaraṇa</strong></p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Commentary by Śrīla B.R. Śrīdhar Dev-Goswāmī:</p>
+<h3>Commentary by Śrīla B.R. Śrīdhar Dev-Goswāmī:</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -7460,7 +7460,7 @@ Footnote to Song 8b: <i>Śrīla Śrīdhar Mahārāja advised not to sing this so
 <p class="translation">Lord Nṛsiṁha is here and also there. Wherever I go Lord Nṛsiṁha is there. He is in the heart and is outside as well. I surrender to Lord Nṛsiṁha, the origin of all things and the supreme refuge.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Śrī Daśāvatār-stotram</p>
+<h3>Śrī Daśāvatār-stotram</h3>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -9174,8 +9174,8 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <strong>prāpnoti kṛṣṇa-sārūpyaṁ maithilendra na saṁśayaḥ</strong></p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse-subtitle">Bengali verse illumination<br>
-by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</p>
+<h3>Bengali verse illumination</h3>
+<h3>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h3>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -9697,7 +9697,7 @@ by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</p>
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 322</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 234</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"pvEj70xQPBJ7m6QnkHdTv"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
