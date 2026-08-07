@@ -16,6 +16,7 @@ export type TExportOptions = {
   withNavLinks: boolean;
   withPageNumbers: boolean;
   withToc: boolean;
+  withTranslation: boolean;
   withWbw: boolean;
 };
 
@@ -29,6 +30,7 @@ export const DEFAULT_EXPORT_OPTIONS: TExportOptions = {
   withNavLinks: true,
   withPageNumbers: false,
   withToc: true,
+  withTranslation: true,
   withWbw: true
 };
 
@@ -50,7 +52,8 @@ const BOOL_PARAMS: ReadonlyArray<{ key: BoolOptionKey; param: string }> = [
   { key: 'withFirstLines', param: 'index' },
   { key: 'withPageNumbers', param: 'pages' },
   { key: 'withNavLinks', param: 'nav' },
-  { key: 'withLinks', param: 'links' }
+  { key: 'withLinks', param: 'links' },
+  { key: 'withTranslation', param: 'trans' }
 ];
 
 /**
@@ -175,6 +178,7 @@ export function filterExportBody(
     withNavLinks,
     withPageNumbers,
     withToc,
+    withTranslation,
     withWbw
   }: TExportOptions
 ): string {
@@ -233,6 +237,10 @@ export function filterExportBody(
 
   if (!withWbw) {
     root.querySelectorAll('p.wbw').forEach((el) => el.remove());
+  }
+
+  if (!withTranslation) {
+    root.querySelectorAll('p.translation').forEach((el) => el.remove());
   }
 
   if (verseNumberMode !== 'heading') {

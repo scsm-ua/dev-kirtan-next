@@ -28,6 +28,7 @@ function ExportToolbar({ fileName, getHtml, onChange, options }: Props) {
     withNavLinks,
     withPageNumbers,
     withToc,
+    withTranslation,
     withWbw
   } = options;
 
@@ -164,6 +165,14 @@ function ExportToolbar({ fileName, getHtml, onChange, options }: Props) {
             type="checkbox"
           />
           Word by word
+        </label>
+        <label className="ExportToolbar__option">
+          <input
+            checked={withTranslation}
+            onChange={(e) => onChange({ withTranslation: e.target.checked })}
+            type="checkbox"
+          />
+          Translation
         </label>
         <label className="ExportToolbar__option">
           <input

@@ -1,5 +1,5 @@
 ---
-description: "Use when modifying the songbook HTML export feature: the /[bookId]/export page, the buildExportHtml document builder in lib/export.ts, any export option in TExportOptions (only translated / word by word / TOC / first-line index / page numbers / verse indent / verse number mode / enable links / nav links), the ExportToolbar download/copy/print buttons, or the export document structure (heading levels, section wrappers, verse/wbw/translation paragraph classes)."
+description: "Use when modifying the songbook HTML export feature: the /[bookId]/export page, the buildExportHtml document builder in lib/export.ts, any export option in TExportOptions (only translated / word by word / translation / TOC / first-line index / page numbers / verse indent / verse number mode / enable links / nav links), the ExportToolbar download/copy/print buttons, or the export document structure (heading levels, section wrappers, verse/wbw/translation paragraph classes)."
 applyTo: ["lib/export.ts", "other/exportDoc.ts", "app/[bookId]/export/**", "components/export/**"]
 ---
 
@@ -45,6 +45,7 @@ Defined in `TExportOptions` (`other/exportDoc.ts`). Defaults live in `DEFAULT_EX
 |---|---|---|
 | `onlyTranslated` | `true` | Removes `.song`, `.first-line`, `.toc-item` without `data-translated="1"` |
 | `withWbw` | `true` | When off, removes every `p.wbw` |
+| `withTranslation` | `true` | When off, removes every `p.translation` (also silently no-ops the `translation-prefix` verse-number mode since there's nothing to prepend to) |
 | `withToc` | `true` | When off, removes `section.toc` and strips nav-link anchors pointing to `#toc` |
 | `withFirstLines` | `true` | When off, removes `section.first-lines` and strips nav-link anchors pointing to `#first-lines` |
 | `withPageNumbers` | `false` | When off, removes every `span.page-num` |
@@ -55,7 +56,7 @@ Defined in `TExportOptions` (`other/exportDoc.ts`). Defaults live in `DEFAULT_EX
 
 All options are applied by `filterExportBody` (browser-only — it uses `DOMParser`). Categories left without songs are dropped; TOC group headings (`h2.toc-item-group`) and first-line group headings (`h2.first-line-group`) left without following items are dropped; empty `.nav-links` (all anchors stripped) are dropped.
 
-**URL persistence**: `ExportView` mirrors state to `?translated=&wbw=&toc=&index=&pages=&nav=&links=&indent=&nums=` via `history.replaceState`. Only values that **differ from the default** are serialized, so the URL stays clean. On mount, `exportOptionsFromSearch` restores state before the write-back effect fires (gated by a `hydrated` flag) so a shared/refreshed link is preserved.
+**URL persistence**: `ExportView` mirrors state to `?translated=&wbw=&toc=&index=&pages=&nav=&links=&trans=&indent=&nums=` via `history.replaceState`. Only values that **differ from the default** are serialized, so the URL stays clean. On mount, `exportOptionsFromSearch` restores state before the write-back effect fires (gated by a `hydrated` flag) so a shared/refreshed link is preserved.
 
 **Adding a new option**: bool options go in the `BOOL_PARAMS` table in `other/exportDoc.ts` — that single table drives both serialization and deserialization symmetrically (absent param → default). Non-bool options need their own branch in `exportOptionsToSearch` / `exportOptionsFromSearch` (see `verseIndent`, `verseNumberMode`). Then add a filter branch in `filterExportBody` and one `<label>` in `ExportToolbar`. Any new option must be expressible as a **DOM query over the prebuilt markup**; if it can't be, add a marker attribute in `lib/export.ts` rather than rebuilding the body on the client.
 
