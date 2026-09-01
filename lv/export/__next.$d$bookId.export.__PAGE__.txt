@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T5df20,<h1 class="book-title">Gaudija Gītandžalī</h1>
+3:T6126f,<h1 class="book-title">Gaudija Gītandžalī</h1>
 <p class="nav-links"><a href="#first-lines">↓ Indekss</a></p>
 <section class="toc" id="toc">
 <h1>Saturs</h1>
@@ -101,6 +101,13 @@
 <p class="toc-item" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">7c. Sakhī go kemote<span class="page-num"> — 191</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">8a. Bondhu-goṇ! śunoho<span class="page-num"> — 191</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">8b. Yoga-pīṭhopari-sthita<span class="page-num"> — 192</span></a></p>
+<h2 class="toc-item-group">Krišnam veltītas dziesmas</h2>
+<p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Mayura mukuṭa<span class="page-num"> — 203</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-he-deva-bhavantam-vande">He deva bhavantaṁ vande<span class="page-num"> — 202</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Jaya Rādhā-Mādhava<span class="page-num"> — 203</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">Sakhi-vṛnde Vijñaptiḥ<span class="page-num"> — 205</span></a></p>
+<h2 class="toc-item-group">Šrīmatī Rādhārānī veltītas dziesmas</h2>
+<p class="toc-item" data-translated="1"><a href="#song-radhakundatata-kunjakutira">Rādhā-kuṇḍataṭa-kuñja-kuṭīra<span class="page-num"> — 199</span></a></p>
 </section>
 <section class="category">
 <h1>Vandana</h1>
@@ -4175,6 +4182,179 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 </div>
 </section>
 </section>
+<section class="category">
+<h1>Krišnam veltītas dziesmas</h1>
+<section class="song" id="song-mayura-mukuta-pitambara-dhari" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Mayura mukuṭa <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<h5>1</h5>
+<p class="verse"><strong>mayura-mukuṭa pītāmbara-dhārī</strong><br>
+<strong>muralīdhara govardhana-dhārī</strong></p>
+<p class="translation">Ak, Krišna, Muralī flautas turētāj un Govardhana kalna pacēlāj. Ak, Krišna, kurš nēsā kroni, rotātu ar pāva spalvu, un  kurš ir tērpies zeltainās drānās.</p>
+</div>
+<div class="verse-block" data-number="2">
+<h5>2</h5>
+<p class="verse"><strong>śrī-rādhā-mādhava kuñja-bihārī</strong><br>
+<strong>muralīdhara govardhana-dhārī</strong></p>
+<p class="translation">Ak, Krišna, Muralī flautas turētāj un Govardhana kalna pacēlāj. Ak, Krišna, Šrīmatī Rādharānī Kungs, kurš rotaļājas svētās Vrindāvanas audzēs.</p>
+</div>
+<div class="verse-block" data-number="3">
+<h5>3</h5>
+<p class="verse"><strong>(jaya) yaśodā-nandana kṛṣṇa murāri</strong><br>
+<strong>muralīdhara govardhana-dhārī</strong></p>
+<p class="translation">Ak, Krišna, Muralī flautas turētāj un Govardhana kalna pacēlāj. Visa slava tev, Krišna, mātes Jašodas dēls un dēmona Muras slepkavam.</p>
+</div>
+<div class="verse-block" data-number="4">
+<h5>4</h5>
+<p class="verse"><strong>(jaya) gopī-jana-ballabha vaṁśī-bihārī</strong><br>
+<strong>muralīdhara govardhana-dhārī</strong></p>
+<p class="translation">Ak, Krišna, Muralī flautas turētāj un Govardhana kalna pacēlāj. Visa slava tev, Krišna, visu Vrindāvanas ganumeiteņu visdārgākais mīļotais un Vamšī flautas spēlētāj.</p>
+</div>
+</section>
+<section class="song" id="song-he-deva-bhavantam-vande" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>He deva bhavantaṁ vande <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Rūpa Gosvāmī</h4>
+<h5>1</h5>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;he deva bhavantaṁ vande</strong><br>
+<strong>man-mānasa-madhukara marpaya nija-pada-</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paṅkaja-makarande</strong></p>
+<p class="translation">Ak, Kungs, es klanos tavā priekšā lielā cieņā. Padzirdini jel mana prāta kameni ar savu lotosam līdzīgo pēdu medu!</p>
+</div>
+<div class="verse-block" data-number="2">
+<h5>2</h5>
+<p class="verse"><strong>yadapi samādhiṣu vidhir api paśyati</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;na tava nakhā gramarīchim</strong><br>
+<strong>idam ichāmi niśamya tavāchyuta</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tad api kṛpādbhuta vīchim</strong></p>
+<p class="translation">Pat Brahma savā dziļajā <i>samādhī</i> meditācijā nespēj ieraudzīt pat atblāzmu no tā stara, kas nāk no tavu pēdu nagu galiem. Tomēr, ak, Ačjuta, dzirdot par tavas apbrīnojamās žēlastības viļņiem, es ilgojos tevi ieraudzīt.</p>
+</div>
+<div class="verse-block" data-number="3">
+<h5>3</h5>
+<p class="verse"><strong>bhaktir udañchati yad api mādhava</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;na tvayi mama tila-mātrī</strong><br>
+<strong>parameśvaratā tad api tavādhika-</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;durghaṭa-ghaṭana-vidhātrī</strong></p>
+<p class="translation">Ak, Madhava, manī nav pat ne sezama sēkliņas izmēra mīlestības un pašatdeves tev, taču tavā varā ir padarīt pat neiespējamo par iespējamu.</p>
+</div>
+<div class="verse-block" data-number="4">
+<h5>4</h5>
+<p class="verse"><strong>ayam avilola tayādya sanātana</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kalitādbhuta-rasa-bhāram</strong><br>
+<strong>nivasatu nityam ihāmṛta-nindini</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vindan madhurima-sāram</strong></p>
+<p class="translation">Ak, mūžīgais Kungs, lai mana prāta kamene saldākās garšas meklējumos nekad nepamet tavu lotosa pēdu medu, salīdzinot ar kuru pat saldākais nektārs šķiet zaudējis garšu.</p>
+</div>
+</section>
+<section class="song" id="song-radha-madhava-kunja-bihari" data-translated="1">
+<div class="verse-block" data-number="">
+<h2>Jaya Rādhā-Mādhava <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-bihārī</strong><br>
+<strong>(jaya) gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;(jaya) giri-vara-dhārī</strong><br>
+<strong>(jaya) yaśodā-nandana,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) vraja-jana-rañjana,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) jāmuna-tīra-vana-chārī</strong></p>
+<p class="translation">Krišna ir Rādhas mīļotais. Vrindāvanas svētajās birzīs viņš izspēlē neskaitāmas mīlestības pilnas <i>līlas</i>. Viņš ir Vradžas ganu meiteņu mīļotais, diženā Govardhana kalna nesējs, mātes Jašodas lolotais dēls un visu Vradžas iedzīvotāju prieka avots. Viņš bauda pastaigas pa Jamūnas upes krastu mežiem.</p>
+</div>
+</section>
+<section class="song" id="song-radha-krishna-prana-mora-jugala-kishora" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Sakhi-vṛnde Vijñaptiḥ <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h3>Lūgšana gopijām</h3>
+<h4>Šrīla Narottams Dāsa Thākurs</h4>
+<h5>1</h5>
+<p class="verse"><strong>rādhā-kṛṣṇa prāṇa mora jugala-kiśora</strong><br>
+<strong>jīvane maraṇe gati āro nāhi mora</strong></p>
+<p class="translation">Jauneklīgais Dievišķais Pāris, Šrī Šrī Rādha un Krišna, ir mana dzīvība un mana dvēsele. Dzīvē un nāvē man nav cita patvēruma kā vien viņi.</p>
+</div>
+<div class="verse-block" data-number="2">
+<h5>2</h5>
+<p class="verse"><strong>kālindīra kūle keli-kadambera bon</strong><br>
+<strong>ratana-bedira upara bosābo du’jon</strong></p>
+<p class="translation">Es novietošu Dievišķo Pāri uz dārgakmeņiem rotāta troņa maigā kadambas koku birzī Jamunas upes krastā.</p>
+</div>
+<div class="verse-block" data-number="3">
+<h5>3</h5>
+<p class="verse"><strong>śyāma-gaurī-aṅge dibo chandanera gandha</strong><br>
+<strong>chāmara ḍhulābo kobe heri mukha-chandra</strong></p>
+<p class="translation">Ak, kad gan es varēšu uzlikt aromātisko sandalkoka pastu uz Kunga Šjāmasundara un Šrīmatī Rādharānī ķermeņiem? Kad gan es varēšu viņus vēdināt ar <i>čāmaras</i> vēdekli? Kad varēšu skatīt viņu mēnesim līdzīgās sejas?</p>
+</div>
+<div class="verse-block" data-number="4">
+<h5>4</h5>
+<p class="verse"><strong>gāṅthiyā mālātir mālā dibo doṅhara gole</strong><br>
+<strong>adhare tuliyā dibo karpūra-tāmbule</strong></p>
+<p class="translation">Ak, kad gan es varēšu vērt malatī  ziedu vītnes un likt tās Dievišķajam Pārim kaklā? Kad gan es varēšu cienāt viņus ar betela riekstiem, samaisītiem ar kamparu?</p>
+</div>
+<div class="verse-block" data-number="5">
+<h5>5</h5>
+<p class="verse"><strong>lalitā visākhā-ādi jata sakhī-vṛnda</strong><br>
+<strong>ājñāya koribo sevā charaṇāravinda</strong></p>
+<p class="translation">Ak, kad gan, sekojot Lalitas, Višākhas un citu gopīju norādījumiem, es varēšu kalpot Dievišķā Pāra lotosu pēdām?</p>
+</div>
+<div class="verse-block" data-number="6">
+<h5>6</h5>
+<p class="verse"><strong>śrī-kṛṣṇa-chaitanya-prabhur dāser anudāsa</strong><br>
+<strong>sevā abhilāṣa kore narottama-dāsa</strong></p>
+<p class="translation">Narottams Dāsa, Šrī Krišnas Čaitanjas Mahāprabhū kalpa kalps, ilgojas pēc kalpošanas Dievišķajam Pārim.</p>
+</div>
+</section>
+</section>
+<section class="category">
+<h1>Šrīmatī Rādhārānī veltītas dziesmas</h1>
+<section class="song" id="song-radhakundatata-kunjakutira" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Rādhā-kuṇḍataṭa-kuñja-kuṭīra <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Bhaktivinoda Thākurs</h4>
+<h5>1</h5>
+<p class="verse"><strong>rādhākuṇḍataṭa-kuñjakuṭīra</strong><br>
+<strong>govardhana-parvata jāmuna-tīra</strong></p>
+<p class="translation">Dzīve Vradžas birzīs pie Rādha-<i>kundas</i>, Govardhana kalns, Jamūnas upes krasti;</p>
+</div>
+<div class="verse-block" data-number="2">
+<h5>2</h5>
+<p class="verse"><strong>kusuma-sarovara, mānasa-gaṅgā</strong><br>
+<strong>kalinda-nandinī vipula-taraṅgā</strong></p>
+<p class="translation">Kusum-<i>sarovāra</i> ezers, Mānasa-ganga upe, Jamūnas, saules meitas, līganie viļņi;</p>
+</div>
+<div class="verse-block" data-number="3">
+<h5>3</h5>
+<p class="verse"><strong>vaṁśīvaṭa, gokula, dhīrasamīra</strong><br>
+<strong>vṛndāvana-taru latikā-vānīra</strong></p>
+<p class="translation"><i>Rasas</i> dejas norises vieta un Gokula, maigās vēsmas, Vradžas koki, vīnogulāji un vetasas palmas;</p>
+</div>
+<div class="verse-block" data-number="4">
+<h5>4</h5>
+<p class="verse"><strong>khaga-mṛgakula, malaya-bātāsa</strong><br>
+<strong>mayura, bhramara, muralī-vilāsa</strong></p>
+<p class="translation">Putni un meža zvēri, pavasara saldais gaiss, pāvi, kamenes un apburošā flautas skaņa;</p>
+</div>
+<div class="verse-block" data-number="5">
+<h5>5</h5>
+<p class="verse"><strong>veṇu, śṛṇga, padachihna, meghamālā</strong><br>
+<strong>vasanta, śaśāṅka, śaṅkha karatālā</strong></p>
+<p class="translation">Flauta, ganu rags, viņa pēdu nospiedumi, mākoņu rindas debessjumā, pavasaris, mēness, gliemežnīcas skaņa, karatāli.</p>
+</div>
+<div class="verse-block" data-number="6">
+<h5>6</h5>
+<p class="verse"><strong>jugala vilāse anukūla jāni</strong><br>
+<strong>līlā-vilāsa-uddīpaka māni</strong></p>
+<p class="translation">Es zinu, ka tas viss uztur un bagātina Dievišķā Pāra mūžīgās rotaļas; es jūtu, kā tas atmodina Kunga svētās <i>līlas</i>.</p>
+</div>
+<div class="verse-block" data-number="7">
+<h5>7</h5>
+<p class="verse"><strong>e soba choḍata kā̐hā nāhi jāu̐</strong><br>
+<strong>e soba choḍata parāṇa hārāu̐</strong></p>
+<p class="translation">Es nekad nevarēšu pamest šīs man tik ļoti dārgās lietas. Es zinu, ka bez tām es miršu.</p>
+</div>
+<div class="verse-block" data-number="8">
+<h5>8</h5>
+<p class="verse"><strong>bhaktivinoda kohe, śuno kāna</strong><br>
+<strong>tuyā uddīpaka hāmārā parāṇa</strong></p>
+<p class="translation">“Uzklausi mani, Kāna,” saka Bhaktivinoda, “Tu esi manas dzīves vienīgā gaisma.”</p>
+</div>
+</section>
+</section>
 <section class="first-lines" id="first-lines">
 <h1>Indekss</h1>
 <h2 class="first-line-group">A</h2>
@@ -4211,6 +4391,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">hari haraye namaḥ kṛṣṇa yādavāya namaḥ<span class="page-num"> — 55</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">hari he dayāla mora jaya rādhā-nātha<span class="page-num"> — 158</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">hari-nāma mahāmantra sarva-mantra-sāra<span class="page-num"> — 26</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-he-deva-bhavantam-vande">he deva bhavantaṁ vande<span class="page-num"> — 202</span></a></p>
 <h2 class="first-line-group">J</h2>
 <p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">jaśomatī-nandana vraja-vara nāgara<span class="page-num"> — 39</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">jaya ‘guru-mahārāja’ jati-rājeśvara<span class="page-num"> — 46</span></a></p>
@@ -4219,6 +4400,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-girirajer-arati-vishiala">jaya jaya girirājer ārati viśāla<span class="page-num"> — 32</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-girirajer-arotiko-shobha">jaya jaya girirājer ārotiko śobhā<span class="page-num"> — 34</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">jaya jaya gurudever ārati ujjvala<span class="page-num"> — 42</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(jaya) rādhā-mādhava (jaya) kuñja-bihārī<span class="page-num"> — 203</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">jayare jayare jaya gaura-sarasvatī<span class="page-num"> — 66</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayatam-suratau-pangor">jayatāṁ suratau paṅgor<span class="page-num"> — 19</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">je ānilo prema-dhana karuṇā prachura<span class="page-num"> — 135</span></a></p>
@@ -4234,6 +4416,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <h2 class="first-line-group">M</h2>
 <p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">mahāprasāde govinde nāma brahmaṇi<span class="page-num"> — 62</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">mānasa, deho, geho, jo kichū mora<span class="page-num"> — 147</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">mayura-mukuṭa pītāmbara-dhārī<span class="page-num"> — 203</span></a></p>
 <h2 class="first-line-group">N</h2>
 <p class="first-line" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">namo gaurakiśorāya bhaktāvadhūta mūrtaye<span class="page-num"> — 16</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namo-namah-tulasi-maharani">namo namaḥ tulasī mahārāṇī<span class="page-num"> — 69</span></a></p>
@@ -4249,6 +4432,10 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-prema-mugdha-nritya-kirtanakularitantikam">prema-mugdha-nṛtya-kīrtanākulāriṭāntikaṁ<span class="page-num"> — 96</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-prema-mugdha-rudra-raja-shiaurya-virya-vikramam">prema-mugdha-rudra-rāja-śaurya-vīrya-vikramaṁ<span class="page-num"> — 92</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pujya-sri-guru-varga-vandita">pūjya śrī-guru-varga-vandita<span class="page-num"> — 12</span></a></p>
+<h2 class="first-line-group">R</h2>
+<p class="first-line" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">rādhā-kṛṣṇa prāṇa mora jugala-kiśora<span class="page-num"> — 205</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radhakundatata-kunjakutira">rādhākuṇḍataṭa-kuñjakuṭīra<span class="page-num"> — 199</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">rādhā-mādhava (jaya) kuñja-bihārī<span class="page-num"> — 203</span></a></p>
 <h2 class="first-line-group">S</h2>
 <p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">sakala vaiṣṇava-pade mora namaskāra<span class="page-num"> — 21</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">sakhi go kemote dhoribo parāṇ<span class="page-num"> — 191</span></a></p>
@@ -4285,7 +4472,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 104</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 192</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L17WTW1G76n-rXRaPOb88"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

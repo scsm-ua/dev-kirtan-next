@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T133487,<h1 class="book-title">Гаудия Гитанджали</h1>
+3:T133491,<h1 class="book-title">Гаудия Гитанджали</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -154,8 +154,8 @@
 <p class="toc-item" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">Шри Радхика-става<span class="page-num"> — 200</span></a></p>
 <h2 class="toc-item-group">Песни, посвященные Шри Кришне</h2>
 <p class="toc-item" data-translated="1"><a href="#song-he-deva-bhavantam-vande">Хе Дева бхавантам ванде<span class="page-num"> — 202</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Джайа Радха-Мадхава<span class="page-num"> — 203</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Майура мукута<span class="page-num"> — 203</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Джайа Радха-Мадхава<span class="page-num"> — 203/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Майура мукута<span class="page-num"> — 203/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">Шри Джугала-арати<span class="page-num"> — 204</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">Сакхи-врнде виджнаптих<span class="page-num"> — 205</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-radhe-jaya-krishna-jaya-vrindavan">Шри Враджа-дхама-махимамрта<span class="page-num"> — 206</span></a></p>
@@ -10180,7 +10180,7 @@
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">джайа джайа гурудевер а̄рати уджвала<span class="page-num"> — 44</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">джайа джайа ра̄дха̄-кр̣ш̣н̣а джугала-милан<span class="page-num"> — 204</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-yashoda-nandana-krishna-gopala-govinda">джайа джаш́ода̄-нандана кр̣ш̣н̣а гопа̄ла говинда<span class="page-num"> — 210</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(джайа) ра̄дха̄-ма̄дхава (джайа) кун̃джа-биха̄рӣ<span class="page-num"> — 203</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(джайа) ра̄дха̄-ма̄дхава (джайа) кун̃джа-биха̄рӣ<span class="page-num"> — 203/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-radhe-jaya-krishna-jaya-vrindavan">джайа ра̄дхе, джайа кр̣ш̣н̣а, джайа вр̣нда̄ван<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">джайаре джайаре джайа гаура-сарасватӣ<span class="page-num"> — 66</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-paramahamsa-mahashiaya">джайаре джайаре джайа парамахам̇са маха̄ш́айа<span class="page-num"> — 221</span></a></p>
@@ -10218,7 +10218,7 @@
 <p class="first-line" data-translated="1"><a href="#song-krishna-hoite-chatur-mukha">кр̣ш̣н̣а хоите чатур-мукха, хон кр̣ш̣н̣а-севонмукха<span class="page-num"> — 216</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-krishnotkirtana-gana-nartana-parau">кр̣ш̣н̣откӣрттана-га̄на-нартана-парау<span class="page-num"> — 141</span></a></p>
 <h2 class="first-line-group">М</h2>
-<p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">майура-мукут̣а пӣта̄мбара-дха̄рӣ<span class="page-num"> — 203</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">майура-мукут̣а пӣта̄мбара-дха̄рӣ<span class="page-num"> — 203/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">ма̄наса, дехо, гехо, джо кичхӯ мора<span class="page-num"> — 147</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-maha-bhaya-shiankula-e-bhava-tarangini">маха̄-бхайа ш́ан̇кула э бхава таран̇гинӣ<span class="page-num"> — 285</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">маха̄праса̄де говинде на̄ма брахман̣и ваиш̣н̣аве<span class="page-num"> — 62</span></a></p>
@@ -10260,7 +10260,7 @@
 <p class="first-line" data-translated="1"><a href="#song-radha-bhajane-jodi-moti-nahi-bhela">ра̄дха-бхаджане джоди моти на̄хи бхела̄<span class="page-num"> — 198</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">ра̄дха̄-кр̣ш̣н̣а-пра̄н̣а мора джугала-киш́ора<span class="page-num"> — 205</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhakundatata-kunjakutira">ра̄дха̄-кун̣д̣атат̣а-кун̃джа-кут̣ӣра<span class="page-num"> — 199</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">ра̄дха̄-ма̄дхава (джайа) кун̃джа-биха̄рӣ<span class="page-num"> — 203</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">ра̄дха̄-ма̄дхава (джайа) кун̃джа-биха̄рӣ<span class="page-num"> — 203/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">ра̄дхе джайа джайа ма̄дхава-дайите<span class="page-num"> — 200</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhika-charana-padma-sakala-shreyera">ра̄дхика̄-чаран̣а-падма, сакала ш́рейера садма<span class="page-num"> — 196</span></a></p>
 <h2 class="first-line-group">С</h2>
@@ -10316,7 +10316,7 @@
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">эмона гаура̄н̇га бине на̄хи а̄ра<span class="page-num"> — 126</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"meIf9nnV5FSptRl6XVe2Z"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L17WTW1G76n-rXRaPOb88"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
