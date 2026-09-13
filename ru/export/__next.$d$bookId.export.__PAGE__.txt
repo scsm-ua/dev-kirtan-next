@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T133491,<h1 class="book-title">Гаудия Гитанджали</h1>
+3:T1334d2,<h1 class="book-title">Гаудия Гитанджали</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -22,15 +22,15 @@
 <p class="toc-item" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">Шрила Гауракишор Дас Бабаджи Махарадж<span class="page-num"> — 16</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">Шрила Бхактивинод Тхакур<span class="page-num"> — 17</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">Шрила Джаганнатх Дас Бабаджи Махарадж<span class="page-num"> — 18</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">Молитвы, обращенные к вайшнавам<span class="page-num"> — 19</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jayatam-suratau-pangor">Шри Шри Гуру-Гауранга Радха-Мадан-Моханджиу<span class="page-num"> — 19</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">Молитвы, обращенные к вайшнавам<span class="page-num"> — 19/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jayatam-suratau-pangor">Шри Шри Гуру-Гауранга Радха-Мадан-Моханджиу<span class="page-num"> — 19/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-divyad-vrindaranya-kalpa-drumadhah">Шри-Шри-Гуру-Гауранга-Гандхарва-Говиндасундарджиу<span class="page-num"> — 20</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">Шри-Шри-Гуру-Гауранга-Радха-Гопинатхаджиу<span class="page-num"> — 21</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">Туласи пранам мантра<span class="page-num"> — 21</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">Молитва, обращенная к вайшнавам<span class="page-num"> — 21</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">Шри-Шри-Гуру-Гауранга-Радха-Гопинатхаджиу<span class="page-num"> — 21/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">Туласи пранам мантра<span class="page-num"> — 21/2</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">Молитва, обращенная к вайшнавам<span class="page-num"> — 21/3</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">Панча-таттва мантра<span class="page-num"> — 24</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">Харе Кршна маха-мантра<span class="page-num"> — 24</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">Панча-таттва мантра<span class="page-num"> — 24/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">Харе Кршна маха-мантра<span class="page-num"> — 24/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">Даша-видха Намапарадха<span class="page-num"> — 26</span></a></p>
 <h2 class="toc-item-group">Утренняя программа</h2>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-girirajer-arati-vishiala">Гупта Говардхан Арати<span class="page-num"> — 32</span></a></p>
@@ -54,8 +54,8 @@
 <p class="toc-item" data-translated="1"><a href="#song-bhaja-bhakata-vatsala-shri-gaurahari">Шри Бхога-арати Гити<span class="page-num"> — 58</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">Шри Нама-Киртан<span class="page-num"> — 60</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">Шри Шачинандана-вандана<span class="page-num"> — 61</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">Махапрасада<span class="page-num"> — 62</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">Шри Прасада-севайа Гити<span class="page-num"> — 62</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">Махапрасада<span class="page-num"> — 62/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">Шри Прасада-севайа Гити<span class="page-num"> — 62/2</span></a></p>
 <h2 class="toc-item-group">Вечерняя программа</h2>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">Шри Гаура-арати<span class="page-num"> — 64</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">Шри Сарасват-арати<span class="page-num"> — 66</span></a></p>
@@ -96,7 +96,7 @@
 <p class="toc-item" data-translated="1"><a href="#song-jadi-gaura-na-hoto-tobe-ki-hoito">Джади Гаура на хо’то<span class="page-num"> — 125</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">Эмона Гауранга бине нахи ара<span class="page-num"> — 126</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">Ке джаби ке джаби<span class="page-num"> — 127</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-bimala-hemajini-tanu-anupama-re">Бимала хемаджини<span class="page-num"> — 128</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vimala-hemajin-tanu-anupama-re">Бимала хемаджини<span class="page-num"> — 128</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-gauranga-bolite-hobe-pulaka-shorira">Гауранга болите хабе<span class="page-num"> — 129</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-aruna-basane-sonara-suraja">Шри Шри Гаурасундарер Авирбхава Васаре<span class="page-num"> — 130</span></a></p>
 <h2 class="toc-item-group">Песни, посвященные вайшнавам</h2>
@@ -136,15 +136,15 @@
 <h2 class="toc-item-group">Шри Шикшаштакам</h2>
 <p class="toc-item" data-translated="1"><a href="#song-cheto-darpana-marjanam">Шри Шикшаштакам<span class="page-num"> — 182</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">1. Пита-баран̣а кали<span class="page-num"> — 184</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">2. Туху̐ дойа̄-са̄гара<span class="page-num"> — 185</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">3. Ш́рӣ-кр̣ш̣н̣а-кӣртане<span class="page-num"> — 185</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">2. Туху̐ дойа̄-са̄гара<span class="page-num"> — 185/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">3. Ш́рӣ-кр̣ш̣н̣а-кӣртане<span class="page-num"> — 185/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">4. Прабху тава пада<span class="page-num"> — 186</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-anadi-karama-phole">5. Ана̄ди карама-пхоле<span class="page-num"> — 187</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-aparadha-phole-mama">6. Апара̄дха-пхоле мама<span class="page-num"> — 188</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">7a. Га̄ите га̄ите на̄ма<span class="page-num"> — 189</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">7b. Га̄ите ‘говинда’-на̄м<span class="page-num"> — 190</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">7c. Сакхи го кемоте<span class="page-num"> — 191</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">8a. Бондху-гон̣! ш́уноха<span class="page-num"> — 191</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">7c. Сакхи го кемоте<span class="page-num"> — 191/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">8a. Бондху-гон̣! ш́уноха<span class="page-num"> — 191/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">8b. Йога-пӣт̣хопари-стхита<span class="page-num"> — 192</span></a></p>
 <h2 class="toc-item-group">Песни, посвященные Шримати Радхарани</h2>
 <p class="toc-item" data-translated="1"><a href="#song-radhika-charana-padma-sakala-shreyera">Шри Радхаштака 1<span class="page-num"> — 196</span></a></p>
@@ -176,8 +176,8 @@
 <p class="toc-item" data-translated="1"><a href="#song-shri-hari-vasare-hari-kirtana-vidhana">Шри Хари-васара-гити<span class="page-num"> — 238</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shiuddha-bhakata-charana-renu">Шуддха-бхаката<span class="page-num"> — 240</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-chaudda-shiata-sata-shiake-masa-je-phalgun">Шри Гаура-пурнима<span class="page-num"> — 242</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">Прабху кохе<span class="page-num"> — 249</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">После парикрамы<span class="page-num"> — 249</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">Прабху кохе<span class="page-num"> — 249/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">После парикрамы<span class="page-num"> — 249/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radha-krishna-bol-bol-bolo-re-sobai">Шри Нагара-киртана (песнь 4)<span class="page-num"> — 250</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-hari-bole-modera-gaura-elo">Шри Нагара-киртана (песнь 8)<span class="page-num"> — 251</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-yadi-te-hari-pada-saroja-sudha">Шри Годрума-Чандра-Бхаджана-Упадеша</a></p>
@@ -191,8 +191,8 @@
 <h2 class="toc-item-group">Произведения Шрилы Говинды Махараджа</h2>
 <p class="toc-item" data-translated="1"><a href="#song-shri-svarupa-raya-rupa-jiva-bhava">Пранам-мантры Шриле Бхакти Ракшаку Шридхару Дев-Госвами Махараджу<span class="page-num"> — 274</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-naumi-shri-gurupadabjam">Пранати-дашакам<span class="page-num"> — 275</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-prerakam-prachya-pashchatya-shishyanam">Пранам-мантра Шриле Бхакти Нирмалу Ачарйе Махараджу<span class="page-num"> — 277</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">Шри Говинда-кунда Махатмйа<span class="page-num"> — 277</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-prerakam-prachya-pashchatya-shishyanam">Пранам-мантра Шриле Бхакти Нирмалу Ачарйе Махараджу<span class="page-num"> — 277/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">Шри Говинда-кунда Махатмйа<span class="page-num"> — 277/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-devadidevam-ahibhushanam-indukashiam">Гангадхара Садашива Пранам-мантрам<span class="page-num"> — 278</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-bhagyadhishia-tvadiyo-vimala-sukhamayah">Шри Гуру-Прашаштих<span class="page-num"> — 279</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-nava-nalina-ganjitam-kusuma-dala">Пранати-Панчакам<span class="page-num"> — 282</span></a></p>
@@ -3696,7 +3696,7 @@
 <p class="translation">Благоприятный ветер — это божественная любовь к Господу Кришне. Все падшие души были спасены на этом корабле, только Лочан Дас остался позади из-за своих злодеяний.</p>
 </div>
 </section>
-<section class="song" id="song-bimala-hemajini-tanu-anupama-re" data-translated="1">
+<section class="song" id="song-vimala-hemajin-tanu-anupama-re" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Бимала хемаджини <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Ш́рӣла Вр̣нда̄ван Да̄с Т̣ха̄кур</h4>
@@ -10130,13 +10130,13 @@
 <p class="first-line" data-translated="1"><a href="#song-atma-samarpane-gela-abhimana">а̄тма-самарпане гела̄ абхима̄на<span class="page-num"> — 166</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-acharya-varyam-gaura-dhama-nishtham">а̄ча̄рйа-варйам̣ гаура-дха̄ма-ниш̣т̣хам̣</a></p>
 <h2 class="first-line-group">Б</h2>
-<p class="first-line" data-translated="1"><a href="#song-bimala-hemajini-tanu-anupama-re">бимала хемаджини тану анупама ре!<span class="page-num"> — 128</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">бондху-гон̣! ш́уноха вачана мора<span class="page-num"> — 191</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vimala-hemajin-tanu-anupama-re">бимала хемаджини тану анупама ре!<span class="page-num"> — 128</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">бондху-гон̣! ш́уноха вачана мора<span class="page-num"> — 191/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhagyadhishia-tvadiyo-vimala-sukhamayah">бха̄гйа̄дхӣш́а! твадӣйо бимала-сукхамайах̣<span class="page-num"> — 279</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-bhakata-vatsala-shri-gaurahari">бхаджа бхаката-ватсала ш́рӣ гаурахари<span class="page-num"> — 58</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-re-bhaja-re-amar-mana-ati-manda">бхаджа ре бхаджа ре а̄ма̄р мана ати манда<span class="page-num"> — 51</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">бхаджаху̐ ре мана ш́рӣ-нанда-нандана<span class="page-num"> — 146</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">бха̄и-ре! ш́орӣра авидйа̄-джа̄л, джод̣ендрийа та̄хе ка̄л<span class="page-num"> — 62</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">бха̄и-ре! ш́орӣра авидйа̄-джа̄л, джод̣ендрийа та̄хе ка̄л<span class="page-num"> — 62/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhayabhanjana-jayashiamsana">бхайабхан̃джана джайаш́ам̇сана-карун̣а̄йата-найанам<span class="page-num"> — 219</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhuliya-tomare-samsare-asiya">бхулийа̄ тома̄ре, сам̇са̄ре а̄сийа̄<span class="page-num"> — 156</span></a></p>
 <h2 class="first-line-group">В</h2>
@@ -10144,10 +10144,10 @@
 <p class="first-line" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇<span class="page-num"> — 11</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">ванде бхактивинодам̇ ш́рӣ-гаура-ш́акти-сварӯпакам<span class="page-num"> — 17</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vande-vaikuntha-vritti-stham">ванде ваикун̣т̣ха-вр̣тти-стхам̇<span class="page-num"> — 11/1</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">ва̄н̃чха̄-калпатарубхйаш́’ ча кр̣па̄-синдхубхйа эва ча<span class="page-num"> — 19</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">ва̄н̃чха̄-калпатарубхйаш́’ ча кр̣па̄-синдхубхйа эва ча<span class="page-num"> — 19/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vibhavari-shiesha-aloka-praveshia">вибха̄варӣ ш́еш̣а, а̄лока-правеш́а<span class="page-num"> — 52</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-virajar-pare-shiuddha-paravyoma-dham">вираджа̄р па̄ре ш́уддха-паравйома-дха̄м<span class="page-num"> — 197</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">вр̣нда̄йаи туласӣ-девйаи<span class="page-num"> — 21</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">вр̣нда̄йаи туласӣ-девйаи<span class="page-num"> — 21/2</span></a></p>
 <h2 class="first-line-group">Г</h2>
 <p class="first-line" data-translated="1"><a href="#song-gauranga-bolite-hobe-pulaka-shorira">‘гаура̄н̇га’ болите хабе пулака-ш́арӣра<span class="page-num"> — 129</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">га̄ите ‘говинда’-на̄м, упаджило бха̄ва-гра̄м<span class="page-num"> — 190</span></a></p>
@@ -10185,7 +10185,7 @@
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">джайаре джайаре джайа гаура-сарасватӣ<span class="page-num"> — 66</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-paramahamsa-mahashiaya">джайаре джайаре джайа парамахам̇са маха̄ш́айа<span class="page-num"> — 221</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-sa-parikara">джайа са-парикара<span class="page-num"> — 22</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jayatam-suratau-pangor">джайата̄м̇ суратау пан̇гор<span class="page-num"> — 19</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jayatam-suratau-pangor">джайата̄м̇ суратау пан̇гор<span class="page-num"> — 19/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">джайа ш́ачӣнандана сура-муни-вандана<span class="page-num"> — 40</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-shrila-maharaja-charanaravinda">джайа ш́рӣла маха̄ра̄джа чаран̣а̄равинда<span class="page-num"> — 214</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-janama-saphala-tara-krishna-darashiana-jara">джанама сапхала та̄’ра, кр̣ш̣н̣а-дараш́ана джа̄’ра<span class="page-num"> — 208</span></a></p>
@@ -10221,11 +10221,11 @@
 <p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">майура-мукут̣а пӣта̄мбара-дха̄рӣ<span class="page-num"> — 203/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">ма̄наса, дехо, гехо, джо кичхӯ мора<span class="page-num"> — 147</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-maha-bhaya-shiankula-e-bhava-tarangini">маха̄-бхайа ш́ан̇кула э бхава таран̇гинӣ<span class="page-num"> — 285</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">маха̄праса̄де говинде на̄ма брахман̣и ваиш̣н̣аве<span class="page-num"> — 62</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">маха̄праса̄де говинде на̄ма брахман̣и ваиш̣н̣аве<span class="page-num"> — 62/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-mishra-suta-vishvambhara-navadvipa-vasa">миш́ра-сута виш́вамбхара навадвӣпа ва̄са</a></p>
 <h2 class="first-line-group">Н</h2>
 <p class="first-line" data-translated="1"><a href="#song-nava-nalina-ganjitam-kusuma-dala">нава-налина-ган̃джитам̇ кусума-дала<span class="page-num"> — 282</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">нагара бхрамийа̄ а̄ма̄ра гаура эло гхоре<span class="page-num"> — 249</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">нагара бхрамийа̄ а̄ма̄ра гаура эло гхоре<span class="page-num"> — 249/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nagare-nagare-gora-gay">нагаре нагаре гора̄ га̄й<span class="page-num"> — 234</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nadiya-godrume-nityananda-mahajana">надӣйа̄-годруме нитйа̄нанда маха̄джана<span class="page-num"> — 110</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nadiya-nagare-nitai-neche-neche-gay-re">надӣйа̄-нагаре нита̄и нече нече га̄й ре<span class="page-num"> — 230</span></a></p>
@@ -10246,14 +10246,14 @@
 <h2 class="first-line-group">П</h2>
 <p class="first-line" data-translated="1"><a href="#song-parama-karuna-pahu-dui-jana">парама корун̣а, паху̐ дӯи джана<span class="page-num"> — 115</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">пита-баран̣а кали-па̄вана гора̄<span class="page-num"> — 184</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">«прабху кохе, — кохила̄н̇ эи маха̄мантра<span class="page-num"> — 249</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">«прабху кохе, — кохила̄н̇ эи маха̄мантра<span class="page-num"> — 249/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">прабху тава пада-джуге мора ниведана<span class="page-num"> — 186</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">(прабху хе!) эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pralaya-payodhi-jale-dhritavan-asi-vedam">пралайа-пайодхи-джале дхр̣тава̄н аси ведам̇<span class="page-num"> — 225</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram">према-дха̄ма-дивйа-дӣргха-деха-дева-нандитам̇<span class="page-num"> — 88</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-prema-mugdha-nritya-kirtanakularitantikam">према-мугдха-нр̣тйа-кӣрттана̄кула̄рита̄нтикам̇<span class="page-num"> — 96</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-prema-mugdha-rudra-raja-shiaurya-virya-vikramam">према-мугдха-рудра-ра̄джа-ш́аурййа-вирййа-викрамам̇<span class="page-num"> — 92</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-prerakam-prachya-pashchatya-shishyanam">преракам̇ пра̄чйа-па̄ш́ча̄тйа ш́иш̣йа̄н̣а̄м̇<span class="page-num"> — 277</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-prerakam-prachya-pashchatya-shishyanam">преракам̇ пра̄чйа-па̄ш́ча̄тйа ш́иш̣йа̄н̣а̄м̇<span class="page-num"> — 277/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pujya-sri-guru-varga-vandita">пӯджйа-ш́рӣ-гуру-варга-вандита<span class="page-num"> — 12</span></a></p>
 <h2 class="first-line-group">Р</h2>
 <p class="first-line" data-translated="1"><a href="#song-radha-krishna-bol-bol-bolo-re-sobai">‘рāдхā-кр̣ш̣н̣а’ бол бол боло ре собāи<span class="page-num"> — 250</span></a></p>
@@ -10264,10 +10264,10 @@
 <p class="first-line" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">ра̄дхе джайа джайа ма̄дхава-дайите<span class="page-num"> — 200</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhika-charana-padma-sakala-shreyera">ра̄дхика̄-чаран̣а-падма, сакала ш́рейера садма<span class="page-num"> — 196</span></a></p>
 <h2 class="first-line-group">С</h2>
-<p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">сакала ваиш̣н̣ава-паде мора намаска̄ра<span class="page-num"> — 21</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">сакхи го кемоте дхорибо пара̄н̣<span class="page-num"> — 191</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">сакала ваиш̣н̣ава-паде мора намаска̄ра<span class="page-num"> — 21/3</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">сакхи го кемоте дхорибо пара̄н̣<span class="page-num"> — 191/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">сам̇са̄ра-да̄ва̄нала-лӣд̣ха-лока<span class="page-num"> — 48</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">самудра-самбхава̄ га̄бхӣ сурабхӣ а̄пана<span class="page-num"> — 277</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">самудра-самбхава̄ га̄бхӣ сурабхӣ а̄пана<span class="page-num"> — 277/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarach-chandra-bhrantim-sphurad-amala-kantim">сарач-чандра-бхра̄нтим̇ спхурад-амала-ка̄нтим̇</a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">сарвасва тома̄ра, чаран̣е са̐пийа̄<span class="page-num"> — 163</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">суджана̄рвуда-ра̄дхита-па̄да-йугам̇<span class="page-num"> — 78</span></a></p>
@@ -10275,14 +10275,14 @@
 <h2 class="first-line-group">Т</h2>
 <p class="first-line" data-translated="1"><a href="#song-tatala-saikate-vari-bindu-sama">та̄тала саикате ба̄ри бинду-сама<span class="page-num"> — 164</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">туми сарвеш́вареш́вара, браджендра-кума̄ра!<span class="page-num"> — 162</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">туху̐ дойа̄-са̄гара та̄райите пра̄н̣ӣ<span class="page-num"> — 185</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">туху̐ дойа̄-са̄гара та̄райите пра̄н̣ӣ<span class="page-num"> — 185/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">т̣ха̄кура ваиш̣н̣ава ган̣а кори эи ниведана<span class="page-num"> — 54</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">т̣ха̄кура-ваиш̣н̣ава-пада, аванӣра сусампада<span class="page-num"> — 134</span></a></p>
 <h2 class="first-line-group">У</h2>
 <p class="first-line" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">удило арун̣а пӯраба-бха̄ге<span class="page-num"> — 42</span></a></p>
 <h2 class="first-line-group">Х</h2>
 <p class="first-line" data-translated="1"><a href="#song-hari-bole-modera-gaura-elo">‘хари’ боле’ модера гаура эло<span class="page-num"> — 251</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">харе кр̣ш̣н̣а харе кр̣ш̣н̣а кр̣ш̣н̣а кр̣ш̣н̣а харе харе<span class="page-num"> — 24</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">харе кр̣ш̣н̣а харе кр̣ш̣н̣а кр̣ш̣н̣а кр̣ш̣н̣а харе харе<span class="page-num"> — 24/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">хари-на̄ма маха̄мантра сарва-мантра-са̄ра<span class="page-num"> — 26</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">хари харайе намах̣ кр̣ш̣н̣а джа̄дава̄йа намах̣<span class="page-num"> — 55</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-hari-biphole-janama-goyainu">хари хари! бипхоле джанама гойа̄ину<span class="page-num"> — 159</span></a></p>
@@ -10295,11 +10295,11 @@
 <p class="first-line" data-translated="1"><a href="#song-cheto-darpana-marjanam">чето-дарпан̣а-ма̄рджанам̇<span class="page-num"> — 182</span></a></p>
 <h2 class="first-line-group">Ш</h2>
 <p class="first-line" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">ш́рӣ гуру чаран̣а-падма, кевала-бхакати-садма<span class="page-num"> — 74</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">ш́рӣ-кр̣ш̣н̣а-кӣртане джоди ма̄наса тоха̄ра<span class="page-num"> — 185</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">ш́рӣ-кр̣ш̣н̣а-кӣртане джоди ма̄наса тоха̄ра<span class="page-num"> — 185/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-jive-daya-kori">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху джӣве дойа̄ кори’<span class="page-num"> — 50</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">ш́рӣ кр̣ш̣н̣а чаитанйа прабху дойа̄ коро море<span class="page-num"> — 75</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">ш́рӣман ра̄са-раса̄рамбхӣ<span class="page-num"> — 21</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">ш́рӣман ра̄са-раса̄рамбхӣ<span class="page-num"> — 21/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shrimach-chaitanyapadau-chara">ш́рӣмач-чаитанйапа̄дау чара-камалайугау<span class="page-num"> — 264</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir">ш́рӣмач-чаитанйа-са̄расвата-мат̣хавара-удгӣта-кӣртир</a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-rupa-manjari-pada-sei-mora-sampada">ш́рӣ-рӯпа-ман̃джарӣ-пада, сеи мора сампада<span class="page-num"> — 173</span></a></p>
@@ -10316,7 +10316,7 @@
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">эмона гаура̄н̇га бине на̄хи а̄ра<span class="page-num"> — 126</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L17WTW1G76n-rXRaPOb88"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"PQVuLivAVGg4V3mLNH-w8"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

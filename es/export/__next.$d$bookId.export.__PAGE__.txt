@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T19f966,<h1 class="book-title">Guía de Kīrtan</h1>
+3:T19f988,<h1 class="book-title">Guía de Kīrtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Contenido</h1>
@@ -113,14 +113,14 @@
 <p class="toc-item" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">Śrī Rādhikā-stava<span class="page-num"> — 244</span></a></p>
 <h2 class="toc-item-group">Canciones para Śrī Kṛṣṇa</h2>
 <p class="toc-item" data-translated="1"><a href="#song-he-deva-bhavantam-vande">He deva bhavantaṁ vande<span class="page-num"> — 246</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Jaya Rādhā-Mādhava<span class="page-num"> — 247</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">Śrī Jugala-ārati<span class="page-num"> — 247</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Jaya Rādhā-Mādhava<span class="page-num"> — 247/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">Śrī Jugala-ārati<span class="page-num"> — 247/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">Sakhī-vṛnde Vijñaptiḥ<span class="page-num"> — 249</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-radhe-jaya-krishna-jaya-vrindavan">Śrī Vraja-dhāma-mahimāmṛta<span class="page-num"> — 250</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-janama-saphala-tara-krishna-darashiana-jara">Rūpa-Kīrtan<span class="page-num"> — 253</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shiuno-he-rasika-jon-krishna-guna-aganon">Guṇa-Kīrtan<span class="page-num"> — 256</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jaya-yashoda-nandana-krishna-gopala-govinda">Jaya Yaśodā-Nandana Kṛṣṇa<span class="page-num"> — 258</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Mayura Mukuṭa<span class="page-num"> — 258</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-yashoda-nandana-krishna-gopala-govinda">Jaya Yaśodā-Nandana Kṛṣṇa<span class="page-num"> — 258/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Mayura Mukuṭa<span class="page-num"> — 258/2</span></a></p>
 <h2 class="toc-item-group">Canciones para días especiales</h2>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-shrila-maharaja-charanaravinda">Āchārya-charaṇa-vandana<span class="page-num"> — 261</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-krishna-hoite-chatur-mukha">Śrī Guru-paramparā<span class="page-num"> — 263</span></a></p>
@@ -151,14 +151,14 @@
 <p class="toc-item" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">Śrīman-Nityānanda-Dvādaśakam<span class="page-num"> — 382</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shri-svarupa-raya-rupa-jiva-bhava">Praṇām Mantra<span class="page-num"> — 389</span></a></p>
 <h2 class="toc-item-group">Otras Canciones</h2>
-<p class="toc-item" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">Después del parikramā<span class="page-num"> — 392</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">Dainya O Prapatti<span class="page-num"> — 392</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">Después del parikramā<span class="page-num"> — 392/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">Dainya O Prapatti<span class="page-num"> — 392/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">Emona Gaurāṅga bine nāhi āra<span class="page-num"> — 393</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-kali-ghora-timire-garasala-jagajana">Kali-ghora timire<span class="page-num"> — 395</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-ohe-harinam-tava-mahima-apara">Śrī Nāmāṣṭakam 7<span class="page-num"> — 397</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-atha-govardhane-ramye-surabhi">Śrī Govinda Kuṇḍa Mahātmya<span class="page-num"> — 399</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-devadidevam-ahibhushanam-indukashiam">Gaṅgadhar Sadāśiva Praṇām-Mantram<span class="page-num"> — 400</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">Śrī Govinda Kuṇḍa Māhātmya<span class="page-num"> — 400</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-devadidevam-ahibhushanam-indukashiam">Gaṅgadhar Sadāśiva Praṇām-Mantram<span class="page-num"> — 400/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">Śrī Govinda Kuṇḍa Māhātmya<span class="page-num"> — 400/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-girirajer-arati-vishiala">Śrī Govinda Kuṇḍa Gupta-Govardhan Ārati<span class="page-num"> — 401</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-girirajer-arotiko-shobha">Śrī Śrī Girirāj-Govardhan Ārati<span class="page-num"> — 404</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-ara-keno-maya-jale">Śreyaḥ Nirṇaya 2<span class="page-num"> — 407</span></a></p>
@@ -10286,7 +10286,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <h2 class="first-line-group">D</h2>
 <p class="first-line" data-translated="1"><a href="#song-dayal-nitai-chaitanya-bole-nach-re">‘doyāl nitāi chaitanya’ bo’le’ nāch re āmār man<span class="page-num"> — 123</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-he-deva-bhavantam-vande">deva bhavantaṁ vande<span class="page-num"> — 246</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-devadidevam-ahibhushanam-indukashiam">devādidevam<span class="page-num"> — 400</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-devadidevam-ahibhushanam-indukashiam">devādidevam<span class="page-num"> — 400/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-deva-siddha-mukta-yukta-bhakta-vrinda">deva-siddha-mukta-yukta-bhakta-vṛnda<span class="page-num"> — 321</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-dhana-mora-nityananda-pati-mora">dhana mora nityānanda<span class="page-num"> — 117</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram">dhvasta-sārvvabhauma-vāda-navya-tarka-śāṅkaraṁ<span class="page-num"> — 332</span></a></p>
@@ -10318,7 +10318,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">hari haraye namaḥ kṛṣṇa yādavāya namaḥ<span class="page-num"> — 80</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-hari-biphole-janama-goyainu">hari hari! biphole janama goyāinu<span class="page-num"> — 183</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-he-prapanche-podiya-agati-hoiya">hari he! prapañche paḍiyā, agati ha-iyā<span class="page-num"> — 180</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">hari he doyāla mora<span class="page-num"> — 392</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">hari he doyāla mora<span class="page-num"> — 392/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">hari-nāma mahāmantra<span class="page-num"> — 73</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-he-deva-bhavantam-vande">(he) deva bhavantaṁ vande<span class="page-num"> — 246</span></a></p>
 <h2 class="first-line-group">J</h2>
@@ -10327,13 +10327,13 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">jaya ‘guru-mahārāja’ yati-rājeśvara<span class="page-num"> — 43</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudeva-acharya-nirmala">jaya gurudeva āchārya nirmala<span class="page-num"> — 36</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">jaya guru mahārāj karuṇā-sāgara<span class="page-num"> — 46</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jaya-yashoda-nandana-krishna-gopala-govinda">jaya jaśodā-nandana kṛṣṇa gopāla govinda<span class="page-num"> — 258</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-yashoda-nandana-krishna-gopala-govinda">jaya jaśodā-nandana kṛṣṇa gopāla govinda<span class="page-num"> — 258/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-girirajer-arati-vishiala">jaya jaya girirājer ārati<span class="page-num"> — 401</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-girirajer-arotiko-shobha">jaya jaya girirājer ārotiko<span class="page-num"> — 404</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">jaya jaya gorāchā̐der āratika śobhā<span class="page-num"> — 94</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">jaya jaya gurudever ārati ujjvala<span class="page-num"> — 39</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">jaya jaya rādhā-kṛṣṇa jugala-milan<span class="page-num"> — 247</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(jaya) rādhā-mādhava<span class="page-num"> — 247</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">jaya jaya rādhā-kṛṣṇa jugala-milan<span class="page-num"> — 247/2</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(jaya) rādhā-mādhava<span class="page-num"> — 247/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhe-govinda">(jaya) rādhe govinda<span class="page-num"> — 418</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-radhe-jaya-krishna-jaya-vrindavan">jaya rādhe, jaya kṛṣṇa, jaya vṝndāvan<span class="page-num"> — 250</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">jayare jayare jaya gaura-sarasvatī<span class="page-num"> — 97</span></a></p>
@@ -10360,11 +10360,11 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <h2 class="first-line-group">M</h2>
 <p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">mahāprasāde govinde nāma brahmaṇi vaiṣṇave<span class="page-num"> — 88</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">mānasa, deha, geha, yo kichhu mora<span class="page-num"> — 164</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">mayura-mukuṭa<span class="page-num"> — 258</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">mayura-mukuṭa<span class="page-num"> — 258/2</span></a></p>
 <h2 class="first-line-group">N</h2>
 <p class="first-line" data-translated="1"><a href="#song-nadiya-godrume-nityananda-mahajana">nadīyā-godrume nityānanda mahājana<span class="page-num"> — 115</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nadiya-nagare-nitai-neche-neche-gay-re">nadīyā-nagare nitāi neche neche gāy re<span class="page-num"> — 289</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">nagara bhramiyā<span class="page-num"> — 392</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">nagara bhramiyā<span class="page-num"> — 392/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nagare-nagare-gora-gay">nagare nagare gorā gāy<span class="page-num"> — 295</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namamishvaram-sachchidananda-rupam">namāmīśvaraṁ sachchidānanda rūpaṁ<span class="page-num"> — 285</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namas-te-narasimhaya">namas te narasiṁhāya<span class="page-num"> — 284</span></a></p>
@@ -10389,14 +10389,14 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-radha-bhajane-jodi-moti-nahi-bhela">rādhā-bhajane jadi mati nāhi bhelā<span class="page-num"> — 240</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">rādhā-kṛṣṇa prāṇa mora jugala-kiśora<span class="page-num"> — 249</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhakundatata-kunjakutira">rādhā-kuṇḍa-taṭa-kuñja-kuṭīra<span class="page-num"> — 242</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">rādhā-mādhava<span class="page-num"> — 247</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">rādhā-mādhava<span class="page-num"> — 247/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhe-govinda">rādhe govinda<span class="page-num"> — 418</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">rādhe jaya jaya mādhava-dayite<span class="page-num"> — 244</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhika-charana-padma-sakala-shreyera">rādhikā-charaṇa-padma<span class="page-num"> — 236</span></a></p>
 <h2 class="first-line-group">S</h2>
 <p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">sakhi go kemote dhoribo parāṇ<span class="page-num"> — 230</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 61</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">samudra sambhavā<span class="page-num"> — 400</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">samudra sambhavā<span class="page-num"> — 400/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">sarvasva tomāra, charaṇe sā̐piyā<span class="page-num"> — 191</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 109</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 327</span></a></p>
@@ -10432,7 +10432,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 382</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 232</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L17WTW1G76n-rXRaPOb88"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"PQVuLivAVGg4V3mLNH-w8"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:Td04b8,<h1 class="book-title">Kirtan Guide</h1>
+3:Td04ea,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -23,13 +23,13 @@
 <p class="toc-item" data-translated="1"><a href="#song-jayatam-suratau-pangor">Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu Kolkata<span class="page-num"> — 19</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-divyad-vrindaranya-kalpa-drumadhah">Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu Nabadwīp<span class="page-num"> — 20</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu Hāpāniyā<span class="page-num"> — 21</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">vṛndāyai tulasī-devyai<span class="page-num"> — 22</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">Prayers to the Vaiṣṇavas<span class="page-num"> — 22</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">vṛndāyai tulasī-devyai<span class="page-num"> — 22/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">Prayers to the Vaiṣṇavas<span class="page-num"> — 22/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-namah-om-vishnupadaya-krishna">Praṇām Mantra to Śrīla Swāmī Mahārāj<span class="page-num"> — 23</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir">The Glory of the Śrī Chaitanya Sāraswat Maṭh<span class="page-num"> — 24</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Jaya Dhvani<span class="page-num"> — 26</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">Pañcha-tattva mantra<span class="page-num"> — 28</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">Hare Krishna mahāmantra<span class="page-num"> — 28</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">Pañcha-tattva mantra<span class="page-num"> — 28/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">Hare Krishna mahāmantra<span class="page-num"> — 28/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">Daśa-vidha Nāmāparādha<span class="page-num"> — 29</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-nija-pati-bhuja-danda-chchhatra-bhavam">Śrī Śrī Govardhana-vāsa-prārthanā-daśakam<span class="page-num"> — 32</span></a></p>
 <h2 class="toc-item-group">Morning Songs</h2>
@@ -52,8 +52,8 @@
 <p class="toc-item" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">Nām-saṅkīrtan<span class="page-num"> — 66</span></a></p>
 <h2 class="toc-item-group">Midday Songs</h2>
 <p class="toc-item" data-translated="1"><a href="#song-bhaja-bhakata-vatsala-shri-gaurahari">Śrī Bhog Ārati Gīti<span class="page-num"> — 68</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">Mahāprasāda<span class="page-num"> — 72</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">Śrī Prasāda-sevāya Gīti<span class="page-num"> — 72</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">Mahāprasāda<span class="page-num"> — 72/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">Śrī Prasāda-sevāya Gīti<span class="page-num"> — 72/2</span></a></p>
 <h2 class="toc-item-group">Evening Songs</h2>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">Śrī Gaura-ārati<span class="page-num"> — 73</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">Śrī Sāraswat-ārati<span class="page-num"> — 75</span></a></p>
@@ -88,8 +88,8 @@
 <p class="toc-item" data-translated="1"><a href="#song-kali-ghora-timire-garasala-jagajana">Kali-ghora timire<span class="page-num"> — 140</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jadi-gaura-na-hoto-tobe-ki-hoito">Jadi Gaura nā ho’to<span class="page-num"> — 141</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">Emona Gaurāṅga bine nāhi āra<span class="page-num"> — 142</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">Ke jabi ke jabi<span class="page-num"> — 144</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-vimala-hemajin-tanu-anupama-re">Vimala hemajini<span class="page-num"> — 144</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">Ke jabi ke jabi<span class="page-num"> — 144/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vimala-hemajin-tanu-anupama-re">Vimala hemajini<span class="page-num"> — 144/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-gauranga-bolite-hobe-pulaka-shorira">‘Gaurāṅga’ bolite habe<span class="page-num"> — 146</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-aruna-basane-sonara-suraja">Śrī Śrī Gaurasundarer Avirbhāva Vasare<span class="page-num"> — 147</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-yadi-te-hari-pada-saroja-sudha">Śrī Godrumachandra-bhajanopadeśa<span class="page-num"> — 150</span></a></p>
@@ -145,8 +145,8 @@
 <p class="toc-item" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">Śrī Rādhikā-stava<span class="page-num"> — 241</span></a></p>
 <h2 class="toc-item-group">Songs to Śrī Krishna</h2>
 <p class="toc-item" data-translated="1"><a href="#song-he-deva-bhavantam-vande">He deva bhavantaṁ vande<span class="page-num"> — 242</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Jaya Rādhā-Mādhava<span class="page-num"> — 243</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Mayura mukuṭa<span class="page-num"> — 243</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Jaya Rādhā-Mādhava<span class="page-num"> — 243/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Mayura mukuṭa<span class="page-num"> — 243/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">Śrī Jugala-ārati<span class="page-num"> — 244</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">Sakhi-vṛnde Vijñaptiḥ<span class="page-num"> — 245</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-radhe-jaya-krishna-jaya-vrindavan">Śrī Vraja-dhāma-mahimāmṛta<span class="page-num"> — 246</span></a></p>
@@ -167,8 +167,8 @@
 <p class="toc-item" data-translated="1"><a href="#song-shri-hari-vasare-hari-kirtana-vidhana">Śrī Hari-vāsara-gīti<span class="page-num"> — 285</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shiuddha-bhakata-charana-renu">Śuddha-bhakata<span class="page-num"> — 288</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-chaudda-shiata-sata-shiake-masa-je-phalgun">Śrī Gaura Purṇīmā<span class="page-num"> — 290</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">Prabhu kohe<span class="page-num"> — 299</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">After parikramā<span class="page-num"> — 299</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">Prabhu kohe<span class="page-num"> — 299/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">After parikramā<span class="page-num"> — 299/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radha-krishna-bol-bol-bolo-re-sobai">Śrī Nagara Kīrtana 4<span class="page-num"> — 300</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-hari-bole-modera-gaura-elo">Śrī Nagara Kīrtana 8<span class="page-num"> — 301</span></a></p>
 <h2 class="toc-item-group">Compositions of Śrīla Śrīdhar Mahārāj</h2>
@@ -9520,7 +9520,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-atma-samarpane-gela-abhimana">ātma-samarpaṇe gelā abhimāna<span class="page-num"> — 196</span></a></p>
 <h2 class="first-line-group">B</h2>
 <p class="first-line" data-translated="1"><a href="#song-bhagyadhishia-tvadiyo-vimala-sukhamayah">bhāgyādhīśa! tvadīyo vimala-sukhamayaḥ<span class="page-num"> — 338</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">bhāi-re! śorīra avidyā-jāl, joḍendriya tāhe kāl<span class="page-num"> — 72</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">bhāi-re! śorīra avidyā-jāl, joḍendriya tāhe kāl<span class="page-num"> — 72/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-bhakata-vatsala-shri-gaurahari">bhaja bhakata-vatsala śrī-gaurahari<span class="page-num"> — 68</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">bhajahu̐ re mana śrī-nanda-nandana<span class="page-num"> — 169</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-re-bhaja-re-amar-mana-ati-manda">bhaja re bhaja re āmār mana ati manda<span class="page-num"> — 60</span></a></p>
@@ -9563,7 +9563,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <h2 class="first-line-group">H</h2>
 <p class="first-line" data-translated="1"><a href="#song-hari-bole-modera-gaura-elo">‘hari’ bole’ modera gaura elo<span class="page-num"> — 301</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ha-ha-bhaktivinoda-thakkura-guroh">hā hā bhaktivinoda-ṭhakkura! guroḥ!<span class="page-num"> — 303</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare<span class="page-num"> — 28</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-hare-krishna-hare-krishna-krishna-krishna-hare-hare">hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare<span class="page-num"> — 28/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">hari haraye namaḥ kṛṣṇa yādavāya namaḥ<span class="page-num"> — 66</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-hari-biphole-janama-goyainu">hari hari! biphole janama goyāinu<span class="page-num"> — 185</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-he-prapanche-podiya-agati-hoiya">hari he! prapañche poḍiyā, agati hoiyā<span class="page-num"> — 184</span></a></p>
@@ -9581,7 +9581,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-girirajer-arotiko-shobha">jaya jaya girirājer ārotiko śobhā<span class="page-num"> — 38</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">jaya jaya gurudever ārati ujjvala<span class="page-num"> — 42</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">jaya jaya rādhā-kṛṣṇa jugala-milan<span class="page-num"> — 244</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(jaya) rādhā-mādhava (jaya) kuñja-bihārī<span class="page-num"> — 243</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(jaya) rādhā-mādhava (jaya) kuñja-bihārī<span class="page-num"> — 243/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-radhe-jaya-krishna-jaya-vrindavan">jaya rādhe, jaya kṛṣṇa, jaya vṛndāvan<span class="page-num"> — 246</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">jayare jayare jaya gaura-sarasvatī<span class="page-num"> — 75</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-paramahamsa-mahashiaya">jayare jayare jaya paramahaṁsa mahāśaya<span class="page-num"> — 262</span></a></p>
@@ -9595,7 +9595,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <h2 class="first-line-group">K</h2>
 <p class="first-line" data-translated="1"><a href="#song-kali-ghora-timire-garasala-jagajana">kali-ghora timire garasala jagajana<span class="page-num"> — 140</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">kali-kukkura-kadana jadi chāo he<span class="page-num"> — 48</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">ke jabi ke jabi bhāi bhava-sindhu pāra<span class="page-num"> — 144</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">ke jabi ke jabi bhāi bhava-sindhu pāra<span class="page-num"> — 144/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">(kiba) jaya jaya gaurāchā̐der ārotiko śobhā<span class="page-num"> — 73</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ki-jani-ki-bale-tomara-dhamete">ki jāni ki bale, tomāra dhāmete<span class="page-num"> — 180</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ki-rupe-paibo-seva-mui-durachara">ki-rūpe pāibo sevā mui durāchāra<span class="page-num"> — 168</span></a></p>
@@ -9607,13 +9607,13 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-krishnotkirtana-gana-nartana-parau">kṛṣṇotkīrtana-gāna-nartana-parau<span class="page-num"> — 162</span></a></p>
 <h2 class="first-line-group">M</h2>
 <p class="first-line" data-translated="1"><a href="#song-maha-bhaya-shiankula-e-bhava-tarangini">mahā-bhaya śaṅkula e bhava taraṅginī<span class="page-num"> — 343</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">mahāprasāde govinde nāma brahmaṇi<span class="page-num"> — 72</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">mahāprasāde govinde nāma brahmaṇi<span class="page-num"> — 72/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">mānasa, deho, geho, jo kichū mora<span class="page-num"> — 170</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">mayura-mukuṭa pītāmbara-dhārī<span class="page-num"> — 243</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">mayura-mukuṭa pītāmbara-dhārī<span class="page-num"> — 243/2</span></a></p>
 <h2 class="first-line-group">N</h2>
 <p class="first-line" data-translated="1"><a href="#song-nadiya-godrume-nityananda-mahajana">nadīyā-godrume nityānanda mahājana<span class="page-num"> — 127</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nadiya-nagare-nitai-neche-neche-gay-re">nadīyā-nagare nitāi neche neche gāy re<span class="page-num"> — 275</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">nagara bhramiyā āmāra gaura elo ghore<span class="page-num"> — 299</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">nagara bhramiyā āmāra gaura elo ghore<span class="page-num"> — 299/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nagare-nagare-gora-gay">nagare nagare gorā gāy<span class="page-num"> — 280</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namah-om-vishnupadaya-krishna">namaḥ om viṣṇupādaya kṛṣṇa<span class="page-num"> — 23</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namamishvaram-sachchidananda-rupam">namāmīśvaraṁ sachchidānanda rūpaṁ<span class="page-num"> — 272</span></a></p>
@@ -9633,7 +9633,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <h2 class="first-line-group">P</h2>
 <p class="first-line" data-translated="1"><a href="#song-parama-karuna-pahu-dui-jana">parama karuṇa, pahu̐ dūi jana<span class="page-num"> — 132</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">pīta-varaṇa kali-pāvana gorā<span class="page-num"> — 216</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">prabhu kohe—kohilaṅ ei mahāmantra<span class="page-num"> — 299</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">prabhu kohe—kohilaṅ ei mahāmantra<span class="page-num"> — 299/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">prabhu tava pada-juge mora nivedana<span class="page-num"> — 222</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pralaya-payodhi-jale-dhritavan-asi-vedam">pralaya-payodhi-jale dhṛtavān asi vedaṁ<span class="page-num"> — 268</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-prema-mugdha-nritya-kirtanakularitantikam">prema-mugdha-nṛtya-kīrtanākulāriṭāntikaṁ<span class="page-num"> — 111</span></a></p>
@@ -9644,11 +9644,11 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-radha-bhajane-jodi-moti-nahi-bhela">rādhā-bhajane jodi moti nāhi bhelā<span class="page-num"> — 238</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">rādhā-kṛṣṇa prāṇa mora jugala-kiśora<span class="page-num"> — 245</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhakundatata-kunjakutira">rādhākuṇḍataṭa-kuñjakuṭīra<span class="page-num"> — 240</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">rādhā-mādhava (jaya) kuñja-bihārī<span class="page-num"> — 243</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">rādhā-mādhava (jaya) kuñja-bihārī<span class="page-num"> — 243/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">rādhe jaya jaya mādhava-dayite<span class="page-num"> — 241</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhika-charana-padma-sakala-shreyera">rādhikā-charaṇa-padma, sakala śreyera<span class="page-num"> — 236</span></a></p>
 <h2 class="first-line-group">S</h2>
-<p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">sakala vaiṣṇava-pade mora namaskāra<span class="page-num"> — 22</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">sakala vaiṣṇava-pade mora namaskāra<span class="page-num"> — 22/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">sakhi go kemote dhoribo parāṇ<span class="page-num"> — 231</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 56</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">samudra-sambhavā gābhī surabhī āpana<span class="page-num"> — 336</span></a></p>
@@ -9660,7 +9660,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-shri-hari-vasare-hari-kirtana-vidhana">śrī hari-vāsare hari-kīrtana-vidhāna<span class="page-num"> — 285</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">śrī kṛṣṇa chaitanya prabhu dayā kara more<span class="page-num"> — 82</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-jive-daya-kori">śrī-kṛṣṇa-chaitanya prabhu jīve dayā kori’<span class="page-num"> — 58</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">śrī-kṛṣṇa-chaitanya prabhu nityānanda<span class="page-num"> — 28</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">śrī-kṛṣṇa-chaitanya prabhu nityānanda<span class="page-num"> — 28/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">śrī-kṛṣṇa-kīrtane jodi mānasa tohāra<span class="page-num"> — 220</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shrimach-chaitanyapadau-chara">śrīmach-chaitanyapādau chara<span class="page-num"> — 316</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir">śrīmach-chaitanya-sārasvata-maṭhavara-udgīta-kīrtir<span class="page-num"> — 24</span></a></p>
@@ -9688,16 +9688,16 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">vande bhaktivinodaṁ śrī-gaura-śakti-svarūpakam<span class="page-num"> — 16</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vande-vaikuntha-vritti-stham">vande vaikuṇṭha-vṛtti-stham<span class="page-num"> — 10</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vibhavari-shiesha-aloka-praveshia">vibhāvarī śeṣa, āloka-praveśa<span class="page-num"> — 62</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-vimala-hemajin-tanu-anupama-re">vimala hemajin tanu anupama re!<span class="page-num"> — 144</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vimala-hemajin-tanu-anupama-re">vimala hemajin tanu anupama re!<span class="page-num"> — 144/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-virajar-pare-shiuddha-paravyoma-dham">virajār pāre śuddha-paravyoma-dhām<span class="page-num"> — 237</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">vṛndāyai tulasī-devyai<span class="page-num"> — 22</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">vṛndāyai tulasī-devyai<span class="page-num"> — 22/1</span></a></p>
 <h2 class="first-line-group">Y</h2>
 <p class="first-line" data-translated="1"><a href="#song-yadi-te-hari-pada-saroja-sudha">yadi te hari-pāda-saroja-sudhā<span class="page-num"> — 150</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 122</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 322</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 234</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"L17WTW1G76n-rXRaPOb88"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"PQVuLivAVGg4V3mLNH-w8"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
