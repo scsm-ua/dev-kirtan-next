@@ -183,10 +183,14 @@ function getAltFirstLines(meta) {
 function mapItem(item, song) {
   const altAliasNames = getAltFirstLines(song.meta);
 
+  const hasNoAuthor = song.meta?.['no-author'] === 1;
+
   return {
     aliasName: song.meta.first_line,
     ...(altAliasNames.length ? { altAliasNames } : {}),
-    author: song.meta?.author || (song.author && song.author[0]) || null,
+    author: hasNoAuthor
+      ? null
+      : song.meta?.author || (song.author && song.author[0]) || null,
     id: item.id,
     page: getPage(song.meta, item.id),
     pages: getPages(song.meta),
