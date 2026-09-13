@@ -15,6 +15,7 @@ export type TContentGroup = {
 /**/
 export type TContentItem = {
   aliasName: string;    // The first line of the first verse.
+  altAliasNames?: string[]; // Additional first lines used for the index page.
   // author?: string;      // not used at the moment
   id: string;           // Slug of the song.
   page: string;

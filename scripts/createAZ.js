@@ -62,25 +62,52 @@ function makeLineVersions(items) {
 		if (item.id in uniqueIds || item.id === 'intro') return;
 		
 		uniqueIds[item.id] = true;
-		const alias = processLineEnding(item.aliasName);
+		const { aliasName, altAliasNames, ...rest } = item;
+		const seen = new Set();
 		
+		// The main first line plus any additional (alt) first lines.
+		[aliasName, ...(altAliasNames || [])].forEach((line) => {
+			pushLineVersions(result, rest, line, seen);
+		});
+	});
+	
+	return result;
+}
+
+/**
+ * Pushes an index entry for a first line, plus a bracket-stripped
+ * duplicate when the line is prefixed with words in brackets.
+ * Skips aliases already generated for the same song.
+ * @param result {Array<ContentItem>}
+ * @param item {ContentItem} - the item without its alias fields.
+ * @param line {string}
+ * @param seen {Set<string>} - aliases already added for this song.
+ */
+function pushLineVersions(result, item, line, seen) {
+	const alias = processLineEnding(line);
+	
+	if (!seen.has(alias)) {
+		seen.add(alias);
 		result.push({
 			...item,
 			aliasName: alias
 		})
+	}
+	
+	// Do not put empty alias when all word in braces.
+	const idx = alias.indexOf(')');
+	
+	if (idx > -1 && idx < alias.length - 1) {
+		const stripped = alias.slice(idx + 1).trim();
 		
-		// Do not put empty alias when all word in braces.
-		const idx = alias.indexOf(')');
-		
-		if (idx > -1 && idx < alias.length - 1) {
+		if (!seen.has(stripped)) {
+			seen.add(stripped);
 			result.push({
 				...item,
-				aliasName: alias.slice(idx + 1).trim()
+				aliasName: stripped
 			})
 		}
-	});
-	
-	return result;
+	}
 }
 
 /**
@@ -115,11 +142,11 @@ function processLineEnding(line) {
  * @returns {string}
  */
 function getFirstLetter(item) {
-	return (item.aliasName.startsWith('(')
+	return ((item.aliasName.startsWith('(')
 		|| item.aliasName.startsWith('‘')
 		|| item.aliasName.startsWith('«'))
 		? item.aliasName[1]
-		: item.aliasName[0];
+		: item.aliasName[0]).toLowerCase();
 }
 
 /**/
