@@ -22,7 +22,7 @@ function convert(groups) {
 	makeLineVersions(
 		groups.flatMap((cat) => cat.items)
 	).sort((a, b) =>
-		getAliasCleaned(a).localeCompare(getAliasCleaned(b))
+		getAliasCleaned(a).localeCompare(getAliasCleaned(b), undefined, { numeric: true })
 	)
 		.forEach((item) => {
 			const firstLetter = getFirstLetter(item);
