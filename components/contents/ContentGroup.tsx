@@ -29,11 +29,11 @@ function ContentGroup({ bookId, group }: Props) {
       )}
 
       <ul className="ContentGroup__list">
-        {group.items.map((item: TContentItem) => (
+        {group.items.map((item: TContentItem, index: number) => (
           <ContentItem
             bookId={bookId}
             item={item}
-            key={item.aliasName}
+            key={`${bookId}-${index}`}
           />
         ))}
       </ul>
