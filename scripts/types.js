@@ -21,13 +21,14 @@
  * @typedef {Object} Song
  * @property {Array<string>} [author]
  * @property {RawSongMeta} meta
- * @property {ResourceObj} resources
+ * @property {ResourceObj} [resources]
  */
 
 /**
  * @typedef {Object} RawSongMeta
  * @property {string} [author]
  * @property {string} first_line
+ * @property {string | Array<string>} [alt_first_lines]
  * @property {'non bold'} ['inline verse']
  * @property {number | string | Array<number>} page
  * @property {'no'} [translation]
@@ -51,6 +52,7 @@
 /**
  * @typedef {Object} ContentItem
  * @property {string} aliasName - the first line of the first verse.
+ * @property {Array<string>} [altAliasNames] - additional first lines for the index.
  * @property {string} [author]
  * @property {string} id - slug of the song.
  * @property {number | string} page

@@ -30,7 +30,7 @@ export type TSong = {
     translation?: 'no';
     'verse parentheses'?: 'non bold';
   };
-  resources: TResource;
+  resources?: TResource;
   subtitle: Array<string>;
   title: Array<string>;
   verses: Array<TVerse>;

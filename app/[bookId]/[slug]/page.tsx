@@ -96,9 +96,9 @@ async function SongPage({ params }: SongPageProps) {
             song={song}
           />
 
-          {song.resources.audio?.length > 0 && (
+          {song.resources?.audio?.length > 0 && (
             <AudioList
-              audio={song.resources.audio}
+              audio={song.resources?.audio}
               language={bookId.slice(0, 2)}
             />
           )}
