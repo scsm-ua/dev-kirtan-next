@@ -33,7 +33,7 @@ function ContentGroup({ bookId, group }: Props) {
           <ContentItem
             bookId={bookId}
             item={item}
-            key={`${item.id}-${item.aliasName}-${item.title}`}
+            key={item.aliasName}
           />
         ))}
       </ul>
