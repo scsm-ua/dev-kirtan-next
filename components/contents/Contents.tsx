@@ -17,8 +17,8 @@ type Props = {
 function Contents({ bookId, contents }: Props) {
   return (
     <ul className="IndexPage__list">
-      {contents.map((group: TContentGroup) => (
-        <ContentGroup bookId={bookId} group={group} key={group.name} />
+      {contents.map((group: TContentGroup, index: number) => (
+        <ContentGroup bookId={bookId} group={group} index={index} key={index} />
       ))}
 
       <AuthorsLink bookId={bookId} />
