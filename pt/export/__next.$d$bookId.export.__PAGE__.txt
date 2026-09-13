@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:T9932b,<h1 class="book-title">Livro de Kirtan</h1>
+3:T99332,<h1 class="book-title">Livro de Kirtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Conteúdo</h1>
@@ -1569,7 +1569,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <h5>5</h5>
 <p class="verse"><strong>ṣaḍ-aṅga śaraṇāgati ha-ibe yā̐hāra</strong><br>
 <strong>ta̐hāra prārthanā śune śrī-nanda-kumāra</strong></p>
-<p class="wbw"><i class="wbw__term">śrī-nanda-kumāra</i>–Kṛṣṇa, o filho de Nanda Mahārāj <i class="wbw__term">śune</i>–escuta <i class="wbw__term">tā̐hāra</i>–suas <i class="wbw__term">prārthanā</i>–orações <i class="wbw__term">yā̐hāra</i>–de quem <i class="wbw__term">ha-ibe</i>–será [a] <i class="wbw__term">śaraṇāgati</i><i class="wbw__term">(prapatti)</i>–rendição [destas] <i class="wbw__term">ṣaḍ</i>–seis <i class="wbw__term">aṅga (prakāra aṅgera dvārā)</i>–maneiras (por meio delas).</p>
+<p class="wbw"><i class="wbw__term">śrī-nanda-kumāra</i>–Kṛṣṇa, o filho de Nanda Mahārāj <i class="wbw__term">śune</i>–escuta <i class="wbw__term">tā̐hāra</i>–suas <i class="wbw__term">prārthanā</i>–orações <i class="wbw__term">yā̐hāra</i>–de quem <i class="wbw__term">ha-ibe</i>–será [a] <i class="wbw__term">śaraṇāgati</i> <i class="wbw__term">(prapatti)</i>–rendição [destas] <i class="wbw__term">ṣaḍ</i>–seis <i class="wbw__term">aṅga (prakāra aṅgera dvārā)</i>–maneiras (por meio delas).</p>
 <p class="translation">Śrī Kṛṣṇa ouve as orações de quem se rende destas seis maneiras.</p>
 </div>
 <div class="verse-block" data-number="6">
@@ -2663,7 +2663,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;gopīnāth, tumi kṛpā-pārābāra</strong><br>
 <strong>jīvera kāraṇe&nbsp;&nbsp;&nbsp;&nbsp;āsiyā prapañche</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;līlā kaile suvistāra</strong></p>
-<p class="wbw"><i class="wbw__term">gopīnāth</i>–Ó Gopīnāth <i class="wbw__term">tumi</i>–Você [é] <i class="wbw__term">pārābāra</i>–um oceano <i class="wbw__term">kṛpā</i>–de misericórdia. <i class="wbw__term">āsiyā</i>–Você veio <i class="wbw__term">prapañche</i>–para [este] mundo [e] <i class="wbw__term">suvistāra</i><i class="wbw__term">kaile</i>–manifestou [Seus] <i class="wbw__term">līlā</i>–Passatempos <i class="wbw__term">kāraṇe</i>–em prol <i class="wbw__term">jīvera</i>–das almas [caídas].</p>
+<p class="wbw"><i class="wbw__term">gopīnāth</i>–Ó Gopīnāth <i class="wbw__term">tumi</i>–Você [é] <i class="wbw__term">pārābāra</i>–um oceano <i class="wbw__term">kṛpā</i>–de misericórdia. <i class="wbw__term">āsiyā</i>–Você veio <i class="wbw__term">prapañche</i>–para [este] mundo [e] <i class="wbw__term">suvistāra</i> <i class="wbw__term">kaile</i>–manifestou [Seus] <i class="wbw__term">līlā</i>–Passatempos <i class="wbw__term">kāraṇe</i>–em prol <i class="wbw__term">jīvera</i>–das almas [caídas].</p>
 <p class="translation">Ó Gopīnāth, Você é um oceano de misericórdia. Você veio a este mundo e realizou Seus Passatempos em prol das almas caídas.</p>
 </div>
 <div class="verse-block" data-number="8">
@@ -3474,7 +3474,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;kabe ha’be bala se-dina āmāra</strong><br>
 <strong>(āmār) aparādha ghuchi’&nbsp;&nbsp;&nbsp;&nbsp;śuddha nāme ruchi</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;kṛpā-bale ha’be hṛdaye sañchāra</strong></p>
-<p class="wbw"><i class="wbw__term">bala</i>–Por favor diga <i class="wbw__term">kabe</i>–quando <i class="wbw__term">ha’be</i>–será <i class="wbw__term">āmāra</i>–meu [o] <i class="wbw__term">dina</i>–dia <i class="wbw__term">se</i>–que [as] <i class="wbw__term">aparādha</i>–ofensas [serão] <i class="wbw__term">ghuchi’</i>–dissipadas [e o] <i class="wbw__term">ruchi</i><i class="wbw__term">(anurāga)</i>–gosto (apego amoroso profundo) <i class="wbw__term">nāme</i>–pelo Nome <i class="wbw__term">śuddha</i>–puro <i class="wbw__term">ha’be</i>–será <i class="wbw__term">hṛdaye</i>–em meu coração <i class="wbw__term">sañchara</i>–infundido <i class="wbw__term">bale</i>–pelo poder <i class="wbw__term">kṛpā (nāma vā guru kṛpā)</i>–da misericórdia (da misericórdia do Nome, ou, da misericórdia de Śrī Guru)?</p>
+<p class="wbw"><i class="wbw__term">bala</i>–Por favor diga <i class="wbw__term">kabe</i>–quando <i class="wbw__term">ha’be</i>–será <i class="wbw__term">āmāra</i>–meu [o] <i class="wbw__term">dina</i>–dia <i class="wbw__term">se</i>–que [as] <i class="wbw__term">aparādha</i>–ofensas [serão] <i class="wbw__term">ghuchi’</i>–dissipadas [e o] <i class="wbw__term">ruchi</i> <i class="wbw__term">(anurāga)</i>–gosto (apego amoroso profundo) <i class="wbw__term">nāme</i>–pelo Nome <i class="wbw__term">śuddha</i>–puro <i class="wbw__term">ha’be</i>–será <i class="wbw__term">hṛdaye</i>–em meu coração <i class="wbw__term">sañchara</i>–infundido <i class="wbw__term">bale</i>–pelo poder <i class="wbw__term">kṛpā (nāma vā guru kṛpā)</i>–da misericórdia (da misericórdia do Nome, ou, da misericórdia de Śrī Guru)?</p>
 <p class="translation">Por favor, diga-me, quando aquele dia será meu em que minhas ofensas serão dissipadas e o gosto pelo Nome puro será infundido em meu coração pela graça divina?</p>
 </div>
 <div class="verse-block" data-number="2">
@@ -3799,7 +3799,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <strong>sārā-dina pāpa kari sei bharasāya—</strong><br>
 <strong>emata durbuddhi yāra sei aparādhī</strong><br>
 <strong>māyā-pravañchita, duḥkha bhuñje niravadhi</strong></p>
-<p class="wbw"><i class="wbw__term">sarva</i>–Todas <i class="wbw__term">śāstre</i>–as escrituras <i class="wbw__term">kaya</i>–dizem [que] <i class="wbw__term">sarva</i>–todo <i class="wbw__term">pāpa</i>–pecado [é] <i class="wbw__term">kṣaya</i>–destruído <i class="wbw__term">nāme</i>–pelo Nome. <i class="wbw__term">sei</i>–Aquele <i class="wbw__term">yāra</i>–que <i class="wbw__term">pāpa</i><i class="wbw__term">kari’</i>–peca <i class="wbw__term">sārā</i>–todo <i class="wbw__term">dina</i>–[o] dia [com] <i class="wbw__term">sei</i>–esta <i class="wbw__term">bharasāya</i>–expectativa, [que tem] <i class="wbw__term">emata</i>–tal <i class="wbw__term">durbuddhi</i>–mentalidade, [é] <i class="wbw__term">aparādhī</i>–um ofensor, [é] <i class="wbw__term">pravañchita</i>–iludido <i class="wbw__term">māyā</i>–por māyā, [e] <i class="wbw__term">bhuñje</i>–está sujeito <i class="wbw__term">duḥkha</i>–[ao] sofrimento <i class="wbw__term">niravadhi</i>–perpétuo.</p>
+<p class="wbw"><i class="wbw__term">sarva</i>–Todas <i class="wbw__term">śāstre</i>–as escrituras <i class="wbw__term">kaya</i>–dizem [que] <i class="wbw__term">sarva</i>–todo <i class="wbw__term">pāpa</i>–pecado [é] <i class="wbw__term">kṣaya</i>–destruído <i class="wbw__term">nāme</i>–pelo Nome. <i class="wbw__term">sei</i>–Aquele <i class="wbw__term">yāra</i>–que <i class="wbw__term">pāpa</i> <i class="wbw__term">kari’</i>–peca <i class="wbw__term">sārā</i>–todo <i class="wbw__term">dina</i>–[o] dia [com] <i class="wbw__term">sei</i>–esta <i class="wbw__term">bharasāya</i>–expectativa, [que tem] <i class="wbw__term">emata</i>–tal <i class="wbw__term">durbuddhi</i>–mentalidade, [é] <i class="wbw__term">aparādhī</i>–um ofensor, [é] <i class="wbw__term">pravañchita</i>–iludido <i class="wbw__term">māyā</i>–por māyā, [e] <i class="wbw__term">bhuñje</i>–está sujeito <i class="wbw__term">duḥkha</i>–[ao] sofrimento <i class="wbw__term">niravadhi</i>–perpétuo.</p>
 <p class="translation">Todas as escrituras declaram que o Nome destrói todos os pecados. Os ímpios que pecam durante todo o dia com essa expectativa são criminosos. Eles são iludidos por māyā e sofrem perpetuamente.</p>
 </div>
 <div class="verse-block" data-number="8">
@@ -4272,7 +4272,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <h5>4</h5>
 <p class="verse"><strong>kā̐dite kā̐dite mora ā̐khi variṣaya</strong><br>
 <strong>varṣā-dhārā hena chakṣe ha-ila udaya</strong></p>
-<p class="wbw"><i class="wbw__term">kā̐dite</i>–Chorando [e] <i class="wbw__term">kā̐dite</i>–chorando <i class="wbw__term">mora</i>–meus <i class="wbw__term">ā̐khi</i>–olhos <i class="wbw__term">variṣaya</i>–derramaram lágrimas. <i class="wbw__term">hena</i>–Tais <i class="wbw__term">dhārā</i>–torrentes <i class="wbw__term">varṣā</i>–de chuva <i class="wbw__term">udaya</i><i class="wbw__term">ha-ila</i>–surgiram <i class="wbw__term">chakṣe</i>–dos [meus] olhos.</p>
+<p class="wbw"><i class="wbw__term">kā̐dite</i>–Chorando [e] <i class="wbw__term">kā̐dite</i>–chorando <i class="wbw__term">mora</i>–meus <i class="wbw__term">ā̐khi</i>–olhos <i class="wbw__term">variṣaya</i>–derramaram lágrimas. <i class="wbw__term">hena</i>–Tais <i class="wbw__term">dhārā</i>–torrentes <i class="wbw__term">varṣā</i>–de chuva <i class="wbw__term">udaya</i> <i class="wbw__term">ha-ila</i>–surgiram <i class="wbw__term">chakṣe</i>–dos [meus] olhos.</p>
 <p class="translation">Enquanto eu chorava, meus olhos derramaram lágrimas. Torrentes de chuva caem dos meus olhos.</p>
 </div>
 <div class="verse-block" data-number="5">
@@ -4406,7 +4406,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <strong>bale more praṇaya-vachana</strong><br>
 <strong>punaḥ adarśana diyā dagdha kare mora hiyā</strong><br>
 <strong>prāṇe more māre prāṇa-dhana</strong></p>
-<p class="wbw"><i class="wbw__term">dāne</i>–Por [me] dar <i class="wbw__term">ānanda</i>–o êxtase <i class="wbw__term">darśana</i>–do encontro [com Ele e] <i class="wbw__term">bale</i>–por dizer <i class="wbw__term">vachana</i>–palavras <i class="wbw__term">praṇaya</i>–amorosas <i class="wbw__term">more</i>–a mim, [Ele] <i class="wbw__term">sukha</i><i class="wbw__term">deya</i>–deleita <i class="wbw__term">mora</i>–meu <i class="wbw__term">prāṇe</i>–coração. <i class="wbw__term">punaḥ</i>–Novamente <i class="wbw__term">adarśana diyā</i>–ao abandonar [me], <i class="wbw__term">dagdha kare</i>–Ele queima <i class="wbw__term">mora</i>–meu <i class="wbw__term">hiyā</i>–coração. <i class="wbw__term">māre</i>–Ele mata <i class="wbw__term">more</i>–meu <i class="wbw__term">prāṇe</i>–coração. [Ainda assim, Ele é] <i class="wbw__term">dhana</i>–a riqueza <i class="wbw__term">prāṇa</i>–do [meu] coração.</p>
+<p class="wbw"><i class="wbw__term">dāne</i>–Por [me] dar <i class="wbw__term">ānanda</i>–o êxtase <i class="wbw__term">darśana</i>–do encontro [com Ele e] <i class="wbw__term">bale</i>–por dizer <i class="wbw__term">vachana</i>–palavras <i class="wbw__term">praṇaya</i>–amorosas <i class="wbw__term">more</i>–a mim, [Ele] <i class="wbw__term">sukha</i> <i class="wbw__term">deya</i>–deleita <i class="wbw__term">mora</i>–meu <i class="wbw__term">prāṇe</i>–coração. <i class="wbw__term">punaḥ</i>–Novamente <i class="wbw__term">adarśana diyā</i>–ao abandonar [me], <i class="wbw__term">dagdha kare</i>–Ele queima <i class="wbw__term">mora</i>–meu <i class="wbw__term">hiyā</i>–coração. <i class="wbw__term">māre</i>–Ele mata <i class="wbw__term">more</i>–meu <i class="wbw__term">prāṇe</i>–coração. [Ainda assim, Ele é] <i class="wbw__term">dhana</i>–a riqueza <i class="wbw__term">prāṇa</i>–do [meu] coração.</p>
 <p class="translation">Ao me dar a alegria de encontrá-Lo e ao dizer palavras amorosas a mim, Ele deleita meu coração. Novamente, ao me abandonar, Ele queima e parte meu coração. Ainda assim, Ele é meu amado.</p>
 </div>
 <div class="verse-block" data-number="5">
@@ -5620,7 +5620,7 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;mādhava-toṣaṇī jāni’</strong><br>
 <strong>gaura-priya&nbsp;&nbsp;&nbsp;&nbsp;śāka-sevane</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;jīvana sārthaka māni</strong></p>
-<p class="wbw"><i class="wbw__term">dekhi’</i>–Vendo <i class="wbw__term">tulasī</i>–a planta mais querida de Kṛṣṇa <i class="wbw__term">juḍāya</i>–alivia <i class="wbw__term">prāṇa</i>–meu coração <i class="wbw__term">jāni’</i>–sabendo [que ela é] <i class="wbw__term">mādhava-toṣaṇī (Gaura-kṛṣṇa-priyā)</i>–agradável a Mādhava (agradável a Śrī Gaura Kṛṣṇa). <i class="wbw__term">sevane</i>–Ao servir <i class="wbw__term">śāka</i>–preparações de folhas verdes <i class="wbw__term">priya</i>–a querida, favorita <i class="wbw__term">gaura</i>–de Śrī Gaurasundar, <i class="wbw__term">māni</i>–eu considero <i class="wbw__term">jīvana</i>–minha vida <i class="wbw__term">sārthaka</i><i class="wbw__term">(saphala)</i>–bem-sucedida.</p>
+<p class="wbw"><i class="wbw__term">dekhi’</i>–Vendo <i class="wbw__term">tulasī</i>–a planta mais querida de Kṛṣṇa <i class="wbw__term">juḍāya</i>–alivia <i class="wbw__term">prāṇa</i>–meu coração <i class="wbw__term">jāni’</i>–sabendo [que ela é] <i class="wbw__term">mādhava-toṣaṇī (Gaura-kṛṣṇa-priyā)</i>–agradável a Mādhava (agradável a Śrī Gaura Kṛṣṇa). <i class="wbw__term">sevane</i>–Ao servir <i class="wbw__term">śāka</i>–preparações de folhas verdes <i class="wbw__term">priya</i>–a querida, favorita <i class="wbw__term">gaura</i>–de Śrī Gaurasundar, <i class="wbw__term">māni</i>–eu considero <i class="wbw__term">jīvana</i>–minha vida <i class="wbw__term">sārthaka</i> <i class="wbw__term">(saphala)</i>–bem-sucedida.</p>
 <p class="translation">Ver Tulasī Devī acalma minha alma, pois sei que ela agrada Mādhava. Ao honrar śāk, o prato favorito de Śrī Gaurasundar, eu considero minha vida bem-sucedida.</p>
 </div>
 <div class="verse-block" data-number="8">
@@ -5995,7 +5995,7 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">ye ānila prema-dhana<span class="page-num"> — 207</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 155</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"PQVuLivAVGg4V3mLNH-w8"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"oe29hfgibqKFxq-SqQg8v"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
