@@ -5995,7 +5995,7 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">ye ānila prema-dhana<span class="page-num"> — 207</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 155</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"oe29hfgibqKFxq-SqQg8v"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"HKA950rBPwMhlnWgVhvb4"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

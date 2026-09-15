@@ -4491,6 +4491,11 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>https://dev.kirtan.site/en-2026/vancha-kalpatarubhyas-cha/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://dev.kirtan.site/en-2026/jayatam-suratau-pangor/</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
@@ -4502,6 +4507,11 @@
 </url>
 <url>
 <loc>https://dev.kirtan.site/en-2026/shriman-rasa-rasarambhi/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://dev.kirtan.site/en-2026/vrindayai-tulasi-devyai/</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>

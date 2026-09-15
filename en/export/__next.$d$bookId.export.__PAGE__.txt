@@ -19,11 +19,11 @@
 <p class="toc-item" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">Praṇām Mantra to Śrīla Gaura Kiśora Dās Bābājī Mahārāj<span class="page-num"> — 15</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">Praṇām Mantra to Śrīla Bhakti Vinod Ṭhākur<span class="page-num"> — 16</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">Praṇām Mantra to Śrīla Jagannāth Dās Bābājī Mahārāj<span class="page-num"> — 17</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">vāñchā-kalpatarubhyas’ cha<span class="page-num"> — 18</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">Vāñchā-kalpatarubhyas’ cha<span class="page-num"> — 18</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jayatam-suratau-pangor">Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu Kolkata<span class="page-num"> — 19</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-divyad-vrindaranya-kalpa-drumadhah">Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu Nabadwīp<span class="page-num"> — 20</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shriman-rasa-rasarambhi">Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu Hāpāniyā<span class="page-num"> — 21</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">vṛndāyai tulasī-devyai<span class="page-num"> — 22/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">Vṛndāyai tulasī-devyai<span class="page-num"> — 22/1</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">Prayers to the Vaiṣṇavas<span class="page-num"> — 22/2</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-namah-om-vishnupadaya-krishna">Praṇām Mantra to Śrīla Swāmī Mahārāj<span class="page-num"> — 23</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir">The Glory of the Śrī Chaitanya Sāraswat Maṭh<span class="page-num"> — 24</span></a></p>
@@ -342,7 +342,7 @@
 </section>
 <section class="song" id="song-vancha-kalpatarubhyas-cha" data-translated="1">
 <div class="verse-block" data-number="">
-<h2>vāñchā-kalpatarubhyas’ cha <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h2>Vāñchā-kalpatarubhyas’ cha <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>vāñchā-kalpa-tarubhyas’ cha</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;kṛpā-sindhubhya eva cha</strong><br>
 <strong>patitānāṁ pāvanebhyo</strong><br>
@@ -405,7 +405,7 @@
 </section>
 <section class="song" id="song-vrindayai-tulasi-devyai" data-translated="1">
 <div class="verse-block" data-number="">
-<h2>vṛndāyai tulasī-devyai <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h2>Vṛndāyai tulasī-devyai <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>vṛndāyai tulasī-devyai</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;priyāyai keśavasya cha</strong><br>
 <strong>kṛṣṇa-bhakti-prade devi</strong><br>
@@ -9697,7 +9697,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 322</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 234</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"oe29hfgibqKFxq-SqQg8v"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"HKA950rBPwMhlnWgVhvb4"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
