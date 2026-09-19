@@ -9697,7 +9697,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 322</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 234</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YA_ELoZMAobj_URiEVo1c"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YE7tucCvFG8PaeJyiwnM6"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

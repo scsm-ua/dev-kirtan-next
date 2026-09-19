@@ -10316,7 +10316,7 @@
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">эмона гаура̄н̇га бине на̄хи а̄ра<span class="page-num"> — 126</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YA_ELoZMAobj_URiEVo1c"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YE7tucCvFG8PaeJyiwnM6"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

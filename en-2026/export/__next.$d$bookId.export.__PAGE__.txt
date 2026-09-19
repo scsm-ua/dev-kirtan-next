@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:Te73ef,<h1 class="book-title">Kirtan Guide</h1>
+3:Te73df,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -10489,15 +10489,15 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 </div>
 <div class="verse-block" data-number="1-2">
 <h5>1-2</h5>
-<p class="translation">(1-2) His two feet resemble fresh petals of a lotus flower and distribute fearless blessings; his divine glowing form puts to shame the glow of gold, and is glorified for its beautiful dancing by all the demigods; his lotus face is so charming it puts to shame the charm of the autumnal moon; his broad forehead is decorated with gopī-chandan tilak; I adore that Śrīdhara-deva Swāmī always.</p>
+<p class="translation">His two feet resemble fresh petals of a lotus flower and distribute fearless blessings; his divine glowing form puts to shame the glow of gold, and is glorified for its beautiful dancing by all the demigods; his lotus face is so charming it puts to shame the charm of the autumnal moon; his broad forehead is decorated with gopī-chandan tilak; I adore that Śrīdhara-deva Swāmī always.</p>
 </div>
 <div class="verse-block" data-number="3-4">
 <h5>3-4</h5>
-<p class="translation">(3-4) He can put to an end our wandering in this material world; he can protect us from fear and death; his beautiful form dressed in saffron robes puts to shame the attraction and taste for mundane beauty; his hands like fresh blossoms distribute bliss; he is the mutually beloved by the devotees; his heart is broad and strong; he preaches the glories of Śrī Govardhan; he spreads the sweet aroma of the abode of Śrī Kṛṣṇa; he punishes the deceivers and refutes their faulty conceptions thereby giving pleasure to the devotees and revealing himself as a pre-eminent sannyāsī preacher. I always adore that Śrīdhara-deva Swāmī.</p>
+<p class="translation">He can put to an end our wandering in this material world; he can protect us from fear and death; his beautiful form dressed in saffron robes puts to shame the attraction and taste for mundane beauty; his hands like fresh blossoms distribute bliss; he is the mutually beloved by the devotees; his heart is broad and strong; he preaches the glories of Śrī Govardhan; he spreads the sweet aroma of the abode of Śrī Kṛṣṇa; he punishes the deceivers and refutes their faulty conceptions thereby giving pleasure to the devotees and revealing himself as a pre-eminent sannyāsī preacher. I always adore that Śrīdhara-deva Swāmī.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
-<p class="translation">(5) He is a death-sentence to arrogant, haughty demons; he is the saviour of everyone in all the three worlds for he distributes the teachings of Śrī Kṛṣṇa; he is pre-eminent amongst the learned, and the most supreme merciful shelter. I adore that Śrīdhara-deva until my death.</p>
+<p class="translation">He is a death-sentence to arrogant, haughty demons; he is the saviour of everyone in all the three worlds for he distributes the teachings of Śrī Kṛṣṇa; he is pre-eminent amongst the learned, and the most supreme merciful shelter. I adore that Śrīdhara-deva until my death.</p>
 </div>
 </section>
 <section class="song" id="song-maha-bhaya-shiankula-e-bhava-tarangini" data-translated="1">
@@ -10825,7 +10825,7 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YA_ELoZMAobj_URiEVo1c"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YE7tucCvFG8PaeJyiwnM6"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
