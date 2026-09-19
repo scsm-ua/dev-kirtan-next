@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:Te7037,<h1 class="book-title">Kirtan Guide</h1>
+3:Te73ef,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -174,8 +174,7 @@
 <p class="toc-item" data-translated="1"><a href="#song-nava-nirada-nindita">Bhaja Kṛṣṇa-nidhiṁ<span class="page-num"> — 265</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-mayura-mukuta-pitambara-dhari">Mayūra-mukuṭa<span class="page-num"> — 267</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">Śrī Jugala Ārati<span class="page-num"> — 268</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-smeram-bhangi-traya-parichitam-sachi-vistirna-drishtim">Keśi Tīrtha Upakaṇṭhe<span class="page-num"> — 269/1</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-bandhu-sange-yadi-tava-ranga-parihasa">Bandhu-saṅge<span class="page-num"> — 269/2</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-bandhu-sange-yadi-tava-ranga-parihasa">Keśi Tīrtha Upakaṇṭhe / Bandhu-saṅge<span class="page-num"> — 269</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">Jaya Rādhā-Mādhava<span class="page-num"> — 270</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-he-deva-bhavantam-vande">Śrī Kṛṣṇa-vandanā<span class="page-num"> — 271</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-namamishvaram-sachchidananda-rupam">Śrī Śrī Dāmodarāṣṭakam<span class="page-num"> — 272</span></a></p>
@@ -303,15 +302,13 @@ The great venerable Grandsire of pure devotion,<br />loved by all Vaiṣṇavas 
 <p class="verse"><strong>pañcha-tattvātmakaṁ kṛṣṇaṁ bhakta-rūpa-svarūpakam</strong><br>
 <strong>bhaktāvatāraṁ bhaktākhyaṁ namāmi bhakta-śaktikam</strong></p>
 <p class="translation"><i>(Śrī Chaitanya-charitāmṛta: Ādi-līlā, 1.14)</i><br>
-I offer my obeisances unto Lord Kṛṣṇa in His fivefold aspect known as the pañcha-tattva: I offer my respects unto Śrī Gaurāṅgadev, who appears as a devotee of the Lord relishing His own internal mellows. Furthermore I bow down before Lord Nityānanda Prabhu, who is the self-same form and elder brother of Śrī Gaurāṅga. Next, I pay homage unto that great personality Śrī Advaita Prabhu, who is an incarnation of the Lord’s devotee, and unto the Lord’s eternal associates like Śrīvās Paṇḍit, who serve the Lord in loving devotional relationships. Finally, I bow down at the feet of those devotees who hold the actual potency of unalloyed dedication in their hands: Śrī Rāmānanda Rāya, Śrī Gadādhar Paṇḍit, and Śrī Svarūp Dāmodar.<br>
-<i>(Śrīla Kṛṣṇadās Kavirāj Goswāmī)</i></p>
+I offer my obeisances unto Lord Kṛṣṇa in His fivefold aspect known as the pañcha-tattva: I offer my respects unto Śrī Gaurāṅgadev, who appears as a devotee of the Lord relishing His own internal mellows. Furthermore I bow down before Lord Nityānanda Prabhu, who is the self-same form and elder brother of Śrī Gaurāṅga. Next, I pay homage unto that great personality Śrī Advaita Prabhu, who is an incarnation of the Lord’s devotee, and unto the Lord’s eternal associates like Śrīvās Paṇḍit, who serve the Lord in loving devotional relationships. Finally, I bow down at the feet of those devotees who hold the actual potency of unalloyed dedication in their hands: Śrī Rāmānanda Rāya, Śrī Gadādhar Paṇḍit, and Śrī Svarūp Dāmodar.<br /><i>(Śrīla Kṛṣṇadās Kavirāj Goswāmī)</i></p>
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>namo mahāvadānyāya kṛṣṇa-prema-pradāya te</strong><br>
 <strong>kṛṣṇāya kṛṣṇa-chaitanya-nāmne gaura-tviṣe namaḥ</strong></p>
 <p class="translation"><i>(Śrī Chaitanya-charitāmṛta: Madhya-līlā, 19.53)</i><br>
-I offer my obeisances unto Lord Gaurāṅga, whose divine complexion is a radiant golden hue and who possesses the qualities of the most benevolent incarnation. His spiritual Pastimes freely grant pure love for Lord Kṛṣṇa to all. He is none other than Lord Kṛṣṇa known in the age of Kali as Śrī Kṛṣṇa Chaitanya.<br>
-<i>(Śrīla Rūpa Goswāmī)</i></p>
+I offer my obeisances unto Lord Gaurāṅga, whose divine complexion is a radiant golden hue and who possesses the qualities of the most benevolent incarnation. His spiritual Pastimes freely grant pure love for Lord Kṛṣṇa to all. He is none other than Lord Kṛṣṇa known in the age of Kali as Śrī Kṛṣṇa Chaitanya.<br /><i>(Śrīla Rūpa Goswāmī)</i></p>
 </div>
 </section>
 <section class="song" id="song-jayatam-suratau-pangor" data-translated="1">
@@ -3389,11 +3386,10 @@ Lord Gaurasundar also explained the ātmarāma verse which is found in the grand
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(śraddhāvān jana he, śraddhāvān jana he)</strong><br>
+<p class="verse">(śraddhāvān jana he, śraddhāvān jana he)<br>
 <strong>prabhura ājñāya, bhāi, māgi ei bhikṣā</strong><br>
 <strong>bala ‘kṛṣṇa,’ bhaja kṛṣṇa, kara kṛṣṇa-śikṣā</strong></p>
-<p class="translation">(O people of faith! O people of faith!)<br>
-By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you: Chant “Kṛṣṇa!”, worship Kṛṣṇa, and teach others about Kṛṣṇa.</p>
+<p class="translation">(O people of faith! O people of faith!)<br />By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you: Chant “Kṛṣṇa!”, worship Kṛṣṇa, and teach others about Kṛṣṇa.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -3540,8 +3536,8 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <p class="translation">Where attachment for such an incarnation has not arisen, Lochan Dās says that such a sinful person comes and goes in the cycle of repeated birth and death.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(yāoyā āsā sāra haila)</strong><br>
-<strong>(nitāi-charaṇ nā bhajila āoyā āsā sāra haila)</strong></p>
+<p class="verse">(yāoyā āsā sāra haila)<br>
+(nitāi-charaṇ nā bhajila āoyā āsā sāra haila)</p>
 <p class="translation">(“They simply came and went. Those who did not serve the feet of Nitāi simply came and went [took birth and died uselessly].”)</p>
 </div>
 </section>
@@ -3557,9 +3553,9 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <p class="translation">Lord Nitāi and Lord Gaurachandra are the two most merciful lords. They are the crest-jewels of all incarnations and the only source of transcendental ecstatic joy.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(kevala-i ānanda-kanda)</strong><br>
-<strong>(nityānanda gaurachandra kevala-i ānanda-kanda)</strong><br>
-<strong>(sakal) (avatārer avatārī nityānanda gaurahari avatārer avatārī)</strong></p>
+<p class="verse">(kevala-i ānanda-kanda)<br>
+(nityānanda gaurachandra kevala-i ānanda-kanda)<br>
+(sakal)<strong> </strong>(avatārer avatārī nityānanda gaurahari avatārer avatārī)</p>
 <p class="translation">(They are the only source of joy. Nityānanda and Gaurachandra are the only source of joy. The source of all avatārs are Nityānanda and Gaurahari.)</p>
 </div>
 <div class="verse-block" data-number="2">
@@ -3571,9 +3567,9 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <p class="translation">O brother! I implore you to worship Śrī Chaitanya-Nitāi with firm faith. Give up your attachment to sense gratification and merge into this nectar by chanting the Names of Hari.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(mukhe bala gaurahari)</strong><br>
-<strong>(viṣay-kathā parihari’ mukhe bala gaurahari)</strong><br>
-<strong>(grāmya-kathā parihari’ mukhe bala gaurahari)</strong></p>
+<p class="verse">(mukhe bala gaurahari)<br>
+(viṣay-kathā parihari’ mukhe bala gaurahari)<br>
+(grāmya-kathā parihari’ mukhe bala gaurahari)</p>
 <p class="translation">(Chant aloud, “Gaurahari!” Give up talk of worldly affairs and chant aloud “Gaurahari!” Give up village talk and chant aloud “Gaurahari!”)</p>
 </div>
 <div class="verse-block" data-number="3">
@@ -3585,9 +3581,9 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <p class="translation">Look, O brother! There are no benefactors in the three worlds who are as merciful as Them. Even birds and animals are fulfilled and stones melt, by hearing the glories of Their qualities.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(eman dayāl ke vā āchhe)</strong><br>
-<strong>(nitāira gaurer mata eman dayāl ke vā āchhe)</strong><br>
-<strong>(mar kheyeo nām prema yāche man dayāl ke vā āchhe)</strong></p>
+<p class="verse">(eman dayāl ke vā āchhe)<br>
+(nitāira gaurer mata eman dayāl ke vā āchhe)<br>
+(mar kheyeo nām prema yāche man dayāl ke vā āchhe)</p>
 <p class="translation">(Who else is so merciful? Who is as merciful as Nitāi and Gaura? They endure even being beaten, and yet They ask Their aggressors to accept the Holy Name and divine love. Who else is so merciful?)</p>
 </div>
 <div class="verse-block" data-number="4">
@@ -3711,7 +3707,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>kaṇṭakera taru&nbsp;&nbsp;&nbsp;&nbsp;sadāi sevili (mana)</strong><br>
+<p class="verse"><strong>kaṇṭakera taru&nbsp;&nbsp;&nbsp;&nbsp;sadāi sevili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;amṛta pābāra āśe</strong><br>
 <strong>prema-kalpataru&nbsp;&nbsp;&nbsp;&nbsp;śrī-gaurāṅga āmāra</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;tāhāre bhavili viṣe</strong></p>
@@ -3719,17 +3715,17 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>saurabhera āśe&nbsp;&nbsp;&nbsp;&nbsp;palāśa śu̐kili (mana)</strong><br>
+<p class="verse"><strong>saurabhera āśe&nbsp;&nbsp;&nbsp;&nbsp;palāśa śu̐kili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nāsāte paśila kīṭa</strong><br>
-<strong>‘ikṣu-daṇḍa’ bhāvi’&nbsp;&nbsp;&nbsp;&nbsp;kāṭha chuṣili (mana)</strong><br>
+<strong>‘ikṣu-daṇḍa’ bhāvi’&nbsp;&nbsp;&nbsp;&nbsp;kāṭha chuṣili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;kemane pāibi miṭha</strong></p>
 <p class="translation">Desirous of smelling a sweet scent, I sniffed at what I thought to be a fragrant flower. Alas, that flower was odourless like the palāśa flower and instead an insect flew up my nose and bit me. Thinking material life to be sweet like sugarcane, I tried to taste its nectar. Instead, it was like chewing dry wood. In this way all my attempts at enjoyment were false.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>hāra’ baliyā&nbsp;&nbsp;&nbsp;&nbsp;galāya parili (mana)</strong><br>
+<p class="verse"><strong>hāra’ baliyā&nbsp;&nbsp;&nbsp;&nbsp;galāya parili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;śamana kiṅkara sāpa</strong><br>
-<strong>‘śītala’ baliyā&nbsp;&nbsp;&nbsp;&nbsp;āguna pohāli (mana)</strong><br>
+<strong>‘śītala’ baliyā&nbsp;&nbsp;&nbsp;&nbsp;āguna pohāli </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;pāili vajara-tāpa</strong></p>
 <p class="translation">Admitting defeat, wasted and worn out, I await the snake of death. Declaring it to be cool and soothing, I have embraced the fire of material life, only to suffer intense misery, as if struck by lightning.</p>
 </div>
@@ -3737,7 +3733,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <h5>5</h5>
 <p class="verse"><strong>saṁsāra bhajili&nbsp;&nbsp;&nbsp;&nbsp;śrī-gaurāṅga bhulili</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nā śunili sādhura kathā</strong><br>
-<strong>iha-parakāla&nbsp;&nbsp;&nbsp;&nbsp;dukāla khoyāli (mana)</strong><br>
+<strong>iha-parakāla&nbsp;&nbsp;&nbsp;&nbsp;dukāla khoyāli </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;khāili āpana māthā</strong></p>
 <p class="translation">Worshiping my family and my material life, I forgot Lord Gaurāṅga and didn’t listen to the instructions of the saints. Now in my final days, I realise I have died twice, for not only am I leaving this mortal body, but I am also dead while living, having wasted my life in material indulgence.</p>
 </div>
@@ -3748,9 +3744,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
 <p class="verse"><strong>gāy gorā madhur svare</strong><br>
-<strong></strong><br>
 <strong>“hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare</strong><br>
-<strong></strong><br>
 <strong>hare rāma hare rāma rāma rāma hare hare”</strong></p>
 <p class="translation">Lord Gaurasundar sings in a very sweet voice, “Hare Kṛṣṇa Hare Kṛṣṇa, Kṛṣṇa Kṛṣṇa Hare Hare, Hare Rāma Hare Rāma, Rāma Rāma Hare Hare.”</p>
 </div>
@@ -3909,12 +3903,10 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>(āmi) gaurāṅga baliyā&nbsp;&nbsp;&nbsp;&nbsp;nā genu galiyā</strong><br>
-<strong></strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;kemane dharinu de</strong><br>
-<strong>vāsura-hiyā&nbsp;&nbsp;&nbsp;&nbsp;pāṣāṇa diyā</strong><br>
-<strong></strong><br>
-<strong>(vidhi) kemane gaḍiyāchhe</strong></p>
+<p class="verse">(āmi)<strong> gaurāṅga baliyā&nbsp;&nbsp;&nbsp;&nbsp;nā genu galiyā</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kemane dharinu de</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vāsura-hiyā&nbsp;&nbsp;&nbsp;&nbsp;pāṣāṇa diyā</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(vidhi)<strong> kemane gaḍiyāchhe</strong></p>
 <p class="translation">Even though I am chanting “Gaurāṅga!”, somehow I have not melted in ecstatic love. So how have I maintained the burden of this body? How is it that the creator has given this Vāsu a stone in place of his heart?</p>
 </div>
 </section>
@@ -3940,7 +3932,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <h5>3</h5>
 <p class="verse"><strong>bhava-viriñchira&nbsp;&nbsp;&nbsp;&nbsp;vāñchhita ye prema</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;jagate phelila ḍhāli</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(bhava viriñchi yā vāñchhā kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(bhava viriñchi yā vāñchhā kare)<br>
 <strong>kāṅgale pāiye&nbsp;&nbsp;&nbsp;&nbsp;khāila nāchiye</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bājāiye karatāli</strong></p>
 <p class="translation">To the world He freely gave the rare gift of ecstatic love of Godhead, a gift even Brahmā and Śiva attain only with great difficulty. Attaining that gift, the poor people of this world danced and clapped their hands.</p>
@@ -4324,37 +4316,27 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <h3>Śrī Nāma from Gītāvalī</h3>
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
-<p class="verse"><strong>‘rādhā-kṛṣṇa’ bal bal balare sabāi</strong><br>
-<strong></strong><br>
-<strong>(ei) śikṣā diyā, saba nadīyā</strong><br>
-<strong></strong><br>
-<strong>phirchhe neche’ gaura-nitāi</strong><br>
-<strong></strong><br>
-<strong>(michhe) māyāra baśe, jāchchha bhese,</strong><br>
-<strong></strong><br>
-<strong>khāchchha hābuḍubu, bhāi</strong></p>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;‘rādhā-kṛṣṇa’ bal bal balare sabāi</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(ei)<strong> śikṣā diyā, saba nadīyā</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;phirchhe neche’ gaura-nitāi</strong><br>
+(michhe)<strong> māyāra baśe, jāchchha bhese,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;khāchchha hābuḍubu, bhāi</strong></p>
 <p class="translation">Chant, chant “Rādhā-Kṛṣṇa!” Everyone chant! When Lord Chaitanya and Lord Nityānanda came dancing through Nadia, They gave these teachings: Chant, chant “Rādhā-Kṛṣṇa!” Everyone chant! You are caught up in a whirlpool of senseless action and are sinking lower and lower. Chant, chant “Rādhā-Kṛṣṇa!” Everyone chant!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(jīva) kṛṣṇa-dāsa, e biśvāsa,</strong><br>
-<strong></strong><br>
-<strong>karle ta āra duḥkha nāi</strong><br>
-<strong></strong><br>
-<strong>(kṛṣṇa) balbe jabe, pulaka habe,</strong><br>
-<strong></strong><br>
-<strong>jharabe āṅkhi bali tāi</strong></p>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jīva)<strong> kṛṣṇa-dāsa, e biśvāsa,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;karle ta āra duḥkha nāi</strong><br>
+(kṛṣṇa)<strong> balbe jabe, pulaka habe,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jharabe āṅkhi bali tāi</strong></p>
 <p class="translation">If you just understand that the spirit soul is the eternal servant of Kṛṣṇa, you will never have any more sorrows. Chant Hare Kṛṣṇa and your eyes will fill with tears and your body will feel transcendental shivering. Chant, chant “Rādhā-Kṛṣṇa!” Everyone chant!</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>(rādhā) kṛṣṇa bala, saṅge chala,</strong><br>
-<strong></strong><br>
-<strong>ei-mātra bhikhā chāi</strong><br>
-<strong></strong><br>
-<strong>(jāy) sakala bipada bhaktivinoda,</strong><br>
-<strong></strong><br>
-<strong>bolena jakhana o-nāma gāi</strong></p>
+<p class="verse">(rādhā)<strong> kṛṣṇa bala, saṅge chala,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ei-mātra bhikhā chāi</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jāy)<strong> sakala bipada bhaktivinoda,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bolena jakhana o-nāma gāi</strong></p>
 <p class="translation">Simply chant “Rādhā-Kṛṣṇa!” and join with us. Those are the only alms we beg. Chant, chant “Rādhā-Kṛṣṇa!” Everyone chant! “All dangers will be gone when that Name is chanted,” says Bhakti Vinod Ṭhākur. Chant, chant “Rādhā-Kṛṣṇa!” Everyone chant!</p>
 </div>
 </section>
@@ -4363,7 +4345,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <h2>Śrī Nagara Kīrtana 8 <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Śrī Nāma from Gītāvalī</h3>
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
-<p class="verse"><strong>(Refrain:) ‘hari’ bale modera gaura ela</strong></p>
+<p class="verse">(Refrain:)<strong> ‘hari’ bale modera gaura ela</strong></p>
 <p class="translation">Our Lord Gaura came chanting “Hari! Hari!”</p>
 </div>
 <div class="verse-block" data-number="1">
@@ -4398,7 +4380,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
-<p class="verse"><strong>(torā dekhe’ jā’ re)</strong><br>
+<p class="verse">(torā dekhe’ jā’ re)<br>
 <strong>advaitādi bhakta-vṛnda nāche ghāṭe ghāṭe</strong><br>
 <strong>palāya duranta kali poḍiyā bibhrāṭe</strong></p>
 <p class="translation">(O, all of you please go and see!) The Vaiṣṇavas headed by Advaita Āchārya are dancing along the banks of the Gaṅgā from one bathing ghat to the next! At such a sight as this, the wicked personality Kali falls into great danger and thus runs for his life.</p>
@@ -4442,39 +4424,38 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <h5>1</h5>
 <p class="verse"><strong>haribala haribala haribala bhāi re</strong><br>
 <strong>hari-nāma āniyāchhe gauraṅga-nitāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(modera duḥkha dekhe re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(modera duḥkha dekhe re)</p>
 <p class="translation">O brother! Chant “Hari”! Chant “Hari”! Chant “Hari”! Gaurāṅga and Nitāi have brought Hari’s Name! (Seeing our suffering!)</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>hari-nāma vinā jīvera anya dhana nāi re</strong><br>
 <strong>hari-nāme śuddha hala jagāi-mādhāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(baḍa pāpī chhila re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(baḍa pāpī chhila re)</p>
 <p class="translation">The jīva has no wealth other than Hari’s Name! Jagāi and Mādhāi were purified by Hari’s Name! (They were great sinners!)</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>michhe māyā-baddha haye jīvana kāṭāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(āmi āmāra bale re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(āmi āmāra bale re)<br>
 <strong>āśā-vaśe ghure’ ghure’ āra kothā yāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(āśāra śeṣa nāi re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(āśāra śeṣa nāi re)</p>
 <p class="translation">Bound by Māyā, I pass my life in vain! (Claiming ‘I’ and ‘mine’!) Controlled by desire, wandering and wandering, where else will I go? (Desire has no end!)</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>‘hari-bale’ deo bhāi āśāra mukhe chhāi re</strong><br>
-<strong></strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nirāśa ta’ sukha re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nirāśa ta’ sukha re)<br>
 <strong>bhoga-mokṣa-vāñchhā chhāḍi’ hari-nāma gāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(śuddha-sattva haye re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(śuddha-sattva haye re)</p>
 <p class="translation">Brother! Chanting “Hari”, throw ash in the face of desire! (Desireless­ness is happiness!) Giving up desire for enjoyment and liberation, I will chant Hari’s Name! (Being pure in heart!)</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>nā cheyeo nāmera guṇe o saba phala pāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(tuchchha phaler prayāsa chheḍe re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(tuchchha phaler prayāsa chheḍe re)<br>
 <strong>vinoda bale yāi laye nāmera bālāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nāmera bālāi chheḍe re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nāmera bālāi chheḍe re)</p>
 <p class="translation">Even without desiring them, I obtain all those ends (dharma, artha, kāma, and mokṣa) by the power of Hari’s Name! (Give up endeavours for insignificant ends!) Vinod says, “I will remove the obstructions to Hari’s Name! (Give up the obstructions to Hari’s Name!)”</p>
 </div>
 </section>
@@ -4536,9 +4517,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
 <p class="verse"><strong>nārada muni,&nbsp;&nbsp;&nbsp;&nbsp;bājāya vīṇā,</strong><br>
-<strong></strong><br>
-<strong>‘rādhikā-ramaṇa’-nāme</strong><br>
-<strong></strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;‘rādhikā-ramaṇa’-nāme</strong><br>
 <strong>nāma amani,&nbsp;&nbsp;&nbsp;&nbsp;udita haya,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bhakata-gīta-sāme</strong></p>
 <p class="translation">When the great soul Nārada Muni plays his stringed vīṇā, the Holy Name of Rādhikā-Ramaṇa descends and immediately appears amidst the kīrtan of the Lord’s devotees.</p>
@@ -4570,9 +4549,7 @@ By the order of Lord Gaurāṅga, O brothers, I beg these three requests of you:
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>sahasrānana,&nbsp;&nbsp;&nbsp;&nbsp;parama-sukhe,</strong><br>
-<strong></strong><br>
-<strong>‘hari hari’ bali gāya</strong><br>
-<strong></strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;‘hari hari’ bali gāya</strong><br>
 <strong>nāma-prabhāve,&nbsp;&nbsp;&nbsp;&nbsp;mātila viśva,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nāma-rasa sabe pāya</strong></p>
 <p class="translation">In supreme happiness the thousand-faced Ananta Śeṣa sings and calls out, “Hari! Hari!” By the influence of the transcendental vibration of that Name, the whole universe becomes ecstatically maddened as everyone tastes and relishes the mellows of the Holy Name.</p>
@@ -4944,7 +4921,7 @@ Here Śrīla Guru Mahārāj expresses that śaraṇāgati means faith that Bhaga
 <p class="verse"><strong>e dhana, yauvana,&nbsp;&nbsp;&nbsp;&nbsp;putra, parijana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ithe ki āchhe paratīti re</strong><br>
 <strong>kamala-dala-jala&nbsp;&nbsp;&nbsp;&nbsp;jīvana ṭalamala</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(ei āchhe ei nāi jīvana ṭalamala)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(ei āchhe ei nāi jīvana ṭalamala)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bhajahu̐ hari-pada niti re</strong></p>
 <p class="translation">What assurance of real happiness is there in all of one’s wealth, youthfulness, sons, and family members? This life is tottering like a drop of water on a lotus petal (it is here, and then it is gone); therefore, you should always serve and worship the divine feet of Lord Hari.</p>
 </div>
@@ -5560,10 +5537,9 @@ Here Śrīla Guru Mahārāj expresses that śaraṇāgati means faith that Bhaga
 <h2>Kabe Ha’be Bala <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
-<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;kabe ha’be bala se-dina āmāra</strong><br>
-<strong></strong><br>
-<strong>(āmār) aparādha ghuchi’&nbsp;&nbsp;&nbsp;&nbsp;śuddha nāme ruchi</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;kṛpā-bale ha’be hṛdaye sañchāra</strong></p>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kabe ha’be bala se-dina āmāra</strong><br>
+(āmār)<strong> aparādha ghuchi’&nbsp;&nbsp;&nbsp;&nbsp;śuddha nāme ruchi</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kṛpā-bale ha’be hṛdaye sañchāra</strong></p>
 <p class="translation">Please tell me, when will that day be mine – when (my) offences will end and a taste for the pure Holy Name will be infused within my heart by the power of divine grace?</p>
 </div>
 <div class="verse-block" data-number="2">
@@ -5584,8 +5560,7 @@ Here Śrīla Guru Mahārāj expresses that śaraṇāgati means faith that Bhaga
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>(kabe) karite śrī-kṛṣṇa-&nbsp;&nbsp;&nbsp;&nbsp;nāma uchāraṇa</strong><br>
-<strong></strong><br>
+<p class="verse">(kabe)<strong> karite śrī-kṛṣṇa-&nbsp;&nbsp;&nbsp;&nbsp;nāma uchāraṇa</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;pulakita deha gadgada vachana</strong><br>
 <strong>vaivarṇya-vepathu&nbsp;&nbsp;&nbsp;&nbsp;habe saṅghaṭana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nirantara netre va’be aśru-dhāra</strong></p>
@@ -5843,29 +5818,29 @@ Here Śrīla Guru Mahārāj expresses that śaraṇāgati means faith that Bhaga
 <h2>Glories of the Holy Name <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Quotations from the booklet given out by Śrīla Gurudev at the time of Harināma initiations</h3>
 <p class="verse"><strong>nāma-chintāmaṇiḥ kṛṣṇa-chaitanya-rasa-vigrahaḥ</strong><br>
-<strong>pūrṇaḥ śuddho nitya-mukto ‘bhinnatvān nāma-nāminoḥ</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(Padma-purāṇa)</strong></p>
-<p class="translation">The Holy Name ‘Kṛṣṇa’ is the wish-fulfilling gem, Kṛṣṇa Himself, the living form of ecstasy, the absolute whole, transcendental to māyā, the eternal independent; because, the Name and the Named are identical.</p>
+<strong>pūrṇaḥ śuddho nitya-mukto ‘bhinnatvān nāma-nāminoḥ</strong></p>
+<p class="translation"><i>(Padma-purāṇa)</i><br>
+The Holy Name ‘Kṛṣṇa’ is the wish-fulfilling gem, Kṛṣṇa Himself, the living form of ecstasy, the absolute whole, transcendental to māyā, the eternal independent; because, the Name and the Named are identical.</p>
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>harer nāma harer nāma harer nāmaiva kevalam</strong><br>
-<strong>kalau nāsty eva nāsty eva nāsty eva gatir anyathā</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(Bṛhan-Nāradīya-Purāṇa)</strong></p>
-<p class="translation">The Holy Name, the Holy Name, the Holy Name alone – in this age of Kali there is no other shelter, no other shelter, no other shelter.</p>
+<strong>kalau nāsty eva nāsty eva nāsty eva gatir anyathā</strong></p>
+<p class="translation"><i>(Bṛhan-Nāradīya-Purāṇa)</i><br>
+The Holy Name, the Holy Name, the Holy Name alone – in this age of Kali there is no other shelter, no other shelter, no other shelter.</p>
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>hare keśava govinda vāsudeva jaganmaya</strong><br>
-<strong>itīrayanti ye nityaṁ na hi tān bādhate kaliḥ</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(Bṛhan-Nāradīya-Purāṇa)</strong></p>
-<p class="translation">The influence of Kali no longer affects one who constantly chants the Holy Names of the Lord, such as Hare, Keśava, Govinda, and Vāsudeva.</p>
+<strong>itīrayanti ye nityaṁ na hi tān bādhate kaliḥ</strong></p>
+<p class="translation"><i>(Bṛhan-Nāradīya-Purāṇa)</i><br>
+The influence of Kali no longer affects one who constantly chants the Holy Names of the Lord, such as Hare, Keśava, Govinda, and Vāsudeva.</p>
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>go-koṭi-dānaṁ grahaṇe bhagasya</strong><br>
 <strong>prayāga-gaṅgodaka-kalpa-vāsaḥ</strong><br>
 <strong>yajñāyutaṁ meru-suvarṇa-dānaṁ</strong><br>
-<strong>govinda-kīrtter na samaṁ śatāṁśaiḥ</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(Skanda-Purāṇa)</strong></p>
-<p class="translation">Making a gift of ten million cows on a solar eclipse, residing for a millennium at holy places like Prayāg, where the sacred Ganges flows, performing ten thousand sacrifices and giving away a mountain of gold – hundreds of such pious activities can never equal the slightest attempt to sing the Holy Name of the Supreme Lord Govinda.</p>
+<strong>govinda-kīrtter na samaṁ śatāṁśaiḥ</strong></p>
+<p class="translation"><i>(Skanda-Purāṇa)</i><br>
+Making a gift of ten million cows on a solar eclipse, residing for a millennium at holy places like Prayāg, where the sacred Ganges flows, performing ten thousand sacrifices and giving away a mountain of gold – hundreds of such pious activities can never equal the slightest attempt to sing the Holy Name of the Supreme Lord Govinda.</p>
 </div>
 </section>
 </section>
@@ -6141,10 +6116,9 @@ Again and again tasting nectar, the soul dives and surfaces in the ever-increasi
 <p class="verse"><strong>tuṇḍe tāṇḍavinī ratiṁ vitanute tuṇḍāvalī-labdhaye</strong><br>
 <strong>karṇa-kroḍa-kaḍambinī ghaṭayate karṇārbudebhyaḥ spṛhām</strong><br>
 <strong>cetaḥ-prāṅgaṇa-saṅginī vijayate sarvendriyāṇāṁ kṛtiṁ</strong><br>
-<strong>no jāne janitā kiyadbhir amṛtaiḥ kṛṣṇeti varṇa-dvayī</strong><br>
-<strong></strong><br>
-<strong>(Śrī Chaitanya-charitāmṛta: Antya-līlā, 1.99)</strong></p>
-<p class="translation">“I do not know how much nectar the two syllables ‘Kṛṣ-ṇa’ have produced. When the Holy Name of Kṛṣṇa is chanted, it appears to dance within the mouth. We then desire many, many mouths. When that Name enters the holes of the ears, we desire many millions of ears. And when the Holy Name dances in the courtyard of the heart, it conquers the activities of the mind, and therefore all the senses become inert.”</p>
+<strong>no jāne janitā kiyadbhir amṛtaiḥ kṛṣṇeti varṇa-dvayī</strong></p>
+<p class="translation"><i>(Śrī Chaitanya-charitāmṛta: Antya-līlā, 1.99)</i><br>
+“I do not know how much nectar the two syllables ‘Kṛṣ-ṇa’ have produced. When the Holy Name of Kṛṣṇa is chanted, it appears to dance within the mouth. We then desire many, many mouths. When that Name enters the holes of the ears, we desire many millions of ears. And when the Holy Name dances in the courtyard of the heart, it conquers the activities of the mind, and therefore all the senses become inert.”</p>
 </div>
 </section>
 <section class="song" id="song-aparadha-phole-mama" data-translated="1">
@@ -6230,7 +6204,6 @@ Again and again tasting nectar, the soul dives and surfaces in the ever-increasi
 <div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>gāite gāite nāma ki daśā ha-ila</strong><br>
-<strong></strong><br>
 <strong>“kṛṣṇa-nitya-dāsa mui” hṛdaye sphurila</strong></p>
 <p class="translation">Chanting the Name again and again, what was my condition? Within my heart I realised, “I am an eternal servant of Kṛṣṇa.”</p>
 </div>
@@ -6715,14 +6688,12 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <strong>svabhāva-vapura doṣe na haya prākṛta</strong></p>
 <p class="translation">Similarly, pure devotees are not mundane because of faults within their nature and form that are natural in the material body.</p>
 </div>
-<div class="verse-block" data-number="3">
-<h5>3</h5>
+<div class="verse-block" data-number="3-4">
+<h5>3-4</h5>
 <p class="verse"><strong>ataeva dekhiyā bhaktera kadākāra</strong><br>
-<strong>svabhāvaja varṇa kārkaśyādi doṣa āra</strong></p>
-</div>
-<div class="verse-block" data-number="4">
-<h5>4</h5>
-<p class="verse"><strong>prākṛta baliyā bhakte kabhu nā nindibe</strong><br>
+<strong>svabhāvaja varṇa kārkaśyādi doṣa āra</strong><br>
+<strong></strong><br>
+<strong>prākṛta baliyā bhakte kabhu nā nindibe</strong><br>
 <strong>śuddha-bhakti dekhi’ tā̐re sarvadā vandibe</strong></p>
 <p class="translation">Therefore, upon seeing the faults produced by a devotee’s nature or occupation, such as ugliness or apparent roughness, never consider a devotee mundane and criticise them. Rather, see their pure bhakti and always revere them.</p>
 </div>
@@ -7314,15 +7285,13 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;yato yato yāmi tato nṛsiṁhaḥ</strong><br>
 <strong>bahir nṛsiṁho hṛdaye nṛsiṁho</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nṛsiṁham ādiṁ śaraṇaṁ prapadye</strong></p>
-<p class="translation">Lord Nṛsiṁha is here and also there. Wherever I go Lord Nṛsiṁha is there. He is in the heart and is outside as well. I surrender to Lord Nṛsiṁha, the origin of all things and the supreme refuge.<br>
-<i>(Śrīla Vyasādeva)</i></p>
+<p class="translation">Lord Nṛsiṁha is here and also there. Wherever I go Lord Nṛsiṁha is there. He is in the heart and is outside as well. I surrender to Lord Nṛsiṁha, the origin of all things and the supreme refuge.<br /><i>(Śrīla Vyasādeva)</i></p>
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>tava kara-kamala-vare nakham adbhuta-śṛṅgaṁ</strong><br>
 <strong>dalita-hiraṇyakaśipu-tanu-bhṛṅgam</strong><br>
 <strong>keśava dhṛta-narahari-rūpa jaya jagadīśa hare</strong></p>
-<p class="translation">O Keśava! O Lord of the universe! O Lord Hari, who have assumed the form of half-man, half-lion! All glories to You! Just as one can easily crush a wasp between one’s fingernails, so in the same way the body of the wasplike demon Hiraṇyakaśipu has been ripped apart by the wonderful pointed nails on Your beautiful lotus hands.<br>
-<i>(Śrīla Jayadev Goswāmī)</i></p>
+<p class="translation">O Keśava! O Lord of the universe! O Lord Hari, who have assumed the form of half-man, half-lion! All glories to You! Just as one can easily crush a wasp between one’s fingernails, so in the same way the body of the wasplike demon Hiraṇyakaśipu has been ripped apart by the wonderful pointed nails on Your beautiful lotus hands.<br /><i>(Śrīla Jayadev Goswāmī)</i></p>
 </div>
 </section>
 <section class="song" id="song-nadiya-nagare-nitai-neche-neche-gay-re" data-translated="1">
@@ -7439,7 +7408,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h5>18</h5>
 <p class="verse"><strong>puraṭa-sundara vāsudeva-trāṇa-kartā</strong><br>
 <strong>rāmānanda-sakhā bhaṭṭa-kula-kleśa-hartā</strong></p>
-<p class="translation">(71) O beautiful golden Lord, (72) O deliverer of (the leper) Vāsudev, (73) O friend of Rāmānanda Rāy,<br />(74) O remover of hardship from the Bhaṭṭa family!</p>
+<p class="translation">(71) O beautiful golden Lord, (72) O deliverer of (the leper) Vāsudev,<br />(73) O friend of Rāmānanda Rāy,<br />(74) O remover of hardship from the Bhaṭṭa family!</p>
 </div>
 <div class="verse-block" data-number="19">
 <h5>19</h5>
@@ -7469,7 +7438,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h5>23</h5>
 <p class="verse"><strong>kāśī-vāsi-sannyāsī-uddhārī prema-dātā</strong><br>
 <strong>markaṭa-vairāgī-daṇḍī āchaṇḍāla-trātā</strong></p>
-<p class="translation">(92) O saviour of the sannyāsīs of Kāśī, (93) O giver of divine love, (94) O punisher of the false monkey-like renunciants,<br />(95) O deliverer of even the outcasts!</p>
+<p class="translation">(92) O saviour of the sannyāsīs of Kāśī, (93) O giver of divine love,<br />(94) O punisher of the false monkey-like renunciants,<br />(95) O deliverer of even the outcasts!</p>
 </div>
 <div class="verse-block" data-number="24">
 <h5>24</h5>
@@ -7496,13 +7465,13 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h5>1</h5>
 <p class="verse"><strong>yaśomatī-stanya-pāyī śrī-nanda-nandana</strong><br>
 <strong>indra-nīla-maṇi vraja-janera jīvana</strong></p>
-<p class="translation">(1) O drinker of Mother Yaśodā’s breastmilk, (2) O son of Śrī Nanda, (3) O sapphire jewel, (4) O life of the people of Vraja!</p>
+<p class="translation">(1) O drinker of Mother Yaśodā’s breastmilk, (2) O son of Śrī Nanda,<br />(3) O sapphire jewel, (4) O life of the people of Vraja!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>śrī-gokula-niśācharī-pūtanā-ghātana</strong><br>
 <strong>duṣṭa-tṛṇāvarta-hantā śakaṭa-bhañjana</strong></p>
-<p class="translation">(5) O killer of the witch Pūtanā in Śrī Gokula, (6) O destroyer of the wicked Tṛṇāvarta, (7) O dispeller of Śakaṭa!</p>
+<p class="translation">(5) O killer of the witch Pūtanā in Śrī Gokula,<br />(6) O destroyer of the wicked Tṛṇāvarta, (7) O dispeller of Śakaṭa!</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -7514,7 +7483,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h5>4</h5>
 <p class="verse"><strong>dāmodara vṛndāvana-go-vatsa-rākhāla</strong><br>
 <strong>vatsāsurāntaka hari nija-jana-pāla</strong></p>
-<p class="translation">(13) O He who is bound about the belly by a rope, (14) O keeper of the cows and calves of Vṛndāvan, (15) O destroyer of Vatsāsura, (16) O He who takes away (the sins, miseries, and obstacles to devotion from His devotees), (17) O maintainer of His own!</p>
+<p class="translation">(13) O He who is bound about the belly by a rope, (14) O keeper of the cows and calves of Vṛndāvan, (15) O destroyer of Vatsāsura,<br />(16) O He who takes away (the sins, miseries, and obstacles to devotion from His devotees), (17) O maintainer of His own!</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
@@ -7532,19 +7501,19 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h5>7</h5>
 <p class="verse"><strong>naṭavara guhāchara śarata-vihārī</strong><br>
 <strong>vallabhī-vallabha deva gopī-vastra-hārī</strong></p>
-<p class="translation">(29) O best of dancers, (30) O He who wanders in the caves, (31) O reveller of the autumn, (32) O lover of the cowherd maidens, (33) O playful one, (34) O stealer of the gopīs’ clothes!</p>
+<p class="translation">(29) O best of dancers, (30) O He who wanders in the caves,<br />(31) O reveller of the autumn, (32) O lover of the cowherd maidens,<br />(33) O playful one, (34) O stealer of the gopīs’ clothes!</p>
 </div>
 <div class="verse-block" data-number="8">
 <h5>8</h5>
 <p class="verse"><strong>yajña-patnī-gaṇa-prati karuṇāra sindhu</strong><br>
 <strong>govardhana-dhṛk mādhava vraja-vāsī-bandhu</strong></p>
-<p class="translation">(35) O ocean of mercy for the wives of the brāhmaṇas engaged in sacrifice, (36) O lifter of Govardhan, (37) O descendent of Madhu, (38) O friends of the residents of Vraja!</p>
+<p class="translation">(35) O ocean of mercy for the wives of the brāhmaṇas engaged in sacrifice, (36) O lifter of Govardhan, (37) O descendent of Madhu,<br />(38) O friends of the residents of Vraja!</p>
 </div>
 <div class="verse-block" data-number="9">
 <h5>9</h5>
 <p class="verse"><strong>indra-darpa-hārī nanda-rakṣitā mukunda</strong><br>
 <strong>śrī-gopī-vallabha rāsa-krīḍa pūrṇānanda</strong></p>
-<p class="translation">(39) O remover of Indra’s pride, (40) O protector of Nanda, (41) O giver of liberation, (42) O lover of the gopīs, (43) O player of Rāsa, (44) O complete joy!</p>
+<p class="translation">(39) O remover of Indra’s pride, (40) O protector of Nanda,<br />(41) O giver of liberation, (42) O lover of the gopīs,<br />(43) O player of Rāsa, (44) O complete joy!</p>
 </div>
 <div class="verse-block" data-number="10">
 <h5>10</h5>
@@ -7556,19 +7525,19 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h5>11</h5>
 <p class="verse"><strong>nava-jaladhara-kānti madana-mohana</strong><br>
 <strong>vana-mālī smera-mukha gopī-prāṇa-dhana</strong></p>
-<p class="translation">(49) O He of the complexion of a fresh rain cloud, (50) O bewilderer of Cupid, (51) O He who wears a forest garland, (52) O He of smiling face, (53) O life and wealth of the gopīs!</p>
+<p class="translation">(49) O He of the complexion of a fresh rain cloud,<br />(50) O bewilderer of Cupid, (51) O He who wears a forest garland,<br />(52) O He of smiling face, (53) O life and wealth of the gopīs!</p>
 </div>
 <div class="verse-block" data-number="12">
 <h5>12</h5>
 <p class="verse"><strong>tri-bhaṅgī muralī-dhara yāmuna-nāgara</strong><br>
 <strong>rādhā-kuṇḍa-raṅga-netā rasera sāgara</strong></p>
-<p class="translation">(54) O thrice bent, (55) O holder of the muralī flute, (56) O paramour on the Yamunā, (57) O leader of the play at Rādhā Kuṇḍa, (58) O ocean of rasa!</p>
+<p class="translation">(54) O thrice bent, (55) O holder of the muralī flute, (56) O paramour on the Yamunā, (57) O leader of the play at Rādhā Kuṇḍa,<br />(58) O ocean of rasa!</p>
 </div>
 <div class="verse-block" data-number="13">
 <h5>13</h5>
 <p class="verse"><strong>chandrāvalī-prāṇanātha kautukābhilāṣī</strong><br>
 <strong>rādhā-māna-sulampaṭa milana-prayāsī</strong></p>
-<p class="translation">(59) O Lord of the heart of Chandrāvalī, (60) O desirer for play, (61) O Lord, eager to overcome of Rādhā’s jealous anger, (62) O seeker of union!</p>
+<p class="translation">(59) O Lord of the heart of Chandrāvalī, (60) O desirer for play,<br />(61) O Lord, eager to overcome of Rādhā’s jealous anger,<br />(62) O seeker of union!</p>
 </div>
 <div class="verse-block" data-number="14">
 <h5>14</h5>
@@ -7580,61 +7549,61 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h5>15</h5>
 <p class="verse"><strong>gokula-sampada gopa-duḥkha-nivāraṇa</strong><br>
 <strong>durmada-damana bhakta-santāpa-haraṇa</strong></p>
-<p class="translation">(67) O wealth of Gokula, (68) O vanquisher of the cowherders’ sorrow, (69) O subduer of pride, (70) O remover of the devotees’ distress!</p>
+<p class="translation">(67) O wealth of Gokula, (68) O vanquisher of the cowherders’ sorrow,<br />(69) O subduer of pride, (70) O remover of the devotees’ distress!</p>
 </div>
 <div class="verse-block" data-number="16">
 <h5>16</h5>
 <p class="verse"><strong>sudarśana-mochana śrī-śaṅkhachūḍāntaka</strong><br>
 <strong>rāmānuja śyāmachā̐da muralī-vādaka</strong></p>
-<p class="translation">(71) O liberator of (the Vidyādhara) Sudarśan, (72) O destroyer of Śrī Śaṅkhachūḍa, (73) O younger brother of Balarām, (74) O dark moon, (75) O player of the muralī flute!</p>
+<p class="translation">(71) O liberator of (the Vidyādhara) Sudarśan, (72) O destroyer of Śrī Śaṅkhachūḍa, (73) O younger brother of Balarām, (74) O dark moon,<br />(75) O player of the muralī flute!</p>
 </div>
 <div class="verse-block" data-number="17">
 <h5>17</h5>
 <p class="verse"><strong>gopī-gīta-śrotā madhusūdana murāri</strong><br>
 <strong>ariṣṭa-ghātaka rādhā-kuṇḍādi-vihārī</strong></p>
-<p class="translation">(76) O hearer of the Gopī-gītā, (77) O destroyer of Madhu, (78) O enemy of Mura, (79) O slayer of Ariṣṭa, (80) O reveller at Rādhā Kuṇḍa and other places!</p>
+<p class="translation">(76) O hearer of the Gopī-gītā, (77) O destroyer of Madhu,<br />(78) O enemy of Mura, (79) O slayer of Ariṣṭa,<br />(80) O reveller at Rādhā Kuṇḍa and other places!</p>
 </div>
 <div class="verse-block" data-number="18">
 <h5>18</h5>
 <p class="verse"><strong>vyomāntaka padma-netra keśī-nisūdana</strong><br>
 <strong>raṅga-krīḍa kaṁsa-hantā malla-praharaṇa</strong></p>
-<p class="translation">(81) O killer of Vyoma, (82) O lotus-eyed one, (83) O destroyer of Keśī, (84) O Lord of merry play, (85) O killer of Kaṁsa, (86) O combatant of the wrestlers!</p>
+<p class="translation">(81) O killer of Vyoma, (82) O lotus-eyed one, (83) O destroyer of Keśī, (84) O Lord of merry play, (85) O killer of Kaṁsa,<br />(86) O combatant of the wrestlers!</p>
 </div>
 <div class="verse-block" data-number="19">
 <h5>19</h5>
 <p class="verse"><strong>vasudeva-suta vṛṣṇi-vaṁśa-kīrti-dhvaja</strong><br>
 <strong>dīnanātha mathureśa devakī-garbhaja</strong></p>
-<p class="translation">(87) O son of Vasudev, (88) O emblem of the Vṛṣṇi dynasty’s fame, (89) O Lord of the poor, (90) O Lord of Mathurā, (91) O son of Devakī!</p>
+<p class="translation">(87) O son of Vasudev, (88) O emblem of the Vṛṣṇi dynasty’s fame,<br />(89) O Lord of the poor, (90) O Lord of Mathurā,<br />(91) O son of Devakī!</p>
 </div>
 <div class="verse-block" data-number="20">
 <h5>20</h5>
 <p class="verse"><strong>kubjā-kṛpāmaya viṣṇu śauri nārāyaṇa</strong><br>
 <strong>dvārakeśa naraka-ghna śrī-yadu-nandana</strong></p>
-<p class="translation">(92) O He who is merciful to Kubjā, (93) O all-pervading one, (94) O descendant of Śūrasena, (95) O shelter of all beings, (96) O Lord of Dvārakā, (97) O destroyer of Naraka, (98) O son of Yadu!</p>
+<p class="translation">(92) O He who is merciful to Kubjā, (93) O all-pervading one,<br />(94) O descendant of Śūrasena, (95) O shelter of all beings,<br />(96) O Lord of Dvārakā, (97) O destroyer of Naraka,<br />(98) O son of Yadu!</p>
 </div>
 <div class="verse-block" data-number="21">
 <h5>21</h5>
 <p class="verse"><strong>śrī-rukmiṇī-kānta satyā-pati sura-pāla</strong><br>
 <strong>pāṇḍava-bāndhava śiśupālādira kāla</strong></p>
-<p class="translation">(99) O husband of Rukmiṇī, (100) O husband of Satyābhāmā, (101) O protector of the gods, (102) O dear friend of the Pāṇḍavas, (103) O death of Śiśupāl and others!</p>
+<p class="translation">(99) O husband of Rukmiṇī, (100) O husband of Satyābhāmā,<br />(101) O protector of the gods, (102) O dear friend of the Pāṇḍavas,<br />(103) O death of Śiśupāl and others!</p>
 </div>
 <div class="verse-block" data-number="22">
 <h5>22</h5>
 <p class="verse"><strong>jagadīśa janārdana keśavārta-trāṇa</strong><br>
 <strong>sarva-avatāra-bīja viśvera nidāna</strong></p>
-<p class="translation">(104) O Lord of the universe, (105) O exciter of the people, (106) O He of fine hair, (107) O deliverer from distress, (108) O origin of all Avatārs, (109) O cause of the universe!</p>
+<p class="translation">(104) O Lord of the universe, (105) O exciter of the people,<br />(106) O He of fine hair, (107) O deliverer from distress,<br />(108) O origin of all Avatārs, (109) O cause of the universe!</p>
 </div>
 <div class="verse-block" data-number="23">
 <h5>23</h5>
 <p class="verse"><strong>māyeśvara yogeśvara brahma-tejādhāra</strong><br>
 <strong>sarvātmāra ātmā prabhu prakṛtira pāra</strong></p>
-<p class="translation">(110) O Lord of Māyā, (111) O master of yoga, (112) O source of the Brahman effulgence, (113) O soul of all souls, (114) O master of all souls, (115) O far shore of material nature!</p>
+<p class="translation">(110) O Lord of Māyā, (111) O master of yoga,<br />(112) O source of the Brahman effulgence, (113) O soul of all souls,<br />(114) O master of all souls, (115) O far shore of material nature!</p>
 </div>
 <div class="verse-block" data-number="24">
 <h5>24</h5>
 <p class="verse"><strong>patita-pāvana jagannātha sarveśvara</strong><br>
 <strong>vṛndāvanachandra sarva-rasera ākara</strong></p>
-<p class="translation">(116) O purifier of the fallen, (117) O Lord of the universe, (118) O Lord of all, (119) O moon of Vṛndāvan, (120) O source of all rasa!</p>
+<p class="translation">(116) O purifier of the fallen, (117) O Lord of the universe,<br />(118) O Lord of all, (119) O moon of Vṛndāvan,<br />(120) O source of all rasa!</p>
 </div>
 <div class="verse-block" data-number="25">
 <h5>25</h5>
@@ -8251,12 +8220,12 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="translation">O Gopīnāth, the noose of materialism has become fixed around my neck. Taking up the sword of Your mercy and cutting this bondage, make this Bhakti Vinod Your humble servant.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(he govinda! gopīnātha!)</strong><br>
-<strong>(ei bār āmāy dayā kara he govinda! gopīnātha!)</strong><br>
-<strong>(bahu janme aparādhī he govinda! gopīnātha!)</strong><br>
-<strong>(lakṣa lakṣa janam gela he govinda! gopīnātha!)</strong><br>
-<strong>(śrī-charaṇe śaraṇ nilām he govinda! gopīnātha!)</strong><br>
-<strong>(śrī-charaṇe sevā diyā he govinda! gopīnātha!)</strong></p>
+<p class="verse">(he govinda! gopīnātha!)<br>
+(ei bār āmāy dayā kara he govinda! gopīnātha!)<br>
+(bahu janme aparādhī he govinda! gopīnātha!)<br>
+(lakṣa lakṣa janam gela he govinda! gopīnātha!)<br>
+(śrī-charaṇe śaraṇ nilām he govinda! gopīnātha!)<br>
+(śrī-charaṇe sevā diyā he govinda! gopīnātha!)</p>
 <p class="translation">(O Govinda! O Gopīnāth!)<br />(This time, please be merciful to me, O Govinda! O Gopīnāth!)<br />(I have been an offender for many births, O Govinda! O Gopīnāth!)<br />(Millions of births have passed, O Govinda! O Gopīnāth!)<br />(I have taken shelter at Your holy feet, O Govinda! O Gopīnāth!)<br />(I have surrendered at Your feet, O Govinda! O Gopīnāth!)<br />(Please give me the service of Your feet, O Govinda! O Gopīnāth!)</p>
 </div>
 </section>
@@ -8370,14 +8339,14 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h2>Jaya Yaśodā Nandana Kṛṣṇa <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
-<p class="verse"><strong>(jaya) yaśodā-nandana kṛṣṇa gopāla govinda</strong><br>
-<strong>(jaya) madana-mohana hari ananta mukunda</strong></p>
+<p class="verse">(jaya)<strong> yaśodā-nandana kṛṣṇa gopāla govinda</strong><br>
+(jaya)<strong> madana-mohana hari ananta mukunda</strong></p>
 <p class="translation">(All glories to) Kṛṣṇa, the son of Mother Yaśodā, the cowherd boy and giver of pleasure to the cows! (All glories to) the conquerer of Cupid, Lord Hari, who takes away all inauspiciousness, who is unlimited, and the awarder of liberation!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(jaya) achyuta mādhava rāma vṛndāvana-chandra</strong><br>
-<strong>(jaya) muralī-vadana śyāma gopī-janānanda</strong></p>
+<p class="verse">(jaya)<strong> achyuta mādhava rāma vṛndāvana-chandra</strong><br>
+(jaya)<strong> muralī-vadana śyāma gopī-janānanda</strong></p>
 <p class="translation">(All glories to) the infallible Lord, husband of the goddess of fortune, the supreme enjoyer, and the moon of Vṛndāvan! (All glories to) Kṛṣṇa, who always holds a flute to His mouth, who is the colour of a dark blue raincloud, and is the bliss of the gopīs!</p>
 </div>
 </section>
@@ -8513,25 +8482,25 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <h2>Mayūra-mukuṭa <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Sanskrit composition by Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
-<p class="verse"><strong>(jaya) mayūra-mukuṭa-pītāmbara-dhārī</strong><br>
+<p class="verse">(jaya)<strong> mayūra-mukuṭa-pītāmbara-dhārī</strong><br>
 <strong>muralī-dhara govardhana-dhārī</strong></p>
 <p class="translation">(All glories to) Śrī Kṛṣṇa, holder of the flute Muralī, and lifter of Govardhan Hill! O Kṛṣṇa, who wears a crown adorned with a pea­cock feather, and who is dressed in golden clothes!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(jaya) śrī-rādhā-mādhava kuñja-vihārī</strong><br>
+<p class="verse">(jaya)<strong> śrī-rādhā-mādhava kuñja-vihārī</strong><br>
 <strong>muralī-dhara govardhana-dhārī</strong></p>
 <p class="translation">O Kṛṣṇa, holder of the flute Muralī, and lifter of Govardhan Hill! O Kṛṣṇa, the Lord of Śrīmatī Rādhārāṇī, and who plays in the groves of Śrī Vṛndāvan!</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>(jaya) yaśodā-nandana kṛṣṇa murāri</strong><br>
+<p class="verse">(jaya)<strong> yaśodā-nandana kṛṣṇa murāri</strong><br>
 <strong>muralī-dhara govardhana-dhārī</strong></p>
 <p class="translation">O Kṛṣṇa, holder of the flute Muralī, and lifter of Govardhan Hill! All glories to You, Kṛṣṇa, son of Mother Yaśodā, and the killer of the Mura demon!</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>(jaya) gopī-jana-vallabha vaṁśī-vihārī</strong><br>
+<p class="verse">(jaya)<strong> gopī-jana-vallabha vaṁśī-vihārī</strong><br>
 <strong>muralī-dhara govardhana-dhārī</strong></p>
 <p class="translation">O Kṛṣṇa, holder of the flute Muralī, and lifter of Govardhan Hill! All glories to You, Kṛṣṇa, the dearmost lover of all the cowherd girls of Vṛndāvan, and the player of the flute Vaṁśī!</p>
 </div>
@@ -8576,7 +8545,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="translation">Yearning to attain the lotus feet of Śrī Śrī Rādhā-Kṛṣṇa, Bhakti Vinod floats in happiness at the gopīs’ feet.</p>
 </div>
 </section>
-<section class="song" id="song-smeram-bhangi-traya-parichitam-sachi-vistirna-drishtim" data-translated="1">
+<section class="song" id="song-bandhu-sange-yadi-tava-ranga-parihasa" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Keśi Tīrtha Upakaṇṭhe <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Sanskrit composition by Śrīla Rūpa Goswāmī</h4>
@@ -8584,14 +8553,14 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <strong>vaṁśī-nyastādhara-kiśalayām ujjvalāṁ chandrakeṇa</strong><br>
 <strong>govindākhyāṁ hari-tanum itaḥ keśi-tīrthopakaṇṭhe</strong><br>
 <strong>mā prekṣiṣṭhās tava yadi sakhe bandhu-saṅge ’sti raṅgaḥ</strong></p>
-<p class="translation">My dear friend, if you are indeed attached to your worldly friends, do not look at the smiling face of Lord Govinda as He stands on the bank of the Yamunā at Keśī Ghāṭa. Casting sidelong glances, He rests the tender blossoms of His lips upon His flute. His transcendental body, bending in three places, appears very bright in the moonlight.<br>
-<i>Corresponding Bengali composition: (see next page)</i></p>
+<p class="translation"><i>(Bhakti-rasāmṛta-sindhu: 1.2.239)</i><br /><i>(Śrī Chaitanya-charitāmṛta: Ādi-līlā, 5.224)</i><br>
+My dear friend, if you are indeed attached to your worldly friends, do not look at the smiling face of Lord Govinda as He stands on the bank of the Yamunā at Keśī Ghāṭa. Casting sidelong glances, He rests the tender blossoms of His lips upon His flute. His transcendental body, bending in three places, appears very bright in the moonlight.<br>
+<i>Corresponding Bengali composition by unknown composer, from the Maṭh’s Śrī Gauḍīya Gitāñjali</i></p>
 </div>
-</section>
-<section class="song" id="song-bandhu-sange-yadi-tava-ranga-parihasa" data-translated="1">
+<div class="verse-block" data-number="">
+<h3>Bandhu-saṅge</h3>
+</div>
 <div class="verse-block" data-number="1">
-<h2>Bandhu-saṅge <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h4>unknown composer, from the Maṭh’s Śrī Gauḍīya Gitāñjali</h4>
 <h5>1</h5>
 <p class="verse"><strong>bandhu-saṅge yadi tava&nbsp;&nbsp;&nbsp;&nbsp;raṅga parihāsa</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;thāke abhilāṣa – thāke abhilāṣa</strong><br>
@@ -8627,10 +8596,10 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <div class="verse-block" data-number="">
 <h2>Jaya Rādhā-Mādhava <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
-<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-vihārī</strong><br>
-<strong>(jaya) gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;(jaya) giri-vara-dhārī</strong><br>
-<strong>(jaya) yaśodā-nandana&nbsp;&nbsp;&nbsp;&nbsp;(jaya) vraja-jana-rañjana</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jaya) yāmuna-tīra-vana-chārī</strong></p>
+<p class="verse">(jaya)<strong> rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> kuñja-vihārī</strong><br>
+(jaya)<strong> gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> giri-vara-dhārī</strong><br>
+(jaya)<strong> yaśodā-nandana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> vraja-jana-rañjana</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> yāmuna-tīra-vana-chārī</strong></p>
 <p class="translation">(All glories to) Kṛṣṇa is the lover of Rādhā. He displays many amorous Pastimes in the groves of Vṛndāvan, He is the lover of the cowherd maidens of Vraja, the holder of the great hill named Govardhan, the beloved son of Mother Yaśodā, the delighter of the inhabitants of Vraja, and He wanders in the forests along the banks of the River Yamunā.</p>
 </div>
 </section>
@@ -8831,10 +8800,9 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
-<p class="verse"><strong>(sakhī he) sudhāmaya se rūpa mādhurī</strong><br>
-<strong></strong><br>
-<strong>dekhile nayana&nbsp;&nbsp;&nbsp;&nbsp;haya achetana</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;jhare premamaya vāri</strong></p>
+<p class="verse">(sakhī he)<strong> sudhāmaya se rūpa mādhurī</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;dekhile nayana&nbsp;&nbsp;&nbsp;&nbsp;haya achetana</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jhare premamaya vāri</strong></p>
 <p class="translation">(O sakhī!) O dear girlfriend! Seeing that sweet form abounding in nectar, I have fallen unconscious as a fountain of tears gushing with ecstatic love cascades from my eyes.</p>
 </div>
 <div class="verse-block" data-number="6">
@@ -9269,7 +9237,8 @@ This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In
 <section class="song" id="song-yabe-rupa-sanatana-vraje-gela-dui-jana" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Śrīla Raghunāth Dās Goswāmī Śochaka <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Śrīla Raghunāth Dās’ Deep Sorrow – Kīrtan One</h3>
+<h3>Śrīla Raghunāth Dās’ Deep Sorrow</h3>
+<h3>Kīrtan One</h3>
 <h4>unknown composer, from the Maṭh’s Śrī Gauḍīya Gitāñjali</h4>
 <h5>1</h5>
 <p class="verse"><strong>yabe rūpa-sanātana&nbsp;&nbsp;&nbsp;&nbsp;vraje gelā dui jana</strong><br>
@@ -9328,7 +9297,8 @@ This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In
 <section class="song" id="song-shri-chaitanya-kripa-haite-raghunatha-dasa-chitte" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Śrīla Raghunāth Dās Goswāmī Śochaka <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Śrīla Raghunāth Dās’ Deep Sorrow – Kīrtan Two</h3>
+<h3>Śrīla Raghunāth Dās’ Deep Sorrow</h3>
+<h3>Kīrtan Two</h3>
 <h4>unknown composer, from the Maṭh’s Śrī Gauḍīya Gitāñjali</h4>
 <h5>1</h5>
 <p class="verse"><strong>śrī-chaitanya-kṛpā haite&nbsp;&nbsp;&nbsp;&nbsp;raghunātha-dāsa-chitte</strong><br>
@@ -9477,7 +9447,7 @@ This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In
 <section class="song" id="song-ha-ha-bhaktivinoda-thakkura-guroh" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Śrīmad Bhakti Vinod Viraha Daśakam <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Prayer in Separation of Śrīla Bhakti Vinod Ṭhākur</h3>
+<h3>*Prayer in Separation of Śrīla Bhakti Vinod Ṭhākur</h3>
 <h4>Sanskrit composition</h4>
 <h4>by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <h5>1</h5>
@@ -10016,17 +9986,7 @@ This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In
 <strong>tad-bhinnāṁsāṁś cha jīvān prakṛti-kavalitān tad-vimuktāṁś cha bhāvāt</strong><br>
 <strong>bhedābheda-prakāśaṁ sakalam api hareḥ sādhanaṁ śuddha-bhaktiṁ</strong><br>
 <strong>sādhyaṁ tat-prītim evety upadiśati janān gaurachandraḥ svayaṁ saḥ</strong></p>
-<p class="translation">“Śrī Gaurachandra personally teaches the souls that<br>
-(1) revealed knowledge establishes the Truth:<br>
-(2) Hari is supreme,<br>
-(3) He is omnipotent,<br>
-(4) He is an ocean of rasa,<br>
-(5) the souls are His separated parts,<br>
-(6) they are either covered by material energy,<br>
-(7) or liberated from material energy by devotion,<br>
-(8) everything is a manifestation distinct and non-distinct from Hari,<br>
-(9) pure devotion is the way, and<br>
-(10) love for Hari is the goal.”<br>
+<p class="translation">“Śrī Gaurachandra personally teaches the souls that<br />(1) revealed knowledge establishes the Truth:<br />(2) Hari is supreme,<br />(3) He is omnipotent,<br />(4) He is an ocean of rasa,<br />(5) the souls are His separated parts,<br />(6) they are either covered by material energy,<br />(7) or liberated from material energy by devotion,<br />(8) everything is a manifestation distinct and non-distinct from Hari,<br />(9) pure devotion is the way, and<br />(10) love for Hari is the goal.”<br>
 <i>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj:</i><br>
 “Within this one verse, which conveys the gist of the <i>Daśa-mūla-tattva</i>, Śrīla Bhakti Vinod Ṭhākur has given us everything. He has given us the whole conception of Mahāprabhu Śrī Chaitanyadev and Kṛṣṇa consciousness. If you can read and memorise this verse, then everything will be within you: the full conception of Śrī Chaitanya Mahāprabhu, Śrīla Bhakti Siddhānta Saraswatī Ṭhākur, Śrīla Guru Mahārāj Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj, and Śrī Chaitanya Sāraswat Maṭh. Everything, the gist of all revealed knowledge (āmnāya), is within this one verse.<br>
 “But don’t try to understand this verse by yourself. Hear it from an expert. Everywhere throughout all the scriptures this advice is given: ‘You must hear from an expert.’ So hear this verse from an expert who knows its meaning. If you hear from him with full faith, you will understand properly what is what, and you will get everything.”</p>
@@ -10288,12 +10248,30 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <h5>11</h5>
 <p class="verse"><strong>śraddhayā yaḥ paṭhen nityaṁ praṇati-daśakaṁ mudā</strong><br>
 <strong>viśate rāgamārgeṣu tasya bhakta-prasādataḥ</strong></p>
-<p class="translation">1) I eternally offer my humble obeisances unto the lotus feet of my most worshipful Divine Master, the supreme emperor of the sannyāsī kings – Śrīla Bhakti Rakṣak Śrīdhar Swāmī.<br>
-2-4) He possesses a lofty, dignified, divinely effulgent, incomparable holy form, so charming to behold. Adorned with gopī-chandan and a necklace of tulasī beads, he holds the triple staff of the Vaiṣṇava ascetics. Although he possesses the qualification of inconceivable potency, he is full of the utmost affection. All the ten directions are illuminated by the effulgence of his supramundane, unalloyed perception. He is the dispenser of the genuine proper harmonious adjustment of all the scriptures – the Vedas, the Vedānta, the Upaniṣads, the Purāṇas, etc., headed by the <i>Śrīmad Bhāgavata-purāṇa</i> (<i>Śrīmad Bhāgavatam</i>) which holds equal importance with the Vedas. In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya sampradāya, he shines resplendently like the brilliant Kaustubha gem, and he is radiant in his glory as the crown-jewel of the bumblebee-devotees who are mad in the Supreme Lord Śrī Chaitanya Mahāprabhu’s love supreme. I eternally offer my obeisances unto him, my most worshipful Divine Master.<br>
-5-6) By his grace, he brought to full bloom the deepest underlying purport of Gāyatrī, the mother of the Vedas; by his grace he opened the hidden treasure-house of the glorious internal purport of <i>Śrīmad Bhāgavad-gītā</i> – and he distributed these gifts to one and all, even the lowest of the low. He revealed the supreme holy book <i>Śrī Prapanna-jīvanāmṛtam</i>, which is a treasure of many types of precious gems of holy stanzas (the wealth of holy stanzas compiled from <i>Stotra-ratna</i> by Śrī Yāmunā Āchārya and many other valuable sources) sung by the Lord and His devotees; he revealed an unprecedented collection of holy books (<i>Search for Śrī Kṛṣṇa – Reality the Beautiful, Śrī Guru and His Grace, The Golden Volcano of Divine Love</i>, etc.) that are the very life-nectar for the devotees’ hearts and spiritual senses – he gave these gifts to the world. I eternally offer my obeisances unto him, my most worshipful Divine Master, the beautiful Deity of mercy incarnate.<br>
-7) He revels in his full-blown splendour, and, along with and through his intimate servitors he distributes throughout the entire universe the Supreme Personality of Godhead Śrī Gaura-Kṛṣṇa, the moon risen from the nectar ocean of the grand dance of the congregational chanting of Śrī Kṛṣṇa’s Holy Name.<br>
-8-10) In Śrī Nabadwīp Dhām, which is non-different from the holy abode of Śrī Vṛndāvan, His Divine Grace established the world-renowned Śrī Chaitanya Sāraswat Maṭh at Śrī Koladwīp, the selfsame ‘Hidden Govardhan Hill’ (Gupta-Govardhan), which is the sacred place where all offences are absolved (aparādha-bhañjan-pāṭ). There, he revealed the beautiful devotional service of the worshipful Deities Śrī Śrī Guru Gaurāṅga Gāndharvā Govindasundar, divinely manifesting his very self as the Deity of service in perfection. Eternally do I offer my obeisances unto the holy lotus feet of my Divine Master Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj who carries the divine current of Śrīla Bhakti Siddhānta Saraswatī coming in the line of Śrī Rūpa, the object of Śrī Gaurāṅga Mahāprabhu’s divine affection.<br>
-11) One who with pure faith happily sings this <i>Praṇati Daśakam</i> every day, gains the qualification to serve the Supreme Lord on the path of spontaneous love (rāga-mārga), by the grace of the associate-servitors of that Śrīla Gurudev.</p>
+</div>
+<div class="verse-block" data-number="1">
+<h5>1</h5>
+<p class="translation">I eternally offer my humble obeisances unto the lotus feet of my most worshipful Divine Master, the supreme emperor of the sannyāsī kings – Śrīla Bhakti Rakṣak Śrīdhar Swāmī.</p>
+</div>
+<div class="verse-block" data-number="2-4">
+<h5>2-4</h5>
+<p class="translation">He possesses a lofty, dignified, divinely effulgent, incomparable holy form, so charming to behold. Adorned with gopī-chandan and a necklace of tulasī beads, he holds the triple staff of the Vaiṣṇava ascetics. Although he possesses the qualification of inconceivable potency, he is full of the utmost affection. All the ten directions are illuminated by the effulgence of his supramundane, unalloyed perception. He is the dispenser of the genuine proper harmonious adjustment of all the scriptures – the Vedas, the Vedānta, the Upaniṣads, the Purāṇas, etc., headed by the <i>Śrīmad Bhāgavata-purāṇa</i> (<i>Śrīmad Bhāgavatam</i>) which holds equal importance with the Vedas. In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya sampradāya, he shines resplendently like the brilliant Kaustubha gem, and he is radiant in his glory as the crown-jewel of the bumblebee-devotees who are mad in the Supreme Lord Śrī Chaitanya Mahāprabhu’s love supreme. I eternally offer my obeisances unto him, my most worshipful Divine Master.</p>
+</div>
+<div class="verse-block" data-number="5-6">
+<h5>5-6</h5>
+<p class="translation">By his grace, he brought to full bloom the deepest underlying purport of Gāyatrī, the mother of the Vedas; by his grace he opened the hidden treasure-house of the glorious internal purport of <i>Śrīmad Bhāgavad-gītā</i> – and he distributed these gifts to one and all, even the lowest of the low. He revealed the supreme holy book <i>Śrī Prapanna-jīvanāmṛtam</i>, which is a treasure of many types of precious gems of holy stanzas (the wealth of holy stanzas compiled from <i>Stotra-ratna</i> by Śrī Yāmunā Āchārya and many other valuable sources) sung by the Lord and His devotees; he revealed an unprecedented collection of holy books (<i>Search for Śrī Kṛṣṇa – Reality the Beautiful, Śrī Guru and His Grace, The Golden Volcano of Divine Love</i>, etc.) that are the very life-nectar for the devotees’ hearts and spiritual senses – he gave these gifts to the world. I eternally offer my obeisances unto him, my most worshipful Divine Master, the beautiful Deity of mercy incarnate.</p>
+</div>
+<div class="verse-block" data-number="7">
+<h5>7</h5>
+<p class="translation">He revels in his full-blown splendour, and, along with and through his intimate servitors he distributes throughout the entire universe the Supreme Personality of Godhead Śrī Gaura-Kṛṣṇa, the moon risen from the nectar ocean of the grand dance of the congregational chanting of Śrī Kṛṣṇa’s Holy Name.</p>
+</div>
+<div class="verse-block" data-number="8-10">
+<h5>8-10</h5>
+<p class="translation">In Śrī Nabadwīp Dhām, which is non-different from the holy abode of Śrī Vṛndāvan, His Divine Grace established the world-renowned Śrī Chaitanya Sāraswat Maṭh at Śrī Koladwīp, the selfsame ‘Hidden Govardhan Hill’ (Gupta-Govardhan), which is the sacred place where all offences are absolved (aparādha-bhañjan-pāṭ). There, he revealed the beautiful devotional service of the worshipful Deities Śrī Śrī Guru Gaurāṅga Gāndharvā Govindasundar, divinely manifesting his very self as the Deity of service in perfection. Eternally do I offer my obeisances unto the holy lotus feet of my Divine Master Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj who carries the divine current of Śrīla Bhakti Siddhānta Saraswatī coming in the line of Śrī Rūpa, the object of Śrī Gaurāṅga Mahāprabhu’s divine affection.</p>
+</div>
+<div class="verse-block" data-number="11">
+<h5>11</h5>
+<p class="translation">One who with pure faith happily sings this <i>Praṇati Daśakam</i> every day, gains the qualification to serve the Supreme Lord on the path of spontaneous love (rāga-mārga), by the grace of the associate-servitors of that Śrīla Gurudev.</p>
 </div>
 </section>
 <section class="song" id="song-samudra-sambhava-gabhi-surabhi-apana" data-translated="1">
@@ -10508,9 +10486,18 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;asura-kula-dāmbhika-kṛtāntam</strong><br>
 <strong>naumi budha-nāyakaṁ&nbsp;&nbsp;&nbsp;&nbsp;parama-gati-dāyakaṁ</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;mama śaraṇa-maraṇa-gaṇa-chintyam</strong></p>
-<p class="translation">(1-2) His two feet resemble fresh petals of a lotus flower and distribute fearless blessings; his divine glowing form puts to shame the glow of gold, and is glorified for its beautiful dancing by all the demigods; his lotus face is so charming it puts to shame the charm of the autumnal moon; his broad forehead is decorated with gopī-chandan tilak; I adore that Śrīdhara-deva Swāmī always.<br>
-(3-4) He can put to an end our wandering in this material world; he can protect us from fear and death; his beautiful form dressed in saffron robes puts to shame the attraction and taste for mundane beauty; his hands like fresh blossoms distribute bliss; he is the mutually beloved by the devotees; his heart is broad and strong; he preaches the glories of Śrī Govardhan; he spreads the sweet aroma of the abode of Śrī Kṛṣṇa; he punishes the deceivers and refutes their faulty conceptions thereby giving pleasure to the devotees and revealing himself as a pre-eminent sannyāsī preacher. I always adore that Śrīdhara-deva Swāmī.<br>
-(5) He is a death-sentence to arrogant, haughty demons; he is the saviour of everyone in all the three worlds for he distributes the teachings of Śrī Kṛṣṇa; he is pre-eminent amongst the learned, and the most supreme merciful shelter. I adore that Śrīdhara-deva until my death.</p>
+</div>
+<div class="verse-block" data-number="1-2">
+<h5>1-2</h5>
+<p class="translation">(1-2) His two feet resemble fresh petals of a lotus flower and distribute fearless blessings; his divine glowing form puts to shame the glow of gold, and is glorified for its beautiful dancing by all the demigods; his lotus face is so charming it puts to shame the charm of the autumnal moon; his broad forehead is decorated with gopī-chandan tilak; I adore that Śrīdhara-deva Swāmī always.</p>
+</div>
+<div class="verse-block" data-number="3-4">
+<h5>3-4</h5>
+<p class="translation">(3-4) He can put to an end our wandering in this material world; he can protect us from fear and death; his beautiful form dressed in saffron robes puts to shame the attraction and taste for mundane beauty; his hands like fresh blossoms distribute bliss; he is the mutually beloved by the devotees; his heart is broad and strong; he preaches the glories of Śrī Govardhan; he spreads the sweet aroma of the abode of Śrī Kṛṣṇa; he punishes the deceivers and refutes their faulty conceptions thereby giving pleasure to the devotees and revealing himself as a pre-eminent sannyāsī preacher. I always adore that Śrīdhara-deva Swāmī.</p>
+</div>
+<div class="verse-block" data-number="5">
+<h5>5</h5>
+<p class="translation">(5) He is a death-sentence to arrogant, haughty demons; he is the saviour of everyone in all the three worlds for he distributes the teachings of Śrī Kṛṣṇa; he is pre-eminent amongst the learned, and the most supreme merciful shelter. I adore that Śrīdhara-deva until my death.</p>
 </div>
 </section>
 <section class="song" id="song-maha-bhaya-shiankula-e-bhava-tarangini" data-translated="1">
@@ -10585,7 +10572,7 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-atma-samarpane-gela-abhimana">ātma-samarpaṇe gelā abhimāna<span class="page-num"> — 181</span></a></p>
 <h2 class="first-line-group">B</h2>
 <p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">bandhu-gaṇa! śunaha vachana mora<span class="page-num"> — 205</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-bandhu-sange-yadi-tava-ranga-parihasa">bandhu-saṅge yadi tava raṅga parihāsa<span class="page-num"> — 269/2</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bandhu-sange-yadi-tava-ranga-parihasa">bandhu-saṅge yadi tava raṅga parihāsa<span class="page-num"> — 269</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhagavad-bhaktitah-sarvam">bhagavad-bhaktitaḥ sarvam<span class="page-num"> — 166</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhagyadhishia-tvadiyo-vimala-sukhamayah">bhāgyādhīśa! tvadīyo vimala-sukhamayaḥ<span class="page-num"> — 328</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhai-re-eka-dina-nilachale-prasada-sevana-kale">bhāi re! eka-dina nīlāchale prasāda-sevana-kāle<span class="page-num"> — 72</span></a></p>
@@ -10745,7 +10732,7 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 56</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">samudra-sambhavā gābhī surabhī āpana<span class="page-num"> — 326</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">sarvasva tomāra, charaṇe sa̐piyā<span class="page-num"> — 179</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-smeram-bhangi-traya-parichitam-sachi-vistirna-drishtim">smerāṁ bhaṅgī-traya-parichitāṁ sāchi-vistīrṇa-dṛṣṭiṁ<span class="page-num"> — 269/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bandhu-sange-yadi-tava-ranga-parihasa">smerāṁ bhaṅgī-traya-parichitāṁ sāchi-vistīrṇa-dṛṣṭiṁ<span class="page-num"> — 269</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārbuda-rādhita-pāda-yugaṁ<span class="page-num"> — 83</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 91</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-avidya-pittera-doshe-dushta-rasanaya">syāt kṛṣṇa-nāma-charitādi-sitāpy avidyā<span class="page-num"> — 216</span></a></p>
@@ -10772,10 +10759,10 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">Śrī Śikṣāṣṭakam – Verse 4<span class="page-num"> — 196</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-anadi-karama-phole">Śrī Śikṣāṣṭakam – Verse 5<span class="page-num"> — 198</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-aparadha-phole-mama">Śrī Śikṣāṣṭakam – Verse 6<span class="page-num"> — 200</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">Śrī Śikṣāṣṭakam – Verse 7<span class="page-num"> — 202</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">Śrī Śikṣāṣṭakam – Verse 7 (a)<span class="page-num"> — 202</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">Śrī Śikṣāṣṭakam – Verse 7 (b)<span class="page-num"> — 203</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">Śrī Śikṣāṣṭakam – Verse 7 (c)<span class="page-num"> — 204</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">Śrī Śikṣāṣṭakam – Verse 8<span class="page-num"> — 205</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">Śrī Śikṣāṣṭakam – Verse 8 (a)<span class="page-num"> — 205</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">Śrī Śikṣāṣṭakam – Verse 8 (b)<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-shrimad-bhagavat-padambuja">śrī-śrīmad-bhagavat-padāmbuja<span class="page-num"> — 211</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-deva-siddha-mukta-yukta-bhakta-vrinda">Śrī Śrī Prema-dhāma-deva Stotram – 1-10. Saturday<span class="page-num"> — 86</span></a></p>
@@ -10838,7 +10825,7 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"x6zYgJ6YfKzvTsr80wxz_"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"WR_ox02VHUkVKStjpvFYZ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
