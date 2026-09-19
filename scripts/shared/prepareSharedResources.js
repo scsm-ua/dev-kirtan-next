@@ -40,7 +40,9 @@ function prepareSharedResources() {
   Object.entries(resources).forEach(
     ([songSlug, res /** @type {ResourceRaw} */]) => {
       const audio = handleAudio(res.audio, personsMap);
-      result[songSlug] = audio ? { audio } : {};
+      if (audio) {
+        result[songSlug] = { audio };
+      }
     }
   );
 

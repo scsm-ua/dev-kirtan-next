@@ -1,10 +1,12 @@
 import type { TContentItem } from '@/types/common';
 
 const TAG_REGEX = /<[^>]+>/gi;
-const NOTE_MD_REGEX = /\*\*\*(.*?)\*\*\*/gm;
-const TERM_MD_REGEX = /\*\*(.*?)\*\*/gm;
-const ITALIC_MD_REGEX = /\*(.*?)\*/gm;
+// `(?<!\\)` skips escaped `\*` so they aren't treated as markdown delimiters.
+const NOTE_MD_REGEX = /(?<!\\)\*\*\*(.*?)(?<!\\)\*\*\*/gm;
+const TERM_MD_REGEX = /(?<!\\)\*\*(.*?)(?<!\\)\*\*/gm;
+const ITALIC_MD_REGEX = /(?<!\\)\*(.*?)(?<!\\)\*/gm;
 const LINK_MD_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
+const ESCAPED_ASTERISK_REGEX = /\\\*/g;
 
 /**
  * If a value is object.
@@ -31,6 +33,8 @@ export function processTranslationLines(
       .replace(NOTE_MD_REGEX, `<i class="${cssPrefix}__note">$1</i>\n`)
       .replace(TERM_MD_REGEX, `<i class="${cssPrefix}__term">$1</i>`)
       .replace(ITALIC_MD_REGEX, `<i>$1</i>`)
+      // Unescape remaining `\*` to a literal asterisk.
+      .replace(ESCAPED_ASTERISK_REGEX, '*')
       .replace(LINK_MD_REGEX, '<a href="$2" target="_blank">$1</a>')
       .replaceAll('\\\n', '<br />')
       .split(/\n/)

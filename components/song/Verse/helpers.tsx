@@ -16,8 +16,8 @@ export function getLineIndent(line: string) {
 
 const TAG_RE = /<[^>]+>/gi;
 const PARANTHESES_RE = /(\([^\)]+\))/gi;
-const PARANTHESES_START_RE = /(\([^\)]+)\s*$/gi; // ) End in next line.
-const PARANTHESES_END_RE = /^(\s*)([^\)]+\))/gi; // ( Start in prev line.
+const PARANTHESES_START_RE = /(\([^()]+)\s*$/gi; // ) End in next line.
+const PARANTHESES_END_RE = /^(\s*)([^()]+\))/gi; // ( Start in prev line.
 
 /**
  * EJS trims lines even despite 'rmWhitespace: false'.

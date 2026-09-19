@@ -88,21 +88,27 @@ Re-run `install:post-fetch` after editing a locally linked songbook package to p
 
 ## Debug local songbooks
 
-Link local checkouts of songbook repos into `./shared` (where phase 1 installed them). All commands must be run from inside `./shared`, not from the project root:
+Link local checkouts of songbook repos into `./shared` (where phase 1 installed them). All commands must be run from inside `./shared`, not from the project root.
+
+Phase 2 (`processSrc.js`) keys each package off its **slug** in [`source/songbooks.json`](source/songbooks.json) and expects it at `shared/node_modules/<slug>`. A plain `pnpm link` installs a package under its own name (e.g. `kirtan-guide-en-london`), which phase 2 never looks at — so link under the slug using pnpm's alias syntax (`<slug>@link:<path>`):
 
 ```sh
 cd shared
 
-pnpm link ../../gaudiya-gitanjali-lv
-pnpm link ../../gaudiya-gitanjali-ru
-pnpm link ../../gaudiya-gitanjali-ua
-pnpm link ../../kirtan-guide-en
-pnpm link ../../kirtan-guide-es
-pnpm link ../../kirtan-guide-pt
-pnpm link ../../kirtan-guide-pocket-edition
+pnpm add "lv@link:../../gaudiya-gitanjali-lv"
+pnpm add "ru@link:../../gaudiya-gitanjali-ru"
+pnpm add "ua@link:../../gaudiya-gitanjali-ua"
+pnpm add "en@link:../../kirtan-guide-en"
+pnpm add "es@link:../../kirtan-guide-es"
+pnpm add "pt@link:../../kirtan-guide-pt"
+pnpm add "en-pe@link:../../kirtan-guide-pocket-edition"
+pnpm add "en-2026@link:../../kirtan-guide-en-london"
+pnpm add "ru-kdm@link:../../gaudiya-gitanjali-ru-kd-morning"
 ```
 
-> Paths are `../../<repo>` because `./shared` is one level below the project root and the sibling songbook checkouts are assumed to live next to the project root.
+> Only link the slugs you actually want to debug; each `<slug>` must match a key in [`source/songbooks.json`](source/songbooks.json), and the `../../<repo>` path assumes the checkout lives next to the project root (`./shared` is one level below it).
+
+> No CLI flags are needed: phase 1 generates `shared/pnpm-workspace.yaml`, which makes `./shared` its own workspace root (so links stay contained and don't install into the project root) and sets `blockExoticSubdeps: false` (so pnpm 11 allows each songbook's git-URL sub-dependency, `songbook-md-json-parser`). If you link before ever running phase 1, create that file first.
 
 After linking, re-run only phase 2 to rebuild + copy from the linked packages:
 

@@ -25,12 +25,13 @@ export type TSong = {
   meta: {
     author?: string;
     first_line?: string;
+    alt_first_lines?: string | string[];
     'inline verse'?: 'non bold';
     page?: string | string[];
     translation?: 'no';
     'verse parentheses'?: 'non bold';
   };
-  resources: TResource;
+  resources?: TResource;
   subtitle: Array<string>;
   title: Array<string>;
   verses: Array<TVerse>;

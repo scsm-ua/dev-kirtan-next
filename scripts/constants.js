@@ -6,6 +6,7 @@ const CONST = {
 		CONTENTS: 'contents.json',
 		NPMRC: '.npmrc',
 		PACKAGE_JSON: 'package.json',
+		PNPM_WORKSPACE: 'pnpm-workspace.yaml',
 		PERSONS: 'persons.json',
 		RESOURCES: 'resources.json',
 		SONGBOOKS: 'songbooks.json',

@@ -29,8 +29,12 @@ function ContentGroup({ bookId, group }: Props) {
       )}
 
       <ul className="ContentGroup__list">
-        {group.items.map((item: TContentItem) => (
-          <ContentItem bookId={bookId} item={item} key={item.id} />
+        {group.items.map((item: TContentItem, index: number) => (
+          <ContentItem
+            bookId={bookId}
+            item={item}
+            key={`${bookId}-${index}`}
+          />
         ))}
       </ul>
     </li>

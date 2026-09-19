@@ -24,20 +24,17 @@ function installShared() {
 	writeSharedManifest();
 
 	console.log(chalk.bgBlueBright(' Installing shared packages (pnpm) '));
-	// --ignore-workspace: ./shared is isolated from the parent pnpm workspace
-	//   (pnpm-workspace.yaml at repo root) so packages install into
-	//   ./shared/node_modules instead of being hoisted / skipped.
 	// --ignore-scripts: skip install-time lifecycle scripts. Phase 2 runs
 	//   `pnpm run build` inside each songbook package explicitly, so the
 	//   dependency tree is all we need out of phase 1.
-	// --config.blockExoticSubdeps=false: pnpm 11 blocks git-URL sub-deps
-	//   (e.g. songbook-md-json-parser) by default. The equivalent flag in
-	//   .npmrc is ignored in this scope, so it has to be passed on the CLI.
-	execSync(
-		'pnpm install --ignore-workspace --ignore-scripts'
-			+ ' --config.blockExoticSubdeps=false',
-		{ cwd: SHARED_DIR, stdio: 'inherit' }
-	);
+	// Isolation from the parent workspace and blockExoticSubdeps=false are
+	// configured in the generated ./shared/pnpm-workspace.yaml (see
+	// writeSharedManifest), so no CLI overrides are needed here — the same
+	// config also lets manual `pnpm link` commands run flag-free.
+	execSync('pnpm install --ignore-scripts', {
+		cwd: SHARED_DIR,
+		stdio: 'inherit'
+	});
 }
 
 /**
@@ -47,6 +44,10 @@ function installShared() {
  * - package.json — book + resources dependencies aliased under their slugs.
  * - .npmrc — makes pnpm copy files from the store instead of hard-linking
  *   them so the phase-2 in-package builds cannot corrupt the shared store.
+ * - pnpm-workspace.yaml — makes ./shared its own workspace root (isolated
+ *   from the repo-root workspace) and sets blockExoticSubdeps=false so pnpm
+ *   11 allows the git-URL sub-dep (songbook-md-json-parser). Having this here
+ *   means `pnpm install` / `pnpm link` in ./shared need no CLI flags.
  */
 function writeSharedManifest() {
 	mkdirSync(SHARED_DIR, { recursive: true });
@@ -66,6 +67,11 @@ function writeSharedManifest() {
 	writeFileSync(
 		path.join(SHARED_DIR, CONST.FILES.NPMRC),
 		'package-import-method=copy\n'
+	);
+
+	writeFileSync(
+		path.join(SHARED_DIR, CONST.FILES.PNPM_WORKSPACE),
+		'blockExoticSubdeps: false\n'
 	);
 }
 
