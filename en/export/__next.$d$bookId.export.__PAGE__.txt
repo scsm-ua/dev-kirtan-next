@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:Td04ea,<h1 class="book-title">Kirtan Guide</h1>
+3:Td04ed,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -984,7 +984,7 @@ In that consideration, the Hare Krishna mantra does not mention the Rāma-<i>lī
 <h2>Śrī Guru Ārati <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Glorification of Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h3>
 <h4>by Śrīpād B. A. Paramahaṁsa Mahārāj</h4>
-<h4>translated by Devamoyī Devī Dasī</h4>
+<h4>Translated by Devamoyī Devī Dasī</h4>
 <h5>1</h5>
 <p class="verse"><strong>jaya jaya gurudever ārati ujjvala</strong><br>
 <strong>govardhana-pāda-pīthe bhuvana-maṅgala</strong></p>
@@ -9418,7 +9418,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <section class="song" id="song-ami-guru-dasa-nahi-anya" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Svarūpodbodhana Awakening the True Self <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h4>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h4>
+<h4>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h4>
 <h4>Originally published in Sri Gaudiya Darsan:</h4>
 <h4>Volume 1, Issue 4, Tuesday, 15 November 1955</h4>
 <h4>[When he was 27 years old.]</h4>
@@ -9697,7 +9697,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 322</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 234</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YE7tucCvFG8PaeJyiwnM6"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"wXepQy1T0ISSiONm0C76V"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
