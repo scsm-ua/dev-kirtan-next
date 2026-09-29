@@ -8,7 +8,7 @@ b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/181d0c0650eb5cf4.css","style"]
 :HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-0:{"P":null,"c":["","ua","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ua","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"wXepQy1T0ISSiONm0C76V"}
+0:{"P":null,"c":["","ua","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ua","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/181d0c0650eb5cf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"IAZk7_i0Oo3USlZaGAU1K"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[2342,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$Lf","2",{}]]
 10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-64679a2f3479cf66.js"],"default"]
-11:Tbdaf8,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
+11:Tbf5a3,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
 <p class="nav-links"><a href="#first-lines">↓ Індекс</a></p>
 <section class="toc" id="toc">
 <h1>Зміст</h1>
@@ -88,9 +88,9 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="toc-item" data-translated="1"><a href="#song-nadiya-godrume-nityananda-mahajana">А̄ґʼя-Тахал<span class="page-num"> — 110</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-nitai-pada-kamala-koti-chandra-sushitala">Манах-Шікша̄<span class="page-num"> — 111</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-dhana-mora-nityananda-pati-mora">Сва-Ніштха<span class="page-num"> — 112</span></a></p>
-<p class="toc-item" data-translated="0"><a href="#song-nitai-gunamani-amara-nitai-gunamani">Ніта̄і ґунамані а̄ма̄ра<span class="page-num"> — 113</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-nitai-gunamani-amara-nitai-gunamani">Ніта̄і ґунамані а̄ма̄ра<span class="page-num"> — 113</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-akrodha-paramananda">Акродга парама̄нанда<span class="page-num"> — 114</span></a></p>
-<p class="toc-item" data-translated="0"><a href="#song-parama-karuna-pahu-dui-jana">Шрī Шрī Ґаура-Нітьянандер Дая<span class="page-num"> — 115</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-parama-karuna-pahu-dui-jana">Шрī Шрī Ґаура-Нітьянандер Дая<span class="page-num"> — 115</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-dayal-nitai-chaitanya-bole-nach-re">Даял Ніта̄і Чайтанья<span class="page-num"> — 116</span></a></p>
 <h2 class="toc-item-group">Пісні, присвячені Шрі Чайтаньї Маха̄прабгу</h2>
 <p class="toc-item" data-translated="0"><a href="#song-gaurangera-duti-pada-jar-dhana-sampada">Са̄варана-Шрī-Ґаура-махіма̄<span class="page-num"> — 119</span></a></p>
@@ -107,7 +107,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="toc-item" data-translated="0"><a href="#song-aruna-basane-sonara-suraja">Шрī Шрī Ґаурасундарер Авірбга̄ва Васаре<span class="page-num"> — 130</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">Шрī Ґодрумачандра-бгаджанопадешя</a></p>
 <h2 class="toc-item-group">Інші пісні</h2>
-<p class="toc-item" data-translated="0"><a href="#song-thakura-vaishnava-pada-avanira">Тха̄кура-вайшнава-пада<span class="page-num"> — 134</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">Тха̄кура-вайшнава-пада<span class="page-num"> — 134</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">Віраха-ґīті<span class="page-num"> — 135</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-ei-vara-karuna-kara-vaishnava-gosani">Вайшнава Віґʼяпті<span class="page-num"> — 136</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-kripa-kara-vaishnava-thakura">Пра̄ртхана̄ Лаласа̄маї<span class="page-num"> — 137</span></a></p>
@@ -116,7 +116,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="toc-item" data-translated="1"><a href="#song-ohe-harinam-tava-mahima-apara">Шрī На̄ма̄штакам 7<span class="page-num"> — 144</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-ki-rupe-paibo-seva-mui-durachara">Кі-рӯпе па̄ібо сева̄<span class="page-num"> — 145</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">Бгаджаху Ре Мана<span class="page-num"> — 146</span></a></p>
-<p class="toc-item" data-translated="0"><a href="#song-manasa-deho-geho-jo-kichu-mora">Ма̄наса Дехо Ґехо<span class="page-num"> — 147</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">Ма̄наса Дехо Ґехо<span class="page-num"> — 147</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-e-ghora-samsare-podiya-manava">Е гора самсаре<span class="page-num"> — 148</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-dushta-mana-tumi-kisera-vaishnava">Вайшнава Ке?<span class="page-num"> — 149</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">Дайньятміка̄<span class="page-num"> — 154</span></a></p>
@@ -2999,33 +2999,38 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;кохе дīне нароттама да̄са</strong></p>
 </div>
 </section>
-<section class="song" id="song-nitai-gunamani-amara-nitai-gunamani" data-translated="0">
+<section class="song" id="song-nitai-gunamani-amara-nitai-gunamani" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Ніта̄і ґунамані а̄ма̄ра <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Лочан Да̄с Тха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>ніта̄і ґунамані а̄ма̄ра ніта̄і ґунамані</strong><br>
 <strong>а̄нія премера ванья бга̄са̄ла абанī</strong></p>
+<p class="translation">О мій Господи Нітянандо, коштовний скарбе всіх благих якостей! О Нітаю, Ти – скарб усіх благих якостей! Ти приніс повінь піднесеної любові до Бога, і ці хвилі затопили весь світ.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>премаванья лоє ніта̄і а̄іла ґа̄уда дешє</strong><br>
 <strong>дубіло бгаката-ґана дīнахīна бга̄се</strong></p>
+<p class="translation">За наказом Господа Чайтаньї Господь Нітьянанда приніс цю могутню повінь божественної любові на землю Бенгалії. Повінь цілковито охопила відданих, тоді як нещасні невіддані лишилися безпорадно борсатися поверхнею цього духовного океану.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>дīнахīна патіта па̄мара на̄хі ба̄чхе</strong><br>
 <strong>брахма̄ра дурлабга према саба̄ка̄ре джа̄че</strong></p>
+<p class="translation">Господь Нітьянанда щедро й безумовно дарував цю рідкісну любов до Верховного Господа всім без винятку. Цієї любові було важко досягти навіть Творцю Брахмі, а тепер її отримали всі ниці та нещасні душі, які й не прагнули цього.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>а̄баддга каруна̄-сіндгу ка̄тія муха̄на</strong><br>
 <strong>горе горе буле према-аміяра ба̄на</strong></p>
+<p class="translation">Раніше океан милості був недоступний, але Господь Нітай пробив у ньому шпарину. Тоді могутні потоки божественної любові ринули навсібіч і затопили кожну домівку.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>лочан боле хено ніта̄і джеба̄ на̄ бгаджіло</strong><br>
 <strong>джа̄нія шюнія сеі а̄тмага̄тī хоіло</strong></p>
+<p class="translation">Лочан Дас промовляє: «Той, хто не поклонявся цьому Господу Нітаю і не прийняв Його великого дару, свідомо чинить самогубство».</p>
 </div>
 </section>
 <section class="song" id="song-akrodha-paramananda" data-translated="1">
@@ -3062,7 +3067,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">Хто не полюбив такого чудового Нітьянанду - <br />Лочан каже: грішник цей народився й помре задарма.</p>
 </div>
 </section>
-<section class="song" id="song-parama-karuna-pahu-dui-jana" data-translated="0">
+<section class="song" id="song-parama-karuna-pahu-dui-jana" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Шрī Шрī Ґаура-Нітьянандер Дая <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Лочан Да̄с Тха̄кур</h4>
@@ -3071,6 +3076,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ніта̄і ґаурачандра</strong><br>
 <strong>саба авата̄ра-&nbsp;&nbsp;&nbsp;&nbsp;са̄ра шіромані,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;кевала а̄нанда-канда</strong></p>
+<p class="translation">Господь Нітай і Господь Ґаурачандра — це два наймилостивіших пани. Вони — вінець усіх втілень і єдине джерело надсвітлої духовної радості.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
@@ -3078,6 +3084,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;судридга бішва̄са корі’</strong><br>
 <strong>вішоя чха̄дія,&nbsp;&nbsp;&nbsp;&nbsp;се расе маджія</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;мукхе боло харі харі</strong></p>
+<p class="translation">О брате, благаю тебе: з твердою вірою шануй Шрі Чайтанью-Нітая. Облиш бажання насолоджуватися чуттями і прийми цей нектар, повторюючи Імена Харі.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -3085,6 +3092,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;емона даяла да̄та̄</strong><br>
 <strong>пашю па̄кхī джгуре,&nbsp;&nbsp;&nbsp;&nbsp;па̄ша̄на відоре,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;шюні джа̄ра ґуна-ґа̄тха̄</strong></p>
+<p class="translation">Поглянь-но, брате: в усіх трьох світах немає доброчинців, милостивіших за Них. Навіть пташки й звірі знемагають, а каміння починає танути, коли чують про Їхню славу.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -3092,6 +3100,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;се паде нахіло а̄шя</strong><br>
 <strong>а̄пана карама,&nbsp;&nbsp;&nbsp;&nbsp;бгуньджа̄є шямана,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;кохоє лочана-да̄са</strong></p>
+<p class="translation">Мене поглинув кругообіг народжень і смертей, я впав на узбіччі життя без жодної надії опинитися в Їхньому товаристві. Так до мене прийшов повелитель смерті й примусив отримати плоди власних діянь, — співає Лочан Дас.</p>
 </div>
 </section>
 <section class="song" id="song-dayal-nitai-chaitanya-bole-nach-re" data-translated="1">
@@ -3714,7 +3723,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 </section>
 <section class="category">
 <h1>Інші пісні</h1>
-<section class="song" id="song-thakura-vaishnava-pada-avanira" data-translated="0">
+<section class="song" id="song-thakura-vaishnava-pada-avanira" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Тха̄кура-вайшнава-пада <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Нароттам Да̄с Тха̄кур</h4>
@@ -3724,6 +3733,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>а̄шроя лоія бгадже,&nbsp;&nbsp;&nbsp;&nbsp;та̄ре кришна на̄хі тьядже</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;а̄ро саба море ака̄рана</strong></p>
 <p class="wbw"><i class="wbw__term">тха̄кура</i> — святого; <i class="wbw__term">вайшнава</i> — вайшнава; <i class="wbw__term">пада</i> — стопи; <i class="wbw__term">аванīра</i> — усього світу; <i class="wbw__term">сусампада</i> — найцінніший скарб; <i class="wbw__term">шюно</i> — слухай; <i class="wbw__term">бга̄і</i> — брате; <i class="wbw__term">хоія</i> — (хто) стане; <i class="wbw__term">ека</i> — одним; <i class="wbw__term">мана</i> — в умі; <i class="wbw__term">а̄шроя</i> — притулок; <i class="wbw__term">лоія</i> — прийме; <i class="wbw__term">бгадже</i> —  і поклонятиметься (вайшнаву); <i class="wbw__term">та̄ре</i> — того; <i class="wbw__term">кришна</i> — Крішна; <i class="wbw__term">на̄хі</i> — не; <i class="wbw__term">тьядже</i> — покине; <i class="wbw__term">а̄ро</i> — решта; <i class="wbw__term">саба</i> — усі; <i class="wbw__term">море</i> — загинуть; <i class="wbw__term">ака̄рана</i> — марно.</p>
+<p class="translation">Брате, прошу, вислухай мене уважно. Лотосові стопи <i>вайшнавів</i> — найдорожчий скарб у світі. Шукай притулку в таких <i>вайшнавів</i> і з вірою служи їм. Крішна ніколи не покине того, хто поклоняється Йому таким чином. Усі інші помирають даремною смертю.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
@@ -3732,6 +3742,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>вайшнава-чарана-рену,&nbsp;&nbsp;&nbsp;&nbsp;мастаке бгӯшана віну</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;а̄ра на̄хі бгӯшанера анта</strong></p>
 <p class="wbw"><i class="wbw__term">вайшнава</i> — (із) вайшнава; <i class="wbw__term">чарана</i> — стоп; <i class="wbw__term">джол</i> — вода; <i class="wbw__term">према</i> — любовної; <i class="wbw__term">бгакті</i> — відданості; <i class="wbw__term">діте</i> — дарує; <i class="wbw__term">бол</i> — силу; <i class="wbw__term">а̄ро</i> — інший; <i class="wbw__term">кехо</i> — хтось; <i class="wbw__term">нахе</i> — не є; <i class="wbw__term">балаванта</i> — спроможним; <i class="wbw__term">вайшнава</i> — (із) вайшнава; <i class="wbw__term">чарана</i> — стоп; <i class="wbw__term">рену</i> — пил; <i class="wbw__term">мастаке</i> — на голову; <i class="wbw__term">бгӯшана</i> — прикраса; <i class="wbw__term">віну</i> — окрім (єдина); <i class="wbw__term">а̄ра</i> — іншої; <i class="wbw__term">на̄хі</i> — немає; <i class="wbw__term">бгӯшанера</i> — прикраси; <i class="wbw__term">анта</i> — довершеної.</p>
+<p class="translation">Вода, якою омили лотосові стопи <i>вайшнавів</i>, дарує бгакті, наповнене чистою любовʼю до Верховного Господа. Немає дієвішого способу досягнення цієї божественної любові. Я осипаю свою голову пилом зі стоп-лотосів <i>вайшнавів</i>. Це для мене єдина прикраса.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -3740,6 +3751,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>вайшнавера па̄да-дока,&nbsp;&nbsp;&nbsp;&nbsp;сама нахе еі саба,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;джа̄те хоя ва̄ньчіто пӯрана</strong></p>
 <p class="wbw"><i class="wbw__term">тīртха</i> — святих місць; <i class="wbw__term">джол</i> — вода; <i class="wbw__term">павітра</i> — очисні; <i class="wbw__term">ґуне</i> — (має) якості; <i class="wbw__term">лікхіячхе</i> — написано; <i class="wbw__term">пура̄не</i> — у пуранах; <i class="wbw__term">се</i> — це; <i class="wbw__term">саба</i> — все; <i class="wbw__term">бгактіра</i> — (для) любовної відданості; <i class="wbw__term">праваньчана</i> — омана; <i class="wbw__term">вайшнавера</i> — (із) вайшнава; <i class="wbw__term">па̄да</i> — стоп; <i class="wbw__term">дока</i> — вода; <i class="wbw__term">сама</i> — такою ж; <i class="wbw__term">нахе</i> — не є; <i class="wbw__term">еі</i> — (як) це; <i class="wbw__term">саба</i> — все; <i class="wbw__term">джа̄те</i> — завдяки чому; <i class="wbw__term">хоя</i> — стає; <i class="wbw__term">ва̄ньчіто</i> — бажане; <i class="wbw__term">пӯрана</i> — сповненим.</p>
+<p class="translation"><i>Пурани</i> оспівують очищувальну силу води зі святих місць паломництва, але в цьому є певний прихований обман. Насправді немає нічого такого чистого, як вода, що омила лотосові стопи <i>вайшнавів</i>. Ця вода задовольняє всі прагнення серця.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -3748,6 +3760,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>дīна нароттама ка̄нде, хія дгайрджа на̄хі ба̄ндге,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;мора дошя кено хоіло бганґа</strong></p>
 <p class="wbw"><i class="wbw__term">вайшнава</i> — (з) вайшнавом; <i class="wbw__term">санґете</i> — спілкуючись; <i class="wbw__term">мана</i> — ум; <i class="wbw__term">а̄нандіта</i> — радіє; <i class="wbw__term">анукшана</i> — щомиті; <i class="wbw__term">сада̄</i> — (бо) завжди; <i class="wbw__term">хой</i> — є; <i class="wbw__term">кришна</i> — (про) Крішну; <i class="wbw__term">парасанґа</i> — бесіди; <i class="wbw__term">дīна</i> — немічний; <i class="wbw__term">нароттама</i> — Нароттама Дас; <i class="wbw__term">ка̄нде</i> — плаче; <i class="wbw__term">хія</i> — серце; <i class="wbw__term">дгайрджа</i> — терпіти; <i class="wbw__term">на̄хі</i> — не; <i class="wbw__term">ба̄ндге</i> — витримує; <i class="wbw__term">мора</i> — моя; <i class="wbw__term">дошя</i> — провина; <i class="wbw__term">кено</i> — чому; <i class="wbw__term">хоіло</i> — сталося; <i class="wbw__term">бганґа</i> — падіння.</p>
+<p class="translation">Мій розум знову і знову знаходить розраду в спілкуванні з <i>вайшнавами</i>. Я повсякчас шукаю товариства відданих Господа Крішни. Бідний серцем Нароттам Дас плаче: «Мені немає спокою. Чому я потрапив у таке жалюгідне становище, що не можу отримати спілкування з <i>вайшнавами</i>?»</p>
 </div>
 </section>
 <section class="song" id="song-je-anilo-prema-dhana-karuna-prachura" data-translated="1">
@@ -4139,48 +4152,56 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="translation">Тому єдине, до чого прагне Ґовінда Дас, — це долучитися до дев'яти практик служіння Господу: слухати про Нього, оспівувати Його славу, памʼятати про Нього, молитися Йому, поклонятися Його стопам, бути слугою, пропонувати Йому квіти, пахощі та інші підношення, бути Його другом і цілковито присвятити себе Йому.</p>
 </div>
 </section>
-<section class="song" id="song-manasa-deho-geho-jo-kichu-mora" data-translated="0">
+<section class="song" id="song-manasa-deho-geho-jo-kichu-mora" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Ма̄наса Дехо Ґехо <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Бгактівінод Тха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>ма̄наса, дехо, ґехо, джо кічӯ мора</strong><br>
 <strong>арпілу туя паде, нанда-кішора!</strong></p>
+<p class="translation">Усе, що вважаю своїм — мої ум, тіло й родина, — я віддав до Твоїх лотосових стоп, о юний сину Нанди.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>сампаде віпаде, джīване-маране</strong><br>
 <strong>да̄й мама ґела̄, туя о-пада варане</strong></p>
+<p class="translation">Що б зі мною не трапилося: щастя чи біда, життя чи смерть - у мене немає жодних турбот, адже я обрав своїм єдиним притулком Твої стопи.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>ма̄робі ра̄кхобі—джо ічха̄ тоха̄ра̄</strong><br>
 <strong>нітья-да̄са праті туя адгіка̄ра̄</strong></p>
+<p class="translation">Вб’єш мене чи захистиш — хай буде так, як забажаєш, адже Ти — володар Свого вічного слуги.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>джанма̄обі моє ічха̄ джаді тора</strong><br>
 <strong>бгакта-ґрихе джані джанма хау мора</strong></p>
+<p class="translation">Якщо Ти захочеш, щоб я знову народився, нехай це станеться в домі Твого відданого.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>кīта-джанма хау ятха̄ туя да̄са</strong><br>
 <strong>бахір-мукха брахма-джанме на̄хі а̄шя</strong></p>
+<p class="translation">Хай буду хробаком, аби тільки залишатися Твоїм відданим. Навіть положення Брахми буде мені немилим, якщо я відвернуся від Тебе.</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
 <p class="verse"><strong>бгукті-мукті-сприха̄ біхīна дже бгакта</strong><br>
 <strong>лабгайте та̄нка санґа ануракта</strong></p>
+<p class="translation">Моє прагнення — завжди бути поруч із відданим, вільним від будь-якого бажання буденних насолод чи звільнення.</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
 <p class="verse"><strong>джанака, джананī, доїта, таной</strong><br>
 <strong>прабгу, ґуру, паті—туху сарва-мой</strong></p>
+<p class="translation">Батько, мати, коханий, син, Господь, наставник і чоловік — Ти для мене все.</p>
 </div>
 <div class="verse-block" data-number="8">
 <h5>8</h5>
 <p class="verse"><strong>бгакатівінода кохе, шюно ка̄на!</strong><br>
 <strong>ра̄дга̄-на̄тха! туху ха̄ма̄ра пара̄на</strong></p>
+<p class="translation">Бгактівінод промовляє: «О Крішно, прошу, почуй мене. О Володарю Радги, Ти — моє життя і душа».</p>
 </div>
 </section>
 <section class="song" id="song-e-ghora-samsare-podiya-manava" data-translated="0">
@@ -8800,7 +8821,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="1"><a href="#song-krishna-hoite-chatur-mukha">кришна хоіте чатур-мукха<span class="page-num"> — 216</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-krishnotkirtana-gana-nartana-parau">кришноткīртана-ґа̄на-нартана-парау<span class="page-num"> — 141</span></a></p>
 <h2 class="first-line-group">М</h2>
-<p class="first-line" data-translated="0"><a href="#song-manasa-deho-geho-jo-kichu-mora">ма̄наса, дехо, ґехо, джо кічӯ мора<span class="page-num"> — 147</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-manasa-deho-geho-jo-kichu-mora">ма̄наса, дехо, ґехо, джо кічӯ мора<span class="page-num"> — 147</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-maha-bhaya-shiankula-e-bhava-tarangini">маха̄-бгая шянкула е бгава таранґінī<span class="page-num"> — 285</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-mahaprasade-govinde-nama-brahmani">маха̄праса̄де ґовінде на̄ма брахмані<span class="page-num"> — 62</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-mayura-mukuta-pitambara-dhari">маюра-мукута пīта̄мбара-дга̄рī<span class="page-num"> — 203/2</span></a></p>
@@ -8819,14 +8840,14 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="1"><a href="#song-narada-muni-bajaya-vina">на̄рада муні, ба̄джа̄я вīна̄<span class="page-num"> — 140</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-naumi-shri-gurupadabjam">наумі шрī-ґурупа̄да̄бджам<span class="page-num"> — 275</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-nija-pati-bhuja-danda-chchhatra-bhavam">ніджа-паті-бгуджа-данда-ччхатра-бга̄вам</a></p>
-<p class="first-line" data-translated="0"><a href="#song-nitai-gunamani-amara-nitai-gunamani">ніта̄і ґунамані а̄ма̄ра ніта̄і ґунамані<span class="page-num"> — 113</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-nitai-gunamani-amara-nitai-gunamani">ніта̄і ґунамані а̄ма̄ра ніта̄і ґунамані<span class="page-num"> — 113</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nitai-pada-kamala-koti-chandra-sushitala">ніта̄і-пада-камала, котī-чандра-сушітала<span class="page-num"> — 111</span></a></p>
 <h2 class="first-line-group">О</h2>
 <p class="first-line" data-translated="1"><a href="#song-vaishnava-thakura-dayara-sagara">(охе) вайшнава тха̄кура, даяра са̄ґара<span class="page-num"> — 76</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ohe-harinam-tava-mahima-apara">охе харіна̄м, тава махіма̄ апа̄ра<span class="page-num"> — 144</span></a></p>
 <h2 class="first-line-group">П</h2>
 <p class="first-line" data-translated="0"><a href="#song-pita-varana-kali-pavana-gora">пīта-варана калі-па̄вана ґора̄<span class="page-num"> — 184</span></a></p>
-<p class="first-line" data-translated="0"><a href="#song-parama-karuna-pahu-dui-jana">парама каруна, паху дӯі джана<span class="page-num"> — 115</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-parama-karuna-pahu-dui-jana">парама каруна, паху дӯі джана<span class="page-num"> — 115</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">прабгу кохе—кохілан еі маха̄мантра<span class="page-num"> — 249/1</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">прабгу тава пада-джуґе мора ніведана<span class="page-num"> — 186</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pralaya-payodhi-jale-dhritavan-asi-vedam">пралая-пайодгі-джале дгритава̄н асі ведам<span class="page-num"> — 225</span></a></p>
@@ -8854,7 +8875,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="0"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">тумі сарвешварешвара, враджендра-кума̄ра!<span class="page-num"> — 162</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-tuhu-daya-sagara-tarayite-prani">туху дая-са̄ґара та̄раїте пра̄нī<span class="page-num"> — 185/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">тха̄кура вайшнава-ґана корі еі ніведана<span class="page-num"> — 54</span></a></p>
-<p class="first-line" data-translated="0"><a href="#song-thakura-vaishnava-pada-avanira">тха̄кура-вайшнава-пада, аванīра<span class="page-num"> — 134</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">тха̄кура-вайшнава-пада, аванīра<span class="page-num"> — 134</span></a></p>
 <h2 class="first-line-group">У</h2>
 <p class="first-line" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">уділо аруна пӯраба-бга̄ґе<span class="page-num"> — 42</span></a></p>
 <h2 class="first-line-group">Х</h2>
