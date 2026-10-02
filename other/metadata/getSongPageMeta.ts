@@ -44,7 +44,7 @@ export async function getSongPageMeta({
     authors: authors,
     description: description,
     keywords: getKeywords(song, authors),
-    openGraph: getOG(bookId, description, title, slug),
+    openGraph: getOG(bookId, description, title, slug, song.resources?.image),
     robots: ROBOTS,
     title: title,
     twitter: getTwitter(bookId, description, title)

@@ -1,7 +1,7 @@
 {
   "lv": "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git",
   "ru": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru.git#word-by-word",
-  "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git#word-by-word-2026-06-25",
+  "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git",
   "en": "git+https://github.com/scsm-ua/kirtan-guide-en.git#word-by-word",
   "pt": "git+https://github.com/scsm-ua/kirtan-guide-pt.git",
   "es": "git+https://github.com/scsm-ua/kirtan-guide-es.git",

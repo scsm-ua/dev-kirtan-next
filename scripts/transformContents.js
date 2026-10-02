@@ -73,14 +73,19 @@ function transform(groups, resourceMap, targetDir, options) {
 function mapResources(resource, audioTitleFilter) {
   if (!resource) return;
 
-  const audio = resource.audio
+  const { image } = resource;
+
+  const audio = (resource.audio || [])
     .filter((a) => !audioTitleFilter || audioTitleFilter.includes(a.personId))
     // personId was added for filtering only, remove it.
     .map(({ personId, ...rest }) => rest);
 
-  if (!audio.length) return;
+  if (!audio.length && !image) return;
 
-  return { ...resource, audio };
+  return {
+    ...(audio.length ? { audio } : {}),
+    ...(image ? { image } : {})
+  };
 }
 
 /**

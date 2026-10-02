@@ -1,5 +1,5 @@
 const path = require('path');
-const { mkdirSync } = require('fs');
+const { cpSync, mkdirSync } = require('fs');
 
 const { CONST } = require('../constants');
 const { readFile, writeFile } = require('../ioHelpers');
@@ -37,14 +37,22 @@ function prepareSharedResources() {
   const personsMap = {};
   persons.forEach(({ id, i18n }) => (personsMap[id] = i18n));
 
+  /** @type {{ [songSlug: string]: ImageRaw }} */
+  const images = {};
+
   Object.entries(resources).forEach(
     ([songSlug, res /** @type {ResourceRaw} */]) => {
       const audio = handleAudio(res.audio, personsMap);
       if (audio) {
         result[songSlug] = { audio };
       }
+      if (res.image) {
+        images[songSlug] = res.image;
+      }
     }
   );
+
+  copyImages(absPathToPackage, images, result);
 
   const outputDir = path.resolve(__dirname, '..', '..', CONST.FOLDER.SRC_OUTPUT);
   mkdirSync(outputDir, { recursive: true });
@@ -70,6 +78,40 @@ function handleAudio(audioArr, personsMap) {
       personId: a.title,
       title: personsMap[a.title]
     }));
+}
+
+/**
+ * Copies the resources `images/` folder into public/images/<subdir> and adds
+ * the image meta (with a servable `src` path) to each song's resource entry
+ * (creating the entry when the song has an image but no audio).
+ * @param absPathToPackage {string}
+ * @param images {{ [songSlug: string]: ImageRaw }}
+ * @param result {ResourceMap}
+ */
+function copyImages(absPathToPackage, images, result) {
+  const entries = Object.entries(images);
+  if (!entries.length) return;
+
+  const srcDir = path.resolve(absPathToPackage, CONST.FOLDER.SOURCE_IMAGES);
+  const destDir = path.resolve(
+    __dirname,
+    '..',
+    '..',
+    CONST.FOLDER.PUBLIC,
+    CONST.FOLDER.TARGET_IMAGES,
+    CONST.FOLDER.IMAGES_PUBLIC_SUBDIR
+  );
+  mkdirSync(destDir, { recursive: true });
+  cpSync(srcDir, destDir, { recursive: true });
+
+  entries.forEach(([songSlug, imageMeta]) => {
+    // href is relative to the package, e.g. "images/en-2026/3.png";
+    // strip the leading "images/" and prefix the public path.
+    const { href, ...meta } = imageMeta;
+    const rel = href.replace(new RegExp(`^${CONST.FOLDER.SOURCE_IMAGES}/`), '');
+    const src = `/${CONST.FOLDER.TARGET_IMAGES}/${CONST.FOLDER.IMAGES_PUBLIC_SUBDIR}/${rel}`;
+    result[songSlug] = { ...(result[songSlug] || {}), image: { src, ...meta } };
+  });
 }
 
 /**/

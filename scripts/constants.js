@@ -19,7 +19,13 @@ const CONST = {
 		SONGS: 'songs',
 		SRC_INPUT: 'json',
 		SRC_OUTPUT: 'source/books',
-		SRC_ROOT: 'source'
+		SRC_ROOT: 'source',
+		// Songs images section:
+		PUBLIC: 'public',
+		SOURCE_IMAGES: 'images',
+		TARGET_IMAGES: 'images',
+		// Public subfolder (under public/images) that resource images are copied into.
+		IMAGES_PUBLIC_SUBDIR: 'resources',
 	},
 	// Key in source/resources.json for the shared resources package (not a book).
 	RESOURCES_KEY: 'resources'

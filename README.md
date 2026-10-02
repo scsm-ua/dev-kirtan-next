@@ -106,7 +106,13 @@ pnpm add "en-2026@link:../../kirtan-guide-en-london"
 pnpm add "ru-kdm@link:../../gaudiya-gitanjali-ru-kd-morning"
 ```
 
-> Only link the slugs you actually want to debug; each `<slug>` must match a key in [`source/songbooks.json`](source/songbooks.json), and the `../../<repo>` path assumes the checkout lives next to the project root (`./shared` is one level below it).
+The shared resources package works the same way — its slug is `resources` (from [`source/resources.json`](source/resources.json)) and phase 2 expects it at `shared/node_modules/resources`:
+
+```sh
+pnpm add "resources@link:../../songbook-resources"
+```
+
+> Only link the slugs you actually want to debug; each `<slug>` must match a key in [`source/songbooks.json`](source/songbooks.json) (or `resources` in [`source/resources.json`](source/resources.json)), and the `../../<repo>` path assumes the checkout lives next to the project root (`./shared` is one level below it).
 
 > No CLI flags are needed: phase 1 generates `shared/pnpm-workspace.yaml`, which makes `./shared` its own workspace root (so links stay contained and don't install into the project root) and sets `blockExoticSubdeps: false` (so pnpm 11 allows each songbook's git-URL sub-dependency, `songbook-md-json-parser`). If you link before ever running phase 1, create that file first.
 

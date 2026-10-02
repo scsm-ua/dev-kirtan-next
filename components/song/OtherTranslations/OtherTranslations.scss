@@ -4,6 +4,14 @@
     color: var(--dark-gray);
     padding: 8px;
     margin-left: 8px;
+
+    &:disabled {
+      cursor: default;
+    }
+
+    &:disabled .OtherTranslations__label {
+      text-decoration: none !important;
+    }
   }
 
   &__label {

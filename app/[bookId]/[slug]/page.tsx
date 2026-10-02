@@ -18,6 +18,7 @@ import PageNumber from '@/components/song/PageNumber/PageNumber';
 import PrevNextNav from '@/components/song/PrevNextNav/PrevNextNav';
 import SongbookList from '@/components/song/OtherTranslations/SongbookList';
 import SongHeader from '@/components/song/SongHeader';
+import SongImage from '@/components/song/SongImage/SongImage';
 import SongShare from '@/components/song/SongShare/SongShare';
 import SongText from '@/components/song/SongText/SongText';
 import { translate } from '@/other/i18n';
@@ -74,7 +75,8 @@ async function SongPage({ params }: SongPageProps) {
               <div className="SongPage__controls">
                 <OtherTranslations
                   bookId={bookId}
-                  disabled={descriptions.length === 0}
+                  // descriptions always include the current book, so 1 means no other translations
+                  disabled={descriptions.length < 2}
                 >
                   <SongbookList
                     bookId={bookId}
@@ -86,6 +88,10 @@ async function SongPage({ params }: SongPageProps) {
                 <SongShare bookId={bookId} telegraphUrl={telegraphUrl} />
               </div>
             </section>
+
+            {song.resources?.image && (
+              <SongImage alt={song.title?.join(' ') ?? ''} image={song.resources.image} />
+            )}
 
             <SongHeader bookId={bookId} song={song} />
           </header>

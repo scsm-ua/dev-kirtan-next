@@ -64,13 +64,33 @@
  */
 
 /**
+ * @typedef {Object} ImageRaw
+ * @property {string} href - image path relative to the resources package.
+ * @property {string} type - mime type, e.g. "image/png".
+ * @property {number} width
+ * @property {number} height
+ * @property {number} length - file size in bytes.
+ */
+
+/**
+ * @typedef {Object} ImageObj
+ * @property {string} src - servable public image path.
+ * @property {string} type
+ * @property {number} width
+ * @property {number} height
+ * @property {number} length
+ */
+
+/**
  * @typedef {Object} ResourceRaw
- * @property {Array<AudioRaw>} audio
+ * @property {Array<AudioRaw>} [audio]
+ * @property {ImageRaw} [image] - image meta relative to the resources package.
  */
 
 /**
  * @typedef {Object} ResourceObj
- * @property {Array<AudioObj>} audio
+ * @property {Array<AudioObj>} [audio]
+ * @property {ImageObj} [image] - image meta with a servable public path.
  */
 
 /**

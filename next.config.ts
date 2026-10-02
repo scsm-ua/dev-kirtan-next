@@ -1,4 +1,5 @@
 const { execSync } = require('child_process');
+const path = require('path');
 const packageJson = require('./package.json');
 
 import type { NextConfig } from 'next';
@@ -13,6 +14,7 @@ const buildInfo = JSON.stringify({
 
 /**/
 const nextConfig: NextConfig = {
+  outputFileTracingRoot: path.join(__dirname),
   output: 'export',
   trailingSlash: true,
   images: { unoptimized: true },
