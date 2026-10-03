@@ -25,6 +25,7 @@ function SongImage({ alt, image }: Props) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         className="SongImage__img"
+        style={{ '--song-image-max-width': `${image.width * 2}px` } as React.CSSProperties}
         src={image.src}
         alt={alt}
         title={alt}

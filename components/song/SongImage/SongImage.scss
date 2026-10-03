@@ -5,7 +5,10 @@
 
   &__img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    max-width: var(--song-image-max-width);
     height: auto;
+    max-height: calc(100vh - var(--footer-height));
+    object-fit: contain;
   }
 }
