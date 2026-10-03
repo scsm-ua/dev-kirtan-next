@@ -4,5 +4,5 @@
 :HL["/_next/static/css/cc489eba8e0ec74f.css","style"]
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/615a9bf5c762a90f.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"en-pe","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"gauranga-bolite-hobe-pulaka-shorira","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"LcOBhj2j-ZtA4SZexFlp0"}
+:HL["/_next/static/css/217e4d543c8e1bd6.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"en-pe","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"gauranga-bolite-hobe-pulaka-shorira","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"8Eb0EiOFQus20qDPoz-Zu"}
