@@ -15,6 +15,7 @@ export type TExportOptions = {
   withLinks: boolean;
   withNavLinks: boolean;
   withPageNumbers: boolean;
+  withPages: boolean;
   withToc: boolean;
   withTranslation: boolean;
   withWbw: boolean;
@@ -29,6 +30,7 @@ export const DEFAULT_EXPORT_OPTIONS: TExportOptions = {
   withLinks: true,
   withNavLinks: true,
   withPageNumbers: false,
+  withPages: true,
   withToc: true,
   withTranslation: true,
   withWbw: true
@@ -51,6 +53,7 @@ const BOOL_PARAMS: ReadonlyArray<{ key: BoolOptionKey; param: string }> = [
   { key: 'withToc', param: 'toc' },
   { key: 'withFirstLines', param: 'index' },
   { key: 'withPageNumbers', param: 'pages' },
+  { key: 'withPages', param: 'pages-content' },
   { key: 'withNavLinks', param: 'nav' },
   { key: 'withLinks', param: 'links' },
   { key: 'withTranslation', param: 'trans' }
@@ -116,6 +119,10 @@ export const DOC_STYLE = `
   section.category h1 { page-break-before: always; break-before: page; }
   p.toc-item { }
   p.first-line { }
+  p.SongRef { margin-left: 1em; }
+  p.song-image img { max-width: 100%; height: auto; }
+  div.PageMarkdown img { max-width: 100%; height: auto; }
+  section.page pre { font-weight: bold; margin-left: 1em}
   h5 { text-align: center; }
   span.nav-links { font-size: 0.6em; font-weight: normal; }
 `;
@@ -177,6 +184,7 @@ export function filterExportBody(
     withLinks,
     withNavLinks,
     withPageNumbers,
+    withPages,
     withToc,
     withTranslation,
     withWbw
@@ -205,6 +213,10 @@ export function filterExportBody(
   }
   if (!withPageNumbers) {
     root.querySelectorAll('span.page-num').forEach((el) => el.remove());
+  }
+  if (!withPages) {
+    // Removes page sections plus their TOC/index entries (all marked `.page`).
+    root.querySelectorAll('.page').forEach((el) => el.remove());
   }
   if (!withNavLinks || !withLinks) {
     root.querySelectorAll('.nav-links').forEach((el) => el.remove());

@@ -1,29 +1,24 @@
-import type { Metadata } from 'next';
-
 import { getBooksMap } from '@/lib/books';
-import { getBookDescriptionsByBook, getSongBySlug } from '@/lib/song';
+import { getBookDescriptionsByBook } from '@/lib/song';
 import { getCommonMeta } from '@/other/metadata/helpers/getCommonMeta';
 import { getOG } from '@/other/metadata/helpers/getOG';
 import { getSongPageTitle } from '@/other/metadata/helpers/getSongPageTitle';
 import { getTwitter } from '@/other/metadata/helpers/getTwitter';
 import { KEYWORDS, ROBOTS } from '@/other/metadata/helpers/constants';
 
-import type { SongPageProps } from '@/types/book';
+import type { Metadata } from 'next';
+import type { TMetaCtx } from '@/lib/content/handler';
 import type { TBookDescription, TBooksMap } from '@/types/book';
 import type { TSong } from '@/types/song';
 
 /**
- *
+ * Metadata for a song item. Title/description derive from the song's
+ * title/first line; `languages` alternates list every book with this song.
  */
-export async function getSongPageMeta({
-  params
-}: SongPageProps): Promise<Partial<Metadata>> {
-  const { bookId, slug } = await params;
-  if (!bookId || !slug) return null;
-
-  const song = await getSongBySlug(slug, bookId);
-  if (!song) return null;
-
+export async function getSongMeta(
+  song: TSong,
+  { bookId, slug }: TMetaCtx
+): Promise<Partial<Metadata>> {
   const description = song.meta?.first_line;
   const title = getSongPageTitle(song);
 

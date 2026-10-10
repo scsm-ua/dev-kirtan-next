@@ -1,3 +1,4 @@
+const path = require('node:path');
 const { CONST } = require('./constants');
 const { readFile, writeFile } = require('./ioHelpers');
 
@@ -42,8 +43,9 @@ function transform(groups, resourceMap, targetDir, options) {
     return {
       name: group.name,
       items: group.items.map((item) => {
+				const itemDir = getItemDir(targetDir, item);
 				/** @type {RawSong} */
-				const rawSong = readFile(`${targetDir}/songs`, `${item.id}.json`);
+				const rawSong = readFile(itemDir, `${item.id}.json`);
 				const resources = mapResources(resourceMap[item.id], options.audioTitleFilter || null);
 	
 				/** @type {Song} */
@@ -53,12 +55,17 @@ function transform(groups, resourceMap, targetDir, options) {
 				itemIdx++;
 	
 				writeFile(
-					`${targetDir}/songs`,
+					itemDir,
 					`${item.id}.json`,
 					JSON.stringify(song, null, 2)
 				);
 				
-				return mapItem(item, song);
+				try {
+					return mapItem(item, song);
+				} catch (e) {
+					e.message = `${e.message} (item id: "${item.id}", title: "${item.title}", file: ${itemDir}/${item.id}.json, rawSong ${rawSong ? 'loaded' : 'is undefined - file read/parse failed'})`;
+					throw e;
+				}
 			})
     };
   });
@@ -117,6 +124,16 @@ function applyPageIdxDict(song, itemIdx, dict) {
 }
 
 /**
+ * Folder of the item's JSON, taken from its `filepath` (e.g. `songs/x.md`).
+ * @param targetDir {string}
+ * @param item {RawContentItem}
+ * @return {string}
+ */
+function getItemDir(targetDir, item) {
+  return path.join(targetDir, path.dirname(item.filepath));
+}
+
+/**
  * Walks contents.json in order and returns a dictionary mapping each page
  * number to the flat item indexes (across all groups) that claim it.
  * Array-page songs contribute the item index under every page they list.
@@ -133,7 +150,7 @@ function getherPageIdxDict(groups, targetDir) {
 
   groups.forEach((group) => {
     group.items.forEach((item) => {
-      const rawSong = readFile(`${targetDir}/songs`, `${item.id}.json`);
+      const rawSong = readFile(getItemDir(targetDir, item), `${item.id}.json`);
       const rawPage = rawSong && rawSong.meta && rawSong.meta.page;
 
       if (rawPage) {
@@ -207,6 +224,14 @@ function getAltFirstLines(meta) {
 
 /**
  * @param item {RawContentItem}
+ * @return {'song' | 'page'}
+ */
+function getItemType(item) {
+  return path.dirname(item.filepath) === 'pages' ? 'page' : 'song';
+}
+
+/**
+ * @param item {RawContentItem}
  * @param song {Song}
  * @return {ContentItem}
  */
@@ -225,6 +250,7 @@ function mapItem(item, song) {
     page: getPage(song.meta, item.id),
     pages: getPages(song.meta),
     title: item.title,
+    type: getItemType(item),
     has: {
       audio: song.resources?.audio?.length > 0,
       translation:

@@ -23,7 +23,7 @@ export type BookListPageProps = {
 };
 
 /**/
-export type SongPageProps = {
+export type ContentPageProps = {
   params: Promise<{
     bookId: string;
     slug: string;

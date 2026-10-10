@@ -1,5 +1,5 @@
 const path = require('path');
-const { cpSync, mkdirSync } = require('fs');
+const { cpSync, existsSync, mkdirSync } = require('fs');
 
 const { CONST } = require('../constants');
 const { readFile, writeFile } = require('../ioHelpers');
@@ -33,6 +33,13 @@ function prepareSharedResources() {
   /** @type {{ [songSlug: string]: ResourceRaw }} */
   const resources = readFile(absPathToPackage, CONST.FILES.RESOURCES);
 
+  // Top-level `images` is standalone (page) images meta, not a song slug.
+  /** @type {Array<ImageRaw>} */
+  const standaloneImages = Array.isArray(resources.images)
+    ? resources.images
+    : [];
+  delete resources.images;
+
   /** @type {PersonsMap} */
   const personsMap = {};
   persons.forEach(({ id, i18n }) => (personsMap[id] = i18n));
@@ -57,8 +64,26 @@ function prepareSharedResources() {
   const outputDir = path.resolve(__dirname, '..', '..', CONST.FOLDER.SRC_OUTPUT);
   mkdirSync(outputDir, { recursive: true });
   writeFile(outputDir, CONST.FILES.RESOURCES, JSON.stringify(result, null, 2));
+  writeImagesMeta(outputDir, standaloneImages);
 
   return result;
+}
+
+/**
+ * Writes source/books/images.json — standalone (page) image meta keyed by
+ * path relative to images/ (e.g. "en-2026/2.png"), consumed by the page
+ * markdown loader to emit <img> tags with intrinsic dimensions.
+ * @param outputDir {string}
+ * @param images {Array<ImageRaw>}
+ */
+function writeImagesMeta(outputDir, images) {
+  /** @type {{ [rel: string]: Omit<ImageRaw, 'href'> }} */
+  const map = {};
+  images.forEach(({ href, ...meta }) => {
+    const rel = href.replace(new RegExp(`^${CONST.FOLDER.SOURCE_IMAGES}/`), '');
+    map[rel] = meta;
+  });
+  writeFile(outputDir, CONST.FILES.IMAGES, JSON.stringify(map, null, 2));
 }
 
 /**
@@ -89,22 +114,23 @@ function handleAudio(audioArr, personsMap) {
  * @param result {ResourceMap}
  */
 function copyImages(absPathToPackage, images, result) {
-  const entries = Object.entries(images);
-  if (!entries.length) return;
-
+  // Copy the whole folder whenever it exists — page bodies may reference
+  // images directly even when no song carries image meta.
   const srcDir = path.resolve(absPathToPackage, CONST.FOLDER.SOURCE_IMAGES);
-  const destDir = path.resolve(
-    __dirname,
-    '..',
-    '..',
-    CONST.FOLDER.PUBLIC,
-    CONST.FOLDER.TARGET_IMAGES,
-    CONST.FOLDER.IMAGES_PUBLIC_SUBDIR
-  );
-  mkdirSync(destDir, { recursive: true });
-  cpSync(srcDir, destDir, { recursive: true });
+  if (existsSync(srcDir)) {
+    const destDir = path.resolve(
+      __dirname,
+      '..',
+      '..',
+      CONST.FOLDER.PUBLIC,
+      CONST.FOLDER.TARGET_IMAGES,
+      CONST.FOLDER.IMAGES_PUBLIC_SUBDIR
+    );
+    mkdirSync(destDir, { recursive: true });
+    cpSync(srcDir, destDir, { recursive: true });
+  }
 
-  entries.forEach(([songSlug, imageMeta]) => {
+  Object.entries(images).forEach(([songSlug, imageMeta]) => {
     // href is relative to the package, e.g. "images/en-2026/3.png";
     // strip the leading "images/" and prefix the public path.
     const { href, ...meta } = imageMeta;
