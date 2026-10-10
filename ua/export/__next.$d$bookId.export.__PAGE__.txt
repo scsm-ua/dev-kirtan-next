@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-64679a2f3479cf66.js"],"default"]
+2:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-a5e2052390022a03.js"],"default"]
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
-:HL["/_next/static/css/4b0014ca66bfdf36.css","style"]
-3:Tbf5a3,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
+:HL["/_next/static/css/d41aea12ff0698fe.css","style"]
+3:Tbfe66,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
 <p class="nav-links"><a href="#first-lines">↓ Індекс</a></p>
 <section class="toc" id="toc">
 <h1>Зміст</h1>
@@ -262,6 +262,7 @@
 </section>
 <section class="song" id="song-gurvabhishta-supurakam-guru-ganair" data-translated="1">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/3.png" alt="Шрīла Бгакті Сундар Ґовінда Дев-Ґосва̄мī Маха̄ра̄дж" width="454" height="525"></p>
 <h2>Шрīла Бгакті Сундар Ґовінда Дев-Ґосва̄мī Маха̄ра̄дж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>ґурва̄бгīшта-супӯракам ґуру-ґанайр</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;а̄шіша-самбгӯшитам</strong><br>
@@ -276,6 +277,7 @@
 </section>
 <section class="song" id="song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam" data-translated="0">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/4.png" alt="Шрīла Бгакті Ракшак Шрīдгар Дев-Ґосва̄мī Маха̄ра̄дж" width="454" height="525"></p>
 <h2>Шрīла Бгакті Ракшак Шрīдгар Дев-Ґосва̄мī Маха̄ра̄дж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Бгакті Сундар Ґовінда Дев-Ґосва̄мī Маха̄ра̄дж</h4>
 <p class="verse"><strong>девам дівʼя-танум сучанда-ваданам-</strong><br>
@@ -290,6 +292,7 @@
 </section>
 <section class="song" id="song-shri-siddhanta-sarasvatiti-vidito" data-translated="1">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/5.png" alt="Бгаґава̄н Шрīла Бгактісіддга̄нта Сарасватī Тха̄кур" width="454" height="543"></p>
 <h2>Бгаґава̄н Шрīла Бгактісіддга̄нта Сарасватī Тха̄кур <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Бгакті Ракшак Шрīдгар Дев-Ґосва̄мī Маха̄ра̄дж</h4>
 <p class="verse"><strong>шрī-сіддга̄нта-сарасватīті відіто</strong><br>
@@ -305,6 +308,7 @@
 </section>
 <section class="song" id="song-namo-gaurakishoraya-bhaktavadhuta-murtaye" data-translated="1">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/6.png" alt="Шрīла Ґаура Кішора Да̄с Ба̄ба̄джī Маха̄ра̄дж" width="454" height="543"></p>
 <h2>Шрīла Ґаура Кішора Да̄с Ба̄ба̄джī Маха̄ра̄дж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Бгакті Ракшак Шрīдгар Дев-Ґосва̄мī Маха̄ра̄дж</h4>
 <p class="verse"><strong>намо ґауракішора̄я</strong><br>
@@ -316,6 +320,7 @@
 </section>
 <section class="song" id="song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam" data-translated="1">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/7.png" alt="Шрīла Бгакті Вінод Тха̄кур" width="454" height="543"></p>
 <h2>Шрīла Бгакті Вінод Тха̄кур <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Бгакті Ракшак Шрīдгар Дев-Ґосва̄мī Маха̄ра̄дж</h4>
 <p class="verse"><strong>ванде бгактівінодам шрī-</strong><br>
@@ -327,6 +332,7 @@
 </section>
 <section class="song" id="song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham" data-translated="1">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/8.png" alt="Шрīла Джаґанна̄тх Да̄с Ба̄ба̄джī Маха̄ра̄дж" width="454" height="543"></p>
 <h2>Шрīла Джаґанна̄тх Да̄с Ба̄ба̄джī Маха̄ра̄дж <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Бгакті Ракшак Шрīдгар Дев-Ґосва̄мī Маха̄ра̄дж</h4>
 <p class="verse"><strong>ґаура-враджа̄шріта̄шєшайр</strong><br>
@@ -368,6 +374,7 @@
 </section>
 <section class="song" id="song-jayatam-suratau-pangor" data-translated="0">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/9.png" alt="Шрī-Шрī-Ґуру-Ґаура̄нґа-Ра̄дга̄-Мадана-Моханджīу" width="625" height="547"></p>
 <h2>Шрī-Шрī-Ґуру-Ґаура̄нґа-Ра̄дга̄-Мадана-Моханджīу <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Kolkata, Sree Chaitanya Sāraswata Krishnanushilana Sangha</h3>
 <p class="verse"><strong>джаята̄м суратау панґор</strong><br>
@@ -378,6 +385,7 @@
 </section>
 <section class="song" id="song-divyad-vrindaranya-kalpa-drumadhah" data-translated="0">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/10.png" alt="Шрī-Шрī-Ґуру-Ґаура̄нґа-Ґа̄ндгарва̄-Ґовіндасундарджīу" width="625" height="547"></p>
 <h2>Шрī-Шрī-Ґуру-Ґаура̄нґа-Ґа̄ндгарва̄-Ґовіндасундарджīу <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Nabadwīp, Śrī Chaitanya Sāraswat Maṭh</h3>
 <p class="verse"><strong>дīвʼяд-вринда̄ранья-калпа-друма̄дгах</strong><br>
@@ -388,6 +396,7 @@
 </section>
 <section class="song" id="song-shriman-rasa-rasarambhi" data-translated="0">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/11.png" alt="Шрī-Шрī-Ґуру-Ґаура̄нґа-Ра̄дга̄-Ґопīна̄тхджīу" width="625" height="547"></p>
 <h2>Шрī-Шрī-Ґуру-Ґаура̄нґа-Ра̄дга̄-Ґопīна̄тхджīу <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Hāpāniyā, Śrī Chaitanya Sāraswat Ashram</h3>
 <p class="verse"><strong>шрīма̄н ра̄са-раса̄рамбгī</strong><br>
@@ -429,6 +438,7 @@
 </section>
 <section class="song" id="song-namah-om-vishnupadaya-krishna" data-translated="0">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/12.png" alt="Прана̄м Мантра" width="454" height="543"></p>
 <h2>Прана̄м Мантра <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>to Śrīla A.C Bhaktivedānta Swāmī Mahārāj Prabhupād</h3>
 <h4>Шрīла Бгакті Сундар Ґовінда Дев-Ґосва̄мī Маха̄ра̄дж</h4>
@@ -444,6 +454,7 @@
 </section>
 <section class="song" id="song-shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir" data-translated="0">
 <div class="verse-block" data-number="">
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/13.png" alt="Слава Шрī Чайтанья Са̄расват Матху" width="765" height="1313"></p>
 <h2>Слава Шрī Чайтанья Са̄расват Матху <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Б.Р. Шрīдгар Дев-Ґосва̄мī Маха̄ра̄дж while</h4>
 <h4>residing in a hut on the banks of the Ganges in 1941.</h4>
@@ -8899,7 +8910,7 @@
 <p class="first-line" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">яді те харі-па̄да-сароджа-судга̄</a></p>
 <p class="first-line" data-translated="0"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">ямуна̄мбу-кришна-ра̄дгіка̄лі-келі-мандалам<span class="page-num"> — 104</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8Eb0EiOFQus20qDPoz-Zu"}
-4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4b0014ca66bfdf36.css","precedence":"next"}]
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"J39EIHKZlZDAK11wyuGzi"}
+4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
