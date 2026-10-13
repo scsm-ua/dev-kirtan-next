@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf0920,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf0915,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -853,31 +853,31 @@ Indeed the hearts of all beings, moving and still,<br />marvel in the glory of �
 </div>
 <div class="verse-block" data-number="">
 <h3>Translations of key phrases</h3>
-<p class="translation"><i class="translation__term">Āchārya-varya</i> – The best, preferred, beloved teacher<br>
-<i class="translation__term">Ananta-koṭī Vaiṣṇava-vṛnda</i> – An assembly of innumerable Vaiṣṇavas<br>
-<i class="translation__term">Ākara Maṭh Rāja Śrī Chaitanya Maṭh</i> – Śrīla Bhakti Siddhānta Saraswatī Ṭhākur’s headquarters maṭh, Śrī Gauḍīya Maṭh in Māyāpur<br>
-<i class="translation__term">Aṣṭottara-śata-śrī</i> – Highly respectful and auspicious form of address<br>
-<i class="translation__term">Bhakta-pravara</i> – The best, topmost, devotee<br>
-<i class="translation__term">Grantharāj</i> – The king of scriptures<br>
-<i class="translation__term">Jaya</i> – All glories, victory, and triumph<br>
-<i class="translation__term">Jīu</i> – An affectionate and reverential term for a Deity<br>
-<i class="translation__term">Nitāi Gaura Premānande</i> – May the divine Names of Śrī Nityānanda Prabhu and Śrī Gaurāṅga Mahāprabhu be ecstatically, lovingly sung<br>
-<i class="translation__term">Namāchārya</i> – Āchārya of the Holy Name<br>
-<i class="translation__term">Om Viṣṇupād</i> – At the lotus feet of Lord Viṣṇu<br>
-<i class="translation__term">Paramahaṁsa</i> – Sage or saint who sees divinity everywhere; extracts the essence; (literally) supreme swan<br>
-<i class="translation__term">Parivrājak</i> – Constantly moving<br>
-<i class="translation__term">Prabhu-traya</i> – Three Prabhus<br>
-<i class="translation__term">Samaveta Bhakta-vṛnda</i> – All the assembled devotees<br>
-<i class="translation__term">Samaveta Vaiṣṇava-maṇḍala</i> – All the circle, group, of Vaiṣṇavas<br>
-<i class="translation__term">Saparikar; Sapārṣada</i> – (Accompanied by) Their paraphernalia; Their eternal associates<br>
-<i class="translation__term">Śrī Chaitanya Sāraswat Maṭh</i> – the Temple and ashram in Nabadwīp established by Śrīla Guru Mahārāj and developed by Śrīla Gurudev<br>
-<i class="translation__term">Śrī Harināma-saṅkīrtan</i> – The congregational chanting of the Holy Names of Śrī Kṛṣṇa<br>
-<i class="translation__term">Śrīla</i> – One who is endowed with divine qualities, (literally) one who possesses ‘Śrī’ (all good qualities/fortune/beauty)<br>
-<i class="translation__term">Śrī Rūpānuga Guru-varga</i> – The spiritual masters in the line of Śrī Rūpa Goswāmī<br>
-<i class="translation__term">Śuddha Bhakti Vighna Vināśāya</i> – Destroyer of all obstacles on the path of pure devotion; (literally) pure devotion obstacles destroyer<br>
-<i class="translation__term">Tadīya Śākhā Maṭh</i> – All the branches, missions, and ashrams that originated from the main Maṭh; (literally) related branch maṭhs<br>
-<i class="translation__term">Viśva-vareṇya</i> – Universally worshipable<br>
-<i class="translation__term">Viśva-vyāpī Tadīya Śākhā Maṭh</i> – (literally) universally expanded related branch maṭhs</p>
+<p class="translation"><i class="translation__bold">Āchārya-varya</i> – The best, preferred, beloved teacher<br>
+<i class="translation__bold">Ananta-koṭī Vaiṣṇava-vṛnda</i> – An assembly of innumerable Vaiṣṇavas<br>
+<i class="translation__bold">Ākara Maṭh Rāja Śrī Chaitanya Maṭh</i> – Śrīla Bhakti Siddhānta Saraswatī Ṭhākur’s headquarters maṭh, Śrī Gauḍīya Maṭh in Māyāpur<br>
+<i class="translation__bold">Aṣṭottara-śata-śrī</i> – Highly respectful and auspicious form of address<br>
+<i class="translation__bold">Bhakta-pravara</i> – The best, topmost, devotee<br>
+<i class="translation__bold">Grantharāj</i> – The king of scriptures<br>
+<i class="translation__bold">Jaya</i> – All glories, victory, and triumph<br>
+<i class="translation__bold">Jīu</i> – An affectionate and reverential term for a Deity<br>
+<i class="translation__bold">Nitāi Gaura Premānande</i> – May the divine Names of Śrī Nityānanda Prabhu and Śrī Gaurāṅga Mahāprabhu be ecstatically, lovingly sung<br>
+<i class="translation__bold">Namāchārya</i> – Āchārya of the Holy Name<br>
+<i class="translation__bold">Om Viṣṇupād</i> – At the lotus feet of Lord Viṣṇu<br>
+<i class="translation__bold">Paramahaṁsa</i> – Sage or saint who sees divinity everywhere; extracts the essence; (literally) supreme swan<br>
+<i class="translation__bold">Parivrājak</i> – Constantly moving<br>
+<i class="translation__bold">Prabhu-traya</i> – Three Prabhus<br>
+<i class="translation__bold">Samaveta Bhakta-vṛnda</i> – All the assembled devotees<br>
+<i class="translation__bold">Samaveta Vaiṣṇava-maṇḍala</i> – All the circle, group, of Vaiṣṇavas<br>
+<i class="translation__bold">Saparikar; Sapārṣada</i> – (Accompanied by) Their paraphernalia; Their eternal associates<br>
+<i class="translation__bold">Śrī Chaitanya Sāraswat Maṭh</i> – the Temple and ashram in Nabadwīp established by Śrīla Guru Mahārāj and developed by Śrīla Gurudev<br>
+<i class="translation__bold">Śrī Harināma-saṅkīrtan</i> – The congregational chanting of the Holy Names of Śrī Kṛṣṇa<br>
+<i class="translation__bold">Śrīla</i> – One who is endowed with divine qualities, (literally) one who possesses ‘Śrī’ (all good qualities/fortune/beauty)<br>
+<i class="translation__bold">Śrī Rūpānuga Guru-varga</i> – The spiritual masters in the line of Śrī Rūpa Goswāmī<br>
+<i class="translation__bold">Śuddha Bhakti Vighna Vināśāya</i> – Destroyer of all obstacles on the path of pure devotion; (literally) pure devotion obstacles destroyer<br>
+<i class="translation__bold">Tadīya Śākhā Maṭh</i> – All the branches, missions, and ashrams that originated from the main Maṭh; (literally) related branch maṭhs<br>
+<i class="translation__bold">Viśva-vareṇya</i> – Universally worshipable<br>
+<i class="translation__bold">Viśva-vyāpī Tadīya Śākhā Maṭh</i> – (literally) universally expanded related branch maṭhs</p>
 </div>
 </section>
 <section class="song" id="song-shri-krishna-chaitanya-prabhu-nityananda" data-translated="1">
@@ -1042,8 +1042,7 @@ In the Name of Rāma within the Hare Kṛṣṇa mantra, the Gauḍīya Vaiṣ�
 <strong>tri-jagati nija-gotraṁ sārthakaṁ khyāpayan me</strong><br>
 <strong>nija-nikaṭa-nivāsaṁ dehi govardhana tvam</strong></p>
 <p class="translation">You always fully nourish the cows everywhere with your land, water, plains, grass, and the shade of your trees, and thus proclaim the fulfilment of your Name throughout the three worlds. Please give me a dwelling near you, O Govardhan!<br>
-<i class="translation__note">Note:</i><br>
- <i>Govardhana</i> means “He who nourishes (vardhana) the cows (go).”</p>
+<i class="translation__bold">Note:</i> <i>Govardhana</i> means “He who nourishes (vardhana) the cows (go).”</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
@@ -2732,8 +2731,7 @@ N.B. On Harivāsar-tithis (days on which devotees fast from grains) the above so
 (kṛṣṇa tomār hṛdayer dhan tumi dileo dite pāra)<br>
 (kṛṣṇa debār śakti-dhara tumi dileo dite pāra)</p>
 <p class="translation">(I run after you. With the hope of attaining the wealth of Kṛṣṇa, I run after you. If you desire to give, you can give Kṛṣṇa. Kṛṣṇa is the wealth of your heart, and if you desire to give, you can give. You have the power to give Kṛṣṇa, and if you desire to give, you can give.)<br>
-*<i class="translation__note">Footnote to verse 2:</i><br>
-<br>
+*<i class="translation__bold">Footnote to verse 2:</i><br>
 The six urges are those of speech, the mind, anger, the tongue, the belly, and the genitals.<br>
 The six faults are overeating or collecting more monetary funds than required, over-endeavouring for material objectives, unnecessary talking about mundane affairs, being too attached to or too neglectful of Scriptural rules and regulations, associating with worldly-minded persons, and lusting after mundane achievements.<br>
 The six good qualities are enthusiasm, patience, confidence, the determination to perform activities favourable to devotional service, the resolution to abandon the association of non-devotees, and the discipline required to always follow in the footsteps of the predecessor āchāryas.<br>
@@ -6668,8 +6666,7 @@ Again and again tasting nectar, the soul dives and surfaces in the ever-increasi
 <strong>ḍāke rādhānātha&nbsp;&nbsp;&nbsp;&nbsp;diyā daraśana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;prāṇa rākha, nahe mari</strong></p>
 <p class="translation">Bhakti Vinod has become very restless and again takes shelter of the Holy Name, calling out, “O Lord of Rādhā! By bestowing Your audience, please save my life! By Your mercy alone I shall not perish!”<br>
-*<i class="translation__note">Footnote:</i><br>
- Śrīla Guru Mahārāj, Śrīla Śrīdhar Mahārāj, advised not to sing ‘sakhi go’ but ‘bandhu he’ instead.</p>
+*<i class="translation__bold">Footnote:</i> Śrīla Guru Mahārāj, Śrīla Śrīdhar Mahārāj, advised not to sing ‘<i>sakhi go</i>’ but ‘<i>bandhu he</i>’ instead.</p>
 </div>
 </section>
 <section class="song" id="song-bondhu-gon-shiunoho-vachana-mora" data-translated="1">
@@ -9285,8 +9282,7 @@ There are two classes of lotus: the white lotus came from the sun and the red fr
 <p class="translation"><i>Tuyā adarśana-ahi</i> – this is my prayer, but what is my present condition? My present condition is in the negative side, my Mistress. My present position is such that without having a sight of you, Your Grace, my heart will burn into ashes. That is my present position. <i>Garale jārala dehī</i> – this is just like the poison of a cobra which produces pain within my heart. I have been bitten by a snake, and what is that snake? It is that I am not getting any direct contact with you, Your Grace. The serpent’s poison has captured my heart and I am going to die. <i>Chira-dina tāpita jīvana</i> – and this is not a sudden thing, but from the beginning I have been suffering this sort of pain of separation from such a beautiful and hopeful life of fulfilment.<br>
 <i>Hā hā Prabhu* kara dayā, deha more pada-chāyā, Narottama la-ila śaraṇa</i> – but I have now reached the extreme position and for the last time I am begging for your favour; otherwise I am going to be finished.<br>
 This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In this way he has given us light of the higher quarter of bhajan life. This sampradāya is named as the Rūpānuga-sampradāya, and our Guru-paramparā and all these things are adjusted according to that. He wrote many songs and they are of very substantive firmament, very ecstatic, and of deep faith.<br>
-*<i class="translation__note">Footnote:</i><br>
- personally adjusted by Śrīla Gurudev from ‘Rūpa’ to ‘Prabhu’.</p>
+*<i class="translation__bold">Footnote:</i> personally adjusted by Śrīla Gurudev from ‘Rūpa’ to ‘Prabhu’.</p>
 </div>
 </section>
 <section class="song" id="song-radhika-charana-padma-sakala-shreyera" data-translated="1">
@@ -9892,8 +9888,7 @@ This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In
 <strong>yāche ’haṁ karuṇā-nidhe! varam imaṁ pādābja-mūle bhavat-</strong><br>
 <strong>sarvasvāvadhi-rādhikā-dayita-dāsānāṁ gaṇe gaṇyatām</strong></p>
 <p class="translation">Where am I, so lowly and fallen, and where are you, the great soul who delivers the universe! O Lord, by your grace, you are sure to forgive my offences. O ocean of mercy, in the dust of your lotus feet I pray for just this benediction: kindly make my life successful by recommending me for admission into the group of Śrī Vārṣabhānavī Dayita Dās, who is the dearmost one in your heart.<br>
-*<i class="translation__note">Translator’s Note:</i><br>
- The preceding prayer to Śrīla Bhakti Vinod Ṭhākur (1838-1914), the pioneer of pure devotion in the recent age, was composed within the lifetime of the author’s Guru, Śrīla Bhakti Siddhānta Saraswatī Ṭhākur Goswāmī Prabhupād. Upon reading the original Sanskrit verse, just the year before his own passing away, Śrīla Prabhupād commented, “Now I am confident that we have one man who is qualified to uphold the standard of our sampradāya (divine succession).”</p>
+*<i class="translation__bold">Translator’s Note:</i> The preceding prayer to Śrīla Bhakti Vinod Ṭhākur (1838-1914), the pioneer of pure devotion in the recent age, was composed within the lifetime of the author’s Guru, Śrīla Bhakti Siddhānta Saraswatī Ṭhākur Goswāmī Prabhupād. Upon reading the original Sanskrit verse, just the year before his own passing away, Śrīla Prabhupād commented, “Now I am confident that we have one man who is qualified to uphold the standard of our sampradāya (divine succession).”</p>
 </div>
 </section>
 <section class="song" id="song-shri-gauda-dhamashrita-shiuddha-bhaktam" data-translated="1">
@@ -11189,7 +11184,7 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"J39EIHKZlZDAK11wyuGzi"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j5sYbWMvNjylAgY9hmO7B"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

@@ -1724,7 +1724,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 (kṛṣṇa tomār hṛdoyer dhan tumi dileou dite pāro)<br>
 (kṛṣṇa devār śakti dhara tumi dileou dite pāro)</p>
 <p class="translation">Krišna pieder tev, tu vari Viņu atklāt citiem, tev piemīt tāds spēks! Kā neprātīgs es saucu: “Krišna, Krišna!” un izmisis skrienu tev pakaļ.<br>
-<i class="translation__term">Piezīme pie 2. vārsmas:</i><br>
+<i class="translation__bold">Piezīme pie 2. vārsmas:</i><br>
 Seši dzinuļi: runa, prāts, dusmas, mēle, kuņģis un ģenitālijas.<br>
 Seši trūkumi: pārēšanās vai pārmērīgu iekrājumu veidošana; pārmērīgas pūles pasaulīgu mērķu sasniegšanai; saviesīgas sarunas par pasaulīgām tēmām; pārlieka uzmanība Rakstu norādījumu ievērošanā, kā arī tieši pretēji – nolaidīga attieksme pret Rakstu norādījumiem; saskarsme ar materiāli noskaņotiem cilvēkiem; kaislīga tieksme pēc pasaulīgiem sasniegumiem.<br>
 Sešas labvēlīgas īpašības: entuziasms, pacietība, pārliecība, apņēmība, kas nepieciešama, lai veiktu kalpošanai labvēlīgas darbības, apņēmība atteikties no materiāli noskaņotu cilvēku sabiedrības, paklausība, kas nepieciešama, lai vienmēr sekotu <i>āčārju</i> pēdām.<br>
@@ -4481,7 +4481,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 104</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 192</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"J39EIHKZlZDAK11wyuGzi"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j5sYbWMvNjylAgY9hmO7B"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
