@@ -22,6 +22,9 @@ export type TSong = {
   hasVersesText: boolean;
   hasVersesTranslations: boolean;
   fullInlineWbw: boolean;
+  // True when a verse line is long enough to wrap on desktop; triggers the
+  // "long verse" layout (no gutter, smaller font) above the mobile breakpoint.
+  hasLongVerses: boolean;
   meta: {
     author?: string;
     first_line?: string;
@@ -30,6 +33,12 @@ export type TSong = {
     page?: string | string[];
     translation?: 'no';
     'verse parentheses'?: 'non bold';
+    styles?: {
+      verses?: {
+        wide?: boolean;
+        align?: 'left';
+      };
+    };
   };
   resources?: TResource;
   subtitle: Array<string>;
@@ -47,6 +56,9 @@ export type TVerse = {
   // single source word found in the verse text (i.e. inline Learn mode is
   // meaningful for this verse). Absent on verses without `word_by_word`.
   isWbwInlineModeAvailable?: boolean;
+  // Derived server-side: true when a verse line is long enough to wrap on
+  // desktop; aligns this verse left without the gutter margin.
+  isLong?: boolean;
   number?: string;
   subtitle?: Array<string>;
   text: Array<string>;

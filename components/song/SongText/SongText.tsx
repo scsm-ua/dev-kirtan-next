@@ -65,6 +65,7 @@ function SongText({ bookId, label, song }: Props) {
     'SongText',
     effectiveMode === VIEW_MODE.TRANSLATION && 'SongText--wide',
     effectiveWbwMode === WBW_MODE.INLINE && 'SongText--learn',
+    song.hasLongVerses && 'SongText--longVerse',
     updateCount > 0 && 'SongText--transition'
   );
 

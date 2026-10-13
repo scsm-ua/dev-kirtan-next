@@ -22,7 +22,7 @@ function VerseTranslation({ isWide, isWBW, translation }: Props) {
 
   return (
     <ul className="VerseTranslation">
-      {processTranslationLines(translation, 'VerseWbw').map((item) => (
+      {processTranslationLines(translation, 'VerseTranslation').map((item) => (
         <li key={item}>
           <p className={cls} dangerouslySetInnerHTML={{ __html: item }} />
         </li>

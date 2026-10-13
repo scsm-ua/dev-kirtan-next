@@ -2,8 +2,8 @@ import type { TContentItem } from '@/types/common';
 
 const TAG_REGEX = /<[^>]+>/gi;
 // `(?<!\\)` skips escaped `\*` so they aren't treated as markdown delimiters.
-const NOTE_MD_REGEX = /(?<!\\)\*\*\*(.*?)(?<!\\)\*\*\*/gm;
-const TERM_MD_REGEX = /(?<!\\)\*\*(.*?)(?<!\\)\*\*/gm;
+const BOLD_ITALIC_MD_REGEX = /(?<!\\)\*\*\*(.*?)(?<!\\)\*\*\*/gm;
+const BOLD_MD_REGEX = /(?<!\\)\*\*(.*?)(?<!\\)\*\*/gm;
 const ITALIC_MD_REGEX = /(?<!\\)\*(.*?)(?<!\\)\*/gm;
 const LINK_MD_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
 const ESCAPED_ASTERISK_REGEX = /\\\*/g;
@@ -55,8 +55,8 @@ export function processTranslationLines(
       .join('\n')
       // Cleanup tags for safety.
       .replace(TAG_REGEX, '')
-      .replace(NOTE_MD_REGEX, `<i class="${cssPrefix}__note">$1</i>\n`)
-      .replace(TERM_MD_REGEX, `<i class="${cssPrefix}__term">$1</i>`)
+      .replace(BOLD_ITALIC_MD_REGEX, `<i class="${cssPrefix}__bold-italic">$1</i>`)
+      .replace(BOLD_MD_REGEX, `<i class="${cssPrefix}__bold">$1</i>`)
       .replace(ITALIC_MD_REGEX, `<i>$1</i>`)
       // Unescape remaining `\*` to a literal asterisk.
       .replace(ESCAPED_ASTERISK_REGEX, '*')

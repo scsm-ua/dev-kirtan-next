@@ -64,7 +64,7 @@ function Verse({
   );
 
   return (
-    <li className="Verse" data-mode={mode}>
+    <li className={(classnames as any)('Verse', verse.isLong && 'Verse--long')} data-mode={mode}>
       {subtitle?.length > 0 && showTranslation && (
         <div className={stCls}>
           {groupLines(subtitle).map((group, index) => (

@@ -46,11 +46,12 @@
     font-weight: 300;
   }
 
-  &__note {
+  &__bold-italic {
     font-weight: 600;
   }
 
-  &__term {
-    font-weight: 400;
+  &__bold {
+    font-weight: 700;
+    font-style: italic;
   }
 }

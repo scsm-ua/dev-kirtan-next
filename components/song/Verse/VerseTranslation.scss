@@ -21,8 +21,13 @@
     }
   }
 
-  &__note {
+  &__bold-italic {
     font-weight: 600;
+  }
+
+  &__bold {
+    font-weight: 700;
+    font-style: normal;
   }
 
   a {
