@@ -58,6 +58,7 @@ $sidebar-media: '(min-width: #{$bp-sidebar}px) and (max-height: #{$bp-sidebar-ma
   --song-bg-color: #fff;
   --placeholder-color: var(--mid-gray);
   --text-color: var(--dark-gray);
+  --page-text-color: var(--darker-gray);
   --title-color: var(--dark);
   --shadow-color: rgba(56, 55, 142, 0.15);
   --link-color: #1e80f3;
@@ -75,6 +76,7 @@ $sidebar-media: '(min-width: #{$bp-sidebar}px) and (max-height: #{$bp-sidebar-ma
   //--brown-dark: #432c00;
   --brown: #26231b;
   --dark: #0b0800;
+  --darker-gray: #515151;
   --dark-gray: #6c6c6c;
   --mid-gray: #8e8e93;
   --gray: #c0c0c0;

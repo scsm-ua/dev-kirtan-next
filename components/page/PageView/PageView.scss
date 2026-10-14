@@ -4,7 +4,7 @@
   // Markdown content block; element styles are scoped to keep app + export
   // in sync via the shared `.PageMarkdown` container.
   .PageMarkdown {
-    color: var(--text-color);
+    color: var(--page-text-color);
     line-height: 1.6;
 
     h1,
@@ -14,7 +14,7 @@
     h5,
     h6 {
       color: var(--title-color);
-      margin: 1.4em 0 0.4em;
+      margin: 1.4em 0 0.6em;
       line-height: 1.3;
     }
 
@@ -23,7 +23,7 @@
     }
 
     p {
-      margin: 0 0 0.6em;
+      margin: 0 0 1em;
     }
 
     a {
