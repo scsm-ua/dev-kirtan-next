@@ -1,8 +1,8 @@
-:HL["/_next/static/css/1fbcaacce085c0b8.css","style"]
+:HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
 :HL["/_next/static/css/cf2c6d7bf7c1a098.css","style"]
-:HL["/_next/static/css/02b0f2649c46f08f.css","style"]
-:HL["/_next/static/css/07808593b62fad82.css","style"]
+:HL["/_next/static/css/2758d4d44cd20c4d.css","style"]
+:HL["/_next/static/css/cbb0f99743033d43.css","style"]
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/b40f5145cb474174.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"nite-yasmin-nishiante-nayana-jala-bharaih","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"j5sYbWMvNjylAgY9hmO7B"}
+:HL["/_next/static/css/6d41eaf177928feb.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"nite-yasmin-nishiante-nayana-jala-bharaih","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"OLAywJPSEjRKN-M1d50YJ"}

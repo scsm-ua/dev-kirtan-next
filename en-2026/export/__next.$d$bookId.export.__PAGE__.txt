@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf0915,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf0d1c,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -224,32 +224,37 @@
 <h1>Intro</h1>
 <section class="song page" id="song-001-title" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><p><em>All glories to Śrī Guru and Śrī Gaurāṅga</em></p>
-<h1>Kīrtan Guide</h1>
-<h2>Twelfth Edition</h2>
-<p>Intended as a useful guide to kīrtans chanted at<br>Śrī Chaitanya Sāraswat Maṭh, Nabadwip,<br>as established by</p>
+<div class="PageMarkdown"><div style="text-align: center;"><p><i>All glories to Śrī Guru and Śrī Gaurāṅga</i></p>
+<br>
+<br><h1>Kīrtan Guide</h1>
+<h3>Twelfth Edition</h3>
+<br>
+<br><p>Intended as a useful guide to kīrtans chanted at<br>Śrī Chaitanya Sāraswat Maṭh, Nabadwip,<br>as established by</p>
 <p>the Founder President Āchārya<br>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</p>
 <p>and his Successor President Āchārya<br>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</p>
-<p>With standardised transliteration<br>and additional selected kīrtans from<br>the Maṭh’s original Bengali Śrī Gauḍīya-Gītāñjali</p>
-<img src="https://dev.kirtan.site/images/resources/en-2026/1.png" alt="SCSM Logo" width="539" height="196"></div>
+<br>
+<br><p>With standardised transliteration<br>and additional selected kīrtans from<br>the Maṭh’s original Bengali Śrī Gauḍīya-Gītāñjali</p>
+<img src="https://dev.kirtan.site/images/resources/en-2026/1.png" alt="SCSM Logo" width="281" height="192"></div></div>
 </section>
 <section class="song page" id="song-002-copyright" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><p>Published, printed, and bound in the United Kingdom by:</p>
-<blockquote>
+<div class="PageMarkdown"><p><strong>Published, printed, and bound in the United Kingdom by:</strong></p>
 <p>Sri Chaitanya Saraswat Math, London<br>Bhakti Yoga Institute<br>Greville House,<br>Hazelmere Close,<br>Feltham, TW14 9PX</p>
-</blockquote>
-<blockquote>
-<p><a href="https://www.scsmath.com">www.scsmath.com</a><br><a href="https://www.bhaktiyogainstitute.com">www.bhaktiyogainstitute.com</a><br><a href="https://www.scsmathlondon.org">www.scsmathlondon.org</a></p>
-</blockquote>
-<p><em>With much gratitude to The Publishing Team,</em><br>Ratha Yātrā Day of Śrī Jagannāthdev, July 2026</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.scsmath.com">www.scsmath.com</a><br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.bhaktiyogainstitute.com">www.bhaktiyogainstitute.com</a><br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.scsmathlondon.org">www.scsmathlondon.org</a></p>
+<br><p><em>With much gratitude to The Publishing Team,</em><br>&nbsp;&nbsp;&nbsp;&nbsp;Ratha Yātrā Day of Śrī Jagannāthdev, July 2026</p>
 </div>
 </section>
 <section class="song page" id="song-003-programme" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><h1>Framework of The Daily Programme</h1>
-<p><strong>at Śrī Chaitanya Sāraswat Maṭh, Nabadwīp</strong></p>
-<p>The first line of each kirtan is given along with the its page number.</p>
+<div class="PageMarkdown"><style>
+h1, h2, h4 {
+    margin-bottom: 0.4em !important;
+}
+p {
+    margin-bottom: 0.6em !important;
+}
+</style><div style="text-align: center;"><h1>Framework of The Daily Programme</h1>
+<h3 style="margin-top: 0px;">at Śrī Chaitanya Sāraswat Maṭh, Nabadwīp</h3></div><p>The first line of each kirtan is given along with the its page number.</p>
 <p>At the beginning of each ārati, the Pañcha Tattva mantra is sung:</p>
 <pre><code>Śrī-Kṛṣṇa-Chaitanya, Prabhu Nityānanda,
 Śrī-Advaita, Gadādhara, Śrīvāsādi Gaura-bhakta-vṛnda
@@ -328,9 +333,9 @@ sukhadā bhaktidā gaṅgā gaṅgeva paramāgati
 </section>
 <section class="song page" id="song-007-foreword" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><p><em>All glories to Śrī Guru and Śrī Gaurāṅga</em></p>
+<div class="PageMarkdown"><div style="text-align: center;"><p><em>All glories to Śrī Guru and Śrī Gaurāṅga</em></p>
 <h1>Foreword to this Twelfth Edition</h1>
-<p>Śrīla Guru Mahārāj Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj and Śrīla Gurudev Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj established the daily programme of Śrī Chaitanya Sāraswat Maṭh. To assist pilgrims follow that programme, the first English <em>Kīrtan Guide</em> in 1990 brought together many of the principal kīrtans sung in the Maṭh.</p>
+</div><p>Śrīla Guru Mahārāj Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj and Śrīla Gurudev Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj established the daily programme of Śrī Chaitanya Sāraswat Maṭh. To assist pilgrims follow that programme, the first English <em>Kīrtan Guide</em> in 1990 brought together many of the principal kīrtans sung in the Maṭh.</p>
 <p>Since that first printing, the <em>Kīrtan Guide</em> has gradually evolved with corrections and with additional content in line with the original Bengali <em>Gauḍīya Gītāñjali</em> songbook of the Maṭh. Over the years, devotees have suggested the inclusion of various important kīrtans, several of which have been incorporated into this new edition.</p>
 <p>Some higher kīrtans are included, as found in the original <em>Gauḍīya Gītāñjali</em>. These are to help us follow when a qualified devotee leads.</p>
 <p>From the Seventh Edition onwards, a more phonetic style of transliteration was adopted in an effort to assist devotees with the pronunciation of the Bengali texts. While this proved helpful to some degree, there remained a repeated request that the kīrtans be consistently transliterated according to the established international standard as in <em>Śrī Chaitanya Charitāmṛta</em> and related publications. This current edition seeks to fulfil that need while following the direct instruction of Śrīla Gurudev, that the letter pronounced “ch” is transliterated accordingly –
@@ -347,42 +352,38 @@ vandanā kari’ āmi sabāra charaṇa
 </code></pre>
 <p>I respectfully bow to the lotus feet of all the Vaiṣṇavas, praying that there is no offence in my attempt to please them. To all Vaiṣṇavas who have been, and all Vaiṣṇavas who shall be, I offer my obeisances to their lotus feet.</p>
 <p>Hoping to be helpful to everyone in following the perfect guidance of our perfect masters,</p>
-<blockquote>
-<p>B. R. Madhusūdan (Mahānanda Dās B. R.)<br>Foreign Secretary<br>Śrī Chaitanya Sāraswat Maṭh<br>of Śrīla Guru Mahārāj and Śrīla Gurudev<br>(2026)</p>
-</blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;B. R. Madhusūdan (Mahānanda Dās B. R.)<br>&nbsp;&nbsp;&nbsp;&nbsp;Foreign Secretary<br>&nbsp;&nbsp;&nbsp;&nbsp;Śrī Chaitanya Sāraswat Maṭh<br>&nbsp;&nbsp;&nbsp;&nbsp;of Śrīla Guru Mahārāj and Śrīla Gurudev<br>&nbsp;&nbsp;&nbsp;&nbsp;(2026)</p>
 </div>
 </section>
 <section class="song page" id="song-009-preface" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><p><em>Śrī Śrī Guru Gaurāṅgau jayataḥ</em></p>
+<div class="PageMarkdown"><div style="text-align: center;"><p><em>Śrī Śrī Guru Gaurāṅgau jayataḥ</em></p>
 <h1>Preface to the First Bengali Edition</h1>
-<h3>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h3>
-<p>By the causeless mercy of Śrī Guru and Śrī Gaurāṅga, a long-standing need has been fulfilled within a very short time by this publication of <em>Śrī Gauḍīya-Gītāñjali</em>. You will find in this <em>Śrī Gauḍīya-Gītāñjali</em> nearly all the kīrtans in the line of Śrī Bhakti Vinod-Saraswatī that were sung both daily and on special days in the time of Śrīla Prabhupād Bhakti Siddhānta Saraswatī Ṭhākur, and that are still now sung in Śrī Chaitanya Sāraswat Maṭh.</p>
+<p><em>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</em></p>
+</div><p>By the causeless mercy of Śrī Guru and Śrī Gaurāṅga, a long-standing need has been fulfilled within a very short time by this publication of <em>Śrī Gauḍīya-Gītāñjali</em>. You will find in this <em>Śrī Gauḍīya-Gītāñjali</em> nearly all the kīrtans in the line of Śrī Bhakti Vinod-Saraswatī that were sung both daily and on special days in the time of Śrīla Prabhupād Bhakti Siddhānta Saraswatī Ṭhākur, and that are still now sung in Śrī Chaitanya Sāraswat Maṭh.</p>
 <p>Our most worshipable Śrī Guru-pāda-padma’s – Om Viṣṇupād Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj’s – ever sincere friend, and our genuinely affectionate well-wisher, Param Bhāgavat Pūjyapād Śrīla Kṛṣṇadās Bābājī Mahārāj, who has now reached the dust of Śrī Vṛndāvan Dhām, would greatly satisfy Śrī Śrī Guru Gaurāṅga Gāndharvā-Govindasundar by chanting these songs with profound appreciation and tears in his eyes in extremely sweet tunes that defamed even nectar. By joyfully, voluntarily, and proudly spreading the Sanskrit verses composed by our Śrī Guru-pāda-padma everywhere throughout India and affirming them to be consistent with, and of dignity equal to, those of Śrī Rūpa and Śrī Raghunāth, it is he who has primarily brought about good fortune for the souls of this world and thus felt the greatest joy. So, to preserve holy remembrance of Śrīla Kṛṣṇadās Bābājī Mahārāj, his favourite kīrtans have been compiled here and offered to his holy lotus hands. May he always mercifully remain pleased with us. This is our prayer.</p>
 <p>Earnestly devoted to Śrī Guru-pāda-padma Om Viṣṇupād Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj and Param Bhāgavat Śrīla Kṛṣṇadās Bābājī Mahārāj, Vaiṣṇava Āchārya Tridaṇḍi Swāmī Śrīmat Viraha Prakāś Mahārāj has generously contributed to the publication of this book, set a great example in the Vaiṣṇava world, and thus become the recipient of everyone’s gratitude.</p>
 <p>Amongst all my godbrothers who have received the mercy of Śrī Guru and Śrī Gaurāṅga and become greatly worthy of recognition for this exceptional achievement of publishing this book within a very short time, the names of Śrīpād Nimāisundar Brahmachārī Vidyā Vinod Prabhu and Śrīmān Viśvarūp Brahmachārī Prabhu are especially deserving of mention.</p>
 <p>O Vaiṣṇavas who see no faults! If you will mercifully pardon me for all the errors, as a result of my incapacity in editing, that have diminished the beauty of this collection of supramundane songs, and inform this fallen soul of them so that proper service may be rendered in a future edition, I will be most grateful.</p>
-<blockquote>
-<p>Humble, poor, and fallen,<br>The editor<br>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj<br>(1983)</p>
-</blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Humble, poor, and fallen,<br>&nbsp;&nbsp;&nbsp;&nbsp;The editor<br>&nbsp;&nbsp;&nbsp;&nbsp;Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj<br>&nbsp;&nbsp;&nbsp;&nbsp;(1983)</p>
 </div>
 </section>
 <section class="song page" id="song-011-elixir" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><p><em>All glories to Śrī Guru and Śrī Gaurāṅga</em></p>
+<div class="PageMarkdown"><div style="text-align: center;"><p><em>All glories to Śrī Guru and Śrī Gaurāṅga</em></p>
 <h1>The Elixir of Life</h1>
-<h3>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj glorifies the songs of Śrīla Bhakti Vinod Ṭhākur and Śrīla Narottam Dās Ṭhākur.</h3>
-<pre><code>rakṣā arabi tuhu̐ niśchaya jāni
+<p><em>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj glorifies the songs of Śrīla Bhakti Vinod Ṭhākur and Śrīla Narottam Dās Ṭhākur.</em></p>
+</div><pre><code>rakṣā arabi tuhu̐ niśchaya jāni
 pāna karabu̐ hāma yāmuna-pāni
 </code></pre>
-<p><em>(Śaraṇāgati: 23.5)</em></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>(Śaraṇāgati: 23.5)</em></p>
 <p>Śrīla Bhakti Vinod Ṭhākur described the surrendered soul’s mood of devotion in this song: “Kṛṣṇa must save us, so we have no fear of anything.” We become fearful when we see that we are living within a body, but if we live within our consciousness – real Kṛṣṇa consciousness – then we have nothing to fear. Actually, bodies come and go. We are not greatly interested in our body. We are interested in our spiritual body, our transcendental body. That exists within the plane of service, and service exists within the plane of faith. Service does not come to someone who is not faithful to their Guru; such persons lose their service. So, we should try to understand the plane of real devotion, and then we will be able to play there.</p>
 <pre><code>rakṣā arabi tuhu̐ niśchaya jāni
 pāna karabu̐ hāma yāmuna-pāni
 kālīya-dokha karabi vināśā
 śodhabi nadī-jala bāḍāobi āśā
 </code></pre>
-<p><em>(Śaraṇāgati: 23.5–26)</em></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>(Śaraṇāgati: 23.5–26)</em></p>
 <p>[“Knowing for certain that You will protect me, I will drink the water of the Yamunā (even though it has been poisoned by the serpent Kālīya). You will absolve Kālīya of his offences, purify the Yamunā’s waters, and thus increase my faith.”]</p>
 <p>This song of Śrīla Bhakti Vinod Ṭhākur is very nice. All his songs give us life – real life. It is not necessary to read any scripture. The songs of Śrīla Bhakti Vinod Ṭhākur alone can give us all wealth.</p>
 <p>I am very happy with the songs of Bhakti Vinod Ṭhākur. All my knowledge first came to a steady position after reading and singing his songs. Śrīla Narottam Ṭhākur also has many songs. We may read and chant other songs, but that is for luxury. Our strength in life – the elixir of life – is given in the songs of Śrīla Bhakti Vinod Ṭhākur and Śrīla Narottam Ṭhākur. We use these two Āchāryas’ songs, and actually we use very few other songs. We know one or two songs of Vidyāpati, and one or two songs of Lochan Dās Ṭhākur. Like that – very few. But at random we are using the songs of Bhakti Vinod Ṭhākur. There is the elixir of life. We are getting strength and enthusiasm through his songs.</p>
@@ -394,9 +395,9 @@ be happy.</p>
 </section>
 <section class="song page" id="song-013-handwritten-advice" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><h1>Handwritten Advice</h1>
-<h3>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h3>
-<img src="https://dev.kirtan.site/images/resources/en-2026/2.png" alt="Handwritten advice photo" width="529" height="513"><ol>
+<div class="PageMarkdown"><div style="text-align: center;"><h1>Handwritten Advice</h1>
+<p><em>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</em></p>
+<img src="https://dev.kirtan.site/images/resources/en-2026/2.png" alt="Handwritten advice photo" width="529" height="513"></div><ol>
 <li>Read Śrī Gītā and Holy Books regularly</li>
 <li>Congregational chanting arrangement</li>
 <li>Not to criticise anyone</li>
@@ -411,10 +412,9 @@ Mahāprabhu as directed by Śrīla Guru Mahārāj</p>
 </section>
 <section class="song page" id="song-014-my-advice" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><h1>My Advice</h1>
-<h3>by Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur.</h3>
-<h3>The following Bengali quotations were published in Śrī Gauḍīya Darśan, Volume 10, Issue 7, 1956</h3>
-<p>As written in Śrīmān Mahāprabhu’s Śikṣāṣṭakam, <em>“Paraṁ vijayate Śrī-Kṛṣṇa-saṅkīrtanam</em>: may Śrī Kṛṣṇa-saṅkīrtanam be supremely victorious!” This is the Gauḍiyā Maṭh’s only objective.</p>
+<div class="PageMarkdown"><div style="text-align: center;"><h1>My Advice</h1>
+<p><em>by Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur.</em><br><em>The following Bengali quotations were published in</em><br>Śrī Gauḍīya Darśan, Volume 10, Issue 7, 1956</p>
+</div><p>As written in Śrīmān Mahāprabhu’s Śikṣāṣṭakam, <em>“Paraṁ vijayate Śrī-Kṛṣṇa-saṅkīrtanam</em>: may Śrī Kṛṣṇa-saṅkīrtanam be supremely victorious!” This is the Gauḍiyā Maṭh’s only objective.</p>
 <p>The recipient of all service, Śrī Kṛṣṇa, is the only enjoyer; everyone other than Him is to be enjoyed by Him.</p>
 <p>Everyone, other than the Lord’s servants, is ignorant and self-destructive.</p>
 <p>Practising tolerance is a resident of the Maṭh’s foremost duty.</p>
@@ -552,13 +552,13 @@ my advice.</p>
 </section>
 <section class="song page" id="song-340-end" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<div class="PageMarkdown"><h1>Śrī Chaitanya Sāraswat Maṭh</h1>
-<h3>of Śrīla Gurudev and Śrīla Guru Mahārāj</h3>
-<h1>the home of pure devotion</h1>
-<p>Founded in 1941 by Śrīla Guru Mahārāj Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj, and developed by Śrīla Gurudev Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj, the fountainhead of distri­bution of pure devotion to the world:</p>
-<p>Sri Chaitanya Saraswat Math<br>Kolerganj,<br>Post Office: Nabadwip<br>District: Nadia,<br>West Bengal, Pin 741302, India</p>
-<p>Web: scsmath.com</p>
-<p>With Spiritually Affiliated Centres Worldwide</p>
+<div class="PageMarkdown"><div style="text-align: center;"><h1>Śrī Chaitanya Sāraswat Maṭh</h1>
+<p>of Śrīla Gurudev and Śrīla Guru Mahārāj</p>
+<p><strong>the home of pure devotion</strong></p>
+</div><p>Founded in 1941 by Śrīla Guru Mahārāj Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj, and developed by Śrīla Gurudev Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj, the fountainhead of distri­bution of pure devotion to the world:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Sri Chaitanya Saraswat Math<br>&nbsp;&nbsp;&nbsp;&nbsp;Kolerganj,<br>&nbsp;&nbsp;&nbsp;&nbsp;Post Office: Nabadwip<br>&nbsp;&nbsp;&nbsp;&nbsp;District: Nadia,<br>&nbsp;&nbsp;&nbsp;&nbsp;West Bengal, Pin 741302, India</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Web: <a href="https://www.scsmath.com">scsmath.com</a></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;With Spiritually Affiliated Centres Worldwide</p>
 </div>
 </section>
 </section>
@@ -11184,7 +11184,7 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j5sYbWMvNjylAgY9hmO7B"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OLAywJPSEjRKN-M1d50YJ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
