@@ -3,13 +3,13 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf0d1c,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf0d40,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
 <h2 class="toc-item-group">Intro</h2>
 <p class="toc-item page" data-translated="1"><a href="#song-001-title">Kīrtan Guide<span class="page-num"> — 1</span></a></p>
-<p class="toc-item page" data-translated="1"><a href="#song-002-copyright">Copyright<span class="page-num"> — 2</span></a></p>
+<p class="toc-item page" data-translated="1"><a href="#song-002-printed-and-published">Printed and Published<span class="page-num"> — 2</span></a></p>
 <p class="toc-item page" data-translated="1"><a href="#song-003-programme">Framework of The Daily Programme<span class="page-num"> — 3</span></a></p>
 <p class="toc-item page" data-translated="1"><a href="#song-007-foreword">Foreword to this Twelfth Edition<span class="page-num"> — 7</span></a></p>
 <p class="toc-item page" data-translated="1"><a href="#song-009-preface">Preface to the First Bengali Edition<span class="page-num"> — 9</span></a></p>
@@ -236,7 +236,7 @@
 <br><p>With standardised transliteration<br>and additional selected kīrtans from<br>the Maṭh’s original Bengali Śrī Gauḍīya-Gītāñjali</p>
 <img src="https://dev.kirtan.site/images/resources/en-2026/1.png" alt="SCSM Logo" width="281" height="192"></div></div>
 </section>
-<section class="song page" id="song-002-copyright" data-translated="1">
+<section class="song page" id="song-002-printed-and-published" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <div class="PageMarkdown"><p><strong>Published, printed, and bound in the United Kingdom by:</strong></p>
 <p>Sri Chaitanya Saraswat Math, London<br>Bhakti Yoga Institute<br>Greville House,<br>Hazelmere Close,<br>Feltham, TW14 9PX</p>
@@ -11184,7 +11184,7 @@ I offer my humble obeisances unto the Guru of the entire world, Oṁ Viṣṇup�
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OLAywJPSEjRKN-M1d50YJ"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2026","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"INS774FfAuI5HZgzfuGu-"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

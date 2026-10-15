@@ -4,5 +4,5 @@
 :HL["/_next/static/css/cbb0f99743033d43.css","style"]
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/6d41eaf177928feb.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ki-rupe-paibo-seva-mui-durachara","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"OLAywJPSEjRKN-M1d50YJ"}
+:HL["/_next/static/css/78ce037f3314f4f9.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ki-rupe-paibo-seva-mui-durachara","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"INS774FfAuI5HZgzfuGu-"}
