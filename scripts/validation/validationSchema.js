@@ -297,7 +297,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         'SHARE',
         'SHARE_SONG',
         'SHOW_TRANSLATION',
-        'PAGE',
+        'PAGE_NUMBER',
         'NEXT',
         'AUDIO_CAPTION'
       ],
@@ -329,7 +329,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         SHOW_TRANSLATION: {
           type: 'string'
         },
-        PAGE: {
+        PAGE_NUMBER: {
           type: 'string'
         },
         NEXT: {
