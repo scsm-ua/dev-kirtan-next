@@ -18,7 +18,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
     A_Z_PAGE: {
       type: 'object',
       additionalProperties: false,
-      required: ['HEAD', 'SCHEMA'],
+      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE'],
       properties: {
         HEAD: {
           type: 'object',
@@ -45,6 +45,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
               type: 'string'
             }
           }
+        },
+        LINK_FULL_TITLE: {
+          type: 'string'
         }
       }
     },
@@ -145,7 +148,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
     CONTENTS_PAGE: {
       type: 'object',
       additionalProperties: false,
-      required: ['HEAD', 'SCHEMA'],
+      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE'],
       properties: {
         HEAD: {
           type: 'object',
@@ -172,6 +175,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
               type: 'string'
             }
           }
+        },
+        LINK_FULL_TITLE: {
+          type: 'string'
         }
       }
     },

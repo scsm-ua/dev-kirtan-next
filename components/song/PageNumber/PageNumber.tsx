@@ -35,8 +35,9 @@ function PageNumber({ bookId, label, page }: Props) {
   return (
     <div className="PageNumber">
       <a href={href} className="PageNumber__anchor">
-        {label} {text}
-      </a>
+        {label}
+      </a>{' '}
+      <span className="PageNumber__value">{text}</span>
     </div>
   );
 }

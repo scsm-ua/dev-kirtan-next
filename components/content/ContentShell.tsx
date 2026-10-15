@@ -45,7 +45,7 @@ function ContentShell({
 
                 <PageNumber
                   bookId={bookId}
-                  label={translate(bookId, 'SONG_PAGE.PAGE')}
+                  label={translate(bookId, 'SONG_PAGE.PAGE_NUMBER')}
                   page={page}
                 />
               </div>

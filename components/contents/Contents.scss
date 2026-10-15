@@ -1,3 +1,9 @@
 .Contents {
-
+  &__title {
+    margin: 8px 0 16px;
+    padding: 0 var(--side-padding);
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--title-color);
+  }
 }

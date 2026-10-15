@@ -8,7 +8,8 @@
       "SCHEMA": {
         "NAME": "Vaišnavu dziesmu krājums A–Z",
         "DESCRIPTION": "Pārlūkojiet alfabētisku Vaišnavu bhadžanu un kirtanu rādītāju."
-      }
+      },
+      "LINK_FULL_TITLE": "Pirmo rindiņu rādītājs"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -47,7 +48,8 @@
       "SCHEMA": {
         "NAME": "Vaišnavu dziesmu krājums – Saturs",
         "DESCRIPTION": "Vaišnava dziesmu grāmatas saturs."
-      }
+      },
+      "LINK_FULL_TITLE": "Saturs pēc nosaukumiem"
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
@@ -88,7 +90,7 @@
       "SHARE": "Dalīties",
       "SHARE_SONG": "Padalīties ar dziesmu",
       "SHOW_TRANSLATION": "Parādīt tulkojumu",
-      "PAGE": "lpp.",
+      "PAGE_NUMBER": "lappuses numurs",
       "NEXT": "Nākošais",
       "AUDIO_CAPTION": "Klausies audio:"
     },
@@ -152,7 +154,8 @@
       "SCHEMA": {
         "NAME": "Vaishnava Songbook A–Z",
         "DESCRIPTION": "Browse an alphabetical index of Vaishnava bhajans and kirtans."
-      }
+      },
+      "LINK_FULL_TITLE": "Index of first lines"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -191,7 +194,8 @@
       "SCHEMA": {
         "NAME": "Vaishnava Songbook – Contents",
         "DESCRIPTION": "Contents of the Vaishnava songbook."
-      }
+      },
+      "LINK_FULL_TITLE": "Contents by titles"
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
@@ -232,7 +236,7 @@
       "SHARE": "Share",
       "SHARE_SONG": "Share song",
       "SHOW_TRANSLATION": "Show verses / translation",
-      "PAGE": "page",
+      "PAGE_NUMBER": "page number",
       "NEXT": "Next",
       "AUDIO_CAPTION": "Listen audio:"
     },
@@ -296,7 +300,8 @@
       "SCHEMA": {
         "NAME": "Cancionero Vaishnava A–Z",
         "DESCRIPTION": "Explora un índice alfabético de bhajans y kirtans Vaishnavas."
-      }
+      },
+      "LINK_FULL_TITLE": "Índice de primeras líneas"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -335,7 +340,8 @@
       "SCHEMA": {
         "NAME": "Cancionero Vaishnava – Contenido",
         "DESCRIPTION": "Resumen del contenido de la colección de cancioneros Vaishnavas."
-      }
+      },
+      "LINK_FULL_TITLE": "Contenido por títulos"
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
@@ -376,7 +382,7 @@
       "SHARE": "Compartir",
       "SHARE_SONG": "Compartir canción",
       "SHOW_TRANSLATION": "Mostrar traducción",
-      "PAGE": "página",
+      "PAGE_NUMBER": "número de página",
       "NEXT": "Próxima",
       "AUDIO_CAPTION": "Escuchar audio:"
     },
@@ -440,7 +446,8 @@
       "SCHEMA": {
         "NAME": "Вайшнавский песенник А-Я",
         "DESCRIPTION": "Просмотрите алфавитный индекс вайшнавских бхаджанов и киртанов."
-      }
+      },
+      "LINK_FULL_TITLE": "Указатель первых строк"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -479,7 +486,8 @@
       "SCHEMA": {
         "NAME": "Вайшнавский песенник – Содержание",
         "DESCRIPTION": "Содержание вайшнавского песенника."
-      }
+      },
+      "LINK_FULL_TITLE": "Содержание по названиям"
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
@@ -520,7 +528,7 @@
       "SHARE": "Поделиться",
       "SHARE_SONG": "Поделиться песней",
       "SHOW_TRANSLATION": "Показывать стихи / перевод",
-      "PAGE": "с.",
+      "PAGE_NUMBER": "номер страницы",
       "NEXT": "Следующий",
       "AUDIO_CAPTION": "Слушать аудио:"
     },
@@ -597,7 +605,8 @@
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник А-Я",
         "DESCRIPTION": "Алфавітний покажчик вайшнавських бхаджанів та кіртанів."
-      }
+      },
+      "LINK_FULL_TITLE": "Покажчик перших рядків"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -636,7 +645,8 @@
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник – Зміст",
         "DESCRIPTION": "Зміст вайшнавського пісенника."
-      }
+      },
+      "LINK_FULL_TITLE": "Зміст за назвами"
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
@@ -677,7 +687,7 @@
       "SHARE": "Поділитися",
       "SHARE_SONG": "Поділитися піснею",
       "SHOW_TRANSLATION": "Показувати вірші / переклад",
-      "PAGE": "с.",
+      "PAGE_NUMBER": "номер сторінки",
       "NEXT": "Наступний",
       "AUDIO_CAPTION": "Слухати аудіо:"
     },
@@ -754,7 +764,8 @@
       "SCHEMA": {
         "NAME": "Cancioneiro Vaishnava A–Z",
         "DESCRIPTION": "Navegue por um índice alfabético de bhajans e kirtans vaisnavas."
-      }
+      },
+      "LINK_FULL_TITLE": "Índice de primeiras linhas"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -793,7 +804,8 @@
       "SCHEMA": {
         "NAME": "Cancioneiro Vaishnava – Conteúdo",
         "DESCRIPTION": "Conteúdo do cancioneiro vaisnava selecionado."
-      }
+      },
+      "LINK_FULL_TITLE": "Conteúdo por títulos"
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
@@ -834,7 +846,7 @@
       "SHARE": "Compartilhar",
       "SHARE_SONG": "Compartilhar canção",
       "SHOW_TRANSLATION": "Mostrar tradução",
-      "PAGE": "página",
+      "PAGE_NUMBER": "número da página",
       "NEXT": "Próximo",
       "AUDIO_CAPTION": "Ouvir áudio:"
     },
