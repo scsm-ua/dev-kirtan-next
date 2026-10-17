@@ -30,6 +30,14 @@
     font-style: normal;
   }
 
+  &__separator {
+    width: 80px;
+    max-width: 40%;
+    margin: 32px auto;
+    border: none;
+    border-top: 0.5px solid var(--border-color);
+  }
+
   a {
     color: var(--link-color);
     text-decoration: underline;

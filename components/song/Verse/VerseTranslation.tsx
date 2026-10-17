@@ -22,9 +22,13 @@ function VerseTranslation({ isWide, isWBW, translation }: Props) {
 
   return (
     <ul className="VerseTranslation">
-      {processTranslationLines(translation, 'VerseTranslation').map((item) => (
-        <li key={item}>
-          <p className={cls} dangerouslySetInnerHTML={{ __html: item }} />
+      {processTranslationLines(translation, 'VerseTranslation').map((item, idx) => (
+        <li key={`${idx}-${item}`}>
+          {item.trim() === '---' ? (
+            <hr className="VerseTranslation__separator" />
+          ) : (
+            <p className={cls} dangerouslySetInnerHTML={{ __html: item }} />
+          )}
         </li>
       ))}
     </ul>
