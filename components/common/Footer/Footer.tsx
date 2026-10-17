@@ -28,12 +28,14 @@ function getNavItems(bookId: string, page?: string): TFooterNavItemProps[] {
     },
     {
       activeIcon: 'icon-list-music-bold',
+      fullLabel: translate(bookId, 'CONTENTS_PAGE.LINK_FULL_TITLE'),
       href: '/' + bookId + PATH.PAGE.CONTENTS,
       inactiveIcon: 'icon-list-music',
       label: translate(bookId, 'FOOTER.CONTENTS'),
     },
     {
       activeIcon: 'icon-arrow-up-a-z-old',
+      fullLabel: translate(bookId, 'A_Z_PAGE.LINK_FULL_TITLE'),
       href: '/' + bookId + PATH.PAGE.A_Z,
       inactiveIcon: 'icon-arrow-up-a-z',
       label: translate(bookId, 'FOOTER.INDEX'),
