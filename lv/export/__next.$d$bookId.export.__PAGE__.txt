@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T618dd,<h1 class="book-title">Gaudija Gītandžalī</h1>
+3:T618b0,<h1 class="book-title">Gaudija Gītandžalī</h1>
 <p class="nav-links"><a href="#first-lines">↓ Indekss</a></p>
 <section class="toc" id="toc">
 <h1>Saturs</h1>
@@ -166,7 +166,7 @@
 </section>
 <section class="song" id="song-gurvabhishta-supurakam-guru-ganair" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/3.png" alt="Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža" width="454" height="525"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/3.png" alt="Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža" width="454" height="525"></p>
 <h2>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>gurvābhīṣṭa-supūrakaṁ guru-gaṇair</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;āśīṣa-saṁbhūṣitaṁ</strong><br>
@@ -181,7 +181,7 @@
 </section>
 <section class="song" id="song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/4.png" alt="Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža" width="454" height="525"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/4.png" alt="Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža" width="454" height="525"></p>
 <h2>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhakti Sundar Govinda Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>devaṁ divya-tanuṁ suchanda-vadanaṁ-</strong><br>
@@ -197,7 +197,7 @@
 </section>
 <section class="song" id="song-shri-siddhanta-sarasvatiti-vidito" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/5.png" alt="Bhagavāns Šrīla Bhaktisiddhānta Sarasvatī" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/5.png" alt="Bhagavāns Šrīla Bhaktisiddhānta Sarasvatī" width="454" height="543"></p>
 <h2>Bhagavāns Šrīla Bhaktisiddhānta Sarasvatī <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>śrī-siddhānta-sarasvatīti vidito</strong><br>
@@ -213,7 +213,7 @@
 </section>
 <section class="song" id="song-namo-gaurakishoraya-bhaktavadhuta-murtaye" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/6.png" alt="Šrīla Gaura Kišora Dāsa Bābadžī Mahārādža" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/6.png" alt="Šrīla Gaura Kišora Dāsa Bābadžī Mahārādža" width="454" height="543"></p>
 <h2>Šrīla Gaura Kišora Dāsa Bābadžī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>namo gaurakiśorāya</strong><br>
@@ -225,7 +225,7 @@
 </section>
 <section class="song" id="song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/7.png" alt="Šrīla Bhaktivinoda Thākurs" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/7.png" alt="Šrīla Bhaktivinoda Thākurs" width="454" height="543"></p>
 <h2>Šrīla Bhaktivinoda Thākurs <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;vande bhaktivinodaṁ śrī-</strong><br>
@@ -237,7 +237,7 @@
 </section>
 <section class="song" id="song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/8.png" alt="Šrīla Džagannātha Dāsa Bābadžī Mahārādža" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/8.png" alt="Šrīla Džagannātha Dāsa Bābadžī Mahārādža" width="454" height="543"></p>
 <h2>Šrīla Džagannātha Dāsa Bābadžī Mahārādža <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhakti Rakšak Šrīdhārs Dēv-Gosvāmī Mahārādža</h4>
 <p class="verse"><strong>gaura-vrajāśritāśeṣair</strong><br>
@@ -276,7 +276,7 @@
 </section>
 <section class="song" id="song-jayatam-suratau-pangor" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/9.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/9.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu" width="625" height="547"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Kolkata, Sree Chaitanya Sāraswata Krishnanushilana Sangha</h3>
 <p class="verse"><strong>jayatāṁ suratau paṅgor</strong><br>
@@ -288,7 +288,7 @@
 </section>
 <section class="song" id="song-divyad-vrindaranya-kalpa-drumadhah" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/10.png" alt="Šrī-Šrī-Guru-Gauranga-Gandharva-Govindasundardži" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/10.png" alt="Šrī-Šrī-Guru-Gauranga-Gandharva-Govindasundardži" width="625" height="547"></p>
 <h2>Šrī-Šrī-Guru-Gauranga-Gandharva-Govindasundardži <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Navadvīpa, Šrī Čaitanja Sarasvat Maths</h3>
 <p class="verse"><strong>dīvyad-vṛndāraṇya-kalpa-drumādhaḥ</strong><br>
@@ -300,7 +300,7 @@
 </section>
 <section class="song" id="song-shriman-rasa-rasarambhi" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/11.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/11.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu" width="625" height="547"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Hāpāniyā, Śrī Chaitanya Sāraswat Ashram</h3>
 <p class="verse"><strong>śrīmān rāsa-rasārambhī</strong><br>
@@ -4481,7 +4481,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 104</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 192</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"R1yp51PV4BCXcR3e_Ovu5"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7uKuIgEbjM7I4Y6BiKC8S"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

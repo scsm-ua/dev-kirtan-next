@@ -8,7 +8,7 @@ b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-0:{"P":null,"c":["","pt","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","pt","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"R1yp51PV4BCXcR3e_Ovu5"}
+0:{"P":null,"c":["","pt","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","pt","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7uKuIgEbjM7I4Y6BiKC8S"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[2342,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}],["$","$Lf","2",{}]]
 10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-a5e2052390022a03.js"],"default"]
-11:T99a21,<h1 class="book-title">Livro de Kirtan</h1>
+11:T999ef,<h1 class="book-title">Livro de Kirtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Conteúdo</h1>
@@ -1266,7 +1266,7 @@ Eu ofereço minha reverência aos pés de lótus de Śrī Guru, aos Gurus predec
 </section>
 <section class="song" id="song-gurvabhishta-supurakam-guru-ganair" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/3.png" alt="Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj" width="454" height="525"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/3.png" alt="Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj" width="454" height="525"></p>
 <h2>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>gurv-ābhīṣṭa-supūrakaṁ guru-gaṇair āśīṣa-saṁbhūṣitaṁ</strong><br>
@@ -1279,7 +1279,7 @@ Eu ofereço minha reverência aos pés de lótus de Śrī Guru, aos Gurus predec
 </section>
 <section class="song" id="song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/4.png" alt="Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj" width="454" height="525"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/4.png" alt="Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj" width="454" height="525"></p>
 <h2>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>devaṁ divya-tanuṁ suchanda-vadanaṁ bālārka-chelāñchitaṁ</strong><br>
@@ -1292,7 +1292,7 @@ Eu ofereço minha reverência aos pés de lótus de Śrī Guru, aos Gurus predec
 </section>
 <section class="song" id="song-shri-siddhanta-sarasvatiti-vidito" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/5.png" alt="Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/5.png" alt="Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur" width="454" height="543"></p>
 <h2>Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>śrī-siddhānta-sarasvatīti vidito gauḍīya-gurv-anvaye</strong><br>
@@ -1306,7 +1306,7 @@ Eu ofereço minha reverência aos pés de lótus de Śrī Guru, aos Gurus predec
 </section>
 <section class="song" id="song-namo-gaurakishoraya-bhaktavadhuta-murtaye" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/6.png" alt="Śrīla Gaura Kiśora Dās Bābājī Mahārāj" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/6.png" alt="Śrīla Gaura Kiśora Dās Bābājī Mahārāj" width="454" height="543"></p>
 <h2>Śrīla Gaura Kiśora Dās Bābājī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>namo gaurakiśorāya</strong><br>
@@ -1319,7 +1319,7 @@ Eu ofereço minha reverência aos pés de lótus de Śrī Guru, aos Gurus predec
 </section>
 <section class="song" id="song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/7.png" alt="Śrīla Bhakti Vinod Ṭhākur" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/7.png" alt="Śrīla Bhakti Vinod Ṭhākur" width="454" height="543"></p>
 <h2>Śrīla Bhakti Vinod Ṭhākur <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>vande bhaktivinodaṁ śrī-</strong><br>
@@ -1332,7 +1332,7 @@ Eu ofereço minha reverência aos pés de lótus de Śrī Guru, aos Gurus predec
 </section>
 <section class="song" id="song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/8.png" alt="Śrīla Jagannāth Dās Bābājī Mahārāj" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/8.png" alt="Śrīla Jagannāth Dās Bābājī Mahārāj" width="454" height="543"></p>
 <h2>Śrīla Jagannāth Dās Bābājī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>gaura-vrajāśritāśeṣair</strong><br>
@@ -1375,7 +1375,7 @@ Repetidamente ofereço minha reverência a Você, o supremamente misericordioso 
 </section>
 <section class="song" id="song-jayatam-suratau-pangor" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/9.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/9.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu" width="625" height="547"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>jayatāṁ suratau paṅgor mama manda-mater gatī</strong><br>
 <strong>mat-sarvasva-padāmbhojau rādhā-madana-mohanau</strong></p>
@@ -1386,7 +1386,7 @@ Glória aos misericordiosos Śrī Śrī Rādhā–Madan Mohan! Eles são o abrig
 </section>
 <section class="song" id="song-divyad-vrindaranya-kalpa-drumadhah" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/10.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/10.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu" width="625" height="547"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>dīvyad-vṛndāraṇya-kalpa-drumādhaḥ-</strong><br>
 <strong>śrīmad-ratnāgāra-siṁhāsana-sthau</strong><br>
@@ -1399,7 +1399,7 @@ Eu medito em Śrī Śrī Gāndharvā–Govindadev sendo adorados por Suas querid
 </section>
 <section class="song" id="song-shriman-rasa-rasarambhi" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/11.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/11.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu" width="625" height="547"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>śrīmān rāsa-rasārambhī vaṁśī-vaṭa-taṭa-sthitaḥ</strong><br>
 <strong>karṣan veṇu-svanair gopīr gopīnāthaḥ śriye ’stu naḥ</strong></p>
@@ -1419,7 +1419,7 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 </section>
 <section class="song" id="song-namah-om-vishnupadaya-krishna" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en-2026/12.png" alt="Praṇām Mantra to Śrīla A.C Bhaktivedānta Swāmī Mahārāj Prabhupād" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/12.png" alt="Praṇām Mantra to Śrīla A.C Bhaktivedānta Swāmī Mahārāj Prabhupād" width="454" height="543"></p>
 <h2>Praṇām Mantra to Śrīla A.C Bhaktivedānta Swāmī Mahārāj Prabhupād <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>namaḥ om viṣṇupādāya kṛṣṇa-preṣṭhāya bhū-tale</strong><br>
