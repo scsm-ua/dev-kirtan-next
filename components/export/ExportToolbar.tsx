@@ -27,6 +27,7 @@ function ExportToolbar({ fileName, getHtml, onChange, options }: Props) {
     withLinks,
     withNavLinks,
     withPageNumbers,
+    withPages,
     withToc,
     withTranslation,
     withWbw
@@ -95,6 +96,14 @@ function ExportToolbar({ fileName, getHtml, onChange, options }: Props) {
             type="checkbox"
           />
           First-line index
+        </label>
+        <label className="ExportToolbar__option">
+          <input
+            checked={withPages}
+            onChange={(e) => onChange({ withPages: e.target.checked })}
+            type="checkbox"
+          />
+          Include non song pages
         </label>
         <label className="ExportToolbar__option">
           <input

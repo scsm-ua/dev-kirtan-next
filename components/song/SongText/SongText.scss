@@ -17,6 +17,15 @@
     max-width: var(--learn-max-width);
   }
 
+  // Wider content box for the long-verse desktop layout, but only in the
+  // default verse view — translation (--wide) and learn (--learn) keep their
+  // own widths.
+  &--longVerse:not(.SongText--wide):not(.SongText--learn) {
+    @include m.breakpoint($min: 576) {
+      max-width: 620px;
+    }
+  }
+
   &--transition {
     transition: max-width var(--transition-duration);
   }

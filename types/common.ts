@@ -12,6 +12,19 @@ export type TContentGroup = {
   name?: string;
 };
 
+/**
+ * Kind of a content item. `song` renders verses; `page` renders markdown.
+ */
+export type TItemType = 'song' | 'page';
+
+/**
+ * Named ids for `TItemType`. Prefer these over raw string literals.
+ */
+export const ITEM_TYPE = {
+  SONG: 'song',
+  PAGE: 'page'
+} as const satisfies Record<string, TItemType>;
+
 /**/
 export type TContentItem = {
   aliasName: string;    // The first line of the first verse.
@@ -21,6 +34,7 @@ export type TContentItem = {
   page: string;
   pages: Array<string>; // Contains more than one item if page has duplicates.
   title: string;        // Human-readable title.
+  type: TItemType;      // Item kind, derived from its source folder.
   has: {
     audio: boolean;
     translation: boolean;

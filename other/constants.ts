@@ -18,6 +18,7 @@ export const FILES = {
 /**/
 export const PATH = {
   DIR: {
+    PAGES: 'pages',
     SONGS: 'songs',
     SOURCE_BOOKS: 'source/books',
     SOURCE_ROOT: 'source'

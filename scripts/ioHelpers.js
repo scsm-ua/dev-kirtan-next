@@ -25,7 +25,7 @@ function readFile(dir, filename) {
     return JSON.parse(raw);
 
   } catch (err) {
-    console.error(`Error reading file "${filename}" in ${dir}`);
+    console.error(`Error reading file "${filename}" in ${dir}\n  path: ${absPath}\n  cause: ${err && err.stack ? err.stack : err}`);
   }
 }
 

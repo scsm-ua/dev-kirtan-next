@@ -59,6 +59,7 @@
  * @property {number | string} page
  * @property {Array<number | string>} pages
  * @property {string} title
+ * @property {'song' | 'page'} type - item kind, derived from its source folder.
  * @property {Object} has
  * @property {boolean} has.audio
  */

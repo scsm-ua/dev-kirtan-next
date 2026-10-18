@@ -22,6 +22,32 @@ type TTelegraphPage = {
 
 let telegraphPagesCache: Map<string, string> | null = null;
 
+/**
+ * A verse line this many visible characters (after stripping tags and
+ * counting indent steps) wraps on the default desktop content width. When any
+ * line exceeds it the song switches to the "long verse" desktop layout.
+ */
+const LONG_VERSE_LINE_LENGTH = 57;
+const LONG_VERSE_LINE_INDIVIDUAL = 55;
+const VERSE_TAG_RE = /<[^>]+>/g;
+
+/**
+ * Approximate on-screen length of a verse line: visible text length plus the
+ * horizontal cost of its leading indent (one indent step ≈ 2 characters).
+ */
+function verseLineLength(line: string): number {
+
+  // Do not count text in (braces).
+  line = line.replace(/\([^)]*\)/g, '');
+  // Do not count text in (braces till end of line.
+  line = line.replace(/\([^)]*$/g, '');
+  // Do not count text in braces) from line start.
+  line = line.replace(/^[^)]*\)/g, '');
+
+  const indentSteps = Math.min(Math.floor((line.match(/^\s+/)?.[0].length ?? 0) / 4), 4);
+  return line.replace(VERSE_TAG_RE, '').trim().length + indentSteps * 2;
+}
+
 async function getTelegraphPagesMap(): Promise<Map<string, string>> {
   if (telegraphPagesCache) return telegraphPagesCache;
   const p = path.join(process.cwd(), PATH.DIR.SOURCE_ROOT, 'telegraph-pages.json');
@@ -130,6 +156,17 @@ export async function getSongBySlug(
     song.hasVersesTranslations = !!song.verses?.find(
       (v: TVerse) => v.translation?.length > 0
     );
+    song.hasLongVerses = song.meta?.styles?.verses?.wide === false
+      ? false
+      : !!song.verses?.some(
+          (v: TVerse) => v.text?.some((line) => verseLineLength(line) > LONG_VERSE_LINE_LENGTH)
+        );
+    const forceVerseLeft = song.meta?.styles?.verses?.align === 'left';
+    for (const v of song.verses ?? []) {
+      v.isLong = forceVerseLeft || !!v.text?.some(
+        (line) => verseLineLength(line) > LONG_VERSE_LINE_INDIVIDUAL
+      );
+    }
     if (song.hasWbw) {
       for (const v of song.verses) {
         if (v.word_by_word) {

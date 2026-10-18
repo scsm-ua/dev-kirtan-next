@@ -11,15 +11,12 @@
     margin-bottom: 16px;
   }
 
-  &__note {
+  &__bold-italic {
     font-weight: 600;
   }
 
-  &__term {
+  &__bold {
     font-weight: 400;
-
-    [data-mode="translation"] & {
-      font-weight: 700;
-    }
+    font-style: italic;
   }
 }

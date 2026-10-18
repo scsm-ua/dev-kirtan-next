@@ -24,6 +24,7 @@
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-collapsible": "^1.1.12",
     "classnames": "^2.3.1",
+    "marked": "^18.0.14",
     "next": "^16.0.7",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

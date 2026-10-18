@@ -1,6 +1,6 @@
 ---
 description: "Use when modifying the songbook HTML export feature: the /[bookId]/export page, the buildExportHtml document builder in lib/export.ts, any export option in TExportOptions (only translated / word by word / translation / TOC / first-line index / page numbers / verse indent / verse number mode / enable links / nav links), the ExportToolbar download/copy/print buttons, or the export document structure (heading levels, section wrappers, verse/wbw/translation paragraph classes)."
-applyTo: ["lib/export.ts", "other/exportDoc.ts", "app/[bookId]/export/**", "components/export/**"]
+applyTo: ["lib/export.ts", "lib/content/exportHtml.ts", "lib/content/song/export.ts", "lib/content/page/export.ts", "other/exportDoc.ts", "app/[bookId]/export/**", "components/export/**"]
 ---
 
 # Songbook HTML Export
@@ -34,7 +34,8 @@ other/exportDoc.ts — pure, node-free:
 - **Single source of truth**: the body string built in `lib/export.ts`. Preview and downloaded/copied file are both `filterExportBody(body, opts)` — never derive them separately.
 - Only the body is shipped to the client; the standalone document shell is added by `wrapExportDoc` at download/copy time.
 - The page intentionally does **not** use `components/common/Layout`. A dedicated `app/[bookId]/export/layout.tsx` provides the bare `<html><body>` wrapper.
-- Data loading reuses `getContentsByBookId`, `getSongBySlug`, `getIndexesByBookId`; never duplicate song parsing here.
+- **Per-type dispatch**: `buildExportHtml` resolves each item's handler via `getContentHandler(item.type)` and calls `handler.load` → `handler.renderExport`. Section renderers live in `lib/content/song/export.ts` (`renderSong` + verse helpers) and `lib/content/page/export.ts` (`renderPage`); shared primitives (`heading`, `NAV_SPAN`) in `lib/content/exportHtml.ts`. Never duplicate song parsing here.
+- Keep the export graph **component-free**: importing React bodies (directly or via `lib/content` handlers) leaks their SCSS into the export page's head — body components live only in `components/content/registry.tsx`.
 - `other/exportDoc.ts` is imported by a client component — keep it free of `fs`/`path` imports.
 
 ## Export Options
@@ -109,6 +110,7 @@ Changing heading levels, class names, `data-*` attributes, or section ids breaks
 Both the TOC and the first-lines section go through `renderIndex(opts)` in `lib/export.ts` (parameterized by `className`, `getTitle`, `showGroupNames`, `headingKey`). Keep them unified — divergence has to be expressed as new params, not two functions.
 
 - `item.has.translation` (from the transformed contents / a-z JSON) drives `data-translated` on both `.toc-item` and `.first-line`. Do **not** re-derive by loading each song — the JSON already carries it.
+- The extra `page` class on page-item entries comes from the handler's `indexEntryClass` (`lib/content/page/index.ts`) — it pairs with the `.song.page` section class so `withPages` drops both together.
 - In the a-z file, `title` and `aliasName` are swapped compared to the contents file (see `scripts/createAZ.js`). First-line entries fall back `item.title || item.aliasName` accordingly.
 
 ## Word-Processor Semantics (why the markup looks this way)

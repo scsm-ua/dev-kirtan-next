@@ -1,0 +1,237 @@
+// Analyze page: hide the footer and the outer page scroll so the table owns
+// the scrolling (both directions) within the viewport.
+.Layout:has(.Analyze) {
+  .Layout__content {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .Footer {
+    display: none;
+  }
+
+  .Header {
+    display: none;
+  }
+}
+
+// Break the analyze page out of the narrow centered content column.
+.Analyze.Main__container {
+  max-width: none;
+
+  .Main__content {
+    // Fill the viewport so the table can flex to the bottom with no leftover
+    // gap (header/footer are hidden on this page).
+    height: 100vh;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 0;
+    // Let the flex child shrink below its content width so the table's own
+    // horizontal scrollbar appears instead of overflowing the page scroller.
+    min-width: 0;
+  }
+}
+
+.AnalyzeTable {
+  // Fills the remaining height after the heading and scrolls in both
+  // directions; the sticky header anchors to this box.
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  width: 100%;
+  min-width: 0;
+
+  &__table {
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  &__table th,
+  &__table td {
+    border: 1px solid var(--border-color);
+    padding: 6px 10px;
+    white-space: nowrap;
+  }
+
+  // Sticky header row.
+  &__table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: var(--main-bg-color);
+    // Drop only the collapsed top/bottom cell borders (they scroll away /
+    // double up) and redraw those edges with a shadow; keep the vertical
+    // borders between header cells.
+    border-top: none;
+    border-bottom: none;
+    box-shadow: inset 0 1px 0 var(--border-color),
+      inset 0 -1px 0 var(--border-color);
+  }
+
+  // The header's bottom shadow is the divider; drop the first body row's top
+  // border so it doesn't stack into a 2px line before scrolling.
+  &__table tbody tr:first-child th,
+  &__table tbody tr:first-child td {
+    border-top: none;
+  }
+
+  // First column (song first line): truncated with ellipsis, scrolls with
+  // the table (only the header row is sticky).
+  &__song {
+    text-align: left;
+    font-weight: 400;
+    max-width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__corner {
+    text-align: left;
+    font-weight: 700;
+  }
+
+  &__countHead {
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  &__count {
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  &__bookHead {
+    vertical-align: bottom;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 6px;
+  }
+
+  &__sort {
+    margin-top: 6px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--btn-bg);
+    color: var(--text-color);
+    font: inherit;
+    font-size: 12px;
+    padding: 2px 6px;
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover {
+      background: var(--btn-hover-bg);
+    }
+  }
+
+  &__actions &__sort {
+    margin-top: 0;
+  }
+
+  &__hide {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--btn-bg);
+    color: var(--text-color);
+    font: inherit;
+    font-size: 14px;
+    line-height: 1;
+    padding: 2px 6px;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--btn-hover-bg);
+    }
+  }
+
+  &__showAll {
+    display: block;
+    margin-top: 4px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--btn-bg);
+    color: var(--text-color);
+    font: inherit;
+    font-size: 12px;
+    padding: 2px 6px;
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover {
+      background: var(--btn-hover-bg);
+    }
+  }
+
+  &__corner &__sort {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  &__bookLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: var(--title-color);
+    max-width: 120px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  &__thumb {
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+  }
+
+  &__lang {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 5px;
+    border-radius: 50px;
+    letter-spacing: 0.05em;
+    pointer-events: none;
+  }
+
+  &__bookTitle {
+    font-size: 12px;
+    line-height: 1.2;
+    // Reserve two lines so all column headers align regardless of title length.
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    min-height: 2.4em;
+    overflow: hidden;
+  }
+
+  &__cell {
+    text-align: center;
+
+    a {
+      color: var(--link-color);
+    }
+
+    // Translated songs stand out in bold; untranslated stay regular weight.
+    &--translated a {
+      font-weight: 700;
+    }
+
+    &--empty {
+      color: var(--placeholder-color);
+    }
+  }
+}

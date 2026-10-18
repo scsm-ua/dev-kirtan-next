@@ -65,3 +65,30 @@
     font-weight: initial;
   }
 }
+
+// "Long verse" desktop layout: when a song has lines too long for the default
+// content width, drop the left gutter and shrink the font so they fit on one
+// line. Mobile already collapses the gutter, so this only applies above the
+// mobile breakpoint.
+.SongText--longVerse {
+  @include m.breakpoint($min: v.$bp576) {
+    .VerseText__gutter {
+      max-width: 0;
+    }
+
+    .VerseText__line {
+      font-size: 15px;
+    }
+  }
+}
+
+// Per-verse long layout: an individual verse with a line too long for the
+// default content width aligns left by dropping its gutter. Mobile already
+// collapses the gutter, so this only applies above the mobile breakpoint.
+.Verse--long {
+  @include m.breakpoint($min: v.$bp576) {
+    .VerseText__gutter {
+      max-width: 0;
+    }
+  }
+}

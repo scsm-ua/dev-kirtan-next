@@ -58,8 +58,9 @@ function makeLineVersions(items) {
 	const uniqueIds = {};
 	
 	items.forEach((item) => {
-		// Skip intro from index.
-		if (item.id in uniqueIds || item.id === 'intro') return;
+		// Skip intro and pages (no first line) from index.
+		// (Song has mandatory first_line in schema parser).
+		if (item.id in uniqueIds || item.id === 'intro' || !item.aliasName) return;
 		
 		uniqueIds[item.id] = true;
 		const { aliasName, altAliasNames, ...rest } = item;

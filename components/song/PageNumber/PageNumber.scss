@@ -8,4 +8,10 @@
     color: var(--dark-gray);
     text-decoration: underline !important;
   }
+
+  &__value {
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--dark-gray);
+  }
 }

@@ -4,6 +4,7 @@ const CONST = {
 		A_Z: 'a-z.json',
 		BOOK_INFO: 'songbook.json',
 		CONTENTS: 'contents.json',
+		IMAGES: 'images.json',
 		NPMRC: '.npmrc',
 		PACKAGE_JSON: 'package.json',
 		PNPM_WORKSPACE: 'pnpm-workspace.yaml',

@@ -7,6 +7,7 @@ import Layout from '@/components/common/Layout/Layout';
 import LdJson from '@/other/metadata/LdJson';
 import { PATH } from '@/other/constants';
 import Pills from '@/components/common/Pills/Pills';
+import { translate } from '@/other/i18n';
 
 import type { BookListPageProps } from '@/types/book';
 import type { TContentGroup } from '@/types/common';
@@ -34,6 +35,8 @@ async function AZPage({ params }: BookListPageProps) {
         </div>
 
         <div className="Main__content">
+          <h1 className="AZ__title">{translate(bookId, 'A_Z_PAGE.LINK_FULL_TITLE')}</h1>
+
           <div className="AZ__list">
             <Pills items={items} />
           </div>

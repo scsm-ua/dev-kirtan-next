@@ -5,6 +5,7 @@ import './FooterItem.scss';
 /**/
 export type TFooterNavItemProps = {
   activeIcon: string;
+  fullLabel?: string;
   href: string;
   inactiveIcon: string;
   label: string;
@@ -15,6 +16,7 @@ export type TFooterNavItemProps = {
  */
 function FooterItem({
   activeIcon,
+  fullLabel,
   href,
   inactiveIcon,
   label
@@ -36,6 +38,7 @@ function FooterItem({
     <a className={cls} href={href}>
       <div className={iconCls} />
       <h6 className="FooterItem__label">{label}</h6>
+      <span className="FooterItem__tooltip">{fullLabel || label}</span>
     </a>
   );
 }

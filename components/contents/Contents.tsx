@@ -1,8 +1,10 @@
 import './Contents.scss';
 import '@/styles/index-page.scss';
 
-import AuthorsLink from '@/components/common/AuthorsLink/AuthorsLink';
 import ContentGroup from '@/components/contents/ContentGroup';
+import IndexLink from '@/components/common/IndexLink/IndexLink';
+import { PATH } from '@/other/constants';
+import { translate } from '@/other/i18n';
 import { TContentGroup } from '@/types/common';
 
 /**/
@@ -16,13 +18,26 @@ type Props = {
  */
 function Contents({ bookId, contents }: Props) {
   return (
-    <ul className="IndexPage__list">
-      {contents.map((group: TContentGroup, index: number) => (
-        <ContentGroup bookId={bookId} group={group} key={index} />
-      ))}
+    <>
+      <h1 className="Contents__title">{translate(bookId, 'CONTENTS_PAGE.LINK_FULL_TITLE')}</h1>
 
-      <AuthorsLink bookId={bookId} />
-    </ul>
+      <ul className="IndexPage__list">
+        <IndexLink
+          href={'/' + bookId + PATH.PAGE.A_Z}
+          title={translate(bookId, 'A_Z_PAGE.LINK_FULL_TITLE')}
+        />
+
+        {contents.map((group: TContentGroup, index: number) => (
+          <ContentGroup bookId={bookId} group={group} key={index} />
+        ))}
+
+        <IndexLink
+          href={'/' + bookId + PATH.PAGE.AUTHORS}
+          title={translate(bookId, 'AUTHORS_PAGE.LINK_FULL_TITLE')}
+          withSeparator
+        />
+      </ul>
+    </>
   );
 }
 

@@ -42,7 +42,7 @@ Object.keys(songbooks).forEach((bookSlug) => {
 		
 	} catch (e) {
 		console.error(chalk.bgRedBright.bold(bookSlug));
-		console.error(chalk.bgRedBright(e));
+		console.error(chalk.bgRedBright(e && e.stack ? e.stack : e));
 	}
 });
 

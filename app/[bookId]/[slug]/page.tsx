@@ -1,122 +1,49 @@
+import { createElement } from 'react';
 import { notFound } from 'next/navigation';
-import './SongPage.scss';
+import './ContentPage.scss';
 
-import AudioList from '@/components/song/AudioList/AudioList';
-import {
-  getBookDescriptionsByBook,
-  getNavItems,
-  getSongBySlug,
-  getSongSlugParam,
-  getTelegraphUrl
-} from '@/lib/song';
 import { getBooksMap } from '@/lib/books';
-import { getSongPageMeta } from '@/other/metadata/getSongPageMeta';
-import Layout from '@/components/common/Layout/Layout';
-import LdJsonSong from '@/other/metadata/LdJsonSong';
-import OtherTranslations from '@/components/song/OtherTranslations/OtherTranslations';
-import PageNumber from '@/components/song/PageNumber/PageNumber';
-import PrevNextNav from '@/components/song/PrevNextNav/PrevNextNav';
-import SongbookList from '@/components/song/OtherTranslations/SongbookList';
-import SongHeader from '@/components/song/SongHeader';
-import SongImage from '@/components/song/SongImage/SongImage';
-import SongShare from '@/components/song/SongShare/SongShare';
-import SongText from '@/components/song/SongText/SongText';
-import { translate } from '@/other/i18n';
+import { getContentBody } from '@/components/content/registry';
+import { getContentHandler } from '@/lib/content/registry';
+import { getContentItemBySlug } from '@/lib/contents';
+import { getNavItems, getSongSlugParam } from '@/lib/song';
+import { getContentMeta } from '@/other/metadata/getContentMeta';
 
-import type { SongPageProps, TBookDescription } from '@/types/book';
+import type { ContentPageProps } from '@/types/book';
 
 /**/
 export const dynamicParams = false;
-export const generateMetadata = getSongPageMeta;
+export const generateMetadata = getContentMeta;
 export const generateStaticParams = getSongSlugParam;
 
 /**
- *
+ * Shared route for all content item types (songs, markdown pages). The item's
+ * `type` (derived at import stage) picks the handler; the handler loads the
+ * data and renders its body inside the shared chrome (`ContentShell`).
  */
-async function SongPage({ params }: SongPageProps) {
+async function ContentPage({ params }: ContentPageProps) {
   const { bookId, slug } = await params;
   if (!bookId || !slug) return notFound();
 
+  const item = await getContentItemBySlug(bookId, slug);
+  const handler = getContentHandler(item?.type);
+
+  const data = await handler.load(slug, bookId);
+  if (!data) return notFound();
+
   const booksMap = await getBooksMap();
   const book = booksMap[bookId];
-
-  const song = await getSongBySlug(slug, bookId);
-  if (!song) return notFound();
-
-  const descriptions = (await getBookDescriptionsByBook(
-    slug,
-    booksMap
-  )) as TBookDescription[];
-
   const nav = await getNavItems(slug, bookId);
-  const telegraphUrl = await getTelegraphUrl(bookId, slug);
 
-  return (
-    <Layout
-      bookId={bookId}
-      className="SongPage"
-      page={song.meta?.page}
-      songId={slug}
-    >
-      <div className="Main__container SongPage__container">
-        <div className="SongPage__content">
-          <header className="SongPage__header">
-            <section className="SongPage__top">
-              <div className="SongPage__info">
-                <h6 className="SongPage__book">{book.title}</h6>
-
-                <PageNumber
-                  bookId={bookId}
-                  label={translate(bookId, 'SONG_PAGE.PAGE')}
-                  page={song.meta?.page}
-                />
-              </div>
-
-              <div className="SongPage__controls">
-                <OtherTranslations
-                  bookId={bookId}
-                  // descriptions always include the current book, so 1 means no other translations
-                  disabled={descriptions.length < 2}
-                >
-                  <SongbookList
-                    bookId={bookId}
-                    bookDescriptions={descriptions}
-                    slug={slug}
-                  />
-                </OtherTranslations>
-
-                <SongShare bookId={bookId} telegraphUrl={telegraphUrl} />
-              </div>
-            </section>
-
-            {song.resources?.image && (
-              <SongImage alt={song.title?.join(' ') ?? ''} image={song.resources.image} />
-            )}
-
-            <SongHeader bookId={bookId} song={song} />
-          </header>
-
-          <SongText
-            bookId={bookId}
-            label={translate(bookId, 'SONG_PAGE.SHOW_TRANSLATION')}
-            song={song}
-          />
-
-          {song.resources?.audio?.length > 0 && (
-            <AudioList
-              audio={song.resources?.audio}
-              caption={translate(bookId, 'SONG_PAGE.AUDIO_CAPTION')}
-              language={bookId.slice(0, 2)}
-            />
-          )}
-        </div>
-      </div>
-
-      <PrevNextNav navMap={nav} />
-      <LdJsonSong bookId={bookId} slug={slug} song={song} />
-    </Layout>
-  );
+  // createElement: dynamic per-type dispatch (server component, no state).
+  return createElement(getContentBody(item?.type), {
+    book,
+    bookId,
+    data,
+    nav,
+    slug
+  });
 }
 
 /**/
-export default SongPage;
+export default ContentPage;
