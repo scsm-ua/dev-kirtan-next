@@ -1,0 +1,113 @@
+1:"$Sreact.fragment"
+2:I[3360,["5842","static/chunks/5842-7e56d350933c83c0.js","7984","static/chunks/7984-5c75571e23a8f6ce.js","1552","static/chunks/1552-e1523b9d825cefcd.js","4989","static/chunks/app/%5BbookId%5D/%5Bslug%5D/page-7cbf026c7bb6203b.js"],"default"]
+3:I[7188,["5842","static/chunks/5842-7e56d350933c83c0.js","7984","static/chunks/7984-5c75571e23a8f6ce.js","1552","static/chunks/1552-e1523b9d825cefcd.js","4989","static/chunks/app/%5BbookId%5D/%5Bslug%5D/page-7cbf026c7bb6203b.js"],"default"]
+11:I[4423,["5842","static/chunks/5842-7e56d350933c83c0.js","7984","static/chunks/7984-5c75571e23a8f6ce.js","1552","static/chunks/1552-e1523b9d825cefcd.js","4989","static/chunks/app/%5BbookId%5D/%5Bslug%5D/page-7cbf026c7bb6203b.js"],"default"]
+12:I[9181,["5842","static/chunks/5842-7e56d350933c83c0.js","7984","static/chunks/7984-5c75571e23a8f6ce.js","1552","static/chunks/1552-e1523b9d825cefcd.js","4989","static/chunks/app/%5BbookId%5D/%5Bslug%5D/page-7cbf026c7bb6203b.js"],"default"]
+13:I[9508,["5842","static/chunks/5842-7e56d350933c83c0.js","7984","static/chunks/7984-5c75571e23a8f6ce.js","1552","static/chunks/1552-e1523b9d825cefcd.js","4989","static/chunks/app/%5BbookId%5D/%5Bslug%5D/page-7cbf026c7bb6203b.js"],"GoogleAnalytics"]
+14:I[8550,["5842","static/chunks/5842-7e56d350933c83c0.js","7984","static/chunks/7984-5c75571e23a8f6ce.js","1552","static/chunks/1552-e1523b9d825cefcd.js","4989","static/chunks/app/%5BbookId%5D/%5Bslug%5D/page-7cbf026c7bb6203b.js"],"ServiceWorkerRegistration"]
+15:I[3680,["5842","static/chunks/5842-7e56d350933c83c0.js","7984","static/chunks/7984-5c75571e23a8f6ce.js","1552","static/chunks/1552-e1523b9d825cefcd.js","4989","static/chunks/app/%5BbookId%5D/%5Bslug%5D/page-7cbf026c7bb6203b.js"],"default"]
+16:I[5207,[],"OutletBoundary"]
+17:"$Sreact.suspense"
+:HL["/_next/static/css/cf2c6d7bf7c1a098.css","style"]
+:HL["/_next/static/css/1e4b76068ed840a7.css","style"]
+:HL["/_next/static/css/cbb0f99743033d43.css","style"]
+:HL["/_next/static/css/7275adbaa7755d79.css","style"]
+:HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
+:HL["/_next/static/css/6c39803aea97c250.css","style"]
+4:T33a1,<style>
+h1, h2, h4 {
+    margin-bottom: 0.4em !important;
+}
+p {
+    margin-bottom: 0.6em !important;
+}
+</style><div style="text-align: center;"><h1>Framework of The Daily Programme</h1>
+<h3 style="margin-top: 0px;">at Śrī Chaitanya Sāraswat Maṭh, Nabadwīp</h3></div><p>The first line of each kirtan is given along with the its page number.</p>
+<p>At the beginning of each ārati, the Pañcha Tattva mantra is sung:</p>
+<pre><code>Śrī-Kṛṣṇa-Chaitanya, Prabhu Nityānanda,
+Śrī-Advaita, Gadādhara, Śrīvāsādi Gaura-bhakta-vṛnda
+</code></pre>
+<p>Each ārati and parikramā ends with the Hare Kṛṣṇa mahāmantra:</p>
+<pre><code>Hare Kṛṣṇa Hare Kṛṣṇa, Kṛṣṇa Kṛṣṇa Hare Hare
+Hare Rāma Hare Rāma, Rāma Rāma Hare Hare
+</code></pre>
+<h2>The Daily Morning Programme</h2>
+<p>Begins with Śrīla Gurudev’s ārati at his Samādhi Mandir – The Temple of Love and Affection:</p>
+<p class="SongRef"><a class="song-ref" href="/en/jaya-jaya-gurudever-arati-ujjvala/"><em>jaya jaya gurudever ārati ujjvala</em></a> <span class="page-num">44</span></p><p>Then Śrīla Guru Mahārāj’s ārati at his Samādhi Mandir – The Temple of Union in Separation:</p>
+<p class="SongRef"><a class="song-ref" href="/en/jaya-guru-maharaja-jati-rajeshvara/"><em>jaya ‘guru-mahārāja’ yati-rājeśvara</em></a> <span class="page-num">46</span></p><p>Followed by the ārati of Śrī Śrī Guru-Gaurāṅga-Gāndharvā-Govindasundar-jīu (the Deities of Śrī Chaitanya Sāraswat Maṭh):</p>
+<p class="SongRef"><a class="song-ref" href="/en/kali-kukkura-kadana-jadi-chao-he/"><em>kali-kukkura-kadana yadi chāo he</em></a> <span class="page-num">49</span></p><p class="SongRef"><a class="song-ref" href="/en/jashomati-nandana-vraja-vara-nagara/"><em>yaśomatī-nandana vraja-vara-nāgara</em></a> <span class="page-num">50</span></p><p class="SongRef"><a class="song-ref" href="/en/jaya-shiachinandana-sura-muni-vandana/"><em>jaya śachī-nandana sura-muni-vandana</em></a> <span class="page-num">51</span></p><p>Then parikramā of the three Temples:</p>
+<p class="SongRef"><a class="song-ref" href="/en/gurudeva-kripa-bindu-diya-kara-ei-dase/"><em>gurudeva! kṛpā-bindu diyā</em></a> <span class="page-num">52</span></p><p class="SongRef"><a class="song-ref" href="/en/udilo-aruna-puraba-bhage/"><em>udila aruṇa pūrava-bhāge</em></a> <span class="page-num">53</span></p><p class="SongRef"><a class="song-ref" href="/en/jiv-jago-jiv-jago-gaurachanda-bole/"><em>jīva jāga, jīva jāga</em></a> <span class="page-num">55</span></p><p>Followed by offering obeisances to Śrīmatī Tulasī Devī:</p>
+<p class="SongRef"><a class="song-ref" href="/en/vrindayai-tulasi-devyai/"><em>vṛndāyai tulasī-devyai</em></a> <span class="page-num">26</span></p><p>Immediately followed by obeisances to the Vaiṣṇavas:</p>
+<p class="SongRef"><a class="song-ref" href="/en/vancha-kalpatarubhyas-cha/"><em>vāñchhā-kalpa-tarubhyaś cha</em></a> <span class="page-num">22</span></p><p>and sometimes:</p>
+<pre><code>sakala vaiṣṇava-pade mora namaskāra
+ithe kichhu aparādha nahuka āmāra
+haiyachen haiben prabhura jata bhakta jana
+vandanā kari’ āmi sabāra charaṇa
+</code></pre>
+<blockquote>
+<p>“I respectfully bow to the lotus feet of all the Vaiṣṇavas, praying that there is no offence in my attempt to please them. To all Vaiṣṇavas who have been, and all Vaiṣṇavas who shall be, I offer my obeisances to their lotus feet.”</p>
+</blockquote>
+<p>Finally devotees offer obeisances to Śrīla Gurudev and Śrīla Guru Mahārāj at their Samādhī Mandirs, and to the Deities. Then beside the Temple, facing east they offer obeisances to Śrīmatī Gaṅgadevi:</p>
+<pre><code>sadya pātaka saṁhantri sadya duḥkha vināśinī
+sukhadā bhaktidā gaṅgā gaṅgeva paramāgati
+</code></pre>
+<blockquote>
+<p>“O Gaṅgā, destroyer of sins in an instant, destroyer of sorrow in an instant, giver of happiness, giver of devotion – O Gaṅgā, you are certainly the supreme refuge.”</p>
+</blockquote>
+<p><strong>THE MORNING KĪRTANS</strong> begin with:</p>
+<p class="SongRef"><a class="song-ref" href="/en/vande-ham-shri-guroh-shri-yuta-pada-kamalam/">Recitation of the Vandana prayers</a> <span class="page-num">15</span></p><p>Followed by the kīrtans:</p>
+<p class="SongRef"><a class="song-ref" href="/en/samsara-davanala-lidha-loka/"><em>saṁsāra-dāvānala-līḍha-loka</em></a> <span class="page-num">56</span></p><p class="SongRef"><a class="song-ref" href="/en/shri-krishna-chaitanya-prabhu-jive-daya-kori/"><em>śrī-kṛṣṇa-chaitanya prabhu jīve dayā kari</em></a> <span class="page-num">59</span></p><p class="SongRef"><a class="song-ref" href="/en/bhaja-re-bhaja-re-amar-mana-ati-manda/"><em>bhaja re bhaja re āmār mana ati manda</em></a> <span class="page-num">60</span></p><p><strong>After which is a reading from Śrī Chaitanya Bhāgavata in Bengali.</strong></p>
+<p>Closing with:</p>
+<p class="SongRef"><a class="song-ref" href="/en/hari-haraye-namah-krishna-yadavaya-namah/"><em>hari haraye namaḥ kṛṣṇa yādavāya namaḥ</em></a> <span class="page-num">65</span></p><p><strong>After morning Prasādam is a class in English</strong> (or Spanish, etc.) established by Śrīla Gurudev and held on Śrīla Guru Mahārāj’s Samādhī Mandir.</p>
+<h2>THE MIDDAY PROGRAMME</h2>
+<p>commences with offering bhoga, while singing:</p>
+<p class="SongRef"><a class="song-ref" href="/en/bhaja-bhakata-vatsala-shri-gaurahari/"><em>bhaja bhakata-vatsala śrī-gaurahari</em></a> <span class="page-num">66</span></p><p>Followed by Śrīla Gurudev’s ārati and Śrīla Guru Mahārāj’s ārati at their respective Samadhi Mandirs (as in the morning).</p>
+<p>Then ārati of the Deities:</p>
+<p class="SongRef"><a class="song-ref" href="/en/jashomati-nandana-vraja-vara-nagara/"><em>yaśomatī-nandana vraja-vara-nāgara</em></a> <span class="page-num">50</span></p><p class="SongRef"><a class="song-ref" href="/en/jaya-shiachinandana-sura-muni-vandana/"><em>jaya śachī-nandana sura-muni-vandana</em></a> <span class="page-num">51</span></p><p>Before honouring Prasadam, the devotees chant:</p>
+<p class="SongRef"><a class="song-ref" href="/en/mahaprasade-govinde-nama-brahmani/"><em>mahāprasāde govinde</em></a> <span class="page-num">69</span></p><p class="SongRef"><a class="song-ref" href="/en/bhai-re-shorira-avidya-jal-jodendriya-tahe-kal/"><em>śarīra avidyā-jāla</em></a> <span class="page-num">69</span></p><p>(but on days when no grains are taken, only the first prayer is chanted.)</p>
+<p><strong>MID-AFTERNOON:</strong> reading from <em>Śrīmad Bhāgavatam</em> in Bengali.</p>
+<h2>THE EVENING PROGRAMME</h2>
+<p>begins with Śrīla Gurudev’s and Śrīla Guru Mahārāj’s āratis at their respective Samādhi Mandirs.</p>
+<p>Then ārati of the Deities:</p>
+<p class="SongRef"><a class="song-ref" href="/en/jaya-jaya-gaurachander-arotiko-shobha/"><em>(kibā) jaya jaya gorāchā̐der āratika śobhā</em></a> <span class="page-num">73</span></p><p class="SongRef"><a class="song-ref" href="/en/jayare-jayare-jaya-gaura-sarasvati/"><em>jayare jayare jaya gaura-sarasvatī</em></a> <span class="page-num">75</span></p><p>Followed by parikramā of all three Temples:</p>
+<p class="SongRef"><a class="song-ref" href="/en/gurudeva-kripa-bindu-diya-kara-ei-dase/"><em>gurudeva! kṛpā-bindu diyā</em></a> <span class="page-num">52</span></p><p class="SongRef"><a class="song-ref" href="/en/kobe-shri-chaitanya-more-koribena-daya/"><em>kabe śrī-chaitanya more karibena dayā</em></a> <span class="page-num">77</span></p><p class="SongRef"><a class="song-ref" href="/en/namo-namah-tulasi-maharani/"><em>namo namaḥ tulasī mahārāṇī</em></a> <span class="page-num">78</span></p><p>Then, as in the morning programme, devotees offer obeisances to Śrīmatī Tulasī Devī, the Vaiṣṇavas, the three Temples, and Gaṅga Devī.</p>
+<h4>EVENING KĪRTANS:</h4>
+<p class="SongRef"><a class="song-ref" href="/en/vande-ham-shri-guroh-shri-yuta-pada-kamalam/">Recitation of the Vandana prayers</a> <span class="page-num">15</span></p><p>Followed by the songs:</p>
+<p class="SongRef"><a class="song-ref" href="/en/shri-guru-charana-padma-kevala-bhakati/"><em>śrī-guru-charaṇa-padma</em></a> <span class="page-num">79</span></p><p class="SongRef"><a class="song-ref" href="/en/shri-krishna-chaitanya-prabhu-daya-kara-more/"><em>śrī-kṛṣṇa-chaitanya prabhu dayā kara more</em></a> <span class="page-num">80</span></p><p class="SongRef"><a class="song-ref" href="/en/vaishnava-thakura-dayara-sagara/"><em>(ohe) vaiṣṇava ṭhākura dayāra sāgara</em></a> <span class="page-num">81</span></p><p>Followed by a selection, most of which are included in this Kīrtan Guide.</p>
+<p>Daily, usually near the end, is sung:</p>
+<p class="SongRef"><a class="song-ref" href="/en/sujanarvuda-radhita-pada-yugam/"><em>sujanārbuda-rādhita-pāda-yugaṁ</em></a> <span class="page-num">83</span></p><p>Which is followed daily by 10 verses from Śrī Śrī Prema-dhāma-deva Stotram beginning with verse 1 each Saturday.</p>
+<p class="SongRef"><a class="song-ref" href="/en/deva-siddha-mukta-yukta-bhakta-vrinda/"><em>deva-siddha-mukta-yukta</em></a> <span class="page-num">86</span></p><p><strong>Followed by a Bengali reading from Śrī Chaitanya Charitāmṛta.</strong></p>
+<p>Concluding with:</p>
+<p class="SongRef"><a class="song-ref" href="/en/hari-haraye-namah-krishna-yadavaya-namah/"><em>hari haraye namaḥ kṛṣṇa yādavāya namaḥ</em></a> <span class="page-num">65</span></p><h2>AdditIonal kĪrtans chanted on special occasions:</h2>
+<h4>During the month of Kārtik</h4>
+<p>additional kirtans are chanted.</p>
+<p>The following are <strong>added to the morning programme</strong>:</p>
+<p class="SongRef"><a class="song-ref" href="/en/nadiya-nagare-nitai-neche-neche-gay-re/"><em>nadīyā-nagare nitāi neche neche gāya re</em></a> <span class="page-num">235</span></p><p class="SongRef"><a class="song-ref" href="/en/nagare-nagare-gora-gay/"><em>nagare nagare gorā gāya</em></a> <span class="page-num">239</span></p><p class="SongRef"><a class="song-ref" href="/en/namamishvaram-sachchidananda-rupam/"><em>namāmīśvaraṁ sachchidānanda-rūpaṁ</em></a> <span class="page-num">272</span></p><p class="SongRef"><a class="song-ref" href="/en/radhe-jaya-jaya-madhava-dayite/"><em>rādhe jaya jaya mādhava-dayite</em></a> <span class="page-num">287</span></p><p>And <strong>added to the evening programme</strong> is Mahāprabhu’s <em>Śrī Śikṣāṣṭakam</em>, with Śrīla Bhaktivinod Ṭhākur’s accompanying compositions:</p>
+<p class="SongRef"><a class="song-ref" href="/en/pita-varana-kali-pavana-gora/"><em>cheto-darpaṇa-mārjanaṁ</em></a> <span class="page-num">pages 192 - 207</span></p><p class="SongRef"><a class="song-ref" href="/en/pita-varana-kali-pavana-gora/"><em>pīta-varaṇa kali-pāvana gorā</em></a> <span class="page-num">192</span></p><h4>On the Appearance Day of a guru in our lineage</h4>
+<p>the following is also chanted during the morning and/or evening seated programme. This song is often begun from verse five or six:</p>
+<p class="SongRef"><a class="song-ref" href="/en/krishna-hoite-chatur-mukha/"><em>kṛṣṇa haite chatur-mukha</em></a> <span class="page-num">221</span></p><h4>On the Appearance Day of Śrī Gaurāṅga Sundar</h4>
+<p>the following are sung leading up to moonrise:</p>
+<p class="SongRef"><a class="song-ref" href="/en/aruna-basane-sonara-suraja/"><em>aruṇa vasane sonāra sūraja</em></a> <span class="page-num">141</span></p><p class="SongRef"><a class="song-ref" href="/en/chaudda-shiata-sata-shiake-masa-je-phalgun/"><em>chaudda-śata sāta-śake māsa ye phālguna</em></a> <span class="page-num">247</span></p><h4>On the Appearance Days of Śrī Kṛṣṇa’s Līlā-avatārs</h4>
+<p>the Śrī Daśāvatār Stotram is sung:</p>
+<p class="SongRef"><a class="song-ref" href="/en/pralaya-payodhi-jale-dhritavan-asi-vedam/"><em>pralaya-payodhi-jale</em></a> <span class="page-num">231</span></p><h4>On the Disappearance Days of Gurus</h4>
+<p>from our lineage or other worshipable Vaiṣṇavas:</p>
+<p class="SongRef"><a class="song-ref" href="/en/je-anilo-prema-dhana-karuna-prachura/"><em>ye ānila prema-dhana</em></a> <span class="page-num">119</span></p><p>also the following may be sung:</p>
+<p class="SongRef"><a class="song-ref" href="/en/ei-vara-karuna-kara-vaishnava-gosani/"><em>ei-bāra karuṇā kara vaiṣṇava gosāñi</em></a> <span class="page-num">120</span></p><h4>On Harivāsar Tithi</h4>
+<p>whether it falls on an Ekādaśī or a Mahādvādaśī.</p>
+<p>In the morning programme:</p>
+<p class="SongRef"><a class="song-ref" href="/en/shri-hari-vasare-hari-kirtana-vidhana/"><em>śrī-hari-vāsare hari-kīrtana-vidhāna</em></a> <span class="page-num">243</span></p><p>and in the evening:</p>
+<p class="SongRef"><a class="song-ref" href="/en/shiuddha-bhakata-charana-renu/"><em>śuddha-bhakata-charaṇa-reṇu</em></a> <span class="page-num">245</span></p><p>Ākhars (lit. ornaments) may be sung during or after songs. Throughout this book, ākhars are in non-bold text enclosed within brackets.</p>
+0:{"rsc":["$","$1","c",{"children":[["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"57x57","href":"https://dev.kirtan.site/images/favicon/apple-icon-57x57.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"60x60","href":"https://dev.kirtan.site/images/favicon/apple-icon-60x60.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"72x72","href":"https://dev.kirtan.site/images/favicon/apple-icon-72x72.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"76x76","href":"https://dev.kirtan.site/images/favicon/apple-icon-76x76.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"114x114","href":"https://dev.kirtan.site/images/favicon/apple-icon-114x114.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"120x120","href":"https://dev.kirtan.site/images/favicon/apple-icon-120x120.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"144x144","href":"https://dev.kirtan.site/images/favicon/apple-icon-144x144.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"152x152","href":"https://dev.kirtan.site/images/favicon/apple-icon-152x152.png"}],["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"https://dev.kirtan.site/images/favicon/apple-icon-180x180.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"192x192","href":"https://dev.kirtan.site/images/favicon/android-icon-192x192.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"https://dev.kirtan.site/images/favicon/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"96x96","href":"https://dev.kirtan.site/images/favicon/favicon-96x96.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"https://dev.kirtan.site/images/favicon/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/manifest.json"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#ffffff"}],["$","meta",null,{"name":"msapplication-TileImage","content":"https://dev.kirtan.site/images/favicon/ms-icon-144x144.png"}],["$","meta",null,{"name":"theme-color","content":"#ffffff"}]]}],["$","body",null,{"className":"Body","children":[["$","div",null,{"className":"Layout","children":[["$","div",null,{"className":"Layout__content","tabIndex":-1,"children":[["$","$L2",null,{"bookId":"en"}],["$","main",null,{"className":"Main ContentPage","children":[["$","div",null,{"className":"Main__container ContentPage__container","children":["$","div",null,{"className":"ContentPage__content","children":[["$","header",null,{"className":"ContentPage__header","children":[["$","section",null,{"className":"ContentPage__top","children":[["$","div",null,{"className":"ContentPage__info","children":[["$","h6",null,{"className":"ContentPage__book","children":"Kirtan Guide"}],["$","$L3",null,{"bookId":"en","label":"page number","page":3}]]}],"$undefined"]}],"$undefined"]}],["$","main",null,{"className":"SongText PageView","children":["$","div",null,{"className":"PageMarkdown","dangerouslySetInnerHTML":{"__html":"$4"}}]}]]}]}],"$L5","$undefined"]}]]}],"$L6"]}],"$L7","$L8","$L9"]}]]}],["$La","$Lb","$Lc","$Ld","$Le","$Lf"],"$L10"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Loc8-3jXprUeLwq-Ddo0q"}
+5:["$","$L11",null,{"navMap":{"3":{"prev":{"path":"/en/002-printed-and-published/","title":"Printed and Published"},"next":{"path":"/en/007-foreword/","title":"Foreword to this Twelfth Edition"}}}}]
+6:["$","$L12",null,{"bookId":"en","page":3}]
+7:["$","$L13",null,{"bookId":"en","songId":"003-programme"}]
+8:["$","$L14",null,{}]
+9:["$","$L15",null,{"bookId":"en"}]
+a:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/cf2c6d7bf7c1a098.css","precedence":"next"}]
+b:["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/1e4b76068ed840a7.css","precedence":"next"}]
+c:["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/cbb0f99743033d43.css","precedence":"next"}]
+d:["$","link","3",{"rel":"stylesheet","href":"/_next/static/css/7275adbaa7755d79.css","precedence":"next"}]
+e:["$","link","4",{"rel":"stylesheet","href":"/_next/static/css/d5a791cb6aaa3b04.css","precedence":"next"}]
+f:["$","link","5",{"rel":"stylesheet","href":"/_next/static/css/6c39803aea97c250.css","precedence":"next"}]
+10:["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+18:null
