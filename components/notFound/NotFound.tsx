@@ -5,7 +5,8 @@ import './NotFoundPage.scss';
 
 import { DEFAULT_LANGUAGE, isValidBookId, translate } from '@/other/i18n';
 import Layout from '@/components/common/Layout/Layout';
-import { PATH, PREFERENCES } from '@/other/constants';
+import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
+import { PREFERENCES } from '@/other/constants';
 import SongBookItem from '@/components/song/OtherTranslations/SongBookItem';
 
 import type { TBookDescription } from '@/types/book';
@@ -86,7 +87,10 @@ function NotFound({ booksMap }: Props) {
           <main className="NotFoundPage__main">
             <ul className="NotFoundPage__list">
               {bookList.map((description: TBookDescription) => {
-                const href = `/${description.slug}/${PATH.PAGE.A_Z}`;
+                const href = getSongbookPagePath(
+                  description.slug,
+                  SONGBOOK_PAGE.A_Z
+                );
 
                 return (
                   <SongBookItem

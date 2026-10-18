@@ -6,7 +6,7 @@ import { getBookIdParamList, getBooksMap } from '@/lib/books';
 import { getAuthorsByBookId } from '@/lib/contents';
 import Layout from '@/components/common/Layout/Layout';
 import LdJson from '@/other/metadata/LdJson';
-import { PATH } from '@/other/constants';
+import { SONGBOOK_PAGE } from '@/other/paths';
 import { translate } from '@/other/i18n';
 
 import type { BookListPageProps } from '@/types/book';
@@ -23,7 +23,7 @@ async function AuthorsPage({ params }: BookListPageProps) {
   const { bookId } = await params;
   const contents = await getAuthorsByBookId(bookId);
 
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   const book = booksMap[bookId];
 
   const label = translate(bookId, 'AUTHORS_PAGE.NO_AUTHOR');
@@ -52,7 +52,7 @@ async function AuthorsPage({ params }: BookListPageProps) {
           <Authors bookId={bookId} contents={items} />
         </div>
 
-        <LdJson bookId={bookId} pageKey="AUTHORS_PAGE" pagePath={PATH.PAGE.AUTHORS} />
+        <LdJson bookId={bookId} pageKey="AUTHORS_PAGE" page={SONGBOOK_PAGE.AUTHORS} />
       </div>
     </Layout>
   );

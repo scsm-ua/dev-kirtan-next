@@ -3,7 +3,7 @@ import '@/styles/index-page.scss';
 
 import ContentGroup from '@/components/contents/ContentGroup';
 import IndexLink from '@/components/common/IndexLink/IndexLink';
-import { PATH } from '@/other/constants';
+import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { translate } from '@/other/i18n';
 import { TContentGroup } from '@/types/common';
 
@@ -23,7 +23,7 @@ function Contents({ bookId, contents }: Props) {
 
       <ul className="IndexPage__list">
         <IndexLink
-          href={'/' + bookId + PATH.PAGE.A_Z}
+          href={getSongbookPagePath(bookId, SONGBOOK_PAGE.A_Z)}
           title={translate(bookId, 'A_Z_PAGE.LINK_FULL_TITLE')}
         />
 
@@ -32,7 +32,7 @@ function Contents({ bookId, contents }: Props) {
         ))}
 
         <IndexLink
-          href={'/' + bookId + PATH.PAGE.AUTHORS}
+          href={getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS)}
           title={translate(bookId, 'AUTHORS_PAGE.LINK_FULL_TITLE')}
           withSeparator
         />

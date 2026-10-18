@@ -1,5 +1,5 @@
 import { getContentsByBookId } from '@/lib/contents';
-import { getSongPathWithPage } from '@/other/utils';
+import { getSongPathWithPage } from '@/other/paths';
 import type { TContentGroup, TContentItem } from '@/types/common';
 import type { TPage } from '@/types/search';
 

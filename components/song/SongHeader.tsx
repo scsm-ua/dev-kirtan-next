@@ -1,6 +1,6 @@
 import './SongHeader.scss';
 import { Fragment, type ReactNode } from 'react';
-import { PATH } from '@/other/constants';
+import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { groupLines, processTranslationLines } from '@/other/utils';
 import type { TSong } from '@/types/song';
 
@@ -17,8 +17,7 @@ function SongHeader({ bookId, song }: Props) {
   const { author, meta, subtitle, title, word_by_word } = song;
 
   const authorHref =
-    `/${bookId}` +
-    PATH.PAGE.AUTHORS +
+    getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS) +
     (meta.author ? `#section-${meta.author}` : '');
 
   return (

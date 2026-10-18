@@ -51,7 +51,7 @@ function firstLineKey(s: string): string {
  * from the first book (by that order) that contains the song.
  */
 export async function getAnalyzeData(currentBookId: string): Promise<TAnalyzeData> {
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
 
   const books: Array<TAnalyzeBook> = Object.keys(booksMap)
     .filter((bookId) => !booksMap[bookId].hidden || bookId === currentBookId)

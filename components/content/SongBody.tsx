@@ -27,7 +27,7 @@ async function SongBody({
   nav,
   slug
 }: TContentBodyProps<TSong>) {
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   const descriptions = (await getBookDescriptionsByBook(
     slug,
     booksMap

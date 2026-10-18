@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import './AnalyzeTable.scss';
 import BookThumbnail from '@/components/common/BookThumnail/BookThumbnail';
 import { getBookLangLabel } from '@/other/helpers';
+import { getSongbookPath, getSongPath } from '@/other/paths';
 import type { TAnalyzeCell, TAnalyzeData } from '@/lib/analyze';
 
 /**/
@@ -182,7 +183,10 @@ function AnalyzeTable({ data }: Props) {
             </th>
             {visibleBooks.map((book) => (
               <th className="AnalyzeTable__bookHead" key={book.bookId} scope="col">
-                <a className="AnalyzeTable__bookLink" href={`/${book.bookId}`}>
+                <a
+                  className="AnalyzeTable__bookLink"
+                  href={getSongbookPath(book.bookId)}
+                >
                   <span className="AnalyzeTable__thumb">
                     <BookThumbnail bookId={book.bookId} />
                     <span className="AnalyzeTable__lang">
@@ -241,7 +245,7 @@ function AnalyzeTable({ data }: Props) {
                     }
                     key={book.bookId}
                   >
-                    <a href={`/${book.bookId}/${row.slug}/`}>
+                    <a href={getSongPath(book.bookId, row.slug)}>
                       {cell.translated ? (cell.page ?? 'link') : `(${cell.page ?? 'link'})`}
                     </a>
                   </td>

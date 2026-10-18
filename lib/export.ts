@@ -76,8 +76,8 @@ function renderFirstLines(indexes: TContentGroup[], bookId: string): string {
  * applying the export options.
  */
 export async function buildExportHtml(bookId: string): Promise<TExportDoc> {
-  const [booksMap, contents, indexes] = await Promise.all([
-    getBooksMap(),
+  const booksMap = getBooksMap();
+  const [contents, indexes] = await Promise.all([
     getContentsByBookId(bookId),
     getIndexesByBookId(bookId)
   ]);

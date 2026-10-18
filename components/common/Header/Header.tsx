@@ -3,13 +3,14 @@
 import './Header.scss';
 import FeedbackWidget from '@/components/feedback/FeedbackWidget';
 import HotkeyHint from '@/components/common/GlobalHotkeys/HotkeyHint';
+import { getSongbookPath } from '@/other/paths';
 import { PATH } from '@/other/constants';
 
 /**
  *
  */
 function Header({ bookId }: { bookId: string }) {
-  const href = '/' + bookId;
+  const href = getSongbookPath(bookId);
 
   return (
     <header className="Header">

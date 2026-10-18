@@ -2,7 +2,7 @@ import classnames from 'classnames';
 
 import './ContentItem.scss';
 import type { TContentItem } from '@/types/common';
-import { getSongPathWithPage } from '@/other/utils';
+import { getSongPathWithPage } from '@/other/paths';
 
 /**/
 type Props = {

@@ -5,7 +5,7 @@ import { getContentsByBookId } from '@/lib/contents';
 import { getContentsPageMeta } from '@/other/metadata/getContentsPageMeta';
 import Layout from '@/components/common/Layout/Layout';
 import LdJson from '@/other/metadata/LdJson';
-import { PATH } from '@/other/constants';
+import { SONGBOOK_PAGE } from '@/other/paths';
 
 import type { BookListPageProps } from '@/types/book';
 
@@ -21,7 +21,7 @@ async function ContentsPage({ params }: BookListPageProps) {
 
   const contents = await getContentsByBookId(bookId);
 
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   const book = booksMap[bookId];
 
   return (
@@ -35,7 +35,7 @@ async function ContentsPage({ params }: BookListPageProps) {
           <Contents bookId={bookId} contents={contents} />
         </div>
 
-        <LdJson bookId={bookId} pageKey="CONTENTS_PAGE" pagePath={PATH.PAGE.CONTENTS} />
+        <LdJson bookId={bookId} pageKey="CONTENTS_PAGE" page={SONGBOOK_PAGE.CONTENTS} />
       </div>
     </Layout>
   );

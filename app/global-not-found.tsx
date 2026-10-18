@@ -6,7 +6,7 @@ import NotFound from '@/components/notFound/NotFound';
  *
  */
 async function NotFoundPage() {
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   return <NotFound booksMap={booksMap} />;
 }
 

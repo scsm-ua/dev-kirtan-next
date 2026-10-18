@@ -11,7 +11,7 @@ import {
 import type { TBookDescription, TBooksMap } from '@/types/book';
 import type { TContentGroup, TContentItem } from '@/types/common';
 import type { TNavItems, TNavItemsMap, TSong, TVerse } from '@/types/song';
-import { getSongPathWithPage } from '@/other/utils';
+import { getSongPathWithPage } from '@/other/paths';
 
 type TTelegraphPage = {
   path: string;

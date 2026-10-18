@@ -1,7 +1,7 @@
 'use client';
 
 import './PageNumber.scss';
-import { PATH } from '@/other/constants';
+import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { usePageQuery } from '@/other/hooks/usePageQuery';
 
 /**/
@@ -29,7 +29,9 @@ function PageNumber({ bookId, label, page }: Props) {
 
   if (!page || typeof pageQuery !== 'string') return null;
 
-  const href = `/${bookId}` + PATH.PAGE.SEARCH + getQuery(pageQuery, page);
+  const href =
+    getSongbookPagePath(bookId, SONGBOOK_PAGE.SEARCH) +
+    getQuery(pageQuery, page);
   const text = Array.isArray(page) ? page.join(', ') : page;
 
   return (

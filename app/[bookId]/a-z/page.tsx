@@ -5,7 +5,7 @@ import { getBookIdParamList, getBooksMap } from '@/lib/books';
 import { getIndexesByBookId } from '@/lib/contents';
 import Layout from '@/components/common/Layout/Layout';
 import LdJson from '@/other/metadata/LdJson';
-import { PATH } from '@/other/constants';
+import { SONGBOOK_PAGE } from '@/other/paths';
 import Pills from '@/components/common/Pills/Pills';
 import { translate } from '@/other/i18n';
 
@@ -23,7 +23,7 @@ async function AZPage({ params }: BookListPageProps) {
   const { bookId } = await params;
   const contents = await getIndexesByBookId(bookId);
 
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   const book = booksMap[bookId];
   const items = contents.map((item: TContentGroup) => ({ title: item.name }));
 
@@ -44,7 +44,7 @@ async function AZPage({ params }: BookListPageProps) {
           <AZ bookId={bookId} contents={contents} />
         </div>
 
-        <LdJson bookId={bookId} pageKey="A_Z_PAGE" pagePath={PATH.PAGE.A_Z} />
+        <LdJson bookId={bookId} pageKey="A_Z_PAGE" page={SONGBOOK_PAGE.A_Z} />
       </div>
     </Layout>
   );

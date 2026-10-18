@@ -31,7 +31,7 @@ async function ContentPage({ params }: ContentPageProps) {
   const data = await handler.load(slug, bookId);
   if (!data) return notFound();
 
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   const book = booksMap[bookId];
   const nav = await getNavItems(slug, bookId);
 

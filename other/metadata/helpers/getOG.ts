@@ -1,6 +1,7 @@
 import { OpenGraph } from 'next/dist/lib/metadata/types/opengraph-types';
 
 import { getBannerUrlBase } from '@/other/helpers';
+import { getAbsoluteUrl, getSongbookPath } from '@/other/paths';
 import { SITE } from '@/other/constants';
 
 import type { TImage } from '@/types/resources';
@@ -10,11 +11,11 @@ import type { TImage } from '@/types/resources';
  * @param {string} bookId
  * @param {string} description
  * @param {string} title
- * @param {string} path*
+ * @param {string} path* — full relative path (e.g. from getSongPath), with slashes
  */
 export function getOG(bookId, description, title, path?): Partial<OpenGraph> {
   const imgBase = getBannerUrlBase(bookId);
-  const url = SITE.ORIGIN + bookId + '/' + (path || '');
+  const url = getAbsoluteUrl(path || getSongbookPath(bookId));
 
   const images = [
     {

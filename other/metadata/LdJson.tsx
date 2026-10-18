@@ -1,19 +1,24 @@
+import { getAbsoluteUrl, getSongbookPagePath, getSongbookPath } from '@/other/paths';
 import { SITE } from '@/other/constants';
 import { translate } from '@/other/i18n';
+
+import type { TSongbookPage } from '@/other/paths';
 
 /**/
 type Props = {
   bookId: string;
   pageKey: string;
-  pagePath: string;
+  page?: TSongbookPage;
 };
 
 /**
  *
  */
-function LdJson({ bookId, pageKey, pagePath }: Props) {
+function LdJson({ bookId, pageKey, page }: Props) {
   const language = bookId.slice(0, 2);
-  const url = SITE.ORIGIN + bookId + pagePath;
+  const url = getAbsoluteUrl(
+    page ? getSongbookPagePath(bookId, page) : getSongbookPath(bookId)
+  );
 
   const title = translate(bookId, pageKey + '.SCHEMA.NAME');
   const description = translate(bookId, pageKey + '.SCHEMA.DESCRIPTION');

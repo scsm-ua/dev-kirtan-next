@@ -3,6 +3,7 @@ import { getBookDescriptionsByBook } from '@/lib/song';
 import { getCommonMeta } from '@/other/metadata/helpers/getCommonMeta';
 import { getOG } from '@/other/metadata/helpers/getOG';
 import { getSongPageTitle } from '@/other/metadata/helpers/getSongPageTitle';
+import { getSongPath } from '@/other/paths';
 import { getTwitter } from '@/other/metadata/helpers/getTwitter';
 import { KEYWORDS, ROBOTS } from '@/other/metadata/helpers/constants';
 
@@ -22,9 +23,9 @@ export async function getSongMeta(
   const description = song.meta?.first_line;
   const title = getSongPageTitle(song);
 
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   const languages = await getLanguages(slug, booksMap);
-  languages['x-default'] = `/${bookId}/${slug}`;
+  languages['x-default'] = getSongPath(bookId, slug);
 
   const authors = song.author?.length > 0
     ? [{ name: song.author[0] }]
@@ -33,13 +34,13 @@ export async function getSongMeta(
   return {
     ...getCommonMeta(),
     alternates: {
-      canonical: `/${bookId}/${slug}`,
+      canonical: getSongPath(bookId, slug),
       languages: languages
     },
     authors: authors,
     description: description,
     keywords: getKeywords(song, authors),
-    openGraph: getOG(bookId, description, title, slug),
+    openGraph: getOG(bookId, description, title, getSongPath(bookId, slug)),
     robots: ROBOTS,
     title: title,
     twitter: getTwitter(bookId, description, title)
@@ -76,7 +77,7 @@ async function getLanguages(songSlug: string, booksMap: TBooksMap) {
 
   descriptions.forEach((d: TBookDescription) => {
     const lang = d.slug.slice(0, 2);
-    languages[lang] = `/${d.slug}/${songSlug}`;
+    languages[lang] = getSongPath(d.slug, songSlug);
   });
 
   return languages;

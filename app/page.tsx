@@ -5,7 +5,7 @@ import PrefRedirect from '@/components/home/PrefRedirect';
  *
  */
 export default async function Home() {
-  const bookIdList = await getBookIdList();
+  const bookIdList = getBookIdList();
 
   return (
     <html lang="en">

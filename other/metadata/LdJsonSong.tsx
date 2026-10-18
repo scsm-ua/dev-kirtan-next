@@ -1,4 +1,5 @@
 import { getIFrameUrl } from '@/other/helpers';
+import { getAbsoluteUrl, getSongPath } from '@/other/paths';
 import { getSongPageTitle } from '@/other/metadata/helpers/getSongPageTitle';
 import { SITE } from '@/other/constants';
 
@@ -17,7 +18,7 @@ type Props = {
  */
 function LdJsonSong({ bookId, slug, song }: Props) {
   const language = bookId.slice(0, 2);
-  const url = SITE.ORIGIN + bookId + '/' + slug;
+  const url = getAbsoluteUrl(getSongPath(bookId, slug));
 
   const author = song.meta?.author;
   const pageName = getSongPageTitle(song);

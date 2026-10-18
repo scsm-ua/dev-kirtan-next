@@ -1,5 +1,6 @@
 import { getCommonMeta } from '@/other/metadata/helpers/getCommonMeta';
 import { getOG } from '@/other/metadata/helpers/getOG';
+import { getSongPath } from '@/other/paths';
 import { getTwitter } from '@/other/metadata/helpers/getTwitter';
 import { ROBOTS } from '@/other/metadata/helpers/constants';
 
@@ -19,10 +20,10 @@ export function getPageMeta(
   return {
     ...getCommonMeta(),
     alternates: {
-      canonical: `/${bookId}/${slug}`
+      canonical: getSongPath(bookId, slug)
     },
     description: title,
-    openGraph: getOG(bookId, title, title, slug),
+    openGraph: getOG(bookId, title, title, getSongPath(bookId, slug)),
     robots: ROBOTS,
     title: title,
     twitter: getTwitter(bookId, title, title)

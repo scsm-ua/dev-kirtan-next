@@ -3,7 +3,11 @@
 import './Footer.scss';
 
 import FooterItem from './FooterItem';
-import { PATH } from '@/other/constants';
+import {
+  getSongbookPagePath,
+  getSongbookPath,
+  SONGBOOK_PAGE
+} from '@/other/paths';
 import { usePageQuery } from '@/other/hooks/usePageQuery';
 import { translate } from '@/other/i18n';
 
@@ -22,27 +26,29 @@ function getNavItems(bookId: string, page?: string): TFooterNavItemProps[] {
   return [
     {
       activeIcon: 'icon-books-bold',
-      href: '/' + bookId + PATH.PAGE.BOOK_LIST,
+      href: getSongbookPath(bookId),
       inactiveIcon: 'icon-books',
       label: translate(bookId, 'FOOTER.BOOKS'),
     },
     {
       activeIcon: 'icon-list-music-bold',
       fullLabel: translate(bookId, 'CONTENTS_PAGE.LINK_FULL_TITLE'),
-      href: '/' + bookId + PATH.PAGE.CONTENTS,
+      href: getSongbookPagePath(bookId, SONGBOOK_PAGE.CONTENTS),
       inactiveIcon: 'icon-list-music',
       label: translate(bookId, 'FOOTER.CONTENTS'),
     },
     {
       activeIcon: 'icon-arrow-up-a-z-old',
       fullLabel: translate(bookId, 'A_Z_PAGE.LINK_FULL_TITLE'),
-      href: '/' + bookId + PATH.PAGE.A_Z,
+      href: getSongbookPagePath(bookId, SONGBOOK_PAGE.A_Z),
       inactiveIcon: 'icon-arrow-up-a-z',
       label: translate(bookId, 'FOOTER.INDEX'),
     },
     {
       activeIcon: 'icon-search-bold',
-      href: '/' + bookId + PATH.PAGE.SEARCH + (page ? `?p=${page}` : ''),
+      href:
+        getSongbookPagePath(bookId, SONGBOOK_PAGE.SEARCH) +
+        (page ? `?p=${page}` : ''),
       inactiveIcon: 'icon-search',
       label: translate(bookId, 'FOOTER.SEARCH'),
     }

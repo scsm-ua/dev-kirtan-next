@@ -2,6 +2,11 @@
 import { useEffect } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 
+import {
+  getSongbookPagePath,
+  getSongbookPath,
+  SONGBOOK_PAGE
+} from '@/other/paths';
 import { VIEW_MODE, WBW_MODE } from '@/types/common';
 import type { TViewMode, TWbwMode } from '@/types/common';
 
@@ -17,7 +22,7 @@ const KEY_TO_WBW: Record<string, TWbwMode> = {
   '6': WBW_MODE.CLASSICAL,
 };
 
-const NON_SONG_SEGMENTS = new Set(['contents', 'a-z', 'search', 'authors', 'export', 'analyze']);
+const NON_SONG_SEGMENTS = new Set<string>(Object.values(SONGBOOK_PAGE));
 
 function isInputFocused(): boolean {
   const el = document.activeElement as HTMLElement | null;
@@ -71,34 +76,34 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
           break;
 
         case 'b':
-          router.push(`/${bookId}`);
+          router.push(getSongbookPath(bookId));
           break;
 
         case 'c':
-          router.push(`/${bookId}/contents`);
+          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.CONTENTS));
           break;
 
         case 'i':
-          router.push(`/${bookId}/a-z`);
+          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.A_Z));
           break;
 
         case 's':
-          router.push(`/${bookId}/search`);
+          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.SEARCH));
           break;
 
         case 'e':
-          router.push(`/${bookId}/export`);
+          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.EXPORT));
           break;
 
         case 'a':
-          router.push(`/${bookId}/analyze`);
+          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.ANALYZE));
           break;
 
         case 'l':
           if (isSongPage) {
             window.dispatchEvent(new CustomEvent('kirtan:toggleOtherTranslations'));
           } else {
-            router.push(`/${bookId}`);
+            router.push(getSongbookPath(bookId));
           }
           break;
 
