@@ -1,8 +1,8 @@
 :HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
-:HL["/_next/static/css/cf2c6d7bf7c1a098.css","style"]
+:HL["/_next/static/css/89c8d9ff9a6ce3b3.css","style"]
 :HL["/_next/static/css/1e4b76068ed840a7.css","style"]
-:HL["/_next/static/css/cbb0f99743033d43.css","style"]
+:HL["/_next/static/css/aab6d2f56179a687.css","style"]
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/6c39803aea97c250.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"pt","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"krishna-hoite-chatur-mukha","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Loc8-3jXprUeLwq-Ddo0q"}
+:HL["/_next/static/css/2acd7fb096663445.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"pt","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"krishna-hoite-chatur-mukha","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"IKawT5a-dGCTXxvRZChMe"}
