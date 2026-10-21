@@ -9,8 +9,8 @@
   "scripts": {
     "dev": "next dev --webpack -p 3333",
     "build": "next build --webpack",
+    "build:local": "env-cmd -f .env.local pnpm run build",
     "build:prod": "env-cmd -f env/.env.prod pnpm run build",
-    "build:test": "env-cmd -f env/.env.dev pnpm run build",
     "build:all": "pnpm run install:fetch && pnpm run install:post-fetch && pnpm run validation && next build --webpack",
     "start": "serve out -p 3334",
     "postbuild": "node scripts/postbuild.js",
