@@ -1,8 +1,0 @@
-:HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
-:HL["/_next/static/css/89c8d9ff9a6ce3b3.css","style"]
-:HL["/_next/static/css/1e4b76068ed840a7.css","style"]
-:HL["/_next/static/css/aab6d2f56179a687.css","style"]
-:HL["/_next/static/css/7275adbaa7755d79.css","style"]
-:HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/2acd7fb096663445.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"en-2026","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"je-anilo-prema-dhana-karuna-prachura","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lgd2FyCfeVqyKcgtI5wMd"}
