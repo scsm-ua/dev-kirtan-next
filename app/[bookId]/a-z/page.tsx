@@ -21,7 +21,7 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function AZPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const contents = await getIndexesByBookId(bookId);
+  const contents = getIndexesByBookId(bookId);
 
   const booksMap = getBooksMap();
   const book = booksMap[bookId];

@@ -21,7 +21,7 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function AuthorsPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const contents = await getAuthorsByBookId(bookId);
+  const contents = getAuthorsByBookId(bookId);
 
   const booksMap = getBooksMap();
   const book = booksMap[bookId];

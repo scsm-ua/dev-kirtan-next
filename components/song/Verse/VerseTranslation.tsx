@@ -21,17 +21,17 @@ function VerseTranslation({ isWide, isWBW, translation }: Props) {
   );
 
   return (
-    <ul className="VerseTranslation">
+    <div className="VerseTranslation">
       {processTranslationLines(translation, 'VerseTranslation').map((item, idx) => (
-        <li key={`${idx}-${item}`}>
+        <div key={`${idx}-${item}`}>
           {item.trim() === '---' ? (
             <hr className="VerseTranslation__separator" />
           ) : (
             <p className={cls} dangerouslySetInnerHTML={{ __html: item }} />
           )}
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 }
 

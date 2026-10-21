@@ -27,7 +27,7 @@ export type TSong = {
   hasLongVerses: boolean;
   meta: {
     author?: string;
-    first_line?: string;
+    first_line: string;
     alt_first_lines?: string | string[];
     'inline verse'?: 'non bold';
     page?: string | string[];

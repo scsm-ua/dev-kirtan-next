@@ -23,7 +23,7 @@ export function getPageMeta(
       canonical: getSongPath(bookId, slug)
     },
     description: title,
-    openGraph: getOG(bookId, title, title, getSongPath(bookId, slug)),
+    openGraph: getOG(bookId, title, title, getSongPath(bookId, slug), 'article'),
     robots: ROBOTS,
     title: title,
     twitter: getTwitter(bookId, title, title)

@@ -41,7 +41,7 @@ function SongHeader({ bookId, song }: Props) {
       {groupLines(author || []).map((group, index) => (
         <div className="SongHeader__author" key={index}>
           {renderLines(group, (line) => (
-            <a href={authorHref}>{line}</a>
+            <a href={authorHref} rel="author">{line}</a>
           ))}
         </div>
       ))}

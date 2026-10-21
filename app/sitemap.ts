@@ -41,21 +41,15 @@ function mapGroups(groups: TContentGroup[], bookId) {
 async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const bookIds = getBookIdList();
 
-  return Promise.all(
-    bookIds.map((bookId) => getContentsByBookId(bookId))
-  )
-    .then((contentsArr: Array<TContentGroup[]>) =>
-      contentsArr.flatMap((groups: TContentGroup[], idx: number) =>
-        mapGroups(groups, bookIds[idx])
-      )
-    )
-    .catch(console.error) as any;
+  return bookIds.flatMap((bookId) =>
+    mapGroups(getContentsByBookId(bookId), bookId)
+  );
 }
 
 /**
  *
  */
-function getXmlItem(path: string, priority: number, freq = 'weekly') {
+function getXmlItem(path: string, priority: number, freq: 'weekly' | 'monthly' = 'weekly') {
   return {
     url: getAbsoluteUrl(path), // Paths end with `/` to prevent redirects.
     changeFrequency: freq,

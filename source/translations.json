@@ -92,7 +92,9 @@
       "SHOW_TRANSLATION": "Parādīt tulkojumu",
       "PAGE_NUMBER": "lappuses numurs",
       "NEXT": "Nākošais",
-      "AUDIO_CAPTION": "Klausies audio:"
+      "AUDIO_CAPTION": "Klausies audio:",
+      "META_DESCRIPTION": "{title} — vaišnavu dziesma ar vārdiem, tulkojumu latviešu valodā un skaidrojumu vārdu pa vārdam. Autors — {author}. No grāmatas «{book}».",
+      "META_DESCRIPTION_NO_AUTHOR": "{title} — vaišnavu dziesma ar vārdiem, tulkojumu latviešu valodā un skaidrojumu vārdu pa vārdam. No grāmatas «{book}»."
     },
     "DISPLAY_MODE_MENU": {
       "SHOW_ALL": "Rādīt visu",
@@ -238,7 +240,9 @@
       "SHOW_TRANSLATION": "Show verses / translation",
       "PAGE_NUMBER": "page number",
       "NEXT": "Next",
-      "AUDIO_CAPTION": "Listen audio:"
+      "AUDIO_CAPTION": "Listen audio:",
+      "META_DESCRIPTION": "{title} — a Vaiṣṇava song by {author} with lyrics, English translation and word-by-word meaning. From {book}.",
+      "META_DESCRIPTION_NO_AUTHOR": "{title} — a Vaiṣṇava song with lyrics, English translation and word-by-word meaning. From {book}."
     },
     "DISPLAY_MODE_MENU": {
       "SHOW_ALL": "Show all",
@@ -384,7 +388,9 @@
       "SHOW_TRANSLATION": "Mostrar traducción",
       "PAGE_NUMBER": "número de página",
       "NEXT": "Próxima",
-      "AUDIO_CAPTION": "Escuchar audio:"
+      "AUDIO_CAPTION": "Escuchar audio:",
+      "META_DESCRIPTION": "{title} — una canción vaiṣṇava de {author} con letra, traducción al español y significado palabra por palabra. Del libro «{book}».",
+      "META_DESCRIPTION_NO_AUTHOR": "{title} — una canción vaiṣṇava con letra, traducción al español y significado palabra por palabra. Del libro «{book}»."
     },
     "DISPLAY_MODE_MENU": {
       "SHOW_ALL": "Mostrar todo",
@@ -530,7 +536,9 @@
       "SHOW_TRANSLATION": "Показывать стихи / перевод",
       "PAGE_NUMBER": "номер страницы",
       "NEXT": "Следующий",
-      "AUDIO_CAPTION": "Слушать аудио:"
+      "AUDIO_CAPTION": "Слушать аудио:",
+      "META_DESCRIPTION": "{title} — вайшнавская песня с текстом, русским переводом и пословным разбором. Автор — {author}. Из сборника «{book}».",
+      "META_DESCRIPTION_NO_AUTHOR": "{title} — вайшнавская песня с текстом, русским переводом и пословным разбором. Из сборника «{book}»."
     },
     "DISPLAY_MODE_MENU": {
       "SHOW_ALL": "Показать всё",
@@ -689,7 +697,9 @@
       "SHOW_TRANSLATION": "Показувати вірші / переклад",
       "PAGE_NUMBER": "номер сторінки",
       "NEXT": "Наступний",
-      "AUDIO_CAPTION": "Слухати аудіо:"
+      "AUDIO_CAPTION": "Слухати аудіо:",
+      "META_DESCRIPTION": "{title} — вайшнавська пісня з текстом, українським перекладом і послівним розбором. Автор — {author}. Зі збірки «{book}».",
+      "META_DESCRIPTION_NO_AUTHOR": "{title} — вайшнавська пісня з текстом, українським перекладом і послівним розбором. Зі збірки «{book}»."
     },
     "DISPLAY_MODE_MENU": {
       "SHOW_ALL": "Показати все",
@@ -848,7 +858,9 @@
       "SHOW_TRANSLATION": "Mostrar tradução",
       "PAGE_NUMBER": "número da página",
       "NEXT": "Próximo",
-      "AUDIO_CAPTION": "Ouvir áudio:"
+      "AUDIO_CAPTION": "Ouvir áudio:",
+      "META_DESCRIPTION": "{title} — uma canção vaiṣṇava de {author} com letra, tradução em português e significado palavra por palavra. Do livro «{book}».",
+      "META_DESCRIPTION_NO_AUTHOR": "{title} — uma canção vaiṣṇava com letra, tradução em português e significado palavra por palavra. Do livro «{book}»."
     },
     "DISPLAY_MODE_MENU": {
       "SHOW_ALL": "Mostrar tudo",

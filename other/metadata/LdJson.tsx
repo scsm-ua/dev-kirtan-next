@@ -1,4 +1,5 @@
 import { getAbsoluteUrl, getSongbookPagePath, getSongbookPath } from '@/other/paths';
+import { getSiteGraphNodes } from '@/other/metadata/helpers/getSiteGraphNodes';
 import { SITE } from '@/other/constants';
 import { translate } from '@/other/i18n';
 
@@ -26,23 +27,7 @@ function LdJson({ bookId, pageKey, page }: Props) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'Organization',
-        '@id': 'https://scsmath.com/#organization',
-        name: 'Sri Chaitanya Saraswat Math',
-        url: 'https://scsmath.com/'
-      },
-      {
-        '@type': 'WebSite',
-        '@id': SITE.ORIGIN + '#website',
-        url: SITE.ORIGIN,
-        name: 'Kirtan Site',
-        description:
-          'A digital Vaishnava songbook with lyrics, translations, and audio recordings.',
-        publisher: {
-          '@id': 'https://scsmath.com/#organization'
-        }
-      },
+      ...getSiteGraphNodes(),
       {
         '@type': 'CollectionPage',
         '@id': url,

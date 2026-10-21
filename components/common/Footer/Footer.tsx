@@ -74,11 +74,11 @@ function Footer({ bookId, page }: Props) {
   return (
     <footer className="Footer">
       <div className="Footer__container">
-        <div className="Footer__content">
+        <nav aria-label="Songbook navigation" className="Footer__content">
           {items.map((item: TFooterNavItemProps) => (
             <FooterItem key={item.label} {...item} />
           ))}
-        </div>
+        </nav>
       </div>
     </footer>
   );

@@ -50,7 +50,7 @@ function firstLineKey(s: string): string {
  * `sort_order`. Rows are built walking books in that order; `firstLine` comes
  * from the first book (by that order) that contains the song.
  */
-export async function getAnalyzeData(currentBookId: string): Promise<TAnalyzeData> {
+export function getAnalyzeData(currentBookId: string): TAnalyzeData {
   const booksMap = getBooksMap();
 
   const books: Array<TAnalyzeBook> = Object.keys(booksMap)
@@ -65,7 +65,7 @@ export async function getAnalyzeData(currentBookId: string): Promise<TAnalyzeDat
   const rowMap = new Map<string, TAnalyzeRow>();
 
   for (const { bookId } of books) {
-    const groups = await getContentsByBookId(bookId);
+    const groups = getContentsByBookId(bookId);
     for (const group of groups as Array<TContentGroup>) {
       for (const item of group.items) {
         if (item.type !== ITEM_TYPE.SONG) continue;

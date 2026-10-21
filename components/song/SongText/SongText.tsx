@@ -134,7 +134,7 @@ function SongText({ bookId, label, song }: Props) {
   }, []);
 
   return (
-    <main className={contentCls}>
+    <section className={contentCls}>
       {mode ? (
         <>
           {(hasVersesText && (hasVersesTranslations || hasWbw)) && (
@@ -206,7 +206,7 @@ function SongText({ bookId, label, song }: Props) {
             </div>
           )}
 
-          <ul className="SongText__list">
+          <div className="SongText__list">
             {song.verses.map((verse: TVerse, idx: number, arr: TVerse[]) => (
               <Verse
                 hasWbw={hasWbw}
@@ -220,12 +220,12 @@ function SongText({ bookId, label, song }: Props) {
                 wbwMode={effectiveWbwMode}
               />
             ))}
-          </ul>
+          </div>
         </>
       ) : (
         <SongLoader />
       )}
-    </main>
+    </section>
   );
 }
 

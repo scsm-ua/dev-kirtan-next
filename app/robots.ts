@@ -12,7 +12,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       ...(process.env.NEXT_PUBLIC_ENV === 'production'
-        ? { allow: '/' }
+        ? { allow: '/', disallow: '/*/search/' }
         : { disallow: '/' })
     },
     sitemap: encodeURI(SITE.ORIGIN + FILES.SITEMAP)

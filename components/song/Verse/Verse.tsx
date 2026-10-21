@@ -77,7 +77,7 @@ function Verse({
   );
 
   return (
-    <li className={(classnames as any)('Verse', verse.isLong && 'Verse--long')} data-mode={mode}>
+    <div className={(classnames as any)('Verse', verse.isLong && 'Verse--long')} data-mode={mode}>
       {subtitle?.length > 0 && showTranslation && (
         <div className={stCls}>
           {groupLines(subtitle).map((group, index) => (
@@ -95,7 +95,7 @@ function Verse({
 
       {length > 1 && number && (
         <header className="Verse__header">
-          <h6 className="Verse__title">{number}</h6>
+          <p className="Verse__title">{number}</p>
         </header>
       )}
 
@@ -139,7 +139,7 @@ function Verse({
           />
         </Collapse>
       )}
-    </li>
+    </div>
   );
 }
 

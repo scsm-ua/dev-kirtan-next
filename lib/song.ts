@@ -104,29 +104,26 @@ export async function getSongSlugParam({
 /**
  * Returns book descriptions of those books that contain the song.
  */
-export async function getBookDescriptionsByBook(
+export function getBookDescriptionsByBook(
   songSlug: string,
   booksMap: TBooksMap
-): Promise<Array<TBookDescription> | void> {
+): Array<TBookDescription> {
   const bookIds = Object.keys(booksMap);
 
-  return Promise.all(bookIds.map(getContentsByBookId))
-    .then((arrOfContents: Array<TContentGroup[]>) => {
-      return arrOfContents
-        .map(contents2slugs)
-        .map((items: Array<{ slug: string }>, idx: number): string | void => {
-          const slug = items.find((item) => item.slug === songSlug);
-          return slug && bookIds[idx];
-        })
-        .filter(Boolean)
-        .map((bookId: string) => booksMap[bookId])
-        .sort(
-          (a: TBookDescription, b: TBookDescription) =>
-            (a.sort_order || Number.MAX_SAFE_INTEGER) -
-            (b.sort_order || Number.MAX_SAFE_INTEGER)
-        );
+  return bookIds
+    .map(getContentsByBookId)
+    .map(contents2slugs)
+    .map((items: Array<{ slug: string }>, idx: number): string | void => {
+      const slug = items.find((item) => item.slug === songSlug);
+      return slug && bookIds[idx];
     })
-    .catch(console.error);
+    .filter(Boolean)
+    .map((bookId: string) => booksMap[bookId])
+    .sort(
+      (a: TBookDescription, b: TBookDescription) =>
+        (a.sort_order || Number.MAX_SAFE_INTEGER) -
+        (b.sort_order || Number.MAX_SAFE_INTEGER)
+    );
 }
 
 /**

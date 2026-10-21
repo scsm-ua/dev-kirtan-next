@@ -12,7 +12,6 @@ import { getBooksMap } from '@/lib/books';
 import { translate } from '@/other/i18n';
 
 import type { TContentBodyProps } from '@/lib/content/handler';
-import type { TBookDescription } from '@/types/book';
 import type { TSong } from '@/types/song';
 
 /**
@@ -28,15 +27,20 @@ async function SongBody({
   slug
 }: TContentBodyProps<TSong>) {
   const booksMap = getBooksMap();
-  const descriptions = (await getBookDescriptionsByBook(
-    slug,
-    booksMap
-  )) as TBookDescription[];
+  const descriptions = getBookDescriptionsByBook(slug, booksMap);
   const telegraphUrl = await getTelegraphUrl(bookId, slug);
 
   return (
     <ContentShell
-      after={<LdJsonSong bookId={bookId} slug={slug} song={song} />}
+      after={
+        <LdJsonSong
+          bookDescriptions={descriptions}
+          bookId={bookId}
+          bookTitle={book.title}
+          slug={slug}
+          song={song}
+        />
+      }
       bookId={bookId}
       bookTitle={book.title}
       controls={

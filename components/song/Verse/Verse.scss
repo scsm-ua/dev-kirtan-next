@@ -39,6 +39,7 @@
     line-height: 24px;
     margin-bottom: 10px;
     padding: 0 16px;
+    color: var(--title-color); // was an h6; keep the heading color
     background-color: var(--song-bg-color);
   }
 
