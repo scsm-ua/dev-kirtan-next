@@ -29,6 +29,9 @@
   }
 
   &__line {
+    // Now its <span> for copy paste without empty newline.
+    display: inline-block;
+    vertical-align: top;
     font-weight: 700;
     line-height: 24px;
     // Hanging indent: wrapped continuation lines sit 0.5em right of the
@@ -63,6 +66,16 @@
 
   &__light {
     font-weight: initial;
+  }
+
+  // Leading indent that is only meant for copy-paste: the characters are
+  // serialized to the clipboard but collapsed to zero size on screen
+  // (font-size + letter-spacing 0). line-height 0 keeps its inline box from
+  // inflating the row (otherwise indented lines grow past 24px).
+  &__copyIndent {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: 0;
   }
 }
 

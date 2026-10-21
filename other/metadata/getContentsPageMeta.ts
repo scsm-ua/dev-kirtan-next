@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 import { getPageMeta } from '@/other/metadata/helpers/getPageMeta';
-import { PATH } from '@/other/constants';
+import { SONGBOOK_PAGE } from '@/other/paths';
 import type { BookListPageProps } from '@/types/book';
 
 /**
@@ -16,6 +16,6 @@ export async function getContentsPageMeta({
     bookId,
     descriptionKey: 'CONTENTS_PAGE.HEAD.DESCRIPTION',
     titleKey: 'CONTENTS_PAGE.HEAD.TITLE',
-    pagePath: PATH.PAGE.CONTENTS
+    page: SONGBOOK_PAGE.CONTENTS
   });
 }

@@ -1,13 +1,10 @@
-- hide old en songbook, make new en songbook
-- bigger titles text "contents by titles"
-
 - how to handle audio variations?
 - how to handle additional vandanas just for history
 
 - move songbook images to resources?
 - make fallback songbook image
 
-- search: when google search started - hide numbers?
+- search: when google search started - hide numbers toolbar?
 
 ## New verse in translation formatting
 

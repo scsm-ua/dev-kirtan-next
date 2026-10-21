@@ -23,14 +23,14 @@ function SongLoader() {
         />
       </header>
 
-      <main className="SongLoader__main">
+      <div className="SongLoader__main">
         <Skeleton containerClassName="SongLoader__span" height={20} />
         <Skeleton containerClassName="SongLoader__span" height={20} />
 
         <div className="SongLoader__block">
           <Skeleton count={3} />
         </div>
-      </main>
+      </div>
     </div>
   );
 }

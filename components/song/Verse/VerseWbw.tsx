@@ -11,16 +11,16 @@ type Props = {
  */
 function VerseWbw({ lines }: Props) {
   return (
-    <ul className="VerseWbw">
+    <div className="VerseWbw">
       {processTranslationLines(lines, 'VerseWbw').map((item, idx) => (
-        <li key={idx}>
+        <div key={idx}>
           <p
             className="VerseWbw__paragraph"
             dangerouslySetInnerHTML={{ __html: item }}
           />
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 }
 

@@ -99,7 +99,7 @@ async function loadPage(slug: string, bookId: string): Promise<TPage | null> {
   const page = await getPageBySlug(slug, bookId);
   if (!page) return null;
 
-  const indexes = await getIndexesByBookId(bookId);
+  const indexes = getIndexesByBookId(bookId);
   const localized = localizeResourceImages(page.body, await getImagesMeta());
   const body = linkifyRelativeLinks(localized, bookId);
   return { ...page, body: linkifySongRefs(body, indexes, bookId) };

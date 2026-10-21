@@ -1,4 +1,5 @@
 import { escHtml as esc } from '@/other/exportDoc';
+import { getSongPath } from '@/other/paths';
 
 import type { TContentGroup } from '@/types/common';
 
@@ -117,7 +118,7 @@ export function linkifySongRefs(
       const text = byLine ? `<em>${esc(m[1])}</em>` : esc(m[1]);
 
       return (
-        `<p class="SongRef"><a class="song-ref" href="/${bookId}/${slug}/">` +
+        `<p class="SongRef"><a class="song-ref" href="${getSongPath(bookId, slug)}">` +
         `${text}</a> <span class="page-num">${esc(m[2])}</span></p>`
       );
     })

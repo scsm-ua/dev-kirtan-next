@@ -42,8 +42,8 @@ class AudioList extends PureComponent<Props, State> {
     const { audio, caption, language } = this.props;
 
     return (
-      <div className="AudioList">
-        {caption && <p className="AudioList__caption">{caption}</p>}
+      <section className="AudioList">
+        {caption && <h2 className="AudioList__caption">{caption}</h2>}
 
         <ul className="AudioList__list">
           {audio.map((a: TAudio) => {
@@ -60,7 +60,7 @@ class AudioList extends PureComponent<Props, State> {
             );
           })}
         </ul>
-      </div>
+      </section>
     );
   }
 }

@@ -37,11 +37,11 @@ function ContentShell({
   return (
     <Layout bookId={bookId} className="ContentPage" page={page} songId={slug}>
       <div className="Main__container ContentPage__container">
-        <div className="ContentPage__content">
+        <article className="ContentPage__content">
           <header className="ContentPage__header">
             <section className="ContentPage__top">
               <div className="ContentPage__info">
-                <h6 className="ContentPage__book">{bookTitle}</h6>
+                <p className="ContentPage__book">{bookTitle}</p>
 
                 <PageNumber
                   bookId={bookId}
@@ -59,7 +59,7 @@ function ContentShell({
           </header>
 
           {children}
-        </div>
+        </article>
       </div>
 
       <PrevNextNav navMap={nav} />

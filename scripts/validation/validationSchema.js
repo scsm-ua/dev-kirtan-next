@@ -299,7 +299,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         'SHOW_TRANSLATION',
         'PAGE_NUMBER',
         'NEXT',
-        'AUDIO_CAPTION'
+        'AUDIO_CAPTION',
+        'META_DESCRIPTION',
+        'META_DESCRIPTION_NO_AUTHOR'
       ],
       properties: {
         CLOSE: {
@@ -336,6 +338,12 @@ const TRANSLATION_VALIDATION_SCHEMA = {
           type: 'string'
         },
         AUDIO_CAPTION: {
+          type: 'string'
+        },
+        META_DESCRIPTION: {
+          type: 'string'
+        },
+        META_DESCRIPTION_NO_AUTHOR: {
           type: 'string'
         }
       }

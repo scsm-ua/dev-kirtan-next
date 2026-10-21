@@ -30,6 +30,7 @@
   &__book {
     margin-bottom: 0;
     font-size: 14px;
+    font-weight: 700; // was an h6; keep the heading look
     line-height: 28px;
     color: var(--dark-gray);
   }

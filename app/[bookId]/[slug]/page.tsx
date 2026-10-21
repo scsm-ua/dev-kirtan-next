@@ -25,13 +25,13 @@ async function ContentPage({ params }: ContentPageProps) {
   const { bookId, slug } = await params;
   if (!bookId || !slug) return notFound();
 
-  const item = await getContentItemBySlug(bookId, slug);
+  const item = getContentItemBySlug(bookId, slug);
   const handler = getContentHandler(item?.type);
 
   const data = await handler.load(slug, bookId);
   if (!data) return notFound();
 
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
   const book = booksMap[bookId];
   const nav = await getNavItems(slug, bookId);
 

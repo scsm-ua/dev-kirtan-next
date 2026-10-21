@@ -47,13 +47,13 @@ function LearnVerse({ hasNumber, lines, meta, text }: Props) {
   return (
     <div className="LearnVerse">
       <span className="LearnVerse__gutter" aria-hidden />
-      <ul className="LearnVerse__lines">
+      <div className="LearnVerse__lines">
         {text.map((line, index) => {
           if (!getLineContent(line, meta, hasNumber)) {
             return (
-              <li key={index} className="LearnVerse__empty">
+              <div key={index} className="LearnVerse__empty">
                 <br />
-              </li>
+              </div>
             );
           }
 
@@ -63,7 +63,7 @@ function LearnVerse({ hasNumber, lines, meta, text }: Props) {
           );
 
           return (
-            <li className={cls} key={index}>
+            <div className={cls} key={index}>
               {lines[index].map(({ text: groupText, trans, sep, error }, i) => {
                 const wordCls = classNames(
                   'LearnVerse__word',
@@ -91,10 +91,10 @@ function LearnVerse({ hasNumber, lines, meta, text }: Props) {
                   </span>
                 );
               })}
-            </li>
+            </div>
           );
         })}
-      </ul>
+      </div>
     </div>
   );
 }

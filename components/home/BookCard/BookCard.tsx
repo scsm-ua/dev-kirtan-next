@@ -3,6 +3,7 @@
 import './BookCard.scss';
 import { displayVersionInfo } from '@/other/displayVersion';
 import { getBookLangLabel } from '@/other/helpers';
+import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { PATH } from '@/other/constants';
 import { saveBookChoice } from '@/other/userPreferrences';
 import { translate } from '@/other/i18n';
@@ -26,7 +27,7 @@ function BookCard({ bookDescription }: Props) {
   if (!useHiddenBooks(hidden)) return null;
 
   const handleClick = () => saveBookChoice(slug);
-  const href = `/${slug}${PATH.PAGE.A_Z}/`;
+  const href = getSongbookPagePath(slug, SONGBOOK_PAGE.A_Z);
 
   const src = PATH.IMG.COVER + 'banner-' + slug + '.jpg';
   const srcSet =

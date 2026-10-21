@@ -29,13 +29,6 @@ export const PATH = {
     LOGO: SITE.ORIGIN + 'images/svg/kirtan-site.svg',
     SVG: SITE.ORIGIN + 'images/svg/',
     THUMBNAIL: SITE.ORIGIN + 'images/thumbnail/'
-  },
-  PAGE: {
-    A_Z: '/a-z',
-    AUTHORS: '/authors',
-    BOOK_LIST: '',
-    CONTENTS: '/contents',
-    SEARCH: '/search'
   }
 };
 

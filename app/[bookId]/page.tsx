@@ -3,7 +3,6 @@ import { getBookIdParamList, getBooksMap } from '@/lib/books';
 import { getBookListPageMeta } from '@/other/metadata/getBookListPageMeta';
 import Layout from '@/components/common/Layout/Layout';
 import LdJson from '@/other/metadata/LdJson';
-import { PATH } from '@/other/constants';
 
 import type { BookListPageProps } from '@/types/book';
 
@@ -18,7 +17,7 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function BookListPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const booksMap = await getBooksMap();
+  const booksMap = getBooksMap();
 
   return (
     <Layout bookId={bookId}>
@@ -27,7 +26,6 @@ async function BookListPage({ params }: BookListPageProps) {
       <LdJson
         bookId={bookId}
         pageKey="BOOK_LIST_PAGE"
-        pagePath={PATH.PAGE.BOOK_LIST}
       />
     </Layout>
   );

@@ -1,20 +1,22 @@
-import { OpenGraph } from 'next/dist/lib/metadata/types/opengraph-types';
-
-import { getBannerUrlBase } from '@/other/helpers';
+import { getBannerUrlBase, getBookLocale } from '@/other/helpers';
+import { getAbsoluteUrl, getSongbookPath } from '@/other/paths';
 import { SITE } from '@/other/constants';
 
-import type { TImage } from '@/types/resources';
+import type { Metadata } from 'next';
 
+type TOpenGraph = NonNullable<Metadata['openGraph']>;
+type TOGType = 'website' | 'music.song' | 'article';
 
 /**
  * @param {string} bookId
  * @param {string} description
  * @param {string} title
- * @param {string} path*
+ * @param {string} path* — full relative path (e.g. from getSongPath), with slashes
+ * @param {TOGType} type* — defaults to `website`; song pages pass `music.song`
  */
-export function getOG(bookId, description, title, path?): Partial<OpenGraph> {
+export function getOG(bookId, description, title, path?, type: TOGType = 'website'): TOpenGraph {
   const imgBase = getBannerUrlBase(bookId);
-  const url = SITE.ORIGIN + bookId + '/' + (path || '');
+  const url = getAbsoluteUrl(path || getSongbookPath(bookId));
 
   const images = [
     {
@@ -36,8 +38,8 @@ export function getOG(bookId, description, title, path?): Partial<OpenGraph> {
     description: description,
     url: url,
     siteName: SITE.NAME,
-    locale: bookId.slice(0, 2), // todo: must be real locale, not just language
-    type: 'website',
+    locale: getBookLocale(bookId),
+    type: type,
     images: images
-  };
+  } as TOpenGraph;
 }

@@ -4,7 +4,9 @@
   max-width: var(--content-max-width);
 
   &__caption {
+    font-size: var(--font-size); // h2 tag, body-text look
     font-weight: 300;
+    line-height: 1.5;
     margin: 16px 0 0;
     color: var(--text-color);
   }

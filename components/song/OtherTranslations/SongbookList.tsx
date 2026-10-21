@@ -1,5 +1,6 @@
 import './SongbookList.scss';
 import SongBookItem from '@/components/song/OtherTranslations/SongBookItem';
+import { getSongPath } from '@/other/paths';
 import type { TBookDescription } from '@/types/book';
 
 /**/
@@ -16,7 +17,7 @@ function SongbookList({ bookId, bookDescriptions, slug }: Props) {
   return (
     <ul className="SongbookList">
       {bookDescriptions.map((description: TBookDescription) => {
-        const href = `/${description.slug}/${slug}/`;
+        const href = getSongPath(description.slug, slug);
 
         return (
           <SongBookItem

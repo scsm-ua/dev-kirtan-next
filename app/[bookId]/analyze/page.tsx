@@ -21,7 +21,7 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function AnalyzePage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const data = await getAnalyzeData(bookId);
+  const data = getAnalyzeData(bookId);
 
   return (
     <Layout bookId={bookId}>

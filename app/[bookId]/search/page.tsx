@@ -18,8 +18,8 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function SearchPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const pages = await getPagesList(bookId);
-  const booksMap = await getBooksMap();
+  const pages = getPagesList(bookId);
+  const booksMap = getBooksMap();
 
   const book = booksMap[bookId];
 

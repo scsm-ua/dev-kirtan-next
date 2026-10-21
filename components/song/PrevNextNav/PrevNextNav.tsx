@@ -25,7 +25,7 @@ function PrevNextNav({ navMap }: Props) {
   if (typeof pageQuery !== 'string') return null;
 
   return (
-    <div className="PrevNextNav">
+    <nav aria-label="Previous / next song" className="PrevNextNav">
       <div className="PrevNextNav__container">
         <div className="PrevNextNav__content">
           <PrevNextLink dir="prev" item={prevNext.prev as TNavItem} />
@@ -34,7 +34,7 @@ function PrevNextNav({ navMap }: Props) {
       </div>
 
       <SwipeNav prevNext={prevNext} />
-    </div>
+    </nav>
   );
 }
 

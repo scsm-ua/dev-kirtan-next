@@ -15,7 +15,7 @@ export async function getContentMeta({
   const { bookId, slug } = await params;
   if (!bookId || !slug) return null;
 
-  const item = await getContentItemBySlug(bookId, slug);
+  const item = getContentItemBySlug(bookId, slug);
   const handler = getContentHandler(item?.type);
 
   const data = await handler.load(slug, bookId);
