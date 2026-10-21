@@ -1,7 +1,12 @@
 /**/
+if (!process.env.NEXT_PUBLIC_ORIGIN) {
+  throw new Error('NEXT_PUBLIC_ORIGIN is not set');
+}
+
+/**/
 export const SITE = {
   NAME: 'Kirtan Site',
-  ORIGIN: process.env.NEXT_PUBLIC_ORIGIN || 'http://localhost:3333/'
+  ORIGIN: process.env.NEXT_PUBLIC_ORIGIN
 };
 
 /**/
