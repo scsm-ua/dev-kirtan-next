@@ -117,8 +117,17 @@ function pushLineVersions(result, item, line, seen) {
  * @returns {string}
  */
 function getAliasCleaned(item) {
-	return deburr(item.aliasName)
+	return stripMarks(deburr(item.aliasName))
 		.replace(/[«,\-'()\s]/g, '');
+}
+
+/**
+ * Removes combining marks (deburr keeps dot-below letters like `ṭ`).
+ * @param str {string}
+ * @returns {string}
+ */
+function stripMarks(str) {
+	return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
 /**
@@ -143,11 +152,15 @@ function processLineEnding(line) {
  * @returns {string}
  */
 function getFirstLetter(item) {
-	return ((item.aliasName.startsWith('(')
+	const letter = ((item.aliasName.startsWith('(')
 		|| item.aliasName.startsWith('‘')
 		|| item.aliasName.startsWith('«'))
 		? item.aliasName[1]
 		: item.aliasName[0]).toLowerCase();
+
+	// Unite Latin letters with diacritics (ā, ś, ṭ) under the base letter; keep Cyrillic (й, ё) as is.
+	const base = stripMarks(letter);
+	return /^[a-z]$/.test(base) ? base : letter;
 }
 
 /**/
