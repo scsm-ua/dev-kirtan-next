@@ -147,6 +147,8 @@ function getherPageIdxDict(groups, targetDir) {
   let itemIdx = 0;
 
   const usedMultipages = {};
+  /** @type {{ [page: string]: Set<string> }} */
+  const claimedIds = {};
 
   groups.forEach((group) => {
     group.items.forEach((item) => {
@@ -169,7 +171,12 @@ function getherPageIdxDict(groups, targetDir) {
   
           if (page) {
             const key = String(page);
-            (dict[key] = dict[key] || []).push(itemIdx);
+            const ids = (claimedIds[key] = claimedIds[key] || new Set());
+            // Same song listed twice in contents is not a page collision.
+            if (!ids.has(item.id)) {
+              ids.add(item.id);
+              (dict[key] = dict[key] || []).push(itemIdx);
+            }
           }
 
         } else {
