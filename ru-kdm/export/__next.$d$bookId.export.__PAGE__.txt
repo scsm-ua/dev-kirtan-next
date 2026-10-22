@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T19140,<h1 class="book-title">Колесница Джаганнатха</h1>
+3:T1913a,<h1 class="book-title">Колесница Джаганнатха</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -14,7 +14,7 @@
 <p class="toc-item" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">Прабхати Гити<span class="page-num"> — 38</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">Шри Нама-Киртан<span class="page-num"> — 60</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">Шри Шачинандана-вандана<span class="page-num"> — 61</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">Туласи пранам мантра<span class="page-num"> — 21</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">Гурудев<span class="page-num"> — 68</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">Арунодойа-киртан (часть 1)<span class="page-num"> — 42</span></a></p>
@@ -33,7 +33,7 @@
 <h2 class="toc-item-group">⸻</h2>
 <p class="toc-item" data-translated="1"><a href="#song-cheto-darpana-marjanam">Шри Шикшаштакам<span class="page-num"> — 182</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">Нама-санкиртан<span class="page-num"> — 55</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22</span></a></p>
 </section>
 <section class="category">
 <h1>Арати</h1>
@@ -946,7 +946,7 @@
 <p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">джайа ‘гуру-маха̄ра̄джа’ джати-ра̄джеш́вара<span class="page-num"> — 72</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">джайа гуру маха̄ра̄джа корун̣а̄-са̄гара<span class="page-num"> — 36</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">джайа джайа гурудевер а̄рати уджвала<span class="page-num"> — 70</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jaya-sa-parikara">джайа са-парикара<span class="page-num"> — 22/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-sa-parikara">джайа са-парикара<span class="page-num"> — 22</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">джайа ш́ачӣнандана сура-муни-вандана<span class="page-num"> — 61</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">джаш́оматӣ-нандана браджа-баро на̄гара<span class="page-num"> — 60</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">джӣв джа̄го, джӣв джа̄го, гаурача̄н̇да боле<span class="page-num"> — 43</span></a></p>
@@ -965,7 +965,7 @@
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">ш́рӣ-сиддха̄нта-сарасватӣти видито<span class="page-num"> — 15</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MyM9Kxeh2WzK6wzARNlSN"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"M6qhjcGhfRU55tTv-YWPZ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

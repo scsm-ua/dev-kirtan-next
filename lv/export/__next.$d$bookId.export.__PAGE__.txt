@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T618b0,<h1 class="book-title">Gaudija Gītandžalī</h1>
+3:T61840,<h1 class="book-title">Gaudija Gītandžalī</h1>
 <p class="nav-links"><a href="#first-lines">↓ Indekss</a></p>
 <section class="toc" id="toc">
 <h1>Saturs</h1>
@@ -4369,9 +4369,8 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <h2 class="first-line-group">A</h2>
 <p class="first-line" data-translated="1"><a href="#song-anadi-karama-phole">anādi karama-phole<span class="page-num"> — 187</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-aparadha-phole-mama">aparādha-phole mama<span class="page-num"> — 188</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra gorā avatāra<span class="page-num"> — 121</span></a></p>
-<h2 class="first-line-group">Ā</h2>
 <p class="first-line" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">ātma-nivedana, tuyā pade kori<span class="page-num"> — 160</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra gorā avatāra<span class="page-num"> — 121</span></a></p>
 <h2 class="first-line-group">B</h2>
 <p class="first-line" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">bhajahu̐ re mana śrī-nanda-nandana<span class="page-num"> — 146</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">bondhu-goṇ! śunoho vachana mora<span class="page-num"> — 191/2</span></a></p>
@@ -4449,9 +4448,6 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">sakala vaiṣṇava-pade mora namaskāra<span class="page-num"> — 21/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">sakhi go kemote dhoribo parāṇ<span class="page-num"> — 191/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 48</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 78</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 85</span></a></p>
-<h2 class="first-line-group">Ś</h2>
 <p class="first-line" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">śrī guru charaṇa-padma, kevala-bhakati<span class="page-num"> — 80</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">śrī kṛṣṇa chaitanya prabhu dayā kara more<span class="page-num"> — 75</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-jive-daya-kori">śrī-kṛṣṇa-chaitanya prabhu jīve dayā kori’<span class="page-num"> — 50</span></a></p>
@@ -4461,12 +4457,13 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-shri-rupa-manjari-pada-sei-mora-sampada">śrī-rūpa-mañjarī-pada, sei mora sampada<span class="page-num"> — 173</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-sanatananu-rupa-jiva-sampradayakam">śrī-sanātanānu-rūpa-jīva-sampradāyakaṁ<span class="page-num"> — 101</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">śrī-siddhānta-sarasvatīti vidito<span class="page-num"> — 15</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 78</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 85</span></a></p>
 <h2 class="first-line-group">T</h2>
-<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">tuhu̐ dayā-sāgara tārayite prāṇī<span class="page-num"> — 185/1</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">tumi sarveśvareśvara, vrajendra-kumāra!<span class="page-num"> — 162</span></a></p>
-<h2 class="first-line-group">Ṭ</h2>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">ṭhākura vaiṣṇava-gaṇa kori ei nivedana<span class="page-num"> — 134/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">ṭhākura-vaiṣṇava-pada, avanīra<span class="page-num"> — 134/2</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">tuhu̐ dayā-sāgara tārayite prāṇī<span class="page-num"> — 185/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">tumi sarveśvareśvara, vrajendra-kumāra!<span class="page-num"> — 162</span></a></p>
 <h2 class="first-line-group">U</h2>
 <p class="first-line" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">udilo aruṇa pūraba-bhāge<span class="page-num"> — 42/2</span></a></p>
 <h2 class="first-line-group">V</h2>
@@ -4481,7 +4478,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 104</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 192</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MyM9Kxeh2WzK6wzARNlSN"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"M6qhjcGhfRU55tTv-YWPZ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

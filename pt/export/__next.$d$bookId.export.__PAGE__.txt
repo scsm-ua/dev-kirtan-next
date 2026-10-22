@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T999ef,<h1 class="book-title">Livro de Kirtan</h1>
+3:T9997f,<h1 class="book-title">Livro de Kirtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Conteúdo</h1>
@@ -5867,12 +5867,11 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <h1>Índice</h1>
 <h2 class="first-line-group">A</h2>
 <p class="first-line" data-translated="1"><a href="#song-akrodha-paramananda">akrodha paramānanda<span class="page-num"> — 73</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-amara-jivana-sada-pape-rata">āmāra jīvana<span class="page-num"> — 108</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-anadi-karama-phole">anādi karama-phale<span class="page-num"> — 144</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-aparadha-phole-mama">aparādha-phale mama<span class="page-num"> — 146</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra<span class="page-num"> — 85/2</span></a></p>
-<h2 class="first-line-group">Ā</h2>
-<p class="first-line" data-translated="1"><a href="#song-amara-jivana-sada-pape-rata">āmāra jīvana<span class="page-num"> — 108</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">ātma-nivedana<span class="page-num"> — 115</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra<span class="page-num"> — 85/2</span></a></p>
 <h2 class="first-line-group">B</h2>
 <p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">(bandhu-gaṇa) śunaha vachana<span class="page-num"> — 153</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">bhāi re! śarīra avidyā-jāla jaḍendriya tāhe kāla<span class="page-num"> — 230/2</span></a></p>
@@ -5968,9 +5967,6 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">(sakhi go) kemate dhariba parāṇa<span class="page-num"> — 152</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 51</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">sarvasva tomāra<span class="page-num"> — 113</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 159</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 169</span></a></p>
-<h2 class="first-line-group">Ś</h2>
 <p class="first-line" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">śrī guru charaṇa-padma<span class="page-num"> — 61</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-hari-vasare-hari-kirtana-vidhana">śrī hari-vāsare hari-kīrtana-vidhāna<span class="page-num"> — 211</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">śrī kṛṣṇa chaitanya prabhu dayā kara more<span class="page-num"> — 62</span></a></p>
@@ -5981,12 +5977,13 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <p class="first-line" data-translated="1"><a href="#song-shri-sanatananu-rupa-jiva-sampradayakam">śrī sanātanānurūpa-jīva-sampradāyakaṁ<span class="page-num"> — 193</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">śrī-siddhānta-sarasvatīti vidito<span class="page-num"> — 44/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shiuddha-bhakata-charana-renu">śuddha-bhakata-charaṇa-reṇu<span class="page-num"> — 214</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 159</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">śunaha vachana<span class="page-num"> — 153</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 169</span></a></p>
 <h2 class="first-line-group">T</h2>
-<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">tuhu̐ dayā-sāgara tārayite prāṇī<span class="page-num"> — 137</span></a></p>
-<h2 class="first-line-group">Ṭ</h2>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">ṭhākura vaiṣṇava-gaṇa<span class="page-num"> — 66</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">ṭhākura-vaiṣṇava-pada<span class="page-num"> — 68</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">tuhu̐ dayā-sāgara tārayite prāṇī<span class="page-num"> — 137</span></a></p>
 <h2 class="first-line-group">U</h2>
 <p class="first-line" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">udila aruṇa pūrava-bhāge<span class="page-num"> — 34</span></a></p>
 <h2 class="first-line-group">V</h2>
@@ -6005,7 +6002,7 @@ Mais tarde, em Kāśī, o Senhor descreveu elaboradamente a Śrīla Sanātan Gos
 <p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">ye ānila prema-dhana<span class="page-num"> — 207</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 155</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MyM9Kxeh2WzK6wzARNlSN"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-pt","lang":"pt","title":"Livro de Kirtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"M6qhjcGhfRU55tTv-YWPZ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

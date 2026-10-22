@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T50730,<h1 class="book-title">Pocket Kirtan Guide</h1>
+3:T506e4,<h1 class="book-title">Pocket Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -4650,10 +4650,9 @@ five forms of sustenance.</p>
 <h1>Index</h1>
 <h2 class="first-line-group">A</h2>
 <p class="first-line" data-translated="1"><a href="#song-akrodha-paramananda">akrodha paramānanda<span class="page-num"> — 67</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra<span class="page-num"> — 81/2</span></a></p>
-<h2 class="first-line-group">Ā</h2>
 <p class="first-line" data-translated="1"><a href="#song-amara-jivana-sada-pape-rata">āmāra jīvana<span class="page-num"> — 105</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">ātma-nivedana<span class="page-num"> — 111</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra<span class="page-num"> — 81/2</span></a></p>
 <h2 class="first-line-group">B</h2>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-bhakata-vatsala-shri-gaurahari">bhaja bhakata-vatsala<span class="page-num"> — 19</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">bhajahu̐ re mana<span class="page-num"> — 96</span></a></p>
@@ -4729,16 +4728,15 @@ five forms of sustenance.</p>
 <h2 class="first-line-group">S</h2>
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 45</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">sarvasva tomāra, charaṇe sa̐piyā<span class="page-num"> — 110</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 132</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 138</span></a></p>
-<h2 class="first-line-group">Ś</h2>
 <p class="first-line" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">śrī guru charaṇa-padma<span class="page-num"> — 54</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-hari-vasare-hari-kirtana-vidhana">śrī hari-vāsare hari-kīrtana-vidhāna<span class="page-num"> — 158</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">śrī kṛṣṇa chaitanya prabhu dayā kara more<span class="page-num"> — 55</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-jive-daya-kori">śrī-kṛṣṇa-chaitanya prabhu jīve dayā kari’<span class="page-num"> — 48</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-sanatananu-rupa-jiva-sampradayakam">śrī-sanātanānu-rūpa-jīva-sampradāyakaṁ<span class="page-num"> — 144</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shiuddha-bhakata-charana-renu">śuddha-bhakata-charaṇa-reṇu<span class="page-num"> — 161</span></a></p>
-<h2 class="first-line-group">Ṭ</h2>
+<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 132</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 138</span></a></p>
+<h2 class="first-line-group">T</h2>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">ṭhākura vaiṣṇava-gaṇa<span class="page-num"> — 59</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">ṭhākura-vaiṣṇava-pada<span class="page-num"> — 62</span></a></p>
 <h2 class="first-line-group">U</h2>
@@ -4755,7 +4753,7 @@ five forms of sustenance.</p>
 <p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">yaśomatī-nandana<span class="page-num"> — 16</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">ye ānila prema-dhana<span class="page-num"> — 153</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-pe","lang":"en","title":"Pocket Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MyM9Kxeh2WzK6wzARNlSN"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-pe","lang":"en","title":"Pocket Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"M6qhjcGhfRU55tTv-YWPZ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

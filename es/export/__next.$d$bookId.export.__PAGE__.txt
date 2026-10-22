@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T19f988,<h1 class="book-title">Guía de Kīrtan</h1>
+3:T19f918,<h1 class="book-title">Guía de Kīrtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Contenido</h1>
@@ -10260,17 +10260,16 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <h1>Índice</h1>
 <h2 class="first-line-group">A</h2>
 <p class="first-line" data-translated="1"><a href="#song-akrodha-paramananda">akrodha paramānda nityānanda rāy<span class="page-num"> — 120</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-amara-jivana-sada-pape-rata">āmāra jīvana, sadā pāpe rata<span class="page-num"> — 187</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-anadi-karama-phole">anādi karama-phole, poḍi bhavārṇava-jole<span class="page-num"> — 224</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-anya-abhilasha-chadi-jniana-karma-parihari">anya-abhilāsa chāḍi jñāna karma parihari<span class="page-num"> — 211</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-aparadha-phole-mama">aparādha-phole mama chitta bhela vajra sama<span class="page-num"> — 225</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-ara-keno-maya-jale">āra keno māyā-jāle<span class="page-num"> — 407</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-aruna-basane-sonara-suraja">aruṇa vasane sonara sūraja<span class="page-num"> — 138</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-atha-govardhane-ramye-surabhi">atha govardhane<span class="page-num"> — 399</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra gorā avatāra<span class="page-num"> — 131</span></a></p>
-<h2 class="first-line-group">Ā</h2>
-<p class="first-line" data-translated="1"><a href="#song-amara-jivana-sada-pape-rata">āmāra jīvana, sadā pāpe rata<span class="page-num"> — 187</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-ara-keno-maya-jale">āra keno māyā-jāle<span class="page-num"> — 407</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">ātma-nivedana, tuyā pade kori<span class="page-num"> — 185</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-atma-samarpane-gela-abhimana">ātma-samarpaṇe gelā abhimāna<span class="page-num"> — 192</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra gorā avatāra<span class="page-num"> — 131</span></a></p>
 <h2 class="first-line-group">B</h2>
 <p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">bandhu-gon! śunoho vachana mora<span class="page-num"> — 231</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">bhāi-re! śarīra avidyā-jāl<span class="page-num"> — 89</span></a></p>
@@ -10398,9 +10397,6 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">saṁsāra-dāvānala-līḍha-loka<span class="page-num"> — 61</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">samudra sambhavā<span class="page-num"> — 400/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">sarvasva tomāra, charaṇe sā̐piyā<span class="page-num"> — 191</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 109</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 327</span></a></p>
-<h2 class="first-line-group">Ś</h2>
 <p class="first-line" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">śrī guru charaṇa-padma<span class="page-num"> — 103</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-hari-vasare-hari-kirtana-vidhana">śrī hari-vāsare hari-kīrttana-vidhāna<span class="page-num"> — 301</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">śrī kṛṣṇa chaitanya prabhu dayā kara more<span class="page-num"> — 105</span></a></p>
@@ -10411,13 +10407,14 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-shri-sanatananu-rupa-jiva-sampradayakam">śrī-sanātanānu-rūpa-jīva-sampradāyakaṁ<span class="page-num"> — 351</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-svarupa-raya-rupa-jiva-bhava">śrī-svarūpa-rāya-rūpa-jīva-bhāva-sambharaṁ<span class="page-num"> — 389</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shiuddha-bhakata-charana-renu">śuddha bhakata-charaṇa-reṇu<span class="page-num"> — 305</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">sujanārvvuda-rādhita-pāda-yugaṁ<span class="page-num"> — 109</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shiuno-he-rasika-jon-krishna-guna-aganon">śuno, he rasika jana kṛṣṇa guṇa agaṇon<span class="page-num"> — 256</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">sūtra-vṛtti-ṭippanīṣṭa-sūkṣma-vāchanādbhutaṁ<span class="page-num"> — 327</span></a></p>
 <h2 class="first-line-group">T</h2>
-<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">tuhū̐ doyā-sāgara tārayite prāṇī<span class="page-num"> — 219</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">tumi sarvveśvareśvara, vrajendra-kumāra!<span class="page-num"> — 189</span></a></p>
-<h2 class="first-line-group">Ṭ</h2>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">ṭhākura vaiṣṇava gaṇa<span class="page-num"> — 68</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">ṭhākura-vaiṣṇava-pada<span class="page-num"> — 148</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">tuhū̐ doyā-sāgara tārayite prāṇī<span class="page-num"> — 219</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">tumi sarvveśvareśvara, vrajendra-kumāra!<span class="page-num"> — 189</span></a></p>
 <h2 class="first-line-group">U</h2>
 <p class="first-line" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">udila aruṇa pūrava-bhāge<span class="page-num"> — 56</span></a></p>
 <h2 class="first-line-group">V</h2>
@@ -10432,7 +10429,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 382</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 232</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MyM9Kxeh2WzK6wzARNlSN"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"M6qhjcGhfRU55tTv-YWPZ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

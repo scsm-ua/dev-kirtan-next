@@ -8752,9 +8752,9 @@
 <p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">вринда̄яй туласī-девʼяй<span class="page-num"> — 21/2</span></a></p>
 <h2 class="first-line-group">Ґ</h2>
 <p class="first-line" data-translated="0"><a href="#song-gauranga-bolite-hobe-pulaka-shorira">‘ґаура̄нґа’ боліте хобе пулака-шорīра<span class="page-num"> — 129</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gay-gora-madhur-svare">ґа̄й ґора̄ мадгур сваре<span class="page-num"> — 122</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">ґа̄іте ‘ґовінда’-на̄м, упаджіло бга̄ва-ґра̄м<span class="page-num"> — 190</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">ґа̄іте ґа̄іте на̄ма кі дошя хоіло<span class="page-num"> — 189</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-gay-gora-madhur-svare">ґа̄й ґора̄ мадгур сваре<span class="page-num"> — 122</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">ґаура-враджа̄шріта̄шєшайр вайшнавайр вандья-віґрахам<span class="page-num"> — 18</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-gaurangera-duti-pada-jar-dhana-sampada">ґаура̄нґера дуті пада, джа̄р дгана сампада<span class="page-num"> — 119</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-gaura-pahu-na-bhajiya-mainu">ґаура̄ паху на̄ бгаджія майну<span class="page-num"> — 120</span></a></p>
@@ -8910,7 +8910,7 @@
 <p class="first-line" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">яді те харі-па̄да-сароджа-судга̄</a></p>
 <p class="first-line" data-translated="0"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">ямуна̄мбу-кришна-ра̄дгіка̄лі-келі-мандалам<span class="page-num"> — 104</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"MyM9Kxeh2WzK6wzARNlSN"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"M6qhjcGhfRU55tTv-YWPZ"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
