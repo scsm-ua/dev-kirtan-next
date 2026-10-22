@@ -20,7 +20,7 @@ function create(groups) {
 	
 	groups.flatMap((group) => group.items)
 		.forEach((item) => {
-			if (item.id === 'intro' || item.id in uniqueIds) {
+			if (item.type === 'page' || item.id === 'intro' || item.id in uniqueIds) {
 				return;
 			}
 			

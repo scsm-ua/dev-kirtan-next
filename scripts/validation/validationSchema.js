@@ -54,7 +54,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
     AUTHORS_PAGE: {
       type: 'object',
       additionalProperties: false,
-      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE', 'NO_AUTHOR'],
+      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE', 'UNKNOWN_AUTHOR'],
       properties: {
         HEAD: {
           type: 'object',
@@ -85,7 +85,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         LINK_FULL_TITLE: {
           type: 'string'
         },
-        NO_AUTHOR: {
+        UNKNOWN_AUTHOR: {
           type: 'string'
         }
       }

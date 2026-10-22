@@ -21,7 +21,7 @@
         "DESCRIPTION": "Atklājiet vāišnavu bhadžanu un kīrtanu autorus."
       },
       "LINK_FULL_TITLE": "Autoru saraksts",
-      "NO_AUTHOR": "Bez autora"
+      "UNKNOWN_AUTHOR": "Nezināms autors"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -169,7 +169,7 @@
         "DESCRIPTION": "Discover authors of Vaishnava bhajans and kirtans."
       },
       "LINK_FULL_TITLE": "Songs by author",
-      "NO_AUTHOR": "No author"
+      "UNKNOWN_AUTHOR": "Unknown author"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -317,7 +317,7 @@
         "DESCRIPTION": "Descubra a los autores de bhajans y kirtans vaisnavas."
       },
       "LINK_FULL_TITLE": "Lista de autores",
-      "NO_AUTHOR": "Sin autor"
+      "UNKNOWN_AUTHOR": "Autor desconocido"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -465,7 +465,7 @@
         "DESCRIPTION": "Узнайте об авторах вайшнавских бхаджанов и киртанов."
       },
       "LINK_FULL_TITLE": "Песни по авторам",
-      "NO_AUTHOR": "Без автора"
+      "UNKNOWN_AUTHOR": "Неизвестный автор"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -626,7 +626,7 @@
         "DESCRIPTION": "Дізнайтеся про авторів вайшнавських бхаджанів та кіртанів."
       },
       "LINK_FULL_TITLE": "Пісні по авторам",
-      "NO_AUTHOR": "Без автора"
+      "UNKNOWN_AUTHOR": "Невідомий автор"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -787,7 +787,7 @@
         "DESCRIPTION": "Descubra os autores dos bhajans e kirtans vaisnavas."
       },
       "LINK_FULL_TITLE": "Canções por autor",
-      "NO_AUTHOR": "Sem autor"
+      "UNKNOWN_AUTHOR": "Autor desconhecido"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {

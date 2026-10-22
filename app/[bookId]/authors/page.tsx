@@ -10,7 +10,24 @@ import { SONGBOOK_PAGE } from '@/other/paths';
 import { translate } from '@/other/i18n';
 
 import type { BookListPageProps } from '@/types/book';
-import type { TContentGroup } from '@/types/common';
+import type { TContentGroup, TContentItem } from '@/types/common';
+
+/** Ignores leading quotes / brackets (e.g. `‘`, `(`). */
+function firstLineKey(s: string): string {
+  return s.replace(/^[\s‘’'"“(]+/, '');
+}
+
+/** Shows songs by first line (title kept as tooltip), sorted by it. */
+function byFirstLine(group: TContentGroup): TContentGroup {
+  const items = group.items
+    .map((item: TContentItem) => ({
+      ...item,
+      title: item.aliasName || item.title,
+      aliasName: item.title
+    }))
+    .sort((a, b) => firstLineKey(a.title).localeCompare(firstLineKey(b.title)));
+  return { ...group, items };
+}
 
 /**/
 export const generateMetadata = getAuthorsPageMeta;
@@ -26,19 +43,21 @@ async function AuthorsPage({ params }: BookListPageProps) {
   const booksMap = getBooksMap();
   const book = booksMap[bookId];
 
-  const label = translate(bookId, 'AUTHORS_PAGE.NO_AUTHOR');
   const items = contents.filter((g: TContentGroup) => g.name);
 
   const noAuthor = contents.find(
     (g: TContentGroup) => !g.name && g.items.length > 0
   );
 
-  if (noAuthor) {
-    items.push({
-      items: noAuthor.items,
-      name: label
-    });
-  }
+  const groups = noAuthor
+    ? [
+        ...items,
+        {
+          items: noAuthor.items,
+          name: translate(bookId, 'AUTHORS_PAGE.UNKNOWN_AUTHOR')
+        }
+      ]
+    : items;
 
   return (
     <Layout bookId={bookId}>
@@ -49,7 +68,7 @@ async function AuthorsPage({ params }: BookListPageProps) {
 
         <div className="Main__content">
           <AuthorBadges contents={items} />
-          <Authors bookId={bookId} contents={items} />
+          <Authors bookId={bookId} contents={groups.map(byFirstLine)} />
         </div>
 
         <LdJson bookId={bookId} pageKey="AUTHORS_PAGE" page={SONGBOOK_PAGE.AUTHORS} />
