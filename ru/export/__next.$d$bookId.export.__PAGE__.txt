@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T138258,<h1 class="book-title">Гаудия Гитанджали</h1>
+3:T1382fc,<h1 class="book-title">Гаудия Гитанджали</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -7661,7 +7661,7 @@
 <strong>млеччха̄н мӯрчхайате даш́а̄кр̣ти-кр̣те кр̣ш̣н̣а̄йа тубхйам̇ намах̣</strong></p>
 <p class="translation">О Господь Кришна, я склоняюсь перед Тобой — перед Тем, Кто является в этих десяти воплощениях. В облике Матсьи Ты спасаешь Веды, как Курма Ты несешь на спине гору Мандака. Как Вараха Ты возносишь на клыках Землю, в облике Нарасимхи Ты разрываешь грудь демону Хираньякашипу. В облике Ваманы Ты вводишь в заблуждение царя демонов Бали, испросив у него три шага земли, а затем, растянув Свои шаги, Ты забираешь у него всю Вселенную. Как Парашурама Ты убиваешь всех нечестивых <i>кшатриев</i>, как Рамачандра Ты побеждаешь царя-<i>ракшаса</i> Равану. В облике Баларамы Ты носишь плуг, которым усмиряешь грешников и подтягиваешь к Себе Ямуну. Как Господь Будда Ты проявляешь сострадание ко всем живым существам, страдающим в этом мире, а в конце Кали-юги Ты являешься как Калки и побеждаешь <i>млеччх</i> (деградировавших представителей низкого класса).<br>
 ---<br>
-(Дальше поётся "<i>джая варахадев</i>", "<i>джая нрисимхадев</i>", "<i>джая ваманадева</i>", "<i>"джая рамачандра</i>", "<i>джая баладева</i>" и т.д. — кто-то один на выбор, в соответствии с тем, чей день явления или кого прославляют.)</p>
+(Дальше поётся "<i class="translation__bold-italic">джая варахадев</i>", "<i class="translation__bold-italic">джая нрисимхадев</i>", "<i class="translation__bold-italic">джая ваманадева</i>", "<i class="translation__bold-italic">джая рамачандра</i>", "<i class="translation__bold-italic">джая баладева</i>" и т.д. — кто-то один на выбор, в соответствии с тем, чей день явления или кого прославляют.)</p>
 </div>
 </section>
 <section class="song" id="song-namas-te-narasimhaya" data-translated="1">
@@ -10507,7 +10507,7 @@
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">эмона гаура̄н̇га бине на̄хи а̄ра<span class="page-num"> — 126</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"G8daqmTAGE50gFAN7XWFC"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"v2qjeOTjLMuxZdYSZuCXA"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
