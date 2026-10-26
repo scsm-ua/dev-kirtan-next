@@ -4655,8 +4655,8 @@ five forms of sustenance.</p>
 <p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">avatāra sāra<span class="page-num"> — 81/2</span></a></p>
 <h2 class="first-line-group">B</h2>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-bhakata-vatsala-shri-gaurahari">bhaja bhakata-vatsala<span class="page-num"> — 19</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">bhajahu̐ re mana<span class="page-num"> — 96</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-re-bhaja-re-amar-mana-ati-manda">bhaja re bhaja re āmār<span class="page-num"> — 49</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bhajahu-re-mana-shri-nanda-nandana">bhajahu̐ re mana<span class="page-num"> — 96</span></a></p>
 <h2 class="first-line-group">C</h2>
 <p class="first-line" data-translated="1"><a href="#song-cheto-darpana-marjanam">cheto-darpaṇa-mārjanaṁ<span class="page-num"> — 128/2</span></a></p>
 <h2 class="first-line-group">D</h2>
@@ -4670,19 +4670,19 @@ five forms of sustenance.</p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">emana durmati<span class="page-num"> — 73</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">emana gaurāṅga vine nāhi āra<span class="page-num"> — 77</span></a></p>
 <h2 class="first-line-group">G</h2>
+<p class="first-line" data-translated="1"><a href="#song-gaura-pahu-na-bhajiya-mainu">gaurā pahu̐ nā<span class="page-num"> — 83</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gauranga-bolite-hobe-pulaka-shorira">‘gaurāṅga’ balite habe<span class="page-num"> — 113</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaurangera-duti-pada-jar-dhana-sampada">gaurāṅgera duṭi pada<span class="page-num"> — 72</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-gaura-pahu-na-bhajiya-mainu">gaurā pahu̐ nā<span class="page-num"> — 83</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gay-gora-madhur-svare">gāya gorā madhur svare<span class="page-num"> — 75</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gopinath-amara-upaya-nai">gopīnāth, āmāra upāya nāi<span class="page-num"> — 91</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gopinath-ghuchao-samsara-jvala">gopīnāth, ghuchāo saṁsāra-jvālā<span class="page-num"> — 89</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gopinath-mama-nivedana-shiuno">gopīnāth, mama nivedana śuna<span class="page-num"> — 87</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">gurudeva! kṛpā-bindu diyā<span class="page-num"> — 29</span></a></p>
 <h2 class="first-line-group">H</h2>
-<p class="first-line" data-translated="1"><a href="#song-haribolo-haribolo-haribolo-bhai-re">haribolo haribolo haribolo bhāi re<span class="page-num"> — 122</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-haraye-namah-krishna-yadavaya-namah">hari haraye namaḥ kṛṣṇa yādavāya namaḥ<span class="page-num"> — 165</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-hari-biphole-janama-goyainu">hari hari! viphale janama goṅāinu<span class="page-num"> — 107</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">hari he dayāla mora<span class="page-num"> — 93</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-haribolo-haribolo-haribolo-bhai-re">haribolo haribolo haribolo bhāi re<span class="page-num"> — 122</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-hari-nama-mahamantra-sarva-mantra-sara">hari-nāma mahāmantra sarva-mantra-sāra<span class="page-num"> — 124</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-he-deva-bhavantam-vande">he deva bhavantaṁ vande<span class="page-num"> — 99</span></a></p>
 <h2 class="first-line-group">J</h2>
@@ -4692,10 +4692,10 @@ five forms of sustenance.</p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">jaya jaya gurudever<span class="page-num"> — 8</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">(jaya) rādhā-mādhava<span class="page-num"> — 97/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-radha-krishna-jugala-milan">jaya rādhe, jaya kṛṣṇa<span class="page-num"> — 102</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">jayare jayare jaya gaura-sarasvatī<span class="page-num"> — 25</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">jaya śachī-nandana<span class="page-num"> — 17</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-sa-parikara">jaya saparikar<span class="page-num"> — 5</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-yashoda-nandana-krishna-gopala-govinda">(jaya) yaśodā-nandana kṛṣṇa<span class="page-num"> — 97/2</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jayare-jayare-jaya-gaura-sarasvati">jayare jayare jaya gaura-sarasvatī<span class="page-num"> — 25</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">jīva jāga, jīva jāga<span class="page-num"> — 32</span></a></p>
 <h2 class="first-line-group">K</h2>
 <p class="first-line" data-translated="1"><a href="#song-kobe-gaura-vane-suradhuni-tate">kabe gaura-vane<span class="page-num"> — 117</span></a></p>
@@ -4703,8 +4703,8 @@ five forms of sustenance.</p>
 <p class="first-line" data-translated="1"><a href="#song-kobe-shri-chaitanya-more-koribena-daya">kabe śrī chaitanya more karibena dayā<span class="page-num"> — 34</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">kali-kukkura-kadana yadi chāo he<span class="page-num"> — 15</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">ke yābi ke yābi bhāi<span class="page-num"> — 81/1</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">(kibā) jaya jaya gorāchā̐der<span class="page-num"> — 23</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ki-jani-ki-bale-tomara-dhamete">ki jāni ki bale<span class="page-num"> — 108</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">(kibā) jaya jaya gorāchā̐der<span class="page-num"> — 23</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ki-rupe-paibo-seva-mui-durachara">ki-rūpe pāiba sevā<span class="page-num"> — 61</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-krishna-hoite-chatur-mukha">kṛṣṇa haite chatur-mukha<span class="page-num"> — 149</span></a></p>
 <h2 class="first-line-group">M</h2>
@@ -4753,7 +4753,7 @@ five forms of sustenance.</p>
 <p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">yaśomatī-nandana<span class="page-num"> — 16</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-je-anilo-prema-dhana-karuna-prachura">ye ānila prema-dhana<span class="page-num"> — 153</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-pe","lang":"en","title":"Pocket Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ztyTU5HYKgmenPpDon0ub"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-pe","lang":"en","title":"Pocket Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8wqeC-gXpxDC-UBSE1hwH"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

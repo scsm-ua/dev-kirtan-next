@@ -8,15 +8,15 @@
 <section class="toc" id="toc">
 <h1>Содержание</h1>
 <h2 class="toc-item-group">Арати</h2>
-<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">Шри Гуру Арати<span class="page-num"> — 70</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">Шри Гуру Арати-стути<span class="page-num"> — 72</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">Шри Гуру Арати<span class="page-num"> — 44</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">Шри Гуру Арати-стути<span class="page-num"> — 46</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">Шри Шри Нитаи-Чаитанйа-Арати<span class="page-num"> — 36</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">Прабхати Гити<span class="page-num"> — 38</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">Шри Нама-Киртан<span class="page-num"> — 60</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">Шри Шачинандана-вандана<span class="page-num"> — 61</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">Шри Нама-Киртан<span class="page-num"> — 39</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">Шри Шачинандана-вандана<span class="page-num"> — 40</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jaya-sa-parikara">Джайа Дхвани<span class="page-num"> — 22</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">Туласи пранам мантра<span class="page-num"> — 21</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">Гурудев<span class="page-num"> — 68</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">Гурудев<span class="page-num"> — 41</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-udilo-aruna-puraba-bhage">Арунодойа-киртан (часть 1)<span class="page-num"> — 42</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">Арунодойа-киртан (часть 2)<span class="page-num"> — 43</span></a></p>
 <h2 class="toc-item-group">Вандана</h2>
@@ -933,22 +933,22 @@
 <section class="first-lines" id="first-lines">
 <h1>Индекс</h1>
 <h2 class="first-line-group">В</h2>
-<p class="first-line" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇<span class="page-num"> — 11</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">ванде бхактивинодам̇ ш́рӣ-гаура-ш́акти-сварӯпакам<span class="page-num"> — 17</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇<span class="page-num"> — 11</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">ва̄н̃чха̄-калпатарубхйаш́’ ча кр̣па̄-синдхубхйа эва ча<span class="page-num"> — 19</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">вр̣нда̄йаи туласӣ-девйаи<span class="page-num"> — 21</span></a></p>
 <h2 class="first-line-group">Г</h2>
 <p class="first-line" data-translated="1"><a href="#song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham">гаура-враджа̄ш́рита̄ш́еш̣аир ваиш̣н̣аваир вандйа-виграхам<span class="page-num"> — 18</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gurvabhishta-supurakam-guru-ganair">гурвва̄бхӣш̣т̣а-супӯракам̇ гуру-ган̣аир<span class="page-num"> — 13</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">гурудев! кр̣па̄-бинду дийа̄ коро’ эи да̄се<span class="page-num"> — 68</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gurudeva-kripa-bindu-diya-kara-ei-dase">гурудев! кр̣па̄-бинду дийа̄ коро’ эи да̄се<span class="page-num"> — 41</span></a></p>
 <h2 class="first-line-group">Д</h2>
 <p class="first-line" data-translated="1"><a href="#song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam">девам̇ дивйа-танум̇ сучанда-ваданам̇-ба̄ла̄рка-чела̄н̃читам̇<span class="page-num"> — 14</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">джайа ‘гуру-маха̄ра̄джа’ джати-ра̄джеш́вара<span class="page-num"> — 72</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-karuna-sagara">джайа гуру маха̄ра̄джа корун̣а̄-са̄гара<span class="page-num"> — 36</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">джайа джайа гурудевер а̄рати уджвала<span class="page-num"> — 70</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-guru-maharaja-jati-rajeshvara">джайа ‘гуру-маха̄ра̄джа’ джати-ра̄джеш́вара<span class="page-num"> — 46</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gurudever-arati-ujjvala">джайа джайа гурудевер а̄рати уджвала<span class="page-num"> — 44</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-sa-parikara">джайа са-парикара<span class="page-num"> — 22</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">джайа ш́ачӣнандана сура-муни-вандана<span class="page-num"> — 61</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">джаш́оматӣ-нандана браджа-баро на̄гара<span class="page-num"> — 60</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jaya-shiachinandana-sura-muni-vandana">джайа ш́ачӣнандана сура-муни-вандана<span class="page-num"> — 40</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-jashomati-nandana-vraja-vara-nagara">джаш́оматӣ-нандана браджа-баро на̄гара<span class="page-num"> — 39</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jiv-jago-jiv-jago-gaurachanda-bole">джӣв джа̄го, джӣв джа̄го, гаурача̄н̇да боле<span class="page-num"> — 43</span></a></p>
 <h2 class="first-line-group">К</h2>
 <p class="first-line" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">кали-куккура-кадана джади ча̄о хе<span class="page-num"> — 38</span></a></p>
@@ -965,7 +965,7 @@
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">ш́рӣ-сиддха̄нта-сарасватӣти видито<span class="page-num"> — 15</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ztyTU5HYKgmenPpDon0ub"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"8wqeC-gXpxDC-UBSE1hwH"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
