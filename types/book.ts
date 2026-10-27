@@ -6,6 +6,7 @@ export type TBookDescription = {
   sort_order: number;
   subtitle: string;
   title: string;
+  title_full_short?: string;
 };
 
 /**/

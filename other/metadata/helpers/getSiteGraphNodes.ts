@@ -17,8 +17,9 @@ export function getSiteGraphNodes() {
       '@id': SITE.ORIGIN + '#website',
       url: SITE.ORIGIN,
       name: SITE.NAME,
+      alternateName: ['Kirtan Guide', 'Vaishnava Songbook'],
       description:
-        'A digital Vaishnava songbook with lyrics, translations, and audio recordings.',
+        'A digital Vaishnava songbook and kirtan guide with lyrics, translations, and audio recordings.',
       publisher: {
         '@id': 'https://scsmath.com/#organization'
       }

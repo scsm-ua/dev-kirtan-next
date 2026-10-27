@@ -28,6 +28,7 @@ function HotkeysModal({ bookId, isOpen, onClose }: Props) {
     { keys: ['s'], desc: t('FOOTER.SEARCH') },
     { keys: ['e'], desc: 'Export songbook as HTML' }, // TODO: add HOTKEYS.EXPORT to translations.json
     { keys: ['a'], desc: 'Analyze songbooks' }, // TODO: add HOTKEYS.ANALYZE to translations.json
+    { keys: ['Shift+A'], desc: 'Authors (toggle unknown authors)' }, // TODO: add HOTKEYS.AUTHORS to translations.json
     { keys: ['l'], desc: `${t('SONG_PAGE.OTHER_TRANSLATIONS')} / ${t('FOOTER.BOOKS')}` },
     { keys: ['←'], desc: t('SONG_PAGE.PREVIOUS_SONG') },
     { keys: ['→'], desc: t('SONG_PAGE.NEXT_SONG') },

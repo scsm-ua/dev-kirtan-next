@@ -7,6 +7,7 @@ import {
   getSongbookPath,
   SONGBOOK_PAGE
 } from '@/other/paths';
+import { SHOW_UNKNOWN_AUTHORS_KEY } from '@/components/authors/UnknownAuthors';
 import { VIEW_MODE, WBW_MODE } from '@/types/common';
 import type { TViewMode, TWbwMode } from '@/types/common';
 
@@ -97,6 +98,15 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
 
         case 'a':
           router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.ANALYZE));
+          break;
+
+        case 'A':
+          if (subPage === SONGBOOK_PAGE.AUTHORS) {
+            window.dispatchEvent(new CustomEvent('kirtan:toggleUnknownAuthors'));
+          } else {
+            sessionStorage.setItem(SHOW_UNKNOWN_AUTHORS_KEY, '1');
+            router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS));
+          }
           break;
 
         case 'l':

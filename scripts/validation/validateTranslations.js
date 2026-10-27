@@ -46,15 +46,14 @@ function validateBookSlugs(slugs, translations) {
 	const languageKeysSchema = {
 		type: 'object',
 		properties: props,
-		required: required,
-		additionalProperties: false
+		required: required
 	};
 	
 	const validate = ajv.compile(languageKeysSchema);
 	const valid = validate(translations);
 	
 	if (!valid) {
-		console.error(chalk.bgRedBright.bold('Validation error: Missing or extra language in the translations.json!'));
+		console.error(chalk.bgRedBright.bold('Validation error: Missing language in the translations.json!'));
 		console.error(validate.errors);
 		console.error(chalk.bgRedBright('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'));
 		process.exit(1);

@@ -31,6 +31,7 @@ useGlobalHotkeys (hook)  ──► router.push(...)            // direct navigat
 | `c` | Navigate to `/{bookId}/contents` |
 | `i` | Navigate to `/{bookId}/a-z` |
 | `s` | Navigate to `/{bookId}/search` |
+| `Shift+A` | On authors page → `kirtan:toggleUnknownAuthors`; otherwise → `/{bookId}/authors` with the unknown-authors block shown (via `sessionStorage` flag) |
 | `l` | On song page → `kirtan:toggleOtherTranslations`; otherwise → `/{bookId}` |
 | `1` `2` `3` | Dispatch `kirtan:setMode` with `{ mode }` payload |
 | `4` `5` `6` | Dispatch `kirtan:setWbwMode` with `{ wbwMode }` payload (hide / inline / classical) |
@@ -91,6 +92,7 @@ All events use the `kirtan:` prefix. Use **camelCase** after the colon. Existing
 - `kirtan:setWbwMode` (carries `detail: { wbwMode: TWbwMode }`)
 - `kirtan:toggleOtherTranslations` (no payload)
 - `kirtan:prevSong` / `kirtan:nextSong` (no payload)
+- `kirtan:toggleUnknownAuthors` (no payload; consumed by `components/authors/UnknownAuthors.tsx`)
 
 When adding a new event:
 1. Declare the constant inline in the `switch` case in `useGlobalHotkeys.ts`

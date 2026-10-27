@@ -13,7 +13,6 @@ export async function getBookListPageMeta({
 
   return getPageMeta({
     bookId,
-    descriptionKey: 'BOOK_LIST_PAGE.HEAD.DESCRIPTION',
-    titleKey: 'BOOK_LIST_PAGE.HEAD.TITLE'
+    descriptionKey: 'BOOK_LIST_PAGE.HEAD.DESCRIPTION'
   });
 }

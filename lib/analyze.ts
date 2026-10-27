@@ -1,5 +1,6 @@
 import { getBooksMap } from '@/lib/books';
 import { getContentsByBookId } from '@/lib/contents';
+import { compareFirstLines } from '@/scripts/compareHelpers';
 import { ITEM_TYPE } from '@/types/common';
 import type { TContentGroup, TContentItem } from '@/types/common';
 
@@ -39,11 +40,6 @@ function formatPage(item: TContentItem): string | undefined {
   return item.page || undefined;
 }
 
-/** First-line sort key: ignores leading quotes / brackets (e.g. `‘`, `(`). */
-function firstLineKey(s: string): string {
-  return s.replace(/^[\s‘’'"“(]+/, '');
-}
-
 /**
  * Builds the cross-songbook matrix: every song (by slug) as a row, every
  * songbook as a column. The current book is placed first; the rest follow by
@@ -54,7 +50,6 @@ export function getAnalyzeData(currentBookId: string): TAnalyzeData {
   const booksMap = getBooksMap();
 
   const books: Array<TAnalyzeBook> = Object.keys(booksMap)
-    .filter((bookId) => !booksMap[bookId].hidden || bookId === currentBookId)
     .sort((a, b) => {
       if (a === currentBookId) return -1;
       if (b === currentBookId) return 1;
@@ -88,7 +83,7 @@ export function getAnalyzeData(currentBookId: string): TAnalyzeData {
     // Pre-sorted by first line so the client's default view needs no re-sort
     // (avoids a locale-collation hydration mismatch between Node and browser).
     rows: Array.from(rowMap.values()).sort((a, b) =>
-      firstLineKey(a.firstLine).localeCompare(firstLineKey(b.firstLine))
+      compareFirstLines(a.firstLine, b.firstLine)
     )
   };
 }

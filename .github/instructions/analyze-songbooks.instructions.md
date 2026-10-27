@@ -27,8 +27,8 @@ components/analyze/AnalyzeTable.scss layout + table chrome
 
 `getAnalyzeData(currentBookId)` returns `{ books, rows }`:
 
-- **books**: non-hidden books from `getBooksMap()` (plus the current book even
-  if hidden), ordered **current book first**, rest by `sort_order`.
+- **books**: all books from `getBooksMap()` (hidden ones included), ordered
+  **current book first**, rest by `sort_order`.
 - **rows**: one `TAnalyzeRow` per song slug, built by walking books in that
   order over `getContentsByBookId` (contents.json), keeping only
   `type === ITEM_TYPE.SONG` items.
@@ -38,8 +38,9 @@ components/analyze/AnalyzeTable.scss layout + table chrome
     (page = joined `pages` array or single `page`, `undefined` for page-less
     books; `translated` = `item.has.translation`), absent key = song not in
     that book.
-- Rows are **pre-sorted by first line on the server** via `firstLineKey`
-  (strips leading quotes/brackets `‘ ’ ' " “ (` and whitespace).
+- Rows are **pre-sorted by first line on the server** via `compareFirstLines`
+  from `scripts/compareHelpers.js` (same comparator as the A-Z and authors
+  build scripts).
 
 **GOTCHA (hydration)**: the client must NOT re-run `localeCompare` for the
 default order — Node and browser collation differ, which caused a hydration

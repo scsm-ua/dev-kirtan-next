@@ -1,5 +1,6 @@
 const { CONST } = require('./constants');
 const { readFile, writeFile } = require('./ioHelpers');
+const { compareFirstLines } = require('./compareHelpers');
 
 /**
  * @param targetDir {string} - directory of the songbook.
@@ -20,7 +21,7 @@ function create(groups) {
 	
 	groups.flatMap((group) => group.items)
 		.forEach((item) => {
-			if (item.id === 'intro' || item.id in uniqueIds) {
+			if (item.type === 'page' || item.id === 'intro' || item.id in uniqueIds) {
 				return;
 			}
 			
@@ -37,7 +38,7 @@ function create(groups) {
 	return Array.from(authors)
 		.map(([author, items]) => ({
 			name: author,
-			items: items.sort((a, b) => a.title.localeCompare(b.title))
+			items: items.sort((a, b) => compareFirstLines(a.aliasName || a.title, b.aliasName || b.title))
 		}))
 		.sort((a, b) => a.items.length === b.items.length
 			? (a.name || '').localeCompare(b.name || '')    // `author` can be `null`.

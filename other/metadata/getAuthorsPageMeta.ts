@@ -15,7 +15,6 @@ export async function getAuthorsPageMeta({
   return getPageMeta({
     bookId,
     descriptionKey: 'AUTHORS_PAGE.HEAD.DESCRIPTION',
-    titleKey: 'AUTHORS_PAGE.HEAD.TITLE',
     page: SONGBOOK_PAGE.AUTHORS
   });
 }

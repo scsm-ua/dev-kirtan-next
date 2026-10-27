@@ -1,6 +1,6 @@
 /**/
 export const CREATOR = 'Sri Chaitanya Saraswat Math Worldwide';
-export const KEYWORDS = ['Kirtan', 'Sri Chaitanya Saraswat Math', 'Gaudiya gitanjali', 'Vaishnava songbook', 'devotional songs', 'bhajans'];
+export const KEYWORDS = ['Kirtan', 'Kirtan Guide', 'Sri Chaitanya Saraswat Math', 'Gaudiya gitanjali', 'Vaishnava songbook', 'devotional songs', 'bhajans'];
 export const PUBLISHER = 'Sri Chaitanya Saraswat Math Worldwide';
 
 export const AUTHORS = [

@@ -3,12 +3,6 @@ const { CONST } = require('./constants');
 const { readFile, writeFile } = require('./ioHelpers');
 
 /**
- * Used to detect song duplicates for handling their page number.
- * @type {string[]}
- */
-const songIds = [];
-
-/**
  * @param targetDir {string} - directory of the songbook.
  * @param resourceMap {ResourceMap}
  * @param options {Object}
@@ -38,6 +32,10 @@ function transformContents(targetDir, resourceMap, options = {}) {
 function transform(groups, resourceMap, targetDir, options) {
   const pageIdxDict = getherPageIdxDict(groups, targetDir);
 
+  // Per-book: detects a song's repeat occurrence to pick its second page number.
+  /** @type {Set<string>} */
+  const seenSongIds = new Set();
+
   let itemIdx = 0;
   return groups.map((group) => {
     return {
@@ -61,7 +59,7 @@ function transform(groups, resourceMap, targetDir, options) {
 				);
 				
 				try {
-					return mapItem(item, song);
+					return mapItem(item, song, seenSongIds);
 				} catch (e) {
 					e.message = `${e.message} (item id: "${item.id}", title: "${item.title}", file: ${itemDir}/${item.id}.json, rawSong ${rawSong ? 'loaded' : 'is undefined - file read/parse failed'})`;
 					throw e;
@@ -147,6 +145,8 @@ function getherPageIdxDict(groups, targetDir) {
   let itemIdx = 0;
 
   const usedMultipages = {};
+  /** @type {{ [page: string]: Set<string> }} */
+  const claimedIds = {};
 
   groups.forEach((group) => {
     group.items.forEach((item) => {
@@ -169,7 +169,12 @@ function getherPageIdxDict(groups, targetDir) {
   
           if (page) {
             const key = String(page);
-            (dict[key] = dict[key] || []).push(itemIdx);
+            const ids = (claimedIds[key] = claimedIds[key] || new Set());
+            // Same song listed twice in contents is not a page collision.
+            if (!ids.has(item.id)) {
+              ids.add(item.id);
+              (dict[key] = dict[key] || []).push(itemIdx);
+            }
           }
 
         } else {
@@ -186,15 +191,16 @@ function getherPageIdxDict(groups, targetDir) {
 /**
  * @param meta {RawSongMeta}
  * @param id {string}
+ * @param seenSongIds {Set<string>}
  * @return {number}
  */
-function getPage(meta, id) {
+function getPage(meta, id, seenSongIds) {
   if (!meta) return null;
 
   if (Array.isArray(meta.page)) {
-    if (songIds.includes(id)) return meta.page[1];
+    if (seenSongIds.has(id)) return meta.page[1];
 
-    songIds.push(id);
+    seenSongIds.add(id);
     return meta.page[0];
   }
 
@@ -233,9 +239,10 @@ function getItemType(item) {
 /**
  * @param item {RawContentItem}
  * @param song {Song}
+ * @param seenSongIds {Set<string>}
  * @return {ContentItem}
  */
-function mapItem(item, song) {
+function mapItem(item, song, seenSongIds) {
   const altAliasNames = getAltFirstLines(song.meta);
 
   const hasNoAuthor = song.meta?.['no-author'] === 1;
@@ -247,7 +254,7 @@ function mapItem(item, song) {
       ? null
       : song.meta?.author || (song.author && song.author[0]) || null,
     id: item.id,
-    page: getPage(song.meta, item.id),
+    page: getPage(song.meta, item.id, seenSongIds),
     pages: getPages(song.meta),
     title: item.title,
     type: getItemType(item),

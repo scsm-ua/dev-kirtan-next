@@ -12,7 +12,7 @@ export async function GET() {
   const manifest: WebAppManifest = {
     name: isDev ? 'Kirtan Site (Dev)' : 'Kirtan Site',
     short_name: isDev ? 'dev.kirtan.site' : 'kirtan.site',
-    description: 'Kirtan songbook collection',
+    description: 'Kirtan guide: Vaishnava songbook collection with lyrics and translations',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

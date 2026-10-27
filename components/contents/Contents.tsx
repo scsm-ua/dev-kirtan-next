@@ -27,8 +27,13 @@ function Contents({ bookId, contents }: Props) {
           title={translate(bookId, 'A_Z_PAGE.LINK_FULL_TITLE')}
         />
 
+        {/* Hide "(hidden)" items here only; they stay in contents data to keep prev/next navigation order. */}
         {contents.map((group: TContentGroup, index: number) => (
-          <ContentGroup bookId={bookId} group={group} key={index} />
+          <ContentGroup
+            bookId={bookId}
+            group={{ ...group, items: group.items.filter((item) => !item.title.includes('(hidden)')) }}
+            key={index}
+          />
         ))}
 
         <IndexLink

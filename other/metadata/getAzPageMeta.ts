@@ -15,7 +15,6 @@ export async function getAzPageMeta({
   return getPageMeta({
     bookId,
     descriptionKey: 'A_Z_PAGE.HEAD.DESCRIPTION',
-    titleKey: 'A_Z_PAGE.HEAD.TITLE',
     page: SONGBOOK_PAGE.A_Z
   });
 }

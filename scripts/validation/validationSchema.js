@@ -23,12 +23,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         HEAD: {
           type: 'object',
           additionalProperties: false,
-          required: ['DESCRIPTION', 'TITLE'],
+          required: ['DESCRIPTION'],
           properties: {
             DESCRIPTION: {
-              type: 'string'
-            },
-            TITLE: {
               type: 'string'
             }
           }
@@ -54,17 +51,14 @@ const TRANSLATION_VALIDATION_SCHEMA = {
     AUTHORS_PAGE: {
       type: 'object',
       additionalProperties: false,
-      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE', 'NO_AUTHOR'],
+      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE', 'UNKNOWN_AUTHOR'],
       properties: {
         HEAD: {
           type: 'object',
           additionalProperties: false,
-          required: ['DESCRIPTION', 'TITLE'],
+          required: ['DESCRIPTION'],
           properties: {
             DESCRIPTION: {
-              type: 'string'
-            },
-            TITLE: {
               type: 'string'
             }
           }
@@ -85,7 +79,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         LINK_FULL_TITLE: {
           type: 'string'
         },
-        NO_AUTHOR: {
+        UNKNOWN_AUTHOR: {
           type: 'string'
         }
       }
@@ -98,12 +92,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         HEAD: {
           type: 'object',
           additionalProperties: false,
-          required: ['DESCRIPTION', 'TITLE'],
+          required: ['DESCRIPTION'],
           properties: {
             DESCRIPTION: {
-              type: 'string'
-            },
-            TITLE: {
               type: 'string'
             }
           }
@@ -153,12 +144,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         HEAD: {
           type: 'object',
           additionalProperties: false,
-          required: ['DESCRIPTION', 'TITLE'],
+          required: ['DESCRIPTION'],
           properties: {
             DESCRIPTION: {
-              type: 'string'
-            },
-            TITLE: {
               type: 'string'
             }
           }
@@ -189,12 +177,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         HEAD: {
           type: 'object',
           additionalProperties: false,
-          required: ['DESCRIPTION', 'TITLE'],
+          required: ['DESCRIPTION'],
           properties: {
             DESCRIPTION: {
-              type: 'string'
-            },
-            TITLE: {
               type: 'string'
             }
           }
@@ -238,12 +223,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         HEAD: {
           type: 'object',
           additionalProperties: false,
-          required: ['DESCRIPTION', 'TITLE'],
+          required: ['DESCRIPTION'],
           properties: {
             DESCRIPTION: {
-              type: 'string'
-            },
-            TITLE: {
               type: 'string'
             }
           }

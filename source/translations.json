@@ -2,8 +2,7 @@
   "lv": {
     "A_Z_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Indeksu saraksts A-Z",
-        "TITLE": "Vaišnavu dziesmu grāmata"
+        "DESCRIPTION": "Indeksu saraksts A-Z"
       },
       "SCHEMA": {
         "NAME": "Vaišnavu dziesmu krājums A–Z",
@@ -13,20 +12,18 @@
     },
     "AUTHORS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Autoru saraksts",
-        "TITLE": "Vaišnavu dziesmu grāmata"
+        "DESCRIPTION": "Autoru saraksts"
       },
       "SCHEMA": {
         "NAME": "Vaišnavu dziesmu krājums – Autori",
         "DESCRIPTION": "Atklājiet vāišnavu bhadžanu un kīrtanu autorus."
       },
       "LINK_FULL_TITLE": "Autoru saraksts",
-      "NO_AUTHOR": "Bez autora"
+      "UNKNOWN_AUTHOR": "Nezināms autors"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Pieejamo dziesmu grāmatu saraksts",
-        "TITLE": "Vaišnavu dziesmu grāmata"
+        "DESCRIPTION": "Pieejamo dziesmu grāmatu saraksts"
       },
       "SCHEMA": {
         "NAME": "Vaišnavu dziesmu krājumi",
@@ -42,8 +39,7 @@
     },
     "CONTENTS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Saturs",
-        "TITLE": "Vaišnavu dziesmu grāmata"
+        "DESCRIPTION": "Saturs"
       },
       "SCHEMA": {
         "NAME": "Vaišnavu dziesmu krājums – Saturs",
@@ -53,8 +49,7 @@
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Lapa 404",
-        "TITLE": "Vaišnavu dziesmu grāmata"
+        "DESCRIPTION": "Lapa 404"
       },
       "SCHEMA": {
         "NAME": "Lapa nav atrasta – Vaišnavu dziesmu krājums",
@@ -65,8 +60,7 @@
     },
     "SEARCH_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Meklēšanas lapa",
-        "TITLE": "Vaišnavu dziesmu grāmata"
+        "DESCRIPTION": "Meklēšanas lapa"
       },
       "SCHEMA": {
         "NAME": "Meklēšana – Vaišnavu dziesmu krājums",
@@ -150,8 +144,7 @@
   "en": {
     "A_Z_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Index list A-Z",
-        "TITLE": "Vaishnava Songbook"
+        "DESCRIPTION": "Index list A-Z"
       },
       "SCHEMA": {
         "NAME": "Vaishnava Songbook A–Z",
@@ -161,20 +154,18 @@
     },
     "AUTHORS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Authors list",
-        "TITLE": "Vaishnava Songbook"
+        "DESCRIPTION": "Authors list"
       },
       "SCHEMA": {
         "NAME": "Vaishnava Songbook – Authors",
         "DESCRIPTION": "Discover authors of Vaishnava bhajans and kirtans."
       },
       "LINK_FULL_TITLE": "Songs by author",
-      "NO_AUTHOR": "No author"
+      "UNKNOWN_AUTHOR": "Unknown author"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "List of available songbooks",
-        "TITLE": "Vaishnava Songbook"
+        "DESCRIPTION": "List of available songbooks"
       },
       "SCHEMA": {
         "NAME": "Vaishnava Songbooks",
@@ -190,8 +181,7 @@
     },
     "CONTENTS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Contents",
-        "TITLE": "Vaishnava Songbook"
+        "DESCRIPTION": "Contents"
       },
       "SCHEMA": {
         "NAME": "Vaishnava Songbook – Contents",
@@ -201,8 +191,7 @@
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Page not found",
-        "TITLE": "Vaishnava Songbook"
+        "DESCRIPTION": "Page not found"
       },
       "SCHEMA": {
         "NAME": "Page not found – Vaishnava Songbook",
@@ -213,8 +202,7 @@
     },
     "SEARCH_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Search page",
-        "TITLE": "Vaishnava Songbook"
+        "DESCRIPTION": "Search page"
       },
       "SCHEMA": {
         "NAME": "Search – Vaishnava Songbook",
@@ -298,8 +286,7 @@
   "es": {
     "A_Z_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Lista de índices A-Z",
-        "TITLE": "Cancionero Vaishnava"
+        "DESCRIPTION": "Lista de índices A-Z"
       },
       "SCHEMA": {
         "NAME": "Cancionero Vaishnava A–Z",
@@ -309,20 +296,18 @@
     },
     "AUTHORS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Lista de autores",
-        "TITLE": "Cancionero Vaishnava"
+        "DESCRIPTION": "Lista de autores"
       },
       "SCHEMA": {
         "NAME": "Cancionero Vaishnava – Autores",
         "DESCRIPTION": "Descubra a los autores de bhajans y kirtans vaisnavas."
       },
       "LINK_FULL_TITLE": "Lista de autores",
-      "NO_AUTHOR": "Sin autor"
+      "UNKNOWN_AUTHOR": "Autor desconocido"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Lista de cancioneros disponibles",
-        "TITLE": "Cancionero Vaishnava"
+        "DESCRIPTION": "Lista de cancioneros disponibles"
       },
       "SCHEMA": {
         "NAME": "Cancioneros Vaishnavas",
@@ -338,8 +323,7 @@
     },
     "CONTENTS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Contenido",
-        "TITLE": "Cancionero Vaishnava"
+        "DESCRIPTION": "Contenido"
       },
       "SCHEMA": {
         "NAME": "Cancionero Vaishnava – Contenido",
@@ -349,8 +333,7 @@
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Página 404",
-        "TITLE": "Cancionero Vaishnava"
+        "DESCRIPTION": "Página 404"
       },
       "SCHEMA": {
         "NAME": "Página no encontrada – Cancionero Vaishnava",
@@ -361,8 +344,7 @@
     },
     "SEARCH_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Página de búsqueda",
-        "TITLE": "Cancionero Vaishnava"
+        "DESCRIPTION": "Página de búsqueda"
       },
       "SCHEMA": {
         "NAME": "Búsqueda – Cancionero Vaishnava",
@@ -446,8 +428,7 @@
   "ru": {
     "A_Z_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Индексная страница А-Я",
-        "TITLE": "Вайшнавский песенник"
+        "DESCRIPTION": "Индексная страница А-Я"
       },
       "SCHEMA": {
         "NAME": "Вайшнавский песенник А-Я",
@@ -457,20 +438,18 @@
     },
     "AUTHORS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Список авторов",
-        "TITLE": "Вайшнавский песенник"
+        "DESCRIPTION": "Список авторов"
       },
       "SCHEMA": {
         "NAME": "Вайшнавский песенник – Авторы",
         "DESCRIPTION": "Узнайте об авторах вайшнавских бхаджанов и киртанов."
       },
       "LINK_FULL_TITLE": "Песни по авторам",
-      "NO_AUTHOR": "Без автора"
+      "UNKNOWN_AUTHOR": "Неизвестный автор"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Список доступных песенников",
-        "TITLE": "Вайшнавский песенник"
+        "DESCRIPTION": "Список доступных песенников"
       },
       "SCHEMA": {
         "NAME": "Вайшнавские песенники",
@@ -486,8 +465,7 @@
     },
     "CONTENTS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Содержание",
-        "TITLE": "Вайшнавский песенник"
+        "DESCRIPTION": "Содержание"
       },
       "SCHEMA": {
         "NAME": "Вайшнавский песенник – Содержание",
@@ -497,8 +475,7 @@
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Страница 404",
-        "TITLE": "Вайшнавский песенник"
+        "DESCRIPTION": "Страница 404"
       },
       "SCHEMA": {
         "NAME": "Страница не найдена – Вайшнавский песенник",
@@ -509,8 +486,7 @@
     },
     "SEARCH_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Страница поиска",
-        "TITLE": "Вайшнавский песенник"
+        "DESCRIPTION": "Страница поиска"
       },
       "SCHEMA": {
         "NAME": "Поиск – Вайшнавский песенник",
@@ -607,8 +583,7 @@
   "ua": {
     "A_Z_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Індексна сторінка А-Я",
-        "TITLE": "Вайшнавський пісенник"
+        "DESCRIPTION": "Індексна сторінка А-Я"
       },
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник А-Я",
@@ -618,20 +593,18 @@
     },
     "AUTHORS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Перелік авторів",
-        "TITLE": "Вайшнавський пісенник"
+        "DESCRIPTION": "Перелік авторів"
       },
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник – Автори",
         "DESCRIPTION": "Дізнайтеся про авторів вайшнавських бхаджанів та кіртанів."
       },
       "LINK_FULL_TITLE": "Пісні по авторам",
-      "NO_AUTHOR": "Без автора"
+      "UNKNOWN_AUTHOR": "Невідомий автор"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Список наявних пісенників",
-        "TITLE": "Вайшнавський пісенник"
+        "DESCRIPTION": "Список наявних пісенників"
       },
       "SCHEMA": {
         "NAME": "Вайшнавські пісенники",
@@ -647,8 +620,7 @@
     },
     "CONTENTS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Зміст",
-        "TITLE": "Вайшнавський пісенник"
+        "DESCRIPTION": "Зміст"
       },
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник – Зміст",
@@ -658,8 +630,7 @@
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Сторінка 404",
-        "TITLE": "Вайшнавський пісенник"
+        "DESCRIPTION": "Сторінка 404"
       },
       "SCHEMA": {
         "NAME": "Сторінка не знайдена – Вайшнавський пісенник",
@@ -670,8 +641,7 @@
     },
     "SEARCH_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Сторінка пошуку",
-        "TITLE": "Вайшнавський пісенник"
+        "DESCRIPTION": "Сторінка пошуку"
       },
       "SCHEMA": {
         "NAME": "Пошук – Вайшнавський пісенник",
@@ -768,8 +738,7 @@
   "pt": {
     "A_Z_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Índice A-Z",
-        "TITLE": "Cancioneiro Vaishnava"
+        "DESCRIPTION": "Índice A-Z"
       },
       "SCHEMA": {
         "NAME": "Cancioneiro Vaishnava A–Z",
@@ -779,20 +748,18 @@
     },
     "AUTHORS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Lista de autores",
-        "TITLE": "Cancioneiro Vaishnava"
+        "DESCRIPTION": "Lista de autores"
       },
       "SCHEMA": {
         "NAME": "Cancioneiro Vaishnava – Autores",
         "DESCRIPTION": "Descubra os autores dos bhajans e kirtans vaisnavas."
       },
       "LINK_FULL_TITLE": "Canções por autor",
-      "NO_AUTHOR": "Sem autor"
+      "UNKNOWN_AUTHOR": "Autor desconhecido"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Lista de cancioneiros disponíveis",
-        "TITLE": "Cancioneiro Vaishnava"
+        "DESCRIPTION": "Lista de cancioneiros disponíveis"
       },
       "SCHEMA": {
         "NAME": "Cancioneiros Vaishnavas",
@@ -808,8 +775,7 @@
     },
     "CONTENTS_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Conteúdo",
-        "TITLE": "Cancioneiro Vaishnava"
+        "DESCRIPTION": "Conteúdo"
       },
       "SCHEMA": {
         "NAME": "Cancioneiro Vaishnava – Conteúdo",
@@ -819,8 +785,7 @@
     },
     "NOT_FOUND_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Página 404",
-        "TITLE": "Cancioneiro Vaishnava"
+        "DESCRIPTION": "Página 404"
       },
       "SCHEMA": {
         "NAME": "Página não encontrada – Cancioneiro Vaishnava",
@@ -831,8 +796,7 @@
     },
     "SEARCH_PAGE": {
       "HEAD": {
-        "DESCRIPTION": "Página de pesquisa",
-        "TITLE": "Cancioneiro Vaishnava"
+        "DESCRIPTION": "Página de pesquisa"
       },
       "SCHEMA": {
         "NAME": "Pesquisar – Cancioneiro Vaishnava",

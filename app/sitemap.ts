@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 
-import { getBookIdList } from '@/lib/books';
+import { getBookIdList, getBooksMap } from '@/lib/books';
 import { getContentsByBookId } from '@/lib/contents';
 import {
   getAbsoluteUrl,
@@ -39,7 +39,8 @@ function mapGroups(groups: TContentGroup[], bookId) {
  *
  */
 async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const bookIds = getBookIdList();
+  const booksMap = getBooksMap();
+  const bookIds = getBookIdList().filter((bookId) => !booksMap[bookId]?.hidden);
 
   return bookIds.flatMap((bookId) =>
     mapGroups(getContentsByBookId(bookId), bookId)
