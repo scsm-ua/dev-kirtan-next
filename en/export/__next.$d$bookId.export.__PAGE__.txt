@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf1cc0,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf1cc3,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -6746,7 +6746,7 @@ Again and again tasting nectar, the soul dives and surfaces in the ever-increasi
 <strong>ḍāke rādhānātha&nbsp;&nbsp;&nbsp;&nbsp;diyā daraśana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;prāṇa rākha, nahe mari</strong></p>
 <p class="translation">Bhakti Vinod has become very restless and again takes shelter of the Holy Name, calling out, “O Lord of Rādhā! By bestowing Your audience, please save my life! By Your mercy alone I shall not perish!”<br>
-*<i class="translation__bold">Footnote:</i> Śrīla Guru Mahārāj, Śrīla Śrīdhar Mahārāj, advised not to sing ‘<i>sakhi go</i>’ but ‘<i>bandhu he</i>’ instead.</p>
+<i class="translation__bold">* Footnote:</i> Śrīla Guru Mahārāj, Śrīla Śrīdhar Mahārāj, advised not to sing ‘<i>sakhi go</i>’ but ‘<i>bandhu he</i>’ instead.</p>
 </div>
 </section>
 <section class="song" id="song-yoga-pithopari-sthita-ashta-sakhi-subeshtita" data-translated="1">
@@ -9295,7 +9295,7 @@ There are two classes of lotus: the white lotus came from the sun and the red fr
 <p class="translation"><i>Tuyā adarśana-ahi</i> – this is my prayer, but what is my present condition? My present condition is in the negative side, my Mistress. My present position is such that without having a sight of you, Your Grace, my heart will burn into ashes. That is my present position. <i>Garale jārala dehī</i> – this is just like the poison of a cobra which produces pain within my heart. I have been bitten by a snake, and what is that snake? It is that I am not getting any direct contact with you, Your Grace. The serpent’s poison has captured my heart and I am going to die. <i>Chira-dina tāpita jīvana</i> – and this is not a sudden thing, but from the beginning I have been suffering this sort of pain of separation from such a beautiful and hopeful life of fulfilment.<br>
 <i>Hā hā Prabhu* kara dayā, deha more pada-chāyā, Narottama la-ila śaraṇa</i> – but I have now reached the extreme position and for the last time I am begging for your favour; otherwise I am going to be finished.<br>
 This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In this way he has given us light of the higher quarter of bhajan life. This sampradāya is named as the Rūpānuga-sampradāya, and our Guru-paramparā and all these things are adjusted according to that. He wrote many songs and they are of very substantive firmament, very ecstatic, and of deep faith.<br>
-*<i class="translation__bold">Footnote:</i> personally adjusted by Śrīla Gurudev from ‘Rūpa’ to ‘Prabhu’.</p>
+<i class="translation__bold">* Footnote:</i> personally adjusted by Śrīla Gurudev from ‘Rūpa’ to ‘Prabhu’.</p>
 </div>
 </section>
 <section class="song" id="song-radhika-charana-padma-sakala-shreyera" data-translated="1">
@@ -9901,7 +9901,7 @@ This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In
 <strong>yāche ’haṁ karuṇā-nidhe! varam imaṁ pādābja-mūle bhavat-</strong><br>
 <strong>sarvasvāvadhi-rādhikā-dayita-dāsānāṁ gaṇe gaṇyatām</strong></p>
 <p class="translation">Where am I, so lowly and fallen, and where are you, the great soul who delivers the universe! O Lord, by your grace, you are sure to forgive my offences. O ocean of mercy, in the dust of your lotus feet I pray for just this benediction: kindly make my life successful by recommending me for admission into the group of Śrī Vārṣabhānavī Dayita Dās, who is the dearmost one in your heart.<br>
-*<i class="translation__bold">Translator’s Note:</i> The preceding prayer to Śrīla Bhakti Vinod Ṭhākur (1838-1914), the pioneer of pure devotion in the recent age, was composed within the lifetime of the author’s Guru, Śrīla Bhakti Siddhānta Saraswatī Ṭhākur Goswāmī Prabhupād. Upon reading the original Sanskrit verse, just the year before his own passing away, Śrīla Prabhupād commented, “Now I am confident that we have one man who is qualified to uphold the standard of our sampradāya (divine succession).”</p>
+<i class="translation__bold">* Translator’s Note:</i> The preceding prayer to Śrīla Bhakti Vinod Ṭhākur (1838-1914), the pioneer of pure devotion in the recent age, was composed within the lifetime of the author’s Guru, Śrīla Bhakti Siddhānta Saraswatī Ṭhākur Goswāmī Prabhupād. Upon reading the original Sanskrit verse, just the year before his own passing away, Śrīla Prabhupād commented, “Now I am confident that we have one man who is qualified to uphold the standard of our sampradāya (divine succession).”</p>
 </div>
 </section>
 <section class="song" id="song-shri-gauda-dhamashrita-shiuddha-bhaktam" data-translated="1">
@@ -11248,7 +11248,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"gh_LSIcCsxZV3M3lg2kZ4"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"UaXgijXZ4EljF7OxL_YtE"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

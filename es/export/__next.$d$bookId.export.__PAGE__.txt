@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T19fb41,<h1 class="book-title">Guía de Kīrtan</h1>
+3:T19fb43,<h1 class="book-title">Guía de Kīrtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Contenido</h1>
@@ -968,7 +968,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="wbw"><i class="wbw__bold">avichintya</i> — inconcebiblemente; <i class="wbw__bold">nityānanda</i> — de Nityānanda; <i class="wbw__bold">chaitanya</i> — de Chaitanya; <i class="wbw__bold">prakāśa</i> — manifestación; <i class="wbw__bold">śrī guru</i> — de Śrī Gurudev; <i class="wbw__bold">prasāde</i> — por la misericordia; <i class="wbw__bold">dekhe</i> — ve; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">adhama</i> — bajo; <i class="wbw__bold">dāsa</i> — sirviente; <i class="wbw__bold">śrī guru</i> — de Śrī Gurudev; <i class="wbw__bold">prasāde</i> — por la misericordia; <i class="wbw__bold">dekhe</i> — ve; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">śri</i> — adorable; <i class="wbw__bold">govinda</i> — de nombre Govinda; <i class="wbw__bold">dāsa</i> — sirviente.</p>
 <p class="translation">Inconcebiblemente, Śrī Śrī Nitāi-Chaitanya se han manifestado y, gracias a la misericordia de Śrī Gurudev, esta alma caída observa Su <i>ārati</i> y se une al <i>saṅkīrtan</i>.<br>
 ---<br>
-<i class="translation__bold">Nota:</i> Existen cuatro canciones más para el <i>ārati</i> de Sus Señorías Nitāi Chaitanya basadas en la original de Purī Dhām; en Ekachakrā Dhām, en Nṛsingha Palli, en Caracas Venezuela, y en Medellín Colombia. La estrofa que varía se presenta a continuación:</p>
+<i class="translation__bold">* Nota:</i> Existen cuatro canciones más para el <i>ārati</i> de Sus Señorías Nitāi Chaitanya basadas en la original de Purī Dhām; en Ekachakrā Dhām, en Nṛsingha Palli, en Caracas Venezuela, y en Medellín Colombia. La estrofa que varía se presenta a continuación:</p>
 </div>
 <div class="verse-block" data-number="10">
 <h5>10</h5>
@@ -10439,7 +10439,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 382</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 232</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"gh_LSIcCsxZV3M3lg2kZ4"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"UaXgijXZ4EljF7OxL_YtE"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
