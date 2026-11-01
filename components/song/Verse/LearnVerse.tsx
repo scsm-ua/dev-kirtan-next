@@ -40,9 +40,8 @@ type Props = {
  * keeping next pairs aligned on the y axis.
  */
 function LearnVerse({ hasNumber, lines, meta, text }: Props) {
-  const parensLight = meta && meta['verse parentheses'] === 'non bold';
   const lineLight =
-    meta && meta['inline verse'] === 'non bold' && !hasNumber;
+    meta?.styles?.verses?.inline?.bold === false && !hasNumber;
 
   return (
     <div className="LearnVerse">
@@ -67,7 +66,7 @@ function LearnVerse({ hasNumber, lines, meta, text }: Props) {
               {lines[index].map(({ text: groupText, trans, sep, error }, i) => {
                 const wordCls = classNames(
                   'LearnVerse__word',
-                  (lineLight || (parensLight && /[()]/.test(groupText))) &&
+                  (lineLight || /[()]/.test(groupText)) &&
                     'LearnVerse__word--light'
                 );
                 const transCls = classNames(

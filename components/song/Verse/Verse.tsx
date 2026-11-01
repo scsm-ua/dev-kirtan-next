@@ -52,6 +52,13 @@ function Verse({
   if (mode === VIEW_MODE.VERSE && !hasOriginal) {
     return null;
   }
+  if (
+    mode === VIEW_MODE.VERSE &&
+    !number &&
+    meta?.styles?.verses?.inline?.bold === false
+  ) {
+    return null;
+  }
 
   const isWide = mode === VIEW_MODE.TRANSLATION;
   // Per-verse learn flag: when the song is in inline mode but this verse

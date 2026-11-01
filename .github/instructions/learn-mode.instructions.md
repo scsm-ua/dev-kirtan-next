@@ -144,8 +144,8 @@ Same checks as `buildInlineWordByWord`'s error classification, but as a pre-flig
 
 `LearnVerse` mirrors VerseText's `meta` handling for visual consistency:
 
-- `meta['verse parentheses'] === 'non bold'` → words containing `(` or `)` get `LearnVerse__word--light`.
-- `meta['inline verse'] === 'non bold' && !hasNumber` → all words light.
+- Words containing `(` or `)` always get `LearnVerse__word--light`.
+- `meta.styles.verses.inline.bold === false && !hasNumber` → all words light.
 - Empty-line detection delegates to `getLineContent(line, meta, hasNumber)` (same rule as VerseText) so blank lines render `<br/>` identically across modes.
 
 ## Adding new behaviour — checklist

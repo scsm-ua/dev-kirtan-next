@@ -31,7 +31,9 @@ export function getLineContent(
   // Cleanup tags for safety.
   let line = aLine.replace(TAG_RE, '');
 
-  if (meta && meta['verse parentheses'] === 'non bold') {
+  if (meta?.styles?.verses?.inline?.bold === false && !hasNumber) {
+    line = `<span class="Verse__light">${line}</span>`;
+  } else {
     line = line.replace(
       PARANTHESES_RE,
       '<span class="Verse__light">$1</span>'
@@ -44,12 +46,6 @@ export function getLineContent(
       PARANTHESES_END_RE,
       '$1<span class="Verse__light">$2</span>'
     );
-  } else if (
-    meta &&
-    meta['inline verse'] === 'non bold' &&
-    !hasNumber
-  ) {
-    line = `<span class="Verse__light">${line}</span>`;
   }
 
   // Try fix with indents.

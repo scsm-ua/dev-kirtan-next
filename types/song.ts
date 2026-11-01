@@ -29,14 +29,15 @@ export type TSong = {
     author?: string;
     first_line: string;
     alt_first_lines?: string | string[];
-    'inline verse'?: 'non bold';
     page?: string | string[];
     translation?: 'no';
-    'verse parentheses'?: 'non bold';
     styles?: {
       verses?: {
         wide?: boolean;
         align?: 'left';
+        inline?: {
+          bold?: boolean;
+        };
       };
     };
   };

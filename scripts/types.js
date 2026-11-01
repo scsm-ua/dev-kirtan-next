@@ -30,10 +30,8 @@
  * @property {1} ['no-author'] - when `1`, the song is treated as having no author.
  * @property {string} first_line
  * @property {string | Array<string>} [alt_first_lines]
- * @property {'non bold'} ['inline verse']
  * @property {number | string | Array<number>} page
  * @property {'no'} [translation]
- * @property {'non bold'} ['verse parentheses']
  */
 
 /**

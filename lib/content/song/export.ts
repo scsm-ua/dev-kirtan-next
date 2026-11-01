@@ -33,19 +33,15 @@ function renderVerseLine(
 ): string {
   const escaped = escVerseSpaces(esc(line));
 
-  if (meta?.['inline verse'] === 'non bold' && !hasNumber) {
+  if (meta?.styles?.verses?.inline?.bold === false && !hasNumber) {
     return escaped;
   }
 
-  if (meta?.['verse parentheses'] === 'non bold') {
-    // Split on (...) groups; odd indices are paren content (plain), even are bold.
-    const parts = escaped.split(/(\([^)]+\))/g);
-    return parts
-      .map((part, i) => (i % 2 === 1 || !part ? part : `<strong>${part}</strong>`))
-      .join('');
-  }
-
-  return `<strong>${escaped}</strong>`;
+  // Split on (...) groups; odd indices are paren content (plain), even are bold.
+  const parts = escaped.split(/(\([^)]+\))/g);
+  return parts
+    .map((part, i) => (i % 2 === 1 || !part ? part : `<strong>${part}</strong>`))
+    .join('');
 }
 
 /**

@@ -1,11 +1,11 @@
 {
-  "lv": "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git",
-  "ru": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru.git",
-  "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git",
-  "pt": "git+https://github.com/scsm-ua/kirtan-guide-pt.git",
-  "es": "git+https://github.com/scsm-ua/kirtan-guide-es.git",
+  "lv": "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git#refactor/schema",
+  "ru": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru.git#refactor/schema",
+  "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git#refactor/schema",
+  "pt": "git+https://github.com/scsm-ua/kirtan-guide-pt.git#refactor/schema",
+  "es": "git+https://github.com/scsm-ua/kirtan-guide-es.git#refactor/schema",
   "en": {
-    "repository": "git+https://github.com/scsm-ua/kirtan-guide-en-london.git",
+    "repository": "git+https://github.com/scsm-ua/kirtan-guide-en-london.git#refactor/schema",
     "audio": {
       "filter": {
         "by_title": [
@@ -16,7 +16,7 @@
       }
     }
   },
-  "en-2022": "git+https://github.com/scsm-ua/kirtan-guide-en.git#word-by-word",
-  "en-pe": "git+https://github.com/scsm-ua/kirtan-guide-pocket-edition.git",
+  "en-2022": "git+https://github.com/scsm-ua/kirtan-guide-en.git#refactor/schema",
+  "en-pe": "git+https://github.com/scsm-ua/kirtan-guide-pocket-edition.git#refactor/schema",
   "ru-kdm": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru-kd-morning.git#morning-short"
 }

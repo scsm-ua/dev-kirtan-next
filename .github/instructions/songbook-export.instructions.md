@@ -124,7 +124,7 @@ Both the TOC and the first-lines section go through `renderIndex(opts)` in `lib/
 ## Content Rules
 
 - Plain-text lines (titles, verse text, first lines) go through `escHtml()`. Translation/wbw lines go through `processTranslationLines()` (`other/utils.ts`), which returns HTML — insert unescaped, never double-escape.
-- Verse text bold/non-bold mirrors `getLineContent` in `components/song/Verse/helpers.tsx`: `meta['inline verse'] === 'non bold'` → plain; `meta['verse parentheses'] === 'non bold'` → split on `(...)` groups, paren content plain, non-paren wrapped in `<strong>`; otherwise the whole line is `<strong>`.
+- Verse text bold/non-bold mirrors `getLineContent` in `components/song/Verse/helpers.tsx`: `meta.styles.verses.inline.bold === false && !hasNumber` → plain; otherwise split on `(...)` groups, paren content plain, non-paren wrapped in `<strong>`.
 - Songs with page duplicates appear multiple times in contents; emit each slug **once** (the `seen` set), at first occurrence. The TOC does **not** dedupe — it mirrors the contents page.
 - Inline/learn wbw tables are deliberately excluded — classical `word_by_word` only.
 - `esc(String(item.page))` — `item.page` is a **number** in the source JSON (despite the `page: string` type declaration in `TContentItem`).
