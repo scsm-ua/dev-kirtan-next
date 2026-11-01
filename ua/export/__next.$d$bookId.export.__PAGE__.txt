@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tbfe2f,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
+3:Tc092a,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
 <p class="nav-links"><a href="#first-lines">↓ Індекс</a></p>
 <section class="toc" id="toc">
 <h1>Зміст</h1>
@@ -88,7 +88,7 @@
 <p class="toc-item" data-translated="0"><a href="#song-kali-ghora-timire-garasala-jagajana">Калі-гора тіміре<span class="page-num"> — 124</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-jadi-gaura-na-hoto-tobe-ki-hoito">Джаді Ґаура на̄ хо’то<span class="page-num"> — 125</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-emona-gauranga-bine-nahi-ara">Емона Ґаура̄нґа біне на̄хі а̄ра<span class="page-num"> — 126</span></a></p>
-<p class="toc-item" data-translated="0"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">Ке джабі ке джабі<span class="page-num"> — 127</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">Ке джабі ке джабі<span class="page-num"> — 127</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-vimala-hemajin-tanu-anupama-re">Вімала хемаджіні</a></p>
 <p class="toc-item" data-translated="0"><a href="#song-gauranga-bolite-hobe-pulaka-shorira">‘Ґаура̄нґа’ боліте хабе<span class="page-num"> — 129</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-aruna-basane-sonara-suraja">Шрī Шрī Ґаурасундарер Авірбга̄ва Васаре<span class="page-num"> — 130</span></a></p>
@@ -114,7 +114,7 @@
 <p class="toc-item" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">А̄тма-ніведана<span class="page-num"> — 160</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-amara-jivana-sada-pape-rata">А̄ма̄ра джīвана<span class="page-num"> — 161</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">Тумі сарвешварешвара<span class="page-num"> — 162</span></a></p>
-<p class="toc-item" data-translated="0"><a href="#song-sarvasva-tomara-charane-sanpiya">Сарвасва тома̄ра<span class="page-num"> — 163</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">Сарвасва тома̄ра<span class="page-num"> — 163</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-tatala-saikate-vari-bindu-sama">Та̄тала Сайкате<span class="page-num"> — 164</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-hari-he-dayala-mora-jaya-radha-natha">Дайнья О Прапатті<span class="page-num"> — 165</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-atma-samarpane-gela-abhimana">А̄тма-самарпане<span class="page-num"> — 166</span></a></p>
@@ -3406,28 +3406,32 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;раті на̄ джанміло мора</strong></p>
 </div>
 </section>
-<section class="song" id="song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para" data-translated="0">
+<section class="song" id="song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Ке джабі ке джабі <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Лочан Да̄с Тха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>ке джабі ке джабі бга̄і бгава-сіндгу па̄ра</strong><br>
 <strong>дганья калі-юґе ре чайтанья авата̄ра</strong></p>
+<p class="translation">Хто ж наважиться, о брате, хто насмілиться переплисти цей океан матеріального існування? Справжнє багатство і найбільший скарб темної доби Калі — це поява Господа Чайтаньї.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>а̄ма̄ра ґаура̄нґера га̄те уджа̄накхея бой</strong><br>
 <strong>кадіпа̄ті на̄хі ла̄ґе амані па̄ра хой</strong></p>
+<p class="translation">Мій Господь Ґауранґа стоїть на переправі й чекає на Своїх слуг, щоб переправити їх угору за течією, за межі цього матеріального існування. Він бере кожного і не вимагає нічого взамін.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>харіна̄мера тарīкха̄ні шрī-ґуру-ка̄нда̄рī</strong><br>
 <strong>санкīртана-керояла ду’баху паса̄рі</strong></p>
+<p class="translation">Переправа — це Святі Імена Господа, а духовний учитель — керманич цього човна. Весла — це простягнуті руки у <i>санкіртані</i>.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>сарва-джīва уддга̄ра хоіло премера ба̄та̄се</strong><br>
 <strong>лочана падія роіло карамера доше</strong></p>
+<p class="translation">Сприятливий вітер — це божественна любов до Господа Крішни. І всі, хто потрапив на цей човен — спасенні. Лише Лочан Дас лишився позаду через тягар власних вчинків.</p>
 </div>
 </section>
 <section class="song" id="song-vimala-hemajin-tanu-anupama-re" data-translated="0">
@@ -4728,7 +4732,7 @@
 <strong>тома̄ра іча̄я та̄’ра джīвана марана</strong></p>
 </div>
 </section>
-<section class="song" id="song-sarvasva-tomara-charane-sanpiya" data-translated="0">
+<section class="song" id="song-sarvasva-tomara-charane-sanpiya" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Сарвасва тома̄ра <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Шрīла Бгактівінод Тха̄кур</h4>
@@ -4737,6 +4741,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;подечхі тома̄ра горе</strong><br>
 <strong>тумі то’ тха̄кур,&nbsp;&nbsp;&nbsp;&nbsp;тома̄ра куккур,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;болія джа̄нахо море</strong></p>
+<p class="translation">Усе, що я маю, складаю до Твоїх лотосових стоп, о Господи, я все віддаю Тобі. Я схиляюся перед Твоїм домом, Ти — господар цієї оселі, тож, будь ласка, прийми мене в якості свого пса.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
@@ -4744,6 +4749,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;рохібо тома̄ра два̄ре</strong><br>
 <strong>пратīпа-джонере,&nbsp;&nbsp;&nbsp;&nbsp;а̄сіте на̄ дібо,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ра̄кхібо ґодера па̄ре</strong></p>
+<p class="translation">Прив’яжи та дбай про мене, а я стерегтиму Твій поріг. Я не допущу жодного неприятеля, ніякий злодій не ступить за межі навколишнього рову.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -4751,6 +4757,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;уччхішта ра̄кхібе джа̄ха̄</strong><br>
 <strong>а̄ма̄ра бгоджана,&nbsp;&nbsp;&nbsp;&nbsp;парама-а̄нанде,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;праті-діна хобе та̄ха̄</strong></p>
+<p class="translation">Те, що лишатиметься після того, як віддані шануватимуть Твій <i>прасад</i>, буде моєю їжею. Я з великою радістю частуватиму цими залишками.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
@@ -4758,6 +4765,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;чінтібо сатата а̄мі</strong><br>
 <strong>на̄чіте на̄чіте,&nbsp;&nbsp;&nbsp;&nbsp;нікате джа̄ібо,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;джокхона да̄кібе тумі</strong></p>
+<p class="translation">Байдуже, сидітиму я чи лежатиму, я завжди буду памʼятати і роздумувати про Твої лотосові стопи. Щойно Ти покличеш мене, я негайно прибіжу до Тебе й у захваті затанцюю.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
@@ -4765,6 +4773,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;рохібо бга̄вера бгоре</strong><br>
 <strong>бгакатівінода,&nbsp;&nbsp;&nbsp;&nbsp;тома̄ра па̄лака,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;болія варана коре</strong></p>
+<p class="translation">Я не бажаю дбати про себе, натомість я хочу піклуватися лише про свого господаря. Відтепер Бгактівінод приймає Тебе своїм єдиним покровителем.</p>
 </div>
 </section>
 <section class="song" id="song-tatala-saikate-vari-bindu-sama" data-translated="0">
@@ -8808,7 +8817,7 @@
 <h2 class="first-line-group">К</h2>
 <p class="first-line" data-translated="0"><a href="#song-kali-ghora-timire-garasala-jagajana">калі-гора тіміре ґарасала джаґаджана<span class="page-num"> — 124</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-kali-kukkura-kadana-jadi-chao-he">калі-куккура-кадана джаді ча̄о хе<span class="page-num"> — 38</span></a></p>
-<p class="first-line" data-translated="0"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">ке джабі ке джабі бга̄і бгава-сіндгу па̄ра<span class="page-num"> — 127</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-ke-jabi-ke-jabi-bhai-bhava-sindhu-para">ке джабі ке джабі бга̄і бгава-сіндгу па̄ра<span class="page-num"> — 127</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-ki-jani-ki-bale-tomara-dhamete">кі джа̄ні кі бале, тома̄ра дга̄мете<span class="page-num"> — 155</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-jaya-jaya-gaurachander-arotiko-shobha">(кіба) джая джая ґаура̄ча̄ндер а̄ротіко шобга̄<span class="page-num"> — 64</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ki-rupe-paibo-seva-mui-durachara">кі-рӯпе па̄ібо сева̄ муі дура̄ча̄ра<span class="page-num"> — 145</span></a></p>
@@ -8865,7 +8874,7 @@
 <p class="first-line" data-translated="0"><a href="#song-sakhi-go-kemote-dhoribo-paran">сакхі ґо кемоте дгорібо пара̄н<span class="page-num"> — 191/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-samsara-davanala-lidha-loka">самса̄ра-да̄ва̄нала-лīдга-лока<span class="page-num"> — 48</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-samudra-sambhava-gabhi-surabhi-apana">самудра-самбгава̄ ґа̄бгī сурабгī а̄пана<span class="page-num"> — 277</span></a></p>
-<p class="first-line" data-translated="0"><a href="#song-sarvasva-tomara-charane-sanpiya">сарвасва тома̄ра, чаране санпія<span class="page-num"> — 163</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">сарвасва тома̄ра, чаране санпія<span class="page-num"> — 163</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sujanarvuda-radhita-pada-yugam">суджана̄рвуда-ра̄дгіта-па̄да-юґам<span class="page-num"> — 78</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">сӯтра-вритті-тіппанīшта-сӯкшма-ва̄чана̄дбгутам<span class="page-num"> — 85</span></a></p>
 <h2 class="first-line-group">Т</h2>
@@ -8910,7 +8919,7 @@
 <p class="first-line" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">яді те харі-па̄да-сароджа-судга̄</a></p>
 <p class="first-line" data-translated="0"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">ямуна̄мбу-кришна-ра̄дгіка̄лі-келі-мандалам<span class="page-num"> — 104</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"KoHkDZaEGmyHMokaCtkBX"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TaU0O2GMrMPvVp4mmv8pa"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

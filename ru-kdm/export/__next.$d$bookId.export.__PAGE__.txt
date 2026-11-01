@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T1913a,<h1 class="book-title">Колесница Джаганнатха</h1>
+3:T1adc7,<h1 class="book-title">Колесница Джаганнатха</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -134,7 +134,9 @@
 <h5>16</h5>
 <p class="verse"><strong>кр̣па̄ коро охе прабху ш́рӣ-гаура-прака̄ш́а</strong><br>
 <strong>а̄рати коройе сада̄ э адхама да̄са</strong></p>
-<p class="translation">О мой владыка, проявление милости Шри Гауранги, пожалуйста, будь милостив ко мне! Твой ничтожный слуга молит об этом, поклоняясь тебе.</p>
+<p class="translation">О мой владыка, проявление милости Шри Гауранги, пожалуйста, будь милостив ко мне! Твой ничтожный слуга молит об этом, поклоняясь тебе.<br>
+<a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-jaya-jaya" target="_blank">Навадвип Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-dzhaya-dzhaya" target="_blank">Каракас Дхам</a></p>
 </div>
 </section>
 <section class="song" id="song-jaya-guru-maharaja-jati-rajeshvara" data-translated="1">
@@ -235,7 +237,11 @@
 <h5>16</h5>
 <p class="verse"><strong>авичинтйа-бхеда̄бхеда-сиддханта-прака̄ш́а</strong><br>
 <strong>са̄нанде а̄рати стути каре дӣна-да̄са</strong></p>
-<p class="translation">Олицетворение Прекрасной Реальности, явленной Шри Чайтаньей Махапрабху! Твой покорный слуга радостно поет эту молитву, посвящая ее тебе.</p>
+<p class="translation">Олицетворение Прекрасной Реальности, явленной Шри Чайтаньей Махапрабху! Твой покорный слуга радостно поет эту молитву, посвящая ее тебе.<br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-jaya-guru" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-sri-guru-arati" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-jaya-guru" target="_blank">Навадвип Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-dzhaya-guru-1" target="_blank">Каракас Дхам</a></p>
 </div>
 </section>
 <section class="song" id="song-jaya-guru-maharaja-karuna-sagara" data-translated="1">
@@ -312,7 +318,8 @@
 <p class="verse"><strong>авичинтйа нитйананда-чаитанйа-прака̄ш́а</strong><br>
 <strong>ш́рӣ гуру-праса̄де декхе эи адхама да̄са</strong><br>
 <strong>(ш́рӣ гуру-праса̄де декхе ш́рӣ говинда да̄са)</strong></p>
-<p class="translation">Непостижимым образом проявились Шри Шри Нитай-Чайтанья, и, по милости Шри Гурудева, эта падшая душа видит Их <i>арати</i> и присоединяется к <i>санкиртане! </i></p>
+<p class="translation">Непостижимым образом проявились Шри Шри Нитай-Чайтанья, и, по милости Шри Гурудева, эта падшая душа видит Их <i>арати</i> и присоединяется к <i>санкиртане! </i><br>
+<a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-dzhaya-guru" target="_blank">Каракас Дхам</a></p>
 </div>
 </section>
 <section class="song" id="song-kali-kukkura-kadana-jadi-chao-he" data-translated="1">
@@ -355,7 +362,8 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;капат̣ӣ-вигха̄тана-ка̄ма</strong><br>
 <strong>ш́уддха бхакта-па̄лана&nbsp;&nbsp;&nbsp;&nbsp;ш́уш̣ка джн̃а̄на-та̄д̣ана,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;чхоло бхакти-дӯш̣ан̣а-ра̄ма</strong></p>
-<p class="translation">Шри Кришна Чайтанья поглощен сладостью Вриндавана! Он очищает ум от грязных мыслей, сводя на нет похоть и обман. Он изгоняет сухое эмпирическое знание, затмевающее красоту безраздельной преданности Богу. Он защищает, поддерживает и неустанно опекает всецело предавшиеся Ему души.</p>
+<p class="translation">Шри Кришна Чайтанья поглощен сладостью Вриндавана! Он очищает ум от грязных мыслей, сводя на нет похоть и обман. Он изгоняет сухое эмпирическое знание, затмевающее красоту безраздельной преданности Богу. Он защищает, поддерживает и неустанно опекает всецело предавшиеся Ему души.<br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-utrennee-6" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 <section class="song" id="song-jashomati-nandana-vraja-vara-nagara" data-translated="1">
@@ -390,7 +398,17 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ра̄са-расика кр̣па̄мойа</strong><br>
 <strong>ш́рӣ-ра̄дха̄-валлабха&nbsp;&nbsp;&nbsp;&nbsp;вр̣нда̄вана-нат̣абара</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;бхакативинода-а̄ш̣райа</strong></p>
-<p class="translation">Гуляя по берегам реки Ямуны, Кришна похищает одежды купающихся юных <i>гопи</i>. Он наслаждается сладостью танца <i>расы</i>. Он очень милостив! Кришна — единственный возлюбленный Шримати Радхарани! Он самый лучший танцор Вриндавана и высочайшее прибежище Шрилы Бхактивинода Тхакура!</p>
+<p class="translation">Гуляя по берегам реки Ямуны, Кришна похищает одежды купающихся юных <i>гопи</i>. Он наслаждается сладостью танца <i>расы</i>. Он очень милостив! Кришна — единственный возлюбленный Шримати Радхарани! Он самый лучший танцор Вриндавана и высочайшее прибежище Шрилы Бхактивинода Тхакура!<br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-jasomati" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-yasomati-2" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-yasomati-1" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-yasomati" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/goswami-maharaj-yasomati" target="_blank">Шрила Госвами Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-jasomati-nandana" target="_blank">Навадвип Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-dzhashomati" target="_blank">Каракас Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/madhusudan-maharaj-day-programm-kisel" target="_blank">Шрила Мадхусудан Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-utrennee-5" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-shri-nama" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 <section class="song" id="song-jaya-shiachinandana-sura-muni-vandana" data-translated="1">
@@ -426,7 +444,10 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;джайа йата прабху па̄риш̣ад</strong><br>
 <strong>ванди сава̄ка̄ра па̄йа&nbsp;&nbsp;&nbsp;&nbsp;адхамере кр̣па̄ хой</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;бхакти сапа̄рш̣ада-прабхупа̄д</strong></p>
-<p class="translation">Слава Мурари Гупте, слава Мукунде Датте! Слава вечным спутникам Шри Чайтаньи Махапрабху! Воспевая славу Шрилы Прабхупады и всех великих душ, вечных спутников Шри Чайтаньи Махапрабху, даже самый недостойный может обрести наивысшее сокровище любви!</p>
+<p class="translation">Слава Мурари Гупте, слава Мукунде Датте! Слава вечным спутникам Шри Чайтаньи Махапрабху! Воспевая славу Шрилы Прабхупады и всех великих душ, вечных спутников Шри Чайтаньи Махапрабху, даже самый недостойный может обрести наивысшее сокровище любви!<br>
+<a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-dzhaya" target="_blank">Каракас Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/madhusudan-maharaj-day-programm-kisel" target="_blank">Шрила Мадхусудан Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-utrennee-4" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 <section class="song" id="song-jaya-sa-parikara" data-translated="1">
@@ -511,7 +532,13 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;тома̄ра коруна̄-са̄ра</strong><br>
 <strong>коруна̄ на̄ хоиле&nbsp;&nbsp;&nbsp;&nbsp;ка̄̐дийа̄ ка̄̐дийа̄,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;пра̄н̣а на̄ ра̄кхибо а̄ра</strong></p>
-<p class="translation">Если ты внимательно посмотришь на меня, то не найдешь и следа хороших качеств. Твоя милость для меня — все! Если ты не будешь милостив ко мне, мне останется только горько оплакивать свою судьбу, и сама мысль о поддержании жизни станет мне ненавистна.</p>
+<p class="translation">Если ты внимательно посмотришь на меня, то не найдешь и следа хороших качеств. Твоя милость для меня — все! Если ты не будешь милостив ко мне, мне останется только горько оплакивать свою судьбу, и сама мысль о поддержании жизни станет мне ненавистна.<br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-gurudev-kripa" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/sridhar-maharaj-and-govinda-6" target="_blank">Шрила Шридхар Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-gurudev-morning" target="_blank">Навадвип Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-gurudev" target="_blank">Навадвип Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-gurudev" target="_blank">Каракас Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-utrennee-2" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 <section class="song" id="song-udilo-aruna-puraba-bhage" data-translated="1">
@@ -580,7 +607,9 @@
 <strong>джагате а̄си’ э мадхура на̄м,</strong><br>
 <strong>авидйа̄-тимира-тапана-рӯпе,</strong><br>
 <strong>хр̣д-гагане бира̄дже</strong></p>
-<p class="translation">Чтобы рассеять тьму невежества и благословить все души Вселенной, прекрасное Имя Кришны взошло, словно сияющее солнце!</p>
+<p class="translation">Чтобы рассеять тьму невежества и благословить все души Вселенной, прекрасное Имя Кришны взошло, словно сияющее солнце!<br>
+<a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-udilo-aruna-jiv" target="_blank">Навадвип Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-utrennee-1" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 <section class="song" id="song-jiv-jago-jiv-jago-gaurachanda-bole" data-translated="1">
@@ -615,7 +644,8 @@
 <h5>5</h5>
 <p class="verse"><strong>бхакативинода прабху-чаран̣е под̣ийа̄</strong><br>
 <strong>сэи хари-на̄ма-мантра лоило ма̄гийа̄</strong></p>
-<p class="translation">Тхакур Бхактивинод припал к лотосоподобным стопам Господа Гауранги и, моля о Святом Имени, получил <i>маха-мантру</i>.</p>
+<p class="translation">Тхакур Бхактивинод припал к лотосоподобным стопам Господа Гауранги и, моля о Святом Имени, получил <i>маха-мантру</i>.<br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-utrennee" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 </section>
@@ -637,7 +667,10 @@
 <div class="verse-block" data-number="">
 <p class="verse"><strong>ом̇ аджн̃а̄на-тимира̄ндхасйа джн̃а̄на̄н̃джана-ш́ала̄кайа̄</strong><br>
 <strong>чакш̣ур унмилитам̇ йена тасмаи ш́рӣ-гураве намах̣</strong></p>
-<p class="translation">Умастив мои глаза целительным бальзамом <i>самбандха-гьяны</i>, правильного восприятия окружающего мира, духовный учитель пробудил мое внутреннее видение и вывел меня из тьмы невежества, подарив надежду. В глубоком почтении я склоняюсь перед Шри Гурудевом.</p>
+<p class="translation">Умастив мои глаза целительным бальзамом <i>самбандха-гьяны</i>, правильного восприятия окружающего мира, духовный учитель пробудил мое внутреннее видение и вывел меня из тьмы невежества, подарив надежду. В глубоком почтении я склоняюсь перед Шри Гурудевом.<br>
+<a href="https://soundcloud.com/bharatimaharaj/acharya-maharaj-vandana" target="_blank">Шрила Ачарья Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/goswami-maharaj-vandana" target="_blank">Шрила Госвами Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/madhusudan-maharaj-vandana" target="_blank">Шрила Мадхусудан Махарадж</a></p>
 </div>
 </section>
 <section class="song" id="song-gurvabhishta-supurakam-guru-ganair" data-translated="1">
@@ -762,7 +795,23 @@
 <p class="verse"><strong>харе кр̣ш̣н̣а харе кр̣ш̣н̣а кр̣ш̣н̣а кр̣ш̣н̣а харе харе</strong><br>
 <strong>харе ра̄ма харе ра̄ма ра̄ма ра̄ма харе харе</strong></p>
 <p class="translation">Именем «Рама» в Харе Кришна <i>маха-мантре</i> гаудия-вайшнавы обращаются к Радха-рамана Раме. Радха-рамана Рама означает: «Кришна, дарующий наслаждение (<i>раман</i>) Шримати Радхарани». В нашем понимании Харе Кришна <i>маха-мантра</i> преисполнена Кришна-сознанием, а не Рама-сознанием. Наивысшая концепция Шри Чайтаньи Махапрабху — это Сваям Бхагаван, <i>кришна-лила, радха-говинда-лила</i>. Это истинная цель нисшествия и всех наставлений Шри Кришны Чайтаньи Махапрабху.<br>
-Из этого следует то, что в Харе Кришна <i>маха-мантре</i> нет упоминания о <i>рама-лиле</i> Айодхьи. В наивысшей концепции Харе Кришна <i>маха-мантры</i> нет никакой связи с этим… Понимание внутренней сути <i>мантры</i> ответственно за наш духовный прогресс… Это внутреннее понимание будет вести искреннюю душу к ее подлинному предназначению.</p>
+Из этого следует то, что в Харе Кришна <i>маха-мантре</i> нет упоминания о <i>рама-лиле</i> Айодхьи. В наивысшей концепции Харе Кришна <i>маха-мантры</i> нет никакой связи с этим… Понимание внутренней сути <i>мантры</i> ответственно за наш духовный прогресс… Это внутреннее понимание будет вести искреннюю душу к ее подлинному предназначению.<br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-kobe-sri" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/goswami-maharaj-mahamantra" target="_blank">Шрила Госвами Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-kirtan" target="_blank">Каракас Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-utrennee-3" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-8" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-7" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-2016" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-shri" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-6" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-5" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-4" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-3" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-v" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-2" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan-1" target="_blank">Шрила Авадхут Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-kirtan" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 </section>
@@ -862,7 +911,8 @@
 <strong>адарш́ана̄н марма-хата̄м̇ кароту ва̄</strong><br>
 <strong>йатха̄ татха̄ ва̄ видатха̄ту лампат̣о</strong><br>
 <strong>мат-пра̄н̣а-на̄тхас ту са эва напа̄рах̣</strong></p>
-<p class="translation">Он волен заключить рабу Свою в объятья, волен в грязь Её втоптать. Он волен сердце Ей разбить, укрывшись прочь от любящих очей. Повеса, Сердцеед беспечный и беспутный Прожигатель жизни ― Он Мне один лишь мил. Ему Я отдана навеки.</p>
+<p class="translation">Он волен заключить рабу Свою в объятья, волен в грязь Её втоптать. Он волен сердце Ей разбить, укрывшись прочь от любящих очей. Повеса, Сердцеед беспечный и беспутный Прожигатель жизни ― Он Мне один лишь мил. Ему Я отдана навеки.<br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-1" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 <section class="song" id="song-hari-haraye-namah-krishna-yadavaya-namah" data-translated="1">
@@ -926,7 +976,10 @@
 <h5>10</h5>
 <p class="verse"><strong>ш́рӣ-гуру-ваиш̣н̣ава-па̄да-падма кори а̄ш́а</strong><br>
 <strong>(хари) на̄ма-сан̇кӣрттана кохе нароттама да̄са</strong></p>
-<p class="translation">Желая обрести прибежище лотосоподобных стоп Шри Гуру и вайшнавов, Нароттам Дас поет <i>санкиртану</i> Святого Имени!</p>
+<p class="translation">Желая обрести прибежище лотосоподобных стоп Шри Гуру и вайшнавов, Нароттам Дас поет <i>санкиртану</i> Святого Имени!<br>
+<a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-hari-haraye" target="_blank">Шрила Говинда Махарадж</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-hari-haraye" target="_blank">Навадвип Дхам</a><br>
+<a href="https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-xari-xaraje" target="_blank">Шрила Авадхут Махарадж</a></p>
 </div>
 </section>
 </section>
@@ -965,7 +1018,7 @@
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">ш́рӣ-сиддха̄нта-сарасватӣти видито<span class="page-num"> — 15</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"KoHkDZaEGmyHMokaCtkBX"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TaU0O2GMrMPvVp4mmv8pa"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
