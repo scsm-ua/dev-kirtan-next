@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T1adc7,<h1 class="book-title">Колесница Джаганнатха</h1>
+3:T1ac84,<h1 class="book-title">Колесница Джаганнатха</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -317,7 +317,7 @@
 <h5>12</h5>
 <p class="verse"><strong>авичинтйа нитйананда-чаитанйа-прака̄ш́а</strong><br>
 <strong>ш́рӣ гуру-праса̄де декхе эи адхама да̄са</strong><br>
-<strong>(ш́рӣ гуру-праса̄де декхе ш́рӣ говинда да̄са)</strong></p>
+(ш́рӣ гуру-праса̄де декхе ш́рӣ говинда да̄са)</p>
 <p class="translation">Непостижимым образом проявились Шри Шри Нитай-Чайтанья, и, по милости Шри Гурудева, эта падшая душа видит Их <i>арати</i> и присоединяется к <i>санкиртане! </i><br>
 <a href="https://soundcloud.com/bharatimaharaj/shchsm-karakas-dzhaya-guru" target="_blank">Каракас Дхам</a></p>
 </div>
@@ -454,37 +454,37 @@
 <div class="verse-block" data-number="">
 <h2>Джайа Дхвани <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>ш́рӣ ш́рӣ гаура-нитай ки джайа!</strong><br>
-<strong></strong><br>
-<strong>(ш́рӣ панча-таттва ки джайа!)</strong><br>
-<strong></strong><br>
+<br>
+(ш́рӣ панча-таттва ки джайа!)<br>
+<br>
 <strong>джайа ш́рӣ ш̣рӣмад бхакти сундар говинда дев-госва̄мӣ маха̄ра̄дж кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>джайа ш́рӣ ш̣рӣмад бхакти ракш̣ак ш́рӣдхар дев-госва̄мӣ маха̄ра̄дж кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>джайа ш́рӣ ш̣рӣмад бхакти сиддха̄нта сарасватӣ т̣ха̄кур кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>джайа ш́рӣла гаура-киш́ора да̄с ба̄ба̄джӣ маха̄ра̄дж кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>джайа ш́рӣла сач-чид-а̄нанда бхактивинода т̣ха̄кур кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>джайа ш́рӣла джаганна̄тх да̄с ба̄ба̄джӣ маха̄ра̄дж кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>ш́рӣ рӯпа̄нуга гуру-варга кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>ш́рӣ бхакта-врнда кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>интернет бхакта-врнда кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>санньяса бхакта-врнда кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>шримад бхагаватам кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>ш́рӣ чаитанйа са̄расват мат̣х кӣ джайа!</strong><br>
-<strong></strong><br>
-<strong>(ш́рӣ чаитанйа са̄расват мат̣х нидерхаймбах кӣ джайа!)</strong><br>
-<strong></strong><br>
+<br>
+(ш́рӣ чаитанйа са̄расват мат̣х нидерхаймбах кӣ джайа!)<br>
+<br>
 <strong>харина̄ма-сан̇кӣрттана кӣ джайа!</strong><br>
-<strong></strong><br>
+<br>
 <strong>нита̄и-гаура-према̄нанде харибол!</strong></p>
 </div>
 </section>
@@ -975,7 +975,7 @@
 <div class="verse-block" data-number="10">
 <h5>10</h5>
 <p class="verse"><strong>ш́рӣ-гуру-ваиш̣н̣ава-па̄да-падма кори а̄ш́а</strong><br>
-<strong>(хари) на̄ма-сан̇кӣрттана кохе нароттама да̄са</strong></p>
+(хари)<strong> на̄ма-сан̇кӣрттана кохе нароттама да̄са</strong></p>
 <p class="translation">Желая обрести прибежище лотосоподобных стоп Шри Гуру и вайшнавов, Нароттам Дас поет <i>санкиртану</i> Святого Имени!<br>
 <a href="https://soundcloud.com/bharatimaharaj/govinda-maharaj-hari-haraye" target="_blank">Шрила Говинда Махарадж</a><br>
 <a href="https://soundcloud.com/bharatimaharaj/navadwip-scsm-hari-haraye" target="_blank">Навадвип Дхам</a><br>
@@ -1018,7 +1018,7 @@
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">ш́рӣ-кр̣ш̣н̣а-чаитанйа прабху нитйа̄нанда<span class="page-num"> — 24/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-siddhanta-sarasvatiti-vidito">ш́рӣ-сиддха̄нта-сарасватӣти видито<span class="page-num"> — 15</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"cjHYyObJlKieEKbXSwiG7"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru-kdm","lang":"ru","title":"Колесница Джаганнатха"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fx5AXyn-MVZuuf1VOxHAO"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

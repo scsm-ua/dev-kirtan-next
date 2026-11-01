@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T19ffc5,<h1 class="book-title">Guía de Kīrtan</h1>
+3:T19fbc9,<h1 class="book-title">Guía de Kīrtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Contenido</h1>
@@ -964,7 +964,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h5>12</h5>
 <p class="verse"><strong>avichintya nityānanda-chaitanya-prakāśa</strong><br>
 <strong>śrī guru-prasāde dekhe ei adhama dāsa</strong><br>
-<strong>(śrī guru-prasāde dekhe śrī govinda dāsa)</strong></p>
+(śrī guru-prasāde dekhe śrī govinda dāsa)</p>
 <p class="wbw"><i class="wbw__bold">avichintya</i> — inconcebiblemente; <i class="wbw__bold">nityānanda</i> — de Nityānanda; <i class="wbw__bold">chaitanya</i> — de Chaitanya; <i class="wbw__bold">prakāśa</i> — manifestación; <i class="wbw__bold">śrī guru</i> — de Śrī Gurudev; <i class="wbw__bold">prasāde</i> — por la misericordia; <i class="wbw__bold">dekhe</i> — ve; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">adhama</i> — bajo; <i class="wbw__bold">dāsa</i> — sirviente; <i class="wbw__bold">śrī guru</i> — de Śrī Gurudev; <i class="wbw__bold">prasāde</i> — por la misericordia; <i class="wbw__bold">dekhe</i> — ve; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">śri</i> — adorable; <i class="wbw__bold">govinda</i> — de nombre Govinda; <i class="wbw__bold">dāsa</i> — sirviente.</p>
 <p class="translation">Inconcebiblemente, Śrī Śrī Nitāi-Chaitanya se han manifestado y, gracias a la misericordia de Śrī Gurudev, esta alma caída observa Su <i>ārati</i> y se une al <i>saṅkīrtan</i>.<br>
 ---<br>
@@ -1185,7 +1185,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="verse"><strong>udila aruṇa pūrava-bhāge</strong><br>
 <strong>dvija-maṇi gorā amani jāge</strong><br>
 <strong>bhakata-samūha la-iyā sāthe</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gorā) gelā nagara-vrāje</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gorā)<strong> gelā nagara-vrāje</strong></p>
 <p class="wbw"><i class="wbw__bold">udila</i> — naciente; <i class="wbw__bold">aruṇa</i> — rojizo; <i class="wbw__bold">pūraba-bhāge</i> — el horizonte oriental; <i class="wbw__bold">dvija-maṇi</i> — la joya de los <i>brāhmaṇas</i> nacidos dos veces; <i class="wbw__bold">gorā</i> — el Señor Gaura; <i class="wbw__bold">amani</i> — inmediatamente; <i class="wbw__bold">jāge</i> — despierta; <i class="wbw__bold">bhakata</i> — devotos; <i class="wbw__bold">samūha</i> — muchos; <i class="wbw__bold">laiyā</i> — tomando; <i class="wbw__bold">sāthe</i> — consigo; <i class="wbw__bold">gelā</i> — viajó; <i class="wbw__bold">nagara-vrāje</i> — vagando por los pueblos y aldeas.</p>
 <p class="translation">Poco antes de la salida del sol, cuando el horizonte se tornaba rojizo, despertaba Śrī Gaurahari, quien es la joya de aquellos nacidos dos veces. Llevando a Sus devotos consigo, comenzaba el <i>kīrtan</i>, caminando a través de los pueblos y aldeas rurales.</p>
 </div>
@@ -1194,7 +1194,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="verse"><strong>‘tāthai tāthai’ bājala khola</strong><br>
 <strong>ghana ghana tāhe jhā̐jera rola</strong><br>
 <strong>preme ḍhala ḍhala sonāra aṅga</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gorār) charaṇe nūpura bāje</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gorār)<strong> charaṇe nūpura bāje</strong></p>
 <p class="wbw"><i class="wbw__bold">‘tāthaī tāthaī’</i> — haciendo el sonido<i> tāthaī tāthaī</i>; <i class="wbw__bold">bājala</i> — resonaron; <i class="wbw__bold">khol</i> — los tambores <i>mṛdaṅga</i>; <i class="wbw__bold">ghana ghana</i> — repetidamente; <i class="wbw__bold">tāhe</i> — en ese (<i>kīrtan</i>); <i class="wbw__bold">jhā̐jera</i> — de los grandes címbalos de metal; <i class="wbw__bold">rol</i> — el tumulto; <i class="wbw__bold">preme</i> — en amor extático; <i class="wbw__bold">ḍhala ḍhala</i> — ligeramente temblado; <i class="wbw__bold">soṇāra aṅga</i> — la forma dorada del Señor Gaurāṅga; <i class="wbw__bold">charaṇe</i> — de Sus pies; <i class="wbw__bold">nūpura</i> — las campanillas; <i class="wbw__bold">bāje</i> — tintinearon.</p>
 <p class="translation">Las <i>mṛdaṅgas</i> resonaban <i>“tāthai, tāthai”</i>, al compás de los címbalos tintineantes, mientras la forma dorada de Mahāprabhu se estremecía en éxtasis y Sus campanitas tobilleras tintineaban.</p>
 </div>
@@ -1266,9 +1266,9 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">El Señor Gaurāṇga exclama: “¡Despierten, almas durmientes! ¡Despierten, almas durmientes! Han dormido tanto tiempo en el regazo de la bruja Māyā”.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(ār kata kāl ghumāibe?)</strong><br>
-<strong>(māyā-piśāchīra kole ār kata kāl ghumāibe?)</strong><br>
-<strong>(uṭha jīva, kṛṣṇa bhaja ār kata kāl ghumāibe?)</strong></p>
+<p class="verse">(ār kata kāl ghumāibe?)<br>
+(māyā-piśāchīra kole ār kata kāl ghumāibe?)<br>
+(uṭha jīva, kṛṣṇa bhaja ār kata kāl ghumāibe?)</p>
 <p class="wbw"><i class="wbw__bold">āra kata</i> — ¿cuánto más; <i class="wbw__bold">kāla</i> — tiempo; <i class="wbw__bold">ghumāibe?</i> — dormirán?; <i class="wbw__bold">māyā-piśāchīra</i> — de la bruja Māyā; <i class="wbw__bold">kole</i> — regazo; <i class="wbw__bold">āra kata kāl ghumāibe?</i> — ¿cuánto tiempo másdormirán?; <i class="wbw__bold">uṭha</i> — despierta; <i class="wbw__bold">jīva</i> — alma; <i class="wbw__bold">kṛṣṇa bhaja</i> — sirve a Kṛṣṇa; <i class="wbw__bold">ār kata kāl ghumāibe?</i> — ¿cuánto más vas a dormir?</p>
 <p class="translation">“¿Cuánto más van a dormir? ¿Cuánto más van a dormir en el regazo de la bruja Māyā? ¡Despierta alma! ¡Sirve a Kṛṣṇa! ¿Cuánto más vas a dormir?”</p>
 </div>
@@ -1280,8 +1280,8 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">“Han venido a este mundo, diciendo: ‘¡Oh, mi Señor!Ciertamentete adoraré’, pero, olvidando esa promesa, permanecen en una granignorancia”.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(bhuliyā rahile)</strong><br>
-<strong>(avidyāra mohe paḍe tumi bhuliyā rahile)</strong></p>
+<p class="verse">(bhuliyā rahile)<br>
+(avidyāra mohe paḍe tumi bhuliyā rahile)</p>
 <p class="wbw"><i class="wbw__bold">bhuliyā</i> — habiendo olvidado; <i class="wbw__bold">rahile</i> — permaneces; <i class="wbw__bold">avidyāra</i> — en la ignorancia; <i class="wbw__bold">mohe</i> — hechizado; <i class="wbw__bold">paḍe</i> — caer; <i class="wbw__bold">tumi</i> — tú; <i class="wbw__bold">bhuliyā</i> — habiendo olvidado; <i class="wbw__bold">rahile</i> — permaneces.</p>
 <p class="translation">“Te olvidaste y permaneciste. Caíste bajo el hechizo de la ilusión, olvidaste (tu promesa), y permaneciste allí”.</p>
 </div>
@@ -1293,8 +1293,8 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">“Descendí tan solo para salvarlos. Aparte de Mí, ¿quién más es tu amigo?”</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(eman bandhu ār ke āchhe?)</strong><br>
-<strong>(māyā-ha-ite uddhārite&nbsp;&nbsp;&nbsp;&nbsp;eman bandhu ār ke āchhe?)</strong></p>
+<p class="verse">(eman bandhu ār ke āchhe?)<br>
+(māyā-ha-ite uddhārite&nbsp;&nbsp;&nbsp;&nbsp;eman bandhu ār ke āchhe?)</p>
 <p class="wbw"><i class="wbw__bold">eman</i> — como este; <i class="wbw__bold">bandhu</i> — un amigo; <i class="wbw__bold">ār</i> — más; <i class="wbw__bold">ke āchhe</i> — ¿quién es?; <i class="wbw__bold">māyā</i> — la ilusión; <i class="wbw__bold">ha-ite</i> — de eso; <i class="wbw__bold">uddhārite</i> — liberar; <i class="wbw__bold">eman</i> — como este; <i class="wbw__bold">bandhu</i> — un amigo; <i class="wbw__bold">ār</i> — más; <i class="wbw__bold">ke āchhe</i> — ¿quién es?</p>
 <p class="translation">¿Quién más es tu amigo? ¿Quién más está allí para salvarte de Māyā? ¿Quién más es tu amigo?</p>
 </div>
@@ -1306,15 +1306,15 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">“Les he traído la medicina que destruye la ilusión de Māyā. Oren por este <i>mahāmantra</i> y recíbanlo”.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(māgiyā lao re)</strong><br>
-<strong>(sudhā-mākhā ei hari-nām māgiyā lao re)</strong></p>
+<p class="verse">(māgiyā lao re)<br>
+(sudhā-mākhā ei hari-nām māgiyā lao re)</p>
 <p class="wbw"><i class="wbw__bold">māgiyā</i> — orando; <i class="wbw__bold">lao re</i> — recíbanlo; <i class="wbw__bold">sudhā</i> — néctar; <i class="wbw__bold">mākhā</i> — pleno de; <i class="wbw__bold">ei hari-nām</i> — este Santo Nombre; <i class="wbw__bold">māgiyā</i> — orando; <i class="wbw__bold">lao re</i> — recíbanlo.</p>
 <p class="translation">“Oren y recíbanlo. Oren por el Santo Nombre, el cual está goteando de néctar, y recíbanlo”.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>bhakativinoda prabhur-charaṇe paḍiyā</strong><br>
-<strong>(sei) hari-nāma-mantra la-ila māgiyā</strong></p>
+(sei)<strong> hari-nāma-mantra la-ila māgiyā</strong></p>
 <p class="wbw"><i class="wbw__bold">bhakativinoda</i> — Bhakti Vinod; <i class="wbw__bold">prabhur-charaṇe</i> — a los pies de loto del Señor Gaurāṅga; <i class="wbw__bold">paḍiyā</i> — cayendo; <i class="wbw__bold">sei hari-nāma-mantra</i> — ese Hari-nāma-mantra; <i class="wbw__bold">la-ila</i> — recibió; <i class="wbw__bold">māgiyā</i> — al orar.</p>
 <p class="translation">Bhakti Vinod cae a los pies de loto del Señor, ora por el Hari-nāma<i>mahāmantra</i> y lo recibe.</p>
 </div>
@@ -1466,44 +1466,44 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="wbw"><i class="wbw__bold">bhajan</i> — de adoración; <i class="wbw__bold">gīti</i> — canción.</p>
 <h5>1</h5>
 <p class="verse"><strong>bhaja re bhaja re āmār mana ati manda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(bhajan vinā gati nāi re)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(ohe āmār mūḍha-mana bhajan vinā gati nāi re)</strong><br>
-<strong>(bhaja) vraja-vane rādhā-kṛṣṇa-charaṇāravinda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jñāna-karma parihari’ re)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(śuddha rāga-patha dhari’ jñāna-karma parihari’ re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(bhajan vinā gati nāi re)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(ohe āmār mūḍha-mana bhajan vinā gati nāi re)<br>
+(bhaja)<strong> vraja-vane rādhā-kṛṣṇa-charaṇāravinda</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jñāna-karma parihari’ re)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(śuddha rāga-patha dhari’ jñāna-karma parihari’ re)</p>
 <p class="wbw"><i class="wbw__bold">bhaja</i> — adora; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">bhaja</i> — adora; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">āmār</i> — mi; <i class="wbw__bold">mana</i> — mente; <i class="wbw__bold">ati</i> — muy; <i class="wbw__bold">manda</i> — tonta; <i class="wbw__bold">bhajan</i> — adoración; <i class="wbw__bold">vinā</i> — excepto; <i class="wbw__bold">gati</i> — destino; <i class="wbw__bold">nāi</i> — no; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">ohe</i> — ¡oh!; <i class="wbw__bold">āmār</i> — mía; <i class="wbw__bold">mūḍha</i> — traviesa; <i class="wbw__bold">mana</i> — mente; <i class="wbw__bold">bhajan</i> — adoración; <i class="wbw__bold">vinā</i> — excepto; <i class="wbw__bold">gati</i> — destino; <i class="wbw__bold">nāi</i> — no; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">bhaja</i> — adora; <i class="wbw__bold">vraja</i> — de Vraja; <i class="wbw__bold">vane</i> — en el bosque; <i class="wbw__bold">rādhā-kṛṣṇa-charaṇāravinda</i> — los pies de loto de Śrī Śrī Rādhā Kṛṣṇa; <i class="wbw__bold">jñāna-karma</i> — <i>jñāna</i> y <i>karma</i>; <i class="wbw__bold">parihari’</i> — renunciar; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">śuddha</i> — puro; <i class="wbw__bold">rāga</i> — espontáneo; <i class="wbw__bold">patha</i> — sendero; <i class="wbw__bold">dhari’</i> — acepta; <i class="wbw__bold">jñāna-karma</i> — <i>jñāna</i> y <i>karma</i>; <i class="wbw__bold">parihari’</i> — renunciar; <i class="wbw__bold">re</i> — ¡oh!</p>
 <p class="translation">¡Oh, mente mía, qué tonta eres! Tan solo adora los pies de loto de Rādhā y Kṛṣṇa en el bosque de Vraja. Sin esa adoración, no hay posibilidad de avance espiritual. Abandona todo el conocimiento especulativo y las actividades materialistas y únicamente adora a Rādhā y Kṛṣṇa en los bosques de Vraja.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(bhaja) gaura-gadādharādvaita-guru-nityānanda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura-kṛṣṇe abhede jene)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(guru kṛṣṇa-priya jene gaura-kṛṣṇe abhede jene re)</strong><br>
+<p class="verse">(bhaja)<strong> gaura-gadādharādvaita-guru-nityānanda</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaura-kṛṣṇe abhede jene)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(guru kṛṣṇa-priya jene gaura-kṛṣṇe abhede jene re)<br>
 <strong>śrīnivāsa, haridāsa, murāri, mukunda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura-preme smara smara re)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(śrīnivāsa, haridāse, gaura-preme smara smara re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaura-preme smara smara re)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(śrīnivāsa, haridāse, gaura-preme smara smara re)</p>
 <p class="wbw"><i class="wbw__bold">bhaja</i> — adora; <i class="wbw__bold">gaura-gadādharādvaita</i> — a Gaura, a Gadādhara y a Advaita; <i class="wbw__bold">guru-nityānanda</i> — a Guru Nityānanda; <i class="wbw__bold">gaura-kṛṣṇe</i> — de Gaura y Kṛṣṇa; <i class="wbw__bold">abhede</i> — no diferente; <i class="wbw__bold">jene</i> — sepan que; <i class="wbw__bold">guru</i> — el maestro espiritual; <i class="wbw__bold">kṛṣṇa-priya</i> — el querido de Kṛṣṇa; <i class="wbw__bold">jene</i> — sepan que; <i class="wbw__bold">gaura-kṛṣṇe</i> — de Gaura y Kṛṣṇa; <i class="wbw__bold">abhede</i> — no diferente; <i class="wbw__bold">jene</i> — sepan que; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">śrīnivāsa, haridāsa, murāri, mukunda</i> — (recuerda a) Śrīnivāsa, a Haridāsa, a Murāri y a Mukunda; <i class="wbw__bold">gaura-preme</i> — con amor por el Señor Chaitanya; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">śrīnivāsa, haridāse,</i> — a Śrīnivāsa y a Haridāsa; <i class="wbw__bold">gaura-preme</i> — con amor por el Señor Chaitanya; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">re</i> — ¡oh!</p>
 <p class="translation">Debes adorar y servir a Gaura, a Gadadhār, a Advaita y al Maestro espiritual original, el Señor Nityānanda. Sabiendo que Kṛṣṇa y Gaura son la misma persona, y sabiendo que el Maestro Espiritual es muy querido a Kṛṣṇa, debes recordar a los queridos asociados del Señor Chaitanya, tales como Śrīvās Ṭhākur, Haridās Ṭhākur, Murāri Gupta y Mukunda Datta. Con profundo amor por Gaura, debes recordar a las dos grandes personalidades: Śrīvās Ṭhākur y Haridās Ṭhākur.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>&nbsp;rūpa-sanātana-jīva-raghunātha-dvandva</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(yadi bhajan karbe re)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(rūpa-sanātane smara yadi bhajan karbe re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(yadi bhajan karbe re)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(rūpa-sanātane smara yadi bhajan karbe re)<br>
 <strong>rāghava-gopāla-bhaṭṭa-svarūpa-rāmānanda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(kṛṣṇa prema yadi chāo re)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(svarūpa-rāmānande smara kṛṣṇa-prema yadi chāo re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(kṛṣṇa prema yadi chāo re)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(svarūpa-rāmānande smara kṛṣṇa-prema yadi chāo re)</p>
 <p class="wbw"><i class="wbw__bold">rūpa-sanātana-jīva</i> — (recuerda a) Śrī Rūpa Goswāmī, Sanātan Goswāmī, Jīva Goswāmī; <i class="wbw__bold">raghunātha-dvandva</i> — y ambos Raghunāth Bhaṭṭa Goswāmī y Raghunāth Dās Goswāmī; <i class="wbw__bold">yadi</i> — y si; <i class="wbw__bold">bhajan</i> — adoras; <i class="wbw__bold">karbe</i> — lo haces; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">rūpa-sanātane</i> — a Śrī Rūpa y Sanātan Goswāmī; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">yadi</i> — y si; <i class="wbw__bold">bhajan</i> — adoras; <i class="wbw__bold">karbe</i> — lo haces; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">rāghava-gopāla-bhaṭṭa-svarūpa-rāmānanda</i> — a Rāghava Paṇḍit, a Gopāl Bhaṭṭa Goswāmī, Svarūp Dāmodar Goswāmī y Rāmānanda Rāy; <i class="wbw__bold">kṛṣṇa prema</i> — amor por el Señor Kṛṣṇa; <i class="wbw__bold">yadi</i> — si; <i class="wbw__bold">chāo</i> — lo deseas; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">svarūpa-rāmānande</i> — Svarūp Dāmodar Goswāmī y Rāmānanda Rāy; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">kṛṣṇa-prema</i> — amor por el Señor Kṛṣṇa; <i class="wbw__bold">yadi</i> — si; <i class="wbw__bold">chāo</i> — lo deseas; <i class="wbw__bold">re</i> — ¡oh!</p>
 <p class="translation">Debes recordar a los Goswāmīs de Vṛndāvan: Śrī Rūpa Goswāmī,Sanātan Goswāmī, Jīva Goswāmī, Raghunāth Bhaṭṭa Goswāmī yRaghunāth Dās Goswāmī. Si adoras a Kṛṣṇa, entonces debes recordara las dos grandes almas, Śrī Rūpa y Sanātan Goswāmī. Tambiéndebes recordar a Rāghava Paṇḍit, a Gopāl Bhaṭṭa Goswāmī, Svarūp Dāmodar Goswāmī y Rāmānanda Rāy. Si realmente buscas amor por Kṛṣṇa, entonces tienes que recordar a Swarūp Dāmodar y a Rāmānanda Rāy.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>goṣṭhī-saha karṇapura sena-śivānanda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(ajasra smara smara re)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(goṣṭhī-saha sena śivānande ajasra smara re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(ajasra smara smara re)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(goṣṭhī-saha sena śivānande ajasra smara re)<br>
 <strong>rūpānuga sādhu-jana bhajana-ānanda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(vraje vās yadi chāo re)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(rūpānuga sādhu-jane smara vraje vās yadi chāo re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(vraje vās yadi chāo re)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(rūpānuga sādhu-jane smara vraje vās yadi chāo re)</p>
 <p class="wbw"><i class="wbw__bold">goṣṭhī</i> — grupo, familia; <i class="wbw__bold">saha</i> — todos; <i class="wbw__bold">karṇapura</i> — Kavi Karnapura; <i class="wbw__bold">sena-śivānanda</i> — Śivānanda Sena; <i class="wbw__bold">ajasra</i> — siempre; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">goṣṭhī</i> — grupo, familia; <i class="wbw__bold">saha</i> — todos; <i class="wbw__bold">sena-śivānande</i> — Śivānanda Sena; <i class="wbw__bold">ajasra</i> — siempre; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">rūpānuga</i> — los seguidores de Śrīla Rūpa Goswāmī; <i class="wbw__bold">sādhu-jana</i> — personas santas; <i class="wbw__bold">bhajana-ānanda</i> — el júbilo del servicio devocional; <i class="wbw__bold">vraje</i> — en Vraja; <i class="wbw__bold">vās</i> — residir; <i class="wbw__bold">yadi</i> — si; <i class="wbw__bold">chāo</i> — lo deseas; <i class="wbw__bold">re</i> — ¡oh!; <i class="wbw__bold">rūpānuga</i> — los seguidores de Śrīla Rūpa Goswāmī; <i class="wbw__bold">sādhu-jane</i> — personas santas; <i class="wbw__bold">smara</i> — recuerda; <i class="wbw__bold">vraje</i> — en Vraja; <i class="wbw__bold">vās</i> — residir; <i class="wbw__bold">yadi</i> — si; <i class="wbw__bold">chāo</i> — lo deseas; <i class="wbw__bold">re</i> — ¡oh!</p>
 <p class="translation">Recuerda a Śrīla Kavi Karṇapura y su familia, quienes son sirvientes de Śrī Chaitanya Mahāprabhu. También recuerda al padre de Kavi Karṇapura, Śivānanda Sena. Siempre, siempre recuerda a Śrī Karṇapura y su familia. Recuerda a todos esos Vaiṣṇavas que siguen estrictamente el sendero de Rūpa Goswāmī y que están absortos en el éxtasis del <i>bhajan</i>. Si en verdad anhelas residir en Vraja, entonces recuerda a todos los Vaiṣṇavas seguidores de Śrī Rūpa.</p>
 </div>
@@ -1869,7 +1869,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <div class="verse-block" data-number="10">
 <h5>10</h5>
 <p class="verse"><strong>śrī-guru-vaiṣṇava-pāda-padma kori āśa</strong><br>
-<strong>(hari) nāma-saṇkīrttana kohe narottama dāsa</strong></p>
+(hari)<strong> nāma-saṇkīrttana kohe narottama dāsa</strong></p>
 <p class="wbw"><i class="wbw__bold">śrī-guru-vaiṣṇava</i> — de Śrī Guru y los Vaiṣṇavas; <i class="wbw__bold">pāda-padma</i> — los pies de loto; <i class="wbw__bold">kori āśa</i> — estoy deseando; <i class="wbw__bold">nāma-saṇkīrtana</i> — la glorificación del Santo Nombre; <i class="wbw__bold">kohe</i> — canta; <i class="wbw__bold">narottama dāsa</i> — el autor, Narottama Dās Ṭhākur.</p>
 <p class="translation">Deseando los pies de loto de Śrī Guru y los Vaiṣṇavas, Narottam Dās canta el <i>saṅkīrtan</i> del Santo Nombre.</p>
 </div>
@@ -2002,23 +2002,23 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">Ṭhākur Bhakti Vinod, cuya sola y única alegría son los Pasatiempos del Señor Hari, canta esta canción del <i>bhoga ārati</i>.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(bhaja govinda govinda gopāla)</strong></p>
+<p class="verse">(bhaja govinda govinda gopāla)</p>
 <p class="wbw"><i class="wbw__bold">bhaja</i> — canta; <i class="wbw__bold">govinda</i> — quien da placer a las vacas; <i class="wbw__bold">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa).</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(giridhārī gopīnātha nanda-dulāla)</strong></p>
+<p class="verse">(giridhārī gopīnātha nanda-dulāla)</p>
 <p class="wbw"><i class="wbw__bold">giridhārī</i> — quien sostiene la montaña de Govardhan; <i class="wbw__bold">gopī-nātha</i> — el amo de las <i>gopīs</i>; <i class="wbw__bold">nanda-dulāla</i> — el querido de Nanda (Kṛṣṇa).</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(bhaja govinda govinda gopāla)</strong></p>
+<p class="verse">(bhaja govinda govinda gopāla)</p>
 <p class="wbw"><i class="wbw__bold">bhaja</i> — canta; <i class="wbw__bold">govinda</i> — quien da placer a las vacas; <i class="wbw__bold">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa).</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(nanda-dulāla jaya jaya śachī-dulāla)</strong></p>
+<p class="verse">(nanda-dulāla jaya jaya śachī-dulāla)</p>
 <p class="wbw"><i class="wbw__bold">nanda-dulāla</i> — el querido de Nanda (Kṛṣṇa); <i class="wbw__bold">jaya jaya</i> — repetidas glorias; <i class="wbw__bold">śachī-dulāla</i> — el querido de Madre Śachī (Mahāprabhu).</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(śachī-dulāla jaya jaya gaura gopāla)</strong></p>
+<p class="verse">(śachī-dulāla jaya jaya gaura gopāla)</p>
 <p class="wbw"><i class="wbw__bold">śachī-dulāla</i> — el querido de Madre Śachī (Mahāprabhu); <i class="wbw__bold">jaya jaya</i> — repetidas glorias; <i class="wbw__bold">gaura</i> — el Señor dorado; <i class="wbw__bold">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa).</p>
 <p class="translation">Sirve a Govinda, sirve a Gopāl. Sirve a Giridhārī, Gopīnāth, Nanda Dulāl. Sirve a Govinda, sirve a Gopāl. ¡Toda gloria al hijo de Nanda! ¡Toda gloria al hijo de Śachī! ¡Toda gloria al dorado Gopāl!</p>
 </div>
@@ -2057,9 +2057,9 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">¡Mis amigos!, el Señor Kṛṣṇa es muy misericordioso; para conquistar la lengua, ¡nos ha dado los remanentes de Su propia comida! Ahora, por favor, coman los nectarinos granos mientras glorifican a Sus Señorías Śrī Śrī Rādhā-Kṛṣṇa, y con afecto exclamen: “¡Chaitanya! ¡Nitāi!”.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(preme bhore ḍākare)</strong><br>
-<strong>(dayāl nitāi chaitanya bole, preme bhore ḍākare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(preme bhore ḍākare)<br>
+(dayāl nitāi chaitanya bole, preme bhore ḍākare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="wbw"><i class="wbw__bold">preme</i> — con amor; <i class="wbw__bold">bhore</i> — pleno; <i class="wbw__bold">ḍaka re</i> — ¡oh exclama!; <i class="wbw__bold">dayāl nitāi chaitanya</i> — los amigos de los caídos Nitāi y Chaitanya; <i class="wbw__bold">preme</i> — con amor; <i class="wbw__bold">bhore</i> — pleno; <i class="wbw__bold">ḍaka re</i> — ¡oh exclama!; <i class="wbw__bold">nitāi gaura haribol</i> — canta el Nombre de Nitāi y Chaitanya.</p>
 </div>
 </section>
@@ -2072,80 +2072,80 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h4>Śrīla Bhakti Vinod Ṭhākur</h4>
 <p class="wbw"><i class="wbw__bold">śrī</i> — venerable; <i class="wbw__bold">gaura</i> — de Gaurāṅga; <i class="wbw__bold">ārati</i> — ceremonia.</p>
 <h5>1</h5>
-<p class="verse"><strong>(kibā) jaya jaya gorāchā̐der āratika śobhā</strong><br>
+<p class="verse">(kibā)<strong> jaya jaya gorāchā̐der āratika śobhā</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;jāhnavī-taṭa-vane jaga-mana lobhā</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaga-janer mana lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati śobhā jaga-janer mana lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaga-janer mana lobhā)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅger ārati śobhā jaga-janer mana lobhā)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="wbw"><i class="wbw__bold">kibā</i> — venerable; <i class="wbw__bold">jaya jaya</i> — ¡todas las glorias, todas las glorias!; <i class="wbw__bold">gaurāchā̐der</i> — del Señor Chaitanya, semejante a la luna; <i class="wbw__bold">āratiko śobhā</i> — la hermosa ceremonia <i>ārati</i>; <i class="wbw__bold">jāhnavī-taṭa vane</i> — en un bosquecillo a orillas del río Ganges; <i class="wbw__bold">jaga-mana-lobhā</i> — atraer las mentes de todas las entidades vivientes del universo; (<i class="wbw__bold">jaga</i> — del universo; <i class="wbw__bold">janer</i> — de las personas; <i class="wbw__bold">mana</i> — la mente; <i class="wbw__bold">lobhā</i> — atrae; <i class="wbw__bold">gaurāṅger</i> — del Señor Gaurāṅga; <i class="wbw__bold">ārati</i> — ceremonia; <i class="wbw__bold">śobhā</i> — hermoso; <i class="wbw__bold">jaga</i> — del universo; <i class="wbw__bold">janer</i> — de las personas; <i class="wbw__bold">mana</i> — la mente; <i class="wbw__bold">lobhā</i> — atrae; <i class="wbw__bold">nitāi</i> — de Nityānanda; <i class="wbw__bold">gaura</i> — de Gaurāṅga; <i class="wbw__bold">haribol</i> — canten los Nombres del Señor).</p>
 <p class="translation">Todas las glorias al hermoso <i>ārati</i> al Señor Gaurāchandra en un bosquecillo a la ribera del Jāhṇavī (Ganges), el cual atrae la mente de todas las entidades vivientes del universo. (Este <i>ārati</i> del Señor Gaurāṅga atrae la mente de todos en el universo. Cantando Nitāi y Gaurāṅga glorifiquen al Señor Hari).</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(kibā) dakṣiṇe nitāichā̐da bāme gadādhara</strong><br>
+<p class="verse">(kibā)<strong> dakṣiṇe nitāichā̐da bāme gadādhara</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nikaṭe advaita śrīnivāsa chhatra-dhara</strong></p>
 <p class="wbw"><i class="wbw__bold">kibā</i> — venerable; <i class="wbw__bold">dakhiṇe</i> — a la derecha; <i class="wbw__bold">nitāichā̐da</i> — está el Señor Nityānanda, semejante a la luna; <i class="wbw__bold">bāme gadādhara</i> — a Su izquierda está Śrī Gadādhara; <i class="wbw__bold">nikaṭe advaita</i> — cerca se encuentra Srī Advaita; <i class="wbw__bold">śrīnivāsa chatra-dhara</i> — y Srīvās Ṭhākur sostiene una sombrilla.</p>
 <p class="translation">A la derecha del Señor Gaurāchandra está el Señor Nityānanda, y a Suizquierda está Śrī Gadādhar. Cerca se encuentra Śrī Advaita Prabhu, y Śrīvās Ṭhākur le sostiene una sombrilla.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>(kibā) basiyāchhe gorāchā̐da ratna-siṁhāsane</strong><br>
+<p class="verse">(kibā)<strong> basiyāchhe gorāchā̐da ratna-siṁhāsane</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ratna-simhāsana alo karere</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;basiyāchhen gorāchā̐d ratna-siṁhāsane)</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ārati karena brahmā ādi-deva gaṇe</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(brahmā ādi-deva gaṇe gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅgera bhakta sane gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅger ārati kare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(brahmā ādi-deva gaṇe gaurāṅger ārati kare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅgera bhakta sane gaurāṅger ārati kare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="wbw"><i class="wbw__bold">kibā</i> — venerable; <i class="wbw__bold">basiyāche</i> — está sentado; <i class="wbw__bold">gorāchā̐da</i> — el Señor Gaurachandra; <i class="wbw__bold">ratna</i> — enjoyado; <i class="wbw__bold">siṁhāsane</i> — sobre un trono; (<i class="wbw__bold">ratna-simhāsana</i> — sobre un trono enjoyado; <i class="wbw__bold">alo</i> — ilumina; <i class="wbw__bold">karere</i> — ¡oh!; <i class="wbw__bold">basiyāchhen</i> — está sentado; <i class="wbw__bold">gorāchā̐da</i> — el Señor Gaurachandra; <i class="wbw__bold">ratna-simhāsana)</i> — sobre un trono enjoyado; <i class="wbw__bold">ārati korena</i> — realizar la ceremonia <i>ārati</i>; <i class="wbw__bold">brahmā-ādi deva-gaṇe</i> — los semidioses, encabezados por el Señor Brahmā; (<i class="wbw__bold">gaurāṅger</i> — del Señor Gaurāṅga; <i class="wbw__bold">ārati</i> — ceremonia; <i class="wbw__bold">kare</i> — hacen; <i class="wbw__bold">brahmā-ādi deva-gaṇe</i> — lossemidioses, encabezados por el Señor Brahmā; <i class="wbw__bold">gaurāṅger</i> — del Señor Gaurāṅga; <i class="wbw__bold">ārati</i> — ceremonia; <i class="wbw__bold">kare</i> — hacen; <i class="wbw__bold">gaurāṅgera</i> — del Señor Gaurāṅga; <i class="wbw__bold">bhakta</i> — devotos; <i class="wbw__bold">sane</i> — con; <i class="wbw__bold">gaurāṅger</i> — del Señor Gaurāṅga; <i class="wbw__bold">ārati</i> — ceremonia; <i class="wbw__bold">kare</i> — hacen; <i class="wbw__bold">nitāi</i> — de Nityānanda; <i class="wbw__bold">gaura</i> — de Gaurāṅga; <i class="wbw__bold">haribol</i> — canten los Nombres del Señor).</p>
 <p class="translation">El Señor Chaitanya está sentado en un trono enjoyado (¡oh! sobre un trono enjoyado está sentado el Señor Gaurachandra) mientras los semidioses encabezados por el Señor Brahmā llevan a cabo la ceremonia de <i>ārati</i>. (Los semidioses encabezados por Brahmā realizan este <i>ārati, </i>los devotos junto con el Señor Gaurāṅga realizan este <i>ārati. </i>Cantando Nitāi y Gaurāṅga glorifiquen al Señor Hari).</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>(kibā) narahari-ādi kari chāmara ḍhulāya</strong><br>
+<p class="verse">(kibā)<strong> narahari-ādi kari chāmara ḍhulāya</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;sañjaya-mukunda-vāsu-ghoṣa-ādi gāya</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaura guṇa gāna kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaura guṇa gāna kare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="wbw"><i class="wbw__bold">kibā</i> — venerable; <i class="wbw__bold">narahari</i> — Narahari; <i class="wbw__bold">ādi</i> — y otros; <i class="wbw__bold">chāmara</i> — abanico; <i class="wbw__bold">ḍhulāya</i> — movimiento; <i class="wbw__bold">sañjaya</i> — Sañjaya Paṇḍit; <i class="wbw__bold">mukunda</i> — Mukunda Datta; <i class="wbw__bold">vāsu-ghoṣa</i> — Vāsu Ghoṣh; <i class="wbw__bold">ādi</i> — y otros; <i class="wbw__bold">gāya</i> — cantan; (<i class="wbw__bold">gaura</i> — Gaurāṅga; <i class="wbw__bold">guṇa</i> — cualidades; <i class="wbw__bold">gāna-kare</i> — cantan; <i class="wbw__bold">sañjaya</i> — Sañjaya Paṇḍit; <i class="wbw__bold">mukunda</i> — Mukunda Datta; <i class="wbw__bold">vāsu-ghoṣa</i> — Vāsu Ghoṣh; <i class="wbw__bold">gaura</i> — Gaurāṅga; <i class="wbw__bold">guṇa</i> — cualidades; <i class="wbw__bold">gāna-kare</i> — cantan; <i class="wbw__bold">nitāi</i> — de Nityānanda; <i class="wbw__bold">gaura</i> — de Gaurāṅga; <i class="wbw__bold">haribol</i> — canten los Nombres del Señor).</p>
 <p class="translation">Narahari Sarakār y otros asociados del Señor Chaitanya lo abanican, y los devotos encabezados por Sañjaya Paṇḍit, Mukunda Datta y Vāsu Ghoṣ cantan. (Ellos cantan las cualidades del Señor Gaurāṅga. Sañjaya, Mukunda y Vāsu Ghoṣ cantan las cualidades del Señor Gaurāṅga. Cantando Nitāi y Gaurāṅga glorifiquen al Señor Hari).</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
-<p class="verse"><strong>(kibā) śaṅkha bāje ghaṇṭā bāje bāje karatāla</strong><br>
+<p class="verse">(kibā)<strong> śaṅkha bāje ghaṇṭā bāje bāje karatāla</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;madhura mṛdaṅga bāje parama rasāla</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kāle madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(madhura mṛdanga bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅger ārati kāle madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(madhura mṛdanga bāje madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="wbw"><i class="wbw__bold">kibā</i> — venerable; <i class="wbw__bold">śaṅkha</i> — caracola; <i class="wbw__bold">bāje</i> — suenan; <i class="wbw__bold">ghaṇṭā</i> — campanas; <i class="wbw__bold">bāje</i> — suenan; <i class="wbw__bold">bāje</i> — también suenan; <i class="wbw__bold">karatāla</i> — los címbalos; <i class="wbw__bold">madhura mṛdaṅga bāje</i> — dulces tambores de arcilla resuenan; <i class="wbw__bold">parama rasāla</i> — supremamente dulce y agradable de escuchar; (<i class="wbw__bold">madhur madhur</i> — más dulce que lo dulce; <i class="wbw__bold">madhur bāje</i> — suena muy dulce; <i class="wbw__bold">gaurāṅger</i> — de Gaurāṅga; <i class="wbw__bold">ārati kāle</i> — al momento de la ceremonia; <i class="wbw__bold">madhur madhur</i> — más dulce que lo dulce; <i class="wbw__bold">madhur bāje</i> — suena muy dulce; <i class="wbw__bold">śaṅkha bāje</i> — suena la caracola; <i class="wbw__bold">ghaṇṭā bāje</i> — suenan las campanas; <i class="wbw__bold">madhur madhur</i> — más dulce que lo dulce; <i class="wbw__bold">madhur bāje</i> — suena muy dulce; <i class="wbw__bold">madhura mṛdanga bāje</i> — el dulce sonido de la <i>mṛdanga</i>; <i class="wbw__bold">madhur madhur</i> — más dulce que lo dulce; <i class="wbw__bold">madhur bāje</i> — suena muy dulce; <i class="wbw__bold">nitāi</i> — de Nityānanda; <i class="wbw__bold">gaura</i> — de Gaurāṅga; <i class="wbw__bold">haribol</i> — canten los Nombres del Señor).</p>
 <p class="translation">Resuenan las caracolas, las campanas y los címbalos, y las <i>mṛdangas</i> suenan muy dulcemente.El <i>kīrtan</i> es supremamente dulce y agradable de escuchar. (Resuenan más dulce que lo dulce. La caracola y las campanas suenan más dulce que lo dulce. El dulce sonido de la <i>mṛdanga</i>, es muy dulce, más dulce que lo dulce. Cantando Nitāi y Gaurāṅga glorifiquen al Señor Hari).</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
-<p class="verse"><strong>(kibā) bahu-koṭi chandra jini vadana ujjvala</strong><br>
+<p class="verse">(kibā)<strong> bahu-koṭi chandra jini vadana ujjvala</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;gala-deśe vana-mālā kare jhalamala</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jhalmal jhalmal jhalmal kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaura gale vana phuler mālā jhalmal jhalmal jhalmal kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jhalmal jhalmal jhalmal kare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaura gale vana phuler mālā jhalmal jhalmal jhalmal kare)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="wbw"><i class="wbw__bold">kibā</i> — venerable; <i class="wbw__bold">bahu-koṭi</i> — muchos millones; <i class="wbw__bold">chandra</i> — de lunas; <i class="wbw__bold">jini’</i> — conquistando; <i class="wbw__bold">vadana ujjvala</i> — el brillo del rostro del Señor Chaitanya; <i class="wbw__bold">gala-deśe</i> — alrededor de Su cuello; <i class="wbw__bold">vana-mālā</i> — la guirnalda de flores del bosque; <i class="wbw__bold">kore jhalamala</i> — brilla; (<i class="wbw__bold">jhalmal</i> — brilla; <i class="wbw__bold">jhalmal</i> — brilla; <i class="wbw__bold">jhalmal kare</i> — y muestra su brillo; <i class="wbw__bold">gaura</i> — Gaurāṅga; <i class="wbw__bold">gale</i> — en su cuello; <i class="wbw__bold">phuler</i> — de flores; <i class="wbw__bold">mālā</i> — guirnalda; <i class="wbw__bold">jhalmal</i> — brilla; <i class="wbw__bold">jhalmal</i> — brilla; <i class="wbw__bold">jhalmal kare</i> — y muestra su brillo; <i class="wbw__bold">nitāi</i> — de Nityānanda; <i class="wbw__bold">gaura</i> — de Gaurāṅga; <i class="wbw__bold">haribol</i> — canten los Nombres del Señor).</p>
 <p class="translation">La refulgencia del rostro del Señor Chaitanya supera a millones y millones de lunas. Y la guirnalda de flores que adorna Su cuello brilla. (Brilla y brilla, mostrando su refulgencia. La guirnalda en el cuello del Señor Gaurāṅga brilla y brilla. Cantando Nitāi y Gaurāṅga glorifiquen al Señor Hari).</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
-<p class="verse"><strong>(kibā) śiva-śuka-nārada preme gada-gada</strong><br>
+<p class="verse">(kibā)<strong> śiva-śuka-nārada preme gada-gada</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bhakati-vinoda dekhe gorāra sampada</strong></p>
 <p class="wbw"><i class="wbw__bold">śiva-śuka-nārada</i> — el Señor Śiva, Śukadeva Goswāmī y Nārada Muni; <i class="wbw__bold">preme</i> — con el éxtasis del amor trascendental; <i class="wbw__bold">gada-gada</i> — sus voces ahogadas; <i class="wbw__bold">bhakativinoda</i> — así Ṭhākura Bhaktivinoda; <i class="wbw__bold">dekhe</i> — contempla; <i class="wbw__bold">gorāra sampada</i> — la gloria del Señor Chaitanya.</p>
 <p class="translation">Las voces de Śiva, Śukadeva y Nārada se ahogan debido al éxtasis del amor. De esa manera, Bhakti Vinod contempla la gloria del Señor Gaurachandra.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(ei bār āmāy dayā kara)</strong><br>
-<strong>(ṭhākura śrī bhakti-vinoda ei bār āmāy dayā kara)</strong><br>
-<strong>(ṭhākura śrī sarasvatī ei bār āmāy dayā kara)</strong><br>
-<strong>(patit-pāvan śrī gurudev ei bār āmāy dayā kara)</strong><br>
-<strong>(sapārṣada gaurahari ei bār āmāy dayā kara)</strong><br>
-<strong>(nitāi gaura haribol)</strong></p>
+<p class="verse">(ei bār āmāy dayā kara)<br>
+(ṭhākura śrī bhakti-vinoda ei bār āmāy dayā kara)<br>
+(ṭhākura śrī sarasvatī ei bār āmāy dayā kara)<br>
+(patit-pāvan śrī gurudev ei bār āmāy dayā kara)<br>
+(sapārṣada gaurahari ei bār āmāy dayā kara)<br>
+(nitāi gaura haribol)</p>
 <p class="wbw"><i class="wbw__bold">ei</i> — este; <i class="wbw__bold">bār</i> — en este momento; <i class="wbw__bold">āmāy</i> — a mí; <i class="wbw__bold">dayā</i> — compasión; <i class="wbw__bold">kara</i> — otorga; <i class="wbw__bold">ṭhākura śrī bhakti-vinoda</i> — Śrīla Bhakti Vinod Ṭhākur; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">bār</i> — en este momento; <i class="wbw__bold">āmāy</i> — a mí; <i class="wbw__bold">dayā</i> — compasión; <i class="wbw__bold">kara</i> — otorga; <i class="wbw__bold">ṭhākura śrī sarasvatī</i> — Śrīla Bhakti Siddhānta Saraswatī; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">bār</i> — en este momento; <i class="wbw__bold">āmāy</i> — a mí; <i class="wbw__bold">dayā</i> — compasión; <i class="wbw__bold">kara</i> — otorga; <i class="wbw__bold">patit-pāvan</i> — amigo de los caídos; <i class="wbw__bold">śrī gurudev</i> — el adorable maestro espiritual; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">bār</i> — en este momento; <i class="wbw__bold">āmāy</i> — a mí; <i class="wbw__bold">dayā</i> — compasión; <i class="wbw__bold">kara</i> — otorga; <i class="wbw__bold">sapārṣada</i> — los asociados; <i class="wbw__bold">gaurahari</i> — del Señor Gaurāṅga; <i class="wbw__bold">ei</i> — este; <i class="wbw__bold">bār</i> — en este momento; <i class="wbw__bold">āmāy</i> — a mí; <i class="wbw__bold">dayā</i> — compasión; <i class="wbw__bold">kara</i> — otorguen; <i class="wbw__bold">nitāi</i> — de Nityānanda; <i class="wbw__bold">gaura</i> — de Gaurāṅga; <i class="wbw__bold">haribol</i> — canten los Nombres del Señor.</p>
 <p class="translation">Por favor, denme en esta ocasión su gracia. ¡Oh Śrī Bhakti Vinod, Śrī Saraswatī Ṭhākur!¡Oh Gurudev, salvador de las almas caídas!¡Oh, Gaurahari y Tus asociados!Por favor, otórguenme su misericordia en esta ocasión.Cantando Nitāi y Gaurāṅga glorifiquen al Señor Hari.</p>
 </div>
@@ -2345,18 +2345,18 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lokanātha lokera jīvana</strong><br>
 <strong>hā hā prabhu kara dayā&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deha more pada-chhāyā</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ebe jaśa ghuṣuk tribhuvana</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(e adhama la-ila śaraṇa)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(tuyā pade loinu śaraṇa)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(e adhama la-ila śaraṇa)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(tuyā pade loinu śaraṇa)</p>
 <p class="wbw"><i class="wbw__bold">śrī-guru</i> — ¡oh maestro espiritual!; <i class="wbw__bold">karuṇā-sindhu</i> — ¡oh, océano de misericordia!; <i class="wbw__bold">adhama janāra</i> — de las almas caídas; <i class="wbw__bold">bandhu</i> — el amigo; <i class="wbw__bold">loka-nātha</i> — ¡oh Lokanātha Goswāmī (o maestro de los planetas)!; <i class="wbw__bold">lokera jīvana</i> — la vida de todas las personas; <i class="wbw__bold">ha ha</i> — ¡pobre de mí!; <i class="wbw__bold">prabhu</i> — ¡oh maestro!; <i class="wbw__bold">kara dayā</i> — por favor, sé misericordioso; <i class="wbw__bold">deha more</i> — dame; <i class="wbw__bold">pada-chhāyā</i> — la sombra de tus pies de loto; <i class="wbw__bold">ebe</i> — ahora; <i class="wbw__bold">jaśa</i> — fama; <i class="wbw__bold">ghuṣuk</i> — que sea proclamado; <i class="wbw__bold">tri-bhuvana</i> — a través de los tres mundos; (<i class="wbw__bold">e</i> — este; <i class="wbw__bold">adhama</i> — caído; <i class="wbw__bold">laila</i> — acepta; <i class="wbw__bold">śaraṇa</i> — refugio); (<i class="wbw__bold">tuyā</i> — tuyos; <i class="wbw__bold">pade</i> — a los pies; <i class="wbw__bold">loinu</i> — he tomado; <i class="wbw__bold">śaraṇa</i> — refugio).</p>
 <p class="translation">Śrī Guru es un océano de misericordia y el amigo de las almas caídas. Él es el señor y vida del mundo entero. ¡Oh, amo! Sé misericordioso conmigo y concédeme la sombra de tus pies de loto. Esta alma caída ha tomado refugio en ti.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(āmi) (śaraṇ nilām)</strong><br>
-<strong>(abhaya-śrī-pāda-padme śaraṇ nilām)</strong><br>
-<strong>(āmāy) (dayā kara he)</strong><br>
-<strong>(patit-pāvan śrī gurudev dayā kara he)</strong><br>
-<strong>(adhama patita jene&nbsp;&nbsp;dayā kara he)</strong><br>
-<strong>(jay gurudev)</strong></p>
+<p class="verse">(āmi)<strong> </strong>(śaraṇ nilām)<br>
+(abhaya-śrī-pāda-padme śaraṇ nilām)<br>
+(āmāy)<strong> </strong>(dayā kara he)<br>
+(patit-pāvan śrī gurudev dayā kara he)<br>
+(adhama patita jene&nbsp;&nbsp;dayā kara he)<br>
+(jay gurudev)</p>
 <p class="wbw"><i class="wbw__bold">āmi</i> — yo; <i class="wbw__bold">śaraṇ</i> — refugio; <i class="wbw__bold">nilām</i> — acepto; <i class="wbw__bold">abhaya</i> — donde no existe temor; <i class="wbw__bold">śrī-pāda</i> — sagrados pies; <i class="wbw__bold">padme</i> — de loto; <i class="wbw__bold">āmi</i> — yo; <i class="wbw__bold">śaraṇ</i> — refugio; <i class="wbw__bold">nilām</i> — acepto; <i class="wbw__bold">āmāy</i> — a mí; <i class="wbw__bold">dayā</i> — misericordia; <i class="wbw__bold">kara he</i> — otorga; <i class="wbw__bold">patit-pāvan</i> — salvador de los caídos; <i class="wbw__bold">śrī gurudev</i> — divino maestro espiritual; <i class="wbw__bold">dayā</i> — misericordia; <i class="wbw__bold">kara he</i> — ¡oh! otorga; <i class="wbw__bold">adhama</i> — bajo; <i class="wbw__bold">patita</i> — caído; <i class="wbw__bold">jene</i> — persona; <i class="wbw__bold">dayā</i> — misericordia; <i class="wbw__bold">kara he</i> — otorga; <i class="wbw__bold">jay</i> — toda gloria; <i class="wbw__bold">gurudev</i> — a Gurudev.</p>
 <p class="translation">Me he rendido, me he rendido a tus pies de loto, donde no hay temor alguno. Por favor, dame tu misericordia. ¡Oh Gurudev! Salvador de los caídos, por favor, dame tu misericordia. Tú eres el salvador de las almas inferiores y caídas. ¡Todas las glorias a ti, Śrī Gurudev!</p>
 </div>
@@ -2428,7 +2428,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h4>Śrīla Bhakti Vinod Ṭhākur</h4>
 <p class="wbw"><i class="wbw__bold">śrī vaiṣṇava</i> — venerable devoto; <i class="wbw__bold">mahimā</i> — glorias; <i class="wbw__bold">gīti</i> — canción).</p>
 <h5>1</h5>
-<p class="verse"><strong>(ohe) vaiṣṇava ṭhākura dayāra sāgara</strong><br>
+<p class="verse">(ohe)<strong> vaiṣṇava ṭhākura dayāra sāgara</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;e dāse karuṇā kari</strong><br>
 <strong>diyā pada-chāyā&nbsp;&nbsp;&nbsp;&nbsp;śodha he āmāre</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;tomāra charaṇa dhari</strong></p>
@@ -2463,11 +2463,11 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">Kṛṣṇa es tuyo, tú puedes otorgarlo, tienes el poder para hacerlo. Me encuentro desvalido, y desesperadamente corro tras de ti, gritando, “¡Kṛṣṇa! ¡Kṛṣṇa!”</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(āmi) (dhāi tava pāchhe pāchhe)</strong><br>
-<strong>(kṛṣṇa dhana pābar āśe&nbsp;&nbsp;&nbsp;&nbsp;dhāi tava pāchhe pāchhe)</strong><br>
-<strong>(tumi dile kṛṣṇa dite pāra)</strong><br>
-<strong>(kṛṣṇa tomār hṛdayer dhan&nbsp;&nbsp;&nbsp;&nbsp;tumi dileo dite pāra)</strong><br>
-<strong>(kṛṣṇa debār śakti-dhara&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tumi dileo dite pāra)</strong></p>
+<p class="verse">(āmi)<strong> </strong>(dhāi tava pāchhe pāchhe)<br>
+(kṛṣṇa dhana pābar āśe&nbsp;&nbsp;&nbsp;&nbsp;dhāi tava pāchhe pāchhe)<br>
+(tumi dile kṛṣṇa dite pāra)<br>
+(kṛṣṇa tomār hṛdayer dhan&nbsp;&nbsp;&nbsp;&nbsp;tumi dileo dite pāra)<br>
+(kṛṣṇa debār śakti-dhara&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tumi dileo dite pāra)</p>
 <p class="wbw"><i class="wbw__bold">āmi</i> — yo; <i class="wbw__bold">dhāi</i> — corro; <i class="wbw__bold">tava pāchhe pāchhe</i> — detrás de ti; <i class="wbw__bold">kṛṣṇa</i> — de Kṛṣṇa; <i class="wbw__bold">dhana</i> — la riqueza; <i class="wbw__bold">pābar</i> — obtener; <i class="wbw__bold">āśe</i> — esperanza; <i class="wbw__bold">āmi</i> — yo; <i class="wbw__bold">dhāi</i> — corro; <i class="wbw__bold">tava pāchhe pāchhe</i> — detrás de ti; <i class="wbw__bold">tumi</i> — tú; <i class="wbw__bold">dile</i> — has dado; <i class="wbw__bold">kṛṣṇa</i> — a Kṛṣṇa; <i class="wbw__bold">dite</i> — de dar; <i class="wbw__bold">pābar</i> — capaz; <i class="wbw__bold">kṛṣṇa</i> — de Kṛṣṇa; <i class="wbw__bold">tomār</i> — tuyo; <i class="wbw__bold">hṛdayer</i> — de tu corazón; <i class="wbw__bold">dhan</i> — riqueza; <i class="wbw__bold">tumi</i> — tú; <i class="wbw__bold">dile</i> — has dado; <i class="wbw__bold">kṛṣṇa</i> — a Kṛṣṇa; <i class="wbw__bold">dite</i> — de dar; <i class="wbw__bold">pābar</i> — capaz; <i class="wbw__bold">kṛṣṇa</i> — a Kṛṣṇa; <i class="wbw__bold">debār</i> — de dar; <i class="wbw__bold">śakti</i> — el poder; <i class="wbw__bold">dhara</i> — tienes; <i class="wbw__bold">tumi</i> — tú; <i class="wbw__bold">dile</i> — has dado; <i class="wbw__bold">kṛṣṇa</i> — a Kṛṣṇa; <i class="wbw__bold">dite</i> — de dar; <i class="wbw__bold">pābar</i> — capaz.</p>
 <p class="translation">Corro tras de ti. Corro tras de ti con la esperanza de alcanzar el tesoro de Kṛṣṇa. Si deseas dar a Kṛṣṇa, puedes darlo. Si deseas dar, puedes dar. Kṛṣṇa es la riqueza de tu corazón. Tienes el poder para darnos a Kṛṣṇa. Si sólo deseas dar a Kṛṣṇa, puedes darlo.</p>
 </div>
@@ -2592,7 +2592,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(śraddhāvān jana he, śraddhāvān jana he)</strong><br>
+<p class="verse">(śraddhāvān jana he, śraddhāvān jana he)<br>
 <strong>prabhura ājñāya, bhāi, māgi ei bhikṣā</strong><br>
 <strong>bolo ‘kṛṣṇa,’ bhajo kṛṣṇa, koro kṛṣṇa-śikṣā</strong></p>
 <p class="wbw"><i class="wbw__bold">śraddhāvān</i> — fielmente; <i class="wbw__bold">jana he</i> — ¡oh personas!; <i class="wbw__bold">śraddhāvān</i> — fielmente; <i class="wbw__bold">jana he</i> — ¡oh personas!; <i class="wbw__bold">prabhura</i> — del Señor; <i class="wbw__bold">ājñāya</i> — por la orden; <i class="wbw__bold">bhāi</i> — hermano; <i class="wbw__bold">māgi</i> — pido; <i class="wbw__bold">ei</i> — esta; <i class="wbw__bold">bhikṣā</i> — caridad; <i class="wbw__bold">bolo ‘kṛṣṇa’</i> — canta Kṛṣṇa; <i class="wbw__bold">bhajo kṛṣṇa</i> — adora a Kṛṣṇa; <i class="wbw__bold">koro</i> — haz; <i class="wbw__bold">kṛṣṇa-śikṣā</i> — las instrucciones de Kṛṣṇa.</p>
@@ -2776,8 +2776,8 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nitāi gaurachandra</strong><br>
 <strong>saba avatāra-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sāra śiromaṇi,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kevala ānanda-kanda</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(kevala-i ānanda-kanda)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nityānanda gaurachandra kevala-i ānanda-kanda)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(kevala-i ānanda-kanda)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nityānanda gaurachandra kevala-i ānanda-kanda)</p>
 <p class="wbw"><i class="wbw__bold">parama</i> — suprema; <i class="wbw__bold">karuṇa</i> — misericordia; <i class="wbw__bold">pahū̐</i> — señor; <i class="wbw__bold">dui jana</i> — los dos; <i class="wbw__bold">nitāigaurachandra</i> — el Señor Nityānanda y el Señor Gaurachandra; <i class="wbw__bold">saba avatāra</i> — de todas las encarnaciones; <i class="wbw__bold">sāra</i> — la esencia; <i class="wbw__bold">śiromaṇi</i> — la joya cimera; <i class="wbw__bold">kevala</i> — única; <i class="wbw__bold">ānanda-kanda</i> — fuente de dicha; (<i class="wbw__bold">kevala-i</i> — la única; <i class="wbw__bold">ānanda-kanda</i> — fuente de dicha); (<i class="wbw__bold">nityānanda gaurachandra</i> — Nityānanda y Gaurachandra; <i class="wbw__bold">kevala-i</i> — la única; <i class="wbw__bold">ānanda-kanda</i> — fuente de dicha).</p>
 <p class="translation">El Señor Gaurāṅga y el Señor Nityānanda son los dos Señores más misericordiosos. Ellos son las joyas cimeras de todas las encarnaciones y la única fuente del júbilo extático trascendental. (Ellos son la única fuente de dicha. Nityānanda y Gaurachandra son la única fuente de dicha).</p>
 </div>
@@ -2787,9 +2787,9 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudṛḍha viśvāsa kori’</strong><br>
 <strong>viṣaya chāḍiyā,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;se rase majiyā</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mukhe bolo hari hari</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(mukhe bolo gaurahari)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(viṣay-kathā parihari’&nbsp;&nbsp;&nbsp;&nbsp;mukhe bolo gaurahari)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(grāmya-kathā parihari’&nbsp;&nbsp;&nbsp;&nbsp;mukhe bolo gaurahari)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(mukhe bolo gaurahari)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(viṣay-kathā parihari’&nbsp;&nbsp;&nbsp;&nbsp;mukhe bolo gaurahari)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(grāmya-kathā parihari’&nbsp;&nbsp;&nbsp;&nbsp;mukhe bolo gaurahari)</p>
 <p class="wbw"><i class="wbw__bold">bhaja bhaja</i> — tan solo adora, tan solo adora; <i class="wbw__bold">bhāi</i> — ¡oh, hermano!; <i class="wbw__bold">chaitanya nitāi</i> — al Señor Chaitanya y Nityānanda; <i class="wbw__bold">sudṛḍha viśvāsa kori’</i> — teniendo fe firme; <i class="wbw__bold">viṣaya</i> — gratificación sensorial; <i class="wbw__bold">chāḍiyā</i> — renunciar; <i class="wbw__bold">se rase</i> — en esa melosidad de adoración; <i class="wbw__bold">majiyā</i> — absorbente; <i class="wbw__bold">mukhe</i> — con tu boca; <i class="wbw__bold">bolo hari hari</i> — canta ¡Hari! ¡Hari!; (<i class="wbw__bold">mukhe</i> — con tu boca; <i class="wbw__bold">bolo</i> — canta; <i class="wbw__bold">gaurahari</i> — Gaurahari); (<i class="wbw__bold">viṣaya-kathā</i> — conversaciones materialistas; <i class="wbw__bold">parihari</i> — renunciando; <i class="wbw__bold">mukhe</i> — con tu boca; <i class="wbw__bold">bolo</i> — canta; <i class="wbw__bold">gaurahari</i> — Gaurahari); (<i class="wbw__bold">gramya-kathā</i> — conversaciones mundanas; <i class="wbw__bold">mukhe</i> — con tu boca; <i class="wbw__bold">bolo</i> — canta; <i class="wbw__bold">gaurahari</i> — Gaurahari).</p>
 <p class="translation">¡Oh, hermano! Te imploro que adores a Śrī Chaitanya-Nitāi con fe firme. Abandona tu apego a la gratificación de los sentidos y sumérgete en este néctar por medio del canto de los Nombres de Hari.Canta en voz alta, ‘¡Gaurahari!’ Abandona las conversaciones mundanas y canta en voz alta ‘¡Gaurahari!’ Abandona las conversaciones inútiles y canta en voz alta ‘¡Gaurahari!’</p>
 </div>
@@ -2797,9 +2797,9 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h5>3</h5>
 <p class="verse"><strong>dekha ore bhāi,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tri-bhuvane nāi,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emona dayāla dātā</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(eman dayāl ke vā āchhe)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāier gaurer mata&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eman dayāl ke vā āchhe)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(mar kheyeo nām prema yāche eman dayāl ke vā āchhe)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(eman dayāl ke vā āchhe)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāier gaurer mata&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eman dayāl ke vā āchhe)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(mar kheyeo nām prema yāche eman dayāl ke vā āchhe)<br>
 <strong>paśu pākhī jhure,&nbsp;&nbsp;&nbsp;&nbsp;pāṣāṇa vidare,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;śuni yā̐ra guṇa-gāthā</strong></p>
 <p class="wbw"><i class="wbw__bold">dekha</i> — tan solo mira; <i class="wbw__bold">ore bhāi</i> — ¡oh querido hermano!; <i class="wbw__bold">tri-bhuvane</i> — dentro de los tres mundos; <i class="wbw__bold">nai</i> — no hay; <i class="wbw__bold">emona</i> — como estos; <i class="wbw__bold">dayāla dātā</i> — dadores de misericordia; (<i class="wbw__bold">eman</i> — como estos; <i class="wbw__bold">dayāl</i> — misericordioso; <i class="wbw__bold">ke va</i> — ¿quienes?; <i class="wbw__bold">āchhe</i> — hay); (<i class="wbw__bold">nitāier</i> — de Nitāi; <i class="wbw__bold">gaurer</i> — de Gaura; <i class="wbw__bold">mata</i> — veredicto; <i class="wbw__bold">eman</i> — como estos; <i class="wbw__bold">dayāl</i> — misericordioso; <i class="wbw__bold">ke va</i> — ¿quienes?; <i class="wbw__bold">āchhe</i> — hay); (<i class="wbw__bold">mar kheyeo</i> — golpes y ofensas; <i class="wbw__bold">nām</i> — del nombre; <i class="wbw__bold">prema</i> — amor divino; <i class="wbw__bold">yāche</i> — ora; <i class="wbw__bold">eman</i> — como estos; <i class="wbw__bold">dayāl</i> — misericordioso; <i class="wbw__bold">ke va</i> — ¿quienes?; <i class="wbw__bold">āchhe</i> — hay); <i class="wbw__bold">paśu</i> — los animales; <i class="wbw__bold">pakhī</i> — los pájaros; <i class="wbw__bold">jhure</i> — llorar; <i class="wbw__bold">pāṣāṇa</i> — la piedra; <i class="wbw__bold">vidare</i> — se derrite; <i class="wbw__bold">śuni’</i> — al escuchar; <i class="wbw__bold">yā̐ra</i> — Suyo; <i class="wbw__bold">guṇa-gāthā</i> — glorificación de cualidades.</p>
@@ -2828,20 +2828,20 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;(emon doyāl to nāi he, mār kheye prema dey)</strong><br>
-<strong>(tabe) aparādha dūre jābe, pābe prema-dhan</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(aparādhera-bichāra to nāi he)</strong><br>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(emon doyāl to nāi he, mār kheye prema dey)<br>
+(tabe)<strong> aparādha dūre jābe, pābe prema-dhan</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(aparādhera-bichāra to nāi he)<br>
 <strong>takhon kṛṣṇa-nāme ruchi habe, ghuchibe bandhan</strong></p>
 <p class="wbw"><i class="wbw__bold">emon</i> — esta; <i class="wbw__bold">doyāl</i> — misericordia; <i class="wbw__bold">taḥ</i> — de Ti; <i class="wbw__bold">nāi he</i> — ¡oh no!; <i class="wbw__bold">mār</i> — golpeado; <i class="wbw__bold">kheye</i> — experiencia; <i class="wbw__bold">prema</i> — amor divino; <i class="wbw__bold">dey</i> — otorga; <i class="wbw__bold">tabe</i> — entonces; <i class="wbw__bold">aparādha</i> — ofensas; <i class="wbw__bold">dūre</i> — lejos; <i class="wbw__bold">jābe</i> — van; <i class="wbw__bold">pābe</i> — obtendrá; <i class="wbw__bold">prema-dhan</i> — la riqueza del amor; <i class="wbw__bold">aparādhera</i> — de las ofensas; <i class="wbw__bold">bichāra</i> — consideración; <i class="wbw__bold">taḥ</i> — de Ti; <i class="wbw__bold">nāi</i> — no; <i class="wbw__bold">he</i> — ¡oh!; <i class="wbw__bold">takhon</i> — entonces; <i class="wbw__bold">kṛṣṇa-nāme</i> — del nombre de Kṛṣṇa; <i class="wbw__bold">ruchi</i> — gusto; <i class="wbw__bold">habe</i> — habrá; <i class="wbw__bold">ghuchibe</i> — destruirá; <i class="wbw__bold">bandhan</i> — cautiverio.</p>
 <p class="translation">En ninguna parte encontraremos una personalidad tan misericordiosa como Nityānanda Prabhu. Él recibió un golpe de Jagāi y Mādhāi y, no obstante, les otorgó amor por Dios. Cuando uno esté libre de cometer ofensas, obtendrá amor por Dios, pero en estos nombres de Chaitanya y Nitāi, no son tomadas en cuenta las ofensas. Una vez que se tiene un gusto por el Santo Nombre de Kṛṣṇa, el cautiverio en este mundo llega a su fin.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;(anurāga to habe he)</strong><br>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(anurāga to habe he)<br>
 <strong>tokhon anāyāse saphal habe jīvera jīvan</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(kṛṣṇa-rati vinā jīvan to miche he )</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(kṛṣṇa-rati vinā jīvan to miche he )<br>
 <strong>śeṣe vṛndāvane rādhā-śyāmer pābe daraśan</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura-kṛpā hole he)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaura-kṛpā hole he)</p>
 <p class="wbw"><i class="wbw__bold">anurāga</i> — gran atracción; <i class="wbw__bold">taḥ</i> — tu; <i class="wbw__bold">habe</i> — será; <i class="wbw__bold">he</i> — ¡oh!; <i class="wbw__bold">tokhon</i> — entonces; <i class="wbw__bold">anāyāse</i> — fácilmente; <i class="wbw__bold">saphal</i> — exitosamente; <i class="wbw__bold">habe</i> — será; <i class="wbw__bold">jīvera</i> — del alma; <i class="wbw__bold">jīvan</i> — la vida; <i class="wbw__bold">kṛṣṇa-rati</i> — afecto por el señor Kṛṣṇa; <i class="wbw__bold">vinā</i> — desprovisto; <i class="wbw__bold">jīvan</i> — la vida; <i class="wbw__bold">taḥ</i> — tu; <i class="wbw__bold">miche</i> — falso; <i class="wbw__bold">he</i> — ¡oh!; <i class="wbw__bold">śeṣe</i> — al final; <i class="wbw__bold">vṛndāvane</i> — de Vṛndāvan; <i class="wbw__bold">rādhā-śyāmer</i> — de Śrī Śrī Rādhā Kṛṣṇa; <i class="wbw__bold">pābe</i> — obtendrás; <i class="wbw__bold">daraśan</i> — la visión; <i class="wbw__bold">gaura-kṛpā</i> — la misericordia de Gaura; <i class="wbw__bold">hole</i> — tendrá; <i class="wbw__bold">he</i> — ¡oh!</p>
 <p class="translation">Cuando hay apego por el Santo Nombre de Kṛṣṇa, la vida de una entidad viviente fácilmente tiene éxito. Sin apego a Kṛṣṇa, la vida es simplemente falsa. Si tenemos la misericordia del Señor Gaura, entonces al final de la vida obtendremos la hermosa visión de Rādhā y Śyām en Vṛndāvan.</p>
 </div>
@@ -2854,7 +2854,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h5>1</h5>
 <p class="verse"><strong>‘hari’ bolo, ‘hari’ bolo, ‘hari’ bolo, bhāi re</strong><br>
 <strong>harinām āniyāche gaurāṅga-nitāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(modera duḥkha dekhe’ re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(modera duḥkha dekhe’ re)</p>
 <p class="wbw"><i class="wbw__bold">‘hari’ bolo</i> — canta Hari; <i class="wbw__bold">‘hari’ bolo</i> — canta Hari; <i class="wbw__bold">‘hari’ bolo</i> — canta Hari; <i class="wbw__bold">bhāi re</i> — ¡oh hermano!; <i class="wbw__bold">hari-nām</i> — el nombre del Señor; <i class="wbw__bold">āniyāche</i> — trajeron; <i class="wbw__bold">gaurāṅga-nitāi</i> — el Señor Nitāi y el Señor Chaitanya; <i class="wbw__bold">re</i> — ¡oh!; (<i class="wbw__bold">modera</i> — de nosotros; <i class="wbw__bold">duḥkha</i> — sufrimiento; <i class="wbw__bold">dekhe</i> — visto; <i class="wbw__bold">re</i> — ¡oh!).</p>
 <p class="translation">¡Oh hermano! Canta: “¡Hari” Canta “¡Hari” Canta “¡Hari” ¡El Señor Gaurāṅga y el Señor Nitāi han traído el santo nombre! (¡Viendo nuestra infelicidad!)</p>
 </div>
@@ -2862,34 +2862,34 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h5>2</h5>
 <p class="verse"><strong>harinām vinā jīver anya dhana nāi-re</strong><br>
 <strong>harināme śuddha ha’lo jagāi-mādhāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(baḍo pāpī chilo re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(baḍo pāpī chilo re)</p>
 <p class="wbw"><i class="wbw__bold">harinām</i> — el santo nombre del Señor Hari; <i class="wbw__bold">vinā</i> — desprovisto; <i class="wbw__bold">jīver</i> — del alma; <i class="wbw__bold">anya</i> — otro; <i class="wbw__bold">dhana</i> — riqueza; <i class="wbw__bold">nāi-re</i> — no es; <i class="wbw__bold">harināme</i> — del santo nombre del Señor; <i class="wbw__bold">śuddha</i> — puro; <i class="wbw__bold">ha’lo</i> — es; <i class="wbw__bold">jagāi-mādhāi</i> — Jagāi y Mādhāi; <i class="wbw__bold">re</i> — ¡oh!; (<i class="wbw__bold">baḍo</i> — gran; <i class="wbw__bold">pāpī</i> — pecador; <i class="wbw__bold">chilo</i> — fueron; <i class="wbw__bold">re</i> — ¡oh!).</p>
 <p class="translation">¡Excepto el santo nombre, no hay otro tesoro para el alma! ¡Por la influencia del santo nombre, incluso Jagāi y Mādhāi se volvieron puros! (¡Ambos eran personas muy pecadoras!)</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>miche māyā-baddha ho’ye jīvan kāṭāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(‘āmi, āmār’ bole’ re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(‘āmi, āmār’ bole’ re)<br>
 <strong>āśā-vaśe ghure’ ghure’ ār kothā jāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(āśār śeṣa nāi re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(āśār śeṣa nāi re)</p>
 <p class="wbw"><i class="wbw__bold">miche</i> — falso; <i class="wbw__bold">māyā</i> — por <i>māyā</i>; <i class="wbw__bold">baddha</i> — atado; <i class="wbw__bold">ho’ye</i> — estoy; <i class="wbw__bold">jīvan</i> — la vida; <i class="wbw__bold">kāṭāi</i> — corta; <i class="wbw__bold">re</i> — ¡oh!; (<i class="wbw__bold">āmi</i> — yo; <i class="wbw__bold">āmār</i> — mío; <i class="wbw__bold">bole</i> — decir; <i class="wbw__bold">re</i> — ¡oh!); (<i class="wbw__bold">āśār</i> — de los deseos; <i class="wbw__bold">śeṣa</i> — final; <i class="wbw__bold">nāi</i> — no; <i class="wbw__bold">re</i> — ¡oh!); <i class="wbw__bold">āśā</i> — de deseos; <i class="wbw__bold">vaśe</i> — bajo el control; <i class="wbw__bold">ghure</i> — van; <i class="wbw__bold">ghure</i> — y van; <i class="wbw__bold">ār</i> — otro; <i class="wbw__bold">kothā</i> — ¿dónde?; <i class="wbw__bold">jāi</i> — iré; <i class="wbw__bold">re</i> — ¡oh!</p>
 <p class="translation">¡Paso mi vida inútilmente atado por Māyā! (¡Siempre diciendo “yo” y “mío”!) Deambulando aquí y allá bajo el control de los deseos mundanos, ¿adónde iré después? (¡No hay fin para los deseos mundanos!)</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>‘hari’ bole’ deo bhāi āśār mukhe chāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nirāśa to’ sukho re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nirāśa to’ sukho re)<br>
 <strong>bhoga-mokṣa-vāñchā chāḍi’ harinām gāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(śuddha-sattva ho’ye re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(śuddha-sattva ho’ye re)</p>
 <p class="wbw"><i class="wbw__bold">‘hari’ bole</i> — canta Hari; <i class="wbw__bold">deo</i> — dar; <i class="wbw__bold">bhāi</i> — hermanos; <i class="wbw__bold">āśār</i> — de los deseos materiales; <i class="wbw__bold">mukhe</i> — en la cara; <i class="wbw__bold">chāi</i> — pila de cenizas; <i class="wbw__bold">re</i> — ¡oh!; (<i class="wbw__bold">nirāśa</i> — libertad de los deseos materiales; <i class="wbw__bold">to’</i> — esa; <i class="wbw__bold">sukho</i> — felicidad; <i class="wbw__bold">re</i> — ¡oh!); <i class="wbw__bold">bhoga</i> — gratificación sensorial; <i class="wbw__bold">mokṣa</i> — liberación; <i class="wbw__bold">vāñchā</i> — el deseo; <i class="wbw__bold">chāḍi</i> — renunciación; <i class="wbw__bold">harinām</i> — el nombre de Hari; <i class="wbw__bold">gāi</i> — canto; <i class="wbw__bold">re</i> — ¡oh!; (<i class="wbw__bold">śuddha</i> — puro; <i class="wbw__bold">sattva</i> — bondad; <i class="wbw__bold">ho’ye</i> — yo soy; <i class="wbw__bold">re</i> — ¡oh!).</p>
 <p class="translation">¡Oh hermanos! canten “¡Hari!” mientras miran directamente a la cara del deseo material! (¡la liberación de los anhelos mundanos es la plataforma de la verdadera felicidad!) ¡Renunciando a todo deseo de disfrute y liberación mundanos, canto los santos nombres del Señor Supremo! (¡Habiéndome vuelto puro y situado en la trascendencia!)</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>nāche’ jeo nāmer gune o saba phala pāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(tuccha phale prayās cheḍe’ re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(tuccha phale prayās cheḍe’ re)<br>
 <strong>vinod bole jāi lo’ye nāmer bālāi re</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nāmer bālāi cheḍe’ re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nāmer bālāi cheḍe’ re)</p>
 <p class="wbw"><i class="wbw__bold">nāche’ jeo</i> — yo danzo; <i class="wbw__bold">nāmer</i> — del nombre; <i class="wbw__bold">gune</i> — las virtudes; <i class="wbw__bold">o</i> — y; <i class="wbw__bold">saba</i> — todo; <i class="wbw__bold">phala</i> — resultados; <i class="wbw__bold">pāi</i> — obtengo; <i class="wbw__bold">re</i> — ¡oh!; (<i class="wbw__bold">tuccha</i> — insignificante; <i class="wbw__bold">phale</i> — resultados; <i class="wbw__bold">prayās</i> — esfuerzo; <i class="wbw__bold">cheḍe’</i> — detengo; <i class="wbw__bold">re</i> — ¡oh!); <i class="wbw__bold">vinod</i> — Bhaktivinod; <i class="wbw__bold">bole</i> — dice; <i class="wbw__bold">jāi</i> — voy; <i class="wbw__bold">lo’ye</i> — tomo; <i class="wbw__bold">nāmer</i> — del nombre; <i class="wbw__bold">bālāi</i> — obstáculos; <i class="wbw__bold">re</i> — ¡oh!; (<i class="wbw__bold">nāmer</i> — del nombre; <i class="wbw__bold">bālāi</i> — obstáculos; <i class="wbw__bold">cheḍe’</i> — detengo; <i class="wbw__bold">re</i> — ¡oh!).</p>
 <p class="translation">Bailo en éxtasis debido al poder y las cualidades divinas del santo nombre, ¡y así obtengo todos estos resultados! (¡Habiendo renunciado a todos los esfuerzos por resultados materiales insignificantes!) Bhaktivinoda dice: "¡Yo venzo todos los impedimentos para el canto puro del santo nombre! (¡Habiendo renunciado a todas las ofensas al santo nombre!)”.</p>
 </div>
@@ -2993,7 +2993,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>kaṇṭa-kera taru&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sadāi sebili (mana)</strong><br>
+<p class="verse"><strong>kaṇṭa-kera taru&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sadāi sebili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;amṛta pā’bāra āśe</strong><br>
 <strong>prema-kalpataru&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;śrī gaurāṅga āmāra</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tāhāre bhabili viṣe</strong></p>
@@ -3002,18 +3002,18 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>saura-bhera āśe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;palāśa śuṅkili (mana)</strong><br>
+<p class="verse"><strong>saura-bhera āśe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;palāśa śuṅkili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nāsāte paśilo kīṭa</strong><br>
-<strong>‘ikṣu-daṇḍa’ bhāvi’&nbsp;&nbsp;&nbsp;&nbsp;kāṭha chuṣili (mana)</strong><br>
+<strong>‘ikṣu-daṇḍa’ bhāvi’&nbsp;&nbsp;&nbsp;&nbsp;kāṭha chuṣili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kemone pāibi miṭha</strong></p>
 <p class="wbw"><i class="wbw__bold">saura</i> — esperando; <i class="wbw__bold">bhera</i> — percibir; <i class="wbw__bold">āśe</i> — fui; <i class="wbw__bold">palāśa</i> — flor; <i class="wbw__bold">śuṅkili</i> — oler; (<i class="wbw__bold">mana</i> — en la mente); <i class="wbw__bold">nāsāte</i> — en la nariz; <i class="wbw__bold">paśilo</i> — obtener; <i class="wbw__bold">kīṭa</i> — gusano; <i class="wbw__bold">‘ikṣu</i> — caña de azúcar; <i class="wbw__bold">daṇḍa’</i> — palo; <i class="wbw__bold">bhāvi’</i> — pensando; <i class="wbw__bold">kāṭha</i> — intención; <i class="wbw__bold">chuṣili</i> — chupar; (<i class="wbw__bold">mana</i> — en la mente); <i class="wbw__bold">kemone</i> — cómo; <i class="wbw__bold">pāibi</i> — obtendrás; <i class="wbw__bold">miṭha</i> — dulce.</p>
 <p class="translation">Con el deseo de oler un aroma dulce, olfateé lo que pensé que era una flor fragante. ¡Ay de mí! Esa flor no poseía aroma, era como la flor <i>palāśa</i>, y un insecto saltó a mi nariz y me picó. Pensando que la vida material era tan dulce como la caña de azúcar, intenté probar su néctar. En lugar de eso, fue como masticar madera seca.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>‘hāra’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;golāya parili (mana)</strong><br>
+<p class="verse"><strong>‘hāra’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;golāya parili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;śamana kiṅkora sāpa</strong><br>
-<strong>‘śītala’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;āguna pohāli (mana)</strong><br>
+<strong>‘śītala’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;āguna pohāli </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pāili bajara-tāpa</strong></p>
 <p class="wbw"><i class="wbw__bold">‘hāra’</i> — saqueado; <i class="wbw__bold">boliyā</i> — considerando; <i class="wbw__bold">golāya</i> — consumido; <i class="wbw__bold">parili</i> — derrotado; (<i class="wbw__bold">mana</i> — en la mente); <i class="wbw__bold">śamana</i> — igual; <i class="wbw__bold">kiṅkora</i> — sirviente; <i class="wbw__bold">sāpa</i> — maldecido; <i class="wbw__bold">‘śītala’</i> — refrescante; <i class="wbw__bold">boliyā</i> — considerando; <i class="wbw__bold">āguna</i> — fuego; <i class="wbw__bold">pohāli</i> — tomar calor; (<i class="wbw__bold">mana</i> — en la mente); <i class="wbw__bold">pāili</i> — obtener; <i class="wbw__bold">bajara</i> — lucha; <i class="wbw__bold">tāpa</i> — austeridad.</p>
 <p class="translation">Reconociéndome frustrado, consumido y agotado, espero la serpiente de la muerte. Abracé el fuego de la vida material y lo consideré fresco y tranquilizador, solo para sufrir una miseria intensa, tal como el impacto de un rayo.</p>
@@ -3022,7 +3022,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h5>5</h5>
 <p class="verse"><strong>saṁsāra bhajili&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;śrī-gaurāṅga bhulili</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nā śunili sādhura kathā</strong><br>
-<strong>iha-parakāla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dukāla khoyāli (mana)</strong><br>
+<strong>iha-parakāla&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dukāla khoyāli </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;khāili āpana māthā</strong></p>
 <p class="wbw"><i class="wbw__bold">saṁsāra</i> — existencia material; <i class="wbw__bold">bhajili</i> — adorado; <i class="wbw__bold">śrī-gaurāṅga</i> — el Señor Gaurāṅga; <i class="wbw__bold">bhulili</i> — olvidar; <i class="wbw__bold">nā</i> — no; <i class="wbw__bold">śunili</i> — escuchar; <i class="wbw__bold">sādhura</i> — de personas santas; <i class="wbw__bold">kathā</i> — conversaciones; <i class="wbw__bold">iha-parakāla</i> — ese mundo más allá; <i class="wbw__bold">dukāla</i> — entrar; <i class="wbw__bold">khoyāli</i> — perder; (<i class="wbw__bold">mana</i> — en la mente); <i class="wbw__bold">khāili</i> — desperdiciado; <i class="wbw__bold">āpana</i> — propio; <i class="wbw__bold">māthā</i> — cabeza.</p>
 <p class="translation">Adoré a mi familia y la vida material, y olvidé al Señor Gaurāṅga y no escuché las instrucciones de los santos. Ahora, en mis últimos días, me doy cuenta que tengo dos muertes, no solo por tener que abandonar este cuerpo material, sino también por estar muerto mientras vivía, desperdiciando mi vida en la gratificación.</p>
@@ -4136,7 +4136,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <h4>Śrīla Bhakti Vinod Ṭhākur</h4>
 <p class="wbw"><i class="wbw__bold">dainya</i> — humildad; <i class="wbw__bold">atmikā</i> — resoluta.</p>
 <h5>1</h5>
-<p class="verse"><strong>(prabhu he!)</strong><br>
+<p class="verse">(prabhu he!)<br>
 <strong>emana durmati&nbsp;&nbsp;&nbsp;&nbsp;saṁsāra bhitare</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;paḍiyā āchhinu āmi</strong><br>
 <strong>tava nija-jana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kona mahājane</strong><br>
@@ -4167,7 +4167,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="verse"><strong>vedera pratijñā&nbsp;&nbsp;&nbsp;&nbsp;rākhibāra tare</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;rukma-varṇa vipra-suta</strong><br>
 <strong>mahāprabhu nāme&nbsp;&nbsp;&nbsp;&nbsp;nadīyā mātāya</strong><br>
-<strong>(mahāprabhu nāme&nbsp;&nbsp;&nbsp;&nbsp;jagata mātāya)</strong><br>
+(mahāprabhu nāme&nbsp;&nbsp;&nbsp;&nbsp;jagata mātāya)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;saṅge bhāi avadhūta</strong></p>
 <p class="wbw"><i class="wbw__bold">vedera</i> — de los <i>Vedas</i>; <i class="wbw__bold">pratijñā</i> — promesa; <i class="wbw__bold">rākhibāra</i> — protector de; <i class="wbw__bold">tare</i> — con el fin de; <i class="wbw__bold">rukma</i> — dorado; <i class="wbw__bold">varṇa</i> — color; <i class="wbw__bold">vipra</i> — <i>br<i class="wbw__bold">ā</i>hmana</i>; <i class="wbw__bold">suta</i> — hijo; <i class="wbw__bold">mahāprabhu</i> — Mahāprahu (lit. Gran Señor); <i class="wbw__bold">nāme</i> — nombre; <i class="wbw__bold">nadīyā</i> — de Nadia; <i class="wbw__bold">jagata</i> — (el mundo); <i class="wbw__bold">mātāya</i> — intoxicado; <i class="wbw__bold">saṅge</i> — en asociación; <i class="wbw__bold">bhāi</i> — hermano; <i class="wbw__bold">avadhūta</i> — un nombre del Señor Nityananda (lit. el loco religioso).</p>
 <p class="translation">Para cumplir la promesa de los <i>Vedas</i>, Él descendió con una tez dorada, como hijo de un <i>brāhmana</i>, llevando el nombre de Mahāprabhu, junto con Su hermano, el <i>avadhūta</i> Nityānanda. Ellos dos enloquecieron a todo Nadia (todo el mundo) con amor divino.</p>
@@ -4753,7 +4753,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="wbw"><i class="wbw__bold">viñapti</i> — anhelo sincero.</p>
 <h5>1</h5>
 <p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kabe ha’be bala se dina āmāra</strong><br>
-<strong>(āmāra) aparādha ghuchi’,&nbsp;&nbsp;&nbsp;&nbsp;śuddha nāme ruchi,</strong><br>
+(āmāra)<strong> aparādha ghuchi’,&nbsp;&nbsp;&nbsp;&nbsp;śuddha nāme ruchi,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kṛpā-bale ha’be hṛdaye sañchara</strong></p>
 <p class="wbw"><i class="wbw__bold">kabe</i> — ¿cuándo?; <i class="wbw__bold">ha’be</i> — será; <i class="wbw__bold">bala</i> — por favor dime; <i class="wbw__bold">se</i> — eso; <i class="wbw__bold">dina</i> — día; <i class="wbw__bold">āmāra</i> — mío; <i class="wbw__bold">aparādha</i> — ofensas; <i class="wbw__bold">ghuchi’</i> — disipado; <i class="wbw__bold">śuddha</i> — puro; <i class="wbw__bold">nāme</i> — por el Nombre; <i class="wbw__bold">ruchi</i> — gusto (profundo apego amoroso); <i class="wbw__bold">kṛpā</i> — de misericordia (de la misericordia del Nombre, o de la misericordia de Śrī Guru); <i class="wbw__bold">bale</i> — por el poder; <i class="wbw__bold">ha’be</i> — será; <i class="wbw__bold">hṛdaye</i> — en mi corazón; <i class="wbw__bold">sañchara</i> — infundido.</p>
 <p class="translation">Por favor, dime, ¿cuándo será mío ese día, cuando mis ofensas serán disipadas y el gusto por el nombre puro será infundido en mi corazón por el poder de la misericordia?</p>
@@ -4778,7 +4778,7 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>(kabe) karite śrī-kṛṣṇa-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nāma uchchāraṇa,</strong><br>
+<p class="verse">(kabe)<strong> karite śrī-kṛṣṇa-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nāma uchchāraṇa,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pulakita deha gadgada vachana</strong><br>
 <strong>vaivarṇya-vepathu,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ha’be saṁghaṭana,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nirantara netre va’be aśru-dhāra</strong></p>
@@ -6245,7 +6245,7 @@ Esto lo compuso Narottam Dās Ṭhākur en alabanza a Śrīla Rūpa Goswāmī. D
 <h4>Śrīla Rūpa Goswāmī</h4>
 <p class="wbw"><i class="wbw__bold">he deva</i> — ¡oh señor; <i class="wbw__bold">bhavantaṁ</i> — a Ti; <i class="wbw__bold">vande</i> — me postro.</p>
 <h5>1</h5>
-<p class="verse"><strong>(he) deva bhavantaṁ vande</strong><br>
+<p class="verse">(he)<strong> deva bhavantaṁ vande</strong><br>
 <strong>man-mānasa-madhukara marpaya nija-pada-paṅkaja-makarande</strong></p>
 <p class="wbw">(<i class="wbw__bold">he) deva</i> — ¡oh Señor!; <i class="wbw__bold">bhavantaṁ</i> — a Ti; <i class="wbw__bold">vande</i> — me postro; <i class="wbw__bold">man</i> — de mí; <i class="wbw__bold">mānasa</i> — el corazón; <i class="wbw__bold">madhukara</i> — a la abeja colectora; <i class="wbw__bold">marpaya</i> — lugar; <i class="wbw__bold">nija</i> — propio; <i class="wbw__bold">pada</i> — pies; <i class="wbw__bold">paṅkaja</i> — loto; <i class="wbw__bold">makarande</i> — miel.</p>
 <p class="translation">¡Oh, Señor! Te ofrezco mis respetuosas reverencias. Permite colocar el abejorro de mi mente en la miel de Tus pies de loto.</p>
@@ -6277,10 +6277,10 @@ Esto lo compuso Narottam Dās Ṭhākur en alabanza a Śrīla Rūpa Goswāmī. D
 <h2>Jaya Rādhā-Mādhava <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Vinod Ṭhākur</h4>
 <p class="wbw"><i class="wbw__bold">jaya</i> — toda gloria; <i class="wbw__bold">rādhā</i> — Rādhārāṇī; <i class="wbw__bold">mādhava</i> — Kṛṣṇa.</p>
-<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-bihārī</strong><br>
-<strong>(jaya) gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;(jaya) giri-vara-dhārī</strong><br>
-<strong>(jaya) jaśodā-nandana,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) braja-jana-rañjana,</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) jāmuna-tīra-vana-chārī</strong></p>
+<p class="verse">(jaya)<strong> rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> kuñja-bihārī</strong><br>
+(jaya)<strong> gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> giri-vara-dhārī</strong><br>
+(jaya)<strong> jaśodā-nandana,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> braja-jana-rañjana,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> jāmuna-tīra-vana-chārī</strong></p>
 <p class="wbw"><i class="wbw__bold">jaya</i> — todas las glorias; <i class="wbw__bold">rādhā-mādhava</i> — Rādhā y el Señor de la dulzura; <i class="wbw__bold">kuñja-bihārī</i> — Aquel que disfruta de pasatiempos amorosos en las arboledas de Vṛndāvan; <i class="wbw__bold">gopī-jana-vallabha</i> — el amante de las doncellas pastorcillas de vacas de Vraja; <i class="wbw__bold">giri-vara-dhārī</i> — el sostenedor de la gran colina llamada Govardhan.</p>
 <p class="translation">Kṛṣṇa es el amante de Rādhā. Él manifiesta innumerables pasatiempos amorosos en los bosquecillos de Vṛndāvan; es el amante de las doncellas pastorcillas de vacas en Vraja, el sostenedor de la gran colina llamada Govardhan, el querido hijo de Madre Yaśodā, el deleite de los habitantes de Vraja y quien vaga en los bosques a lo largo de la ribera del río Yamunā.</p>
 </div>
@@ -6502,7 +6502,7 @@ Esto lo compuso Narottam Dās Ṭhākur en alabanza a Śrīla Rūpa Goswāmī. D
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
-<p class="verse"><strong>(sakhī he) sudhāmoya se rūpa-mādhurī</strong><br>
+<p class="verse">(sakhī he)<strong> sudhāmoya se rūpa-mādhurī</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;dekhile nayana,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hoya achetana,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jhore premamoya bāri</strong></p>
 <p class="wbw">(<i class="wbw__bold">sakhī he)</i> — ¡oh <i>sakhī</i>!; <i class="wbw__bold">sudhāmoya</i> — pleno de néctar; <i class="wbw__bold">se</i> — esta; <i class="wbw__bold">rūpa-mādhurī</i> — forma de dulzura; <i class="wbw__bold">dekhile</i> — al ver; <i class="wbw__bold">nayana</i> — ojos; <i class="wbw__bold">hoya</i> — es; <i class="wbw__bold">achetana</i> — inconsciente; <i class="wbw__bold">jhore</i> — fluye; <i class="wbw__bold">premamoya</i> — pleno de amor; <i class="wbw__bold">bāri</i> — lágrimas.</p>
@@ -7733,10 +7733,10 @@ Esto lo compuso Narottam Dās Ṭhākur en alabanza a Śrīla Rūpa Goswāmī. D
 <h5>6-8</h5>
 <p class="verse"><strong>sabāra aṅgete śobhe śrī chandana mālā</strong><br>
 <strong>ānande nāchoye sobe hoiye vibholā</strong><br>
-<strong></strong><br>
+<br>
 <strong>ni jānande nāche mahāprabhu viśvambhara</strong><br>
 <strong>charaṇera tāli śuni ati manohara</strong><br>
-<strong></strong><br>
+<br>
 <strong>bhāvāveśe mālā nāhi rahaye galāya</strong><br>
 <strong>chiṇḍiyā paḍaye giyā bhakatera gāya</strong></p>
 <p class="wbw"><i class="wbw__bold">sabāra</i> — todos ellos; <i class="wbw__bold">aṅgete</i> — sus cuerpos; <i class="wbw__bold">śobhe</i> — hermosamente visible; <i class="wbw__bold">śrī chandana</i> — con auspicioso sándalo; <i class="wbw__bold">mālā</i> — guirnalda; <i class="wbw__bold">ānande</i> — de bienaventuranza; <i class="wbw__bold">nāchoye</i> — del baile; <i class="wbw__bold">sobe</i> — de todos; <i class="wbw__bold">hoiye</i> — se volvió; <i class="wbw__bold">vibholā</i> — cautivado; <i class="wbw__bold">ni jānande</i> — en ese éxtasis; <i class="wbw__bold">nāche</i> — bailaron; <i class="wbw__bold">mahāprabhu</i> — Mahāprabhu; <i class="wbw__bold">viśvambhara</i> — Viśvambhara; <i class="wbw__bold">charaṇera</i> — de sus pies; <i class="wbw__bold">tāli</i> — el suelo; <i class="wbw__bold">śuni</i> — escuchar; <i class="wbw__bold">ati</i> — muy; <i class="wbw__bold">manohara</i> — atractivo; <i class="wbw__bold">bhāva-aveśe</i> — en humor éxtatico; <i class="wbw__bold">mālā</i> — guirnalda; <i class="wbw__bold">nāhi</i> — no; <i class="wbw__bold">rahaye</i> — permanece; <i class="wbw__bold">galāya</i> — que derrite; <i class="wbw__bold">chiṇḍiyā</i> — rompiendo; <i class="wbw__bold">paḍaye</i> — cae; <i class="wbw__bold">giyā</i> — ir; <i class="wbw__bold">bhakatera</i> — de los devotos; <i class="wbw__bold">gāya</i> — canta.</p>
@@ -8182,7 +8182,7 @@ Esto lo compuso Narottam Dās Ṭhākur en alabanza a Śrīla Rūpa Goswāmī. D
 <p class="wbw"><i class="wbw__bold">prabhu</i> — el Señor; <i class="wbw__bold">kohe</i> — dice.</p>
 <p class="verse"><strong>hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare</strong><br>
 <strong>hare rāma hare rāma rāma rāma hare hare</strong><br>
-<strong></strong><br>
+<br>
 <strong>prabhu bole—“kahilaṅ ei mahāmantra</strong><br>
 <strong>ihā japa giyā sabe kariyā nirbandha</strong><br>
 <strong>ihā haite sarvva-siddhi haibe sabāra</strong><br>
@@ -8217,8 +8217,8 @@ Esto lo compuso Narottam Dās Ṭhākur en alabanza a Śrīla Rūpa Goswāmī. D
 <p class="translation">Los dioses universales, los seres perfectos, los salvacionistas, los <i>yogīs</i> místicos y los excelsos servidores de Śrī Kṛṣṇa, la Verdad Absoluta, cantan incesantemente las glorias de Śrī Gaurasundar. En relación con los pasatiempos del Señor Chaitanya, Śrīla Rūpa Goswāmī ha mencionado el siguiente verso en su <i>Śrī Chaitanyāṣṭakam</i>:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>sadopāsyaḥ śrīmān dhṛta-manuja-kāyaiḥ praṇayitāṁ</strong><br>
-<strong>vahadbhir gīr-vāṇair giriśa-parameṣṭhi-prabhṛtibhiḥ</strong></p>
+<p class="verse">sadopāsyaḥ śrīmān dhṛta-manuja-kāyaiḥ praṇayitāṁ<br>
+vahadbhir gīr-vāṇair giriśa-parameṣṭhi-prabhṛtibhiḥ</p>
 <p class="translation">“Los semidioses, encabezados por el Señor Śiva y el Señor Brahmā, aceptaron el atuendo de hombres ordinarios en los pasatiempos de Śrī Chaitanyadev a fin de adorarlo eternamente con afecto sincero”. Śrī Chaitanyadev es la personificación de ese vasto océano nectarino que se encuentra en el Santo Nombre del Señor Kṛṣṇa, el cual no es otro que el propio Nombre puro de Śrī Gaurāṅga. Śrī Chaitanyadev es comparado con ese gran océano de leche, el cual, tras ser batido, produjo néctar. El néctar que Mahāprabhu distribuye es el Santo Nombre del Señor Kṛṣṇa, el cual extingue todas las miserias de la existencia material, tales como la ansiedad causada por las actividades pecaminosas ejecutadas en directa oposición al Señor, y el sufrimiento triple que alimenta el gran incendio forestal que abrasa a aquellos que están en busca de la gratificación de los sentidos, la salvación y las perfecciones del <i>yoga</i> místico. Le ofrezco  mis reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 <div class="verse-block" data-number="2">
@@ -8415,8 +8415,8 @@ El Señor personalmente encarnó en el planeta Tierra con Sus expansiones, tales
 <p class="translation">El gran intelectual Sārvabhauma, trató con su máxima capacidad de establecer la doctrina impersonal de Śaṅkarāchārya, la cual está en directa oposición a las conclusiones de la dedicación pura. Sārvabhauma usó los recursos más engañosos en el arte del malabarismo de palabras. Trató de adulterar el sentido de las palabras, vanamente desafió los argumentos o las afirmaciones del Señor, sin tratar de probar lo contrario, e intentó encontrar los puntos débiles en los argumentos del Señor. Sin embargo, Śrī Chaitanya—cuya encantadora figura estaba cubierta por las vestimentas nuevas de un refulgente renunciante—presentó argumentos sólidos en concordancia con las literaturas védicas, y sin dificultad, frenó y destruyó las ateas interpretaciones del erudito. El Señor proclamó en voz alta que la doctrina de Śaṅkarāchārya es practicada por seguidores del método ascendente de entendimiento, quienes están interesados en su propia adoración externa. Semejante adoración es el producto de un intelecto demoníaco y está respaldada por la perseverancia atea. Toda la importancia ofrecida al aspecto no manifiesto de la naturaleza material, fue refutada cuando el Señor Gaurasundar afirmó que la variedad espiritual en la personalidad del Señor Supremo es la realidad más elevada que nos enseña la literatura védica. Esto fue demostrado por el Señor con Su explicación de los <i>Upaniṣads</i>, donde se declara:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>apāṇipādo javano grahitā</strong><br>
-<strong>paśyatyachakṣuḥ sa śṛṇotyakarṇaḥ</strong></p>
+<p class="verse">apāṇipādo javano grahitā<br>
+paśyatyachakṣuḥ sa śṛṇotyakarṇaḥ</p>
 <p class="translation">“El Señor no tiene piernas ni manos, sin embargo, camina y toca. El Señor no tiene ojos ni oídos, sin embargo, ve y escucha”.<br>
 El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encuentra en la más sublime de todas las literaturas famosas, el <i>Śrīmad Bhāgavatam</i>. Demostró claramente que los <i>Vedas</i>, los <i>Purāṇas</i>, el <i>Vedānta</i> y todas las demás Escrituras existentes—las cuales son como un templo magnífico donde son eternamente celebrados los maravillosos pasatiempos del Señor Supremo—sustentan la conclusión de que todo en este mundo es un reflejo de la eterna variedad que se encuentra en el reino espiritual. Ofrezco mis reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la divina forma del Kṛṣṇa prema.</p>
 </div>
@@ -8502,10 +8502,10 @@ El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encue
 <p class="translation">Rodeado de innumerables devotos, el Señor Gaurasundar mostró Su divina y maravillosa figura danzarina frente a la sagrada carroza del Rāthayātrā, mientras ejecutaba el canto en congregación de los Santos Nombres del Señor. La personalidad del Señor cautivó por completo los corazones de Mahārāj Pratāparudra, de los peregrinos reunidos y de todos los queridos amigos del rey. El Señor también reveló el significado interno del pasatiempo del recorrido de la carroza del Señor Jagannāth hasta el templo de Guṇḍichā, al mencionar el verso de Śrīla Rūpa Goswāmī:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>priyaḥ so ’yam kṛṣṇaḥ saha-chari kuru-kṣetra-militas</strong><br>
-<strong>tathāhaṁ sā rādhā tad idam ubhayoḥ saṅgama sukham</strong><br>
-<strong>tathāpy antaḥ-khelan-madhura-muralī-pañchama-juṣe</strong><br>
-<strong>mano me kālindī-pulina-vipināya spṛhayati</strong></p>
+<p class="verse">priyaḥ so ’yam kṛṣṇaḥ saha-chari kuru-kṣetra-militas<br>
+tathāhaṁ sā rādhā tad idam ubhayoḥ saṅgama sukham<br>
+tathāpy antaḥ-khelan-madhura-muralī-pañchama-juṣe<br>
+mano me kālindī-pulina-vipināya spṛhayati</p>
 <p class="translation">“¡Oh, mi querida amiga! Al fin hoy me he reunido en Kurukṣetra con mi muy amado Kṛṣṇa. Soy la misma Rādhārāṇī, y Él es el mismo Kṛṣṇa. Estamos disfrutando de Nuestro encuentro, sin embargo, todavía anhelo regresar a las orillas del Kālindī, donde Yo podía escuchar la dulce melodía de Su flauta tocando la quinta nota, debajo de los árboles del bosque de Vṛndāvan”. Ofrezco mis humildes reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 </section>
@@ -8587,10 +8587,10 @@ El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encue
 <p class="translation">El Señor Chaitanya declaró que el profundo humor de separación que Mādhavendra Purī pudo probar—tal como lo describe el siguiente hermoso verso que Śrīmatī Rādhārāṇī expresó primeramente—es el punto culminante y el objeto deseable de la adoración pura:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>ayi dīna-dayārdra nātha he</strong><br>
-<strong>mathurā-nātha kadāvalokyase</strong><br>
-<strong>hṛdayaṁ tvad-aloka-kātaraṁ</strong><br>
-<strong>dayita bhrāmyati kiṁ karomy aham</strong></p>
+<p class="verse">ayi dīna-dayārdra nātha he<br>
+mathurā-nātha kadāvalokyase<br>
+hṛdayaṁ tvad-aloka-kātaraṁ<br>
+dayita bhrāmyati kiṁ karomy aham</p>
 <p class="translation">“¡Oh, Mi Señor! ¡Oh, muy misericordioso amo! ¡Oh, amo de Mathurā! ¿Cuándo te veré de nuevo? Debido a que no te veo, Mi perturbado corazón se ha vuelto inestable. ¡Oh, Tú, el más amado! ¿Qué haré ahora?” Después de que entró en Vraja—el escenario donde fueron exhibidos los pasatiempos de amor puro—, el corazón del Señor se sintió colmado a Su entera satisfacción. El Señor quedó encantado al ver los hermosos jardines y bosquecillos, que sirvieron en una época anterior como el patio de recreo donde realizaba Sus pasatiempos espirituales. Mientras visitaba los doce bosques de Vṛndāvan, mostró varios y diversos tratos con los pastorcillos de vacas y con las doncellas. Ofrezco mis reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 <div class="verse-block" data-number="39">
@@ -8627,10 +8627,10 @@ El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encue
 <p class="translation">Sobrecargado con los desconcertantes dictados del amor puro por Dios, bailando en éxtasis, el Señor Gaurasundar se acercó ansiosamente al sagrado lugar del Rādhā Kuṇḍa, el cual no estaba manifiesto en ese entonces. Apresuradamente se bañó en ese anegado campo de arroz, santificó el agua y reveló que ese era el Śrī Rādhā Kuṇḍa. Con profunda humildad y esmero, empezó a recitar versos de las Escrituras que describen al Śrī Rādhā Kuṇḍa como la personificación divina del amor puro.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>yathā rādhā priyā viṣṇos</strong><br>
-<strong>tasyāḥ kuṇḍaṁ priyaṁ tathā</strong><br>
-<strong>sarva gopīṣu saivaikā</strong><br>
-<strong>viṣṇor-atyanta vallabhā</strong></p>
+<p class="verse">yathā rādhā priyā viṣṇos<br>
+tasyāḥ kuṇḍaṁ priyaṁ tathā<br>
+sarva gopīṣu saivaikā<br>
+viṣṇor-atyanta vallabhā</p>
 <p class="translation">“Tal como Śrī Rādhā le es muy querida al Señor Kṛṣṇa, de la misma manera Su estanque divino—el Śrī Rādhā Kuṇḍa—le es muy querido al Señor. De todas las doncellas pastorcillas de vacas, Ella es la consorte más amada del Señor Kṛṣṇa”. Ofrezco mis reverencias a ese hermoso Señor Dorado, Śrī Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 <div class="verse-block" data-number="42">
@@ -8652,10 +8652,10 @@ El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encue
 <p class="translation">El Señor Gaurāṅga mencionó una conversación jocosa sostenida entre un loro y su pareja. En la plática de los loros se describe que el Señor Kṛṣṇa, el cupido trascendental, está ilusionado a causa de Sus profundos sentimientos en la separación de Śrī Rādhā.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>rādhā-saṅge yadā bhāti</strong><br>
-<strong>tadā ‘madana-mohanaḥ’</strong><br>
-<strong>ayathā viśva-moho’ pi</strong><br>
-<strong>svayaṁ ‘madana-mohitaḥ’</strong></p>
+<p class="verse">rādhā-saṅge yadā bhāti<br>
+tadā ‘madana-mohanaḥ’<br>
+ayathā viśva-moho’ pi<br>
+svayaṁ ‘madana-mohitaḥ’</p>
 <p class="translation">La lora dijo: “Cuando el Señor Kṛṣṇa está con Rādhārāṇī, es el encantador de Cupido; pero cuando está solo, Él mismo queda encantado por sentimientos amorosos, aunque Él encanta al universo entero”. Mediante este pasatiempo, el Señor Gaurāṅga cautivó los corazones de los devotos al mostrar que, finalmente, la dulzura y el encanto del Señor Kṛṣṇa consisten en el hecho de que Él puede quedar subyugado mediante el amor puro. Ofrezco mis reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 <div class="verse-block" data-number="44">
@@ -8704,10 +8704,10 @@ El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encue
 <p class="translation">Cuando el Señor Gaurāṅga se refirió al verso <i>“brahmeti parāmatmeti bhagavān iti śabdyate”</i> del <i>Śrīmad Bhāgavatam</i>, acomodó armoniosamente la concepción del aspecto no diferenciado de la realidad, <i>brahman</i>—meta última de los impersonalistas—, con la concepción del aspecto localizado de la realidad, <i>paramātma</i>—meta de los místicos perfeccionistas—. El Señor concilió estas dos verdades al demostrar que son tanto incluidas como sobrepasadas por la concepción final de la verdad absoluta no dualista, <i>bhagavān</i>—quien es el principio primario de la realidad—. El Señor Gaurāṅga resaltó la naturaleza divina de Vraja, la cual existe más allá de los planetas Vaikuṇṭha, mientras revelaba esta verdad evidente, en relación con la naturaleza gozosa y confidencial de los pasatiempos espirituales del Señor Supremo.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>vaikuṇṭhāj janito varā madhu-purī tatrāpi rāsotsavād</strong><br>
-<strong>vṛndāraṇyam udāra-pāṇi-ramaṇāt tatrāpi govardhanaḥ</strong><br>
-<strong>rādhā-kuṇḍam ihāpi gokula-pateḥ premāmṛtāplāvanāt</strong><br>
-<strong>kuryād asya virājato giri-taṭe sevāṁ vivekī na kaḥ</strong></p>
+<p class="verse">vaikuṇṭhāj janito varā madhu-purī tatrāpi rāsotsavād<br>
+vṛndāraṇyam udāra-pāṇi-ramaṇāt tatrāpi govardhanaḥ<br>
+rādhā-kuṇḍam ihāpi gokula-pateḥ premāmṛtāplāvanāt<br>
+kuryād asya virājato giri-taṭe sevāṁ vivekī na kaḥ</p>
 <p class="translation">“Superior al reino espiritual de Vaikuṇṭha es Mathurā, donde Śrī Kṛṣṇa apareció primero. Superior a Mathurā es el bosque de Vṛndāvan, donde Kṛṣṇa disfrutó la danza <i>rāsa</i>. Mejor todavía es la Colina de Govardhan, la cual fue incluso lugar de los pasatiempos amorosos más confidenciales. Pero el mejor de todos es el Rādhā Kuṇḍa, situado al pie de la Colina de Govardhan, pues guarda la posición suprema debido a que rebosa con el néctar del más elevado tipo de amor divino. ¿Quién, que esté familiarizado con la ciencia de la devoción, no aspirará al servicio divino a Śrīmatī Rādhārāṇī en el Rādhā Kuṇḍa?” Inicialmente, el Señor Gaurāṅga reveló la naturaleza del servicio amoroso puro, brindado al hijo de Mahārāj Nanda en la relación paternal. Pero al tomar en cuenta el caudal de las melosidades de la dedicación, el Señor describió a Śrī Gopī-janavallabha como el aspecto último de la personalidad del Señor Supremo—cuya figura divina es la fuente ilimitada de todas las melosidades primarias y secundarias saboreadas en la devoción pura—. Śrī Gaurāṅga también dio a entender que los gozosos y encantadores pasatiempos <i>rāsa-līlā</i> son una realidad completamente consciente, no diferente de la potencia personal de Śrīmatī Rādhārāṇī. Tales pasatiempos trascendentales se encuentran dentro del superexcelente e inconcebible mundo espiritual y constituyen la concepción más elevada de la existencia, la auspiciosidad y la belleza espirituales. El Señor Gaurāṅga propuso esto como el alcanzable objeto supremo de las entidades vivientes. Ofrezco mis reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 <div class="verse-block" data-number="49">
@@ -8729,10 +8729,10 @@ El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encue
 <p class="translation">El Señor Gaurasundar le explicó sesenta y una veces este famoso verso del <i>Śrīmad Bhāgavatam</i> a Śrīla Sanātan Goswāmī, y más tarde a Prakāśānanda Saraswatī:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>ātmārāmaś cha munayo</strong><br>
-<strong>nirgranthā apy urukrame</strong><br>
-<strong>kurvanty ahaitukim bhaktiṁ</strong><br>
-<strong>itthaṁ-bhūta guṇo hariḥ</strong></p>
+<p class="verse">ātmārāmaś cha munayo<br>
+nirgranthā apy urukrame<br>
+kurvanty ahaitukim bhaktiṁ<br>
+itthaṁ-bhūta guṇo hariḥ</p>
 <p class="translation">“Incluso las almas liberadas, completamente satisfechas, se sienten irresistiblemente atraídas a las superexcelentes cualidades de Kṛṣṇa y se rinden a Él con devoción sin mezcla”. El Señor combinó las once palabras que se encuentran en ese verso y declaró que cada una es un depósito inmenso de riqueza sin límites que sustenta la conclusión de la devoción pura. Ofrezco mis reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 </section>
@@ -8919,8 +8919,8 @@ El Señor Gaurasundar también explicó el verso <i>ātmarāma</i>, que se encue
 <p class="translation">Con gran júbilo, Śrī Gaurasundar les dijo a Sus muy queridos asociados, Śrī Svarūp Dāmodar y Rāmānanda Rāy, que el proceso del canto en congregación de los Santos Nombres de Kṛṣṇa, concede la bendición más elevada a las entidades vivientes en esta era de Kali:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>harṣe prabhu kohena, “śuno svarūpa-rāma-rāya</strong><br>
-<strong>nāma saṅkirttana kalau, parama upāya”</strong></p>
+<p class="verse">harṣe prabhu kohena, “śuno svarūpa-rāma-rāya<br>
+nāma saṅkirttana kalau, parama upāya”</p>
 <p class="translation">También, en Su famosa composición<i> Śrī-Śikṣāṣṭakam</i>, el Señor Gaurāṅga estableció el canto de los Nombres del Señor Kṛṣṇa en la posición más elevada de importancia. Además, enseñó que el canto de los Santos Nombres con amor puro por el Supremo, nutre perfectamente y satisface por completo a todas las entidades vivientes del universo. Ofrezco mis reverencias a ese hermoso Señor Dorado, Gaurāṅga Sundar, la forma divina del Kṛṣṇa prema.</p>
 </div>
 <div class="verse-block" data-number="70">
@@ -10188,7 +10188,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <h2>Rādhā Kṛṣṇa vandana <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="wbw"><i class="wbw__bold">Rādhā-Kṛṣṇā</i>; <i class="wbw__bold">vandana</i> — oraciones.</p>
 <h5>1</h5>
-<p class="verse"><strong>(jaya) rādhe govinda! rādhe govinda!</strong><br>
+<p class="verse">(jaya)<strong> rādhe govinda! rādhe govinda!</strong><br>
 <strong>śyāmasundar madan mohan vṛndāvana chandra</strong><br>
 <strong>rāseśvari vinodini bhānukula chandra</strong></p>
 <p class="wbw"><i class="wbw__bold">jaya rādhe govinda!</i> — gloria a Śrīmatī Rādhārāṇī y Govinda; <i class="wbw__bold">rādhe govinda!</i> — gloria a Śrīmatī Rādhāraṇī y Govinda; <i class="wbw__bold">śyāmasundar</i> — a Śyāmasundar (el de color oscuro); <i class="wbw__bold">madan mohan</i> — a Madan Mohan (el encantador de Cupido); <i class="wbw__bold">vṛndāvana chandra</i> — Vṛndāvan Chandra (la luna de Vṛndāvan); <i class="wbw__bold">rāseśvari</i> — Rāseśvari (la reina de todo <i>rāsa</i>); <i class="wbw__bold">vinodini</i> — Vinodinī (la única disfrutadora); <i class="wbw__bold">bhānukula chandra</i> — Bhānukula Chandra (la luna resplandeciente).</p>
@@ -10218,7 +10218,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>kṛpā kori deha yugal charaṇāravinda</strong><br>
-<strong>(yena) ākula-prāṇe gaite pāri śrī rādhe govinda</strong></p>
+(yena)<strong> ākula-prāṇe gaite pāri śrī rādhe govinda</strong></p>
 <p class="wbw"><i class="wbw__bold">kṛpā</i> — misericordia; <i class="wbw__bold">kori</i> — hace; <i class="wbw__bold">deha</i> — otorga; <i class="wbw__bold">yugal</i> — pareja; <i class="wbw__bold">charaṇa-aravinda</i> — pies de loto; (<i class="wbw__bold">yena)</i> — entonces así; <i class="wbw__bold">ākula</i> — abrumado; <i class="wbw__bold">prāṇe</i> — de mi vida; <i class="wbw__bold">gaite</i> — cantar; <i class="wbw__bold">pāri</i> — ser capaz; <i class="wbw__bold">śrī rādhe govinda</i> — Śrī Rādhā Govinda.</p>
 <p class="translation">Por favor, concédeme tu misericordia, por favor otórgame los pies de loto de la Divina Pareja, entonces podré cantar fervientemente: “¡Śrī Rādhā Govinda!”</p>
 </div>
@@ -10439,7 +10439,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 382</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 232</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"cjHYyObJlKieEKbXSwiG7"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fx5AXyn-MVZuuf1VOxHAO"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

@@ -8,7 +8,7 @@ b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-0:{"P":null,"c":["","lv","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","lv","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"cjHYyObJlKieEKbXSwiG7"}
+0:{"P":null,"c":["","lv","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","lv","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"fx5AXyn-MVZuuf1VOxHAO"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[2342,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?452facfc02637e1f","type":"image/x-icon","sizes":"96x96"}],["$","$Lf","2",{}]]
 10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-a5e2052390022a03.js"],"default"]
-11:T61e0f,<h1 class="book-title">Gaudija Gītandžalī</h1>
+11:T61abd,<h1 class="book-title">Gaudija Gītandžalī</h1>
 <p class="nav-links"><a href="#first-lines">↓ Indekss</a></p>
 <section class="toc" id="toc">
 <h1>Saturs</h1>
@@ -684,7 +684,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h5>12</h5>
 <p class="verse"><strong>avichintya nityānanda-chaitanya-prakāśa</strong><br>
 <strong>śrī guru-prasāde dekhe ei adhama dāsa</strong><br>
-<strong>(śrī guru-prasāde dekhe śrī govinda dāsa)</strong></p>
+(śrī guru-prasāde dekhe śrī govinda dāsa)</p>
 <p class="translation">Neizprotamā kārtā Šrī Šrī Nitai-Čaitanja ir izpauduši sevi un, pateicoties Šrī Gurudēva žēlsirdībai, šī kritusī dvēsele redz Viņu <i>āratī</i> un piedalās <i>sankirtanā</i>!</p>
 </div>
 </section>
@@ -1357,7 +1357,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <div class="verse-block" data-number="10">
 <h5>10</h5>
 <p class="verse"><strong>śrī-guru-vaiṣṇava-pāda-padma kori āśa</strong><br>
-<strong>(hari) nāma-saṅkīrtana kohe narottama dāsa</strong></p>
+(hari)<strong> nāma-saṅkīrtana kohe narottama dāsa</strong></p>
 <p class="translation">Vēloties gūt Šrī Guru un Vaišnavu lotosam līdzīgo pēdu patvērumu, Narottams Dāsa dzied Svētā Vārda sankirtanu - Svētā Vārda slavu!</p>
 </div>
 </section>
@@ -1379,68 +1379,68 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <div class="verse-block" data-number="">
 <h2>Śrī Gaura-ārati <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhaktivinoda Thākurs</h4>
-<p class="verse"><strong>(kiba) jaya jaya gorācāńder āratiko śobhā</strong><br>
+<p class="verse">(kiba)<strong> jaya jaya gorācāńder āratiko śobhā</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;jāhnavī-taṭa-vane jaga-mana-lobhā</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jaga janer mana-lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger āroti śobhā jaga janer mana-lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaga janer mana-lobhā)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅger āroti śobhā jaga janer mana-lobhā)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="translation">Visa slava, visa slava brīnišķajai Kunga Gauračandras pielūgšanas ceremonijai! Tā noris birzī, Džāhnavī (Gangas) upes krastā, un pievilina visas dzīvās būtnes Visumā.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(kiba) dakṣiṇe nitāichā̐d bāme gadādhara</strong><br>
+<p class="verse">(kiba)<strong> dakṣiṇe nitāichā̐d bāme gadādhara</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nikaṭe advaita śrīnivāsa chatra-dhara</strong></p>
 <p class="translation">Pa labi no Kunga Gauračandras ir Kungs Nitjānanda, bet pa kreisi no Viņa – Šrī Gadādhāra. Blakus stāv Šrī Advaita, bet Šrīvāss Thākurs tur lietussargu virs Kunga galvas.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(kiba) bosiyāche gaurāchā̐d ratna-siṁhāsane</strong><br>
+<p class="verse">(kiba)<strong> bosiyāche gaurāchā̐d ratna-siṁhāsane</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(ratna-simhāsana alo korere</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bosiyāchen gaurāchā̐d ratna-siṁhāsane)</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;ārati korena brahmā ādi-deva gaṇe</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger āroti kore)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(brahmā ādi-deva gaṇe gaurāṅger āroti kore)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅgera bhakta sane gaurāṅger āroti kore)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅger āroti kore)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(brahmā ādi-deva gaṇe gaurāṅger āroti kore)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅgera bhakta sane gaurāṅger āroti kore)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="translation">Kungs Čaitanja sēž ar dārglietām rotātā tronī, bet debesu iemītnieki, ar Kungu Brahmu priekšgalā, izpilda pielūgšanas ceremoniju, āratī.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(kiba) narahari-ādi kori chāmara ḍhulāya</strong><br>
+<p class="verse">(kiba)<strong> narahari-ādi kori chāmara ḍhulāya</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;sañjaya-mukunda-vāsu-ghoṣa-ādi gāya</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura guṇa gāna kore)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kore)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaura guṇa gāna kore)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kore)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="translation">Narāharī Sarakārs un citi Kunga Čaitanjas pavadoņi vēdina Viņu ar spalvu vēdekli. Citi Viņa bhaktas, ar Sandžaju Panditu, Mukundu Datu un Vāsu Ghošu priekšgalā, dzied saldu kirtanu.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(kiba) śaṅkha bāje ghaṇṭā bāje bāje karatāla</strong><br>
+<p class="verse">(kiba)<strong> śaṅkha bāje ghaṇṭā bāje bāje karatāla</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;madhura mṛdaṅga bāje parama rasāla</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger āroti kāle madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(madhura mṛdanga bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(gaurāṅger āroti kāle madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(madhura mṛdanga bāje madhur madhur madhur bāje)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="translation">Skan gliemežnīcas, zvaniņi un karatālas, melodiski spēlē mridangas. Kirtana mūzika ir ārkārtīgi salda un ausij tīkama.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(kiba) bahu-koṭi chandra jini vadana ujjvala</strong><br>
+<p class="verse">(kiba)<strong> bahu-koṭi chandra jini vadana ujjvala</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;gala-deśe bona-mālā kore jhalamala</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jhalmol jhalmol jhalmol kore)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jhalmol jhalmol jhalmol kore)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura gole bona phuler mālā</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;jhalmol jhalmol jhalmol kore)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(nitāi gaura haribol)</p>
 <p class="translation">Kunga Čaitanjas sejas mirdzums pārspēj miljons mēnešu spožumu, un viņa kaklā mirdz meža ziedu vītne.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(kiba) śiva-śuka-nārada preme gada-gada</strong><br>
+<p class="verse">(kiba)<strong> śiva-śuka-nārada preme gada-gada</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bhakativinoda dekhe gorāra sampada</strong></p>
 <p class="translation">Kungs Šiva, Šukadēva Gosvāmī un Nārada Mūnī – visi viņi ir klātesoši ceremonijā un viņu balsis dreb dievišķās mīlestības skurbumā. Tā Bhaktivinoda redz izslavēto Kunga Gauračandras pielūgšanu.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>(ei bār āmāy doyā koro)</strong><br>
-<strong>(ṭhākura śrī bhaktivinoda ei bār āmāy doyā koro)</strong><br>
-<strong>(ṭhākura śrī sarasvatī ei bār āmāy doyā koro)</strong><br>
-<strong>(patit-pāvan śrī gurudev ei bār āmāy doyā koro)</strong><br>
-<strong>(sapārṣada gaurahari ei bār āmāy doyā koro)</strong><br>
-<strong>(nitāi gaura haribol)</strong></p>
+<p class="verse">(ei bār āmāy doyā koro)<br>
+(ṭhākura śrī bhaktivinoda ei bār āmāy doyā koro)<br>
+(ṭhākura śrī sarasvatī ei bār āmāy doyā koro)<br>
+(patit-pāvan śrī gurudev ei bār āmāy doyā koro)<br>
+(sapārṣada gaurahari ei bār āmāy doyā koro)<br>
+(nitāi gaura haribol)</p>
 <p class="translation">Apveltiet mani ar savu žēlsirdību! Šrī Bhaktivinoda, Šrī Sarasvatī Thākur, Gurudēv – kritušo glābēj! Kungs Gauraharī ar saviem pavadoņiem, lūdzu, dāvājiet man savu žēlsirdību.</p>
 </div>
 </section>
@@ -1630,18 +1630,18 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <strong>&nbsp;lokanātha lokera jīvana</strong><br>
 <strong>&nbsp;hā hā prabhu koro doyā,&nbsp;&nbsp;&nbsp;&nbsp;deho more pada-chāyā,</strong><br>
 <strong>&nbsp;ebe jaśa ghuṣuk tribhuvana</strong><br>
-<strong>&nbsp;(e adhama loilo śaraṇa)</strong><br>
-<strong>&nbsp;(tuyā pade loinu śaraṇa)</strong></p>
+<strong>&nbsp;</strong>(e adhama loilo śaraṇa)<br>
+<strong>&nbsp;</strong>(tuyā pade loinu śaraṇa)</p>
 <p class="translation">Ak, garīgais skolotāj, žēlsirdības okeān un kritušo dvēseļu draugs! Tu esi katra skolotājs un mūsu visu dzīve! Mans valdniek, esi žēlīgs pret mani un ļauj man rast patvērumu tavu lotosam līdzīgo pēdu ēnā! Lai tava slava izplatās visās trīs pasaulēs!</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
-<p class="verse"><strong>(āmi) (śaraṇilam)</strong><br>
-<strong>(abhaya śrī pada padme śaraṇilam)</strong><br>
-<strong>(āmay) (doyā koro he)</strong><br>
-<strong>(patit-pāvan śrī gurudev doyā koro he)</strong><br>
-<strong>(adhama patita jene doyā koro he)</strong><br>
-<strong>(jay gurudev)</strong></p>
+<p class="verse">(āmi)<strong> </strong>(śaraṇilam)<br>
+(abhaya śrī pada padme śaraṇilam)<br>
+(āmay)<strong> </strong>(doyā koro he)<br>
+(patit-pāvan śrī gurudev doyā koro he)<br>
+(adhama patita jene doyā koro he)<br>
+(jay gurudev)</p>
 <p class="translation">Esmu nodevis sevi tavām lotosam līdzīgajām pēdām! Lūdzu, esi žēlsirdīgs pret mani, Šrī Gurudēv, kritušo glābēj, lūdzu, dāvā man savu žēlsirdību! Tu esi kritušo dvēseļu glābējs! Slava tev, Šrī Gurudēv!</p>
 </div>
 </section>
@@ -1692,8 +1692,8 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 </div>
 <div class="verse-block" data-number="8">
 <h5>8</h5>
-<p class="verse"><strong>(dayā kara prabhupāda śrī gaura prakāśa)</strong><br>
-<strong>(tava jana kṛpā māge ei adhama dāsa)</strong></p>
+<p class="verse">(dayā kara prabhupāda śrī gaura prakāśa)<br>
+(tava jana kṛpā māge ei adhama dāsa)</p>
 <p class="translation">Lūdzu, dāvā man savas svētības, Šrīla Prabhupāda Sarasvatī Thākur, Šrī Gauras izpausme! Esmu kritis kalps un lūdzu tavu pavadoņu žēlastību!</p>
 </div>
 </section>
@@ -1702,7 +1702,7 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <h2>Śrī Vaiṣṇava-mahimā-gīti <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
-<p class="verse"><strong>(ohe) vaiṣṇava ṭhākura,&nbsp;&nbsp;&nbsp;&nbsp;dayāra sāgara,</strong><br>
+<p class="verse">(ohe)<strong> vaiṣṇava ṭhākura,&nbsp;&nbsp;&nbsp;&nbsp;dayāra sāgara,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;e dāse karuṇā kori</strong><br>
 <strong>diyā pada-chāyā,&nbsp;&nbsp;&nbsp;&nbsp;śodho he āmāre,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;tomāra charaṇa dhori</strong></p>
@@ -1730,12 +1730,12 @@ Vēl citādi šo vārsmu var tulkot šādi: Tās tīrās dvēseles, kuras piedal
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;tomāra śakati āche</strong><br>
 <strong>āmi to kāṅgāla,&nbsp;&nbsp;&nbsp;&nbsp;‘kṛṣṇa kṛṣṇa’ boli,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;dhāi tava pāche pāche</strong><br>
-<strong></strong><br>
-<strong>(āmi) (dhāi tava pāche pāche)</strong><br>
-<strong>(kṛṣṇa dhana pābarāse dhāi tava pāche pāche)</strong><br>
-<strong>(tumi dileou dite pāro)</strong><br>
-<strong>(kṛṣṇa tomār hṛdoyer dhan tumi dileou dite pāro)</strong><br>
-<strong>(kṛṣṇa devār śakti dhara tumi dileou dite pāro)</strong></p>
+<br>
+(āmi)<strong> </strong>(dhāi tava pāche pāche)<br>
+(kṛṣṇa dhana pābarāse dhāi tava pāche pāche)<br>
+(tumi dileou dite pāro)<br>
+(kṛṣṇa tomār hṛdoyer dhan tumi dileou dite pāro)<br>
+(kṛṣṇa devār śakti dhara tumi dileou dite pāro)</p>
 <p class="translation">Krišna pieder tev, tu vari Viņu atklāt citiem, tev piemīt tāds spēks! Kā neprātīgs es saucu: “Krišna, Krišna!” un izmisis skrienu tev pakaļ.<br>
 <i class="translation__bold">Piezīme pie 2. vārsmas:</i><br>
 Seši dzinuļi: runa, prāts, dusmas, mēle, kuņģis un ģenitālijas.<br>
@@ -1761,8 +1761,8 @@ Seši svētas saskarsmes veidi: piedāvāt labdarības dāvanas, pieņemt ziedoj
 <p class="translation">Debesu iemītnieki, pilnīgās dvēseles, atbrīvošanas tīkotāji, mistiskie jogi un augstie Absolūtās Patiesības – Šrī Krišnas, kalpi, vienmēr slavē Šrī Gaurasundaru. Šrīla Rūpa Gosvāmī savā “Šrī Čaitanjaštakam” min šādu vārsmu:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>sadopāsyaḥ śrīmān dhṛta-manuja-kāyaiḥ praṇayitāṁ</strong><br>
-<strong>vahadbhir gīr-vāṇair giriśa-parameṣṭhi-prabhṛtibhiḥ</strong></p>
+<p class="verse">sadopāsyaḥ śrīmān dhṛta-manuja-kāyaiḥ praṇayitāṁ<br>
+vahadbhir gīr-vāṇair giriśa-parameṣṭhi-prabhṛtibhiḥ</p>
 <p class="translation">“Debesu iemītnieki, ar Kungu Šivu un Kungu Brahmu priekšgalā, tērpušies vienkāršu cilvēku drānās, piedalījās Šrī Čaitanjadēva rotaļās, lai patiesā maigumā mūžīgi pielūgtu Viņu”. Šrī Čaitanjadēvs ir plašā tīra nektāra okeāna iemiesojums, kurš rod savu sākumu Svētajā Kunga Krišnas Vārdā, kas ir nekas cits kā tīrs paša Šrī Gaurangas Vārds. Šrī Čaitanjadēvu salīdzina ar dižo piena okeānu, kuru kuļot izdalījās nektārs. Nektārs, kuru izplata Mahāprabhu, ir svētie Kunga Krišnas Vārdi. Tie novērš tādas materiālās esības likstas kā prom no Kunga vedošs grēcīgas rīcības radīts nemiers un trīskāršas ciešanas, kuras tikai pastiprina meža ugunsgrēku, kurā deg juteklisko baudu un atbrīvošanas meklētāji un mistiskie jogi. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="2">
@@ -1942,8 +1942,8 @@ Allaž, kad mazulis Nīmajs dusmojās vai raudāja, tikai Kunga Krišnas Svēto 
 Tam piemērs ir Kunga sniegtais Upanišādu vārsmas skaidrojums:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>apāṇipādo javano grahitā</strong><br>
-<strong>paśyatyachakṣuḥ sa śṛṇotyakarṇaḥ</strong></p>
+<p class="verse">apāṇipādo javano grahitā<br>
+paśyatyachakṣuḥ sa śṛṇotyakarṇaḥ</p>
 <p class="translation">“Kungam nav ne roku, ne kāju, tomēr Viņš var staigāt un pieskarties. Kungam nav ne acu, ne ausu, tomēr Viņš redz un dzird.”<br>
 Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem “Šrīmad-Bhāgavatam” <i>atmarāma</i> vārsmu. Viņš parādīja, ka Vēdas, Purāni, Vēdanta un citi eksistējošie raksti ir līdzīgi diženam templim, kur mūžam tiek slavētas Visaugstā pārsteidzošās rotaļas, un tie apliecina, ka viss šajā pasaulē ir mūžīgās daudzveidības atspulgs, kurš ņem savu sākumu garīgajā pasaulē. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
@@ -2020,10 +2020,10 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Neskaitāmu, Kunga Svēto Vārdu kopīgā dziedāšanā vienojušos bhaktu ieskauts, Kungs Gaurangasundars izpildīja savu dievišķi skaisto deju Ratha-jātras pajūga priekšā. Kunga personība visaptveroši aizrāva Mahārādža Pratāparudras, visu klātesošo svētceļnieku un citu valdnieka tuvo draugu, sirdis. Kungs atklāja Kunga Džagannātha ratos veiktā ceļojuma uz Gundiča templi iekšējo nozīmi citējot Šrīlas Rūpas Gosvāmī vārsmu:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>priyaḥ so ’yam kṛṣṇaḥ saha-chari kuru-kṣetra-militas</strong><br>
-<strong>tathāhaṁ sā rādhā tad idam ubhayoḥ saṅgama sukham</strong><br>
-<strong>tathāpy antaḥ-khelan-madhura-muralī-pañchama-juṣe</strong><br>
-<strong>mano me kālindī-pulina-vipināya spṛhayati</strong></p>
+<p class="verse">priyaḥ so ’yam kṛṣṇaḥ saha-chari kuru-kṣetra-militas<br>
+tathāhaṁ sā rādhā tad idam ubhayoḥ saṅgama sukham<br>
+tathāpy antaḥ-khelan-madhura-muralī-pañchama-juṣe<br>
+mano me kālindī-pulina-vipināya spṛhayati</p>
 <p class="translation">“Mana dārgā draudzene, šeit Kurukšetrā, es beidzot atkal satiku savu mīļoto Krišnu! Es – tā pati Rādharānī, un Viņš – Tas pats Krišna! Mūsu satikšanās ir prieka pilna, taču es vēlos atgriezties Kālindī krastos. Tur, zem Vrindāvanas meža kokiem, es varētu klausīties Viņa piekto noti spēlējošās flautas saldo melodiju!” Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
@@ -2097,10 +2097,10 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Kungs Čaitanja paziņoja, ka dziļais atšķirtības noskaņojums, kuru spēja piedzīvot Mādhavendra Purī, ir tīras Dieva pielūgsmes augstākā robeža un vēlamais mērķis. Tas aprakstīts sekojošā brīnišķīgā vārsmā, kuru pirmo reizi izteica Šrīmatī Rādharānī:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>ayi dīna-dayārdra nātha he</strong><br>
-<strong>mathurā-nātha kadāvalokyase</strong><br>
-<strong>hṛdayaṁ tvad-aloka-kātaraṁ</strong><br>
-<strong>dayita bhrāmyati kiṁ karomy aham</strong></p>
+<p class="verse">ayi dīna-dayārdra nātha he<br>
+mathurā-nātha kadāvalokyase<br>
+hṛdayaṁ tvad-aloka-kātaraṁ<br>
+dayita bhrāmyati kiṁ karomy aham</p>
 <p class="translation">“Mans Kungs! Visžēlsirdīgākais Valdniek! Mathuras pavēlniek! Kad gan es atkal redzēšu Tevi? Atšķirtībā mana saviļņotā sirds sitas nevienmērīgi! Mīļotais, ko man tagad darīt?” Pēc tam, kad Kungs bija ienācis Vradžā, kur norisinājās Viņa tīrās mīlestības rotaļas, Viņš sajuta sirdi pārpildāmies ar sajūsmu. Kungu savaldzināja brīnišķīgie dārzi un audzes, kuras kalpojušas par Viņa garīgo rotaļu vietu iepriekšējā laikmetā. Ceļojot pa divpadsmit Vrindāvanas mežiem, Kungs izpauda visu Savu attiecību daudzveidību ar ganu zēniem un meitenēm. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="39">
@@ -2134,10 +2134,10 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Ar tīras mīlestības sajauktu prātu Kungs Gaurasundars, saviļņojumā un ekstāzē dejojot, pietuvojās svētajai Rādha-<i>kundas</i> vietai, kurā tolaik vēl bija apslēpta. Kungs nekavējoties pieņēma apmazgāšanos šajā applūdušajā rīsa laukā, svētot šos ūdeņus, un paziņoja, ka šī ir Rādha-<i>kunda</i>. Dziļā pazemībā Kungs uzmanīgi citēja vārsmas no rakstiem, kurās Rādha-<i>kunda</i> tiek aprakstīta kā dievišķs tīras mīlestības iemiesojums.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>yathā rādhā priyā viṣṇos</strong><br>
-<strong>tasyāḥ kuṇḍaṁ priyaṁ tathā</strong><br>
-<strong>sarva gopīṣu saivaikā</strong><br>
-<strong>viṣṇor-atyanta vallabhā</strong></p>
+<p class="verse">yathā rādhā priyā viṣṇos<br>
+tasyāḥ kuṇḍaṁ priyaṁ tathā<br>
+sarva gopīṣu saivaikā<br>
+viṣṇor-atyanta vallabhā</p>
 <p class="translation">“Šrī Rādha ir ļoti dārga Šrī Krišnam, tāpat Viņam dārgs ir arī Viņas dievišķais dīķis, Šrī Rādha-<i>kunda</i>. No visām ganumeitenēm Viņa ir Kunga Krišnas visdārgākā pavadone.” Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="42">
@@ -2157,10 +2157,10 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Kungs Gauranga minēja sarunu, kura norisinājās starp papagaili un viņa draudzeni. Sarunā aprakstīts, kā Kungs Krišna, transcendentālais Kupidons, nokļuva ilūzijas ietekmē dziļo atšķirtības jūtu dēļ no Šrī Rādhas.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>rādhā-saṅge yadā bhāti</strong><br>
-<strong>tadā ‘madana-mohanaḥ’</strong><br>
-<strong>ayathā viśva-moho ’pi</strong><br>
-<strong>svayaṁ ‘madana-mohitaḥ’</strong></p>
+<p class="verse">rādhā-saṅge yadā bhāti<br>
+tadā ‘madana-mohanaḥ’<br>
+ayathā viśva-moho ’pi<br>
+svayaṁ ‘madana-mohitaḥ’</p>
 <p class="translation">Papagaiļa draudzene teica: “Kad Kungs Krišna atrodas blakus Rādharānī, pats Kupidons tiek apburts! Taču, kad Viņš ir viens, mīlas pārdzīvojumi nobur Viņu pašu, neskatoties uz to, ka Viņš ir tas, kurš apbur visu Visumu.” Tā Kungs Gauranga apbūra bhaktu sirdis parādot, ka Šrī Krišnas valdzinājums un saldums, nešaubīgi, slēpjas tajā, ka Viņu var iekarot ar tīru mīlestību. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="44">
@@ -2204,10 +2204,10 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Atsaucoties uz vārsmu <i>“brahmeti paramātmeti bhagavān iti śabdyate”</i> no “Šrīmad-Bhāgavatam”, Kungs Gauranga harmonizēja priekšstatu par esības viendabīgo aspektu – Brahmanu (kas ir impersonālistu galējais mērķis), un priekšstatu par esības aspektu, kurš caurvij visu – <i>Paramātmu</i> (kas ir pie pilnības tiecošos mistiķu galējais mērķis). Kungs kliedēja pretrunas šo abu patiesību vidū parādot, ka tās ir daļa no par tām abām pārākā, no dualitātes brīvā Absolūtās Patiesības koncepta – <i>Bhagavāna</i>, pirmatnējā esības principa. Sludinot šo patiesību par Visaugstā garīgo rotaļu prieku dāvājošo slepeno dabu, Kungs Gauranga norādīja uz Vrādžas, kas atrodas virs Vaikunthas planētām, dievišķo dabu.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>vaikuṇṭhāj janito varā madhu-purī tatrāpi rāsotsavād</strong><br>
-<strong>vṛndāraṇyam udāra-pāṇi-ramaṇāt tatrāpi govardhanaḥ</strong><br>
-<strong>rādhā-kuṇḍam ihāpi gokula-pateḥ premāmṛtāplāvanāt</strong><br>
-<strong>uryād asya virājato giri-taṭe sevāṁ vivekī na kaḥ</strong></p>
+<p class="verse">vaikuṇṭhāj janito varā madhu-purī tatrāpi rāsotsavād<br>
+vṛndāraṇyam udāra-pāṇi-ramaṇāt tatrāpi govardhanaḥ<br>
+rādhā-kuṇḍam ihāpi gokula-pateḥ premāmṛtāplāvanāt<br>
+uryād asya virājato giri-taṭe sevāṁ vivekī na kaḥ</p>
 <p class="translation">“Augstāk par garīgo karaļvalsti Vaikunthu atrodas Mathura – Krišnas sākotnējā atnākšanas vieta. Augstāk par Mathuru – Vrindāvanas mežs, kur Krišna baudīja <i>rāsas</i> deju. Par to pārāks ir Govardhana kalns, kurš bija vēl slepenāku dievišķo rotaļu norises vieta. Bet Rādha-<i>kunda</i>, kas atrodas Govardhana kalna pakājē, aizņem augstāko vietu, jo tā ir augstākās kārtas dievišķās mīlestības nektāra pārpildīta. Kurš gan netieksies pēc dievišķās kalpošanas Šrīmatī Rādharānī pie Rādha-<i>kundas</i> zinot par šo kalpošanas zinātni?” Sākumā Kungs Gauranga atklāja tīras, mīlošas garīgas kalpošanas dabu, kurā vecāku mīlestības noskaņojumā tiek kalpots Mahārādža Nandas dēlam. Taču pēc tam, iedziļinoties garīgas pašatdeves saldajās garšās, Kungs Gauranga skaidroja, ka augstākais Visaugstā personības aspekts ir Šrī Gopīdžanavallabha, kura dievišķais tēls ir bezgalīgs un satur sevī visas primārās un sekundārās tīrā kalpošanā izjūtamās garšas. Tāpat Šrī Gauranga lika noprast, ka priecējošās un valdzinošās <i>rāsa-līlas</i> rotaļas ir pati visu apzinošā realitāte, kas nav nekas cits kā Šrīmatī Rādharānī personīgā enerģija. Tādas transcendentālas rotaļas tiek spēlētas pārākajā par visu iedomājamo, neaptveramajā garīgajā pasaulē, un ir garīgās esības, labvēlības un skaistuma augstākā ideja. Kungs Gauranga uzvedināja uz domu, ka tas ir augstākais visu dzīvo būtņu tiekšanās objekts! Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="49">
@@ -2227,10 +2227,10 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Kungs Gaurasundars sešdesmit vienā veidā skaidroja Šrīlam Sanātanam Gosvāmī un pēc tam arī Prakašānandam Sarasvatī slaveno “Šrimad-Bhāgavatam” vārsmu:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>ātmārāmaś cha munayo</strong><br>
-<strong>nirgranthā apy urukrame</strong><br>
-<strong>kurvanty ahaitukīṁ bhaktim</strong><br>
-<strong>itthaṁ-bhūta guṇo hariḥ</strong></p>
+<p class="verse">ātmārāmaś cha munayo<br>
+nirgranthā apy urukrame<br>
+kurvanty ahaitukīṁ bhaktim<br>
+itthaṁ-bhūta guṇo hariḥ</p>
 <p class="translation">“Pat atbrīvotās dvēseles, kuras smeļ pilnīgu apmierinātību sevī, izjūt nepārvaramu tiekšanos pie pārākajā veidā izcilajām Krišnas īpašībām un velta sevi pilnībā Viņam vienam.” Kungs atsevišķi izskatīja katru no vienpadsmit vārsmas vārdiem un atklāja, ka katrs no tiem ir milzīga neierobežotu dārgumu glabātuve un katrs no tiem apstiprina slēdzienus par tīru <i>bhakti</i>. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 </section>
@@ -2399,8 +2399,8 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 <p class="translation">Ar lielu prieku Šrī Gauranga Sundars pavēstīja saviem dārgākajiem pavadoņiem, Šrī Svarūpam Damodāram un Rāmanānda Rajam, ka kopīga Kunga Krišnas Svēto Vārdu dziedāšana dāvā Kali laikmeta dzīvajām būtnēm visaugstāko svētību:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>harṣe prabhu kohena, “śuno svarūpa-rāma-rāya</strong><br>
-<strong>nāma saṅkīrttana kalau, parama upāya”</strong></p>
+<p class="verse">harṣe prabhu kohena, “śuno svarūpa-rāma-rāya<br>
+nāma saṅkīrttana kalau, parama upāya”</p>
 <p class="translation">Savā slavenajā darbā “Šrī Šikšāštakam” Kungs Gauranga nostiprināja Šrī Krišnas Svēto Vārdu dziedāšana dāvā dzīvām būtnēm augstāko labumu. Tāpat Visaugstais mācīja, ka Šrī Krišnas Svēto Vārdu dziedāšana, kas izpildīta tīrā mīlestībā uz Dievu, pilnīgā veidā uztur visas dzīvās būtnes Visumā un dod viņām pilnīgu apmierinājumu. Es cieņpilni klanos brīnumskaistā Zeltītā Kunga, Gauranga Sundara – dievišķā Krišna-<i>prēmas</i> iemiesojuma, priekšā!</p>
 </div>
 <div class="verse-block" data-number="70">
@@ -2601,20 +2601,20 @@ Kungs Gaurasundars skaidroja arī dižākā no visiem pazīstamajiem rakstiem �
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(emon dayāl to nāi he, mār kheye prema dey)</strong><br>
-<strong>(tabe) aparādha dūre jābe, pābe prema-dhan</strong><br>
-<strong>(aparādhera-vichāra to nāi he)</strong><br>
+<p class="verse">(emon dayāl to nāi he, mār kheye prema dey)<br>
+(tabe)<strong> aparādha dūre jābe, pābe prema-dhan</strong><br>
+(aparādhera-vichāra to nāi he)<br>
 <strong>takhon kṛṣṇa-nāme ruchi habe, ghuchibe bandhan</strong></p>
 <p class="translation">Tāda žēlsirdība, kāda piemīt Nitjānandam Prabhū, nav sastopama nekur citur! Džagajs un Madhajs nodarīja Viņam sāpes, taču, neskatoties uz to, Kungs Nitjānanda dāvāja viņiem dievišķo mīlestību.<br>
 Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārtojot Čaitanjas un Nitjānandas Vārdus, apvainojumi netiek ņemti vērā! Izgaršojis kaut reizi Krišnas Svētā Vārda saldo garšu, tu atbrīvosies no verdzības šai pasaulei.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>(anurāg to habe he)</strong><br>
+<p class="verse">(anurāg to habe he)<br>
 <strong>tokhon anāyāse saphal habe jīvera jīvan</strong><br>
-<strong>(kṛṣṇa-rati vinā jīvan to miche he)</strong><br>
+(kṛṣṇa-rati vinā jīvan to miche he)<br>
 <strong>śeṣe vṛndāvane rādhā-śyāmer pābe daraśan</strong><br>
-<strong>(gaura-kṛpā hole he)</strong></p>
+(gaura-kṛpā hole he)</p>
 <p class="translation">Kad parādās pieķeršanās Krišnas Svētajam Vārdam, dzīvas būtnes dzīve piepildās ar patiesu laimi! Bez pieķeršanās Krišnam, dzīve ir tukša un veltīga. Ja Kunga Gauras žēlsirdība būs klātesoša, dzīves noslēgumā tu varēsi skatīt brīnišķīgos Rādhas un Šjāma tēlus Vrindavanā!</p>
 </div>
 </section>
@@ -2634,7 +2634,7 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>kaṇṭa-kera taru&nbsp;&nbsp;&nbsp;&nbsp;sadāi sebili (mana)</strong><br>
+<p class="verse"><strong>kaṇṭa-kera taru&nbsp;&nbsp;&nbsp;&nbsp;sadāi sebili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;amṛta pā’bāra āśe</strong><br>
 <strong>prema-kalpataru&nbsp;&nbsp;&nbsp;&nbsp;śrī gaurāṅga āmāra</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;tāhāre bhabili biṣe</strong></p>
@@ -2642,17 +2642,17 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>saura-bhera āśe&nbsp;&nbsp;&nbsp;&nbsp;palāśa śuṅkili (mana)</strong><br>
+<p class="verse"><strong>saura-bhera āśe&nbsp;&nbsp;&nbsp;&nbsp;palāśa śuṅkili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nāsāte paśilo kīṭa</strong><br>
-<strong>‘ikṣu-daṇḍa’ bhāvi’&nbsp;&nbsp;&nbsp;&nbsp;kāṭha chuṣili (mana)</strong><br>
+<strong>‘ikṣu-daṇḍa’ bhāvi’&nbsp;&nbsp;&nbsp;&nbsp;kāṭha chuṣili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;kemone pāibi miṭha</strong></p>
 <p class="translation">Vēloties baudīt saldu aromātu, es ostīju to, kas, kā man šķita, bija aromātisks zieds. Diemžēl no šī zieda, līdzīgi palaša ziedam, aromāts nenāca. Aromāta vietā no zieda izlidoja kukainis, kurš ielidoja man degunā un iedzēla man. Es tiecos baudīt pasaulīgo dzīvi, maldīgi pieņemot, ka tā ir salda kā cukura standziņas sula! Taču nektāra vietā es košļāju sausu koku. Tā visi mani centieni baudīt izrādījās veltīgi.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>‘hāra’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;golāya parili (mana)</strong><br>
+<p class="verse"><strong>‘hāra’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;golāya parili </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;śamana kiṅkora sāpa</strong><br>
-<strong>‘śītala’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;āguna pohāli (mana)</strong><br>
+<strong>‘śītala’ boliyā&nbsp;&nbsp;&nbsp;&nbsp;āguna pohāli </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;pāili bajara-tāpa</strong></p>
 <p class="translation">Atzinis savu sakāvi, nomocīts un iztukšots, es gaidu nāves čūsku. Materiālās dzīves uguni esmu pieņēmis par nomierinošu vēsumu, taču esmu iepazinis vienīgi dziļas ciešanas, gluži kā zibens sasperts!</p>
 </div>
@@ -2660,7 +2660,7 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <h5>5</h5>
 <p class="verse"><strong>saṁsāra bhajili&nbsp;&nbsp;&nbsp;&nbsp;śrī-gaurāṅga bhulili</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;nā śunili sādhura kathā</strong><br>
-<strong>iha-parakāla&nbsp;&nbsp;&nbsp;&nbsp;dukāla khoyāli (mana)</strong><br>
+<strong>iha-parakāla&nbsp;&nbsp;&nbsp;&nbsp;dukāla khoyāli </strong>(mana)<br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;khāili āpana māthā</strong></p>
 <p class="translation">Iegrimis pasaulīgo raižu bezdibenī, es aizmirsu par Kungu Gaurangu un nesekoju svēto norādījumiem! Tagad, savu dienu nogalē, es saprotu, ka mirstu jau otru reizi, jo, izdabājot savām materiālajām vēlmēm, esmu pavadījis tukšu dzīvi un tādējādi nomiris vēl dzīvam esot!</p>
 </div>
@@ -3238,7 +3238,7 @@ Kad arī tu atbrīvosies no apvainojumiem, iegūsi mīlestību uz Dievu. Atkārt
 <h2>Dainyātmikā <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhaktivinoda Thākurs</h4>
 <h5>1</h5>
-<p class="verse"><strong>(prabhu he!)</strong><br>
+<p class="verse">(prabhu he!)<br>
 <strong>emona durmati,&nbsp;&nbsp;&nbsp;&nbsp;saṁsāra bhitore,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;poḍiyā āchinu āmi</strong><br>
 <strong>tava nija-jana,&nbsp;&nbsp;&nbsp;&nbsp;kono mahājane,</strong><br>
@@ -4262,13 +4262,13 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>(jaya) yaśodā-nandana kṛṣṇa murāri</strong><br>
+<p class="verse">(jaya)<strong> yaśodā-nandana kṛṣṇa murāri</strong><br>
 <strong>muralīdhara govardhana-dhārī</strong></p>
 <p class="translation">Ak, Krišna, Muralī flautas turētāj un Govardhana kalna pacēlāj. Visa slava tev, Krišna, mātes Jašodas dēls un dēmona Muras slepkavam.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse"><strong>(jaya) gopī-jana-ballabha vaṁśī-bihārī</strong><br>
+<p class="verse">(jaya)<strong> gopī-jana-ballabha vaṁśī-bihārī</strong><br>
 <strong>muralīdhara govardhana-dhārī</strong></p>
 <p class="translation">Ak, Krišna, Muralī flautas turētāj un Govardhana kalna pacēlāj. Visa slava tev, Krišna, visu Vrindāvanas ganumeiteņu visdārgākais mīļotais un Vamšī flautas spēlētāj.</p>
 </div>
@@ -4312,10 +4312,10 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <div class="verse-block" data-number="">
 <h2>Jaya Rādhā-Mādhava <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Šrīla Bhaktivinoda Thākurs</h4>
-<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-bihārī</strong><br>
-<strong>(jaya) gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;(jaya) giri-vara-dhārī</strong><br>
-<strong>(jaya) yaśodā-nandana,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) vraja-jana-rañjana,</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) jāmuna-tīra-vana-chārī</strong></p>
+<p class="verse">(jaya)<strong> rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> kuñja-bihārī</strong><br>
+(jaya)<strong> gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> giri-vara-dhārī</strong><br>
+(jaya)<strong> yaśodā-nandana,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> vraja-jana-rañjana,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(jaya)<strong> jāmuna-tīra-vana-chārī</strong></p>
 <p class="translation">Krišna ir Rādhas mīļotais. Vrindāvanas svētajās birzīs viņš izspēlē neskaitāmas mīlestības pilnas <i>līlas</i>. Viņš ir Vradžas ganu meiteņu mīļotais, diženā Govardhana kalna nesējs, mātes Jašodas lolotais dēls un visu Vradžas iedzīvotāju prieka avots. Viņš bauda pastaigas pa Jamūnas upes krastu mežiem.</p>
 </div>
 </section>
