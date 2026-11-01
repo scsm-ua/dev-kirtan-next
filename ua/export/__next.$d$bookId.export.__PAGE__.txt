@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tc05f8,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
+3:Tc0616,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
 <p class="nav-links"><a href="#first-lines">↓ Індекс</a></p>
 <section class="toc" id="toc">
 <h1>Зміст</h1>
@@ -2239,7 +2239,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;чоя ґуна дехо’ да̄се</strong><br>
 <strong>чоя сат-санґа,&nbsp;&nbsp;&nbsp;&nbsp;дехо’ хе а̄ма̄ре,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;босечхі санґера а̄шє</strong></p>
-<p class="translation">Приборкай у мені шість спонукань, виправ шість вад і наділи цього слугу шістьма благими чеснотами. Прошу, даруй мені шість видів благого спілкування з відданими. Я сиджу біля Твоїх стоп, з глибоким прагненням до такого спілкування.*</p>
+<p class="translation">Приборкай у мені шість спонукань, виправ шість вад і наділи цього слугу шістьма благими чеснотами. Прошу, даруй мені шість видів благого спілкування з відданими. Я сиджу біля Твоїх стоп, з глибоким прагненням до такого спілкування <i>(див. примітку)</i>.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -2266,7 +2266,7 @@
 <p class="translation">Я біжу за тобою у відчаї. Я біжу за тобою з надією отримати скарб Крішни. Якщо ти забажаєш, ти можеш дати Крішну іншим. Крішна - скарб твого серця. Ти маєш силу дати Крішну. Якщо ти забажаєш, ти можеш дати Крішну іншим.</p>
 </div>
 <div class="verse-block" data-number="">
-<h3>\* Примітка до вірша 2</h3>
+<h3>Примітка до вірша 2</h3>
 <p class="translation"><i class="translation__bold">Шість спонукань</i> — це прагнення мови, ума, гніву, язика, шлунка та статевих органів.<br>
 <i class="translation__bold">Шість вад:</i><br />1) схильність переїдати або накопичення грошей понад необхідного;<br />2) зайві зусилля заради матеріальних цілей;<br />3) пусті балачки на мирські теми;<br />4) надмірна привʼязаність до вказівок святого письма або, навпаки, зневага до них;<br />5) близьке спілкування з людьми, зануреними в матеріалістичний настрій;<br />6) прагнення мирської слави та досягнень.<br>
 <i class="translation__bold">Шість благих чеснот:</i><br />1) натхнення в служінні;<br />2) терпіння та терпимість;<br />3) впевненість;<br />4) рішучість виконувати дії, сприятливі відданому служінню;<br />5) твердий намір відмовитися від спілкування з невідданими;<br />6) внутрішня дисципліна завжди слідувати по стопам попередніх <i>ачарʼїв</i>.<br>
@@ -8919,7 +8919,7 @@
 <p class="first-line" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">яді те харі-па̄да-сароджа-судга̄</a></p>
 <p class="first-line" data-translated="0"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">ямуна̄мбу-кришна-ра̄дгіка̄лі-келі-мандалам<span class="page-num"> — 104</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fx5AXyn-MVZuuf1VOxHAO"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"ua","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"gh_LSIcCsxZV3M3lg2kZ4"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

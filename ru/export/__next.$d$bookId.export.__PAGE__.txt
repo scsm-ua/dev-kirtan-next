@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T13802a,<h1 class="book-title">Гаудия Гитанджали</h1>
+3:T138042,<h1 class="book-title">Гаудия Гитанджали</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -2244,7 +2244,7 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;чхойа гун̣а дехо’ да̄се</strong><br>
 <strong>чхойа сат-сан̇га,&nbsp;&nbsp;&nbsp;&nbsp;дехо’ хе а̄ма̄ре</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;босечхи сан̇геро а̄ш́е</strong></p>
-<p class="translation">Подчини шесть побуждений, устрани шесть недостатков, даруй шесть благих качеств своему слуге! Молю, одари меня шестью видами святого общения. Я преклоняюсь перед твоими стопами в надежде войти в семью преданных (*см. примечание).</p>
+<p class="translation">Подчини шесть побуждений, устрани шесть недостатков, даруй шесть благих качеств своему слуге! Молю, одари меня шестью видами святого общения. Я преклоняюсь перед твоими стопами в надежде войти в семью преданных <i>(см. примечание)</i>.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -2273,8 +2273,10 @@
 <div class="verse-block" data-number="">
 <p class="verse">(охе ваиш̣н̣ава т̣ха̄кур)<br>
 (дайа̄л ваиш̣н̣ава т̣ха̄кур)</p>
-<p class="translation">*<i class="translation__bold">Примечание к стиху 2:</i><br>
-<i class="translation__bold">Шесть побуждений:</i> речь, ум, гнев, язык, желудок и гениталии.<br>
+</div>
+<div class="verse-block" data-number="">
+<h3>Примечание к стиху 2</h3>
+<p class="translation"><i class="translation__bold">Шесть побуждений:</i> речь, ум, гнев, язык, желудок и гениталии.<br>
 <i class="translation__bold">Шесть недостатков:</i> переедание или накопление сбережений в количестве большем необходимого; чрезмерные усилия ради достижения мирских целей; праздные разговоры на мирские темы; излишнее внимание к соблюдению указаний священных писаний или, наоборот, пренебрежение ими; общение с материалистически настроенными людьми; страстная жажда мирских достижений.<br>
 <i class="translation__bold">Шесть достоинств:</i> энтузиазм; терпение; уверенность; решимость, необходимая для совершения благоприятных для служения с преданностью действий; решимость избегать общения с непреданными; послушание, необходимое для того, чтобы всегда следовать по стопам <i>ачарьев</i>.<br>
 <i class="translation__bold">Шесть видов святого общения:</i> предлагать дары из милосердия, принимать пожертвования, доверять свои мысли другим, слушать о сокровенном от других, принимать <i>прасадам</i> и предлагать <i>прасадам</i>.</p>
@@ -10502,7 +10504,7 @@
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">эмона гаура̄н̇га бине на̄хи а̄ра<span class="page-num"> — 126</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fx5AXyn-MVZuuf1VOxHAO"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"gh_LSIcCsxZV3M3lg2kZ4"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

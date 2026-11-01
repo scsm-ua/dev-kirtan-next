@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T19fbc9,<h1 class="book-title">Guía de Kīrtan</h1>
+3:T19fb41,<h1 class="book-title">Guía de Kīrtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Contenido</h1>
@@ -975,32 +975,32 @@ Podemos recitar además el nombre de las Deidades locales del Śrī Chaitanya S�
 <p class="translation">Para Śrī Śrī Guru Gaura Nityānanda en Śrī Ekachakrā Dhām, India:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>nadīyā līlāra nityānanda-gauranidhi</strong><br>
-<strong>patita-pāvana-kṣetre milāila vidhi</strong></p>
+<p class="verse">nadīyā līlāra nityānanda-gauranidhi<br>
+patita-pāvana-kṣetre milāila vidhi</p>
 </div>
 <div class="verse-block" data-number="11">
 <h5>11</h5>
 <p class="translation">Para Śrī Śrī Nitāi Gaurāṅga en Śrī Nṛisingha Palli Dhām, India:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>nadīyā prakāśe nityānanda-gauranidhi</strong><br>
-<strong>patita-pāvana-dhāme milāila vidhi</strong></p>
+<p class="verse">nadīyā prakāśe nityānanda-gauranidhi<br>
+patita-pāvana-dhāme milāila vidhi</p>
 </div>
 <div class="verse-block" data-number="10">
 <h5>10</h5>
 <p class="translation">Para Parama Karuṇa Nitāi Gaurachandra en Caracas, Venezuela:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>nadīyā prakāśe nityānanda-gauranidhi</strong><br>
-<strong>caracas-bhakta-saṅge milāila vidhi</strong></p>
+<p class="verse">nadīyā prakāśe nityānanda-gauranidhi<br>
+caracas-bhakta-saṅge milāila vidhi</p>
 </div>
 <div class="verse-block" data-number="11">
 <h5>11</h5>
 <p class="translation">Para Śrī Śrī Guru Gaura Nityānanda Jiu en Medellín, Colombia:</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse"><strong>nadīyā līlāra nityānanda-gauranidhi</strong><br>
-<strong>medellín-bhakta-saṅge milāila viddhi</strong></p>
+<p class="verse">nadīyā līlāra nityānanda-gauranidhi<br>
+medellín-bhakta-saṅge milāila viddhi</p>
 </div>
 </section>
 <section class="song" id="song-kali-kukkura-kadana-jadi-chao-he" data-translated="1">
@@ -10439,7 +10439,7 @@ Aquel que, pensando en el Señor Kṛṣṇa, se baña en el sagrado Govinda Ku�
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 382</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita<span class="page-num"> — 232</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fx5AXyn-MVZuuf1VOxHAO"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-es","lang":"es","title":"Guía de Kīrtan"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"gh_LSIcCsxZV3M3lg2kZ4"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

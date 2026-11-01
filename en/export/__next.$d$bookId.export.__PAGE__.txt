@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf1cae,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf1cc0,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -2741,7 +2741,7 @@ N.B. On Harivāsar-tithis (days on which devotees fast from grains) the above so
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;chhaya guṇa deha’ dāse</strong><br>
 <strong>chhaya sat-saṅga&nbsp;&nbsp;&nbsp;&nbsp;deha’ he āmāre</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;basechhi saṅgera āśe</strong></p>
-<p class="translation">Subjugate the six urges, rectify the six defects, bestow the six good qualities upon this servitor. Please grant me the six kinds of saintly association. I sit at your feet aspiring for that association.*</p>
+<p class="translation">Subjugate the six urges, rectify the six defects, bestow the six good qualities upon this servitor. Please grant me the six kinds of saintly association. I sit at your feet aspiring for that association <i>(see footnote)</i>.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -2768,7 +2768,7 @@ N.B. On Harivāsar-tithis (days on which devotees fast from grains) the above so
 <p class="translation">(I run after you. With the hope of attaining the wealth of Kṛṣṇa, I run after you. If you desire to give, you can give Kṛṣṇa. Kṛṣṇa is the wealth of your heart, and if you desire to give, you can give. You have the power to give Kṛṣṇa, and if you desire to give, you can give.)</p>
 </div>
 <div class="verse-block" data-number="">
-<h3>\* Footnote to verse 2</h3>
+<h3>Footnote to verse 2</h3>
 <p class="translation">The six urges are those of speech, the mind, anger, the tongue, the belly, and the genitals.<br>
 The six faults are overeating or collecting more monetary funds than required, over-endeavouring for material objectives, unnecessary talking about mundane affairs, being too attached to or too neglectful of Scriptural rules and regulations, associating with worldly-minded persons, and lusting after mundane achievements.<br>
 The six good qualities are enthusiasm, patience, confidence, the determination to perform activities favourable to devotional service, the resolution to abandon the association of non-devotees, and the discipline required to always follow in the footsteps of the predecessor āchāryas.<br>
@@ -11248,7 +11248,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fx5AXyn-MVZuuf1VOxHAO"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"gh_LSIcCsxZV3M3lg2kZ4"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

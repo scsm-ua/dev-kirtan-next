@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Td0aca,<h1 class="book-title">Kirtan Guide</h1>
+3:Td0adc,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -2314,7 +2314,7 @@ In that consideration, the Hare Krishna mantra does not mention the Rāma-<i>lī
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;choya guṇa deho’ dāse</strong><br>
 <strong>choya sat-saṅga,&nbsp;&nbsp;&nbsp;&nbsp;deho’ he āmāre,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;bosechi saṅgera āśe</strong></p>
-<p class="translation">Subjugate the six urges, rectify the six defects, bestow the six good qualities upon this servitor; Please grant me the six kinds of saintly association; I sit at your feet aspiring for that association.*</p>
+<p class="translation">Subjugate the six urges, rectify the six defects, bestow the six good qualities upon this servitor; Please grant me the six kinds of saintly association; I sit at your feet aspiring for that association <i>(see footnote)</i>.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
@@ -2339,7 +2339,7 @@ In that consideration, the Hare Krishna mantra does not mention the Rāma-<i>lī
 <p class="translation">Krishna is yours, you can give Him, you have the power to do so; I who am bereft, Calling ‘Krishna, Krishna,’ am running desperately behind you.</p>
 </div>
 <div class="verse-block" data-number="">
-<h3>\* Footnote to verse 2</h3>
+<h3>Footnote to verse 2</h3>
 <p class="translation">The six urges are those of speech, the mind, anger, the tongue, the belly, and the genitals.<br>
 The six faults are overeating or collecting more monetary funds than required, overendeavouring for material objectives, unnecessary talking about mundane affairs, being too attached to or too neglectful of Scriptural rules and regulations, associating with worldly-minded persons, and lusting after mundane achievements.<br>
 The six good qualities are enthusiasm, patience, confidence, the determination to perform activities favourable to devotional service, the resolution to abandon the association of non-devotees, and the discipline required to always follow in the footsteps of the predecessor <i>āchāryas</i>.<br>
@@ -9746,7 +9746,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 322</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 234</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2022","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fx5AXyn-MVZuuf1VOxHAO"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2022","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"gh_LSIcCsxZV3M3lg2kZ4"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
