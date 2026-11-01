@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T1383ce,<h1 class="book-title">Гаудия Гитанджали</h1>
+3:T138b1f,<h1 class="book-title">Гаудия Гитанджали</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -1536,45 +1536,45 @@
 <h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
 <h5>1</h5>
 <p class="verse"><strong>бхаджа ре бхаджа ре а̄ма̄р мана ати манда</strong><br>
-<strong>(бхаджан бина̄ гати на̄и ре)</strong><br>
-<strong>(браджа-бане ра̄дха̄-кр̣ш̣н̣а бхаджан бина̄ гати на̄и ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(бхаджан бина̄ гати на̄и ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(браджа-бане ра̄дха̄-кр̣ш̣н̣а бхаджан бина̄ гати на̄и ре)</strong><br>
 <strong></strong><br>
 <strong>(бхаджа) браджа-бане ра̄дха̄-кр̣ш̣н̣а-чаран̣а̄равинда</strong><br>
-<strong>(джн̃а̄на-карма парихари’ ре)</strong><br>
-<strong>(ш́уддха ра̄га патха дхари джн̃а̄на-карма парихари)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(джн̃а̄на-карма парихари’ ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(ш́уддха ра̄га патха дхари джн̃а̄на-карма парихари)</strong></p>
 <p class="translation">Мой ум, как же ты глуп! Просто поклоняйся лотосоподобным стопам Радхи и Кришны, гуляющим в лесах Враджи! Духовный прогресс немыслим без этого! Отбрось мирское знание и материальную деятельность и просто поклоняйся Радхе и Кришне, гуляющим в лесах Враджи!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>(бхаджа) гоура-гада̄дхара̄дваита-гуру-нитйа̄нанда</strong><br>
-<strong>(гаура-кр̣ш̣н̣е абхеде джене)</strong><br>
-<strong>(гуру кр̣ш̣н̣а-прийа джене гоура-кр̣ш̣на абхеда джене ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(гаура-кр̣ш̣н̣е абхеде джене)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(гуру кр̣ш̣н̣а-прийа джене гоура-кр̣ш̣на абхеда джене ре)</strong><br>
 <strong></strong><br>
 <strong>ш́рӣнива̄са, харида̄са, мура̄ри, мукунда</strong><br>
-<strong>(гаура-преме смара смара ре)</strong><br>
-<strong>(ш́рӣнива̄са, харида̄се, гаура-преме смара ре)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(гаура-преме смара смара ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(ш́рӣнива̄са, харида̄се, гаура-преме смара ре)</strong></p>
 <p class="translation">Поклоняйся и служи Господу Гауре, Гададхару, Адвайте и Господу Нитьянанде, изначальному духовному учителю! Зная, что Господь Гаура и есть Господь Кришна, зная, что духовный учитель очень дорог Кришне, всегда помни о спутниках Господа Чайтаньи, столь близких Ему, таких как Шривас Тхакур, Харидас Тхакур, Мурари Гупта и Мукунда Датта! В глубокой любви к Господу Гауре всегда помни Шриваса Тхакура и Харидаса Тхакура!</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>рӯпа-сана̄тана-джӣва-рагхуна̄тха-двандва</strong><br>
-<strong>(джади бхаджан корбе ре)</strong><br>
-<strong>(рӯпа-сана̄тане смаран джади бхаджан корбе ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(джади бхаджан корбе ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(рӯпа-сана̄тане смаран джади бхаджан корбе ре)</strong><br>
 <strong></strong><br>
 <strong>ра̄гхава-гопа̄ла-бхат̣т̣а-сварӯпа-ра̄ма̄нанда</strong><br>
-<strong>(кр̣ш̣н̣а према джади ча̄о ре)</strong><br>
-<strong>(сварӯпа-ра̄ма̄нанде смара кр̣ш̣н̣а-према джади ча̄о ре)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(кр̣ш̣н̣а према джади ча̄о ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(сварӯпа-ра̄ма̄нанде смара кр̣ш̣н̣а-према джади ча̄о ре)</strong></p>
 <p class="translation">Всегда помни о Госвами Вриндавана: Рупе Госвами, Санатане Госвами, Дживе Госвами, Рагхунатхе Бхатте Госвами и Рагхунатхе Дасе Госвами! Если ты поклоняешься Господу Кришне, то тебе следует всегда помнить Рупу Госвами и Санатану Госвами! Ты должен также помнить Рагхаву Пандита, Гопала Бхатту Госвами, Сварупу Дамодара Госвами и Рамананду Рая!</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>гош̣т̣хӣ-саха карн̣апура-сен-ш́ива̄нанда</strong><br>
-<strong>(аджасра смара смара ре)</strong><br>
-<strong>(гош̣т̣хӣ-саха-сен ш́ива̄нанде аджасра смара ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(аджасра смара смара ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(гош̣т̣хӣ-саха-сен ш́ива̄нанде аджасра смара ре)</strong><br>
 <strong></strong><br>
 <strong>рӯпа̄нуга са̄дху-джа̄на бхаджана-а̄нанда</strong><br>
-<strong>(брадже ба̄с джади ча̄о ре)</strong><br>
-<strong>(рӯпа̄нуга са̄дху-джане смара брадже ба̄с джади ча̄о ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(брадже ба̄с джади ча̄о ре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(рӯпа̄нуга са̄дху-джане смара брадже ба̄с джади ча̄о ре)</strong><br>
 <strong></strong><br>
 <strong>рӯпа̄нуга са̄дху-джана бхаджана-а̄нанда</strong><br>
 <strong>бхаджа ре бхаджа ре а̄ма̄р мана ати манда</strong></p>
@@ -1917,73 +1917,73 @@
 <h2>Шри Гаура-арати <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
 <h5>1</h5>
-<p class="verse">(киба)<strong> джайа джайа гаура̄ча̄̐дер а̄ротико ш́обха̄</strong><br>
+<p class="verse"><strong>(киба) джайа джайа гаура̄ча̄̐дер а̄ротико ш́обха̄</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;джа̄хн̣авӣ-тат̣а-ване джагамана-лобха̄</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(джага джанер мана-лобха̄)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(гоура̄н̇гер а̄роти ш́обха̄ джага джанер мана-лобха̄)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(нита̄и гаура харибол)</p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(джага джанер мана-лобха̄)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(гоура̄н̇гер а̄роти ш́обха̄ джага джанер мана-лобха̄)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(нита̄и гаура харибол)</strong></p>
 <p class="translation">Вся слава, вся слава прекрасной церемонии поклонения Господу Гаурачандре! Она проходит в роще на берегу Джахнави (Ганги) и привлекает всех живых существ во Вселенной.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse">(киба)<strong> дакш̣ин̣е нита̄ича̄̐д ба̄ме гада̄дхара</strong><br>
+<p class="verse"><strong>(киба) дакш̣ин̣е нита̄ича̄̐д ба̄ме гада̄дхара</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;никат̣е адваита ш́рӣнива̄са чхатра-дхара</strong></p>
 <p class="translation">Справа от Господа Гаурачандры — Господь Нитьянанда, а слева от Него — Шри Гададхар. Рядом стоит Шри Адвайта, а Шривас Тхакур держит зонтик над головой Господа.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse">(киба)<strong> босийа̄чхе гоура̄ча̄̐д ратна-сим̇ха̄сане</strong><br>
+<p class="verse"><strong>(киба) босийа̄чхе гоура̄ча̄̐д ратна-сим̇ха̄сане</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ратна-симха̄сана ало корере</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;босийа̄чхен гоура̄ча̄̐д ратна-сим̇ха̄сане)</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;а̄рати корена брахма̄ а̄ди-дева гане</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(гаура̄н̇гер а̄роти коре)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(брахма̄ а̄ди-дева ган̣е гаура̄н̇гер а̄роти коре)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(гаур кр̣па па̄бо боле гаура̄н̇гер а̄роти коре)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(нита̄и гаура харибол)</p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(гаура̄н̇гер а̄роти коре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(брахма̄ а̄ди-дева ган̣е гаура̄н̇гер а̄роти коре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(гаур кр̣па па̄бо боле гаура̄н̇гер а̄роти коре)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(нита̄и гаура харибол)</strong></p>
 <p class="translation">Господь Чайтанья восседает на украшенном драгоценностями троне, а небожители, во главе с Господом Брахмой, совершают церемонию поклонения, <i>арати</i>.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
-<p class="verse">(киба)<strong> нарахари-а̄ди кори ча̄мара д̣хула̄йа</strong><br>
+<p class="verse"><strong>(киба) нарахари-а̄ди кори ча̄мара д̣хула̄йа</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;сан̃джайа-мукунда-ва̄су-гхош̣а-а̄ди га̄йа</strong></p>
 <p class="translation">Нарахари Саракар и другие спутники Господа Чайтаньи обмахивают Его опахалами. Другие преданные, во главе с Санджаей Пандитом, Мукундой Даттой и Васу Гхошем, поют сладостный <i>киртан</i>.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
-<p class="verse">(киба)<strong> ш́ан̇кха ба̄дже гхан̣т̣а̄ ба̄дже ба̄дже карата̄ла</strong><br>
+<p class="verse"><strong>(киба) ш́ан̇кха ба̄дже гхан̣т̣а̄ ба̄дже ба̄дже карата̄ла</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;мадхура мр̣дан̇га ба̄дже парама раса̄ла</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(мадхур мадхур мадхур ба̄дже)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(гаура̄н̇гер а̄роти ка̄ле мадхур мадхур мадхур ба̄дже)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(ш́ан̇кха ба̄дже гхан̣т̣а̄ ба̄дже мадхур мадхур мадхур ба̄дже)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(мадхура мр̣дан̇га ба̄дже мадхур мадхур мадхур ба̄дже)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(нита̄и гаура харибол)</p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(мадхур мадхур мадхур ба̄дже)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(гаура̄н̇гер а̄роти ка̄ле мадхур мадхур мадхур ба̄дже)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ш́ан̇кха ба̄дже гхан̣т̣а̄ ба̄дже мадхур мадхур мадхур ба̄дже)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(мадхура мр̣дан̇га ба̄дже мадхур мадхур мадхур ба̄дже)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(нита̄и гаура харибол)</strong></p>
 <p class="translation">Звучат раковины, колокольчики и <i>караталы</i>, мелодично играют <i>мриданги</i>. Музыкальный <i>киртан</i> очень сладостен и ублажает слух.</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
-<p class="verse">(киба)<strong> баху-кот̣и чандра джини вадана уджвала</strong><br>
+<p class="verse"><strong>(киба) баху-кот̣и чандра джини вадана уджвала</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(кот̣и гаганер ча̄̐д кот̣а ла̄ге ре</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;баху-кот̣и чандра джини кот̣и гаганер)</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;гала-деш́е бана-ма̄ла̄ коре джхаламала</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(джхалмол джхалмол джхалмол коре)<br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(джхалмол джхалмол джхалмол коре)</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(гаура голе бона пхулер ма̄ла̄</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;джхалмол джхалмол джхалмол коре)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>(нита̄и гаура харибол)</p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(нита̄и гаура харибол)</strong></p>
 <p class="translation">Сияние лица Господа Чайтаньи превосходит сияние миллионов лун, а на Его шее сверкает гирлянда из лесных цветов.</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
-<p class="verse">(киба)<strong> ш́ива-ш́ука-на̄рада преме гада-гада</strong><br>
+<p class="verse"><strong>(киба) ш́ива-ш́ука-на̄рада преме гада-гада</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;бхакативинода декхе гора̄ра сампада</strong></p>
 <p class="translation">На церемонии поклонения присутствуют Господь Шива, Шукадев Госвами и Нарада Муни — их голоса дрожат в упоении божественной любви. Так Бхактивинод видит прославленное поклонение Господу Гаурачандре.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse">(эи ба̄р а̄ма̄й дойа̄ коро)<br>
-(т̣ха̄кура ш́рӣ бхактивинода эи ба̄р а̄ма̄й дойа̄ коро)<br>
-(т̣ха̄кура ш́рӣ сарасватӣ эи бар а̄ма̄й дойа̄ коро)<br>
-(патит-па̄ван ш́рӣ гурудев эи бар а̄ма̄й дойа̄ коро)<br>
-(сапа̄рш́ада гаурахари эи бар а̄ма̄й дойа̄ коро)<br>
-(нита̄и гаура харибол)</p>
+<p class="verse"><strong>(эи ба̄р а̄ма̄й дойа̄ коро)</strong><br>
+<strong>(т̣ха̄кура ш́рӣ бхактивинода эи ба̄р а̄ма̄й дойа̄ коро)</strong><br>
+<strong>(т̣ха̄кура ш́рӣ сарасватӣ эи бар а̄ма̄й дойа̄ коро)</strong><br>
+<strong>(патит-па̄ван ш́рӣ гурудев эи бар а̄ма̄й дойа̄ коро)</strong><br>
+<strong>(сапа̄рш́ада гаурахари эи бар а̄ма̄й дойа̄ коро)</strong><br>
+<strong>(нита̄и гаура харибол)</strong></p>
 <p class="translation">Одарите меня своей милостью! Шри Бхактивинод, Шри Сарасвати Тхакур, Гурудев, спаситель падших! Господь Гаурахари со Своими спутниками, пожалуйста, даруйте мне Свою милость.</p>
 </div>
 </section>
@@ -2157,24 +2157,24 @@
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;локана̄тха локера джӣвана</strong><br>
 <strong>ха̄ ха̄ прабху коро дойа̄,&nbsp;&nbsp;&nbsp;&nbsp;дехо море пада-чха̄йа̄,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;эбе джаш́а гхуш̣ук трибхувана</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(э адхама лоило ш́аран̣а)<br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;</strong>(туйа̄ паде лоину ш́аран̣а)</p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(э адхама лоило ш́аран̣а)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(туйа̄ паде лоину ш́аран̣а)</strong></p>
 <p class="translation">О духовный учитель, океан милости и друг падших душ, ты — наставник каждого и наша жизнь! Мой повелитель, будь милостив ко мне и позволь найти приют в тени твоих лотосоподобных стоп! Пусть твоя слава распространится по всем трем мирам.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse">(а̄ми)<strong> </strong>(ш́аран̣илам)<br>
-(абхайа ш́рӣ пада падме ш́аран̣илам)<br>
-(а̄май)<strong> </strong>(дойа̄ коро хе)<br>
-(патит-па̄ван ш́рӣ гурудев дойа̄ коро хе)<br>
-(адхама патита джене дойа̄ коро хе)<br>
-(джай гурудев)</p>
+<p class="verse"><strong>(а̄ми) (ш́аран̣илам)</strong><br>
+<strong>(абхайа ш́рӣ пада падме ш́аран̣илам)</strong><br>
+<strong>(а̄май) (дойа̄ коро хе)</strong><br>
+<strong>(патит-па̄ван ш́рӣ гурудев дойа̄ коро хе)</strong><br>
+<strong>(адхама патита джене дойа̄ коро хе)</strong><br>
+<strong>(джай гурудев)</strong></p>
 <p class="translation">Я предался, предался твоим лотосоподобным стопам! Пожалуйста, будь милостив. Шри Гурудев, спаситель падших, пожалуйста, даруй мне свою милость. Ты — спаситель падших душ! Слава тебе, Шри Гурудев!</p>
 </div>
 </section>
 <section class="song" id="song-shri-krishna-chaitanya-prabhu-daya-kara-more" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Саварана-Шри-Гаура-пада-падме Прартхана <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h4>Ш́рӣла Нароттам Да̄с Т̣ха̄кур</h4>
+<h4>Стихи с 1 по 7 составлены Ш́рӣлой Нароттамом Да̄сом Т̣ха̄куром</h4>
 <h5>1</h5>
 <p class="verse"><strong>ш́рӣ кр̣ш̣н̣а чаитанйа прабху дойа̄ коро море</strong><br>
 <strong>тома̄ бина̄ ке дойа̄лу джагата ма̄джха̄ре</strong></p>
@@ -2218,9 +2218,9 @@
 </div>
 <div class="verse-block" data-number="8">
 <h5>8</h5>
-<p class="verse"><strong>(дойа̄ коро прабхупа̄да ш́ри гаура прака̄ш́а)</strong><br>
-<strong>(тава джана кр̣па̄ ма̄ге эи адхама да̄са)</strong></p>
-<p class="translation">Молю, даруй свои благословения, Шрила Прабхупада Сарасвати Тхакур, проявление Шри Гауры! Я падший слуга и прошу о милости твоих спутников!</p>
+<p class="verse"><strong>дойа̄ коро прабхупа̄да ш́ри гаура прака̄ш́а</strong><br>
+<strong>тава джана кр̣па̄ ма̄ге эи адхама да̄са</strong></p>
+<p class="translation">Молю, даруй свои благословения, Шрила Прабхупада Сарасвати Тхакур, проявление Шри Гауры! Я падший слуга и прошу о милости твоих спутников! <i>(Этот стих составлен Ш́рӣлой Бхакти Ракш̣аком Ш́рӣдхаром Дев-Госва̄мӣ Маха̄ра̄джем)</i></p>
 </div>
 <div class="verse-block" data-number="">
 <p class="verse"><strong>(джайа гаурахари)</strong><br>
@@ -2232,7 +2232,7 @@
 <h2>Шри Ваишнава-махима-гити <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
 <h5>1</h5>
-<p class="verse">(охе)<strong> ваиш̣н̣ава т̣ха̄кура,&nbsp;&nbsp;&nbsp;&nbsp;дойа̄ра са̄гара</strong><br>
+<p class="verse"><strong>(охе) ваиш̣н̣ава т̣ха̄кура,&nbsp;&nbsp;&nbsp;&nbsp;дойа̄ра са̄гара</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;э да̄се корун̣а̄ кори</strong><br>
 <strong>дийа̄ пада-чха̄йа̄,&nbsp;&nbsp;&nbsp;&nbsp;ш́одхо хе а̄ма̄ре</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;тома̄ра чаран̣а дхори</strong></p>
@@ -2263,16 +2263,16 @@
 <p class="translation">Кришна принадлежит тебе, ты можешь открыть Его другим, ты наделен такой силой! Я как безумный зову: «Кришна, Кришна!», и бегу за тобой в отчаянии.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse">(а̄ми)<strong> </strong>(дха̄и тава па̄чхе па̄чхе)<br>
-(кр̣ш̣н̣а дхана па̄бара̄се дха̄и тава па̄чхе па̄чхе)<br>
-(туми дилеоу дите па̄ро)<br>
-(кр̣ш̣н̣а тома̄р хр̣дойер дхан туми дилеоу дите па̄ро)<br>
-(кр̣ш̣н̣а дева̄р ш́акти дхара туми дилеоу дите па̄ро)</p>
+<p class="verse"><strong>(а̄ми) (дха̄и тава па̄чхе па̄чхе)</strong><br>
+<strong>(кр̣ш̣н̣а дхана па̄бара̄се дха̄и тава па̄чхе па̄чхе)</strong><br>
+<strong>(туми дилеоу дите па̄ро)</strong><br>
+<strong>(кр̣ш̣н̣а тома̄р хр̣дойер дхан туми дилеоу дите па̄ро)</strong><br>
+<strong>(кр̣ш̣н̣а дева̄р ш́акти дхара туми дилеоу дите па̄ро)</strong></p>
 <p class="translation">Я бегу за тобой в отчаянии. Я бегу за тобой с надеждой получить сокровище Кришны. Если ты пожелаешь, ты можешь дать Кришну другим. Кришна — сокровище твоего сердца. Ты наделен силой дать Кришну. Если ты пожелаешь, ты можешь дать Кришну другим.</p>
 </div>
 <div class="verse-block" data-number="">
-<p class="verse">(охе ваиш̣н̣ава т̣ха̄кур)<br>
-(дайа̄л ваиш̣н̣ава т̣ха̄кур)</p>
+<p class="verse"><strong>(охе ваиш̣н̣ава т̣ха̄кур)</strong><br>
+<strong>(дайа̄л ваиш̣н̣ава т̣ха̄кур)</strong></p>
 <p class="translation">*<i class="translation__bold">Примечание к стиху 2:</i><br>
 <i class="translation__bold">Шесть побуждений:</i> речь, ум, гнев, язык, желудок и гениталии.<br>
 <i class="translation__bold">Шесть недостатков:</i> переедание или накопление сбережений в количестве большем необходимого; чрезмерные усилия ради достижения мирских целей; праздные разговоры на мирские темы; излишнее внимание к соблюдению указаний священных писаний или, наоборот, пренебрежение ими; общение с материалистически настроенными людьми; страстная жажда мирских достижений.<br>
@@ -3295,19 +3295,19 @@
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(эмон дайа̄л то на̄и хе, ма̄р кхейе према дей)</strong><br>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;(эмон дайа̄л то на̄и хе, ма̄р кхейе према дей)</strong><br>
 <strong>(табе) апара̄дха дӯре джа̄бе, па̄бе прем-дхан</strong><br>
-<strong>(апара̄дхера-бича̄ра то на̄и хе)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(апара̄дхера-бича̄ра то на̄и хе)</strong><br>
 <strong>такхон кр̣ш̣н̣а-на̄ме ручи хабе, гхучибе бандхан</strong></p>
 <p class="translation">Нигде не встретишь ты большей милости, чем у Нитьянанды Прабху! Джагай и Мадхай причинили Ему боль, но, несмотря на это, Он одарил их божественной любовью. Когда и ты избавишься от оскорблений, то обретешь любовь к Богу. Но при повторении имен Чайтаньи и Нитьянанды оскорбления не принимаются в расчет. Вкусив однажды сладость Святого Имени Кришны, ты освободишься от рабства этого мира.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
-<p class="verse"><strong>(анура̄г то хабе хе)</strong><br>
-<strong>токхон ана̄йа̄се сапхал хабе джӣвера джӣван</strong><br>
-<strong>(кр̣ш̣н̣а-рати бина̄ джӣван то мичхе хе)</strong><br>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;(анура̄г то хабе хе)</strong><br>
+<strong>(токхон) ана̄йа̄се сапхал хабе джӣвера джӣван</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(кр̣ш̣н̣а-рати бина̄ джӣван то мичхе хе)</strong><br>
 <strong>ш́еш̣е вр̣нда̄ване ра̄дха̄-ш́йа̄мер па̄бе дараш́ан</strong><br>
-<strong>(гаура-кр̣па̄ холе хе)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(гаура-кр̣па̄ холе хе)</strong></p>
 <p class="translation">Когда появляется привязанность к Святому Имени Кришны, живое существо обретает подлинное счастье. Без привязанности к Кришне жизнь пуста и напрасна! Если будет на то милость Господа Гауры, в конце жизни ты сможешь увидеть прекрасные облики Радхи и Шьяма во Вриндаване.</p>
 </div>
 <div class="verse-block" data-number="">
@@ -6772,9 +6772,9 @@
 <div class="verse-block" data-number="">
 <h2>Джайа Радха-Мадхава <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
-<p class="verse"><strong>(джайа) ра̄дха̄-ма̄дхава&nbsp;&nbsp;&nbsp;&nbsp;(джайа) кун̃джа-биха̄рӣ</strong><br>
+<p class="verse"><strong>(джайа) ра̄дха̄-ма̄дхава&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(джайа) кун̃джа-биха̄рӣ</strong><br>
 <strong>(джайа) гопӣ-джана-валлабха&nbsp;&nbsp;&nbsp;&nbsp;(джайа) гири-вара-дха̄рӣ</strong><br>
-<strong>(джайа) джаш́ода̄-нандана,&nbsp;&nbsp;&nbsp;&nbsp;(джайа) браджа-джана-ран̃джана,</strong><br>
+<strong>(джайа) джаш́ода̄-нандана,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(джайа) браджа-джана-ран̃джана,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(джайа) джа̄муна-тӣра-вана-ча̄рӣ</strong></p>
 <p class="translation">Кришна — возлюбленный Радхарани. Он забавляется в рощах Вриндавана, Он — возлюбленный юных пастушек Враджи, Он поднял огромный холм Говардхан. Он — любимый сын матери Яшоды, источник счастья жителей Враджи. Он любит гулять в лесах по берегам Ямуны.</p>
 </div>
@@ -8541,27 +8541,27 @@
 <h3>«Шри Нама» (из книги «Гитавали»)</h3>
 <h4>Ш́рӣла Бхактивинод Т̣ха̄кур</h4>
 <h5>1</h5>
-<p class="verse"><strong>‘ра̄дха̄-кр̣ш̣н̣а’ бол бол боло ре соба̄и</strong><br>
-<strong>(эи) ш́икш̣а̄ дийа̄, саб надӣйа̄</strong><br>
-<strong>пхирчхе нече’ гаура-нита̄и</strong><br>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;‘ра̄дха̄-кр̣ш̣н̣а’ бол бол боло ре соба̄и</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(эи) ш́икш̣а̄ дийа̄, саб надӣйа̄</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;пхирчхе нече’ гаура-нита̄и</strong><br>
 <strong>(мичхе) ма̄йа̄р бош́е, джа̄ччхо бхесе’,</strong><br>
-<strong>кха̄ччхо ха̄буд̣убу, бха̄и</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;кха̄ччхо ха̄буд̣убу, бха̄и</strong></p>
 <p class="translation">Воспевайте, воспевайте «Радха-Кришна!» Воспевайте все! Когда Господь Чайтанья и Господь Нитьянанда, танцуя, проходили через Надию, Они давали такие наставления: «Воспевайте, воспевайте „Радха-Кришна!“ Воспевайте все! Вы захвачены водоворотом бессмысленной деятельности и опускаетесь все ниже и ниже. Воспевайте, воспевайте „Радха-Кришна!“ Воспевайте все!»</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
-<p class="verse"><strong>(джӣв) кр̣ш̣н̣а-да̄с, э биш́ва̄с,</strong><br>
-<strong>корле тo’ а̄р дух̣кхо на̄и</strong><br>
+<p class="verse"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(джӣв) кр̣ш̣н̣а-да̄с, э биш́ва̄с,</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;корле тo’ а̄р дух̣кхо на̄и</strong><br>
 <strong>(кр̣ш̣н̣а) болбе джабе, пулак ха’бе</strong><br>
-<strong>джхорбе а̄н̇кхи, боли та̄и</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;джхорбе а̄н̇кхи, боли та̄и</strong></p>
 <p class="translation">«Если вы просто осознаете, что духовная душа — вечная слуга Кришны, вас никогда более не постигнет скорбь. Воспевайте „Харе Кришна!“ Глаза ваши наполнятся слезами, и вы почувствуете в своем теле трансцендентную дрожь. Воспевайте, воспевайте „Радха-Кришна!“ Воспевайте все!»</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>(‘ра̄дха̄) кр̣ш̣н̣а’ боло, сан̇ге чало,</strong><br>
-<strong>эи-ма̄тра бхикха̄ ча̄и</strong><br>
-<strong>(джа̄й) сакал’ бипод бхактивинод</strong><br>
-<strong>боле, джакхон o-на̄м га̄и</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;эи-ма̄тра бхикха̄ ча̄и</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(джа̄й) сакал’ бипод бхактивинод</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;боле, джакхон o-на̄м га̄и</strong></p>
 <p class="translation">«Просто пойте „Радха-Кришна“ и присоединяйтесь к Нам. Это единственные подаяния, о которых Мы молим. Воспевайте, воспевайте „Радха-Кришна!“ Воспевайте все!» Бхактивинод Тхакур говорит: «Когда воспевается это Имя, все опасности минуют». Воспевайте, воспевайте «Радха-Кришна!» Воспевайте все!</p>
 </div>
 </section>
@@ -9633,7 +9633,8 @@
 <strong>ш́рӣ-бхакти-ракш̣акам̇ девам̇, ш́рӣдхарам̇ пран̣ама̄мй ахам</strong></p>
 <p class="translation">В Шри Навадвип Дхаме, неотличной от священной обители Шри Вриндавана, в Шри Коладвипе, Его Божественная Милость основал прославленный Шри Чайтанья Сарасват Матх, там, где расположен Гупта-Говардхан («скрытый холм Говардхан»), который является священным местом, где прощаются все оскорбления <i>(апарадха-бханджана-пат) </i>. Здесь он совершал служение Божествам Шри Шри Гуру-Гауранга-Гандхарва-Говиндасундару, явив миру собственную природу Божества, воплощающего совершенное служение. Я непрестанно поклоняюсь лотосоподобным стопам моего божественного учителя Шрилы Бхакти Ракшака Шридхара Дев-Госвами Махараджа, который хранит в своем сердце божественный поток вдохновения Шрилы Бхактисиддханты Сарасвати. Этот поток приходит от Шри Рупы, возлюбленного слуги Шри Гауранги Махапрабху.</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="11">
+<h5>11</h5>
 <p class="verse"><strong>ш́раддхайа̄ йах̣ пат̣хен нитйам̇, пран̣ати-даш́акам муда̄</strong><br>
 <strong>виш́ате ра̄гама̄ргеш̣у, тасйа бхакта-праса̄датах̣</strong></p>
 <p class="translation">Тот, кто с искренней верой воспевает «Пранати-дашакам» каждый день, обретает по милости слуг Шрилы Гурудева все необходимые качества для служения Всевышнему в линии <i>рага-марги</i>, служения в настроении спонтанной любви.</p>
@@ -10501,7 +10502,7 @@
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">эмона гаура̄н̇га бине на̄хи а̄ра<span class="page-num"> — 126</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Vzf4FKQr4jmv4KgunDhqo"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dGiK_RwOn_fwUCmlq_6G3"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

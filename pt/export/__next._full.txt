@@ -8,7 +8,7 @@ b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-0:{"P":null,"c":["","pt","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","pt","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Vzf4FKQr4jmv4KgunDhqo"}
+0:{"P":null,"c":["","pt","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","pt","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"dGiK_RwOn_fwUCmlq_6G3"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[2342,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?452facfc02637e1f","type":"image/x-icon","sizes":"96x96"}],["$","$Lf","2",{}]]
 10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-a5e2052390022a03.js"],"default"]
-11:T9997f,<h1 class="book-title">Livro de Kirtan</h1>
+11:T99cd1,<h1 class="book-title">Livro de Kirtan</h1>
 <p class="nav-links"><a href="#first-lines">↓ Índice</a></p>
 <section class="toc" id="toc">
 <h1>Conteúdo</h1>
@@ -821,63 +821,63 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <h4>Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
 <p class="verse"><strong>(kibā) jaya jaya gorāchā̐der āratika śobhā</strong><br>
-<strong>jāhnavī-taṭa-vane jaga-mana lobhā</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jaga-janer mana lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati śobhā jaga-janer mana lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;jāhnavī-taṭa-vane jaga-mana lobhā</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaga-janer mana lobhā)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati śobhā jaga-janer mana lobhā)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">Toda glória ao belo ārati a Śrī Gorāchā̐d que acontece em um bosque às margens do Ganges, atraindo os corações de todas as almas por todo o mundo!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>(kibā) dakṣiṇe nitāichā̐̐da bāme gadādhara</strong><br>
-<strong>nikaṭe advaita śrīnivāsa chhatra-dhara</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;nikaṭe advaita śrīnivāsa chhatra-dhara</strong></p>
 <p class="translation">À direita de Gorāchā̐d está Nitāichā̐d, e à sua esquerda está Gadādhar. Advaita está perto, e Śrīvās segura uma sombrinha.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>(kibā) basiyāchhe gorāchā̐da ratna-siṁhāsane</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(ratna-simhāsana alo karere)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(basiyāchhen gorāchā̐d ratna-siṁhāsane)</strong><br>
-<strong>ārati karena brahmā ādi-deva gaṇe</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(brahmā ādi-deva gaṇe gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅgera bhakta sane gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ratna-simhāsana alo karere)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(basiyāchhen gorāchā̐d ratna-siṁhāsane)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;ārati karena brahmā ādi-deva gaṇe</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(brahmā ādi-deva gaṇe gaurāṅger ārati kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅgera bhakta sane gaurāṅger ārati kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">Gorāchā̐d se sentou em um trono de joias. Brahmā e os outros semideuses o adoram (na companhia de Seus devotos).</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>(kibā) narahari-ādi kari chāmara ḍhulāya</strong><br>
-<strong>sañjaya-mukunda-vāsu-ghoṣa-ādi gāya</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura guṇa gāna kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;sañjaya-mukunda-vāsu-ghoṣa-ādi gāya</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaura guṇa gāna kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">Narahari e outros abanam o Senhor com chāmaras. Sañjay, Mukunda, Vāsudev Ghoṣ e outros cantam.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>(kibā) śaṅkha bāje ghaṇṭā bāje bāje karatāla</strong><br>
-<strong>madhura mṛdaṅga bāje parama rasāla</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kāle madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(madhura mṛdaṅga bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;madhura mṛdaṅga bāje parama rasāla</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kāle madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(madhura mṛdaṅga bāje madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">Conchas, sinos, kartāls e mṛdaṅgas ressoam docemente. O kīrtan é muito agradável.</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
 <p class="verse"><strong>(kibā) bahu-koṭi chandra jini vadana ujjvala</strong><br>
-<strong>gala-deśe vana-mālā kare jhalamala</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jhalmal jhalmal jhalmal kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura gale vana phuler mālā jhalmal jhalmal jhalmal kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;gala-deśe vana-mālā kare jhalamala</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jhalmal jhalmal jhalmal kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaura gale vana phuler mālā jhalmal jhalmal jhalmal kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">O resplendor da face do Senhor supera o de milhões de luas. A guirlanda de flores silvestres reluz em volta de Seu pescoço.</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
 <p class="verse"><strong>(kibā) śiva-śuka-nārada preme gada-gada</strong><br>
-<strong>bhakati-vinoda dekhe gorāra sampada</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;bhakati-vinoda dekhe gorāra sampada</strong></p>
 <p class="translation">Śiva, Śukadev, e Nārad gaguejam no êxtase do amor. É assim que Bhakti Vinod contempla a glória de Gorāchā̐d.</p>
 </div>
 <div class="verse-block" data-number="">
@@ -1627,7 +1627,8 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <h5>2</h5>
 <p class="verse"><strong>(bhaja) gaura-gadādharādvaita-guru-nityānanda</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura-kṛṣṇe abhed jene)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(guru kṛṣṇa-priya jene gaura-kṛṣṇe abhed jene re) śrīnivāsa, haridāsa, murāri, mukunda</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(guru kṛṣṇa-priya jene gaura-kṛṣṇe abhed jene re)</strong><br>
+<strong>śrīnivāsa, haridāsa, murāri, mukunda</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura-preme smara smara re)</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(śrīnivāsa, haridāse, gaura-preme smara smara re)</strong></p>
 <p class="translation">Sirva Gaurāṅga, Gadādhar, Advaita, Nityānanda e Śrī Guru. Saiba que Gaurāṅga e Kṛṣṇa são não diferentes, e que Śrī Guru é o devoto querido de Kṛṣṇa. Lembre-se de Śrīvās Ṭhākur, Hari Dās Ṭhākur, Murāri Gupta e Mukunda Datta. Com amor por Gaurāṅga, lembre-se sempre deles. Com amor por Gaurāṅga, lembre-se de Śrīvās Ṭhākur e de Hari Dās Ṭhākur.</p>
@@ -1646,10 +1647,10 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <h5>4</h5>
 <p class="verse"><strong>goṣṭhī-saha karṇapura sena-śivānanda</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(ajasra smara smara re)</strong><br>
-<strong>goṣṭhī-saha sena śivānande ajasra smara re)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(goṣṭhī-saha sena śivānande ajasra smara re)</strong><br>
 <strong>rūpānuga sādhu-jana bhajana-ānanda</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(vraje vās yadi chāo re)</strong><br>
-<strong>(rūpānuga sādhu-jane smara vraje vās yadi chāo re)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;(rūpānuga sādhu-jane smara vraje vās yadi chāo re)</strong></p>
 <p class="translation">Se lembre de Kavi Karṇapur, Śivānanda Sen, e suas famílias. Se lembre sempre deles! Se lembre sempre de Śivānanda Sen e sua família. Se lembre dos sādhus que seguem Śrī Rūpa e da alegria que sentem em seu serviço. Se você deseja residir em Vraja, então lembre-se dos sādhus que seguem Śrī Rūpa.</p>
 </div>
 </section>
@@ -1814,10 +1815,11 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <strong>rāmachandra-saṅga māge narottama dāsa</strong></p>
 <p class="translation">Ó Śrīnivās Āchārya Prabhu! Seja misericordioso! Narottam Dās ora pela associação de Rāmachandra Kavirāj.</p>
 </div>
-<div class="verse-block" data-number="">
-<p class="verse"><strong>(dayā kara prabhupāda śrī-gaura-prakāśa)</strong><br>
-<strong>(tava jana kṛpā māge ei adhama dāsa)</strong></p>
-<p class="translation">Ó Śrīla Prabhupād, manifestação de Śrī Gaura! Seja misericordioso. Este servo caído ora pela misericórdia de seus associados.</p>
+<div class="verse-block" data-number="8">
+<h5>8</h5>
+<p class="verse"><strong>dayā kara prabhupāda śrī-gaura-prakāśa</strong><br>
+<strong>tava jana kṛpā māge ei adhama dāsa</strong></p>
+<p class="translation">Ó Śrīla Prabhupād, manifestação de Śrī Gaura! Seja misericordioso. Este servo caído ora pela misericórdia de seus associados. <i>(Verso de Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj)</i></p>
 </div>
 </section>
 </section>
@@ -2979,9 +2981,9 @@ Que Gopīnāth, o belo instigador da Dança Rāsa, que está às margens do rio 
 <div class="verse-block" data-number="">
 <h2>Jaya Rādhā-Mādhava <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Śrīla Bhakti Vinod Ṭhākur</h4>
-<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-vihārī</strong><br>
+<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-vihārī</strong><br>
 <strong>(jaya) gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;(jaya) giri-vara-dhārī</strong><br>
-<strong>(jaya) yaśodā-nandana&nbsp;&nbsp;&nbsp;&nbsp;(jaya) vraja-jana-rañjana</strong><br>
+<strong>(jaya) yaśodā-nandana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) vraja-jana-rañjana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(jaya) yāmuna-tīra-vana-chārī</strong></p>
 <p class="translation">Toda glória a Mādhava de Śrī Rādhā, que se diverte nos bosques de Vraja! Toda glória ao amado das gopīs, aquele que ergueu a Colina de Govardhan! Toda glória ao filho querido de Yaśodā, o prazer dos moradores de Vraja! Toda glória a Ele, que brinca nas florestas ao longo das margens do Yamunā!</p>
 </div>

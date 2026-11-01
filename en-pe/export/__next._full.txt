@@ -8,7 +8,7 @@ b:I[5207,[],"MetadataBoundary"]
 d:I[4374,[],"default",1]
 :HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-0:{"P":null,"c":["","en-pe","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","en-pe","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"Vzf4FKQr4jmv4KgunDhqo"}
+0:{"P":null,"c":["","en-pe","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","en-pe","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/2a876d8558f3a8fc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"dGiK_RwOn_fwUCmlq_6G3"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[2342,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?452facfc02637e1f","type":"image/x-icon","sizes":"96x96"}],["$","$Lf","2",{}]]
 10:I[107,["7458","static/chunks/app/%5BbookId%5D/export/page-a5e2052390022a03.js"],"default"]
-11:T506e4,<h1 class="book-title">Pocket Kirtan Guide</h1>
+11:T509fc,<h1 class="book-title">Pocket Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -633,63 +633,63 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
 <h5>1</h5>
 <p class="verse"><strong>(kibā) jaya jaya gorāchā̐der āratika śobhā</strong><br>
-<strong>jāhnavī-taṭa-vane jaga-mana lobhā</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jaga-janer mana lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati śobhā jaga-janer mana lobhā)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;jāhnavī-taṭa-vane jaga-mana lobhā</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaga-janer mana lobhā)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati śobhā jaga-janer mana lobhā)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">All glory to the beautiful ārati to Śrī Gorāchā̐d in a grove on the banks of the Ganges, which attracts the hearts of all souls throughout the world!</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>(kibā) dakṣiṇe nitāichā̐da bāme gadādhara</strong><br>
-<strong>nikaṭe advaita śrīnivāsa chhatra-dhara</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;nikaṭe advaita śrīnivāsa chhatra-dhara</strong></p>
 <p class="translation">On Gorāchā̐d’s right is Nitāichā̐d, and on His left is Gadādhar. Advaita is nearby, and Śrīvās holds an umbrella.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>(kibā) basiyāchhe gorāchā̐da ratna-siṁhāsane</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(ratna-simhāsana alo karere</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;basiyāchhen gorāchā̐d ratna-siṁhāsane)</strong><br>
-<strong>ārati karena brahmā ādi-deva gaṇe</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(brahmā ādi-deva gaṇe gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅgera bhakta sane gaurāṅger ārati kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ratna-simhāsana alo karere</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;basiyāchhen gorāchā̐d ratna-siṁhāsane)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;ārati karena brahmā ādi-deva gaṇe</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(brahmā ādi-deva gaṇe gaurāṅger ārati kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅgera bhakta sane gaurāṅger ārati kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">Gorāchā̐d has sat on a jewelled throne. Brahmā and the other demigods worship Him (in the company of His devotees).</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>(kibā) narahari-ādi kari chāmara ḍhulāya</strong><br>
-<strong>sañjaya-mukunda-vāsu-ghoṣa-ādi gāya</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura guṇa gāna kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;sañjaya-mukunda-vāsu-ghoṣa-ādi gāya</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaura guṇa gāna kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(sañjaya mukunda vāsu-ghoṣa gaura guṇa gāna kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">Narahari and others fan the Lord with chāmaras. Sañjay, Mukunda, Vāsudev Ghoṣ, and others sing.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>(kibā) śaṅkha bāje ghaṇṭā bāje bāje karatāla</strong><br>
-<strong>madhura mṛdaṅga bāje parama rasāla</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kāle madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(madhura mṛdanga bāje madhur madhur madhur bāje)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;madhura mṛdaṅga bāje parama rasāla</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaurāṅger ārati kāle madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(śaṅkha bāje ghaṇṭā bāje madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(madhura mṛdanga bāje madhur madhur madhur bāje)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">Conches, bells, kartāls, and mṛdaṅgas resound sweetly. The kīrtan is most relishable.</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
 <p class="verse"><strong>(kibā) bahu-koṭi chandra jini vadana ujjvala</strong><br>
-<strong>gala-deśe vana-mālā kare jhalamala</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(jhalmal jhalmal jhalmal kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(gaura gale vana phuler mālā jhalmal jhalmal jhalmal kare)</strong><br>
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;gala-deśe vana-mālā kare jhalamala</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jhalmal jhalmal jhalmal kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(gaura gale vana phuler mālā jhalmal jhalmal jhalmal kare)</strong><br>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(nitāi gaura haribol)</strong></p>
 <p class="translation">The radiance of the Lord’s face surpasses that of millions of moons. The garland of forest flowers around His neck shines.</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
 <p class="verse"><strong>(kibā) śiva-śuka-nārada preme gada-gada</strong><br>
-<strong>bhakati-vinoda dekhe gorāra sampada</strong></p>
+<strong>&nbsp;&nbsp;&nbsp;&nbsp;bhakati-vinoda dekhe gorāra sampada</strong></p>
 <p class="translation">Śiva, Śukadev, and Nārad stammer in the ecstasy of love. In this way Bhakti Vinod beholds Gorāchā̐d’s glory.</p>
 </div>
 <div class="verse-block" data-number="">
@@ -2638,9 +2638,9 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <div class="verse-block" data-number="">
 <h2>Jaya Rādhā-Mādhava <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Vinod Ṭhākur</h4>
-<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-vihārī</strong><br>
+<p class="verse"><strong>(jaya) rādhā-mādhava&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) kuñja-vihārī</strong><br>
 <strong>(jaya) gopī-jana-vallabha&nbsp;&nbsp;&nbsp;&nbsp;(jaya) giri-vara-dhārī</strong><br>
-<strong>(jaya) yaśodā-nandana&nbsp;&nbsp;&nbsp;&nbsp;(jaya) vraja-jana-rañjana</strong><br>
+<strong>(jaya) yaśodā-nandana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(jaya) vraja-jana-rañjana</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;(jaya) yāmuna-tīra-vana-chārī</strong></p>
 <p class="translation">All glory to Śrī Rādhā’s Mādhava, who sports in the groves of Vraja! All glory to the gopīs’ beloved, the lifter of Govardhan Hill! All glory to Yaśodā’s darling son, the delight of Vraja’s residents! All glory to He who plays in the forests along the banks of the Yamunā!</p>
 </div>
@@ -3491,54 +3491,62 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 </div>
 </section>
 <section class="song" id="song-cheto-darpana-marjanam" data-translated="1">
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="1">
 <h2>Śrī Śikṣāṣṭakam <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrī Chaitanya Mahāprabhu</h4>
+<h5>1</h5>
 <p class="verse"><strong>cheto-darpaṇa-mārjanaṁ bhava-mahā-dāvāgni-nirvāpaṇaṁ</strong><br>
 <strong>śreyaḥ-kairava-chandrikā-vitaraṇaṁ vidyā-vadhū-jīvanam</strong><br>
 <strong>ānandāmbudhi-vardhanaṁ prati-padaṁ pūrṇāmṛtāsvādanaṁ</strong><br>
 <strong>sarvātma-snapanaṁ paraṁ vijayate śrī-kṛṣṇa-saṅkīrtanam</strong></p>
 <p class="translation">Śrī Kṛṣṇa-saṅkīrtan cleanses the mirror of consciousness, extinguishes the raging forest fire of material existence, shines moonlight on the evening lotus of good fortune, is the life of divine knowledge, expands the ocean of ecstasy, is the taste of full nectar at every moment, and soothes the entire self. May Śrī Kṛṣṇa-saṅkīrtan be supremely victorious!</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="2">
+<h5>2</h5>
 <p class="verse"><strong>nāmnām akāri bahudhā nija-sarva-śaktis</strong><br>
 <strong>tatrārpitā niyamitaḥ smaraṇe na kālaḥ</strong><br>
 <strong>etādṛśī tava kṛpā bhagavan mamāpi</strong><br>
 <strong>durdaivam īdṛśam ihājani nānurāgaḥ</strong></p>
 <p class="translation">O Lord, You have manifested Your numerous Names, placed all of Your power within Them, and made no rules regarding the time for remembering Them. Such is Your great mercy. My misfortune, however, is that I have no attachment to Your Names.</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="3">
+<h5>3</h5>
 <p class="verse"><strong>tṛṇād api sunīchena taror iva sahiṣṇunā</strong><br>
 <strong>amāninā mānadena kīrtanīyaḥ sadā hariḥ</strong></p>
 <p class="translation">The Lord’s Name is to be chanted always, with more humility than a blade of grass, tolerance like that of a tree, respect for everyone, and without desire for respect from anyone.</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="4">
+<h5>4</h5>
 <p class="verse"><strong>na dhanaṁ na janaṁ na sundarīṁ</strong><br>
 <strong>kavitāṁ vā jagad-īśa kāmaye</strong><br>
 <strong>mama janmani janmanīśvare</strong><br>
 <strong>bhavatād bhaktir ahaitukī tvayi</strong></p>
 <p class="translation">O Lord of the universe, I do not desire wealth, followers, beautiful women, or erudition (dharma, artha, kāma, or mokṣa). Birth after birth, I desire only unconditional devotion to You.</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="5">
+<h5>5</h5>
 <p class="verse"><strong>ayi nanda-tanuja kiṅkaraṁ</strong><br>
 <strong>patitaṁ māṁ viṣame bhavāmbudhau</strong><br>
 <strong>kṛpayā tava pāda-paṅkaja-</strong><br>
 <strong>sthita-dhūlī-sadṛśaṁ vichintaya</strong></p>
 <p class="translation">O Kṛṣṇa, Your servant has fallen into the terrible ocean of this world. Mercifully consider me a speck of dust at Your lotus feet.</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="6">
+<h5>6</h5>
 <p class="verse"><strong>nayanaṁ galad-aśru-dhārayā</strong><br>
 <strong>vadanaṁ gadgada-ruddhayā girā</strong><br>
 <strong>pulakair nichitaṁ vapuḥ kadā</strong><br>
 <strong>tava nāma-grahaṇe bhaviṣyati</strong></p>
 <p class="translation">When will tears stream from my eyes, my voice falter, and the hair on my body stand on end as I call Your Name?</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="7">
+<h5>7</h5>
 <p class="verse"><strong>yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam</strong><br>
 <strong>śūnyāyitaṁ jagat sarvaṁ govinda-viraheṇa me</strong></p>
 <p class="translation">O Govinda, in separation from You, a moment feels like an age, tears pour from my eyes, and the world is void.</p>
 </div>
-<div class="verse-block" data-number="">
+<div class="verse-block" data-number="8">
+<h5>8</h5>
 <p class="verse"><strong>āśliṣya vā pāda-ratāṁ pinaṣṭu mām</strong><br>
 <strong>adarśanān marma-hatāṁ karotu vā</strong><br>
 <strong>yathā tathā vā vidadhātu lampaṭo</strong><br>
