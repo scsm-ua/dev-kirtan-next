@@ -3,6 +3,8 @@ const TAG_REGEX = /<[^>]+>/gi;
 const BOLD_ITALIC_MD_REGEX = /(?<!\\)\*\*\*(.*?)(?<!\\)\*\*\*/gm;
 const BOLD_MD_REGEX = /(?<!\\)\*\*(.*?)(?<!\\)\*\*/gm;
 const ITALIC_MD_REGEX = /(?<!\\)\*(.*?)(?<!\\)\*/gm;
+// `![alt](src)` with an optional `=WxH` size suffix (added by the song loader).
+const IMAGE_MD_REGEX = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+=(\d+)x(\d+))?\)/g;
 const LINK_MD_REGEX = /\[([^\]]+)\]\(([^\)]+)\)/g;
 const ESCAPED_ASTERISK_REGEX = /\\\*/g;
 
@@ -38,6 +40,26 @@ export function groupLines(lines: string[]): string[][] {
   return groups;
 }
 
+type TImageTagOptions = {
+  className?: string;
+  width?: number | string;
+  height?: number | string;
+};
+
+/**
+ * Shared lazy <img> generator for content images (song lines, pages, export).
+ */
+export function renderImageTag(
+  alt: string,
+  src: string,
+  { className, width, height }: TImageTagOptions = {}
+): string {
+  const cls = className ? ` class="${className}"` : '';
+  const size = width && height ? ` width="${width}" height="${height}"` : '';
+  const safeAlt = alt.replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+  return `<img${cls} src="${src}" alt="${safeAlt}"${size} loading="lazy" decoding="async" fetchpriority="low">`;
+}
+
 /**
  *
  */
@@ -58,6 +80,9 @@ export function processTranslationLines(
       .replace(ITALIC_MD_REGEX, `<i>$1</i>`)
       // Unescape remaining `\*` to a literal asterisk.
       .replace(ESCAPED_ASTERISK_REGEX, '*')
+      .replace(IMAGE_MD_REGEX, (_m, alt: string, src: string, width?: string, height?: string) =>
+        renderImageTag(alt, src, { className: `${cssPrefix}__image`, width, height })
+      )
       .replace(LINK_MD_REGEX, '<a href="$2" target="_blank">$1</a>')
       .replaceAll('\\\n', '<br />')
       .split(/\n/)

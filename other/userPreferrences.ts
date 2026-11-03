@@ -1,5 +1,5 @@
 import { PREFERENCES } from '@/other/constants';
-import { VIEW_MODE, WBW_MODE } from '@/types/common';
+import { DEFAULT_WBW_MODE, VIEW_MODE, WBW_MODE } from '@/types/common';
 import type { TViewMode, TWbwMode } from '@/types/common';
 
 /**
@@ -45,7 +45,7 @@ export function getSongWbwMode(): TWbwMode {
   if (val === WBW_MODE.HIDE || val === WBW_MODE.INLINE || val === WBW_MODE.CLASSICAL) {
     return val;
   }
-  return WBW_MODE.INLINE;
+  return DEFAULT_WBW_MODE;
 }
 
 /**/

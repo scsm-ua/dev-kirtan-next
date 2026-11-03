@@ -76,6 +76,9 @@ export const WBW_MODE = {
 } as const satisfies Record<string, TWbwMode>;
 
 /**/
+export const DEFAULT_WBW_MODE: TWbwMode = WBW_MODE.HIDE;
+
+/**/
 declare global {
   interface Window {
     SC: {

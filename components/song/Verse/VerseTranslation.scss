@@ -30,6 +30,13 @@
     font-style: normal;
   }
 
+  &__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
   &__separator {
     width: 80px;
     max-width: 40%;

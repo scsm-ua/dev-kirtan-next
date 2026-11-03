@@ -31,6 +31,7 @@ function SongImage({ alt, image }: Props) {
         title={alt}
         width={image.width}
         height={image.height}
+        fetchPriority="high"
         onError={() => setFailed(true)}
       />
     </figure>

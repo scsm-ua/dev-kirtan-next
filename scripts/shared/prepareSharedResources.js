@@ -64,15 +64,17 @@ function prepareSharedResources() {
   const outputDir = path.resolve(__dirname, '..', '..', CONST.FOLDER.SRC_OUTPUT);
   mkdirSync(outputDir, { recursive: true });
   writeFile(outputDir, CONST.FILES.RESOURCES, JSON.stringify(result, null, 2));
-  writeImagesMeta(outputDir, standaloneImages);
+  writeImagesMeta(outputDir, [...Object.values(images), ...standaloneImages]);
 
   return result;
 }
 
 /**
- * Writes source/books/images.json — standalone (page) image meta keyed by
- * path relative to images/ (e.g. "en-2026/2.png"), consumed by the page
- * markdown loader to emit <img> tags with intrinsic dimensions.
+ * Writes source/books/images.json — image meta keyed by path relative to
+ * images/ (e.g. "en/2.png"), consumed by the content loaders to emit
+ * <img> tags with intrinsic dimensions (reserves space before load).
+ * Merges per-song `image` entries with the package's standalone `images`
+ * array, so a song head image referenced inline elsewhere is covered too.
  * @param outputDir {string}
  * @param images {Array<ImageRaw>}
  */

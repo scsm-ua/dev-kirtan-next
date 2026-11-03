@@ -1,6 +1,6 @@
 import { escHtml as esc } from '@/other/exportDoc';
 import { heading, NAV_SPAN } from '@/lib/content/exportHtml';
-import { processTranslationLines } from '@/other/utils';
+import { processTranslationLines, renderImageTag } from '@/other/utils';
 import { SITE } from '@/other/constants';
 
 import type { TSong, TVerse } from '@/types/song';
@@ -45,6 +45,14 @@ function renderVerseLine(
 }
 
 /**
+ * Root-relative (localized resource) images must survive in the downloaded
+ * standalone export document.
+ */
+function absolutizeImages(html: string): string {
+  return html.replace(/(<img[^>]*src=")\//g, `$1${SITE.ORIGIN}`);
+}
+
+/**
  * One paragraph per block; source lines are joined with <br> so the block
  * stays a single restylable paragraph in a word processor.
  */
@@ -82,7 +90,7 @@ function renderVerse(
   );
   html += paragraph(
     'translation',
-    processTranslationLines(verse.translation, 'translation'),
+    processTranslationLines(verse.translation, 'translation').map(absolutizeImages),
     true
   );
 
@@ -100,8 +108,8 @@ function renderImage(song: TSong): string {
   const src = image.src.startsWith('/')
     ? SITE.ORIGIN + image.src.slice(1)
     : image.src;
-  const alt = esc((song.title || []).join(' '));
-  return `<p class="song-image"><img src="${src}" alt="${alt}" width="${image.width}" height="${image.height}"></p>\n`;
+  const alt = (song.title || []).join(' ');
+  return `<p class="song-image">${renderImageTag(alt, src, image)}</p>\n`;
 }
 
 /**

@@ -49,7 +49,7 @@ function Verse({
   if (mode === VIEW_MODE.TRANSLATION && !hasTranslation) {
     return null;
   }
-  if (mode === VIEW_MODE.VERSE && !hasOriginal) {
+  if (mode === VIEW_MODE.VERSE && !hasOriginal && !subtitle?.length) {
     return null;
   }
   if (
@@ -85,7 +85,7 @@ function Verse({
 
   return (
     <div className={(classnames as any)('Verse', verse.isLong && 'Verse--long')} data-mode={mode}>
-      {subtitle?.length > 0 && showTranslation && (
+      {subtitle?.length > 0 && (
         <div className={stCls}>
           {groupLines(subtitle).map((group, index) => (
             <div key={index}>

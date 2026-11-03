@@ -18,7 +18,7 @@ import { translate } from '@/other/i18n';
 
 import type { TSong, TVerse } from '@/types/song';
 import type { TViewMode, TWbwMode } from '@/types/common';
-import { VIEW_MODE, WBW_MODE } from '@/types/common';
+import { DEFAULT_WBW_MODE, VIEW_MODE, WBW_MODE } from '@/types/common';
 
 /**/
 type Props = {
@@ -32,7 +32,7 @@ type Props = {
  */
 function SongText({ bookId, label, song }: Props) {
   const [mode, setMode] = useState<TViewMode>(null);
-  const [wbwMode, setWbwMode] = useState<TWbwMode>(WBW_MODE.INLINE);
+  const [wbwMode, setWbwMode] = useState<TWbwMode>(DEFAULT_WBW_MODE);
   const [updateCount, setCounter] = useState<number>(0);
   // Debug override: hotkey-set INLINE on a song that doesn't qualify for
   // full inline mode. Renders inline anyway with stub translations.

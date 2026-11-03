@@ -172,7 +172,11 @@ export async function getSongBySlug(
         }
       }
     }
-    song.fullInlineWbw = !!song.hasWbw && song.verses.every((v: TVerse) => !!v.isWbwInlineModeAvailable);
+    song.fullInlineWbw =
+      !!song.hasWbw &&
+      song.verses
+        .filter((v: TVerse) => v.word_by_word?.length > 0)
+        .every((v: TVerse) => !!v.isWbwInlineModeAvailable);
     return song;
   } catch (e) {
     console.error(e);

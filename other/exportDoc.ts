@@ -122,6 +122,7 @@ export const DOC_STYLE = `
   p.SongRef { margin-left: 1em; }
   p.song-image img { max-width: 100%; height: auto; }
   div.PageMarkdown img { max-width: 100%; height: auto; }
+  p.translation img { max-width: 100%; height: auto; }
   section.page pre { font-weight: bold; margin-left: 1em}
   h5 { text-align: center; }
   span.nav-links { font-size: 0.6em; font-weight: normal; }

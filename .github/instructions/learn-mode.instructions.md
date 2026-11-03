@@ -26,8 +26,8 @@ The client never calls `buildInlineWordByWord` / `parseWordByWord` / `tokenizeLi
 
 | Concern | Location |
 |---|---|
-| Persistence | `getSongWbwMode` / `setSongWbwMode` in `other/userPreferrences.ts` (localStorage key `SONG_WBW_MODE`, values `'hide' \| 'inline' \| 'classical'`, default `WBW_MODE.INLINE`). Invalid stored values fall back to the default. |
-| Local state | `wbwMode` in `components/song/SongText/SongText.tsx`, hydrated from storage inside `useEffect` (SSR-safe). Default before hydration is `WBW_MODE.INLINE`. |
+| Persistence | `getSongWbwMode` / `setSongWbwMode` in `other/userPreferrences.ts` (localStorage key `SONG_WBW_MODE`, values `'hide' \| 'inline' \| 'classical'`, default `DEFAULT_WBW_MODE` from `types/common.ts`). Invalid stored values fall back to the default. |
+| Local state | `wbwMode` in `components/song/SongText/SongText.tsx`, hydrated from storage inside `useEffect` (SSR-safe). Default before hydration is `DEFAULT_WBW_MODE`. |
 | Debug override | `forceInline` boolean in `SongText`. Set by the `kirtan:setWbwMode` event handler when `INLINE` is requested on a song where `fullInlineWbw` is false — renders the LearnVerse anyway with stub `'-'` translations, and also keeps the classical block visible so the source data is inspectable. Cleared on any explicit `handleWbwModeChange`. |
 | UI control | Second radio group inside `<DisplayModeMenu>` (`components/common/DisplayModeMenu/`), rendered next to the view-mode group. The wbw group is only shown when `hasWbw` is true; the INLINE option in the menu is gated by `fullInlineWbw`. |
 | Quick-toggle buttons | `SongText__btnGroup` next to the menu trigger: a **Learn** button (toggles INLINE ↔ HIDE plus `mode = ALL`) shown when `hasWbw && isCompact`, and a **Compact** button (toggles between ALL+INLINE and VERSE+HIDE) shown when `hasWbw && (isLearn || !isCompact)`. Both delegate to the same `handleViewModeChange` / `handleWbwModeChange` setters. |

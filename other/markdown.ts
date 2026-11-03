@@ -1,4 +1,15 @@
-import { marked } from 'marked';
+import { Marked } from 'marked';
+
+import { renderImageTag } from '@/other/utils';
+
+// Markdown images (no known size) still get the lazy-loading attributes.
+const marked = new Marked({
+  renderer: {
+    image({ href, text }) {
+      return renderImageTag(text, href);
+    }
+  }
+});
 
 /**
  * Single source of truth for markdown → HTML. Pure (no React/DOM) so it is
