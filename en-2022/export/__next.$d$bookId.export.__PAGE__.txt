@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Td0adc,<h1 class="book-title">Kirtan Guide</h1>
+3:Td0d18,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -265,7 +265,7 @@
 </section>
 <section class="song" id="song-gurvabhishta-supurakam-guru-ganair" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/3.png" alt="Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj" width="454" height="525"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/3.jpg" alt="Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj" width="454" height="525" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <p class="verse"><strong>gurvābhīṣṭa-supūrakaṁ guru-gaṇair</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;āśīṣa-saṁbhūṣitaṁ</strong><br>
@@ -280,7 +280,7 @@
 </section>
 <section class="song" id="song-devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/4.png" alt="Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj" width="454" height="525"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/4.jpg" alt="Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj" width="454" height="525" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>devaṁ divya-tanuṁ suchanda-vadanaṁ-</strong><br>
@@ -296,7 +296,7 @@
 </section>
 <section class="song" id="song-shri-siddhanta-sarasvatiti-vidito" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/5.png" alt="Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/5.jpg" alt="Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur" width="454" height="543" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Bhagavān Śrīla Bhakti Siddhānta Saraswatī Ṭhākur <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>śrī-siddhānta-sarasvatīti vidito</strong><br>
@@ -312,7 +312,7 @@
 </section>
 <section class="song" id="song-namo-gaurakishoraya-bhaktavadhuta-murtaye" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/6.png" alt="Śrīla Gaura Kiśora Dās Bābājī Mahārāj" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/6.jpg" alt="Śrīla Gaura Kiśora Dās Bābājī Mahārāj" width="454" height="543" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrīla Gaura Kiśora Dās Bābājī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>namo gaurakiśorāya</strong><br>
@@ -324,7 +324,7 @@
 </section>
 <section class="song" id="song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/7.png" alt="Śrīla Bhakti Vinod Ṭhākur" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/7.jpg" alt="Śrīla Bhakti Vinod Ṭhākur" width="454" height="543" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrīla Bhakti Vinod Ṭhākur <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>vande bhaktivinodaṁ śrī-</strong><br>
@@ -336,7 +336,7 @@
 </section>
 <section class="song" id="song-gaura-vrajashritashieshair-vaishnavair-vandya-vigraham" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/8.png" alt="Śrīla Jagannāth Dās Bābājī Mahārāj" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/8.jpg" alt="Śrīla Jagannāth Dās Bābājī Mahārāj" width="454" height="543" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrīla Jagannāth Dās Bābājī Mahārāj <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj</h4>
 <p class="verse"><strong>gaura-vrajāśritāśeṣair</strong><br>
@@ -378,7 +378,7 @@
 </section>
 <section class="song" id="song-jayatam-suratau-pangor" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/9.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/9.jpg" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu" width="625" height="547" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Kolkata, Sree Chaitanya Sāraswata Krishnanushilana Sangha</h3>
 <p class="verse"><strong>jayatāṁ suratau paṅgor</strong><br>
@@ -390,7 +390,7 @@
 </section>
 <section class="song" id="song-divyad-vrindaranya-kalpa-drumadhah" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/10.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/10.jpg" alt="Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu" width="625" height="547" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Nabadwīp, Śrī Chaitanya Sāraswat Maṭh</h3>
 <p class="verse"><strong>dīvyad-vṛndāraṇya-kalpa-drumādhaḥ</strong><br>
@@ -402,7 +402,7 @@
 </section>
 <section class="song" id="song-shriman-rasa-rasarambhi" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/11.png" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu" width="625" height="547"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/11.jpg" alt="Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu" width="625" height="547" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Gopīnāthjīu <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Hāpāniyā, Śrī Chaitanya Sāraswat Ashram</h3>
 <p class="verse"><strong>śrīmān rāsa-rasārambhī</strong><br>
@@ -445,7 +445,7 @@
 </section>
 <section class="song" id="song-namah-om-vishnupadaya-krishna" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/12.png" alt="Praṇām Mantra" width="454" height="543"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/12.jpg" alt="Praṇām Mantra" width="454" height="543" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>Praṇām Mantra <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>to Śrīla A.C Bhaktivedānta Swāmī Mahārāj Prabhupād</h3>
 <h4>Composed by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</h4>
@@ -462,7 +462,7 @@
 </section>
 <section class="song" id="song-shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir" data-translated="1">
 <div class="verse-block" data-number="">
-<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/13.png" alt="The Glory of the Śrī Chaitanya Sāraswat Maṭh" width="765" height="1313"></p>
+<p class="song-image"><img src="https://dev.kirtan.site/images/resources/en/13.jpg" alt="The Glory of the Śrī Chaitanya Sāraswat Maṭh" width="765" height="1313" loading="lazy" decoding="async" fetchpriority="low"></p>
 <h2>The Glory of the Śrī Chaitanya Sāraswat Maṭh <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h4>Composed by Śrīla B.R. Śrīdhar Dev-Goswāmī Mahārāj while residing in a hut on the banks of the Ganges in 1941.</h4>
 <h4>Rendered into English by Śrīpād B.A. Sāgar Mahārāj from the Bengali translation by Śrīla B.S. Govinda Dev-Goswāmī Mahārāj.</h4>
@@ -9746,7 +9746,7 @@ In the necklace of the jewels of Āchāryas in the Śrī Gauḍīya Sampradāya 
 <p class="first-line" data-translated="1"><a href="#song-yo-nanto-nanta-vaktrair-niravadhi">yo ’nanto ’nanta-vaktrair niravadhi<span class="page-num"> — 322</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 234</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2022","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ev5BmwIHkeHTuLd2vrv1U"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en-2022","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"uPmIXxEXSHo_A06J1ewmu"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
