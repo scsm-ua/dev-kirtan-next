@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T13ee26,<h1 class="book-title">Гаудия Гитанджали</h1>
+3:T13ee0e,<h1 class="book-title">Гаудия Гитанджали</h1>
 <p class="nav-links"><a href="#first-lines">↓ Индекс</a></p>
 <section class="toc" id="toc">
 <h1>Содержание</h1>
@@ -10489,8 +10489,8 @@
 <p class="first-line" data-translated="1"><a href="#song-vaishnava-thakura-dayara-sagara">ваиш̣н̣ава т̣ха̄кура, дойа̄ра са̄гара<span class="page-num"> — 76</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vande-bhaktivinodam-shri-gaura-shiakti-svarupakam">ванде бхактивинодам̇ ш́рӣ-гаура-ш́акти-сварӯпакам<span class="page-num"> — 17</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vande-vaikuntha-vritti-stham">ванде ваикун̣т̣ха-вр̣тти-стхам̇<span class="page-num"> — 11/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-vandana-full">ванде ‘хам̇ (все молитвы на одной странице)<span class="page-num"> — 11/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇<span class="page-num"> — 11/1</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-vandana-full">ванде ‘хам̇ ш́рӣ-гурох̣ ш́рӣ-йута-пада-камалам̇ (полный)<span class="page-num"> — 11/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vancha-kalpatarubhyas-cha">ва̄н̃чха̄-калпатарубхйаш́’ ча кр̣па̄-синдхубхйа эва ча<span class="page-num"> — 19/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vibhavari-shiesha-aloka-praveshia">вибха̄варӣ ш́еш̣а, а̄лока-правеш́а<span class="page-num"> — 52</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-virajar-pare-shiuddha-paravyoma-dham">вираджа̄р па̄ре ш́уддха-паравйома-дха̄м<span class="page-num"> — 197</span></a></p>
@@ -10663,7 +10663,7 @@
 <p class="first-line" data-translated="1"><a href="#song-emona-gauranga-bine-nahi-ara">эмона гаура̄н̇га бине на̄хи а̄ра<span class="page-num"> — 126</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-emona-durmati-samsara-bhitore">эмона дурмати, сам̇са̄ра бхиторе<span class="page-num"> — 154</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"yNPkKkzBXuvK2ve8txxbT"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ru","lang":"ru","title":"Гаудия Гитанджали"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DvjrQJRhAtx2aQ18LDQ0d"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
