@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf1f83,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf1f67,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -259,8 +259,7 @@
 <p>and his Successor President Āchārya<br>Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</p>
 <br>
 <br><p>With standardised transliteration<br>and additional selected kīrtans from<br>the Maṭh’s original Bengali Śrī Gauḍīya-Gītāñjali</p>
-<p><img src="https://github.com/scsm-ua/songbook-resources/blob/main/images/en/1.jpg?raw=true" alt="SCSM Logo" loading="lazy" decoding="async" fetchpriority="low"></p>
-</div></div>
+<img src="https://dev.kirtan.site/images/resources/en/1.jpg" alt="SCSM Logo" width="281" height="192" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 </section>
 <section class="song page" id="song-002-printed-and-published" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
@@ -423,8 +422,7 @@ be happy.</p>
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <div class="PageMarkdown"><div style="text-align: center;"><h1>Handwritten Advice</h1>
 <p><em>by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj</em></p>
-<p><img src="https://github.com/scsm-ua/songbook-resources/blob/main/images/en/2.jpg?raw=true" alt="Handwritten advice photo" loading="lazy" decoding="async" fetchpriority="low"></p>
-</div><ol>
+<img src="https://dev.kirtan.site/images/resources/en/2.jpg" alt="Handwritten advice photo" width="529" height="513" loading="lazy" decoding="async" fetchpriority="low"></div><ol>
 <li>Read Śrī Gītā and Holy Books regularly</li>
 <li>Congregational chanting arrangement</li>
 <li>Not to criticise anyone</li>
@@ -11250,7 +11248,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"uPmIXxEXSHo_A06J1ewmu"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"BIAEWSjHO4GwlljmgxItx"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
