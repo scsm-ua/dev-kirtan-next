@@ -1,15 +1,15 @@
 'use client';
 import classnames from 'classnames';
-import { Fragment } from 'react';
+import { Fragment, useMemo } from 'react';
 
 import './Verse.scss';
 import Collapse from '@/components/common/Collapse/Collapse';
 import LearnVerse from '@/components/song/Verse/LearnVerse';
 import VerseText from '@/components/song/Verse/VerseText';
-import VerseTranslation from '@/components/song/Verse/VerseTranslation';
+import VerseTranslation, { isImageOnlyLine } from '@/components/song/Verse/VerseTranslation';
 import VerseWbw from '@/components/song/Verse/VerseWbw';
 
-import { groupLines } from '@/other/utils';
+import { groupLines, processTranslationLines } from '@/other/utils';
 import type { TSong, TVerse } from '@/types/song';
 import type { TViewMode, TWbwMode } from '@/types/common';
 import { VIEW_MODE, WBW_MODE } from '@/types/common';
@@ -46,10 +46,19 @@ function Verse({
   // translation-only verse in verse mode.
   const hasOriginal = text?.length > 0 || word_by_word?.length > 0;
   const hasTranslation = translation?.length > 0 || subtitle?.length > 0;
+  const translationLines = useMemo(
+    () => processTranslationLines(translation, 'VerseTranslation'),
+    [translation]
+  );
+  const translationImages = useMemo(
+    () => translationLines.filter(isImageOnlyLine),
+    [translationLines]
+  );
+  const hasTranslationImages = translationImages.length > 0;
   if (mode === VIEW_MODE.TRANSLATION && !hasTranslation) {
     return null;
   }
-  if (mode === VIEW_MODE.VERSE && !hasOriginal && !subtitle?.length) {
+  if (mode === VIEW_MODE.VERSE && !hasOriginal && !subtitle?.length && !hasTranslationImages) {
     return null;
   }
   if (
@@ -142,7 +151,18 @@ function Verse({
           <VerseTranslation
             isWide={isWide}
             isWBW={hasWbw}
-            translation={translation}
+            lines={translationLines}
+          />
+        </Collapse>
+      )}
+
+      {hasTranslationImages && (
+        <Collapse defaultOpen={mode === VIEW_MODE.VERSE} open={mode === VIEW_MODE.VERSE}>
+          <VerseTranslation
+            imagesOnly
+            isWide={false}
+            isWBW={hasWbw}
+            lines={translationImages}
           />
         </Collapse>
       )}

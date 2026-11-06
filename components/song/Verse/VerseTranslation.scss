@@ -37,6 +37,26 @@
     margin: 0 auto;
   }
 
+  &__thumb {
+    width: 20%;
+    margin: 0 auto 16px;
+    cursor: zoom-in;
+    transition: width var(--transition-duration) ease-in-out;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+
+    &--expanded {
+      width: 100%;
+      cursor: zoom-out;
+    }
+
+    .VerseTranslation__image {
+      width: 100%;
+    }
+  }
+
   &__separator {
     width: 80px;
     max-width: 40%;
