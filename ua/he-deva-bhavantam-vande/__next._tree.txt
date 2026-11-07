@@ -1,8 +1,10 @@
-:HL["/_next/static/css/2a876d8558f3a8fc.css","style"]
+:HL["/_next/static/css/fa5bdeee4e389f3d.css","style"]
 :HL["/_next/static/css/89c8d9ff9a6ce3b3.css","style"]
-:HL["/_next/static/css/1e4b76068ed840a7.css","style"]
-:HL["/_next/static/css/aab6d2f56179a687.css","style"]
+:HL["/_next/static/css/13674e9b448245f2.css","style"]
+:HL["/_next/static/css/c196e7d83ba3ccce.css","style"]
+:HL["/_next/static/css/f04518d5bddef2fa.css","style"]
+:HL["/_next/static/css/bfed7c2d8d70c7df.css","style"]
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/47dd62e89c1bf707.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ua","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"he-deva-bhavantam-vande","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"MG7yoZ5tS-H3dZf1mzAV8"}
+:HL["/_next/static/css/9bfe2380166fe681.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ua","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"he-deva-bhavantam-vande","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"n93rdiLbYQvA4xF_N9U8M"}
