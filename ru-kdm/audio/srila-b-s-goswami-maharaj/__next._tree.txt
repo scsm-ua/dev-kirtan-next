@@ -5,4 +5,4 @@
 :HL["/_next/static/css/13674e9b448245f2.css","style"]
 :HL["/_next/static/css/f72250d6ccac1f3a.css","style"]
 :HL["/_next/static/css/96e601a49b2e277d.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ru-kdm","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"audio","param":null,"prefetchHints":0,"slots":{"children":{"name":"singerId","param":{"type":"d","key":"srila-b-s-goswami-maharaj","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"yvaj3Fr9ETIeqHYXD1faI"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ru-kdm","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"audio","param":null,"prefetchHints":0,"slots":{"children":{"name":"singerId","param":{"type":"d","key":"srila-b-s-goswami-maharaj","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"jbe6agiAz61ySj3ti2PGn"}
