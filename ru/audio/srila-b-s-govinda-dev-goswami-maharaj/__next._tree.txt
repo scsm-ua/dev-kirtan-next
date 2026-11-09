@@ -2,7 +2,7 @@
 :HL["/_next/static/css/537650a32364f20e.css","style"]
 :HL["/_next/static/css/38fb560296c30bd7.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
-:HL["/_next/static/css/1e54009046549340.css","style"]
+:HL["/_next/static/css/7390a6d59d79adb7.css","style"]
 :HL["/_next/static/css/2d50fb12f5329157.css","style"]
 :HL["/_next/static/css/abd013da53e467ea.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"audio","param":null,"prefetchHints":0,"slots":{"children":{"name":"singerId","param":{"type":"d","key":"srila-b-s-govinda-dev-goswami-maharaj","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"63B4TEH2l14COzGhBZ71E"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"ru","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"audio","param":null,"prefetchHints":0,"slots":{"children":{"name":"singerId","param":{"type":"d","key":"srila-b-s-govinda-dev-goswami-maharaj","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"UlAkj7v1zyY-ehvQpX9Hd"}

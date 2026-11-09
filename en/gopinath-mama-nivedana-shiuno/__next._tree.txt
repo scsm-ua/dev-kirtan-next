@@ -1,6 +1,6 @@
 :HL["/_next/static/css/10b4ff565df8b9e9.css","style"]
 :HL["/_next/static/css/89c8d9ff9a6ce3b3.css","style"]
-:HL["/_next/static/css/1e54009046549340.css","style"]
+:HL["/_next/static/css/7390a6d59d79adb7.css","style"]
 :HL["/_next/static/css/c67f7f8f3371bca9.css","style"]
 :HL["/_next/static/css/2d50fb12f5329157.css","style"]
 :HL["/_next/static/css/81fdeece7922f3bf.css","style"]
@@ -8,4 +8,4 @@
 :HL["/_next/static/css/7275adbaa7755d79.css","style"]
 :HL["/_next/static/css/d5a791cb6aaa3b04.css","style"]
 :HL["/_next/static/css/d08e44497607389c.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"gopinath-mama-nivedana-shiuno","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"63B4TEH2l14COzGhBZ71E"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bookId","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"gopinath-mama-nivedana-shiuno","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"UlAkj7v1zyY-ehvQpX9Hd"}
