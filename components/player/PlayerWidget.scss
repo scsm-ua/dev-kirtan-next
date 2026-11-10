@@ -1,0 +1,44 @@
+.PlayerWidget {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+
+  .PlayToggle {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+
+    &--loading::after {
+      inset: -2px;
+      border-width: 1px;
+    }
+  }
+
+  &__title {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--title-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  // Out of flow so the row keeps its height; sits under the title, below the text descenders.
+  .SeekBar {
+    position: absolute;
+    left: 39px;
+    right: 0;
+    bottom: -6px;
+  }
+
+  &--active:is(.PlayerWidget--paused, .PlayerWidget--ended) .PlayToggle {
+    color: var(--brown);
+    background: var(--accent-color);
+  }
+}

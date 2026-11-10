@@ -1,18 +1,21 @@
+import classNames from 'classnames';
+
 import './IndexLink.scss';
 
 /**/
 type Props = {
   href: string;
   title: string;
+  compact?: boolean;
   withSeparator?: boolean;
 };
 
 /**
  *
  */
-function IndexLink({ href, title, withSeparator }: Props) {
+function IndexLink({ href, title, compact, withSeparator }: Props) {
   return (
-    <li className="IndexLink">
+    <li className={classNames('IndexLink', compact && 'IndexLink--compact')}>
       {withSeparator && <header className="IndexLink__header" />}
 
       <div className="IndexLink__content">

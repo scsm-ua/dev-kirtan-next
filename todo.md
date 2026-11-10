@@ -1,3 +1,14 @@
+# Todo
+
+- sonbgooks legacy songbooks section
+- en songbook link to https://scsmath.com/KirtanGuide/
+- import Manas Krishna recordings
+- contents (non song page) - SEO
+- another build and app js approach
+- ro songbook images
+
+# complex questions
+
 - how to handle audio variations?
 - how to handle additional vandanas just for history
 
@@ -5,12 +16,6 @@
 - make fallback songbook image
 
 - search: when google search started - hide numbers toolbar?
-
-## New verse in translation formatting
-
-Prema-dhama... - quotations in text non bold
-
-- hide when no translation rendered
 
 ## Fix index in all songbooks
 
@@ -22,10 +27,15 @@ author: namas-te-narasimhaya - only Vyasadev, not Jayadev (check other songbooks
 
 no author: Hare Kṛṣṇa Mahāmantra
 
-## Fix default formatiing
+# Refactors 
 
-was: `verse parentheses: non bold`
-make `verse parentheses: bold` otherwise non bold by default.
+analyze: book language in songbook.json
+
+## build
+
+single page app for each page - prerendered content?
+
+json loaded
 
 ### Questionable:
 
@@ -36,3 +46,4 @@ learn mode
 pages:
 - export
   - order?
+  - skip aggregated pages

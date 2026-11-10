@@ -1,0 +1,40 @@
+.SingerList {
+  width: 100%;
+  margin: 0 0 24px;
+
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 8px 12px;
+    border-left: 3px solid transparent;
+    color: var(--dark-gray);
+    line-height: 24px;
+    transition: color 0.25s, border-color 0.25s;
+
+    &:hover {
+      color: var(--accent-color);
+    }
+
+    &--active {
+      border-left-color: var(--accent-color);
+      color: var(--title-color);
+      font-weight: 700;
+    }
+  }
+
+  &__name {
+    flex: 1;
+  }
+
+  &__count {
+    font-weight: 400;
+    color: var(--gray);
+  }
+}

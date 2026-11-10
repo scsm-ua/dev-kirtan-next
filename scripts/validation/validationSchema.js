@@ -3,6 +3,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
   additionalProperties: false,
   required: [
     'A_Z_PAGE',
+    'AUDIO_PAGE',
     'AUTHORS_PAGE',
     'BOOK_LIST_PAGE',
     'FOOTER',
@@ -46,6 +47,37 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         LINK_FULL_TITLE: {
           type: 'string'
         }
+      }
+    },
+    AUDIO_PAGE: {
+      type: 'object',
+      additionalProperties: false,
+      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE'],
+      properties: {
+        HEAD: {
+          type: 'object',
+          additionalProperties: false,
+          required: ['DESCRIPTION'],
+          properties: {
+            DESCRIPTION: {
+              type: 'string'
+            }
+          }
+        },
+        SCHEMA: {
+          type: 'object',
+          additionalProperties: false,
+          required: ['NAME', 'DESCRIPTION'],
+          properties: {
+            NAME: {
+              type: 'string'
+            },
+            DESCRIPTION: {
+              type: 'string'
+            }
+          }
+        },
+        LINK_FULL_TITLE: { type: 'string' }
       }
     },
     AUTHORS_PAGE: {
@@ -280,6 +312,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         'SHARE_SONG',
         'SHOW_TRANSLATION',
         'PAGE_NUMBER',
+        'PAGE_IN_PAPER_SONGBOOK',
         'NEXT',
         'AUDIO_CAPTION',
         'META_DESCRIPTION',
@@ -314,6 +347,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
           type: 'string'
         },
         PAGE_NUMBER: {
+          type: 'string'
+        },
+        PAGE_IN_PAPER_SONGBOOK: {
           type: 'string'
         },
         NEXT: {

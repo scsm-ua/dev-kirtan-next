@@ -19,5 +19,10 @@
       height: 100%;
       margin-left: var(--sidebar-width);
     }
+
+    // Dock covers the bottom footer; reserve only the part that sticks out above it.
+    .has-player-dock & {
+      padding-bottom: max(0px, calc(var(--player-dock-height) - var(--footer-height)));
+    }
   }
 }

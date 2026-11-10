@@ -40,6 +40,20 @@
     }
   }
 
+  &__play.PlayToggle {
+    display: inline-flex;
+    vertical-align: middle;
+    margin: -3px 10px 0 0;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+
+    &.PlayToggle--loading::after {
+      inset: -2px;
+      border-width: 1px;
+    }
+  }
+
   &__wbw {
     color: var(--text-color);
     font-size: 14px;

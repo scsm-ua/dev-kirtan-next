@@ -1,5 +1,6 @@
 import './SongHeader.scss';
 import { Fragment, type ReactNode } from 'react';
+import PlayerSyncToggle from '@/components/player/PlayerSyncToggle';
 import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { groupLines, processTranslationLines } from '@/other/utils';
 import type { TSong } from '@/types/song';
@@ -20,12 +21,19 @@ function SongHeader({ bookId, song }: Props) {
     getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS) +
     (meta.author ? `#section-${meta.author}` : '');
 
+  const hasAudio = song.resources?.audio?.length > 0;
+
   return (
     <section className="SongHeader">
       {title?.length > 0 && (
         <h1 className="SongHeader__title">
           {groupLines(title).map((group, index) => (
-            <div key={index}>{renderLines(group)}</div>
+            <div key={index}>
+              {hasAudio && index === 0 && (
+                <PlayerSyncToggle className="SongHeader__play" />
+              )}
+              {renderLines(group)}
+            </div>
           ))}
         </h1>
       )}

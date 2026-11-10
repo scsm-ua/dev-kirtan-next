@@ -1,5 +1,6 @@
 const path = require('node:path');
 const { CONST } = require('./constants');
+const { sortSingers } = require('../other/sortSingers');
 const { readFile, writeFile } = require('./ioHelpers');
 
 /**
@@ -8,6 +9,7 @@ const { readFile, writeFile } = require('./ioHelpers');
  * @param options {Object}
  * @param options.audioTitleFilter {Array<string> | null} - person ids to keep
  *   (see songbookSettings.js); null keeps all audio.
+ * @param options.language {string} - book language key, picks the singer name.
  */
 function transformContents(targetDir, resourceMap, options = {}) {
   const input = transform(
@@ -27,6 +29,7 @@ function transformContents(targetDir, resourceMap, options = {}) {
  * @param targetDir {string} - directory of the songbook.
  * @param options {Object}
  * @param options.audioTitleFilter {Array<string> | null}
+ * @param options.language {string}
  * @return {Array<ContentGroup>}
  */
 function transform(groups, resourceMap, targetDir, options) {
@@ -44,7 +47,11 @@ function transform(groups, resourceMap, targetDir, options) {
 				const itemDir = getItemDir(targetDir, item);
 				/** @type {RawSong} */
 				const rawSong = readFile(itemDir, `${item.id}.json`);
-				const resources = mapResources(resourceMap[item.id], options.audioTitleFilter || null);
+				const resources = mapResources(
+					resourceMap[item.id],
+					options.audioTitleFilter || null,
+					options.language
+				);
 	
 				/** @type {Song} */
 				const song = { ...rawSong, resources };
@@ -70,20 +77,25 @@ function transform(groups, resourceMap, targetDir, options) {
 }
 
 /**
- * Applies the per-book audio title filter.
+ * Applies the per-book audio title filter and localizes singer names.
  * @param resource {ResourceObj | void}
  * @param audioTitleFilter {Array<string> | null}
- * @return {ResourceObj | void}
+ * @param language {string}
+ * @return {SongResource | void}
  */
-function mapResources(resource, audioTitleFilter) {
+function mapResources(resource, audioTitleFilter, language) {
   if (!resource) return;
 
   const { image } = resource;
 
-  const audio = (resource.audio || [])
-    .filter((a) => !audioTitleFilter || audioTitleFilter.includes(a.personId))
-    // personId was added for filtering only, remove it.
-    .map(({ personId, ...rest }) => rest);
+  const audio = sortSingers(
+    (resource.audio || [])
+      .filter((a) => !audioTitleFilter || audioTitleFilter.includes(a.personId))
+      .map(({ title, ...rest }) => {
+        delete rest.personId;
+        return { title: title[language] || title.en, ...rest };
+      })
+  );
 
   if (!audio.length && !image) return;
 

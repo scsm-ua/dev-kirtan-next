@@ -11,7 +11,8 @@ import type { TSongbookPage } from '@/other/paths';
  */
 export function getAlt(
   bookId: string,
-  page?: TSongbookPage
+  page?: TSongbookPage,
+  hasPage: (bookId: string) => boolean = () => true
 ): Partial<AlternateURLs> {
   const booksMap = getBooksMap();
 
@@ -20,9 +21,11 @@ export function getAlt(
 
   const languages: Record<string, string> = {};
 
-  Object.values(booksMap).forEach((book) => {
-    languages[getBookLocale(book.slug)] = path(book.slug);
-  });
+  Object.values(booksMap)
+    .filter((book) => hasPage(book.slug))
+    .forEach((book) => {
+      languages[getBookLocale(book.slug)] = path(book.slug);
+    });
 
   // Current book takes precedence for its own locale.
   languages[getBookLocale(bookId)] = path(bookId);

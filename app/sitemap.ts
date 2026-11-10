@@ -2,8 +2,10 @@ import type { MetadataRoute } from 'next';
 
 import { getBookIdList, getBooksMap } from '@/lib/books';
 import { getContentsByBookId } from '@/lib/contents';
+import { getSingers, hasBookAudio } from '@/lib/audio';
 import {
   getAbsoluteUrl,
+  getAudioSingerPath,
   getSongbookPagePath,
   getSongbookPath,
   getSongPath,
@@ -26,13 +28,22 @@ function mapGroups(groups: TContentGroup[], bookId) {
     getXmlItem(getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS), 1)
   ];
 
+  const audio = hasBookAudio(bookId)
+    ? [
+        getXmlItem(getSongbookPagePath(bookId, SONGBOOK_PAGE.AUDIO), 0.8),
+        ...getSingers(bookId).map((singer) =>
+          getXmlItem(getAudioSingerPath(bookId, singer.id), 0.8)
+        )
+      ]
+    : [];
+
   const items = groups.flatMap((g: TContentGroup) =>
     g.items.map((item: TContentItem) =>
       getXmlItem(getSongPath(bookId, item.id), 0.8, 'monthly')
     )
   );
 
-  return [...indexes, ...items];
+  return [...indexes, ...audio, ...items];
 }
 
 /**

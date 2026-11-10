@@ -36,9 +36,13 @@ function FooterItem({
   );
 
   return (
-    <a className={cls} href={href}>
-      <div className={iconCls} />
-      <h6 className="FooterItem__label">{label}</h6>
+    <a
+      aria-current={isActive ? 'page' : undefined}
+      className={cls}
+      href={href}
+    >
+      <div aria-hidden="true" className={iconCls} />
+      <span className="FooterItem__label">{label}</span>
       <span className="FooterItem__tooltip">{fullLabel || label}</span>
     </a>
   );

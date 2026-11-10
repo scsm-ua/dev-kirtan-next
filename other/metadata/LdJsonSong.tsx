@@ -29,8 +29,7 @@ type Props = {
  *
  */
 function LdJsonSong({ bookDescriptions, bookId, bookTitle, slug, song }: Props) {
-  // Raw book language key (i18n lookups); locale is the BCP-47 code (ua → uk).
-  const language = bookId.slice(0, 2);
+  // BCP-47 code (ua → uk).
   const locale = getBookLocale(bookId);
   const url = getAbsoluteUrl(getSongPath(bookId, slug));
 
@@ -148,7 +147,7 @@ function LdJsonSong({ bookDescriptions, bookId, bookTitle, slug, song }: Props) 
       url: audio.embed_url,
       byArtist: {
         '@type': 'Person',
-        name: audio.title[language] || audio.title.en
+        name: audio.title
       },
       audio: {
         '@type': 'AudioObject',

@@ -1,4 +1,8 @@
 .IndexLink {
+  &--compact &__content {
+    margin-bottom: 0;
+  }
+
   &__header {
     position: relative;
     margin-top: 24px;

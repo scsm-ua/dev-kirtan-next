@@ -1,68 +1,48 @@
 'use client';
-import { PureComponent } from 'react';
 
 import './AudioList.scss';
-import AudioListItem from '@/components/song/AudioList/AudioListItem';
+import PlayerDock from '@/components/player/PlayerDock';
+import PlayerWidget from '@/components/player/PlayerWidget';
+import { getAudioSingerPath } from '@/other/paths';
 import type { TAudio } from '@/types/resources';
 
 /**/
 type Props = {
   audio: Array<TAudio>;
+  bookId: string;
   caption: string;
-  language: string;
+  songTitle?: string;
 };
 
-type State = {
-  hasLibLoaded: boolean;
-};
+function AudioList({ audio, bookId, caption, songTitle }: Props) {
+  return (
+    <section className="AudioList">
+      {caption && <h2 className="AudioList__caption">{caption}</h2>}
 
-/**
- *
- */
-class AudioList extends PureComponent<Props, State> {
-  private static readonly LIB_URL = 'https://w.soundcloud.com/player/api.js';
-  state: State = { hasLibLoaded: false };
+      <ul className="AudioList__list">
+        {audio.map((item: TAudio) => (
+          <li className="AudioList__item" key={item.embed_url}>
+            <PlayerWidget
+              className="AudioList__player"
+              source={{ url: item.embed_url }}
+              subtitle={songTitle}
+              title={item.title}
+            />
+            <a
+              aria-label={item.title}
+              className="AudioList__link"
+              href={getAudioSingerPath(bookId, item.personSlug)}
+              title={item.title}
+            >
+              <span className="AudioList__icon icon-chevron-right" />
+            </a>
+          </li>
+        ))}
+      </ul>
 
-  /**/
-  handleOpen = (isOpen: boolean) => {
-    if (!isOpen || this.state.hasLibLoaded) return;
-
-    const script = document.createElement('script');
-    script.src = AudioList.LIB_URL;
-    script.onload = (e) => this.onLibLoad(e);
-    script.onerror = window.console.error;
-    document.body.appendChild(script);
-  };
-
-  /**/
-  onLibLoad = (e) => this.setState({ hasLibLoaded: true });
-
-  /**/
-  render() {
-    const { audio, caption, language } = this.props;
-
-    return (
-      <section className="AudioList">
-        {caption && <h2 className="AudioList__caption">{caption}</h2>}
-
-        <ul className="AudioList__list">
-          {audio.map((a: TAudio) => {
-            const title = a.title[language] || a.title.en;
-
-            return (
-              <AudioListItem
-                hasLibLoaded={this.state.hasLibLoaded}
-                key={a.embed_url}
-                onOpenChange={this.handleOpen}
-                title={title}
-                url={a.embed_url}
-              />
-            );
-          })}
-        </ul>
-      </section>
-    );
-  }
+      <PlayerDock autoAdvance={false} />
+    </section>
+  );
 }
 
 /**/

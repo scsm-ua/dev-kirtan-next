@@ -3,6 +3,7 @@ import classnames from 'classnames';
 import './ContentItem.scss';
 import type { TContentItem } from '@/types/common';
 import { getSongPathWithPage } from '@/other/paths';
+import { translate } from '@/other/i18n';
 
 /**/
 type Props = {
@@ -37,7 +38,12 @@ function ContentItem({ bookId, item }: Props) {
               <span className="ContentItem__embed" title="Audio">♪</span>
             )}
             {_pages && (
-              <span className="ContentItem__page" title="Page in paper songbook">{_pages}</span>
+              <span
+                className="ContentItem__page"
+                title={translate(bookId, 'SONG_PAGE.PAGE_IN_PAPER_SONGBOOK')}
+              >
+                {_pages}
+              </span>
             )}
           </div>
         </div>

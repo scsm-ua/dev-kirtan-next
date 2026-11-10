@@ -7,6 +7,7 @@ import type { TContentItem } from '@/types/common';
  */
 export const SONGBOOK_PAGE = {
   ANALYZE: 'analyze',
+  AUDIO: 'audio',
   AUTHORS: 'authors',
   A_Z: 'a-z',
   CONTENTS: 'contents',
@@ -14,8 +15,15 @@ export const SONGBOOK_PAGE = {
   SEARCH: 'search'
 } as const;
 
+/**
+ * Per-singer audio page sub-path: `audio/<singerId>`.
+ */
+export type TAudioSingerPage = `${typeof SONGBOOK_PAGE.AUDIO}/${string}`;
+
 /**/
-export type TSongbookPage = (typeof SONGBOOK_PAGE)[keyof typeof SONGBOOK_PAGE];
+export type TSongbookPage =
+  | (typeof SONGBOOK_PAGE)[keyof typeof SONGBOOK_PAGE]
+  | TAudioSingerPage;
 
 /*
  * All paths start and end with `/` to match `trailingSlash: true`
@@ -37,6 +45,18 @@ export function getSongbookPagePath(
   page: TSongbookPage
 ): string {
   return `/${bookId}/${page}/`;
+}
+
+/**/
+export function getAudioSingerPage(singerId: string): TAudioSingerPage {
+  return `${SONGBOOK_PAGE.AUDIO}/${singerId}`;
+}
+
+/**
+ * Singer audio playlist: `/bn/audio/srila-b-s-govinda-dev-goswami-maharaj/`.
+ */
+export function getAudioSingerPath(bookId: string, singerId: string): string {
+  return getSongbookPagePath(bookId, getAudioSingerPage(singerId));
 }
 
 /**

@@ -24,6 +24,14 @@ export type BookListPageProps = {
 };
 
 /**/
+export type SingerPageProps = {
+  params: Promise<{
+    bookId: string;
+    singerId: string;
+  }>;
+};
+
+/**/
 export type ContentPageProps = {
   params: Promise<{
     bookId: string;

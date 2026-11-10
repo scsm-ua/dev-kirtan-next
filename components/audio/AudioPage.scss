@@ -1,0 +1,43 @@
+.AudioPage {
+  &__title {
+    margin: 8px 0 16px;
+    padding: 0 var(--side-padding);
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--title-color);
+  }
+
+  // Main__content is a centered flex column; without this the section shrinks to its content.
+  &__playlist {
+    width: 100%;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 14px;
+      left: 0;
+      right: 0;
+      border-bottom: 0.5px solid var(--border-color);
+    }
+  }
+
+  &__singer {
+    position: relative;
+    z-index: 1;
+    max-width: 80%;
+    margin: 0 0 16px;
+    padding: 0 16px;
+    font-size: inherit;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--main-bg-color);
+  }
+}

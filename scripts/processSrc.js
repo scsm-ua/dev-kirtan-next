@@ -35,7 +35,8 @@ Object.keys(songbooks).forEach((bookSlug) => {
 		addSongsCount(booksMap, bookSlug);
 		
 		transformContents(targetDir, resourceMap, {
-			audioTitleFilter: getAudioTitleFilter(bookSlug)
+			audioTitleFilter: getAudioTitleFilter(bookSlug),
+			language: bookSlug.slice(0, 2)
 		});
 		createAZ(targetDir);
 		createAuthors(targetDir);

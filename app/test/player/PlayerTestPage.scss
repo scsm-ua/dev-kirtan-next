@@ -1,0 +1,35 @@
+.PlayerTestPage {
+  min-height: 100%;
+  padding: 2rem 1rem;
+  background-color: var(--main-bg-color);
+
+  .has-player-dock & {
+    padding-bottom: calc(2rem + var(--player-dock-height));
+  }
+
+  &__block {
+    margin: 0 auto;
+    max-width: var(--content-max-width);
+  }
+
+  &__toggle {
+    margin-bottom: 1rem;
+    padding: 6px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--song-bg-color);
+    cursor: pointer;
+  }
+
+  &__spacer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: var(--border-color);
+  }
+
+  &__stress {
+    margin-bottom: 8px;
+  }
+}

@@ -32,7 +32,8 @@ $sidebar-media: '(min-width: #{$bp-sidebar}px) and (max-height: #{$bp-sidebar-ma
   --extra-max-width: 900px;
   --learn-max-width: 650px;
   --header-height: 52px;
-  --footer-height: 72px;
+  --footer-height: 64px;
+  --player-dock-height: calc(16px + 44px + 24px + 8px * 2 + 12px * 2 + env(safe-area-inset-bottom, 0px));
   --sidebar-width: 0px;
   --page-max-width: 768px;
   --side-padding: 20px;
@@ -42,6 +43,11 @@ $sidebar-media: '(min-width: #{$bp-sidebar}px) and (max-height: #{$bp-sidebar-ma
 
   @media (max-width: #{$bp576}px) {
     --side-padding: 15px;
+  }
+
+  // title shares the controls row: 44px row + 24px seek + 8px gap + 2×12px padding
+  @media (min-width: #{$bp576}px) {
+    --player-dock-height: calc(44px + 24px + 8px + 12px * 2 + env(safe-area-inset-bottom, 0px));
   }
 
   @media #{$sidebar-media} {

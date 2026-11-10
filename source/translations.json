@@ -10,6 +10,16 @@
       },
       "LINK_FULL_TITLE": "Pirmo rindiņu rādītājs"
     },
+    "AUDIO_PAGE": {
+      "HEAD": {
+        "DESCRIPTION": "Kīrtanu audioieraksti"
+      },
+      "SCHEMA": {
+        "NAME": "Vaišnavu dziesmu krājums – Kīrtanu audioieraksti",
+        "DESCRIPTION": "Klausies vaišnavu bhadžanu un kīrtanu audioierakstus."
+      },
+      "LINK_FULL_TITLE": "Kīrtanu audioieraksti"
+    },
     "AUTHORS_PAGE": {
       "HEAD": {
         "DESCRIPTION": "Autoru saraksts"
@@ -85,6 +95,7 @@
       "SHARE_SONG": "Padalīties ar dziesmu",
       "SHOW_TRANSLATION": "Parādīt tulkojumu",
       "PAGE_NUMBER": "lappuses numurs",
+      "PAGE_IN_PAPER_SONGBOOK": "Lappuse drukātajā dziesmu grāmatā",
       "NEXT": "Nākošais",
       "AUDIO_CAPTION": "Klausies audio:",
       "META_DESCRIPTION": "{title} — vaišnavu dziesma ar vārdiem, tulkojumu latviešu valodā un skaidrojumu vārdu pa vārdam. Autors — {author}. No grāmatas «{book}».",
@@ -151,6 +162,16 @@
         "DESCRIPTION": "Browse an alphabetical index of Vaishnava bhajans and kirtans."
       },
       "LINK_FULL_TITLE": "Index of first lines"
+    },
+    "AUDIO_PAGE": {
+      "HEAD": {
+        "DESCRIPTION": "Kirtan audio recordings"
+      },
+      "SCHEMA": {
+        "NAME": "Vaishnava Songbook – Kirtan audio recordings",
+        "DESCRIPTION": "Listen to audio recordings of Vaishnava bhajans and kirtans."
+      },
+      "LINK_FULL_TITLE": "Kirtan audio recordings"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -227,8 +248,9 @@
       "SHARE_SONG": "Share song",
       "SHOW_TRANSLATION": "Show verses / translation",
       "PAGE_NUMBER": "page number",
+      "PAGE_IN_PAPER_SONGBOOK": "Page in paper songbook",
       "NEXT": "Next",
-      "AUDIO_CAPTION": "Listen audio:",
+      "AUDIO_CAPTION": "Listen to recordings:",
       "META_DESCRIPTION": "{title} — a Vaiṣṇava song by {author} with lyrics, English translation and word-by-word meaning. From {book}.",
       "META_DESCRIPTION_NO_AUTHOR": "{title} — a Vaiṣṇava song with lyrics, English translation and word-by-word meaning. From {book}."
     },
@@ -293,6 +315,16 @@
         "DESCRIPTION": "Explora un índice alfabético de bhajans y kirtans Vaishnavas."
       },
       "LINK_FULL_TITLE": "Índice de primeras líneas"
+    },
+    "AUDIO_PAGE": {
+      "HEAD": {
+        "DESCRIPTION": "Grabaciones de audio de kirtans"
+      },
+      "SCHEMA": {
+        "NAME": "Cancionero Vaishnava – Grabaciones de audio de kirtans",
+        "DESCRIPTION": "Escucha grabaciones de audio de bhajans y kirtans vaishnavas."
+      },
+      "LINK_FULL_TITLE": "Grabaciones de audio de kirtans"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -369,6 +401,7 @@
       "SHARE_SONG": "Compartir canción",
       "SHOW_TRANSLATION": "Mostrar traducción",
       "PAGE_NUMBER": "número de página",
+      "PAGE_IN_PAPER_SONGBOOK": "Página en el cancionero impreso",
       "NEXT": "Próxima",
       "AUDIO_CAPTION": "Escuchar audio:",
       "META_DESCRIPTION": "{title} — una canción vaiṣṇava de {author} con letra, traducción al español y significado palabra por palabra. Del libro «{book}».",
@@ -435,6 +468,16 @@
         "DESCRIPTION": "Просмотрите алфавитный индекс вайшнавских бхаджанов и киртанов."
       },
       "LINK_FULL_TITLE": "Указатель первых строк"
+    },
+    "AUDIO_PAGE": {
+      "HEAD": {
+        "DESCRIPTION": "Аудиозаписи киртанов"
+      },
+      "SCHEMA": {
+        "NAME": "Вайшнавский песенник – Аудиозаписи киртанов",
+        "DESCRIPTION": "Слушайте аудиозаписи вайшнавских бхаджанов и киртанов."
+      },
+      "LINK_FULL_TITLE": "Аудиозаписи киртанов"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -511,6 +554,7 @@
       "SHARE_SONG": "Поделиться песней",
       "SHOW_TRANSLATION": "Показывать стихи / перевод",
       "PAGE_NUMBER": "номер страницы",
+      "PAGE_IN_PAPER_SONGBOOK": "Страница в печатном песеннике",
       "NEXT": "Следующий",
       "AUDIO_CAPTION": "Слушать аудио:",
       "META_DESCRIPTION": "{title} — вайшнавская песня с текстом, русским переводом и пословным разбором. Автор — {author}. Из сборника «{book}».",
@@ -587,9 +631,19 @@
       },
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник А-Я",
-        "DESCRIPTION": "Алфавітний покажчик вайшнавських бхаджанів та кіртанів."
+        "DESCRIPTION": "Алфавітний покажчик вайшнавських бгаджанів та кіртанів."
       },
       "LINK_FULL_TITLE": "Покажчик перших рядків"
+    },
+    "AUDIO_PAGE": {
+      "HEAD": {
+        "DESCRIPTION": "Аудіозаписи кіртанів"
+      },
+      "SCHEMA": {
+        "NAME": "Вайшнавський пісенник – Аудіозаписи кіртанів",
+        "DESCRIPTION": "Слухайте аудіозаписи вайшнавських бгаджанів і кіртанів."
+      },
+      "LINK_FULL_TITLE": "Аудіозаписи кіртанів"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -597,7 +651,7 @@
       },
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник – Автори",
-        "DESCRIPTION": "Дізнайтеся про авторів вайшнавських бхаджанів та кіртанів."
+        "DESCRIPTION": "Дізнайтеся про авторів вайшнавських бгаджанів та кіртанів."
       },
       "LINK_FULL_TITLE": "Пісні по авторам",
       "UNKNOWN_AUTHOR": "Невідомий автор"
@@ -645,7 +699,7 @@
       },
       "SCHEMA": {
         "NAME": "Пошук – Вайшнавський пісенник",
-        "DESCRIPTION": "Шукайте вайшнавські бхаджани, кіртани та переклади."
+        "DESCRIPTION": "Шукайте вайшнавські бгаджани, кіртани та переклади."
       },
       "CLEAR": "Відчистити",
       "FIND": "Знайти",
@@ -666,6 +720,7 @@
       "SHARE_SONG": "Поділитися піснею",
       "SHOW_TRANSLATION": "Показувати вірші / переклад",
       "PAGE_NUMBER": "номер сторінки",
+      "PAGE_IN_PAPER_SONGBOOK": "Сторінка у друкованому пісеннику",
       "NEXT": "Наступний",
       "AUDIO_CAPTION": "Слухати аудіо:",
       "META_DESCRIPTION": "{title} — вайшнавська пісня з текстом, українським перекладом і послівним розбором. Автор — {author}. Зі збірки «{book}».",
@@ -746,6 +801,16 @@
       },
       "LINK_FULL_TITLE": "Índice de primeiras linhas"
     },
+    "AUDIO_PAGE": {
+      "HEAD": {
+        "DESCRIPTION": "Gravações de áudio de kirtans"
+      },
+      "SCHEMA": {
+        "NAME": "Cancioneiro Vaishnava – Gravações de áudio de kirtans",
+        "DESCRIPTION": "Ouça gravações de áudio de bhajans e kirtans vaishnavas."
+      },
+      "LINK_FULL_TITLE": "Gravações de áudio de kirtans"
+    },
     "AUTHORS_PAGE": {
       "HEAD": {
         "DESCRIPTION": "Lista de autores"
@@ -821,6 +886,7 @@
       "SHARE_SONG": "Compartilhar canção",
       "SHOW_TRANSLATION": "Mostrar tradução",
       "PAGE_NUMBER": "número da página",
+      "PAGE_IN_PAPER_SONGBOOK": "Página no cancioneiro impresso",
       "NEXT": "Próximo",
       "AUDIO_CAPTION": "Ouvir áudio:",
       "META_DESCRIPTION": "{title} — uma canção vaiṣṇava de {author} com letra, tradução em português e significado palavra por palavra. Do livro «{book}».",

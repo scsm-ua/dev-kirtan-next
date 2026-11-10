@@ -3,6 +3,7 @@
 import './PageNumber.scss';
 import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { usePageQuery } from '@/other/hooks/usePageQuery';
+import { translate } from '@/other/i18n';
 
 /**/
 type Props = {
@@ -39,7 +40,12 @@ function PageNumber({ bookId, label, page }: Props) {
       <a href={href} className="PageNumber__anchor">
         {label}
       </a>{' '}
-      <span className="PageNumber__value">{text}</span>
+      <span
+        className="PageNumber__value"
+        title={translate(bookId, 'SONG_PAGE.PAGE_IN_PAPER_SONGBOOK')}
+      >
+        {text}
+      </span>
     </div>
   );
 }

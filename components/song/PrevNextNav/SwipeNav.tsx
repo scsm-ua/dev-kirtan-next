@@ -101,8 +101,12 @@ export function SwipeNav({ prevNext }: Props) {
     let startX = 0;
     let startY = 0;
     let lock: 'horizontal' | 'vertical' | null = null;
+    let ignoreGesture = false;
 
     const onStart = (e: TouchEvent) => {
+      // Prevent navigation on player seek.
+      ignoreGesture = e.target instanceof Element && e.target.closest('[role="slider"]') !== null;
+      if (ignoreGesture) return;
       startX = e.touches[0].clientX;
       startY = e.touches[0].clientY;
       lock = null;
@@ -110,6 +114,7 @@ export function SwipeNav({ prevNext }: Props) {
     };
 
     const onMove = (e: TouchEvent) => {
+      if (ignoreGesture) return;
       if (document.body.style.overflow === 'hidden') return;
       const dx = e.touches[0].clientX - startX;
       const dy = e.touches[0].clientY - startY;
@@ -141,6 +146,10 @@ export function SwipeNav({ prevNext }: Props) {
     };
 
     const onEnd = () => {
+      if (ignoreGesture) {
+        ignoreGesture = false;
+        return;
+      }
       const { direction, progress } = stateRef.current;
       lock = null;
 

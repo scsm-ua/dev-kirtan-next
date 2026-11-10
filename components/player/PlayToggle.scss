@@ -1,0 +1,52 @@
+.PlayToggle {
+  position: relative;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+  background: var(--brown);
+  cursor: pointer;
+  transition: background-color var(--transition-duration), color var(--transition-duration);
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    color: var(--accent-color);
+  }
+
+  &--playing {
+    color: var(--brown);
+    background: var(--accent-color);
+
+    &:hover {
+      color: var(--brown);
+    }
+  }
+
+  // Spinner ring around the button.
+  &--loading::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: var(--accent-color);
+    animation: PlayToggle-spin 0.8s linear infinite;
+  }
+
+  &--error {
+    background: #b3261e;
+  }
+}
+
+@keyframes PlayToggle-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

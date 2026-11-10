@@ -2,18 +2,20 @@ import './ContentGroup.scss';
 import ContentItem from '@/components/contents/ContentItem';
 import GroupTitle from '@/components/contents/GroupTitle';
 
-import { TContentGroup, TContentItem } from '@/types/common';
+import type { ReactNode } from 'react';
+import { TContentItem } from '@/types/common';
 
 /**/
-type Props = {
+type Props<T> = {
   bookId: string;
-  group: TContentGroup;
+  group: { name?: string; items: Array<T> };
+  renderItem?: (item: T, index: number) => ReactNode;
 };
 
 /**
  *
  */
-function ContentGroup({ bookId, group }: Props) {
+function ContentGroup<T = TContentItem>({ bookId, group, renderItem }: Props<T>) {
   const id = `section-${group.name}`;
 
   return (
@@ -29,13 +31,17 @@ function ContentGroup({ bookId, group }: Props) {
       )}
 
       <ul className="ContentGroup__list">
-        {group.items.map((item: TContentItem, index: number) => (
-          <ContentItem
-            bookId={bookId}
-            item={item}
-            key={`${bookId}-${index}`}
-          />
-        ))}
+        {group.items.map((item: T, index: number) =>
+          renderItem ? (
+            renderItem(item, index)
+          ) : (
+            <ContentItem
+              bookId={bookId}
+              item={item as TContentItem}
+              key={`${bookId}-${index}`}
+            />
+          )
+        )}
       </ul>
     </li>
   );

@@ -1,4 +1,5 @@
 @use '@/styles/mixins' as m;
+@use '@/styles/variables' as v;
 
 .FooterItem {
   display: flex;
@@ -6,11 +7,48 @@
   max-width: 120px;
   flex-direction: column;
   align-items: center;
-  padding: 6px 4px 0px 4px;
+  padding: 6px 4px;
   cursor: pointer;
+
+  // Wide horizontal footer: show the full label in place of the short one.
+  @media (min-width: #{v.$bp576}px) {
+    flex: 1 1 0;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+
+    .FooterItem__label {
+      display: none;
+    }
+
+    .FooterItem__tooltip {
+      display: block;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 16px;
+      text-align: center;
+      color: var(--mid-gray);
+      transition: color var(--transition-duration);
+    }
+
+    &.FooterItem--active .FooterItem__tooltip {
+      color: var(--orange);
+    }
+
+    @media (hover: hover) {
+      &:hover:not(.FooterItem--disabled) .FooterItem__tooltip {
+        color: #FFF;
+      }
+    }
+  }
 
   @include m.sidebar-mode {
     position: relative;
+    flex: none;
     width: 100%;
     max-width: none;
     padding: 10px 4px;
@@ -21,6 +59,8 @@
 
     .FooterItem__tooltip {
       display: block;
+      max-width: none;
+      overflow: visible;
       position: absolute;
       left: calc(100% + 10px);
       top: 50%;
@@ -39,20 +79,40 @@
       margin-bottom: 0;
     }
 
-    &:hover .FooterItem__tooltip {
+    &.FooterItem--active .FooterItem__tooltip {
+      color: #fff;
+    }
+
+    &:hover .FooterItem__tooltip,
+    &:focus-visible .FooterItem__tooltip {
       opacity: 1;
       transform: translateY(-50%) translateX(0);
     }
   }
 
-  &:hover:not(.FooterItem--disabled) .FooterItem__label {
-    color: #FFF;
+  // Avoid sticky hover color after a tap on touch screens.
+  @media (hover: hover) {
+    &:hover:not(.FooterItem--disabled) .FooterItem__label {
+      color: #FFF;
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--orange);
+    outline-offset: -2px;
+    border-radius: 8px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .FooterItem__tooltip {
+      transition: none;
+    }
   }
 
   &__icon {
-    font-size: 20px;
+    font-size: 24px;
     color: #FFF;
-    padding: 10px;
+    padding: 6px;
 
     .FooterItem--active & {
       color: var(--orange);
@@ -60,10 +120,10 @@
   }
 
   &__label {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    color: var(--dark-gray);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--mid-gray);
     transition: color var(--transition-duration);
 
     .FooterItem--active & {

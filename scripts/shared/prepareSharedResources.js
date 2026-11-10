@@ -5,7 +5,7 @@ const { CONST } = require('../constants');
 const { readFile, writeFile } = require('../ioHelpers');
 
 /**
- * @typedef {{ [personId: string]: I18n }} PersonsMap
+ * @typedef {{ [personId: string]: Person }} PersonsMap
  */
 
 /**
@@ -42,7 +42,7 @@ function prepareSharedResources() {
 
   /** @type {PersonsMap} */
   const personsMap = {};
-  persons.forEach(({ id, i18n }) => (personsMap[id] = i18n));
+  persons.forEach((person) => (personsMap[person.id] = person));
 
   /** @type {{ [songSlug: string]: ImageRaw }} */
   const images = {};
@@ -97,13 +97,12 @@ function writeImagesMeta(outputDir, images) {
 function handleAudio(audioArr, personsMap) {
   if (!audioArr) return;
 
-  return audioArr
-    .sort((a) => (a.title.includes('Dev-Goswami') ? -1 : 1))
-    .map((a) => ({
+  return audioArr.map((a) => ({
       ...a,
       // Person id is needed to support filtering audio by title.
       personId: a.title,
-      title: personsMap[a.title]
+      personSlug: personsMap[a.title].slug,
+      title: personsMap[a.title].i18n
     }));
 }
 
