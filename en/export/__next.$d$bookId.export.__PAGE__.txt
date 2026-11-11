@@ -3,7 +3,7 @@
 6:I[5207,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf1f67,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf1f61,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -214,7 +214,7 @@
 <p class="toc-item" data-translated="1"><a href="#song-shiuno-he-rasika-jon-krishna-guna-aganon">Guṇa-kīrtana<span class="page-num"> — 277</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-shri-rupa-manjari-pada-sei-mora-sampada">Śrī-Rūpa-Mañjarī-pada<span class="page-num"> — 279</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radhika-charana-padma-sakala-shreyera">Śrī Rādhāṣṭaka – Kīrtan One<span class="page-num"> — 282</span></a></p>
-<p class="toc-item" data-translated="1"><a href="#song-virajara-pare-shiuddha-paravyoma-dhama">Śrī Rādhāṣṭaka – Kīrtan Two<span class="page-num"> — 283</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-virajar-pare-shiuddha-paravyoma-dham">Śrī Rādhāṣṭaka – Kīrtan Two<span class="page-num"> — 283</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radha-bhajane-jodi-moti-nahi-bhela">Śrī Rādhāṣṭaka – Kīrtan Eight<span class="page-num"> — 284</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radhakundatata-kunjakutira">Rādhā-kuṇḍataṭa-kuñja-kuṭīra<span class="page-num"> — 286</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">Śrī Śrī Rādhikā-stutiḥ<span class="page-num"> — 287</span></a></p>
@@ -9345,7 +9345,7 @@ This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In
 <p class="translation">Having given up wealth, followers, wife, children, family, and friends, material activities, and intellectual knowledge, one should become absorbed in the divine sweetness of service to the lotus feet of Śrī Rādhā as one of Her maidservants in madhura-rasa. This is Bhakti Vinod’s solemn declaration.</p>
 </div>
 </section>
-<section class="song" id="song-virajara-pare-shiuddha-paravyoma-dhama" data-translated="1">
+<section class="song" id="song-virajar-pare-shiuddha-paravyoma-dham" data-translated="1">
 <div class="verse-block" data-number="1">
 <h2>Śrī Rādhāṣṭaka <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <h3>Kīrtan Two</h3>
@@ -11234,7 +11234,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">vande ’haṁ śrī-guroḥ śrī-yuta-pada-kamalaṁ<span class="page-num"> — 15</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vibhavari-shiesha-aloka-praveshia">vibhāvarī śeṣa āloka praveśa<span class="page-num"> — 62</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vimala-hemajin-tanu-anupama-re">vimala hema jini tanu anupama re!<span class="page-num"> — 139</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-virajara-pare-shiuddha-paravyoma-dhama">virajāra pāre śuddha paravyoma-dhāma<span class="page-num"> — 283</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-virajar-pare-shiuddha-paravyoma-dham">virajāra pāre śuddha paravyoma-dhāma<span class="page-num"> — 283</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-vrindayai-tulasi-devyai">vṛndāyai tulasī-devyai<span class="page-num"> — 26</span></a></p>
 <h2 class="first-line-group">Y</h2>
 <p class="first-line" data-translated="1"><a href="#song-yabe-rupa-sanatana-vraje-gela-dui-jana">yabe rūpa-sanātana vraje gelā dui jana<span class="page-num"> — 290</span></a></p>
@@ -11248,7 +11248,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"HvDaCxfLY3BAFTsh7iZf4"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"l6G5Qnq2ubt5cJi0LoYhK"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
