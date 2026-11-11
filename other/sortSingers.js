@@ -12,7 +12,7 @@ const SINGER_PRIORITIES = {
   'dev-goswami': 1,
   nabadwip: 2,
   maharaj: 3,
-  'kamal-krishna': 4
+  'kamal-krishna': 4,
   manasa: 5
 };
 
