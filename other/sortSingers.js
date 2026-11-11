@@ -12,7 +12,8 @@ const SINGER_PRIORITIES = {
   'dev-goswami': 1,
   nabadwip: 2,
   maharaj: 3,
-  manasa: 4,
+  'kamal-krishna': 4
+  manasa: 5
 };
 
 const DEFAULT_SINGER_PRIORITY = Math.max(...Object.values(SINGER_PRIORITIES)) + 1;
