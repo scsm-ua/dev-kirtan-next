@@ -16,6 +16,7 @@
     "postbuild": "node scripts/postbuild.js",
     "install:fetch": "node scripts/shared/installShared.js && node scripts/shared/fetchTelegraphPages.js",
     "install:post-fetch": "node scripts/processSrc.js",
+    "generate-all-songs-json": "node scripts/createAllSongs.js",
     "validation": "node scripts/validate.js",
     "lint": "eslint",
     "type-check": "tsc --noEmit --pretty true"

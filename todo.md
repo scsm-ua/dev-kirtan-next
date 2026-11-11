@@ -1,8 +1,13 @@
+# Player
+
+next track hotkey (media button on keyboard)
+
+solve problem with duplicated tracks in all playlist (like Upadesamrita)
+
 # Todo
 
 - sonbgooks legacy songbooks section
 - en songbook link to https://scsmath.com/KirtanGuide/
-- import Manas Krishna recordings
 - contents (non song page) - SEO
 - another build and app js approach
 - ro songbook images
