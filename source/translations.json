@@ -11,14 +11,16 @@
       "LINK_FULL_TITLE": "Pirmo rindiņu rādītājs"
     },
     "AUDIO_PAGE": {
-      "HEAD": {
-        "DESCRIPTION": "Kīrtanu audioieraksti"
-      },
       "SCHEMA": {
         "NAME": "Vaišnavu dziesmu krājums – Kīrtanu audioieraksti",
-        "DESCRIPTION": "Klausies vaišnavu bhadžanu un kīrtanu audioierakstus."
+        "DESCRIPTION": "Klausieties vaišnavu bhadžanu un kīrtanu audioierakstus."
       },
-      "LINK_FULL_TITLE": "Kīrtanu audioieraksti"
+      "LINK_FULL_TITLE": "Kīrtanu audioieraksti",
+      "SHOW_FIRST_LINES": "Pirmās rindiņas",
+      "SHOW_TITLES": "Nosaukumi",
+      "SHOW_SHUFFLE": "Jaukti",
+      "ALL_RECORDINGS": "Visi ieraksti",
+      "SHOW_ALL": "Rādīt visus"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -164,14 +166,16 @@
       "LINK_FULL_TITLE": "Index of first lines"
     },
     "AUDIO_PAGE": {
-      "HEAD": {
-        "DESCRIPTION": "Kirtan audio recordings"
-      },
       "SCHEMA": {
         "NAME": "Vaishnava Songbook – Kirtan audio recordings",
         "DESCRIPTION": "Listen to audio recordings of Vaishnava bhajans and kirtans."
       },
-      "LINK_FULL_TITLE": "Kirtan audio recordings"
+      "LINK_FULL_TITLE": "Kirtan audio recordings",
+      "SHOW_FIRST_LINES": "First Lines",
+      "SHOW_TITLES": "Titles",
+      "SHOW_SHUFFLE": "Shuffle",
+      "ALL_RECORDINGS": "All recordings",
+      "SHOW_ALL": "Show all"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -317,14 +321,16 @@
       "LINK_FULL_TITLE": "Índice de primeras líneas"
     },
     "AUDIO_PAGE": {
-      "HEAD": {
-        "DESCRIPTION": "Grabaciones de audio de kirtans"
-      },
       "SCHEMA": {
         "NAME": "Cancionero Vaishnava – Grabaciones de audio de kirtans",
         "DESCRIPTION": "Escucha grabaciones de audio de bhajans y kirtans vaishnavas."
       },
-      "LINK_FULL_TITLE": "Grabaciones de audio de kirtans"
+      "LINK_FULL_TITLE": "Grabaciones de audio de kirtans",
+      "SHOW_FIRST_LINES": "Primeras líneas",
+      "SHOW_TITLES": "Títulos",
+      "SHOW_SHUFFLE": "Aleatorio",
+      "ALL_RECORDINGS": "Todas las grabaciones",
+      "SHOW_ALL": "Mostrar todo"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -470,14 +476,16 @@
       "LINK_FULL_TITLE": "Указатель первых строк"
     },
     "AUDIO_PAGE": {
-      "HEAD": {
-        "DESCRIPTION": "Аудиозаписи киртанов"
-      },
       "SCHEMA": {
         "NAME": "Вайшнавский песенник – Аудиозаписи киртанов",
         "DESCRIPTION": "Слушайте аудиозаписи вайшнавских бхаджанов и киртанов."
       },
-      "LINK_FULL_TITLE": "Аудиозаписи киртанов"
+      "LINK_FULL_TITLE": "Аудиозаписи киртанов",
+      "SHOW_FIRST_LINES": "Первые строки",
+      "SHOW_TITLES": "Названия",
+      "SHOW_SHUFFLE": "Вперемешку",
+      "ALL_RECORDINGS": "Все записи",
+      "SHOW_ALL": "Показать все"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -636,14 +644,16 @@
       "LINK_FULL_TITLE": "Покажчик перших рядків"
     },
     "AUDIO_PAGE": {
-      "HEAD": {
-        "DESCRIPTION": "Аудіозаписи кіртанів"
-      },
       "SCHEMA": {
         "NAME": "Вайшнавський пісенник – Аудіозаписи кіртанів",
         "DESCRIPTION": "Слухайте аудіозаписи вайшнавських бгаджанів і кіртанів."
       },
-      "LINK_FULL_TITLE": "Аудіозаписи кіртанів"
+      "LINK_FULL_TITLE": "Аудіозаписи кіртанів",
+      "SHOW_FIRST_LINES": "Перші рядки",
+      "SHOW_TITLES": "Назви",
+      "SHOW_SHUFFLE": "Впереміш",
+      "ALL_RECORDINGS": "Усі записи",
+      "SHOW_ALL": "Показати всі"
     },
     "AUTHORS_PAGE": {
       "HEAD": {
@@ -802,14 +812,16 @@
       "LINK_FULL_TITLE": "Índice de primeiras linhas"
     },
     "AUDIO_PAGE": {
-      "HEAD": {
-        "DESCRIPTION": "Gravações de áudio de kirtans"
-      },
       "SCHEMA": {
         "NAME": "Cancioneiro Vaishnava – Gravações de áudio de kirtans",
         "DESCRIPTION": "Ouça gravações de áudio de bhajans e kirtans vaishnavas."
       },
-      "LINK_FULL_TITLE": "Gravações de áudio de kirtans"
+      "LINK_FULL_TITLE": "Gravações de áudio de kirtans",
+      "SHOW_FIRST_LINES": "Primeiras linhas",
+      "SHOW_TITLES": "Títulos",
+      "SHOW_SHUFFLE": "Aleatório",
+      "ALL_RECORDINGS": "Todas as gravações",
+      "SHOW_ALL": "Mostrar tudo"
     },
     "AUTHORS_PAGE": {
       "HEAD": {

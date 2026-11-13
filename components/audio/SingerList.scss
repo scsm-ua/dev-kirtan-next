@@ -8,12 +8,40 @@
     padding: 0;
   }
 
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-left: 3px solid transparent;
+    transition: border-color 0.25s;
+
+    &--active {
+      border-left-color: var(--accent-color);
+    }
+
+    > .SingerList__link {
+      flex: 1;
+      min-width: 0;
+    }
+  }
+
+  &__play.PlayToggle {
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    font-size: 12px;
+
+    &.PlayToggle--loading::after {
+      inset: -2px;
+      border-width: 1px;
+    }
+  }
+
   &__link {
     display: flex;
     align-items: baseline;
     gap: 12px;
     padding: 8px 12px;
-    border-left: 3px solid transparent;
     color: var(--dark-gray);
     line-height: 24px;
     transition: color 0.25s, border-color 0.25s;
@@ -23,7 +51,6 @@
     }
 
     &--active {
-      border-left-color: var(--accent-color);
       color: var(--title-color);
       font-weight: 700;
     }
@@ -36,5 +63,79 @@
   &__count {
     font-weight: 400;
     color: var(--gray);
+  }
+
+  &__item--extra {
+    overflow: hidden;
+    max-height: 200px;
+    transition: max-height 0.35s ease, opacity 0.35s ease, visibility 0s;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  // visibility keeps collapsed rows out of the tab order once the fade ends.
+  &__collapse:not(&__collapse--expanded) &__item--extra {
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.35s ease, opacity 0.35s ease, visibility 0s 0.35s;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  // Removed instantly: animating it alongside the rows makes the content below bounce.
+  &__more {
+    padding: 16px 4px 0px;
+
+    .SingerList__collapse--expanded > & {
+      display: none;
+    }
+  }
+
+  // Pill button matching the PlaylistSort segmented control.
+  &__showAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 30px;
+    margin: 0 auto;
+    padding: 0 16px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--btn-bg);
+    color: var(--text-color);
+    font: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: opacity 0.2s, color 0.2s;
+
+    @media (hover: hover) {
+      &:hover,
+      &:hover .SingerList__showAllCount {
+        color: var(--accent-color);
+      }
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--link-color);
+      outline-offset: 2px;
+    }
+  }
+
+  &__showAllIcon {
+    font-size: 16px;
+    transform: rotate(90deg);
   }
 }

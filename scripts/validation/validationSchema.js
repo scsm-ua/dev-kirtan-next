@@ -52,18 +52,8 @@ const TRANSLATION_VALIDATION_SCHEMA = {
     AUDIO_PAGE: {
       type: 'object',
       additionalProperties: false,
-      required: ['HEAD', 'SCHEMA', 'LINK_FULL_TITLE'],
+      required: ['SCHEMA', 'LINK_FULL_TITLE', 'SHOW_FIRST_LINES', 'SHOW_TITLES', 'SHOW_SHUFFLE', 'ALL_RECORDINGS', 'SHOW_ALL'],
       properties: {
-        HEAD: {
-          type: 'object',
-          additionalProperties: false,
-          required: ['DESCRIPTION'],
-          properties: {
-            DESCRIPTION: {
-              type: 'string'
-            }
-          }
-        },
         SCHEMA: {
           type: 'object',
           additionalProperties: false,
@@ -77,7 +67,12 @@ const TRANSLATION_VALIDATION_SCHEMA = {
             }
           }
         },
-        LINK_FULL_TITLE: { type: 'string' }
+        LINK_FULL_TITLE: { type: 'string' },
+        SHOW_FIRST_LINES: { type: 'string' },
+        SHOW_TITLES: { type: 'string' },
+        SHOW_SHUFFLE: { type: 'string' },
+        ALL_RECORDINGS: { type: 'string' },
+        SHOW_ALL: { type: 'string' }
       }
     },
     AUTHORS_PAGE: {

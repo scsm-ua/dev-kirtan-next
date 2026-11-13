@@ -81,14 +81,21 @@ export function getSingers(bookId: string): Array<TSinger> {
 }
 
 /**
- * Flat playlist of one singer's recordings, sorted by song first line.
+ * Flat playlist of one singer's recordings (all recordings when `singerId` is omitted),
+ * sorted by song first line. `order` keeps the contents position for the client-side title sort.
  */
-export function getSingerTracks(bookId: string, singerId: string): Array<TAudioTrack> {
+export function getSingerTracks(bookId: string, singerId?: string): Array<TAudioTrack> {
   const tracks: Array<TAudioTrack> = [];
 
   forEachRecording(bookId, (item, audio) => {
-    if (audio.personSlug !== singerId) return;
-    tracks.push({ item, label: item.aliasName || item.title, url: audio.embed_url });
+    if (singerId && audio.personSlug !== singerId) return;
+    tracks.push({
+      item,
+      label: item.aliasName || item.title,
+      order: tracks.length,
+      singerName: audio.title,
+      url: audio.embed_url
+    });
   });
 
   return tracks.sort((a, b) => compareFirstLines(a.label, b.label));

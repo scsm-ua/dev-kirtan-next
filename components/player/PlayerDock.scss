@@ -57,9 +57,23 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    cursor: pointer;
 
     @include m.breakpoint($min: v.$bp768) {
       font-size: 14px;
+    }
+  }
+
+  &__marquee {
+    display: inline-block;
+  }
+
+  &__title--scroll &__marquee {
+    text-align: left;
+    animation: player-dock-marquee var(--marquee-duration) linear infinite alternate;
+
+    @media (prefers-reduced-motion: reduce) {
+      animation: none;
     }
   }
 
@@ -81,7 +95,24 @@
 
       .PlayerDock__title {
         grid-column: 1;
+        line-height: 20px;
         text-align: left;
+      }
+
+      .PlayerDock__marquee {
+        display: contents;
+        animation: none;
+      }
+
+      .PlayerDock__name,
+      .PlayerDock__subtitle {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .PlayerDock__sep {
+        display: none;
       }
 
       .PlayerDock__action {
@@ -235,5 +266,17 @@
 
   @media print {
     display: none;
+  }
+}
+
+@keyframes player-dock-marquee {
+  0%,
+  12% {
+    transform: translateX(0);
+  }
+
+  88%,
+  100% {
+    transform: translateX(calc(-1 * var(--marquee-distance)));
   }
 }

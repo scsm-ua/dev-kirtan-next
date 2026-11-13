@@ -2,7 +2,6 @@ import './AudioPage.scss';
 import '@/styles/index-page.scss';
 
 import Playlist from '@/components/audio/Playlist';
-import ScrollToPlaylist from '@/components/audio/ScrollToPlaylist';
 import SingerList from '@/components/audio/SingerList';
 import { translate } from '@/other/i18n';
 
@@ -26,14 +25,15 @@ function AudioPage({ bookId, singers, selected, tracks }: Props) {
 
       <SingerList bookId={bookId} selectedId={selected?.id} singers={singers} />
 
-      {selected && tracks && (
+      {tracks && (
         <section className="AudioPage__playlist" id="audio-playlist">
-          <ScrollToPlaylist />
           <header className="AudioPage__header">
-            <h2 className="AudioPage__singer">{selected.name}</h2>
+            <h2 className="AudioPage__singer">
+              {selected?.name ?? translate(bookId, 'AUDIO_PAGE.ALL_RECORDINGS')}
+            </h2>
           </header>
 
-          <Playlist bookId={bookId} singerName={selected.name} tracks={tracks} />
+          <Playlist bookId={bookId} showSinger={!selected} tracks={tracks} />
         </section>
       )}
     </>

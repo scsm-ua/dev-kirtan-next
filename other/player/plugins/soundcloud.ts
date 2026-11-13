@@ -25,6 +25,66 @@ let apiPromise: Promise<void> | null = null;
 let widgetPromise: Promise<TScWidget> | null = null;
 let owner: SoundCloudAdapter | null = null;
 
+/*
+ * Browsers route media keys to the frame that plays audio, i.e. the widget
+ * iframe. An inaudible looping <audio> in this document keeps the page's own
+ * Media Session (title, next/prev handlers) in charge.
+ */
+let anchor: HTMLAudioElement | null = null;
+let claimTimer: ReturnType<typeof setTimeout> | undefined;
+
+/**/
+function createSilentWavUrl(): string {
+  const sampleRate = 8000;
+  // Chrome gives no media controls to sounds shorter than 5 seconds.
+  const dataSize = sampleRate * 6 * 2;
+  const buffer = new ArrayBuffer(44 + dataSize);
+  const view = new DataView(buffer);
+  const writeTag = (offset: number, tag: string) => {
+    for (let i = 0; i < tag.length; i++) view.setUint8(offset + i, tag.charCodeAt(i));
+  };
+
+  // 16-bit mono PCM header.
+  writeTag(0, 'RIFF');
+  view.setUint32(4, 36 + dataSize, true);
+  writeTag(8, 'WAVE');
+  writeTag(12, 'fmt ');
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  view.setUint16(22, 1, true);
+  view.setUint32(24, sampleRate, true);
+  view.setUint32(28, sampleRate * 2, true);
+  view.setUint16(32, 2, true);
+  view.setUint16(34, 16, true);
+  writeTag(36, 'data');
+  view.setUint32(40, dataSize, true);
+  // Constant non-zero level: no sound, but Firefox ignores digitally silent media.
+  new Int16Array(buffer, 44).fill(32);
+
+  return URL.createObjectURL(new Blob([buffer], { type: 'audio/wav' }));
+}
+
+/** Firefox and Safari follow the frame that started playing last: restart the anchor. */
+function claimMediaSession(): void {
+  if (!anchor || anchor.paused) return;
+  anchor.pause();
+  anchor.play().catch(() => {});
+}
+
+/** The anchor plays exactly while the owner is meant to be playing. */
+function syncAnchor(): void {
+  if (!owner?.wantPlay) {
+    anchor?.pause();
+    return;
+  }
+
+  if (!anchor) {
+    anchor = new Audio(createSilentWavUrl());
+    anchor.loop = true;
+  }
+  if (anchor.paused) anchor.play().catch(() => {});
+}
+
 /**/
 function loadApi(): Promise<void> {
   if (window.SC?.Widget) return Promise.resolve();
@@ -93,7 +153,7 @@ function createWidget(initialUrl: string): Promise<TScWidget> {
 class SoundCloudAdapter implements TPlayerAdapter {
   private widget: TScWidget | null = null;
   private loaded = false;
-  private wantPlay = false;
+  wantPlay = false;
   private pendingSeek = false;
   private position = 0;
   private duration: number | null = null;
@@ -105,16 +165,19 @@ class SoundCloudAdapter implements TPlayerAdapter {
 
     if (owner === this && this.loaded) {
       this.widget.play();
+      syncAnchor();
       return;
     }
 
     this.events.onStatus('loading');
     if (owner !== this) this.acquire();
+    syncAnchor();
   }
 
   pause(): void {
     this.wantPlay = false;
     if (owner === this && this.loaded) this.widget.pause();
+    syncAnchor();
     this.events.onStatus('paused');
   }
 
@@ -132,6 +195,7 @@ class SoundCloudAdapter implements TPlayerAdapter {
     if (owner !== this) return;
     owner = null;
     if (this.loaded) this.widget.pause();
+    syncAnchor();
   }
 
   /**/
@@ -153,7 +217,12 @@ class SoundCloudAdapter implements TPlayerAdapter {
       });
       if (this.wantPlay) widget.play();
     };
-    const onFail = (err: unknown) => owner === this && this.events.onError(err);
+    const onFail = (err: unknown) => {
+      if (owner !== this) return;
+      this.wantPlay = false;
+      syncAnchor();
+      this.events.onError(err);
+    };
 
     if (!widgetPromise) {
       widgetPromise = createWidget(this.url);
@@ -184,6 +253,11 @@ class SoundCloudAdapter implements TPlayerAdapter {
       this.widget.seekTo(this.position * 1000);
     }
     this.events.onStatus('playing');
+
+    claimMediaSession();
+    // Again later: the widget's sound may start after its PLAY event.
+    clearTimeout(claimTimer);
+    claimTimer = setTimeout(claimMediaSession, 2000);
   }
 
   handlePause(): void {
@@ -202,10 +276,15 @@ class SoundCloudAdapter implements TPlayerAdapter {
     this.position = this.duration ?? this.position;
     this.events.onProgress(this.position, this.duration);
     this.events.onEnded();
+    // After onEnded: auto-advance may already have started the next track.
+    syncAnchor();
   }
 
   handleError(): void {
-    if (this.loaded) this.events.onError();
+    if (!this.loaded) return;
+    this.wantPlay = false;
+    syncAnchor();
+    this.events.onError();
   }
 }
 

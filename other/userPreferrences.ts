@@ -1,5 +1,7 @@
 import { PREFERENCES } from '@/other/constants';
+import { AUDIO_SORT } from '@/types/audio';
 import { DEFAULT_WBW_MODE, VIEW_MODE, WBW_MODE } from '@/types/common';
+import type { TAudioSort } from '@/types/audio';
 import type { TViewMode, TWbwMode } from '@/types/common';
 
 /**
@@ -56,4 +58,20 @@ export function setSongWbwMode(value: TWbwMode) {
 /**/
 export function shouldShowHiddenBooks(): boolean {
   return !!localStorage.getItem(SHOW_HIDDEN_BOOKS);
+}
+
+/**/
+const AUDIO_SORT_KEY = 'AUDIO_SORT';
+
+/**
+ * Audio playlist sort; kept for the browser session only.
+ */
+export function getAudioSort(): TAudioSort {
+  const value = sessionStorage.getItem(AUDIO_SORT_KEY);
+  return value === AUDIO_SORT.TITLE || value === AUDIO_SORT.SHUFFLE ? value : AUDIO_SORT.FIRST_LINE;
+}
+
+/**/
+export function setAudioSort(value: TAudioSort) {
+  sessionStorage.setItem(AUDIO_SORT_KEY, value);
 }

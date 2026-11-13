@@ -33,3 +33,95 @@
     color: var(--dark-gray);
   }
 }
+
+// Segmented control (Apple HIG): equal-width segments, sliding thumb.
+.PlaylistSort {
+  --pad: 2px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 430px;
+  margin: 0 auto 16px;
+  padding: var(--pad);
+  border-radius: 999px;
+  background: var(--btn-bg);
+  font-size: 14px;
+  line-height: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: var(--pad);
+    bottom: var(--pad);
+    left: var(--pad);
+    width: calc((100% - 2 * var(--pad)) / 3);
+    border-radius: 999px;
+    background: var(--main-bg-color);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+
+  // Skipped for the restored choice on load; only user picks slide the thumb.
+  &--animated::before {
+    transition: transform var(--transition-duration) ease;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  &--second::before {
+    transform: translateX(100%);
+  }
+
+  &--third::before {
+    transform: translateX(200%);
+  }
+
+  &__option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    min-height: 30px;
+    padding: 0 8px;
+    cursor: pointer;
+  }
+
+  // Visually hidden, but still the focus and keyboard (arrow keys) target.
+  &__input {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  &__label {
+    overflow: hidden;
+    padding: 0 4px;
+    border-radius: 999px;
+    color: var(--text-color);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: color var(--transition-duration);
+  }
+
+  &__input:checked + &__label {
+    color: var(--title-color);
+    font-weight: 700;
+  }
+
+  @media (hover: hover) {
+    &__input:not(:checked):hover + &__label {
+      color: var(--accent-color);
+    }
+  }
+
+  &__input:focus-visible + &__label {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+  }
+}

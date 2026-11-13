@@ -19,9 +19,9 @@ PlayerDock (fixed bar) ◄── snapshot ── PlayerManager (page-wide single
 
 - **Plugin** (`TPlayerSourcePlugin`): `type`, `match(url)`, `createAdapter(url, events)`, optional `getAction(url)` (link/download button in the dock). Registered in `plugins/index.ts` via `registerPlugin`; `detectType` iterates in reverse so later registrations win; fallback type is `audio`.
 - **Adapter** (`TPlayerAdapter`): `play/pause/seek/destroy`. **Must not touch the network until the first `play()`.** Reports through `TPlayerAdapterEvents` (`onStatus/onProgress/onEnded/onError`).
-- **`PlayerController`**: UI-agnostic store (`subscribe`/`getSnapshot` for `useSyncExternalStore`). Created once per widget, bound to the initial `source` (re-key the widget to change it).
-- **`PlayerManager`** (`playerManager`): tracks controllers, the single `active` one, `autoAdvance`, `playFirst/playNext/playPrev/clearActive`. Prev/next order is **DOM order** (`compareDocumentPosition` on `controller.element`) - there is no explicit playlist array.
-- **`usePlayer`**: creates the controller, subscribes to snapshot + `isActive`, registers/unregisters with the manager, calls `controller.destroy()` on unmount.
+- **`PlayerController`**: UI-agnostic store (`subscribe`/`getSnapshot` for `useSyncExternalStore`). Created once per widget, bound to the initial `source` (re-key the widget to change it). `title` follows the widget prop via `setTitle` (silent).
+- **`PlayerManager`** (`playerManager`): tracks controllers, the single `active` one, `autoAdvance`, `playFirst/playNext/playPrev/clearActive`. Prev/next order is **DOM order** (`compareDocumentPosition` on `controller.element`) - there is no explicit playlist array. Call `refresh()` after reordering widgets in the DOM or changing titles.
+- **`usePlayer`**: creates the controller, subscribes to snapshot + `isActive`, registers/unregisters with the manager, calls `controller.destroy()` on unmount. Teardown is deferred by a microtask and skipped if the effect set up again: dev StrictMode re-runs effects of keyed list items that React moves, which would otherwise kill playback on a reorder.
 
 ## Shared resources (keep it this way)
 

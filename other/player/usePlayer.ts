@@ -1,5 +1,5 @@
 'use client';
-import { RefObject, useEffect, useState, useSyncExternalStore } from 'react';
+import { RefObject, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 
 import { PlayerController } from '@/other/player/PlayerController';
 import { playerManager } from '@/other/player/PlayerManager';
@@ -33,16 +33,28 @@ export function usePlayer(
     () => false
   );
 
+  const mounted = useRef(false);
+
   useEffect(() => {
+    mounted.current = true;
     controller.setElement(ref.current);
     playerManager.register(controller);
 
     return () => {
-      playerManager.unregister(controller);
-      controller.destroy();
-      controller.setElement(null);
+      mounted.current = false;
+      // Dev StrictMode re-runs effects of reordered list items: skip teardown if set up again.
+      queueMicrotask(() => {
+        if (mounted.current) return;
+        playerManager.unregister(controller);
+        controller.destroy();
+        controller.setElement(null);
+      });
     };
   }, [controller, ref]);
+
+  useEffect(() => {
+    controller.setTitle(title);
+  }, [controller, title]);
 
   return { controller, snapshot, isActive };
 }

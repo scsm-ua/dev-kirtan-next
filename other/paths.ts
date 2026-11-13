@@ -89,6 +89,11 @@ export function getSongPathWithPage(
 }
 
 /**
+ * Query that makes the audio page start its first track on load.
+ */
+export const AUTOPLAY_PARAM = 'autoplay';
+
+/**
  * Absolute URL for sitemap/OG/JSON-LD: `https://origin/bn/a-z/`.
  */
 export function getAbsoluteUrl(path: string): string {

@@ -13,18 +13,22 @@ type Props = {
   title?: string;
   /** Shown only in the dock, after the title (e.g. the song title). */
   subtitle?: string;
+  /** Also render the subtitle after the title in the row, in grey. */
+  showSubtitleInline?: boolean;
   className?: string;
 };
 
 /**/
-function PlayerWidget({ source, title, subtitle, className }: Props) {
+function PlayerWidget({ source, title, subtitle, showSubtitleInline, className }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const { controller, snapshot, isActive } = usePlayer(source, title, ref, subtitle);
   const { status, position, duration } = snapshot;
+  const hasTwoRows = Boolean(title && showSubtitleInline && subtitle);
   const cls = classNames(
     'PlayerWidget',
     `PlayerWidget--${status}`,
     isActive && 'PlayerWidget--active',
+    hasTwoRows && 'PlayerWidget--twoRows',
     className
   );
 
@@ -39,7 +43,14 @@ function PlayerWidget({ source, title, subtitle, className }: Props) {
         status={status}
       />
 
-      {title && <p className="PlayerWidget__title">{title}</p>}
+      {hasTwoRows ? (
+        <div className="PlayerWidget__text">
+          <p className="PlayerWidget__title">{title}</p>
+          <p className="PlayerWidget__subtitle">{subtitle}</p>
+        </div>
+      ) : (
+        title && <p className="PlayerWidget__title">{title}</p>
+      )}
 
       {isActive && (
         <SeekBar

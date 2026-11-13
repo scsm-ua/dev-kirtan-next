@@ -24,13 +24,18 @@ export class PlayerController {
     this.element = element;
   }
 
+  /** Silent; call `playerManager.refresh()` to update the dock. */
+  setTitle(title?: string): void {
+    this.title = title;
+  }
+
   private adapter: TPlayerAdapter | null = null;
   private snapshot: TPlayerSnapshot = INITIAL;
   private listeners = new Set<() => void>();
 
   constructor(
     readonly source: TPlayerSource,
-    readonly title?: string,
+    public title?: string,
     readonly subtitle?: string
   ) {
     this.plugin = getPlugin(source.type ?? detectType(source.url));
