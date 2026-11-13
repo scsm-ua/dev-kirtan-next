@@ -37,6 +37,16 @@
     }
   }
 
+  // Selected singer's play button stays highlighted even when idle.
+  &__item--active &__play.PlayToggle:not(.PlayToggle--error) {
+    color: var(--brown);
+    background: var(--accent-color);
+
+    &:hover {
+      color: var(--brown);
+    }
+  }
+
   &__link {
     display: flex;
     align-items: baseline;

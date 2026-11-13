@@ -107,9 +107,7 @@ function getKeywords(song: TSong, authors?: Array<{ name: string }>): Array<stri
     keywords.push(authors[0].name);
   }
 
-  if (song.title?.length > 0) {
-    keywords.push(song.title[0]);
-  }
+  keywords.push(song.title[0]);
 
   return keywords;
 }

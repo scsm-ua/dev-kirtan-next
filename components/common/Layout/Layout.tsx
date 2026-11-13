@@ -8,6 +8,8 @@ import Header from '@/components/common/Header/Header';
 import { PATH } from '@/other/constants';
 import { ServiceWorkerRegistration } from '@/components/common/ServiceWorkerRegistration';
 
+import type { TAnalyticsPageType } from '@/other/analytics';
+
 /**
  *
  */
@@ -15,14 +17,16 @@ function Layout({
   bookId,
   children,
   className,
+  itemId,
   page,
-  songId
+  pageType
 }: Readonly<{
   bookId: string;
   children: React.ReactNode;
   className?: string;
+  itemId?: string;       // Analytics: song slug, page slug or singer id.
   page?: string | string[];
-  songId?: string;
+  pageType?: TAnalyticsPageType;
 }>) {
   const path = PATH.IMG.FAV;
   const cls = classNames('Main', className);
@@ -68,7 +72,7 @@ function Layout({
           <Footer bookId={bookId} page={page} />
         </div>
 
-        <GoogleAnalytics bookId={bookId} songId={songId} />
+        <GoogleAnalytics bookId={bookId} itemId={itemId} pageType={pageType} />
         <ServiceWorkerRegistration />
         <GlobalHotkeys bookId={bookId} />
       </body>

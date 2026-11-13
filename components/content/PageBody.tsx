@@ -1,6 +1,8 @@
 import ContentShell from '@/components/content/ContentShell';
 import PageView from '@/components/page/PageView/PageView';
 
+import { ITEM_TYPE } from '@/types/common';
+
 import type { TContentBodyProps } from '@/lib/content/handler';
 import type { TPage } from '@/types/page';
 
@@ -12,6 +14,7 @@ function PageBody({ book, bookId, data: page, nav, slug }: TContentBodyProps<TPa
     <ContentShell
       bookId={bookId}
       bookTitle={book.title}
+      itemType={ITEM_TYPE.PAGE}
       nav={nav}
       page={page.meta?.page}
       slug={slug}

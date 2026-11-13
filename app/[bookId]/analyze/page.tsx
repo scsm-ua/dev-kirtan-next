@@ -4,6 +4,7 @@ import AnalyzeTable from '@/components/analyze/AnalyzeTable';
 import { getAnalyzeData } from '@/lib/analyze';
 import { getBookIdParamList } from '@/lib/books';
 import Layout from '@/components/common/Layout/Layout';
+import { SONGBOOK_PAGE } from '@/other/paths';
 
 import type { BookListPageProps } from '@/types/book';
 
@@ -24,7 +25,7 @@ async function AnalyzePage({ params }: BookListPageProps) {
   const data = getAnalyzeData(bookId);
 
   return (
-    <Layout bookId={bookId}>
+    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.ANALYZE}>
       <div className="Main__container Analyze">
         <div className="Main__content">
           <AnalyzeTable data={data} />

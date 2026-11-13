@@ -3,7 +3,7 @@ import { RefObject, useEffect, useRef, useState, useSyncExternalStore } from 're
 
 import { PlayerController } from '@/other/player/PlayerController';
 import { playerManager } from '@/other/player/PlayerManager';
-import type { TPlayerSnapshot, TPlayerSource } from '@/types/player';
+import type { TPlayerSnapshot, TPlayerSource, TPlayerTrackInfo } from '@/types/player';
 
 /**/
 const noopSubscribe = () => () => {};
@@ -23,9 +23,12 @@ export function usePlayer(
   source: TPlayerSource,
   title: string | undefined,
   ref: RefObject<HTMLElement | null>,
-  subtitle?: string
+  subtitle?: string,
+  trackInfo?: TPlayerTrackInfo
 ) {
-  const [controller] = useState(() => new PlayerController(source, title, subtitle));
+  const [controller] = useState(
+    () => new PlayerController(source, title, subtitle, trackInfo)
+  );
   const snapshot = useControllerSnapshot(controller);
   const isActive = useSyncExternalStore(
     playerManager.subscribe,
@@ -53,8 +56,8 @@ export function usePlayer(
   }, [controller, ref]);
 
   useEffect(() => {
-    controller.setTitle(title);
-  }, [controller, title]);
+    controller.setTitle(title, subtitle);
+  }, [controller, title, subtitle]);
 
   return { controller, snapshot, isActive };
 }

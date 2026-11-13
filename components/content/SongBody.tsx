@@ -9,6 +9,7 @@ import SongShare from '@/components/song/SongShare/SongShare';
 import SongText from '@/components/song/SongText/SongText';
 import { getBookDescriptionsByBook, getTelegraphUrl } from '@/lib/song';
 import { getBooksMap } from '@/lib/books';
+import { ITEM_TYPE } from '@/types/common';
 import { translate } from '@/other/i18n';
 
 import type { TContentBodyProps } from '@/lib/content/handler';
@@ -64,7 +65,7 @@ async function SongBody({
         <>
           {song.resources?.image && (
             <SongImage
-              alt={song.title?.join(' ') ?? ''}
+              alt={song.title.join(' ')}
               image={song.resources.image}
             />
           )}
@@ -72,6 +73,7 @@ async function SongBody({
           <SongHeader bookId={bookId} song={song} />
         </>
       }
+      itemType={ITEM_TYPE.SONG}
       nav={nav}
       page={song.meta?.page}
       slug={slug}
@@ -87,7 +89,7 @@ async function SongBody({
           audio={song.resources?.audio}
           bookId={bookId}
           caption={translate(bookId, 'SONG_PAGE.AUDIO_CAPTION')}
-          songTitle={song.title?.join(' ')}
+          songTitle={song.title.join(' ')}
         />
       )}
     </ContentShell>

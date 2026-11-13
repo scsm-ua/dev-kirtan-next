@@ -5,6 +5,7 @@ import { getBookIdParamList, getBooksMap } from '@/lib/books';
 import { getPagesList } from '@/lib/search';
 import { getSearchPageMeta } from '@/other/metadata/getSearchPageMeta';
 import Layout from '@/components/common/Layout/Layout';
+import { SONGBOOK_PAGE } from '@/other/paths';
 import SearchModule from '@/components/search/SearchModule/SearchModule';
 
 import type { BookListPageProps } from '@/types/book';
@@ -24,7 +25,7 @@ async function SearchPage({ params }: BookListPageProps) {
   const book = booksMap[bookId];
 
   return (
-    <Layout bookId={bookId}>
+    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.SEARCH}>
       <div className="Main__container SearchPage__container">
         <header className="SearchPage__header">
           <BookDescription bookDescription={book} />

@@ -39,6 +39,20 @@
     color: var(--title-color);
   }
 
+  &__prefix {
+    display: inline-block;
+    min-width: 2em;
+    color: inherit;
+
+    &--play::before {
+      content: '';
+      display: inline-block;
+      border-style: solid;
+      border-width: 0.4em 0 0.4em 0.65em;
+      border-color: transparent transparent transparent currentColor;
+    }
+  }
+
   &__suffix {
     position: relative;
     width: 24px;

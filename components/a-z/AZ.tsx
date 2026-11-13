@@ -25,12 +25,14 @@ function AZ({ bookId, contents }: Props) {
       <IndexLink
         compact={hasAudio}
         href={getSongbookPagePath(bookId, SONGBOOK_PAGE.CONTENTS)}
+        icon="aa"
         title={translate(bookId, 'CONTENTS_PAGE.LINK_FULL_TITLE')}
       />
 
       {hasAudio && (
         <IndexLink
           href={getSongbookPagePath(bookId, SONGBOOK_PAGE.AUDIO)}
+          icon="play"
           title={translate(bookId, 'AUDIO_PAGE.LINK_FULL_TITLE')}
         />
       )}

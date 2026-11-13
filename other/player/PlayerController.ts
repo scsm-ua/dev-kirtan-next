@@ -1,4 +1,5 @@
 import '@/other/player/plugins';
+import { trackEvent } from '@/other/analytics';
 import { playerManager } from '@/other/player/PlayerManager';
 import { detectType, getPlugin } from '@/other/player/registry';
 import type {
@@ -6,7 +7,8 @@ import type {
   TPlayerAdapter,
   TPlayerSnapshot,
   TPlayerSource,
-  TPlayerSourcePlugin
+  TPlayerSourcePlugin,
+  TPlayerTrackInfo
 } from '@/types/player';
 
 const INITIAL: TPlayerSnapshot = { status: 'idle', position: 0, duration: null };
@@ -25,18 +27,22 @@ export class PlayerController {
   }
 
   /** Silent; call `playerManager.refresh()` to update the dock. */
-  setTitle(title?: string): void {
+  setTitle(title?: string, subtitle?: string): void {
     this.title = title;
+    this.subtitle = subtitle;
   }
 
   private adapter: TPlayerAdapter | null = null;
   private snapshot: TPlayerSnapshot = INITIAL;
   private listeners = new Set<() => void>();
+  /** True until the current track run reports `playing` (reset on switch/restart). */
+  private isStartPending = true;
 
   constructor(
     readonly source: TPlayerSource,
     public title?: string,
-    readonly subtitle?: string
+    public subtitle?: string,
+    readonly trackInfo?: TPlayerTrackInfo
   ) {
     this.plugin = getPlugin(source.type ?? detectType(source.url));
     this.action = this.plugin.getAction?.(source.url) ?? null;
@@ -64,6 +70,7 @@ export class PlayerController {
     const adapter = this.getAdapter();
     const { status, position } = this.snapshot;
     if (status === 'ended' || (isSwitch && position > 0)) adapter.seek(0);
+    if (status === 'ended' || isSwitch) this.isStartPending = true;
     adapter.play();
   };
 
@@ -91,7 +98,13 @@ export class PlayerController {
   /**/
   private getAdapter(): TPlayerAdapter {
     this.adapter ??= this.plugin.createAdapter(this.source.url, {
-      onStatus: (status) => this.update({ status }),
+      onStatus: (status) => {
+        this.update({ status });
+        if (status === 'playing' && this.isStartPending) {
+          this.isStartPending = false;
+          this.trackStart();
+        }
+      },
       onProgress: (position, duration) => this.update({ position, duration }),
       onEnded: () => {
         this.update({ status: 'ended' });
@@ -103,6 +116,19 @@ export class PlayerController {
       }
     });
     return this.adapter;
+  }
+
+  /**/
+  private trackStart(): void {
+    if (!this.trackInfo) return;
+    const { bookId, pageType, singer, title } = this.trackInfo;
+    trackEvent('player_start', {
+      songbook: bookId,
+      // Overrides the config-level page_type (e.g. 'audio-singer') for this event.
+      page_type: pageType,
+      singer,
+      title
+    });
   }
 
   /**/

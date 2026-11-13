@@ -51,7 +51,7 @@ async function AuthorsPage({ params }: BookListPageProps) {
     : undefined;
 
   return (
-    <Layout bookId={bookId}>
+    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.AUTHORS}>
       <div className="Main__container Authors">
         <div className="IndexPage__title">
           <BookDescription bookDescription={book} />

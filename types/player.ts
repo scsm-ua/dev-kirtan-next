@@ -12,6 +12,14 @@ export type TPlayerSource = {
   url: string;
 };
 
+/** Track description for analytics; players without it aren't tracked. */
+export type TPlayerTrackInfo = {
+  bookId: string;
+  pageType: 'song' | 'playlist';
+  singer: string;
+  title: string;
+};
+
 export type TPlayerSnapshot = {
   status: TPlayerStatus;
   position: number;

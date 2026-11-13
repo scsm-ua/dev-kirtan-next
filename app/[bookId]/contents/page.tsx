@@ -25,7 +25,7 @@ async function ContentsPage({ params }: BookListPageProps) {
   const book = booksMap[bookId];
 
   return (
-    <Layout bookId={bookId}>
+    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.CONTENTS}>
       <div className="Main__container Contents">
         <div className="IndexPage__title">
           <BookDescription bookDescription={book} />

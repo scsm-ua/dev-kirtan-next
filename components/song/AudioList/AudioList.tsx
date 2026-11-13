@@ -11,7 +11,7 @@ type Props = {
   audio: Array<TAudio>;
   bookId: string;
   caption: string;
-  songTitle?: string;
+  songTitle: string;
 };
 
 function AudioList({ audio, bookId, caption, songTitle }: Props) {
@@ -27,6 +27,12 @@ function AudioList({ audio, bookId, caption, songTitle }: Props) {
               source={{ url: item.embed_url }}
               subtitle={songTitle}
               title={item.title}
+              trackInfo={{
+                bookId,
+                pageType: 'song',
+                singer: item.title,
+                title: songTitle
+              }}
             />
             <a
               aria-label={item.title}

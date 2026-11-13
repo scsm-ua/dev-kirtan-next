@@ -2,6 +2,7 @@ import BookList from '@/components/home/BookList/BookList';
 import { getBookIdParamList, getBooksMap } from '@/lib/books';
 import { getBookListPageMeta } from '@/other/metadata/getBookListPageMeta';
 import Layout from '@/components/common/Layout/Layout';
+import { ANALYTICS_PAGE_TYPE } from '@/other/analytics';
 import LdJson from '@/other/metadata/LdJson';
 
 import type { BookListPageProps } from '@/types/book';
@@ -20,7 +21,7 @@ async function BookListPage({ params }: BookListPageProps) {
   const booksMap = getBooksMap();
 
   return (
-    <Layout bookId={bookId}>
+    <Layout bookId={bookId} pageType={ANALYTICS_PAGE_TYPE.BOOK_LIST}>
       <BookList bookId={bookId} booksMap={booksMap} />
 
       <LdJson

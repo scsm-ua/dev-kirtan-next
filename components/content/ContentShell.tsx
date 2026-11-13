@@ -4,6 +4,7 @@ import PrevNextNav from '@/components/song/PrevNextNav/PrevNextNav';
 import { translate } from '@/other/i18n';
 
 import type { ReactNode } from 'react';
+import type { TItemType } from '@/types/common';
 import type { TNavItemsMap } from '@/types/song';
 
 /**/
@@ -14,6 +15,7 @@ type TProps = {
   children: ReactNode;      // Type-specific main content.
   controls?: ReactNode;     // Header controls (share, other translations, …).
   headerExtra?: ReactNode;  // Extra header content below the top section.
+  itemType: TItemType;      // Analytics page type.
   nav: TNavItemsMap;
   page?: string | string[];
   slug: string;
@@ -30,12 +32,19 @@ function ContentShell({
   children,
   controls,
   headerExtra,
+  itemType,
   nav,
   page,
   slug
 }: TProps) {
   return (
-    <Layout bookId={bookId} className="ContentPage" page={page} songId={slug}>
+    <Layout
+      bookId={bookId}
+      className="ContentPage"
+      itemId={slug}
+      page={page}
+      pageType={itemType}
+    >
       <div className="Main__container ContentPage__container">
         <article className="ContentPage__content">
           <header className="ContentPage__header">

@@ -134,6 +134,12 @@ function Playlist({ bookId, tracks, showSinger }: Props) {
                 source={{ url: track.url }}
                 subtitle={subtitle}
                 title={primary}
+                trackInfo={{
+                  bookId,
+                  pageType: 'playlist',
+                  singer: track.singerName,
+                  title: item.title
+                }}
               />
 
               <PlaylistLink

@@ -28,7 +28,7 @@ async function AZPage({ params }: BookListPageProps) {
   const items = contents.map((item: TContentGroup) => ({ title: item.name }));
 
   return (
-    <Layout bookId={bookId}>
+    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.A_Z}>
       <div className="Main__container AZ">
         <div className="IndexPage__title">
           <BookDescription bookDescription={book} />

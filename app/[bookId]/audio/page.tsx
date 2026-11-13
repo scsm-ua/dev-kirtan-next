@@ -4,6 +4,7 @@ import { getAudioPageMeta } from '@/other/metadata/getAudioPageMeta';
 import { getAudioBookIdParamList, getSingers, getSingerTracks } from '@/lib/audio';
 import { getBooksMap } from '@/lib/books';
 import Layout from '@/components/common/Layout/Layout';
+import { SONGBOOK_PAGE } from '@/other/paths';
 import LdJsonAudio from '@/other/metadata/LdJsonAudio';
 
 import type { BookListPageProps } from '@/types/book';
@@ -22,7 +23,7 @@ async function AudioIndexPage({ params }: BookListPageProps) {
   const tracks = getSingerTracks(bookId);
 
   return (
-    <Layout bookId={bookId}>
+    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.AUDIO}>
       <div className="Main__container AudioPage">
         <div className="IndexPage__title">
           <BookDescription bookDescription={book} />

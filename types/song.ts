@@ -43,7 +43,7 @@ export type TSong = {
   };
   resources?: TResource;
   subtitle: Array<string>;
-  title: Array<string>;
+  title: [string, ...Array<string>];
   verses: Array<TVerse>;
   word_by_word: Array<string>;
 };

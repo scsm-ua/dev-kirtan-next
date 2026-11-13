@@ -6,7 +6,7 @@ import './PlayerWidget.scss';
 import PlayToggle from '@/components/player/PlayToggle';
 import SeekBar from '@/components/player/SeekBar';
 import { usePlayer } from '@/other/player/usePlayer';
-import type { TPlayerSource } from '@/types/player';
+import type { TPlayerSource, TPlayerTrackInfo } from '@/types/player';
 
 type Props = {
   source: TPlayerSource;
@@ -16,12 +16,20 @@ type Props = {
   /** Also render the subtitle after the title in the row, in grey. */
   showSubtitleInline?: boolean;
   className?: string;
+  trackInfo?: TPlayerTrackInfo;
 };
 
 /**/
-function PlayerWidget({ source, title, subtitle, showSubtitleInline, className }: Props) {
+function PlayerWidget({
+  source,
+  title,
+  subtitle,
+  showSubtitleInline,
+  className,
+  trackInfo
+}: Props) {
   const ref = useRef<HTMLDivElement>(null);
-  const { controller, snapshot, isActive } = usePlayer(source, title, ref, subtitle);
+  const { controller, snapshot, isActive } = usePlayer(source, title, ref, subtitle, trackInfo);
   const { status, position, duration } = snapshot;
   const hasTwoRows = Boolean(title && showSubtitleInline && subtitle);
   const cls = classNames(
