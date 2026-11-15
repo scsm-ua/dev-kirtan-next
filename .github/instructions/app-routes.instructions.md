@@ -40,7 +40,7 @@ In the table, `en` stands for any `bookId`, and every page file is under `app/[b
 | `/en/audio/` | `audio/page.tsx` | `/data/en/audio/index.json` | `audio` | `AudioView` | `getAudioPageMeta` | `getAudioBookIdParamList` | `LdJsonAudio` |
 | `/en/audio/<singerId>/` | `audio/[singerId]/page.tsx` | `/data/en/audio/<singerId>.json` | `audio-singer` | `AudioView` | `getAudioSingerPageMeta` | `getSingerParamList` | `LdJsonAudio` |
 | `/en/<slug>/` (song) | `[slug]/page.tsx` | `/data/en/<slug>.json` | `item` → `song` | `SongBody` | `getContentMeta` | `getSongSlugParam` | `LdJsonSong` |
-| `/en/<slug>/` (markdown page) | `[slug]/page.tsx` | `/data/en/<slug>.json` | `item` → `page` | `PageBody` | `getContentMeta` | `getSongSlugParam` | — |
+| `/en/<slug>/` (markdown page) | `[slug]/page.tsx` | `/data/en/<slug>.json` | `item` → `page` | `PageBody` | `getContentMeta` | `getSongSlugParam` | `LdJsonPage` |
 
 Where things live for these routes:
 

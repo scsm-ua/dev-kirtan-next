@@ -4,6 +4,7 @@ import AppDocument from '@/components/app/AppDocument';
 import { getContentMeta } from '@/other/metadata/getContentMeta';
 import { getSongSlugParam } from '@/lib/song';
 import { loadPageData } from '@/lib/pageData';
+import LdJsonPage from '@/other/metadata/LdJsonPage';
 import LdJsonSong from '@/other/metadata/LdJsonSong';
 
 import type { ContentPageProps } from '@/types/book';
@@ -32,7 +33,14 @@ async function ContentPage({ params }: ContentPageProps) {
       slug={slug}
       song={page.data.song}
     />
-  ) : undefined;
+  ) : (
+    <LdJsonPage
+      bookId={bookId}
+      bookTitle={page.data.book.title}
+      slug={slug}
+      title={page.data.page.meta.title}
+    />
+  );
 
   return <AppDocument extras={extras} page={page} />;
 }

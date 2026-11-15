@@ -1,14 +1,16 @@
-# Player
+# seo
 
-- what is songbook info render
-- sort book by songbook.json order
+- root page '/' render fist songbook without redirect
+
+- contents (non song page) - SEO
+  - all languages
+  - use SEO skill
 
 # Todo afrter build js app
 
-- ldjson for page content type
-- check if page rendered for seo bot
-- review: The swipe/arrow circle animation is cut short, because the next song now appears almost instantly.
-- review each songbook is downloaded automatically on the first visit
+- player title click - where to return?
+- keyboard next prev navigation - could be faster without animation
+- allow scroll down with dock player - to show footer
 
 - review: AppRoot__progress
 - sw.js offline response make nicer
@@ -26,6 +28,8 @@
 
 ### Back on soundclud possible issue
 
+- mobile: start player, back button stops playback
+
 - Problem that is now more noticeable: every SoundCloud track switch adds a history entry inside its hidden iframe. After an auto-advance or a Next press, the first browser Back press steps back inside the iframe, so it looks like Back did nothing; a second press works. This already happened before, but only on the page where the switch occurred. Now it can catch you on any page while music plays.
 
 The fix I'd suggest is to create a fresh hidden SoundCloud iframe for each track instead of reloading the shared one. The risk is that on iPhones auto-advance to the next track might then be blocked, which I can't test here. Should I try it?
@@ -36,8 +40,6 @@ The fix I'd suggest is to create a fresh hidden SoundCloud iframe for each track
 
 - sonbgooks legacy songbooks section
 - en songbook link to https://scsmath.com/KirtanGuide/
-- contents (non song page) - SEO
-  - use SEO skill
 - another build and app js approach
 - do songbook images in resources
 

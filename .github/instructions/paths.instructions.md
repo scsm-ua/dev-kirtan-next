@@ -36,7 +36,7 @@ Do not confuse them:
 - **Hotkeys**: `other/hooks/useGlobalHotkeys.ts` — all `navigate()` targets; its `NON_SONG_SEGMENTS` is derived from `Object.values(SONGBOOK_PAGE)`, so adding a constant automatically excludes that segment from song-page detection.
 - **Router**: `other/router/routes.ts` maps these paths to routes and `/data/` JSON URLs (`parsePath`, `getRoutePath`, `getRouteDataUrl`). It's the only other place that knows the URL structure; keep it in sync (see `app-routes.instructions.md`).
 - **Libs**: `lib/search.ts`, `lib/song.ts` (prev/next), `lib/content/page/songRefs.ts` (export HTML).
-- **SEO**: `app/sitemap.ts`, `other/metadata/helpers/getAlt.ts` (takes `page?: TSongbookPage`, builds canonical + language alternates), `getOG.ts` (takes a full relative path), `getPageMeta.ts` (`page?: TSongbookPage` option), `LdJson.tsx` (`page?: TSongbookPage` prop; omitted = book root), `LdJsonSong.tsx`, `lib/content/song/meta.ts`, `lib/content/page/meta.ts`.
+- **SEO**: `app/sitemap.ts`, `other/metadata/helpers/getAlt.ts` (takes `page?: TSongbookPage`, builds canonical + language alternates), `getOG.ts` (takes a full relative path), `getPageMeta.ts` (`page?: TSongbookPage` option), `LdJson.tsx` (`page?: TSongbookPage` prop; omitted = book root), `LdJsonSong.tsx`, `LdJsonPage.tsx`, `lib/content/song/meta.ts`, `lib/content/page/meta.ts`.
 
 ## Adding a new root page
 

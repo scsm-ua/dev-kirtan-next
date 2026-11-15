@@ -64,7 +64,8 @@ registries branches on `ITEM_TYPE`.
   `type` before the body is loaded.
 - `app/[bookId]/[slug]/page.tsx` (`ContentPage`) is thin:
   `loadPageData({ kind: 'item', bookId, slug })` → `<AppDocument page extras>`;
-  the only kind check picks song JSON-LD for `extras`. The same page data is
+  the only kind check picks the JSON-LD for `extras` (`LdJsonSong` /
+  `other/metadata/LdJsonPage.tsx`: WebPage + BreadcrumbList + `Article`). The same page data is
   emitted as `/data/<bookId>/<slug>.json` for client navigation.
 - `other/metadata/getContentMeta.ts` is the matching `generateMetadata`
   dispatcher (`handler.load → handler.getMeta`). The page implementation is
