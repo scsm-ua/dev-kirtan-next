@@ -100,6 +100,7 @@
       "PAGE_IN_PAPER_SONGBOOK": "Lappuse drukātajā dziesmu grāmatā",
       "NEXT": "Nākošais",
       "AUDIO_CAPTION": "Klausies audio:",
+      "AUDIO_OFFLINE_CAPTION": "Audio bezsaistes režīmā nav pieejams",
       "META_DESCRIPTION": "{title} — vaišnavu dziesma ar vārdiem, tulkojumu latviešu valodā un skaidrojumu vārdu pa vārdam. Autors — {author}. No grāmatas «{book}».",
       "META_DESCRIPTION_NO_AUTHOR": "{title} — vaišnavu dziesma ar vārdiem, tulkojumu latviešu valodā un skaidrojumu vārdu pa vārdam. No grāmatas «{book}»."
     },
@@ -118,6 +119,7 @@
     },
     "FEEDBACK": {
       "TRIGGER_TEXT": "Atsauksmes",
+      "OFFLINE": "Bezsaistē",
       "TITLE": "Jūsu atsauksme",
       "TU_MESSAGE": "Mēs novērtējam jūsu atsauksmes. Paldies!",
       "APPEAL": "Atradi kļūdu vai ir ideja par vietni? Būsim pateicīgi arī par saitēm uz lekcijām un grāmatām, kas skaidro dziesmas tekstu.",
@@ -255,6 +257,7 @@
       "PAGE_IN_PAPER_SONGBOOK": "Page in paper songbook",
       "NEXT": "Next",
       "AUDIO_CAPTION": "Listen to recordings:",
+      "AUDIO_OFFLINE_CAPTION": "No audio in offline mode",
       "META_DESCRIPTION": "{title} — a Vaiṣṇava song by {author} with lyrics, English translation and word-by-word meaning. From {book}.",
       "META_DESCRIPTION_NO_AUTHOR": "{title} — a Vaiṣṇava song with lyrics, English translation and word-by-word meaning. From {book}."
     },
@@ -273,6 +276,7 @@
     },
     "FEEDBACK": {
       "TRIGGER_TEXT": "Feedback",
+      "OFFLINE": "Offline",
       "TITLE": "Your feedback",
       "TU_MESSAGE": "We appreciate your feedback. Thank you!",
       "APPEAL": "Found a mistake or have an idea for the site? We’d also appreciate links to talks and books explaining the song.",
@@ -410,6 +414,7 @@
       "PAGE_IN_PAPER_SONGBOOK": "Página en el cancionero impreso",
       "NEXT": "Próxima",
       "AUDIO_CAPTION": "Escuchar audio:",
+      "AUDIO_OFFLINE_CAPTION": "Sin audio en modo sin conexión",
       "META_DESCRIPTION": "{title} — una canción vaiṣṇava de {author} con letra, traducción al español y significado palabra por palabra. Del libro «{book}».",
       "META_DESCRIPTION_NO_AUTHOR": "{title} — una canción vaiṣṇava con letra, traducción al español y significado palabra por palabra. Del libro «{book}»."
     },
@@ -428,6 +433,7 @@
     },
     "FEEDBACK": {
       "TRIGGER_TEXT": "Comentarios",
+      "OFFLINE": "Sin conexión",
       "TITLE": "Tu opinión",
       "TU_MESSAGE": "Agradecemos tus comentarios. ¡Gracias!",
       "APPEAL": "¿Encontraste un error o tienes una idea para el sitio? También agradeceremos enlaces a charlas y libros que expliquen la canción.",
@@ -565,6 +571,7 @@
       "PAGE_IN_PAPER_SONGBOOK": "Страница в печатном песеннике",
       "NEXT": "Следующий",
       "AUDIO_CAPTION": "Слушать аудио:",
+      "AUDIO_OFFLINE_CAPTION": "В офлайн-режиме аудио недоступно",
       "META_DESCRIPTION": "{title} — вайшнавская песня с текстом, русским переводом и пословным разбором. Автор — {author}. Из сборника «{book}».",
       "META_DESCRIPTION_NO_AUTHOR": "{title} — вайшнавская песня с текстом, русским переводом и пословным разбором. Из сборника «{book}»."
     },
@@ -596,6 +603,7 @@
     },
     "FEEDBACK": {
       "TRIGGER_TEXT": "Отзыв",
+      "OFFLINE": "Офлайн",
       "TITLE": "Ваш отзыв",
       "TU_MESSAGE": "Спасибо за ваш отзыв!",
       "APPEAL": "Нашли ошибку или есть идея для сайта? Будем благодарны за ссылки на беседы и книги с объяснением текста песни.",
@@ -733,6 +741,7 @@
       "PAGE_IN_PAPER_SONGBOOK": "Сторінка у друкованому пісеннику",
       "NEXT": "Наступний",
       "AUDIO_CAPTION": "Слухати аудіо:",
+      "AUDIO_OFFLINE_CAPTION": "У офлайн-режимі аудіо недоступне",
       "META_DESCRIPTION": "{title} — вайшнавська пісня з текстом, українським перекладом і послівним розбором. Автор — {author}. Зі збірки «{book}».",
       "META_DESCRIPTION_NO_AUTHOR": "{title} — вайшнавська пісня з текстом, українським перекладом і послівним розбором. Зі збірки «{book}»."
     },
@@ -764,6 +773,7 @@
     },
     "FEEDBACK": {
       "TRIGGER_TEXT": "Відгук",
+      "OFFLINE": "Офлайн",
       "TITLE": "Ваш відгук",
       "TU_MESSAGE": "Дякуємо за ваш відгук!",
       "APPEAL": "Знайшли помилку чи маєте ідею для сайту? Будемо вдячні за лінки на бесіди та книги з поясненням тексту пісні.",
@@ -901,6 +911,7 @@
       "PAGE_IN_PAPER_SONGBOOK": "Página no cancioneiro impresso",
       "NEXT": "Próximo",
       "AUDIO_CAPTION": "Ouvir áudio:",
+      "AUDIO_OFFLINE_CAPTION": "Sem áudio no modo offline",
       "META_DESCRIPTION": "{title} — uma canção vaiṣṇava de {author} com letra, tradução em português e significado palavra por palavra. Do livro «{book}».",
       "META_DESCRIPTION_NO_AUTHOR": "{title} — uma canção vaiṣṇava com letra, tradução em português e significado palavra por palavra. Do livro «{book}»."
     },
@@ -919,6 +930,7 @@
     },
     "FEEDBACK": {
       "TRIGGER_TEXT": "Feedback",
+      "OFFLINE": "Offline",
       "TITLE": "Seu feedback",
       "TU_MESSAGE": "Agradecemos seu feedback. Obrigado!",
       "APPEAL": "Encontrou um erro ou tem uma ideia para o site? Também agradecemos links para palestras e livros que expliquem a música.",

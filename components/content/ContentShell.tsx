@@ -1,10 +1,9 @@
-import Layout from '@/components/common/Layout/Layout';
+import './ContentPage.scss';
 import PageNumber from '@/components/song/PageNumber/PageNumber';
 import PrevNextNav from '@/components/song/PrevNextNav/PrevNextNav';
 import { translate } from '@/other/i18n';
 
 import type { ReactNode } from 'react';
-import type { TItemType } from '@/types/common';
 import type { TNavItemsMap } from '@/types/song';
 
 /**/
@@ -15,15 +14,14 @@ type TProps = {
   children: ReactNode;      // Type-specific main content.
   controls?: ReactNode;     // Header controls (share, other translations, …).
   headerExtra?: ReactNode;  // Extra header content below the top section.
-  itemType: TItemType;      // Analytics page type.
   nav: TNavItemsMap;
   page?: string | string[];
-  slug: string;
 };
 
 /**
- * Shared chrome for all content item types (songs, pages): Layout, the
- * book/page-number header block and prev/next navigation.
+ * Shared content of all item types (songs, pages): the book/page-number
+ * header block and prev/next navigation. The page chrome comes from the view
+ * registry (`.ContentPage` main class).
  */
 function ContentShell({
   after,
@@ -32,19 +30,11 @@ function ContentShell({
   children,
   controls,
   headerExtra,
-  itemType,
   nav,
-  page,
-  slug
+  page
 }: TProps) {
   return (
-    <Layout
-      bookId={bookId}
-      className="ContentPage"
-      itemId={slug}
-      page={page}
-      pageType={itemType}
-    >
+    <>
       <div className="Main__container ContentPage__container">
         <article className="ContentPage__content">
           <header className="ContentPage__header">
@@ -73,7 +63,7 @@ function ContentShell({
 
       <PrevNextNav navMap={nav} />
       {after}
-    </Layout>
+    </>
   );
 }
 

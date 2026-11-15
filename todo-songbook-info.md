@@ -1,5 +1,5 @@
 
-The songbook info flows like this: each book's `songbook.json` is loaded in `copySongbook.js:37`. `addSongsCount.js:34-37` then adds `songsCount`, and everything is merged into `songbooks.json`. The app reads that file through `getBooksMap()` in `books.ts:12`.
+The songbook info flows like this: `createSongbookInfo()` in `scripts/songbookInfo.js` merges each book package's `songbook.json`, its settings from `source/songbooks.json` (`shortcuts`, `audio`; not `repository`) and `songsCount` into one object. `processSrc.js` writes all of them into `source/books/songbooks.json`. The app reads that file through `getBooksMap()` in `lib/books.ts`.
 
 ## Fields that are used
 
@@ -22,5 +22,5 @@ The validation schema in `validationSchema.js:549` requires `slug`, `songsCount`
 
 ## Issues found
 
-- **`sort_order` handling:** `ru-kdm` has no `sort_order`. `analyze.ts:57` subtracts the values directly with no fallback, so it gets `NaN` when `ru-kdm` is the current book. The other two sorts fall back to `Number.MAX_SAFE_INTEGER`.
-- **Type mismatch:** `TBookDescription` in `book.ts:2-10` types `hidden` and `sort_order` as required, but the JSON often leaves them out. It also doesn't declare `language` or `render`.
+- ✅ **`sort_order` handling:** all sorts now use `compareBooks()` in `scripts/compareHelpers.js` (books without `sort_order` go last).
+- ✅ **Type mismatch:** `TBookDescription` now has `hidden`/`sort_order` optional and declares `language`, `render`, `shortcuts`, `audio`.

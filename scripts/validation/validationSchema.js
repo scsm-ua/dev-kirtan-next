@@ -310,6 +310,7 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         'PAGE_IN_PAPER_SONGBOOK',
         'NEXT',
         'AUDIO_CAPTION',
+        'AUDIO_OFFLINE_CAPTION',
         'META_DESCRIPTION',
         'META_DESCRIPTION_NO_AUTHOR'
       ],
@@ -351,6 +352,9 @@ const TRANSLATION_VALIDATION_SCHEMA = {
           type: 'string'
         },
         AUDIO_CAPTION: {
+          type: 'string'
+        },
+        AUDIO_OFFLINE_CAPTION: {
           type: 'string'
         },
         META_DESCRIPTION: {
@@ -450,9 +454,12 @@ const TRANSLATION_VALIDATION_SCHEMA = {
 		FEEDBACK: {
 			type: 'object',
 			additionalProperties: false,
-			required: ['APPEAL', 'FIELDS', 'TITLE', 'TRIGGER_TEXT', 'TU_MESSAGE'],
+			required: ['APPEAL', 'FIELDS', 'OFFLINE', 'TITLE', 'TRIGGER_TEXT', 'TU_MESSAGE'],
 			properties: {
 				APPEAL: {
+					type: 'string'
+				},
+				OFFLINE: {
 					type: 'string'
 				},
 				TITLE: {
@@ -579,8 +586,23 @@ const SONGBOOKS_VALIDATION_SCHEMA = {
 	additionalProperties: true,
 	required: ['slug', 'songsCount', 'subtitle', 'title'],
 	properties: {
+		audio: { type: 'object' },
+		hidden: { type: 'boolean' },
+		shortcuts: {
+			type: 'array',
+			items: {
+				type: 'object',
+				required: ['icon', 'slug', 'title'],
+				properties: {
+					icon: { type: 'string' },
+					slug: { type: 'string' },
+					title: { type: 'string' }
+				}
+			}
+		},
 		slug: { type: 'string' },
 		songsCount: { type: 'number' },
+		sort_order: { type: 'number' },
 		subtitle: { type: 'string' },
 		title: { type: 'string' },
 	}

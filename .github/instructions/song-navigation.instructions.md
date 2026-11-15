@@ -5,17 +5,17 @@ applyTo: ["components/song/PrevNextNav/**", "other/hooks/useGlobalHotkeys.ts"]
 
 # Song Navigation (Prev/Next) Architecture
 
-The prev/next song flow has **three independent input sources** that all converge on the same animated indicator circle and ultimately `window.location.href`.
+The prev/next song flow has **three independent input sources** that all converge on the same animated indicator circle and ultimately a client-side navigation (`navigate()` from `other/router/navigate.ts`, or an intercepted `<a href>`). The next song's JSON is loaded and rendered without a document reload; see `app-architecture.instructions.md`.
 
 ## Inputs → Output
 
 | Input | Source | Triggers |
 |---|---|---|
 | Touch swipe | `components/song/PrevNextNav/SwipeNav.tsx` (touch listeners on `document.body`) | Immediate navigation when progress fills the ring |
-| Keyboard hotkey | `other/hooks/useGlobalHotkeys.ts` dispatches `kirtan:prevSong` / `kirtan:nextSong` window events | `SwipeNav` listens, plays a synthetic slide-in animation, then navigates |
-| Visible buttons | `components/song/PrevNextNav/PrevNextLink.tsx` (plain `<a href>`) | Native browser navigation |
+| Keyboard hotkey | `other/hooks/useGlobalHotkeys.ts` dispatches `kirtan:prevSong` / `kirtan:nextSong` window events | `SwipeNav` listens, plays a synthetic slide-in animation, then calls `navigate()` |
+| Visible buttons | `components/song/PrevNextNav/PrevNextLink.tsx` (plain `<a href>`) | Intercepted by the app router (`useAppRouter` click listener) |
 
-`PrevNextNav.tsx` is the container — it computes `prevNext` from `navMap` + `usePageQuery()` and passes it to both `PrevNextLink` and `SwipeNav`. **It does not listen for hotkey events** — that belongs in `SwipeNav` because the animation is owned there.
+`PrevNextNav.tsx` is the container — it computes `prevNext` from `navMap` + `usePageQuery()` and passes it to both `PrevNextLink` and `SwipeNav`. **It does not listen for hotkey events** — that belongs in `SwipeNav` because the animation is owned there. Prev/next songs are prefetched by the router 1s after a song renders, so these navigations are usually instant. Never use `window.location.href` here; it would reload the document and stop the player.
 
 ## Hotkey Bindings (in `useGlobalHotkeys.ts`)
 
@@ -51,7 +51,7 @@ All timings are named constants at the top of `SwipeNav.tsx`. If you change one 
 | `HOLD_MS` (60) | Brief pause at peak so the user perceives the filled circle |
 | `EXIT_DURATION_MS` (400) | Fly-off duration. Mostly cosmetic — see below |
 
-**Navigation fires together with `flyOut`**, not after it. The exit animation is cosmetic cover while the next page loads; if the page loads fast the animation gets cut short, which is the desired tradeoff (no perceived latency penalty). Do not wrap navigation in `setTimeout(..., EXIT_DURATION_MS)` "to let the animation finish" — that adds 400ms to every navigation.
+**Navigation fires together with `flyOut`**, not after it. The exit animation is cosmetic cover while the next page loads; since the next song is usually prefetched it often appears at once and the animation is cut short, which is the desired tradeoff (no perceived latency penalty). Do not wrap navigation in `setTimeout(..., EXIT_DURATION_MS)` "to let the animation finish" — that adds 400ms to every navigation.
 
 ## The Two Circles
 
@@ -68,4 +68,4 @@ Both share `SHARED_STYLE` (CSS custom properties) and the `<NavRing>` SVG compon
 
 ## Static Export Compatibility
 
-`next.config.ts` uses `output: 'export'` (fully static). All navigation code is `'use client'` and uses browser APIs (`window`, `localStorage`, `CustomEvent`, `requestAnimationFrame`) — never add server-side logic to this subsystem.
+`next.config.ts` uses `output: 'export'` (fully static). All navigation code is `'use client'` and uses browser APIs (`window`, `localStorage`, `CustomEvent`, `requestAnimationFrame`) — never add server-side logic to this subsystem. Song views remount per page (keyed by path), so `SwipeNav` state resets on each navigation; read the current `?p=` via `usePageQuery()` (backed by `useAppLocation`), not `window.location` during render.

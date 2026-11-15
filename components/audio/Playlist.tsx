@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { useEffect, useId, useMemo, useRef, useState, useSyncExternalStore } from 'react';
 
 import './Playlist.scss';
-import PlayerDock from '@/components/player/PlayerDock';
 import PlayerWidget from '@/components/player/PlayerWidget';
 import PlaylistLink from '@/components/audio/PlaylistLink';
 import { AUTOPLAY_PARAM, getSongPathWithPage } from '@/other/paths';
@@ -81,7 +80,7 @@ function Playlist({ bookId, tracks, showSinger }: Props) {
     const url = new URL(window.location.href);
     if (!url.searchParams.has(AUTOPLAY_PARAM)) return;
     url.searchParams.delete(AUTOPLAY_PARAM);
-    window.history.replaceState(null, '', url);
+    window.history.replaceState(window.history.state, '', url);
     playerManager.playFirst();
   }, []);
 
@@ -161,8 +160,6 @@ function Playlist({ bookId, tracks, showSinger }: Props) {
           );
         })}
       </ul>
-
-      <PlayerDock />
     </>
   );
 }

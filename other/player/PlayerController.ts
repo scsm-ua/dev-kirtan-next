@@ -1,5 +1,6 @@
 import '@/other/player/plugins';
 import { trackEvent } from '@/other/analytics';
+import { checkConnectivity } from '@/other/connectivity';
 import { playerManager } from '@/other/player/PlayerManager';
 import { detectType, getPlugin } from '@/other/player/registry';
 import type {
@@ -13,6 +14,16 @@ import type {
 
 const INITIAL: TPlayerSnapshot = { status: 'idle', position: 0, duration: null };
 
+/**/
+export type TPlayerControllerOptions = {
+  /** Play the next queued player when this one ends. */
+  autoAdvance?: boolean;
+  /** Identifies the same player across remounts of its page (see `PlayerManager.acquire`). */
+  key?: string;
+  /** Page path of the widget, so the dock can lead back to it. */
+  originPath?: string;
+};
+
 /**
  * One per widget. UI-agnostic store (`subscribe`/`getSnapshot` match
  * `useSyncExternalStore`) wrapping a lazily created source adapter.
@@ -20,6 +31,9 @@ const INITIAL: TPlayerSnapshot = { status: 'idle', position: 0, duration: null }
 export class PlayerController {
   readonly plugin: TPlayerSourcePlugin;
   readonly action: TPlayerAction | null;
+  readonly autoAdvance: boolean;
+  readonly key: string;
+  readonly originPath: string;
   element: HTMLElement | null = null;
 
   setElement(element: HTMLElement | null): void {
@@ -33,6 +47,8 @@ export class PlayerController {
   }
 
   private adapter: TPlayerAdapter | null = null;
+  /** Which controller adapter events go to; moves along with the adapter on handover. */
+  private binding: { target: PlayerController } = { target: this };
   private snapshot: TPlayerSnapshot = INITIAL;
   private listeners = new Set<() => void>();
   /** True until the current track run reports `playing` (reset on switch/restart). */
@@ -42,10 +58,14 @@ export class PlayerController {
     readonly source: TPlayerSource,
     public title?: string,
     public subtitle?: string,
-    readonly trackInfo?: TPlayerTrackInfo
+    readonly trackInfo?: TPlayerTrackInfo,
+    { autoAdvance = true, key = source.url, originPath = '' }: TPlayerControllerOptions = {}
   ) {
     this.plugin = getPlugin(source.type ?? detectType(source.url));
     this.action = this.plugin.getAction?.(source.url) ?? null;
+    this.autoAdvance = autoAdvance;
+    this.key = key;
+    this.originPath = originPath;
   }
 
   subscribe = (listener: () => void): (() => void) => {
@@ -89,6 +109,20 @@ export class PlayerController {
     this.seek(Math.min(duration, Math.max(0, position + delta)));
   };
 
+  /** Takes over the running adapter and state of a same-source player whose widget is gone. */
+  adoptFrom(other: PlayerController): void {
+    this.adapter = other.adapter;
+    this.isStartPending = other.isStartPending;
+    this.binding = other.binding;
+    this.binding.target = this;
+    const { snapshot } = other;
+
+    other.adapter = null;
+    other.binding = { target: other };
+    other.update(INITIAL);
+    this.update(snapshot);
+  }
+
   destroy(): void {
     this.adapter?.destroy();
     this.adapter = null;
@@ -97,22 +131,25 @@ export class PlayerController {
 
   /**/
   private getAdapter(): TPlayerAdapter {
+    const { binding } = this;
     this.adapter ??= this.plugin.createAdapter(this.source.url, {
       onStatus: (status) => {
-        this.update({ status });
-        if (status === 'playing' && this.isStartPending) {
-          this.isStartPending = false;
-          this.trackStart();
+        const self = binding.target;
+        self.update({ status });
+        if (status === 'playing' && self.isStartPending) {
+          self.isStartPending = false;
+          self.trackStart();
         }
       },
-      onProgress: (position, duration) => this.update({ position, duration }),
+      onProgress: (position, duration) => binding.target.update({ position, duration }),
       onEnded: () => {
-        this.update({ status: 'ended' });
-        playerManager.handleEnded(this);
+        binding.target.update({ status: 'ended' });
+        playerManager.handleEnded(binding.target);
       },
       onError: (error) => {
         console.error('Player error:', this.source.url, error);
-        this.update({ status: 'error' });
+        binding.target.update({ status: 'error' });
+        checkConnectivity();
       }
     });
     return this.adapter;

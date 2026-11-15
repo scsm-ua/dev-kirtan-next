@@ -3,6 +3,7 @@ import { PureComponent } from 'react';
 
 import './SearchModule.scss';
 import { lookFor } from '@/components/search/SearchModule/helpers';
+import { navigate } from '@/other/router/navigate';
 import PageList from '@/components/search/PageList/PageList';
 import SearchControls from '@/components/search/SearchControls/SearchControls';
 import SearchResults from '@/components/search/SearchResults/SearchResults';
@@ -43,7 +44,7 @@ class SearchModule extends PureComponent<Props, State> {
   startPendingNavigation = (match: { page: string; path: string }, delayMs: number) => {
     this.setState({ pendingPage: match.page, pendingPageDurationMs: delayMs });
     this.redirectTimer = setTimeout(() => {
-      window.location.href = match.path;
+      navigate(match.path);
     }, delayMs);
   };
 
@@ -114,7 +115,7 @@ class SearchModule extends PureComponent<Props, State> {
       const exactMatch = this.findExactPageMatch(query);
 
       if (exactMatch) {
-        window.location.href = exactMatch.path;
+        navigate(exactMatch.path);
         return;
       }
     }

@@ -1,25 +1,23 @@
 import ContentShell from '@/components/content/ContentShell';
 import PageView from '@/components/page/PageView/PageView';
 
-import { ITEM_TYPE } from '@/types/common';
-
-import type { TContentBodyProps } from '@/lib/content/handler';
-import type { TPage } from '@/types/page';
+import type { TViewProps } from '@/components/app/views/types';
 
 /**
  * Markdown page item body: prose rendered inside the shared chrome.
  */
-function PageBody({ book, bookId, data: page, nav, slug }: TContentBodyProps<TPage>) {
+function PageBody({ extras, page }: TViewProps<'page'>) {
+  const { book, nav, page: content } = page.data;
+
   return (
     <ContentShell
-      bookId={bookId}
+      after={extras}
+      bookId={page.route.bookId}
       bookTitle={book.title}
-      itemType={ITEM_TYPE.PAGE}
       nav={nav}
-      page={page.meta?.page}
-      slug={slug}
+      page={content.meta?.page}
     >
-      <PageView page={page} />
+      <PageView bodyHtml={content.bodyHtml} />
     </ContentShell>
   );
 }

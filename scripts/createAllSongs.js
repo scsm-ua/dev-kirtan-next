@@ -7,6 +7,7 @@
 const chalk = require('chalk');
 const path = require('path');
 
+const { compareBooks } = require('./compareHelpers');
 const { CONST } = require('./constants');
 const { readFile, writeFile } = require('./ioHelpers');
 
@@ -17,9 +18,7 @@ const booksDir = path.resolve(__dirname, '..', CONST.FOLDER.SRC_OUTPUT);
 const booksMap = readFile(booksDir, CONST.FILES.SONGBOOKS);
 
 // Array.sort is stable, so ties keep the songbooks.json order.
-const bookIds = Object.keys(booksMap).sort(
-	(a, b) => booksMap[a].sort_order - booksMap[b].sort_order
-);
+const bookIds = Object.keys(booksMap).sort((a, b) => compareBooks(booksMap[a], booksMap[b]));
 
 const songs = {};
 

@@ -33,8 +33,9 @@ function gtag(..._args: unknown[]): void {
 
 /**
  * Sets page params on the GA config; they're attached to every event (page_view,
- * enhanced measurement, custom). Only the first call sends GA's own page_view,
- * so view counts match the former inline `gtag('config')` snippet.
+ * enhanced measurement, custom). The first call sends GA's own page_view; later
+ * calls come from client navigations and send one explicitly, after the URL and
+ * title were updated.
  */
 export function trackPage(params: {
   bookId: string;
@@ -57,6 +58,13 @@ export function trackPage(params: {
     item_id: itemId,
     ...(isFirst ? {} : { send_page_view: false })
   });
+
+  if (!isFirst) {
+    gtag('event', 'page_view', {
+      page_location: window.location.href,
+      page_title: document.title
+    });
+  }
 }
 
 /**/

@@ -30,4 +30,14 @@ function compareFirstLines(a, b) {
 	return cleanForCompare(a).localeCompare(cleanForCompare(b), undefined, { numeric: true });
 }
 
-module.exports = { compareFirstLines, stripMarks };
+/**
+ * By `sort_order`; books without it go last.
+ * @param a {{ sort_order?: number }}
+ * @param b {{ sort_order?: number }}
+ * @returns {number}
+ */
+function compareBooks(a, b) {
+	return (a.sort_order ?? Number.MAX_SAFE_INTEGER) - (b.sort_order ?? Number.MAX_SAFE_INTEGER);
+}
+
+module.exports = { compareBooks, compareFirstLines, stripMarks };

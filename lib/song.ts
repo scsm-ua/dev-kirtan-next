@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'path';
 
 import { FILES, PATH } from '@/other/constants';
+import { compareBooks } from '@/scripts/compareHelpers';
 import { getContentsByBookId } from '@/lib/contents';
 import {
   buildInlineWordByWord,
@@ -119,11 +120,7 @@ export function getBookDescriptionsByBook(
     })
     .filter(Boolean)
     .map((bookId: string) => booksMap[bookId])
-    .sort(
-      (a: TBookDescription, b: TBookDescription) =>
-        (a.sort_order || Number.MAX_SAFE_INTEGER) -
-        (b.sort_order || Number.MAX_SAFE_INTEGER)
-    );
+    .sort(compareBooks);
 }
 
 /**

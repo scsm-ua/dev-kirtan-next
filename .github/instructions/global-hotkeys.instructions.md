@@ -5,12 +5,12 @@ applyTo: ["other/hooks/useGlobalHotkeys.ts", "components/common/GlobalHotkeys/**
 
 # Global Hotkeys
 
-The app has a single global keyboard listener that maps keys to either direct navigation (`router.push`) or to `window.dispatchEvent(new CustomEvent('kirtan:*'))`. Feature components subscribe to those events.
+The app has a single global keyboard listener that maps keys to either direct navigation (`navigate()` from `other/router/navigate.ts`) or to `window.dispatchEvent(new CustomEvent('kirtan:*'))`. Feature components subscribe to those events.
 
 ## Architecture
 
 ```
-useGlobalHotkeys (hook)  ──► router.push(...)            // direct navigation
+useGlobalHotkeys (hook)  ──► navigate(...)                // client-side navigation (full load for non-app pages)
                          └─► window.dispatchEvent(...)   // custom events
                                        │
                                        ▼
@@ -18,8 +18,8 @@ useGlobalHotkeys (hook)  ──► router.push(...)            // direct navigat
                        (SongText, OtherTranslations, SwipeNav, GlobalHotkeys itself)
 ```
 
-- **Listener owner**: `other/hooks/useGlobalHotkeys.ts` — a single `keydown` listener on `window`, scoped to the `usePathname()` segments for context-aware routing.
-- **Help modal owner**: `components/common/GlobalHotkeys/GlobalHotkeys.tsx` — mounts the hook + `HotkeysModal`, wired into `Layout.tsx` at the body level so it's available on every page.
+- **Listener owner**: `other/hooks/useGlobalHotkeys.ts` — a single `keydown` listener on `window`, scoped to the `useAppLocation()` path segments for context-aware routing.
+- **Help modal owner**: `components/common/GlobalHotkeys/GlobalHotkeys.tsx` — mounts the hook + `HotkeysModal`, rendered by `components/common/Layout/LayoutChrome.tsx`, so it's available on every page (persistent in the app root, and in the old `Layout` for analyze/404).
 - **Cheat sheet**: `components/common/GlobalHotkeys/HotkeysModal.tsx` — translated keys via `translate(bookId, ...)`. Anything without a translation key falls back to English and gets a `// TODO:` comment.
 
 ## Hotkey Map (current)
@@ -76,7 +76,7 @@ The app shell (`components/common/Layout/Layout.scss`) sets `body { overflow: hi
 
 We proxy those keys to the scroller by **giving the browser a focused scroller**, not by writing scroll code:
 
-1. `.Layout__content` is rendered with `tabIndex={-1}` (programmatically focusable, not in tab order). See `components/common/Layout/Layout.tsx`.
+1. `.Layout__content` is rendered with `tabIndex={-1}` (programmatically focusable, not in tab order). See `components/common/Layout/LayoutChrome.tsx`.
 2. `useGlobalHotkeys` runs a `useEffect` on `pathname` change that calls `scroller.focus({ preventScroll: true })`.
 3. The focus outline is suppressed via `&__content:focus { outline: none }` in `Layout.scss`.
 
@@ -113,7 +113,7 @@ This applies to `GlobalHotkeys` (help modal) and `OtherTranslations` (`l` key).
 ## Adding a New Hotkey — Checklist
 
 1. Pick an unused single key (audit the table above)
-2. Add a `case` in `useGlobalHotkeys.ts` — decide: direct `router.push` or `dispatchEvent`
+2. Add a `case` in `useGlobalHotkeys.ts` — decide: direct `navigate()` or `dispatchEvent`
 3. If dispatching: add the listener in the target component (`useEffect` with cleanup)
 4. Add a row to `HOTKEYS` in `HotkeysModal.tsx`. Try to use an existing translation key from `source/translations.json`. If none fits, hardcode English and add `// TODO: add <KEY> to translations.json`
 5. Confirm the guards (`isInputFocused`, modifier check) still apply
@@ -121,4 +121,4 @@ This applies to `GlobalHotkeys` (help modal) and `OtherTranslations` (`l` key).
 
 ## Static Export Compatibility
 
-`next.config.ts` uses `output: 'export'`. All hotkey code is `'use client'` — never import server-only modules. `router.push()` from `next/navigation` works fine because it uses the History API in the browser.
+`next.config.ts` uses `output: 'export'`. All hotkey code is `'use client'` — never import server-only modules. Use `navigate()`, not `router.push()` or `window.location.href`: it renders app pages from `/data/` JSON without a reload (the player keeps playing) and falls back to a full load for non-app pages (analyze, export). Read the current URL with `useAppLocation()`; it is `null` during hydration, so guard for it.

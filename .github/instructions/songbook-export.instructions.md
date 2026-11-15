@@ -35,7 +35,7 @@ other/exportDoc.ts — pure, node-free:
 - Only the body is shipped to the client; the standalone document shell is added by `wrapExportDoc` at download/copy time.
 - The page intentionally does **not** use `components/common/Layout`. A dedicated `app/[bookId]/export/layout.tsx` provides the bare `<html><body>` wrapper.
 - **Per-type dispatch**: `buildExportHtml` resolves each item's handler via `getContentHandler(item.type)` and calls `handler.load` → `handler.renderExport`. Section renderers live in `lib/content/song/export.ts` (`renderSong` + verse helpers) and `lib/content/page/export.ts` (`renderPage`); shared primitives (`heading`, `NAV_SPAN`) in `lib/content/exportHtml.ts`. Never duplicate song parsing here.
-- Keep the export graph **component-free**: importing React bodies (directly or via `lib/content` handlers) leaks their SCSS into the export page's head — body components live only in `components/content/registry.tsx`.
+- Keep the export graph **component-free**: importing React bodies (directly or via `lib/content` handlers) leaks their SCSS into the export page's head — body components live only in the app view registry (`components/app/views/registry.ts`).
 - `other/exportDoc.ts` is imported by a client component — keep it free of `fs`/`path` imports.
 
 ## Export Options
@@ -149,7 +149,7 @@ The effect that writes `previewRef.current.innerHTML = getBody()` runs on **ever
 
 ## Discoverability
 
-Hidden from the UI on purpose. Reachable by URL and the `e` hotkey (`useGlobalHotkeys` → `router.push('/{bookId}/export')`; listed in `HotkeysModal`). `export` is in `NON_SONG_SEGMENTS` in `useGlobalHotkeys.ts` — keep it there or the page gets treated as a song page. Page metadata is `noindex`; the route is not in `app/sitemap.ts`.
+Hidden from the UI on purpose. Reachable by URL and the `e` hotkey (`useGlobalHotkeys` → `navigate('/{bookId}/export')`, a full document load because `export` is in `NON_APP_PAGES` in `other/router/routes.ts`; listed in `HotkeysModal`). `export` is in `NON_SONG_SEGMENTS` in `useGlobalHotkeys.ts` — keep it there or the page gets treated as a song page. Page metadata is `noindex`; the route is not in `app/sitemap.ts`.
 
 ## Verification
 

@@ -1,6 +1,6 @@
 'use client';
-import { useEffect, useState } from 'react';
 import './FooterItem.scss';
+import { useAppLocation } from '@/other/router/location';
 
 /**/
 export type TFooterNavItemProps = {
@@ -21,11 +21,7 @@ function FooterItem({
   inactiveIcon,
   label
 }: TFooterNavItemProps) {
-  const [pathname, setPath] = useState<string | null>(null);
-
-  useEffect(() => {
-    setPath(window.location.pathname);
-  }, []);
+  const pathname = useAppLocation()?.pathname ?? null;
 
   const hrefPath = href.split('?')[0];
   const isActive = pathname === hrefPath || pathname + '/' === hrefPath;

@@ -27,6 +27,20 @@
     }
   }
 
+  &__offline {
+    display: inline-block;
+    height: 32px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 8px 14px;
+    color: var(--offline-color);
+    background-color: var(--offline-bg);
+    border-radius: 16px;
+    border: solid 1px var(--offline-border-color);
+    user-select: none;
+  }
+
   &__title {
     margin-bottom: 24px;
   }

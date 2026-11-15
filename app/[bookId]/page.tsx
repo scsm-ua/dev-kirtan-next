@@ -1,8 +1,9 @@
-import BookList from '@/components/home/BookList/BookList';
-import { getBookIdParamList, getBooksMap } from '@/lib/books';
+import { notFound } from 'next/navigation';
+
+import AppDocument from '@/components/app/AppDocument';
+import { getBookIdParamList } from '@/lib/books';
 import { getBookListPageMeta } from '@/other/metadata/getBookListPageMeta';
-import Layout from '@/components/common/Layout/Layout';
-import { ANALYTICS_PAGE_TYPE } from '@/other/analytics';
+import { loadPageData } from '@/lib/pageData';
 import LdJson from '@/other/metadata/LdJson';
 
 import type { BookListPageProps } from '@/types/book';
@@ -18,17 +19,14 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function BookListPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const booksMap = getBooksMap();
+  const page = await loadPageData({ kind: 'book-list', bookId });
+  if (!page) notFound();
 
   return (
-    <Layout bookId={bookId} pageType={ANALYTICS_PAGE_TYPE.BOOK_LIST}>
-      <BookList bookId={bookId} booksMap={booksMap} />
-
-      <LdJson
-        bookId={bookId}
-        pageKey="BOOK_LIST_PAGE"
-      />
-    </Layout>
+    <AppDocument
+      extras={<LdJson bookId={bookId} pageKey="BOOK_LIST_PAGE" />}
+      page={page}
+    />
   );
 }
 

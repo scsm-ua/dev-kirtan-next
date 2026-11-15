@@ -1,25 +1,38 @@
 # Player
 
-# Better js app build
+- what is songbook info render
+- sort book by songbook.json order
 
-static build:
-- each static url, including /<lang>/<book-id>/<song-id>/ - is prebuild full html for better seo
-- each built page contains links to reusable css and js for compact size and caching
-- each built page once opened works as same standalone app
-	- when other page should be opened, initial app from initially opened page not making redirect and page reload
-	- it loads next page JSON and generates new page on client
-- as requirement - all data is prerendered as JSON for client app loading
+# Todo afrter build js app
 
-So:
-- search bot see each page as static html
-- user uses app as standalone app without page reload
-- all new data during navigation loaded as JSON
-- playing player dont stop during navigation
-- each page navigation works faster as json is smaller then html
-- full songbook cache is better, because JSON takes much less space to load
-	- possible prebuilt one JSON per all sonbook, just for precaching - need decide if its better then many files
+- ldjson for page content type
+- check if page rendered for seo bot
+- review: The swipe/arrow circle animation is cut short, because the next song now appears almost instantly.
+- review each songbook is downloaded automatically on the first visit
+
+- review: AppRoot__progress
+- sw.js offline response make nicer
+- review Offline page: page.tsx is an empty app page
+- review sw.js priorities, is_local?
+- offline - book images not cached
+- offline - white page, not loaded when network is back
+- offline - forward from noncached to cached not working
+- Daily program shortcut
+
+### GA possible issue
+
+- Decision for you: trackPage now sends a page_view on every client navigation. If "Page changes based on browser history events" is on in your GA4 enhanced measurement settings, these navigations will be counted twice. Turn it off, or tell me to drop the explicit event and rely on GA's own tracking instead. I recommend turning it off, because GA's history tracking fires before the new title and page parameters are set.
+
+
+### Back on soundclud possible issue
+
+- Problem that is now more noticeable: every SoundCloud track switch adds a history entry inside its hidden iframe. After an auto-advance or a Next press, the first browser Back press steps back inside the iframe, so it looks like Back did nothing; a second press works. This already happened before, but only on the page where the switch occurred. Now it can catch you on any page while music plays.
+
+The fix I'd suggest is to create a fresh hidden SoundCloud iframe for each track instead of reloading the shared one. The risk is that on iPhones auto-advance to the next track might then be blocked, which I can't test here. Should I try it?
 
 # Todo
+
+- tests for all functionality
 
 - sonbgooks legacy songbooks section
 - en songbook link to https://scsmath.com/KirtanGuide/
@@ -38,6 +51,8 @@ So:
 
 - search: when google search started - hide numbers toolbar?
 
+# Sonbgooks
+
 ## Fix index in all songbooks
 
 add multiple song indexes, like for Sharanagati
@@ -48,15 +63,11 @@ author: namas-te-narasimhaya - only Vyasadev, not Jayadev (check other songbooks
 
 no author: Hare Kṛṣṇa Mahāmantra
 
-# Refactors 
+## songbook.json
 
 analyze: book language in songbook.json
 
-## build
-
-single page app for each page - prerendered content?
-
-json loaded
+remove sort order
 
 ### Questionable:
 

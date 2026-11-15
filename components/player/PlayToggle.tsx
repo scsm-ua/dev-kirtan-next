@@ -8,12 +8,13 @@ import type { TPlayerStatus } from '@/types/player';
 
 type Props = {
   className?: string;
+  disabled?: boolean;
   onClick: (e: MouseEvent<HTMLButtonElement>) => void;
   status: TPlayerStatus;
 };
 
 /**/
-function PlayToggle({ className, onClick, status }: Props) {
+function PlayToggle({ className, disabled, onClick, status }: Props) {
   const busy = status === 'playing' || status === 'loading';
 
   const cls = classNames('PlayToggle', className, {
@@ -26,6 +27,7 @@ function PlayToggle({ className, onClick, status }: Props) {
     <button
       aria-label={busy ? 'Pause' : 'Play'}
       className={cls}
+      disabled={disabled}
       onClick={onClick}
       title={status === 'error' ? 'Playback error, try again' : undefined}
       type="button"

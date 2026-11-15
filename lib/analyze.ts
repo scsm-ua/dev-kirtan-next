@@ -1,6 +1,6 @@
 import { getBooksMap } from '@/lib/books';
 import { getContentsByBookId } from '@/lib/contents';
-import { compareFirstLines } from '@/scripts/compareHelpers';
+import { compareBooks, compareFirstLines } from '@/scripts/compareHelpers';
 import { ITEM_TYPE } from '@/types/common';
 import type { TContentGroup, TContentItem } from '@/types/common';
 
@@ -53,7 +53,7 @@ export function getAnalyzeData(currentBookId: string): TAnalyzeData {
     .sort((a, b) => {
       if (a === currentBookId) return -1;
       if (b === currentBookId) return 1;
-      return booksMap[a].sort_order - booksMap[b].sort_order;
+      return compareBooks(booksMap[a], booksMap[b]);
     })
     .map((bookId) => ({ bookId, title: booksMap[bookId].title }));
 

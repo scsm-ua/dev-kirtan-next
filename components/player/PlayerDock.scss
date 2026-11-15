@@ -24,6 +24,22 @@
     transform: none;
   }
 
+  &__offline {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    transform: translateY(-50%);
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--offline-color);
+    // Tint over the dock color: the pill overlaps page content, so it must stay opaque.
+    background: linear-gradient(var(--offline-bg), var(--offline-bg)) var(--footer-bg-color);
+    border: 1px solid var(--offline-border-color);
+    border-radius: 12px;
+    pointer-events: none;
+  }
+
   &__inner {
     display: flex;
     align-items: center;

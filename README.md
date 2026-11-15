@@ -11,7 +11,7 @@ Deliver a better and more future-proof user experience with a modern front-end s
 Follows the standard Next.js layout (App Router). The additions are:
 
 - `./source` — inputs consumed by the build pipeline. Two files are committed as the source of truth:
-  - `songbooks.json` — `slug → git repo URL` map of songbook packages. A value can also be an object with a `repository` URL plus per-book settings (e.g. `audio.filter.by_title` — person ids; only audio tracks with these titles are kept for the book).
+  - `songbooks.json` — `slug → git repo URL` map of songbook packages. A value can also be an object with a `repository` URL plus per-book settings (e.g. `shortcuts`, `audio.filter.by_title` — person ids; only audio tracks with these titles are kept for the book). Settings are merged into the book info at build time and win over the package's `songbook.json`. The key order of this file is the book order on the site (`sort_order` from the package is ignored).
   - `resources.json` — `slug → git repo URL` for the shared resources package (audio metadata, persons).
   - `translations.json` — site i18n strings.
 
@@ -27,6 +27,7 @@ Follows the standard Next.js layout (App Router). The additions are:
   - `shared/copySongbook.js` — builds a songbook package inside `./shared/node_modules/<slug>` and copies the resulting jsons into `./source/books/<slug>/`.
   - `shared/prepareSharedResources.js` — reads the installed shared-resources package and writes `./source/books/resources.json`.
   - `processSrc.js` — iterates `songbooks.json`, invokes `copySongbook` + generates helper files.
+  - `songbookInfo.js` — builds the merged info of one book (package `songbook.json` + `source/songbooks.json` settings + song count); also gives the repo URLs to `installShared.js`.
   - `validate.js`, `validation/` — schema validation of songbooks and translations.
   - `postbuild.js` — writes `.nojekyll` into `out/` after `next build`.
 
@@ -35,7 +36,7 @@ Each songbook folder under `./source/books/<slug>/` gets these generated helper 
 - `authors.json` — songs grouped by author.
 - `contents.json` — songs grouped by section.
 
-`./source/books/songbooks.json` holds the aggregated summary of all songbooks (title, subtitle, song counts, etc.).
+`./source/books/songbooks.json` holds the merged info of all songbooks: the package's `songbook.json` (title, subtitle, sort order…), the per-book settings from `./source/songbooks.json` (without `repository`) and `songsCount`. The app reads it only through `lib/books.ts`.
 
 ## Build pipeline
 
@@ -50,9 +51,10 @@ The build runs in two phases so that local debug can rebuild songbooks without a
 For each songbook slug in `source/songbooks.json`:
 1. `pnpm run build` inside `./shared/node_modules/<slug>` (so local edits to a linked package are always picked up).
 2. Copy the built `json/` files into `./source/books/<slug>/`.
-3. Generate `a-z.json`, `authors.json`, `contents.json`.
+3. Merge the book info (`songbookInfo.js`).
+4. Generate `a-z.json`, `authors.json`, `contents.json`.
 
-Then the shared resources package is transformed and written to `./source/books/resources.json`, and the aggregated `songbooks.json` summary is written.
+Then the shared resources package is transformed and written to `./source/books/resources.json`, and the merged `songbooks.json` is written.
 
 **Then `validation` → `next build`.**
 

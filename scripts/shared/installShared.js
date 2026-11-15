@@ -5,7 +5,7 @@ const { mkdirSync, writeFileSync } = require('fs');
 const chalk = require('chalk');
 
 const { CONST } = require('../constants');
-const { getSongbookRepositories } = require('../songbookSettings');
+const { getSongbookRepositories } = require('../songbookInfo');
 const resources = require('../../source/resources.json');
 
 /**/

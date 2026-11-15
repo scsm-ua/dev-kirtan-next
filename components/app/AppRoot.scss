@@ -1,0 +1,48 @@
+// Thin top bar while a slow client navigation loads its page data.
+.AppRoot__progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9001;
+  width: 100%;
+  height: 3px;
+  background: var(--accent-color);
+  transform-origin: left;
+  animation: AppRootProgress 1.2s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes AppRootProgress {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+    opacity: 0.3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .AppRoot__progress {
+    animation: none;
+  }
+}
+
+// Offline shell without cached data for its URL.
+.AppRoot__offline {
+  max-width: 480px;
+  margin: 20vh auto 0;
+  padding: 0 24px;
+  text-align: center;
+
+  button {
+    margin-top: 24px;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 6px;
+    background: var(--accent-color);
+    font: inherit;
+    cursor: pointer;
+  }
+}

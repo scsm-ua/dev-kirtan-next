@@ -1,6 +1,7 @@
 'use client';
-import { RefObject, useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import { RefObject, useContext, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 
+import { PagePathContext } from '@/other/router/pagePath';
 import { PlayerController } from '@/other/player/PlayerController';
 import { playerManager } from '@/other/player/PlayerManager';
 import type { TPlayerSnapshot, TPlayerSource, TPlayerTrackInfo } from '@/types/player';
@@ -24,11 +25,18 @@ export function usePlayer(
   title: string | undefined,
   ref: RefObject<HTMLElement | null>,
   subtitle?: string,
-  trackInfo?: TPlayerTrackInfo
+  trackInfo?: TPlayerTrackInfo,
+  autoAdvance = true
 ) {
-  const [controller] = useState(
-    () => new PlayerController(source, title, subtitle, trackInfo)
-  );
+  const originPath = useContext(PagePathContext) ?? '';
+  // A player kept alive after its page was left is picked up again when the page returns.
+  const [controller] = useState(() => {
+    const key = `${originPath}|${source.url}`;
+    return playerManager.acquire(
+      key,
+      () => new PlayerController(source, title, subtitle, trackInfo, { autoAdvance, key, originPath })
+    );
+  });
   const snapshot = useControllerSnapshot(controller);
   const isActive = useSyncExternalStore(
     playerManager.subscribe,
@@ -48,9 +56,9 @@ export function usePlayer(
       // Dev StrictMode re-runs effects of reordered list items: skip teardown if set up again.
       queueMicrotask(() => {
         if (mounted.current) return;
-        playerManager.unregister(controller);
-        controller.destroy();
         controller.setElement(null);
+        // The active page's players outlive their widgets (see PlayerManager).
+        if (!playerManager.unregister(controller)) controller.destroy();
       });
     };
   }, [controller, ref]);

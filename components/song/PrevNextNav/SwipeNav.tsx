@@ -2,6 +2,8 @@
 import './SwipeNav.scss';
 import { useEffect, useRef, useState } from 'react';
 
+import { navigate } from '@/other/router/navigate';
+
 import type { TNavItems } from '@/types/song';
 
 // — swipe detection thresholds —
@@ -169,7 +171,7 @@ export function SwipeNav({ prevNext }: Props) {
         if (el) flyOut(el, direction);
       });
 
-      window.location.href = target.path;
+      navigate(target.path);
     };
 
     document.body.addEventListener('touchstart', onStart, { passive: true });
@@ -221,7 +223,7 @@ export function SwipeNav({ prevNext }: Props) {
         // while the next page loads; perceived latency stays at ENTER_DURATION_MS + HOLD_MS.
         setTimeout(() => {
           flyOut(el, direction);
-          window.location.href = target.path;
+          navigate(target.path);
         }, ENTER_DURATION_MS + HOLD_MS);
       }));
     };

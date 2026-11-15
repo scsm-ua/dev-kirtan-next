@@ -1,12 +1,16 @@
 // Minimal service worker for PWA with offline support
 
-// Set to true to skip pre-caching (runtime caching only)
-const SKIP_GLOBAL_CACHE = true;
-
+// `v` is the build id: each build gets its own cache, older ones are deleted on activate.
 const SW_VERSION = new URL(self.location.href).searchParams.get('v') || 'dev';
 const CACHE_NAME = `kirtan-${SW_VERSION}`;
 
-// Install event - pre-cache all pages from sitemap
+// Offline document for app pages without cached HTML; renders from cached page data.
+const SHELL_PATH = '/shell/';
+
+// Local builds are rebuilt in place, so prefer the network there.
+const IS_LOCAL = ['localhost', '127.0.0.1'].includes(self.location.hostname);
+
+// Install event
 self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
@@ -47,6 +51,17 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Only GET is cacheable; the rest (e.g. the HEAD connectivity probe) goes to the network.
+  if (request.method !== 'GET') {
+    return;
+  }
+
+  // Page data (JSON) is immutable within a build.
+  if (url.pathname.startsWith('/data/')) {
+    event.respondWith(IS_LOCAL ? networkFirst(request) : cacheFirst(request));
+    return;
+  }
+
   // For HTML pages: Network first, fall back to cache
   if (request.headers.get('accept')?.includes('text/html')) {
     // Normalize URL for caching (remove query params)
@@ -66,8 +81,10 @@ self.addEventListener('fetch', (event) => {
           return response;
         })
         .catch(() => {
-          // If network fails, try cache with normalized URL
-          return caches.match(normalizedUrl).then((cached) => {
+          // If network fails, try the cached page, then the app shell
+          return caches.match(normalizedUrl)
+            .then((cached) => cached || caches.match(SHELL_PATH))
+            .then((cached) => {
             if (cached) {
               return cached;
             }
@@ -132,6 +149,12 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Dev chunks keep their URL across rebuilds, so localhost prefers the network.
+  if (IS_LOCAL) {
+    event.respondWith(networkFirst(request));
+    return;
+  }
+
   // For static assets (JS, CSS, images): Cache first, fall back to network
   event.respondWith(
     caches.match(request).then((cached) => {
@@ -150,5 +173,72 @@ self.addEventListener('fetch', (event) => {
         return response;
       });
     })
+  );
+});
+
+// Caches a successful response under `request` (or its URL).
+async function remember(request, response) {
+  if (response.ok) {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.put(request, response.clone());
+  }
+  return response;
+}
+
+async function cacheFirst(request) {
+  return (await caches.match(request)) || remember(request, await fetch(request));
+}
+
+async function networkFirst(request) {
+  try {
+    return await remember(request, await fetch(request));
+  } catch (error) {
+    const cached = await caches.match(request);
+    if (cached) return cached;
+    throw error;
+  }
+}
+
+/**
+ * Stores every page of a songbook from its bundle under the pages' own data
+ * URLs, plus the offline shell and the assets it loads.
+ */
+async function precacheBook({ bundleUrl, shellUrl }) {
+  const cache = await caches.open(CACHE_NAME);
+
+  const response = await fetch(bundleUrl, { cache: 'no-cache' });
+  if (!response.ok) throw new Error(`Bundle ${response.status}`);
+  const bundle = await response.json();
+  await Promise.all(
+    Object.entries(bundle.pages).map(([dataUrl, page]) =>
+      cache.put(
+        dataUrl,
+        new Response(JSON.stringify(page), { headers: { 'Content-Type': 'application/json' } })
+      )
+    )
+  );
+
+  const shell = await fetch(shellUrl, { cache: 'no-cache' });
+  if (!shell.ok) throw new Error(`Shell ${shell.status}`);
+  const html = await shell.clone().text();
+  await cache.put(shellUrl, shell);
+
+  const assets = new Set(html.match(/\/_next\/static\/[^"'\s)]+\.(?:js|css)/g) || []);
+  await Promise.all(
+    [...assets].map(async (asset) => {
+      if (!(await cache.match(asset))) await remember(asset, await fetch(asset));
+    })
+  );
+}
+
+// Message from the app: { type: 'PRECACHE_BOOK', bundleUrl, shellUrl }; replies { ok } on the port.
+self.addEventListener('message', (event) => {
+  if (event.data?.type !== 'PRECACHE_BOOK') return;
+  const [port] = event.ports;
+  event.waitUntil(
+    precacheBook(event.data).then(
+      () => port?.postMessage({ ok: true }),
+      (error) => port?.postMessage({ ok: false, error: String(error) })
+    )
   );
 });

@@ -14,6 +14,9 @@ import {
   Replay5Icon
 } from '@/components/player/icons';
 import { formatTime } from '@/other/player/formatTime';
+import { translate } from '@/other/i18n';
+import { useIsOnline } from '@/other/hooks/useIsOnline';
+import { navigate } from '@/other/router/navigate';
 import type { PlayerController } from '@/other/player/PlayerController';
 import { playerManager, RESTART_THRESHOLD } from '@/other/player/PlayerManager';
 import { useControllerSnapshot } from '@/other/player/usePlayer';
@@ -21,6 +24,8 @@ import type { TPlayerSnapshot } from '@/types/player';
 
 const SKIP_STEP = 5;
 const SCROLL_DURATION = 250;
+/** How long to wait (ms) for the player's page to render after navigating back to it. */
+const RETURN_TIMEOUT = 3000;
 const ROOT_CLASS = 'has-player-dock';
 const IDLE: TPlayerSnapshot = { status: 'idle', position: 0, duration: null };
 
@@ -31,15 +36,10 @@ function getScrollParent(el: HTMLElement): HTMLElement {
   return document.documentElement;
 }
 
-/**/
-type Props = {
-  autoAdvance?: boolean;
-};
-
 /**
- * Mount once per page: fixed bottom bar for the active player, closable only via X.
+ * Mount once in the app root: fixed bottom bar for the active player, closable only via X.
  */
-function PlayerDock({ autoAdvance = true }: Props) {
+function PlayerDock() {
   const { active, hasPrev, hasNext } = useSyncExternalStore(
     playerManager.subscribe,
     playerManager.getSnapshot,
@@ -52,13 +52,7 @@ function PlayerDock({ autoAdvance = true }: Props) {
   const visible = !!active;
   const controller = active ?? last;
   const snapshot = useControllerSnapshot(controller);
-
-  useEffect(() => {
-    playerManager.autoAdvance = autoAdvance;
-    return () => {
-      playerManager.autoAdvance = true;
-    };
-  }, [autoAdvance]);
+  const isOnline = useIsOnline();
 
   useEffect(() => {
     if (!visible) return;
@@ -95,9 +89,7 @@ function PlayerDock({ autoAdvance = true }: Props) {
     return () => observer.disconnect();
   }, [titleText, subtitleText, visible]);
 
-  const scrollToInline = () => {
-    const el = controller?.element;
-    if (!el) return;
+  const scrollToInline = (el: HTMLElement) => {
     // The page scrolls inside .Layout__content, not the window.
     const scroller = getScrollParent(el);
     const box = scroller.getBoundingClientRect();
@@ -122,6 +114,26 @@ function PlayerDock({ autoAdvance = true }: Props) {
     requestAnimationFrame(step);
   };
 
+  /** Scrolls to the inline player; opens its page first when another page is shown. */
+  const showInline = () => {
+    if (!controller) return;
+    if (controller.element?.isConnected) {
+      scrollToInline(controller.element);
+      return;
+    }
+    if (!controller.originPath) return;
+
+    navigate(controller.originPath);
+    // The page's widget picks this controller up again once the page renders.
+    const deadline = performance.now() + RETURN_TIMEOUT;
+    const waitForWidget = () => {
+      const el = controller.element;
+      if (el?.isConnected) scrollToInline(el);
+      else if (performance.now() < deadline) requestAnimationFrame(waitForWidget);
+    };
+    requestAnimationFrame(waitForWidget);
+  };
+
   const { status, position, duration } = snapshot ?? IDLE;
   const canSkip = duration != null && duration > 0;
 
@@ -140,11 +152,11 @@ function PlayerDock({ autoAdvance = true }: Props) {
               {(controller.title || controller.subtitle) && (
                 <p
                   className="PlayerDock__title"
-                  onClick={scrollToInline}
+                  onClick={showInline}
                   onKeyDown={e => {
                     if (e.key === 'Enter' || e.key === ' ') {
                       e.preventDefault();
-                      scrollToInline();
+                      showInline();
                     }
                   }}
                   ref={titleRef}
@@ -235,6 +247,13 @@ function PlayerDock({ autoAdvance = true }: Props) {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Straddles the dock's top edge, so it is shown only while the dock is. */}
+      {visible && !isOnline && (
+        <span className="PlayerDock__offline" role="status">
+          {translate(controller?.trackInfo?.bookId ?? '', 'FEEDBACK.OFFLINE')}
+        </span>
       )}
     </div>
   );

@@ -10,18 +10,23 @@ export type TPlayerDockSnapshot = {
 export const RESTART_THRESHOLD = 3;
 
 /**
- * Page-wide coordinator: one active player at a time (sync), auto-advance
- * to the next player in DOM order (playlist), and dock state.
+ * App-wide coordinator: one active player at a time (sync), prev/next and
+ * auto-advance through a queue, and dock state.
+ *
+ * The queue is the DOM order of the players on the page where the active one
+ * lives. When that page is left (client navigation), the queue freezes and its
+ * players stay alive without widgets, so playback and prev/next continue. It is
+ * released when the dock is closed or a player from another page starts.
  */
 class PlayerManager {
+  /** Players with a mounted widget. */
   private controllers = new Set<PlayerController>();
+  private queue: Array<PlayerController> = [];
   private active: PlayerController | null = null;
   private snapshot: TPlayerDockSnapshot = { active: null, hasPrev: false, hasNext: false };
   private listeners = new Set<() => void>();
   private unsubscribeActive: (() => void) | null = null;
   private isEmitQueued = false;
-  /** Play the next player in DOM order when the active one ends. */
-  autoAdvance = true;
 
   subscribe = (listener: () => void): (() => void) => {
     this.listeners.add(listener);
@@ -30,18 +35,39 @@ class PlayerManager {
 
   getSnapshot = (): TPlayerDockSnapshot => this.snapshot;
 
+  /** Player for a mounting widget: the kept-alive one with this key, if its page is shown again. */
+  acquire(key: string, create: () => PlayerController): PlayerController {
+    return this.queue.find((c) => c.key === key && !this.controllers.has(c)) ?? create();
+  }
+
   register(controller: PlayerController): void {
     this.controllers.add(controller);
+    const { active } = this;
+    // The active track's page was left and the new page has the same track: continue in its widget.
+    if (
+      active &&
+      active !== controller &&
+      !active.element?.isConnected &&
+      active.source.url === controller.source.url
+    ) {
+      controller.adoptFrom(active);
+      this.releaseDetached();
+      this.setActive(controller);
+      return;
+    }
     this.queueEmit();
   }
 
-  unregister(controller: PlayerController): void {
+  /** Widget unmounted. Returns `true` when the player is kept alive in the frozen queue. */
+  unregister(controller: PlayerController): boolean {
     this.controllers.delete(controller);
-    if (this.active === controller) this.setActive(null);
+    const isKept = !!this.active && this.queue.includes(controller);
+    if (!isKept && this.active === controller) this.setActive(null);
     else this.queueEmit();
+    return isKept;
   }
 
-  /** One emit per batch: each emit scans all controllers, so N (un)registers were O(N²). */
+  /** One emit per batch: each emit sorts all controllers, so N (un)registers were O(N²). */
   private queueEmit(): void {
     if (!this.active || this.isEmitQueued) return;
     this.isEmitQueued = true;
@@ -58,6 +84,7 @@ class PlayerManager {
 
   requestPlay(controller: PlayerController): void {
     if (this.active && this.active !== controller) this.active.pause();
+    if (!this.queue.includes(controller)) this.releaseDetached();
     this.setActive(controller);
   }
 
@@ -80,38 +107,42 @@ class PlayerManager {
   };
 
   playNext = (): void => {
-    if (this.active) this.getSibling(this.active, 1)?.play();
+    this.getNeighbour(1)?.play();
   };
 
   playPrev = (): void => {
     const { active } = this;
     if (!active) return;
-    const prev = this.getSibling(active, -1);
+    const prev = this.getNeighbour(-1);
     if (prev && active.getSnapshot().position <= RESTART_THRESHOLD) prev.play();
     else active.seek(0);
   };
 
   handleEnded(controller: PlayerController): void {
-    if (controller !== this.active || !this.autoAdvance) return;
-    this.getSibling(controller, 1)?.play();
+    if (controller !== this.active || !controller.autoAdvance) return;
+    this.getNeighbour(1)?.play();
   }
 
-  /** Nearest connected controller after (1) or before (-1) `current` in DOM order. */
-  private getSibling(current: PlayerController, direction: 1 | -1): PlayerController | null {
-    const from = current.element;
-    if (!from?.isConnected) return null;
+  /** Player after (1) or before (-1) the active one in the queue. */
+  private getNeighbour(direction: 1 | -1): PlayerController | null {
+    const index = this.active ? this.queue.indexOf(this.active) : -1;
+    return index < 0 ? null : (this.queue[index + direction] ?? null);
+  }
 
-    const toward =
-      direction === 1 ? Node.DOCUMENT_POSITION_FOLLOWING : Node.DOCUMENT_POSITION_PRECEDING;
-    let found: PlayerController | null = null;
-    for (const c of this.controllers) {
-      const el = c.element;
-      if (!el?.isConnected || c === current) continue;
-      const isToward = from.compareDocumentPosition(el) & toward;
-      const isCloser = !found || el.compareDocumentPosition(found.element) & toward;
-      if (isToward && isCloser) found = c;
-    }
-    return found;
+  /** Connected players in DOM order. */
+  private getPageOrder(): Array<PlayerController> {
+    return [...this.controllers]
+      .filter((c) => c.element?.isConnected)
+      .sort((a, b) =>
+        a.element.compareDocumentPosition(b.element) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1
+      );
+  }
+
+  /** Destroys kept-alive players whose page is gone and empties the queue. */
+  private releaseDetached(): void {
+    const detached = this.queue.filter((c) => !this.controllers.has(c));
+    this.queue = [];
+    detached.forEach((c) => c.destroy());
   }
 
   /**/
@@ -120,6 +151,7 @@ class PlayerManager {
     this.unsubscribeActive?.();
     this.active = controller;
     this.unsubscribeActive = controller?.subscribe(() => this.syncPlaybackState()) ?? null;
+    if (!controller) this.releaseDetached();
     this.emit();
   }
 
@@ -166,10 +198,13 @@ class PlayerManager {
   /**/
   private emit(): void {
     const { active } = this;
+    // A disconnected active player means its page was left: keep the queue it came from.
+    if (active?.element?.isConnected) this.queue = this.getPageOrder();
+    const index = active ? this.queue.indexOf(active) : -1;
     this.snapshot = {
       active,
-      hasPrev: !!active && !!this.getSibling(active, -1),
-      hasNext: !!active && !!this.getSibling(active, 1)
+      hasPrev: index > 0,
+      hasNext: index >= 0 && index < this.queue.length - 1
     };
     this.syncMediaSession();
     this.listeners.forEach((listener) => listener());

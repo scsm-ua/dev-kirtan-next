@@ -8,7 +8,7 @@ const { readFile, writeFile } = require('./ioHelpers');
  * @param resourceMap {ResourceMap}
  * @param options {Object}
  * @param options.audioTitleFilter {Array<string> | null} - person ids to keep
- *   (see songbookSettings.js); null keeps all audio.
+ *   (`audio.filter.by_title` in source/songbooks.json); null keeps all audio.
  * @param options.language {string} - book language key, picks the singer name.
  */
 function transformContents(targetDir, resourceMap, options = {}) {

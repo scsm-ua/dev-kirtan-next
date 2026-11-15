@@ -1,16 +1,13 @@
-import AZ from '@/components/a-z/AZ';
-import BookDescription from '@/components/common/BookDescription/BookDescription';
+import { notFound } from 'next/navigation';
+
+import AppDocument from '@/components/app/AppDocument';
 import { getAzPageMeta } from '@/other/metadata/getAzPageMeta';
-import { getBookIdParamList, getBooksMap } from '@/lib/books';
-import { getIndexesByBookId } from '@/lib/contents';
-import Layout from '@/components/common/Layout/Layout';
+import { getBookIdParamList } from '@/lib/books';
+import { loadPageData } from '@/lib/pageData';
 import LdJson from '@/other/metadata/LdJson';
 import { SONGBOOK_PAGE } from '@/other/paths';
-import Pills from '@/components/common/Pills/Pills';
-import { translate } from '@/other/i18n';
 
 import type { BookListPageProps } from '@/types/book';
-import type { TContentGroup } from '@/types/common';
 
 /**/
 export const generateMetadata = getAzPageMeta;
@@ -21,32 +18,14 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function AZPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const contents = getIndexesByBookId(bookId);
-
-  const booksMap = getBooksMap();
-  const book = booksMap[bookId];
-  const items = contents.map((item: TContentGroup) => ({ title: item.name }));
+  const page = await loadPageData({ kind: SONGBOOK_PAGE.A_Z, bookId });
+  if (!page) notFound();
 
   return (
-    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.A_Z}>
-      <div className="Main__container AZ">
-        <div className="IndexPage__title">
-          <BookDescription bookDescription={book} />
-        </div>
-
-        <div className="Main__content">
-          <h1 className="AZ__title">{translate(bookId, 'A_Z_PAGE.LINK_FULL_TITLE')}</h1>
-
-          <div className="AZ__list">
-            <Pills items={items} />
-          </div>
-
-          <AZ bookId={bookId} contents={contents} />
-        </div>
-
-        <LdJson bookId={bookId} pageKey="A_Z_PAGE" page={SONGBOOK_PAGE.A_Z} />
-      </div>
-    </Layout>
+    <AppDocument
+      extras={<LdJson bookId={bookId} pageKey="A_Z_PAGE" page={SONGBOOK_PAGE.A_Z} />}
+      page={page}
+    />
   );
 }
 

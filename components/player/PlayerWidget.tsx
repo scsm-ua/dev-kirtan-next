@@ -9,6 +9,10 @@ import { usePlayer } from '@/other/player/usePlayer';
 import type { TPlayerSource, TPlayerTrackInfo } from '@/types/player';
 
 type Props = {
+  /** Play the next player in the list when this one ends (playlists). */
+  autoAdvance?: boolean;
+  /** Greyed out and not playable (e.g. offline). */
+  disabled?: boolean;
   source: TPlayerSource;
   title?: string;
   /** Shown only in the dock, after the title (e.g. the song title). */
@@ -21,6 +25,8 @@ type Props = {
 
 /**/
 function PlayerWidget({
+  autoAdvance,
+  disabled,
   source,
   title,
   subtitle,
@@ -29,21 +35,30 @@ function PlayerWidget({
   trackInfo
 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
-  const { controller, snapshot, isActive } = usePlayer(source, title, ref, subtitle, trackInfo);
+  const { controller, snapshot, isActive } = usePlayer(
+    source,
+    title,
+    ref,
+    subtitle,
+    trackInfo,
+    autoAdvance
+  );
   const { status, position, duration } = snapshot;
   const hasTwoRows = Boolean(title && showSubtitleInline && subtitle);
   const cls = classNames(
     'PlayerWidget',
     `PlayerWidget--${status}`,
     isActive && 'PlayerWidget--active',
+    disabled && 'PlayerWidget--disabled',
     hasTwoRows && 'PlayerWidget--twoRows',
     className
   );
 
   return (
     // Row click is a mouse/touch shortcut; the PlayToggle button stays the keyboard target.
-    <div className={cls} onClick={controller.toggle} ref={ref}>
+    <div className={cls} onClick={disabled ? undefined : controller.toggle} ref={ref}>
       <PlayToggle
+        disabled={disabled}
         onClick={(e) => {
           e.stopPropagation();
           controller.toggle();

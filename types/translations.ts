@@ -1,5 +1,6 @@
 export type TFeedbackTranslations = {
   TRIGGER_TEXT: string;
+  OFFLINE: string;
   TITLE: string;
   TU_MESSAGE: string;
   APPEAL: string;

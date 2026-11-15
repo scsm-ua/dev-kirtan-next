@@ -43,6 +43,12 @@
   &--error {
     background: #b3261e;
   }
+
+  &:disabled {
+    color: #fff;
+    background: var(--gray);
+    cursor: default;
+  }
 }
 
 @keyframes PlayToggle-spin {

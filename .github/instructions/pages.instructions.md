@@ -1,5 +1,5 @@
 ---
-description: "Use when working on the markdown 'page' content type: the pages/ source JSON, the type discriminator on content items, the content-handler registry (lib/content), the page handler (load/meta/export), components/page (PageView, PageMarkdown), components/content (ContentShell, PageBody, body registry), the shared [slug] route and metadata dispatch, or the withPages export option."
+description: "Use when working on the markdown 'page' content type: the pages/ source JSON, the type discriminator on content items, the content-handler registry (lib/content), the page handler (load/meta/export), components/page (PageView, PageMarkdown), components/content (ContentShell, PageBody), the item branch of loadPageData, the shared [slug] route and metadata dispatch, or the withPages export option."
 applyTo: ["components/page/**", "components/content/**", "lib/page.ts", "lib/content/**", "types/page.ts", "other/markdown.ts", "source/books/**/pages/**", "app/[bookId]/[slug]/page.tsx", "other/metadata/getContentMeta.ts"]
 ---
 
@@ -24,13 +24,17 @@ registries branches on `ITEM_TYPE`.
   `index.ts` (handler), `meta.ts`, `export.ts`; loaders stay in `lib/song.ts` /
   `lib/page.ts`. Shared export primitives (`heading`, `NAV_SPAN`) are in
   `lib/content/exportHtml.ts`.
-- `components/content/registry.tsx` — `getContentBody(type?)` maps the type to
-  a body component (`SongBody` / `PageBody`); kept apart from the lib handlers
-  for the reason above. Bodies compose `ContentShell` (shared chrome: `Layout`,
-  the `ContentPage__*` header block, `PageNumber`, `PrevNextNav`) via
-  `controls`/`headerExtra`/`after` slots.
-- Adding a new item type = new folder in `lib/content/` + one entry in each
-  registry + a body component. Do not add `item.type` branches elsewhere.
+- On the app side, `lib/pageData/loaders.ts` `loadItem` resolves the item type
+  and returns page data of kind `song` or `page`; `components/app/views/registry.ts`
+  (`VIEWS`) maps that kind to the body view (`SongBody` / `PageBody`). Bodies
+  compose `ContentShell` (the `ContentPage__*` header block, `PageNumber`,
+  `PrevNextNav`; header/footer come from the persistent `AppRoot` chrome) via
+  `controls`/`headerExtra`/`after` slots. Bodies are client-safe views: they
+  receive page data only, never call loaders.
+- Adding a new item type = new folder in `lib/content/` + one entry in the lib
+  registry + a `loadItem` branch + a `TPageData` kind + a body view in `VIEWS`.
+  Full recipe: `app-routes.instructions.md` (Recipe C). Do not add `item.type`
+  branches elsewhere.
 
 ## Data shape
 
@@ -58,9 +62,10 @@ registries branches on `ITEM_TYPE`.
   (reads `PATH.DIR.PAGES`, returns `null` when missing).
 - `getContentItemBySlug(bookId, slug)` in `lib/contents.ts` resolves an item's
   `type` before the body is loaded.
-- `app/[bookId]/[slug]/page.tsx` (`ContentPage`) is a thin dispatcher:
-  `getContentItemBySlug → getContentHandler(item?.type).load →
-  createElement(getContentBody(item?.type), …)`. No type branches in the route.
+- `app/[bookId]/[slug]/page.tsx` (`ContentPage`) is thin:
+  `loadPageData({ kind: 'item', bookId, slug })` → `<AppDocument page extras>`;
+  the only kind check picks song JSON-LD for `extras`. The same page data is
+  emitted as `/data/<bookId>/<slug>.json` for client navigation.
 - `other/metadata/getContentMeta.ts` is the matching `generateMetadata`
   dispatcher (`handler.load → handler.getMeta`). The page implementation is
   `lib/content/page/meta.ts`: title/description come from `page.meta.title`.
@@ -70,7 +75,9 @@ registries branches on `ITEM_TYPE`.
 - `other/markdown.ts` `renderMarkdownBody(body)` is the **single source of truth**
   for markdown → HTML (uses `marked`; pure, no React/DOM). Shared by the app view
   and the export builder so both render identically. Do not add a second parser.
-- `components/page/PageView/PageView.tsx` renders the HTML inside the same white
+- The markdown is rendered at build time in `loadItem` and shipped as
+  `page.data.page.bodyHtml`, so the client bundle has no markdown parser.
+- `components/page/PageView/PageView.tsx` renders `bodyHtml` inside the same white
   panel songs use — it reuses `.SongText` (imports `SongText.scss`) and wraps the
   markdown in a `.PageMarkdown` container (`dangerouslySetInnerHTML`; input is
   trusted songbook source). `PageView.scss` scopes all element styling under

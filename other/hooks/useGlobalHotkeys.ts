@@ -1,13 +1,14 @@
 'use client';
 import { useEffect } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
 
 import {
   getSongbookPagePath,
   getSongbookPath,
   SONGBOOK_PAGE
 } from '@/other/paths';
+import { navigate } from '@/other/router/navigate';
 import { SHOW_UNKNOWN_AUTHORS_KEY } from '@/components/authors/UnknownAuthors';
+import { useAppLocation } from '@/other/router/location';
 import { VIEW_MODE, WBW_MODE } from '@/types/common';
 import type { TViewMode, TWbwMode } from '@/types/common';
 
@@ -37,8 +38,7 @@ type Config = {
 };
 
 export function useGlobalHotkeys({ onShowHelp }: Config): void {
-  const router = useRouter();
-  const pathname = usePathname();
+  const pathname = useAppLocation()?.pathname ?? '';
 
   // Focus the main scroll container on every route change so the browser
   // natively handles ArrowUp/ArrowDown/PageUp/PageDown/Home/End/Space scrolling.
@@ -77,27 +77,27 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
           break;
 
         case 'b':
-          router.push(getSongbookPath(bookId));
+          navigate(getSongbookPath(bookId));
           break;
 
         case 'c':
-          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.CONTENTS));
+          navigate(getSongbookPagePath(bookId, SONGBOOK_PAGE.CONTENTS));
           break;
 
         case 'i':
-          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.A_Z));
+          navigate(getSongbookPagePath(bookId, SONGBOOK_PAGE.A_Z));
           break;
 
         case 's':
-          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.SEARCH));
+          navigate(getSongbookPagePath(bookId, SONGBOOK_PAGE.SEARCH));
           break;
 
         case 'e':
-          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.EXPORT));
+          navigate(getSongbookPagePath(bookId, SONGBOOK_PAGE.EXPORT));
           break;
 
         case 'a':
-          router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.ANALYZE));
+          navigate(getSongbookPagePath(bookId, SONGBOOK_PAGE.ANALYZE));
           break;
 
         case 'A':
@@ -105,7 +105,7 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
             window.dispatchEvent(new CustomEvent('kirtan:toggleUnknownAuthors'));
           } else {
             sessionStorage.setItem(SHOW_UNKNOWN_AUTHORS_KEY, '1');
-            router.push(getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS));
+            navigate(getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS));
           }
           break;
 
@@ -113,7 +113,7 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
           if (isSongPage) {
             window.dispatchEvent(new CustomEvent('kirtan:toggleOtherTranslations'));
           } else {
-            router.push(getSongbookPath(bookId));
+            navigate(getSongbookPath(bookId));
           }
           break;
 
@@ -151,7 +151,7 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [pathname, router, onShowHelp]);
+  }, [pathname, onShowHelp]);
 
   // Allow other components (e.g. HotkeyHint in the Header) to open the modal
   // without prop-drilling through server components.

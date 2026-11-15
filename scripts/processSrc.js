@@ -2,12 +2,11 @@ const chalk = require('chalk');
 const path = require('path');
 
 /**/
-const { addSongsCount } = require('./addSongsCount');
 const { CONST } = require('./constants');
 const { createAuthors } = require('./createAuthors');
 const { createAZ } = require('./createAZ');
 const songbooks = require('../source/songbooks.json');
-const { getAudioTitleFilter } = require('./songbookSettings');
+const { createSongbookInfo } = require('./songbookInfo');
 const { prepareSharedResources } = require('./shared/prepareSharedResources');
 const { copySongbook } = require('./shared/copySongbook');
 const { transformContents } = require('./transformContents');
@@ -31,11 +30,11 @@ Object.keys(songbooks).forEach((bookSlug) => {
 	
 	try {
 		// Order matters.
-		copySongbook(targetDir, bookSlug, booksMap);
-		addSongsCount(booksMap, bookSlug);
+		copySongbook(targetDir, bookSlug);
+		const info = booksMap[bookSlug] = createSongbookInfo(bookSlug);
 		
 		transformContents(targetDir, resourceMap, {
-			audioTitleFilter: getAudioTitleFilter(bookSlug),
+			audioTitleFilter: info.audio?.filter?.by_title || null,
 			language: bookSlug.slice(0, 2)
 		});
 		createAZ(targetDir);

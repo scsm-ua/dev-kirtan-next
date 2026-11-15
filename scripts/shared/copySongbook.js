@@ -14,9 +14,8 @@ const { CONST } = require('../constants');
  * always picked up on rerun.
  * @param targetDir {string}
  * @param bookSlug {string}
- * @param booksMap {Object}
  */
-function copySongbook(targetDir, bookSlug, booksMap) {
+function copySongbook(targetDir, bookSlug) {
 	const absPathToPackage = path.resolve(
 		__dirname,
 		'..',
@@ -32,9 +31,6 @@ function copySongbook(targetDir, bookSlug, booksMap) {
 	// Copying the jsons to the project.
 	mkdirSync(targetDir, { recursive: true });
 	execSync(`cp -a ${path.resolve(absPathToPackage, CONST.FOLDER.SRC_INPUT)}/. ${targetDir}`);
-
-	// Inserting the book info into the variable.
-	booksMap[bookSlug] = require(path.resolve(absPathToPackage, CONST.FILES.BOOK_INFO));
 }
 
 /**/

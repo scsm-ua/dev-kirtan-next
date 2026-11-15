@@ -1,12 +1,10 @@
-import './SearchPage.scss';
+import { notFound } from 'next/navigation';
 
-import BookDescription from '@/components/common/BookDescription/BookDescription';
-import { getBookIdParamList, getBooksMap } from '@/lib/books';
-import { getPagesList } from '@/lib/search';
+import AppDocument from '@/components/app/AppDocument';
+import { getBookIdParamList } from '@/lib/books';
 import { getSearchPageMeta } from '@/other/metadata/getSearchPageMeta';
-import Layout from '@/components/common/Layout/Layout';
+import { loadPageData } from '@/lib/pageData';
 import { SONGBOOK_PAGE } from '@/other/paths';
-import SearchModule from '@/components/search/SearchModule/SearchModule';
 
 import type { BookListPageProps } from '@/types/book';
 
@@ -19,22 +17,10 @@ export const generateStaticParams = getBookIdParamList;
  */
 async function SearchPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const pages = getPagesList(bookId);
-  const booksMap = getBooksMap();
+  const page = await loadPageData({ kind: SONGBOOK_PAGE.SEARCH, bookId });
+  if (!page) notFound();
 
-  const book = booksMap[bookId];
-
-  return (
-    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.SEARCH}>
-      <div className="Main__container SearchPage__container">
-        <header className="SearchPage__header">
-          <BookDescription bookDescription={book} />
-        </header>
-
-        <SearchModule bookId={bookId} pages={pages} />
-      </div>
-    </Layout>
-  );
+  return <AppDocument page={page} />;
 }
 
 /**/

@@ -1,80 +1,21 @@
-import classNames from 'classnames';
+import DocumentHead from '@/components/common/Layout/DocumentHead';
+import LayoutChrome from '@/components/common/Layout/LayoutChrome';
 
-import './Layout.scss';
-import Footer from '@/components/common/Footer/Footer';
-import GlobalHotkeys from '@/components/common/GlobalHotkeys/GlobalHotkeys';
-import { GoogleAnalytics } from '@/components/common/GoogleAnalytics';
-import Header from '@/components/common/Header/Header';
-import { PATH } from '@/other/constants';
-import { ServiceWorkerRegistration } from '@/components/common/ServiceWorkerRegistration';
-
-import type { TAnalyticsPageType } from '@/other/analytics';
+import type { TLayoutChromeProps } from '@/components/common/Layout/LayoutChrome';
 
 /**
- *
+ * Full document for pages outside the client app (analyze, 404).
  */
 function Layout({
-  bookId,
   children,
-  className,
-  itemId,
-  page,
-  pageType
-}: Readonly<{
-  bookId: string;
-  children: React.ReactNode;
-  className?: string;
-  itemId?: string;       // Analytics: song slug, page slug or singer id.
-  page?: string | string[];
-  pageType?: TAnalyticsPageType;
-}>) {
-  const path = PATH.IMG.FAV;
-  const cls = classNames('Main', className);
-
+  ...chrome
+}: Readonly<TLayoutChromeProps & { children: React.ReactNode }>) {
   return (
-    <html lang={bookId.slice(0, 2)}>
-      <head>
-        {/*These two are Next default*/}
-        {/*  <meta charSet="UTF-8" />*/}
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <link rel="apple-touch-icon" sizes="57x57" href={`${path}apple-icon-57x57.png`} />
-        <link rel="apple-touch-icon" sizes="60x60" href={`${path}apple-icon-60x60.png`} />
-        <link rel="apple-touch-icon" sizes="72x72" href={`${path}apple-icon-72x72.png`} />
-        <link rel="apple-touch-icon" sizes="76x76" href={`${path}apple-icon-76x76.png`} />
-        <link rel="apple-touch-icon" sizes="114x114" href={`${path}apple-icon-114x114.png`} />
-        <link rel="apple-touch-icon" sizes="120x120" href={`${path}apple-icon-120x120.png`} />
-        <link rel="apple-touch-icon" sizes="144x144" href={`${path}apple-icon-144x144.png`} />
-        <link rel="apple-touch-icon" sizes="152x152" href={`${path}apple-icon-152x152.png`} />
-        <link rel="apple-touch-icon" sizes="180x180" href={`${path}apple-icon-180x180.png`} />
-        <link rel="icon" type="image/png" sizes="192x192" href={`${path}android-icon-192x192.png`} />
-        <link rel="icon" type="image/png" sizes="32x32" href={`${path}favicon-32x32.png`} />
-        <link rel="icon" type="image/png" sizes="96x96" href={`${path}favicon-96x96.png`} />
-        <link rel="icon" type="image/png" sizes="16x16" href={`${path}favicon-16x16.png`} />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta
-          name="msapplication-TileImage"
-          content={`${path}ms-icon-144x144.png`}
-        />
-        <meta name="theme-color" content="#ffffff" />
-      </head>
+    <html lang={chrome.bookId.slice(0, 2)}>
+      <DocumentHead />
 
       <body className="Body">
-        <div className="Layout">
-          <div className="Layout__content" tabIndex={-1}>
-            <Header bookId={bookId} />
-            <main className={cls}>
-              {children}
-            </main>
-          </div>
-
-          <Footer bookId={bookId} page={page} />
-        </div>
-
-        <GoogleAnalytics bookId={bookId} itemId={itemId} pageType={pageType} />
-        <ServiceWorkerRegistration />
-        <GlobalHotkeys bookId={bookId} />
+        <LayoutChrome {...chrome}>{children}</LayoutChrome>
       </body>
     </html>
   );

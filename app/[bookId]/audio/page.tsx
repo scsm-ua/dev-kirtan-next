@@ -1,11 +1,11 @@
-import AudioPage from '@/components/audio/AudioPage';
-import BookDescription from '@/components/common/BookDescription/BookDescription';
+import { notFound } from 'next/navigation';
+
+import AppDocument from '@/components/app/AppDocument';
+import { getAudioBookIdParamList } from '@/lib/audio';
 import { getAudioPageMeta } from '@/other/metadata/getAudioPageMeta';
-import { getAudioBookIdParamList, getSingers, getSingerTracks } from '@/lib/audio';
-import { getBooksMap } from '@/lib/books';
-import Layout from '@/components/common/Layout/Layout';
-import { SONGBOOK_PAGE } from '@/other/paths';
+import { loadPageData } from '@/lib/pageData';
 import LdJsonAudio from '@/other/metadata/LdJsonAudio';
+import { SONGBOOK_PAGE } from '@/other/paths';
 
 import type { BookListPageProps } from '@/types/book';
 
@@ -19,27 +19,22 @@ export const dynamicParams = false;
  */
 async function AudioIndexPage({ params }: BookListPageProps) {
   const { bookId } = await params;
-  const book = getBooksMap()[bookId];
-  const tracks = getSingerTracks(bookId);
+  const page = await loadPageData({ kind: SONGBOOK_PAGE.AUDIO, bookId });
+  if (page?.kind !== 'audio') notFound();
+
+  const { book, tracks } = page.data;
 
   return (
-    <Layout bookId={bookId} pageType={SONGBOOK_PAGE.AUDIO}>
-      <div className="Main__container AudioPage">
-        <div className="IndexPage__title">
-          <BookDescription bookDescription={book} />
-        </div>
-
-        <div className="Main__content">
-          <AudioPage bookId={bookId} singers={getSingers(bookId)} tracks={tracks} />
-        </div>
-
+    <AppDocument
+      extras={
         <LdJsonAudio
           bookId={bookId}
           bookTitle={book.title_full_short || book.title}
           tracks={tracks}
         />
-      </div>
-    </Layout>
+      }
+      page={page}
+    />
   );
 }
 

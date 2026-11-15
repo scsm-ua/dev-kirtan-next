@@ -2,6 +2,8 @@
 
 import { useEffect } from 'react';
 
+import { getBuildId } from '@/other/router/buildId';
+
 // Prevent service worker registration if this env is set to 'true'
 const PREVENT_SW = process.env.NEXT_PUBLIC_PREVENT_SERVICE_WORKER === 'true';
 
@@ -15,9 +17,8 @@ export function useServiceWorker() {
       return;
     }
     if ('serviceWorker' in navigator) {
-      const swVersion =
-        __BUILD_INFO__.commit || __BUILD_INFO__.version || 'dev';
-      const swUrl = `/sw.js?v=${encodeURIComponent(swVersion)}`;
+      // Page data is cached per build, and a rebuild can change data without a new commit.
+      const swUrl = `/sw.js?v=${encodeURIComponent(getBuildId())}`;
 
       navigator.serviceWorker
         .register(swUrl, { scope: '/' })

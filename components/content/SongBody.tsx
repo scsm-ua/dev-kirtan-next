@@ -1,47 +1,26 @@
 import AudioList from '@/components/song/AudioList/AudioList';
 import ContentShell from '@/components/content/ContentShell';
-import LdJsonSong from '@/other/metadata/LdJsonSong';
 import OtherTranslations from '@/components/song/OtherTranslations/OtherTranslations';
 import SongbookList from '@/components/song/OtherTranslations/SongbookList';
 import SongHeader from '@/components/song/SongHeader';
 import SongImage from '@/components/song/SongImage/SongImage';
 import SongShare from '@/components/song/SongShare/SongShare';
 import SongText from '@/components/song/SongText/SongText';
-import { getBookDescriptionsByBook, getTelegraphUrl } from '@/lib/song';
-import { getBooksMap } from '@/lib/books';
-import { ITEM_TYPE } from '@/types/common';
 import { translate } from '@/other/i18n';
 
-import type { TContentBodyProps } from '@/lib/content/handler';
-import type { TSong } from '@/types/song';
+import type { TViewProps } from '@/components/app/views/types';
 
 /**
- * Song item body: header (image, titles, author), verses, audio, JSON-LD.
- * Fetches song-only extras (other translations, Telegraph URL) itself so
- * other content types don't pay for them.
+ * Song item body: header (image, titles, author), verses, audio. `extras`
+ * carries the server-rendered JSON-LD.
  */
-async function SongBody({
-  book,
-  bookId,
-  data: song,
-  nav,
-  slug
-}: TContentBodyProps<TSong>) {
-  const booksMap = getBooksMap();
-  const descriptions = getBookDescriptionsByBook(slug, booksMap);
-  const telegraphUrl = await getTelegraphUrl(bookId, slug);
+function SongBody({ extras, page }: TViewProps<'song'>) {
+  const { bookId, slug } = page.route;
+  const { book, descriptions, nav, song, telegraphUrl } = page.data;
 
   return (
     <ContentShell
-      after={
-        <LdJsonSong
-          bookDescriptions={descriptions}
-          bookId={bookId}
-          bookTitle={book.title}
-          slug={slug}
-          song={song}
-        />
-      }
+      after={extras}
       bookId={bookId}
       bookTitle={book.title}
       controls={
@@ -73,10 +52,8 @@ async function SongBody({
           <SongHeader bookId={bookId} song={song} />
         </>
       }
-      itemType={ITEM_TYPE.SONG}
       nav={nav}
       page={song.meta?.page}
-      slug={slug}
     >
       <SongText
         bookId={bookId}
@@ -89,6 +66,7 @@ async function SongBody({
           audio={song.resources?.audio}
           bookId={bookId}
           caption={translate(bookId, 'SONG_PAGE.AUDIO_CAPTION')}
+          offlineCaption={translate(bookId, 'SONG_PAGE.AUDIO_OFFLINE_CAPTION')}
           songTitle={song.title.join(' ')}
         />
       )}

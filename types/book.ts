@@ -1,12 +1,23 @@
-/**/
+/** Merged at build time from the package's songbook.json, source/songbooks.json and the song count. */
 export type TBookDescription = {
-  hidden: boolean;
+  audio?: { filter?: { by_title?: Array<string> } };
+  hidden?: boolean;
+  language?: string;
+  render?: Record<string, boolean | number>;
+  shortcuts?: Array<TShortcut>;
   slug: string;
   songsCount: number;
-  sort_order: number;
+  sort_order?: number;
   subtitle: string;
   title: string;
   title_full_short?: string;
+};
+
+/** Extra index-page link to a content item. */
+export type TShortcut = {
+  icon: 'clock';
+  slug: string;
+  title: string;
 };
 
 /**/

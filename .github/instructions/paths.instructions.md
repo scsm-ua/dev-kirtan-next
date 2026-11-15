@@ -33,18 +33,20 @@ Do not confuse them:
 ## Consumers map
 
 - **Components**: Header, Footer, AZ, Contents, ContentItem, BookCard, NotFound, SongHeader (`+ '#section-…'`), PageNumber, SongbookList, AnalyzeTable.
-- **Hotkeys**: `other/hooks/useGlobalHotkeys.ts` — all `router.push` targets; its `NON_SONG_SEGMENTS` is derived from `Object.values(SONGBOOK_PAGE)`, so adding a constant automatically excludes that segment from song-page detection.
+- **Hotkeys**: `other/hooks/useGlobalHotkeys.ts` — all `navigate()` targets; its `NON_SONG_SEGMENTS` is derived from `Object.values(SONGBOOK_PAGE)`, so adding a constant automatically excludes that segment from song-page detection.
+- **Router**: `other/router/routes.ts` maps these paths to routes and `/data/` JSON URLs (`parsePath`, `getRoutePath`, `getRouteDataUrl`). It's the only other place that knows the URL structure; keep it in sync (see `app-routes.instructions.md`).
 - **Libs**: `lib/search.ts`, `lib/song.ts` (prev/next), `lib/content/page/songRefs.ts` (export HTML).
 - **SEO**: `app/sitemap.ts`, `other/metadata/helpers/getAlt.ts` (takes `page?: TSongbookPage`, builds canonical + language alternates), `getOG.ts` (takes a full relative path), `getPageMeta.ts` (`page?: TSongbookPage` option), `LdJson.tsx` (`page?: TSongbookPage` prop; omitted = book root), `LdJsonSong.tsx`, `lib/content/song/meta.ts`, `lib/content/page/meta.ts`.
 
 ## Adding a new root page
 
 1. Add the segment to `SONGBOOK_PAGE` (this also updates hotkey song-page detection).
-2. Build links/`router.push` targets with `getSongbookPagePath`.
+2. Build links/`navigate()` targets with `getSongbookPagePath`.
 3. If indexed: add to `app/sitemap.ts` and pass `page: SONGBOOK_PAGE.X` to `getPageMeta` / `LdJson`; admin-only pages (export, analyze) stay out of both and get `noindex` robots.
+4. Declare the route for the app (page data, router, view) or mark it full-load (`NON_APP_PAGES`): full recipes in `app-routes.instructions.md`.
 
 ## Gotchas
 
-- `FooterItem` active-state matching strips the query string from `href` before comparing with `pathname` — keep that if touching it.
+- `FooterItem` active-state matching strips the query string from `href` before comparing with the pathname from `useAppLocation()` — keep that if touching it.
 - `SITE.ORIGIN` ends with `/`; never concatenate it with a path directly — use `getAbsoluteUrl`.
 - `getSongPathWithPage` falls back to `item.page` when no explicit page is passed; first page in `item.pages` produces a clean URL with no query.
