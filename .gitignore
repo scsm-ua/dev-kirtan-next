@@ -2,6 +2,7 @@
 
 /.idea
 .env.local
+server-worker/feedback/.dev.vars*
 
 # dependencies
 /node_modules
@@ -18,6 +19,7 @@
 
 # testing
 /coverage
+/.test-output/
 
 # next.js
 /.next/

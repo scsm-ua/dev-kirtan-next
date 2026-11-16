@@ -122,6 +122,7 @@
       "OFFLINE": "Bezsaistē",
       "TITLE": "Jūsu atsauksme",
       "TU_MESSAGE": "Mēs novērtējam jūsu atsauksmes. Paldies!",
+      "DELIVERY_ERROR": "Neizdevās nosūtīt atsauksmi. Lūdzu, mēģiniet vēlreiz.",
       "APPEAL": "Atradi kļūdu vai ir ideja par vietni? Būsim pateicīgi arī par saitēm uz lekcijām un grāmatām, kas skaidro dziesmas tekstu.",
       "FIELDS": {
         "NAME": {
@@ -279,6 +280,7 @@
       "OFFLINE": "Offline",
       "TITLE": "Your feedback",
       "TU_MESSAGE": "We appreciate your feedback. Thank you!",
+      "DELIVERY_ERROR": "Could not send your feedback. Please try again.",
       "APPEAL": "Found a mistake or have an idea for the site? We’d also appreciate links to talks and books explaining the song.",
       "FIELDS": {
         "NAME": {
@@ -436,6 +438,7 @@
       "OFFLINE": "Sin conexión",
       "TITLE": "Tu opinión",
       "TU_MESSAGE": "Agradecemos tus comentarios. ¡Gracias!",
+      "DELIVERY_ERROR": "No se pudo enviar tu mensaje. Inténtalo de nuevo.",
       "APPEAL": "¿Encontraste un error o tienes una idea para el sitio? También agradeceremos enlaces a charlas y libros que expliquen la canción.",
       "FIELDS": {
         "NAME": {
@@ -606,6 +609,7 @@
       "OFFLINE": "Офлайн",
       "TITLE": "Ваш отзыв",
       "TU_MESSAGE": "Спасибо за ваш отзыв!",
+      "DELIVERY_ERROR": "Не удалось отправить отзыв. Попробуйте ещё раз.",
       "APPEAL": "Нашли ошибку или есть идея для сайта? Будем благодарны за ссылки на беседы и книги с объяснением текста песни.",
       "FIELDS": {
         "NAME": {
@@ -776,6 +780,7 @@
       "OFFLINE": "Офлайн",
       "TITLE": "Ваш відгук",
       "TU_MESSAGE": "Дякуємо за ваш відгук!",
+      "DELIVERY_ERROR": "Не вдалося надіслати відгук. Спробуйте ще раз.",
       "APPEAL": "Знайшли помилку чи маєте ідею для сайту? Будемо вдячні за лінки на бесіди та книги з поясненням тексту пісні.",
       "FIELDS": {
         "NAME": {
@@ -933,6 +938,7 @@
       "OFFLINE": "Offline",
       "TITLE": "Seu feedback",
       "TU_MESSAGE": "Agradecemos seu feedback. Obrigado!",
+      "DELIVERY_ERROR": "Não foi possível enviar sua mensagem. Tente novamente.",
       "APPEAL": "Encontrou um erro ou tem uma ideia para o site? Também agradecemos links para palestras e livros que expliquem a música.",
       "FIELDS": {
         "NAME": {

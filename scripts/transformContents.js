@@ -279,4 +279,13 @@ function mapItem(item, song, seenSongIds) {
 }
 
 /**/
-module.exports = { transformContents };
+module.exports = {
+  applyPageIdxDict,
+  getAltFirstLines,
+  getItemType,
+  getPage,
+  getPages,
+  mapItem,
+  mapResources,
+  transformContents
+};

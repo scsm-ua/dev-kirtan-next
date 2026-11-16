@@ -7,7 +7,7 @@ import FormField from '@/components/common/form/FormField/FormField';
 
 /**/
 type Props = {
-  errors: Object;
+  errors: Partial<Record<string, { message?: string }>>;
   file: File | null;
   onFile: (file: File | null) => void;
   subtext: string;

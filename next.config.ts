@@ -15,6 +15,8 @@ const buildInfo = JSON.stringify({
 /**/
 const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(__dirname),
+  // With `output: 'export'` this is the export folder (default `out`).
+  ...(process.env.KIRTAN_BUILD_DIR ? { distDir: process.env.KIRTAN_BUILD_DIR } : {}),
   output: 'export',
   trailingSlash: true,
   images: { unoptimized: true },

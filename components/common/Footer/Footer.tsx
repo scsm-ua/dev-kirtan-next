@@ -58,7 +58,7 @@ function getNavItems(bookId: string, page?: string): TFooterNavItemProps[] {
 /**
  *
  */
-function getPage(page: string | string[]): string {
+function usePage(page: string | string[]): string {
   const pageQuery = usePageQuery();
   if (pageQuery) return pageQuery;
 
@@ -69,7 +69,7 @@ function getPage(page: string | string[]): string {
  *
  */
 function Footer({ bookId, page }: Props) {
-  const items = getNavItems(bookId, getPage(page));
+  const items = getNavItems(bookId, usePage(page));
 
   return (
     <footer className="Footer">

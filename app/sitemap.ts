@@ -37,10 +37,12 @@ function mapGroups(groups: TContentGroup[], bookId) {
       ]
     : [];
 
-  const items = groups.flatMap((g: TContentGroup) =>
-    g.items.map((item: TContentItem) =>
-      getXmlItem(getSongPath(bookId, item.id), 0.8, 'monthly')
-    )
+  // A song listed twice in the contents (page duplicates) has one URL.
+  const slugs = new Set(
+    groups.flatMap((g: TContentGroup) => g.items.map((item: TContentItem) => item.id))
+  );
+  const items = Array.from(slugs, (slug) =>
+    getXmlItem(getSongPath(bookId, slug), 0.8, 'monthly')
   );
 
   return [...indexes, ...audio, ...items];

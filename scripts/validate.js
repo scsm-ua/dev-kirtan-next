@@ -30,4 +30,9 @@ function validate() {
 }
 
 /**/
-validate();
+if (require.main === module) {
+	validate();
+}
+
+/**/
+module.exports = { validate };

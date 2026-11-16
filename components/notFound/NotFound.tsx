@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 import './NotFoundPage.scss';
 
-import { DEFAULT_LANGUAGE, isValidBookId, translate } from '@/other/i18n';
+import { DEFAULT_LANGUAGE, translate } from '@/other/i18n';
 import Layout from '@/components/common/Layout/Layout';
 import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { PREFERENCES } from '@/other/constants';
@@ -19,16 +19,14 @@ type Props = {
 /**
  *
  */
-function getBookId(): string {
-  const _bookId = location.pathname.split('/')[1];
-  if (isValidBookId(_bookId)) return _bookId;
+function getBookId(booksMap: Props['booksMap']): string {
+  const candidates = [
+    location.pathname.split('/')[1],
+    localStorage.getItem(PREFERENCES.PREFERRED_BOOK_ID),
+    (navigator.language || Intl.DateTimeFormat().resolvedOptions().locale)?.slice(0, 2)
+  ];
 
-  return (
-    localStorage.getItem(PREFERENCES.PREFERRED_BOOK_ID) ||
-    navigator.language.slice(0, 2) ||
-    Intl.DateTimeFormat().resolvedOptions().locale?.slice(0, 2) ||
-    DEFAULT_LANGUAGE
-  );
+  return candidates.find((id) => id && booksMap[id]) ?? DEFAULT_LANGUAGE;
 }
 
 /**
@@ -39,10 +37,7 @@ function getBookId(): string {
 async function checkOldPath(): Promise<true | void> {
   if (!window.location.pathname.endsWith('.html')) return;
 
-  const newPath = window.location.pathname.split('.')[0];
-  const url = window.location.host.startsWith('localhost')
-    ? window.location.host + newPath // Local debug case
-    : newPath;
+  const url = window.location.pathname.split('.')[0];
 
   const resp = await fetch(url, { method: 'HEAD' });
 
@@ -60,15 +55,15 @@ function NotFound({ booksMap }: Props) {
 
   useEffect(() => {
     checkOldPath().then((hasOldPath) =>
-      hasOldPath || setBookId(getBookId())
+      hasOldPath || setBookId(getBookId(booksMap))
     );
-  }, []);
+  }, [booksMap]);
 
   if (bookId === null) return null;
 
-  const bookList = Object.entries(booksMap)
-    .sort((a) => (a[0] === bookId ? -1 : 1))
-    .map((ent: [string, TBookDescription]) => ent[1]);
+  const bookList = Object.values(booksMap).sort(
+    (a, b) => Number(b.slug === bookId) - Number(a.slug === bookId)
+  );
 
   return (
     <Layout bookId={bookId} className="NotFoundPage">
@@ -76,15 +71,15 @@ function NotFound({ booksMap }: Props) {
         <div className="Main__content IndexPage__content">
           <header className="NotFoundPage__header">
             <h3 className="NotFoundPage__title">
-              {translate('bookId', 'NOT_FOUND_PAGE.TITLE')}
+              {translate(bookId, 'NOT_FOUND_PAGE.TITLE')}
             </h3>
 
             <div className="NotFoundPage__text">
-              {translate('bookId', 'NOT_FOUND_PAGE.TEXT')}
+              {translate(bookId, 'NOT_FOUND_PAGE.TEXT')}
             </div>
           </header>
 
-          <main className="NotFoundPage__main">
+          <div className="NotFoundPage__main">
             <ul className="NotFoundPage__list">
               {bookList.map((description: TBookDescription) => {
                 const href = getSongbookPagePath(
@@ -101,7 +96,7 @@ function NotFound({ booksMap }: Props) {
                 );
               })}
             </ul>
-          </main>
+          </div>
         </div>
       </div>
     </Layout>

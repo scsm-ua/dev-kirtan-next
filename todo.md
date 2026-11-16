@@ -1,4 +1,8 @@
+- feedback form with Cloudflare Worker
+
 # seo
+
+- implement seo plan
 
 - root page '/' render fist songbook without redirect
 
@@ -12,6 +16,8 @@
 - keyboard next prev navigation - could be faster without animation
 - allow scroll down with dock player - to show footer
 
+- refactor routes to simpler way
+
 - review: AppRoot__progress
 - sw.js offline response make nicer
 - review Offline page: page.tsx is an empty app page
@@ -19,12 +25,13 @@
 - offline - book images not cached
 - offline - white page, not loaded when network is back
 - offline - forward from noncached to cached not working
-- Daily program shortcut
+- offline - (navigator as TNavigator).connection?.saveData) - save only for images precache, which is not implemented  yet
 
 ### GA possible issue
 
 - Decision for you: trackPage now sends a page_view on every client navigation. If "Page changes based on browser history events" is on in your GA4 enhanced measurement settings, these navigations will be counted twice. Turn it off, or tell me to drop the explicit event and rely on GA's own tracking instead. I recommend turning it off, because GA's history tracking fires before the new title and page parameters are set.
 
+- disabled, but views still counts by 2
 
 ### Back on soundclud possible issue
 
@@ -36,12 +43,16 @@ The fix I'd suggest is to create a fresh hidden SoundCloud iframe for each track
 
 # Todo
 
-- tests for all functionality
+- client search (as data not big)
+
+- review tests findings
 
 - sonbgooks legacy songbooks section
 - en songbook link to https://scsmath.com/KirtanGuide/
 - another build and app js approach
 - do songbook images in resources
+
+- review: todo-songbook-info.md
 
 # complex questions
 

@@ -28,7 +28,7 @@ function SearchControls({ bookId, value, onClear, onInput, onSubmit }: Props) {
   const handleChange = (e: SyntheticEvent) => onInput(e.target['value']);
 
   const handleKeyDown = (e: SyntheticEvent) => {
-    (e['key'] === 'Enter' || e['keyCode'] === 13) && onSubmit();
+    if (e['key'] === 'Enter' || e['keyCode'] === 13) onSubmit();
   };
 
   const handleNumpad = (digit: string) => onInput(value + digit);

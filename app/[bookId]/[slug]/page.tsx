@@ -33,14 +33,14 @@ async function ContentPage({ params }: ContentPageProps) {
       slug={slug}
       song={page.data.song}
     />
-  ) : (
+  ) : page.kind === 'page' ? (
     <LdJsonPage
       bookId={bookId}
       bookTitle={page.data.book.title}
       slug={slug}
       title={page.data.page.meta.title}
     />
-  );
+  ) : undefined;
 
   return <AppDocument extras={extras} page={page} />;
 }

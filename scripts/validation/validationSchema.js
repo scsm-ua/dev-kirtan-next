@@ -454,8 +454,11 @@ const TRANSLATION_VALIDATION_SCHEMA = {
 		FEEDBACK: {
 			type: 'object',
 			additionalProperties: false,
-			required: ['APPEAL', 'FIELDS', 'OFFLINE', 'TITLE', 'TRIGGER_TEXT', 'TU_MESSAGE'],
+      required: ['APPEAL', 'DELIVERY_ERROR', 'FIELDS', 'OFFLINE', 'TITLE', 'TRIGGER_TEXT', 'TU_MESSAGE'],
 			properties: {
+        DELIVERY_ERROR: {
+          type: 'string'
+        },
 				APPEAL: {
 					type: 'string'
 				},

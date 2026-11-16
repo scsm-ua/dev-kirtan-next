@@ -1,5 +1,6 @@
 import DocumentHead from '@/components/common/Layout/DocumentHead';
 import LayoutChrome from '@/components/common/Layout/LayoutChrome';
+import { getBookLocale } from '@/other/helpers';
 
 import type { TLayoutChromeProps } from '@/components/common/Layout/LayoutChrome';
 
@@ -11,7 +12,7 @@ function Layout({
   ...chrome
 }: Readonly<TLayoutChromeProps & { children: React.ReactNode }>) {
   return (
-    <html lang={chrome.bookId.slice(0, 2)}>
+    <html lang={getBookLocale(chrome.bookId)}>
       <DocumentHead />
 
       <body className="Body">

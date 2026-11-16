@@ -9,7 +9,7 @@ export function displayVersionInfo() {
 
     console.log(`%c -*{( Kirtan Site )}*-`, styles);
     console.log(JSON.stringify(__BUILD_INFO__, null, 2));
-  } catch (e) {
+  } catch {
     console.log('No build info given.');
   }
 }

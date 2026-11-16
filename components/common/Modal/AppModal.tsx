@@ -42,7 +42,7 @@ function AppModal({ children, header, isOpen, onClose }: Props) {
           )}
         </header>
 
-        <main className="AppModal__main">{children}</main>
+        <div className="AppModal__main">{children}</div>
       </div>
     </Modal>
   );

@@ -1,4 +1,5 @@
 import { getAbsoluteUrl, getSongbookPagePath, getSongbookPath } from '@/other/paths';
+import { getBookLocale } from '@/other/helpers';
 import { getSiteGraphNodes } from '@/other/metadata/helpers/getSiteGraphNodes';
 import { SITE } from '@/other/constants';
 import { translate } from '@/other/i18n';
@@ -16,7 +17,7 @@ type Props = {
  *
  */
 function LdJson({ bookId, pageKey, page }: Props) {
-  const language = bookId.slice(0, 2);
+  const language = getBookLocale(bookId);
   const url = getAbsoluteUrl(
     page ? getSongbookPagePath(bookId, page) : getSongbookPath(bookId)
   );

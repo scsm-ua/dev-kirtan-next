@@ -15,7 +15,7 @@ type Props = {
  *
  */
 function ContentItem({ bookId, item }: Props) {
-  const { aliasName, has, id, page, pages, title } = item;
+  const { aliasName, has, page, title } = item;
   const cls = (classnames as any)(
     'ContentItem__title',
     has.translation || 'ContentItem__title--normal'
@@ -23,7 +23,7 @@ function ContentItem({ bookId, item }: Props) {
 
   const _pages = Array.isArray(page) ? page.join(', ') : page;
   
-  let href = getSongPathWithPage(bookId, item);
+  const href = getSongPathWithPage(bookId, item);
   
   return (
     <li className="ContentItem">

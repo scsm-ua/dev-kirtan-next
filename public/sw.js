@@ -11,7 +11,7 @@ const SHELL_PATH = '/shell/';
 const IS_LOCAL = ['localhost', '127.0.0.1'].includes(self.location.hostname);
 
 // Install event
-self.addEventListener('install', (event) => {
+self.addEventListener('install', () => {
   self.skipWaiting();
 });
 

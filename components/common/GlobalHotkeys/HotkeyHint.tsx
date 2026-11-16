@@ -25,6 +25,7 @@ function HotkeyHint() {
     if (Date.now() - last < HOTKEYS_HINT_PERIOD) return;
 
     localStorage.setItem(LS_KEY, String(Date.now()));
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- The hint is shown only after reading browser storage on the client.
     setVisible(true);
 
     const fadeId = window.setTimeout(() => setFading(true), VISIBLE_MS - FADE_OUT_MS);

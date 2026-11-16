@@ -12,10 +12,7 @@ export const dynamicParams = false;
 export const generateStaticParams = getBookIdParamList;
 
 /**/
-export async function generateMetadata({
-  params
-}: BookListPageProps): Promise<Metadata> {
-  const { bookId } = await params;
+export async function generateMetadata(): Promise<Metadata> {
   return {
     robots: { index: false, follow: false }
   };

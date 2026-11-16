@@ -49,7 +49,7 @@ export function getIFrameUrl(audioUrl: string): string {
  */
 export function scrollToSection(id: string): void {
   const el = document.getElementById('section-' + id);
-  el && scrollIt(el, 250);
+  if (el) scrollIt(el, 250);
 }
 
 /**
@@ -70,7 +70,7 @@ function scrollIt(destination: HTMLElement, duration: number) {
     const y = Math.ceil(easeOutQuad(time) * (destinationTop - start) + start);
     scrollable.scroll(0, y);
 
-    y < destinationTop && requestAnimationFrame(scroll);
+    if (y < destinationTop) requestAnimationFrame(scroll);
   }());
 }
 

@@ -1,6 +1,6 @@
 'use client';
 import classNames from 'classnames';
-import { useEffect, useId, useMemo, useRef, useState, useSyncExternalStore } from 'react';
+import { useEffect, useId, useMemo, useState, useSyncExternalStore } from 'react';
 
 import './Playlist.scss';
 import PlayerWidget from '@/components/player/PlayerWidget';
@@ -58,17 +58,11 @@ function Playlist({ bookId, tracks, showSinger }: Props) {
   const [picked, setPicked] = useState<TAudioSort | null>(null);
   const sort = picked ?? stored;
   const isSortByTitleEnabled = sort === AUDIO_SORT.TITLE;
-  // Created on first use and kept, so switching back to shuffle keeps the same order.
-  const shuffled = useRef<{ source: Array<TAudioTrack>; list: Array<TAudioTrack> } | null>(null);
+  const [shuffled] = useState(() => shuffle(tracks));
   const sorted = useMemo(() => {
-    if (sort === AUDIO_SORT.SHUFFLE) {
-      if (shuffled.current?.source !== tracks) {
-        shuffled.current = { source: tracks, list: shuffle(tracks) };
-      }
-      return shuffled.current.list;
-    }
+    if (sort === AUDIO_SORT.SHUFFLE) return shuffled;
     return isSortByTitleEnabled ? [...tracks].sort((a, b) => a.order - b.order) : tracks;
-  }, [sort, isSortByTitleEnabled, tracks]);
+  }, [sort, isSortByTitleEnabled, shuffled, tracks]);
 
   // Prev/next follow DOM order and the dock shows the track title; both just changed.
   useEffect(() => {

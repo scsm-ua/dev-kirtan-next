@@ -2,6 +2,9 @@ name: Build and Deploy
 on:
     workflow_dispatch:
 
+env:
+  NEXT_TELEMETRY_DISABLED: '1'
+
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
@@ -30,6 +33,11 @@ jobs:
             - name: Validation
               run: pnpm run validation
 
+            - name: Tests
+              env:
+                  TZ: UTC
+              run: pnpm test
+
             - name: Build 🔧
               env:
                   NEXT_PUBLIC_ENV: ${{ vars.NEXT_PUBLIC_ENV }}
@@ -37,7 +45,21 @@ jobs:
                   NEXT_PUBLIC_G_ID: ${{ vars.NEXT_PUBLIC_G_ID }}
                   NEXT_PUBLIC_SEARCH_ACCOUNT_ID: ${{ vars.NEXT_PUBLIC_SEARCH_ACCOUNT_ID }}
                   NEXT_PUBLIC_SEARCH_API_KEY: ${{ vars.NEXT_PUBLIC_SEARCH_API_KEY }}
+                  NEXT_PUBLIC_FEEDBACK_URL: ${{ vars.NEXT_PUBLIC_FEEDBACK_URL }}
               run: pnpm run build
+
+            # The same env as the build: the checks compare out/ with the page data built now.
+            - name: Build output checks
+              env:
+                  KIRTAN_BUILD_DIR: out
+                  TZ: UTC
+                  NEXT_PUBLIC_ENV: ${{ vars.NEXT_PUBLIC_ENV }}
+                  NEXT_PUBLIC_ORIGIN: ${{ vars.NEXT_PUBLIC_ORIGIN }}
+                  NEXT_PUBLIC_G_ID: ${{ vars.NEXT_PUBLIC_G_ID }}
+                  NEXT_PUBLIC_SEARCH_ACCOUNT_ID: ${{ vars.NEXT_PUBLIC_SEARCH_ACCOUNT_ID }}
+                  NEXT_PUBLIC_SEARCH_API_KEY: ${{ vars.NEXT_PUBLIC_SEARCH_API_KEY }}
+                  NEXT_PUBLIC_FEEDBACK_URL: ${{ vars.NEXT_PUBLIC_FEEDBACK_URL }}
+              run: pnpm run test:build:check
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4

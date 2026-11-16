@@ -18,6 +18,7 @@ function UnknownAuthors({ children }: Props) {
     // Set by the Shift+A hotkey when navigating here from another page.
     if (sessionStorage.getItem(SHOW_UNKNOWN_AUTHORS_KEY)) {
       sessionStorage.removeItem(SHOW_UNKNOWN_AUTHORS_KEY);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Consume the one-shot hotkey flag after hydration to keep SSR output deterministic.
       setVisible(true);
     }
 

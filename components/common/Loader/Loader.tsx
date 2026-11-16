@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import './Loader.scss';
 import { PATH } from '@/other/constants';
 

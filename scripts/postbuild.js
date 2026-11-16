@@ -2,35 +2,36 @@ const fs = require('node:fs');
 const path = require('node:path');
 const {CONST} = require('./constants');
 
-const BUILD_DIR = path.resolve(__dirname, '..', CONST.FOLDER.BUILD);
 const BOOKS_DIR = path.resolve(__dirname, '..', CONST.FOLDER.SRC_OUTPUT);
 
-if (!process.env.NEXT_PUBLIC_ORIGIN) {
-	throw new Error('postbuild: NEXT_PUBLIC_ORIGIN is not set');
+/**
+ * @param buildDir {string} - directory of the static export.
+ * @param origin {string} - site origin, with or without a trailing slash.
+ */
+function postbuild(buildDir, origin) {
+	// GH Pages: disable Jekyll processing of the build output.
+	fs.writeFileSync(path.join(buildDir, '.nojekyll'), '');
+
+	writeLegacyHtmlRedirects(buildDir, origin.replace(/\/+$/, ''));
 }
-
-const ORIGIN = process.env.NEXT_PUBLIC_ORIGIN.replace(/\/+$/, '');
-
-// GH Pages: disable Jekyll processing of the build output.
-fs.writeFileSync(path.join(BUILD_DIR, '.nojekyll'), '');
-
-writeLegacyHtmlRedirects();
 
 /**
  * Prebuild emtpy legacy (from old site) .html pages with redurect to new canonicals.
  * Prevents 404 for search bots.
+ * @param buildDir {string}
+ * @param origin {string} - without a trailing slash.
  */
-function writeLegacyHtmlRedirects() {
+function writeLegacyHtmlRedirects(buildDir, origin) {
 	let count = 0;
 
 	for (const bookId of readBookIds()) {
-		const dir = path.join(BUILD_DIR, bookId);
+		const dir = path.join(buildDir, bookId);
 		fs.mkdirSync(dir, {recursive: true});
 
 		for (const slug of readBookSlugs(bookId)) {
 			if (!slug || slug.includes('/')) continue;
 
-			const target = `${ORIGIN}/${bookId}/${slug}/`;
+			const target = `${origin}/${bookId}/${slug}/`;
 			fs.writeFileSync(path.join(dir, `${slug}.html`), redirectHtml(target));
 			count++;
 		}
@@ -88,3 +89,19 @@ Redirecting to <a href="${target}">${target}</a>…
 </html>
 `;
 }
+
+/**/
+if (require.main === module) {
+	if (!process.env.NEXT_PUBLIC_ORIGIN) {
+		throw new Error('postbuild: NEXT_PUBLIC_ORIGIN is not set');
+	}
+
+	postbuild(
+		// KIRTAN_BUILD_DIR: same override as `distDir` in next.config.ts.
+		path.resolve(__dirname, '..', process.env.KIRTAN_BUILD_DIR || CONST.FOLDER.BUILD),
+		process.env.NEXT_PUBLIC_ORIGIN
+	);
+}
+
+/**/
+module.exports = { postbuild, redirectHtml };

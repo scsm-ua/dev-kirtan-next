@@ -22,6 +22,7 @@ type Props = {
  */
 function FormInner({ onFinish, translations: t }: Props) {
   const [file, setFile] = useState<File>(null);
+  const [deliveryError, setDeliveryError] = useState(false);
 
   useEffect(() => {
     // Forcing focus. Weird, but the attribute doesn't work.
@@ -32,15 +33,15 @@ function FormInner({ onFinish, translations: t }: Props) {
     register,
     handleSubmit,
     setError,
-    formState: { errors }
+    formState: { errors, isSubmitting }
   } = useForm<TSubmitFormData>(getFormInit(t));
 
   const onFile = (file: File | null) => {
     setFile(file);
-    file || setError(FIELDS.IMAGE, null);
+    if (!file) setError(FIELDS.IMAGE, null);
   };
 
-  const onSubmit = (data: TSubmitFormData) => {
+  const onSubmit = async (data: TSubmitFormData) => {
     if (file && !file.type.startsWith('image/')) {
       return setError(FIELDS.IMAGE, {
         message: t.FIELDS.IMAGE.VALIDATION.TYPE
@@ -52,8 +53,13 @@ function FormInner({ onFinish, translations: t }: Props) {
       });
     }
 
-    onFeedbackSubmit(data, file);
-    onFinish();
+    setDeliveryError(false);
+    try {
+      await onFeedbackSubmit(data, file);
+      onFinish();
+    } catch {
+      setDeliveryError(true);
+    }
   };
 
   return (
@@ -72,7 +78,6 @@ function FormInner({ onFinish, translations: t }: Props) {
           className="AppTextInput AppTextInput--gray"
           id={FIELDS.NAME}
           type="text"
-          // @ts-ignore
           {...register(FIELDS.NAME)}
         />
       </FormField>
@@ -86,7 +91,6 @@ function FormInner({ onFinish, translations: t }: Props) {
           className="AppTextInput AppTextInput--gray"
           id={FIELDS.EMAIL}
           type="email"
-          // @ts-ignore
           {...register(FIELDS.EMAIL)}
         />
       </FormField>
@@ -101,7 +105,6 @@ function FormInner({ onFinish, translations: t }: Props) {
           className="AppTextInput AppTextInput--area AppTextInput--gray"
           id={FIELDS.MESSAGE}
           placeholder={t.FIELDS.MESSAGE.PLACEHOLDER}
-          // @ts-ignore
           {...register(FIELDS.MESSAGE)}
           rows={3}
         />
@@ -116,8 +119,10 @@ function FormInner({ onFinish, translations: t }: Props) {
       />
 
       <div className="FeedbackWidget__footer">
+        {deliveryError && <p role="alert">{t.DELIVERY_ERROR}</p>}
         <input
           className="AppButton FeedbackWidget__submit"
+          disabled={isSubmitting}
           type="submit"
           value={t.FIELDS.SUBMIT}
         />

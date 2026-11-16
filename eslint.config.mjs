@@ -12,12 +12,27 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-  ])
+    ".test-output/**",
+  ]),
+  {
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off",
+    },
+  },
+  // CommonJS: the build scripts and the Next config.
+  {
+    files: ["scripts/**/*.js", "next.config.ts"],
+    rules: {
+      "@typescript-eslint/no-require-imports": "off",
+    },
+  },
+  // Dev-only playground (`// @ts-nocheck`).
+  {
+    files: ["app/test/page.tsx"],
+    rules: {
+      "@typescript-eslint/ban-ts-comment": "off",
+    },
+  },
 ]);
-
-eslintConfig.rules = {
-	...eslintConfig.rules,
-	'@typescript-eslint/no-explicit-any': 0
-};
 
 export default eslintConfig;

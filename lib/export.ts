@@ -1,5 +1,6 @@
 import { escHtml as esc } from '@/other/exportDoc';
 import { getBooksMap } from '@/lib/books';
+import { getBookLocale } from '@/other/helpers';
 import { getContentHandler } from '@/lib/content/registry';
 import { getContentsByBookId, getIndexesByBookId } from '@/lib/contents';
 import { heading } from '@/lib/content/exportHtml';
@@ -119,7 +120,5 @@ export async function buildExportHtml(bookId: string): Promise<TExportDoc> {
     bookId
   )}</section>\n`;
 
-  const lang = bookId.slice(0, 2);
-
-  return { body, lang, title: bookTitle };
+  return { body, lang: getBookLocale(bookId), title: bookTitle };
 }

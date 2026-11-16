@@ -219,6 +219,8 @@ class SoundCloudAdapter implements TPlayerAdapter {
     };
     const onFail = (err: unknown) => {
       if (owner !== this) return;
+      // Give the widget up, so the next play() of this track tries to load again.
+      owner = null;
       this.wantPlay = false;
       syncAnchor();
       this.events.onError(err);

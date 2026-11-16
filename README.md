@@ -67,7 +67,7 @@ Full sequence: `install:fetch` → `install:post-fetch` → `validation` → `ne
 | `dev` | Start the Next.js dev server on port `3333`. |
 | `build` | Low-level `next build` only (no data prep, no env loading). |
 | `build:prod` | `env/.env.prod` + `build`. Local production build. |
-| `build:test` | `env/.env.dev` + `build`. Local dev-env build. |
+| `build:test` | `env/.env.test` + `build`. Test build into `.test-output/site/` (`out/` is not touched). |
 | `build:all` | Full pipeline: `install:fetch` → `install:post-fetch` → `validation` → `next build`. |
 | `start` | Serve the exported `./out` folder on port `3334`. |
 | `postbuild` | Writes `.nojekyll` into `./out` (runs automatically after `build`). |
@@ -76,6 +76,12 @@ Full sequence: `install:fetch` → `install:post-fetch` → `validation` → `ne
 | `validation` | Validate the generated songbooks and `translations.json` against JSON schemas. Requires `install:post-fetch` to have run first. |
 | `lint` | ESLint. |
 | `type-check` | `tsc --noEmit`. |
+| `test` | Unit, data and component tests (Vitest), once. |
+| `test:watch` | Same, in watch mode. |
+| `test:coverage` | Same, with coverage and its thresholds. Report in `.test-output/coverage/`. |
+| `test:build` | `build:test`, then the build-output checks. |
+| `test:build:check` | Build-output checks on the existing test build. |
+| `test:e2e` | Playwright end-to-end tests. Makes the test build first if there is none. |
 
 ## Local setup
 
@@ -87,6 +93,57 @@ pnpm run dev
 ```
 
 Re-run `install:post-fetch` after editing a locally linked songbook package to pick up your changes without a re-fetch.
+
+## Tests
+
+The tests use the real songbooks in `./source/books/` as data (no fixture books), so run the data steps first. All test code is under `./tests/`, one folder per layer; everything generated goes to `./.test-output/` (gitignored). Details: [.github/plans/plan-tests.md](.github/plans/plan-tests.md).
+
+| Folder | Layer | Runner |
+| --- | --- | --- |
+| `tests/pipeline/` | Source processing (`scripts/`) | Vitest, node |
+| `tests/data/` | Build-time data (`lib/`, metadata, sitemap) | Vitest, node |
+| `tests/logic/` | Pure functions | Vitest, node |
+| `tests/client/` | Client state: router, player, hooks | Vitest, jsdom |
+| `tests/ui/` | Components | Vitest, jsdom |
+| `tests/build/` | Files of the built site | Vitest, node |
+| `tests/e2e/` | The built site in a browser | Playwright |
+
+### Run order
+
+```sh
+# 0. Once: songbook data (as for `dev`) and Playwright browsers
+pnpm run install:fetch
+pnpm run install:post-fetch
+pnpm exec playwright install chromium webkit
+
+# 1. Static checks
+pnpm run validation
+pnpm run type-check
+pnpm run lint
+
+# 2. Unit, data and component tests: no build, no network, ~30 s
+pnpm test                 # or `pnpm test:watch` while coding
+pnpm run test:coverage    # optional: fails if coverage drops below the thresholds
+
+# 3. Test build (~2 min) + build-output checks
+pnpm run test:build       # `pnpm run test:build:check` re-checks the existing build
+
+# 4. End-to-end tests on the test build (Chromium + WebKit iPhone)
+pnpm run test:e2e
+```
+
+Notes:
+
+- Each step needs only the ones before it. Steps 1–2 are enough while coding; steps 3–4 before a release or after changes to routing, the service worker, the player or the build.
+- `test:e2e` reuses an existing test build. After code changes, run step 3 (or `pnpm run build:test`) first, otherwise the browser tests run against the old build.
+- The test build uses `env/.env.test` and is served on port `3337` during `test:e2e`; that port must be free.
+- If `./source/books/` is missing, the tests stop with one message asking to run the data steps.
+- Playwright report and traces: `.test-output/playwright/` (`pnpm exec playwright show-report .test-output/playwright/report`).
+- Re-run after editing a linked songbook: `install:post-fetch`, then the tests. A content change can fail a test; the message names the book and the song.
+
+## Feedback Worker
+
+See the [Feedback Worker setup guide](server-worker/feedback/README.md).
 
 ## Debug local songbooks
 
@@ -164,8 +221,19 @@ The [.github/workflows/build_and_deploy.yml](.github/workflows/build_and_deploy.
 5. `pnpm run install:fetch` — phase 1 (also refreshes `telegraph-pages.json` and all songbook packages from their git repos).
 6. `pnpm run install:post-fetch` — phase 2 (build + copy jsons).
 7. `pnpm run validation`.
-8. `pnpm run build` — with `NEXT_PUBLIC_*` env vars injected from GitHub Actions **repository variables** (see below).
-9. Deploy `./out` to the `gh-pages` branch via `JamesIves/github-pages-deploy-action@v4`.
+8. `pnpm test` — unit, data and component tests.
+9. `pnpm run build` — with `NEXT_PUBLIC_*` env vars injected from GitHub Actions **repository variables** (see below).
+10. `pnpm run test:build:check` on `./out` (`KIRTAN_BUILD_DIR=out`, same env vars as the build).
+11. Deploy `./out` to the `gh-pages` branch via `JamesIves/github-pages-deploy-action@v4`.
+
+A failing test stops the deploy. Browser tests are not part of deploy.
+
+### Tests on GitHub
+
+[.github/workflows/test.yml](.github/workflows/test.yml) runs on every push and pull request:
+
+- `check` — data steps → `validation` → `type-check` → `lint` → `test:coverage` (coverage uploaded as an artifact).
+- `e2e` — data steps → `test:build` → `test:e2e` (Playwright browsers cached; report and traces uploaded on failure).
 
 ### Required GitHub Actions configuration
 

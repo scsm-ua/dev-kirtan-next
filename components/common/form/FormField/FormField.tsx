@@ -9,7 +9,7 @@ type Props = {
   inputClassName?: string;
   label?: string;
   name: string;
-  zodError: Object;
+  zodError: Partial<Record<string, { message?: string }>>;
 };
 
 /**

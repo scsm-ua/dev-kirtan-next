@@ -1,6 +1,6 @@
 'use client';
 import './SwipeNav.scss';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import { navigate } from '@/other/router/navigate';
 
@@ -91,7 +91,10 @@ export function SwipeNav({ prevNext }: Props) {
   const stateRef = useRef<SwipeState>(INITIAL);
   const prevNextRef = useRef(prevNext);
   const didVibrate = useRef(false);
-  prevNextRef.current = prevNext;
+
+  useLayoutEffect(() => {
+    prevNextRef.current = prevNext;
+  }, [prevNext]);
 
   const update = (next: SwipeState) => {
     stateRef.current = next;
@@ -113,6 +116,9 @@ export function SwipeNav({ prevNext }: Props) {
       startY = e.touches[0].clientY;
       lock = null;
       didVibrate.current = false;
+      // The component outlives a swipe navigation: drop the finished gesture.
+      if (stateRef.current !== INITIAL) update(INITIAL);
+      setReleasing(null);
     };
 
     const onMove = (e: TouchEvent) => {

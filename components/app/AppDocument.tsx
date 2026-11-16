@@ -1,5 +1,6 @@
 import AppRoot from '@/components/app/AppRoot';
 import DocumentHead from '@/components/common/Layout/DocumentHead';
+import { getBookLocale } from '@/other/helpers';
 
 import type { ReactNode } from 'react';
 import type { TPageData } from '@/types/pageData';
@@ -16,7 +17,7 @@ type Props = {
  */
 function AppDocument({ extras, page }: Props) {
   return (
-    <html lang={page?.route.bookId.slice(0, 2) ?? 'en'}>
+    <html lang={page ? getBookLocale(page.route.bookId) : 'en'}>
       <DocumentHead />
 
       <body className="Body">

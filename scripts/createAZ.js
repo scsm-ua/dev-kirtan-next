@@ -142,4 +142,10 @@ function getFirstLetter(item) {
 }
 
 /**/
-module.exports = { createAZ };
+module.exports = {
+	convert,
+	createAZ,
+	getFirstLetter,
+	makeLineVersions,
+	processLineEnding
+};

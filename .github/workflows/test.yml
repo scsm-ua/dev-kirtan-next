@@ -1,0 +1,115 @@
+name: Test
+on:
+    pull_request:
+
+concurrency:
+    group: test-${{ github.ref }}
+    cancel-in-progress: true
+
+env:
+  TZ: UTC
+  NEXT_TELEMETRY_DISABLED: '1'
+
+jobs:
+    # L1–L5 and the static checks (.github/plans/plan-tests.md, D6).
+    check:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+
+            - name: Configure Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 24
+                  cache: 'pnpm'
+
+            - name: Install dependencies
+              run: pnpm install --frozen-lockfile
+
+            - name: Install shared packages (download + build)
+              run: pnpm run install:fetch
+
+            - name: Process sources (copy json)
+              run: pnpm run install:post-fetch
+
+            - name: Validation
+              run: pnpm run validation
+
+            - name: Type check
+              run: pnpm run type-check
+
+            - name: Lint
+              run: pnpm run lint
+
+            - name: Unit, data and component tests
+              run: pnpm run test:coverage
+
+            - name: Upload coverage
+              if: always()
+              uses: actions/upload-artifact@v4
+              with:
+                  name: coverage
+                  path: .test-output/coverage
+                  if-no-files-found: ignore
+
+    # L6 and L7 on a test build of the real books.
+    e2e:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+
+            - name: Configure Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 24
+                  cache: 'pnpm'
+
+            - name: Install dependencies
+              run: pnpm install --frozen-lockfile
+
+            - name: Install shared packages (download + build)
+              run: pnpm run install:fetch
+
+            - name: Process sources (copy json)
+              run: pnpm run install:post-fetch
+
+            - name: Test build and build output checks
+              run: pnpm run test:build
+
+            - name: Playwright version
+              id: playwright
+              run: echo "version=$(node -p "require('@playwright/test/package.json').version")" >> "$GITHUB_OUTPUT"
+
+            - name: Cache Playwright browsers
+              id: playwright-cache
+              uses: actions/cache@v4
+              with:
+                  path: ~/.cache/ms-playwright
+                  key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+
+            - name: Install Playwright browsers
+              if: steps.playwright-cache.outputs.cache-hit != 'true'
+              run: pnpm exec playwright install --with-deps chromium webkit
+
+            - name: Install Playwright system dependencies
+              if: steps.playwright-cache.outputs.cache-hit == 'true'
+              run: pnpm exec playwright install-deps chromium webkit
+
+            - name: End-to-end tests
+              run: pnpm exec playwright test
+
+            - name: Upload Playwright report and traces
+              if: failure()
+              uses: actions/upload-artifact@v4
+              with:
+                  name: playwright
+                  path: .test-output/playwright
+                  if-no-files-found: ignore

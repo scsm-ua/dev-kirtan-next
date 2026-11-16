@@ -11,6 +11,7 @@
     "build": "next build --webpack",
     "build:local": "env-cmd -f .env.local pnpm run build",
     "build:prod": "env-cmd -f env/.env.prod pnpm run build",
+    "build:test": "env-cmd -f env/.env.test pnpm run build",
     "build:all": "pnpm run install:fetch && pnpm run install:post-fetch && pnpm run validation && next build --webpack",
     "start": "serve out -p 3333",
     "postbuild": "node scripts/postbuild.js",
@@ -19,7 +20,13 @@
     "generate-all-songs-json": "node scripts/createAllSongs.js",
     "validation": "node scripts/validate.js",
     "lint": "eslint",
-    "type-check": "tsc --noEmit --pretty true"
+    "type-check": "tsc --noEmit --pretty true",
+    "test": "vitest run --project node --project jsdom",
+    "test:watch": "vitest --project node --project jsdom",
+    "test:coverage": "vitest run --project node --project jsdom --coverage",
+    "test:build": "pnpm run build:test && pnpm run test:build:check",
+    "test:build:check": "vitest run --project build",
+    "test:e2e": "(test -f .test-output/site/sitemap.xml || pnpm run build:test) && playwright test"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -37,19 +44,27 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@playwright/test": "^1.65.1",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.10",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^24.19.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^5.1.0",
     "ajv": "^8.17.1",
     "baseline-browser-mapping": "^2.10.33",
     "chalk": "^4.1.2",
     "env-cmd": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
+    "jsdom": "^31.0.1",
     "lodash.deburr": "^4.1.0",
     "prettier": "^2.8.8",
     "sass": "^1.93.2",
     "serve": "^14.2.5",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^5.1.0"
   }
 }

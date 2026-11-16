@@ -70,6 +70,7 @@ function SongText({ bookId, label, song }: Props) {
   );
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- Read persisted display preferences only after client hydration.
     setMode(getSongViewMode());
     setWbwMode(getSongWbwMode());
   }, []);
@@ -131,7 +132,7 @@ function SongText({ bookId, label, song }: Props) {
       window.removeEventListener('kirtan:setMode', handleSetMode);
       window.removeEventListener('kirtan:setWbwMode', handleSetWbw);
     };
-  }, []);
+  }, [fullInlineWbw]);
 
   return (
     <section className={contentCls}>

@@ -47,4 +47,4 @@ function create(groups) {
 }
 
 /**/
-module.exports = { createAuthors };
+module.exports = { create, createAuthors };

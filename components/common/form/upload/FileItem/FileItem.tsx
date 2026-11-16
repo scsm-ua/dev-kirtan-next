@@ -16,8 +16,10 @@ export function FileItem({ file, onRemove }: Props) {
     <div className="FileItem" key={file.name}>
       <div className="FileItem__box">
         <button
+          aria-label={`Remove ${file.name}`}
           className="NoBorderButton FileItem__remove"
           onClick={onRemove}
+          type="button"
         >
           <span className="icon-xmark-large" />
         </button>

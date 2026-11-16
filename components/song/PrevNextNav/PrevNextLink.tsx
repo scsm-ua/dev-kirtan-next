@@ -16,7 +16,7 @@ function PrevNextLink({ dir, item }: Props) {
   const cls = classNames(
     'PrevNextLink',
     'PrevNextLink--' + dir,
-    item || 'PrevNexLink--disabled'
+    !item && 'PrevNextLink--disabled'
   );
 
   const iconCls = 'PrevNextLink__icon PrevNextLink__icon--' + dir;

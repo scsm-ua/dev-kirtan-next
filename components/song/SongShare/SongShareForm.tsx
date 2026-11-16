@@ -1,8 +1,9 @@
 'use client';
-import { type SyntheticEvent, useEffect, useState } from 'react';
+import { type SyntheticEvent } from 'react';
 import QRCode from 'react-qr-code';
 
 import { translate } from '@/other/i18n';
+import { useAppLocation } from '@/other/router/location';
 
 /**/
 type Props = {
@@ -20,16 +21,13 @@ function selectHref(e: SyntheticEvent) {
  *
  */
 function SongShareForm({ bookId, onClose, telegraphUrl }: Props) {
-  const [href, setHref] = useState<string | null>(null);
+  const location = useAppLocation();
+  const href = location ? window.location.href : null;
 
   const handleCopy = (value: string) => {
     navigator.clipboard.writeText(value).catch(console.error);
     setTimeout(onClose, 300);
   };
-
-  useEffect(() => {
-    setHref(window.location.href);
-  }, []);
 
   if (!href) return null;
 

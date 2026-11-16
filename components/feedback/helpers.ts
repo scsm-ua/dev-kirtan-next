@@ -13,9 +13,6 @@ export const FIELDS = {
   NAME: 'name'
 } as any;
 
-const CHAT_ID = -1003735575930;
-const TOKEN = '8651091209:AAFp34KDkoZ8iaZtGWnPS7UglRUxns_yF8g';
-
 /**/
 export function getFormInit(t: TFeedbackTranslations) {
   return {
@@ -50,41 +47,19 @@ export type TSubmitFormData = {
 /**
  *
  */
-export function onFeedbackSubmit(data: TSubmitFormData, file: File) {
-  fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      chat_id: CHAT_ID,
-      parse_mode: 'Markdown',
-      text: buildTextBody(data)
-    })
-  }).catch(console.error);
-
-  if (!file) return;
-
+export async function onFeedbackSubmit(data: TSubmitFormData, file: File) {
+  const endpoint = process.env.NEXT_PUBLIC_FEEDBACK_URL;
+  if (!endpoint) throw new Error('Feedback endpoint is not configured');
   const fd = new FormData();
-  fd.append('chat_id', CHAT_ID + '');
-  fd.append('photo', file);
+  fd.append('name', data.name);
+  fd.append('email', data.email);
+  fd.append('message', data.message);
+  fd.append('href', window.location.href);
+  if (file) fd.append('image', file);
 
-  fetch(`https://api.telegram.org/bot${TOKEN}/sendPhoto`, {
+  const response = await fetch(endpoint, {
     method: 'POST',
     body: fd
-  } as any).catch(console.error);
-}
-
-/**
- *
- */
-function buildTextBody(data: TSubmitFormData): string {
-  let text = `*Message:* ${data.message}`;
-
-  if (data.email) {
-    text = `*Email:* ${data.email}\n` + text;
-  }
-  if (data.name) {
-    text = `*Name:* ${data.name}\n` + text;
-  }
-
-  return text + `\n*href:* ${window.location.href}`;
+  });
+  if (!response.ok) throw new Error('Feedback delivery failed');
 }

@@ -191,7 +191,7 @@ class SearchModule extends PureComponent<Props, State> {
           />
         </header>
 
-        <main className="SearchModule__content">
+        <div className="SearchModule__content">
           {hasNotFound || isLoading || results.length > 0 || <PageList bookId={bookId} pages={filteredPages} pendingPage={pendingPage} pendingPageDurationMs={pendingPageDurationMs} />}
 
           {hasNotFound && (
@@ -212,7 +212,7 @@ class SearchModule extends PureComponent<Props, State> {
               </button>
             </div>
           )}
-        </main>
+        </div>
       </div>
     );
   }

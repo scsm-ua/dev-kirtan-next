@@ -56,7 +56,8 @@ function createSongbookInfo(bookSlug) {
 		bookSlug,
 		CONST.FILES.BOOK_INFO
 	));
-	const { repository, ...settings } = getSongbookSettings(bookSlug);
+	const settings = { ...getSongbookSettings(bookSlug) };
+	delete settings.repository;
 
 	return {
 		...packageInfo,
@@ -81,7 +82,7 @@ function countTranslatedSongs(bookSlug) {
 	return readdirSync(songsDir).filter((file) => {
 		try {
 			return !readFileSync(path.join(songsDir, file), 'utf8').includes('"translation": "no"');
-		} catch (err) {
+		} catch {
 			return false;
 		}
 	}).length;

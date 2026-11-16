@@ -26,7 +26,7 @@ function BookList({ bookId, booksMap }: Props) {
           {Object.entries(booksMap)
             .filter(([bid]: [string, TBookDescription]) => bid !== bookId)
             .sort((a, b) => compareBooks(a[1], b[1]))
-            .map(([_, book]: [string, TBookDescription]) => (
+            .map(([, book]: [string, TBookDescription]) => (
               <BookCard bookDescription={book} key={book.slug} />
             ))}
         </ul>

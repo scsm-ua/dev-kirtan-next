@@ -16,7 +16,7 @@ type Props<T> = {
  *
  */
 function ContentGroup<T = TContentItem>({ bookId, group, renderItem }: Props<T>) {
-  const id = `section-${group.name}`;
+  const id = group.name ? `section-${group.name}` : undefined;
 
   return (
     <li className="ContentGroup" id={id}>

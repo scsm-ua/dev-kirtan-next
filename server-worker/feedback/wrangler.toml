@@ -1,0 +1,14 @@
+name = "kirtan-feedback"
+main = "feedback-view.js"
+compatibility_date = "2026-11-16"
+
+[vars]
+ALLOWED_ORIGINS = "https://kirtan.site"
+
+[[ratelimits]]
+name = "FEEDBACK_RATE_LIMITER"
+namespace_id = "1001"
+
+[ratelimits.simple]
+limit = 5
+period = 60

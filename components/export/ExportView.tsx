@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 import ExportToolbar from '@/components/export/ExportToolbar';
+import { useAppLocation } from '@/other/router/location';
 import {
   DEFAULT_EXPORT_OPTIONS,
   exportOptionsFromSearch,
@@ -27,32 +28,33 @@ type Props = {
  */
 function ExportView({ body, fileName, lang, title }: Props) {
   const previewRef = useRef<HTMLDivElement>(null);
-  const [options, setOptions] = useState<TExportOptions>(DEFAULT_EXPORT_OPTIONS);
-  const [hydrated, setHydrated] = useState(false);
+  const fileNameOnOpen = useRef(fileName);
+  const location = useAppLocation();
+  const [options, setOptions] = useState<TExportOptions | null>(null);
+  const currentOptions = options ?? (
+    location
+      ? exportOptionsFromSearch(location.search.toString())
+      : DEFAULT_EXPORT_OPTIONS
+  );
 
-  const patchOptions = (patch: Partial<TExportOptions>) =>
-    setOptions((o) => ({ ...o, ...patch }));
+  const patchOptions = (patch: Partial<TExportOptions>) => {
+    setOptions((current) => ({ ...currentOptions, ...current, ...patch }));
+  };
 
   // Stamp the title with the open-time datetime so Print → Save as PDF uses it as filename.
   useEffect(() => {
-    document.title = makeExportFileName(fileName);
-  }, []);
-
-  // Restore options from the URL on mount so refresh / shared links keep state.
-  useEffect(() => {
-    setOptions(exportOptionsFromSearch(window.location.search));
-    setHydrated(true);
+    document.title = makeExportFileName(fileNameOnOpen.current);
   }, []);
 
   // Reflect current options back into the URL (no history entry).
   useEffect(() => {
-    if (!hydrated) return;
+    if (!location || !options) return;
     const search = exportOptionsToSearch(options);
-    const url = `${window.location.pathname}${search ? '?' + search : ''}${window.location.hash}`;
+    const url = `${location.pathname}${search ? '?' + search : ''}${window.location.hash}`;
     window.history.replaceState(null, '', url);
-  }, [hydrated, options]);
+  }, [location, options]);
 
-  const getBody = () => filterExportBody(body, options);
+  const getBody = () => filterExportBody(body, currentOptions);
 
   // Runs on every render (incl. HMR of exportDoc.ts) to keep preview in sync.
   useEffect(() => {
@@ -65,7 +67,7 @@ function ExportView({ body, fileName, lang, title }: Props) {
         fileName={fileName}
         getHtml={() => wrapExportDoc(getBody(), title, lang)}
         onChange={patchOptions}
-        options={options}
+        options={currentOptions}
       />
 
       <div className="ExportPage" ref={previewRef} />

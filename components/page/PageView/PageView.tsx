@@ -12,12 +12,12 @@ type Props = {
  */
 function PageView({ bodyHtml }: Props) {
   return (
-    <main className="SongText PageView">
+    <section className="SongText PageView">
       <div
         className="PageMarkdown"
         dangerouslySetInnerHTML={{ __html: bodyHtml }}
       />
-    </main>
+    </section>
   );
 }
 

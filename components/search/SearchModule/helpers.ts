@@ -17,7 +17,7 @@ export function lookFor(
     `?key=${process.env.NEXT_PUBLIC_SEARCH_API_KEY}` +
     `&cx=${process.env.NEXT_PUBLIC_SEARCH_ACCOUNT_ID}` +
     `&start=${start}` +
-    `&q=${query}`;
+    `&q=${encodeURIComponent(query)}`;
 
   return fetch(url, {
     headers: { 'Content-Type': 'application/json' }

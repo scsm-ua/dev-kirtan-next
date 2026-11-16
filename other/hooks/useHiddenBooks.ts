@@ -1,15 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
 import { shouldShowHiddenBooks } from '@/other/userPreferrences';
+
+const subscribe = () => () => {};
 
 /**
  *
  */
 export function useHiddenBooks(isHidden: boolean) {
-  const [isDisplayed, setDisplayed] = useState<boolean>(false);
-
-  useEffect(() => {
-    if (!isHidden || shouldShowHiddenBooks()) setDisplayed(true);
-  }, []);
-
-  return isDisplayed;
+  return useSyncExternalStore(
+    subscribe,
+    () => !isHidden || shouldShowHiddenBooks(),
+    () => !isHidden
+  );
 }
