@@ -3,7 +3,7 @@
 6:I[5727,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf1f61,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf24df,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
@@ -6699,7 +6699,7 @@ Again and again tasting nectar, the soul dives and surfaces in the ever-increasi
 <section class="song" id="song-gaite-govinda-nam-upajilo-bhava-gram" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Śrī Śikṣāṣṭakam <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Verse Seven (b)</h3>
+<h3>Kīrtan Seven (b)</h3>
 <p class="translation"><i>Second related composition by Śrīla Bhakti Vinod Ṭhākur:</i></p>
 </div>
 <div class="verse-block" data-number="1">
@@ -6722,7 +6722,7 @@ Again and again tasting nectar, the soul dives and surfaces in the ever-increasi
 <section class="song" id="song-sakhi-go-kemote-dhoribo-paran" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Śrī Śikṣāṣṭakam <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Verse Seven (c)</h3>
+<h3>Kīrtan Seven (c)</h3>
 <p class="translation"><i>Third related composition by Śrīla Bhakti Vinod Ṭhākur:</i></p>
 </div>
 <div class="verse-block" data-number="1">
@@ -6752,7 +6752,7 @@ Again and again tasting nectar, the soul dives and surfaces in the ever-increasi
 <section class="song" id="song-yoga-pithopari-sthita-ashta-sakhi-subeshtita" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Śrī Śikṣāṣṭakam <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Verse Eight (b)</h3>
+<h3>Kīrtan Eight (b)</h3>
 <p class="translation"><i>Second related composition by Śrīla Bhakti Vinod Ṭhākur:</i><br>
 (Regarding this, Śrīla Śrīdhar Mahārāj advised not to sing this composition because “it is too high.”)</p>
 </div>
@@ -11160,17 +11160,25 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">śarīra avidyā-jāla jaḍendriya tāhe kāla<span class="page-num"> — 69/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sarvasva-tomara-charane-sanpiya">sarvasva tomāra, charaṇe sa̐piyā<span class="page-num"> — 179</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bandhu-sange-yadi-tava-ranga-parihasa">smerāṁ bhaṅgī-traya-parichitāṁ sāchi-vistīrṇa-dṛṣṭiṁ<span class="page-num"> — 269</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">Śrī Śikṣāṣṭakam – Kīrtan 1<span class="page-num"> — 192</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">Śrī Śikṣāṣṭakam – Kīrtan 2<span class="page-num"> — 194</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">Śrī Śikṣāṣṭakam – Kīrtan 3<span class="page-num"> — 195</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">Śrī Śikṣāṣṭakam – Kīrtan 4<span class="page-num"> — 196</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-anadi-karama-phole">Śrī Śikṣāṣṭakam – Kīrtan 5<span class="page-num"> — 198</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-aparadha-phole-mama">Śrī Śikṣāṣṭakam – Kīrtan 6<span class="page-num"> — 200</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">Śrī Śikṣāṣṭakam – Kīrtan 7 (a)<span class="page-num"> — 202</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">Śrī Śikṣāṣṭakam – Kīrtan 7 (b)<span class="page-num"> — 203</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">Śrī Śikṣāṣṭakam – Kīrtan 7 (c)<span class="page-num"> — 204</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">Śrī Śikṣāṣṭakam – Kīrtan 8 (a)<span class="page-num"> — 205</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">Śrī Śikṣāṣṭakam – Kīrtan 8 (b)<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">Śrī Śikṣāṣṭakam – Verse 1<span class="page-num"> — 192</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">Śrī Śikṣāṣṭakam – Verse 2<span class="page-num"> — 194</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">Śrī Śikṣāṣṭakam – Verse 3<span class="page-num"> — 195</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">Śrī Śikṣāṣṭakam – Verse 4<span class="page-num"> — 196</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-anadi-karama-phole">Śrī Śikṣāṣṭakam – Verse 5<span class="page-num"> — 198</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-aparadha-phole-mama">Śrī Śikṣāṣṭakam – Verse 6<span class="page-num"> — 200</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">Śrī Śikṣāṣṭakam – Verse 7 (a)<span class="page-num"> — 202</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">Śrī Śikṣāṣṭakam – Verse 7 (b)<span class="page-num"> — 203</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">Śrī Śikṣāṣṭakam – Verse 7 (c)<span class="page-num"> — 204</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">Śrī Śikṣāṣṭakam – Verse 8 (a)<span class="page-num"> — 205</span></a></p>
-<p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">Śrī Śikṣāṣṭakam – Verse 8 (b)<span class="page-num"> — 206</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">Śrī Śikṣāṣṭakam – Verse 7<span class="page-num"> — 202</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-bondhu-gon-shiunoho-vachana-mora">Śrī Śikṣāṣṭakam – Verse 8<span class="page-num"> — 205</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-deva-siddha-mukta-yukta-bhakta-vrinda">Śrī Śrī Prema-dhāma-deva Stotram – 1-10. Saturday<span class="page-num"> — 86</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">Śrī Śrī Prema-dhāma-deva Stotram – 11-20. Sunday<span class="page-num"> — 91</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram">Śrī Śrī Prema-dhāma-deva Stotram – 21-30. Monday<span class="page-num"> — 94</span></a></p>
@@ -11248,7 +11256,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"w4s6deMaw2lM_pNxsDCOg"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"M6CpuLot4cdidr_xFpMQc"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

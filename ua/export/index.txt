@@ -8,7 +8,7 @@ b:I[5727,[],"MetadataBoundary"]
 d:I[7697,[],"default",1]
 :HL["/_next/static/css/1cd259f0c1c3d6e8.css","style"]
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-0:{"P":null,"c":["","ua","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ua","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cd259f0c1c3d6e8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"w4s6deMaw2lM_pNxsDCOg"}
+0:{"P":null,"c":["","ua","export",""],"q":"","i":false,"f":[[["",{"children":[["bookId","ua","d",null],{"children":["export",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1cd259f0c1c3d6e8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","html",null,{"children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"M6CpuLot4cdidr_xFpMQc"}
 e:[]
 8:"$We"
 a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
@@ -16,7 +16,7 @@ f:I[414,[],"IconMark"]
 7:null
 c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link","1",{"rel":"icon","href":"/favicon.ico?452facfc02637e1f","type":"image/x-icon","sizes":"96x96"}],["$","$Lf","2",{}]]
 10:I[2033,["7458","static/chunks/app/%5BbookId%5D/export/page-16d336f92494eb4b.js"],"default"]
-11:Tc0852,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
+11:Tc3fbd,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
 <p class="nav-links"><a href="#first-lines">↓ Індекс</a></p>
 <section class="toc" id="toc">
 <h1>Зміст</h1>
@@ -139,9 +139,9 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="toc-item" data-translated="0"><a href="#song-durlabha-manava-janma-labhiya-samsare">Дурлабга ма̄нава-джанма<span class="page-num"> — 175</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-anya-abhilasha-chadi-jniana-karma-parihari">Анья-абгіла̄ша чха̄ді<span class="page-num"> — 177</span></a></p>
 <h2 class="toc-item-group">Шрī Шікша̄штакам</h2>
-<p class="toc-item" data-translated="0"><a href="#song-pita-varana-kali-pavana-gora">1. Піта-варана калі<span class="page-num"> — 184</span></a></p>
-<p class="toc-item" data-translated="0"><a href="#song-tuhu-daya-sagara-tarayite-prani">2. Туху дая-са̄ґара<span class="page-num"> — 185/1</span></a></p>
-<p class="toc-item" data-translated="0"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">3. Шрī-Кришна-кīртане джоді<span class="page-num"> — 185/2</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">1. Піта-варана калі<span class="page-num"> — 184</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">2. Туху дая-са̄ґара<span class="page-num"> — 185/1</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">3. Шрī-Кришна-кīртане джоді<span class="page-num"> — 185/2</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">4. Прабгу тава пада<span class="page-num"> — 186</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-anadi-karama-phole">5. Ана̄ді карама пхоле<span class="page-num"> — 187</span></a></p>
 <p class="toc-item" data-translated="0"><a href="#song-aparadha-phole-mama">6. Апара̄дга-пхоле мама<span class="page-num"> — 188</span></a></p>
@@ -5373,11 +5373,11 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 </section>
 <section class="category">
 <h1>Шрī Шікша̄штакам</h1>
-<section class="song" id="song-pita-varana-kali-pavana-gora" data-translated="0">
+<section class="song" id="song-pita-varana-kali-pavana-gora" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 1</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 1</h3>
+<h4>Вісім санскритських віршів-настанов Шрі Чайтаньї Махапрабгу</h4>
 <p class="verse"><strong>чето-дарпана-ма̄рджанам</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;бгава-маха̄-да̄ва̄ґні-нірва̄панам</strong><br>
 <strong>шреях-кайрава-чандріка̄-</strong><br>
@@ -5386,144 +5386,178 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;праті-падам пӯрна̄мрита̄сва̄данам</strong><br>
 <strong>сарва̄тма-снапанам парам</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;віджаяте шрī-кришна-санкīртанам</strong></p>
+<p class="translation">Святе Імʼя Крішни очищує дзеркало серця і гасить вогонь страждань у лісі народжень і смертей. Наче вечірній лотос, що розкривається в прохолодних променях місяця, серце починає квітнути в нектарі Святого Імені.<br>
+Зрештою, душа прокидається і розуміє, що справжній скарб – це життя у любові з Крішною. Душа знову й знову куштує цей нектар, занурюється й виринає в безупинно зростаючому океані духовної радості.<br>
+Усі складові нашого єства, про які ми можемо помислити, врівноважуються, очищуються і врешті-решт підкоряються благословенному впливу Святого Імені Крішни.<br>
+---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>пīта-варана калі-па̄вана ґора̄</strong><br>
 <strong>ґа̄ояі айчана бга̄ва-бібгора̄</strong></p>
+<p class="translation">Упиваючись блаженством духа, золотавий Господь Ґауранґа, який є визволителем занепалих душ Калі-юґи, співає:</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>чітта-дарпана-паріма̄рджана-ка̄рī</strong><br>
 <strong>кришна-кīртана джая чітта-біха̄рī</strong></p>
+<p class="translation">«Слава, слава оспівуванню Святого Імені Крішни! Воно ретельно очищує дзеркало серця і стає втіхою для душі».</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>хела̄-бгава-да̄ва-нірва̄пана-вритті</strong><br>
 <strong>кришна-кīртана джая клешя-нівритті</strong></p>
+<p class="translation">«Слава, слава оспівуванню Святого Імені Крішни! Воно гасить лісову пожежу земного життя і усуває всі зовнішні страждання».</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>шреях-кумуда-бідгу-джйотсна̄-прака̄шя</strong><br>
 <strong>кришна-кīртана джая бгакті-віла̄са</strong></p>
+<p class="translation">«Слава, слава оспівуванню Святого Імені Крішни! Наче місяць, воно сходить у серці і розливає свою ясну прохолоду, це змушує білий лотос удачі душі розкриватися та квітнути. Крішна-<i>кіртан</i> — це <i>бгакті-віласа</i>, прекрасна гра відданого служіння».</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>вішюддга-відья-вадгу джīвана-рӯпа</strong><br>
 <strong>кришна-кīртана джая сіддга-сварӯпа</strong></p>
+<p class="translation">«Слава, слава оспівуванню Святого Імені Крішни! Воно являє істинну сутність живої істоти, а також її стосунки із Господом, які можуть сягнути аж до рівня чистої божественної подружньої любові. Це оспівування є справжньою довершеністю життя».</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
 <p class="verse"><strong>а̄нанда-пайо-нідгі-вардгана-кīрті</strong><br>
 <strong>кришна-кīртана джая пла̄бана-мӯрті</strong></p>
+<p class="translation">«Слава, слава оспівуванню Святого Імені Крішни! Крішна-<i>кіртан</i> переповнює океан духовної радості, і він починає розливатися з берегів. Це всепоглинаюча повінь божественної любові».</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
 <p class="verse"><strong>паде паде пīджуша-сва̄да-прада̄та̄</strong><br>
 <strong>кришна-кīртана джая према-бідга̄та̄</strong></p>
+<p class="translation">«Слава, слава оспівуванню Святого Імені Крішни! Щоразу Крішна-<i>кіртан</i> ділиться смаком довершеної нектарної насолоди; а насамкінець він дарує піднесену любов до Верховного Господа».</p>
 </div>
 <div class="verse-block" data-number="8">
 <h5>8</h5>
 <p class="verse"><strong>бгакатівінода-сва̄тма-снапана-відга̄н</strong><br>
 <strong>кришна-кīртана джая према-ніда̄н</strong></p>
+<p class="translation">«Слава, слава оспівуванню Святого Імені Крішни! Воно живить душу Бгактівінода. Цей спів — скарбниця любові до Бога».</p>
 </div>
 </section>
-<section class="song" id="song-tuhu-daya-sagara-tarayite-prani" data-translated="0">
+<section class="song" id="song-tuhu-daya-sagara-tarayite-prani" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 2</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 2</h3>
+<h4>Шрі Чайтаньї Махапрабгу санскритом</h4>
 <p class="verse"><strong>на̄мна̄м ака̄рі бахудга̄ ніджа-сарва-шяктіс</strong><br>
 <strong>татра̄рпіта̄ ніямітах смаране на ка̄лах</strong><br>
 <strong>ета̄дриші тава крипа̄ бгаґаван мама̄пі</strong><br>
 <strong>дурдайвам īдришям іха̄джані на̄нура̄ґах</strong></p>
+<p class="translation">«О мій Господи, Твоє Святе Імʼя дарує благо кожному. Ти маєш незліченну кількість Імен, таких як Крішна і Ґовінда, через які Ти являєш Себе. У Свої численні Святі Імена Ти милостиво вклав усю Свою духовну силу. Немає ніяких строгих правил, які б обмежували молитву до цих Імен часом та місцем. Зі Своєї безпричинної милості Ти зійшов у образі божественного звуку, але моє велике нещастя полягає в тому, що я не маю жодної прихильності до Твого Святого Імені».<br>
+---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>туху дая-са̄ґара та̄раїте пра̄нī</strong><br>
 <strong>на̄ма анека туя шікха̄олі а̄ні</strong></p>
+<p class="translation">О Господи, Ти є океан милості. Щоб визволити усі душі цього світу, Ти показав, як славити Твої незліченні Святі Імена.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>сакала шякаті деі на̄ме тоха̄ра̄</strong><br>
 <strong>ґрахане ра̄кхолі на̄хі ка̄ла-віча̄ра̄</strong></p>
+<p class="translation">Ти вклав усю Свою силу у Своє Ім’я. І немає жодних правил щодо належного часу чи місця для повторення Святого Імені.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>шрī-на̄ма-чінта̄мані тоха̄рі сама̄на̄</strong><br>
 <strong>бішве біла̄олі каруна̄-ніда̄на̄</strong></p>
+<p class="translation">Святе Імʼя — це коштовний камінь <i>чінтамані</i>, божественний філософський камінь. Твоє Імʼя не відрізняється від Тебе. Із милості до всіх душ Ти розповсюдив Своє Святе Ім’я по цілому всесвіту.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>туя дая айчана парама уда̄ра̄</strong><br>
 <strong>атішоя манда на̄тха! бга̄ґа ха̄ма̄ра̄</strong></p>
+<p class="translation">Це Твоя милість, о Господи, Ти — надзвичайно добрий. Але я, о Господи, вкрай занепалий і нещасний.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>на̄хі джанамало на̄ме анура̄ґа мора</strong><br>
 <strong>бгактівінода-чітта духкхе бібгора</strong></p>
+<p class="translation">Я ніколи не мав жодного потягу до Святих Імен. Тому серце Бгактівіноди сповнене смутку.</p>
 </div>
 </section>
-<section class="song" id="song-shri-krishna-kirtane-jodi-manasa-tohara" data-translated="0">
+<section class="song" id="song-shri-krishna-kirtane-jodi-manasa-tohara" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 3</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 3</h3>
+<h4>Шрі Чайтаньї Махапрабгу санскритом</h4>
 <p class="verse"><strong>трина̄д апі сунīчена</strong><br>
 <strong>тарор іва сахішнуна̄</strong><br>
 <strong>ама̄ніна̄ ма̄надена</strong><br>
 <strong>кīртанīях сада̄ харіх</strong></p>
+<p class="translation">Хто смиренніший за травинку, терплячіший за дерево, хто належно шанує інших і не прагне пошани до себе, той здатен у дійсності без упину повторювати Святе Імʼя Крішни.<br>
+---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>шрī-кришна-кīртане джоді ма̄наса тоха̄ра</strong><br>
 <strong>парама джатане та̄нгі лобго адгіка̄ра</strong></p>
+<p class="translation">Якщо твій ум уважно і дбайливо зосереджуватиметься на повторенні Святого Імені, ти зможеш повторювати Його по-справжньому.</p>
 </div>
 <div class="verse-block" data-number="2">
 <h5>2</h5>
 <p class="verse"><strong>трина̄дгіка хīна, дīна, акіньчана чха̄ра</strong><br>
 <strong>а̄пане ма̄нобі сада̄ чха̄ді’ аханка̄ра</strong></p>
+<p class="translation">Стань смиренним, наче травинка: вважай себе незначним, нужденним і покірним, відкинь свою самостійність.</p>
 </div>
 <div class="verse-block" data-number="3">
 <h5>3</h5>
 <p class="verse"><strong>врикша-сама кшама̄-ґуна карабі са̄дгана</strong><br>
 <strong>пратіхімса̄ тьяджі аньє карабі па̄лана</strong></p>
+<p class="translation">Будь терплячим, наче дерево: вибачай і знось усе, відмовся від будь-якого прояву жорстокості. Вчися захищати інших і піклуватися про них.</p>
 </div>
 <div class="verse-block" data-number="4">
 <h5>4</h5>
 <p class="verse"><strong>джīвана-нірва̄хе а̄не удвеґа на̄ дібе</strong><br>
 <strong>пара-упака̄ре ніджа-сукха па̄сарібе</strong></p>
+<p class="translation">Живи так, щоб не завдавати прикрощів навколишнім; чини добро іншим, не думаючи про власне щастя.</p>
 </div>
 <div class="verse-block" data-number="5">
 <h5>5</h5>
 <p class="verse"><strong>хоіле-о сарва-ґуне ґунī маха̄шоя</strong><br>
 <strong>пратіштха̄шя чха̄ді кара ама̄нī хридоя</strong></p>
+<p class="translation">Піднесеній душі, яка володіє всіма цими якостями, проте не личить пишатися своєю святістю. Нехтуючи визнанням і земною славою, їй слід берегти своє серце від погорди.</p>
 </div>
 <div class="verse-block" data-number="6">
 <h5>6</h5>
 <p class="verse"><strong>кришна-адгіштха̄н сарва-джīве джа̄ні сада̄</strong><br>
 <strong>карабі самма̄на собе а̄даре сарвада̄</strong></p>
+<p class="translation">Завжди пам’ятай, що Крішна присутній у серці кожної живої істоти. Нехай ця думка дозволить тобі належно шанувати і поважати кожного.</p>
 </div>
 <div class="verse-block" data-number="7">
 <h5>7</h5>
 <p class="verse"><strong>доінья, дая, аньє ма̄н, пратіштха̄-варджан</strong><br>
 <strong>ча̄рі ґуне ґунī хоі карахо кīртан</strong></p>
+<p class="translation">Смирення, милосердя, уважне ставлення до інших та відмова від визнання — це чотири якості, необхідні для здійснення <i>кіртану</i>.</p>
 </div>
 <div class="verse-block" data-number="8">
 <h5>8</h5>
 <p class="verse"><strong>бгакатівінода ка̄нді боле прабгу-па̄я</strong><br>
 <strong>хено адгіка̄ра кобе дібе хе а̄ма̄я</strong></p>
+<p class="translation">Бгактівінод плаче і, припадаючи до святих стоп Господа, промовляє: «О мій Господи, коли ж Ти зробиш мене придатним до здійснення Крішна-<i>кіртану</i>?»</p>
 </div>
 </section>
 <section class="song" id="song-prabhu-tava-pada-juge-mora-nivedana" data-translated="0">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 4</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 4</h3>
+<h4>Шрі Чайтаньї Махапрабгу санскритом</h4>
 <p class="verse"><strong>на дганам на джанам на сундарīм</strong><br>
 <strong>кавіта̄м ва̄ джаґад-īшя ка̄має</strong><br>
 <strong>мама джанмані джанманīшваре</strong><br>
 <strong>бгавата̄д бгактір ахайтукī тваї</strong></p>
+<p class="translation">---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -5564,12 +5598,14 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <section class="song" id="song-anadi-karama-phole" data-translated="0">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 5</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 5</h3>
+<h4>Шрі Чайтаньї Махапрабгу санскритом</h4>
 <p class="verse"><strong>аї нанда-тануджа кінкарам</strong><br>
 <strong>патітам ма̄м вішаме бгава̄мбудгау</strong><br>
 <strong>крипая тава па̄да-панкаджа-</strong><br>
 <strong>стхіта-дгӯлі-садришям вічінтая</strong></p>
+<p class="translation">---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -5603,12 +5639,14 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <section class="song" id="song-aparadha-phole-mama" data-translated="0">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 6</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 6</h3>
+<h4>Шрі Чайтаньї Махапрабгу санскритом</h4>
 <p class="verse"><strong>наянам ґалад-ашру-дга̄рая</strong><br>
 <strong>ваданам ґадґада-руддгая ґіра̄</strong><br>
 <strong>пулакайр нічітам вапух када̄</strong><br>
 <strong>тава на̄ма-ґрахане бгавішʼяті</strong></p>
+<p class="translation">---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -5651,12 +5689,14 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <section class="song" id="song-gaite-gaite-nama-ki-doshia-hoilo" data-translated="0">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 7a</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 7</h3>
+<h4>Шрі Чайтаньї Махапрабгу санскритом</h4>
 <p class="verse"><strong>юґа̄їтам німешена</strong><br>
 <strong>чакшуша̄ пра̄вриша̄їтам</strong><br>
 <strong>шюньяїтам джаґат сарвам</strong><br>
 <strong>ґовінда-вірахена ме</strong></p>
+<p class="translation">---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -5704,10 +5744,12 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 </div>
 </section>
 <section class="song" id="song-gaite-govinda-nam-upajilo-bhava-gram" data-translated="0">
-<div class="verse-block" data-number="1">
+<div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 7b</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Пісня 7 (б)</h3>
+<p class="translation"><i>Друга пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом сьомого вірша:</i></p>
+</div>
+<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>ґа̄іте ‘ґовінда’-на̄м,&nbsp;&nbsp;&nbsp;&nbsp;упаджіло бга̄ва-ґра̄м,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;декхіла̄м ямуна̄ра кӯле</strong><br>
@@ -5723,10 +5765,12 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 </div>
 </section>
 <section class="song" id="song-sakhi-go-kemote-dhoribo-paran" data-translated="0">
-<div class="verse-block" data-number="1">
+<div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 7c</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Пісня 7 (в)</h3>
+<p class="translation"><i>Третя пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом сьомого вірша:</i></p>
+</div>
+<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>сакхі ґо кемоте дгорібо пара̄н</strong><br>
 <strong>німеша хоіло джуґера сама̄н</strong></p>
@@ -5749,12 +5793,14 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <section class="song" id="song-bondhu-gon-shiunoho-vachana-mora" data-translated="0">
 <div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 8a</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Вірш 8</h3>
+<h4>Шрі Чайтаньї Махапрабгу санскритом</h4>
 <p class="verse"><strong>а̄шлішʼя ва̄ па̄да-рата̄м пінашту ма̄м</strong><br>
 <strong>адаршяна̄н марма-хата̄м кароту ва̄</strong><br>
 <strong>ятха̄ татха̄ ва̄ відадга̄ту лампато</strong><br>
 <strong>мат-пра̄на-на̄тхас ту са ева на̄парах</strong></p>
+<p class="translation">---<br>
+<i>Пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом цього вірша:</i></p>
 </div>
 <div class="verse-block" data-number="1">
 <h5>1</h5>
@@ -5795,10 +5841,13 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 </div>
 </section>
 <section class="song" id="song-yoga-pithopari-sthita-ashta-sakhi-subeshtita" data-translated="0">
-<div class="verse-block" data-number="1">
+<div class="verse-block" data-number="">
 <h2>Шрī Шікша̄штакам <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
-<h3>Song 8b</h3>
-<h4>Шрīла Бгактівінод Тха̄кур</h4>
+<h3>Пісня 8 (б)</h3>
+<p class="translation"><i>Друга пісня Шрīли Бгактівінода Тха̄кура бенгальською за мотивом восьмого вірша:</i><br>
+(Шрīла Шрīдгар Маха̄ра̄дж радив не співати цей твір, бо "він надто возвишений".)</p>
+</div>
+<div class="verse-block" data-number="1">
 <h5>1</h5>
 <p class="verse"><strong>йоґа-пīтхопарі-стхіта,&nbsp;&nbsp;&nbsp;&nbsp;ашта-сакхī-субештіта,</strong><br>
 <strong>&nbsp;&nbsp;&nbsp;&nbsp;вринда̄раньє кадамба-ка̄нане</strong><br>
@@ -8744,6 +8793,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <h1>Індекс</h1>
 <h2 class="first-line-group">А</h2>
 <p class="first-line" data-translated="1"><a href="#song-avatara-sara-gora-avatara">авата̄ра са̄ра ґора̄ авата̄ра<span class="page-num"> — 121</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-anadi-karama-phole">аї нанда-тануджа кінкарам<span class="page-num"> — 187</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-akrodha-paramananda">акродга парама̄нанда<span class="page-num"> — 114</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-amara-jivana-sada-pape-rata">а̄ма̄ра джīвана, сада̄ па̄пе рата<span class="page-num"> — 161</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ami-guru-dasa-nahi-anya">амі ґуру-даса нахі анья</a></p>
@@ -8754,6 +8804,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="1"><a href="#song-atma-nivedana-tuya-pade-kori">а̄тма-ніведана, туя паде корі<span class="page-num"> — 160</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-atma-samarpane-gela-abhimana">а̄тма-самарпане ґела̄ абгіма̄на<span class="page-num"> — 166</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-acharya-varyam-gaura-dhama-nishtham">а̄ча̄рʼя-варʼям ґаура-дга̄ма-ніштхам</a></p>
+<p class="first-line" data-translated="0"><a href="#song-bondhu-gon-shiunoho-vachana-mora">а̄шлішʼя ва̄ па̄да-рата̄м пінашту ма̄м<span class="page-num"> — 191/2</span></a></p>
 <h2 class="first-line-group">Б</h2>
 <p class="first-line" data-translated="0"><a href="#song-bhagyadhishia-tvadiyo-vimala-sukhamayah">бга̄ґʼядгīшя! твадīйо вімала-сукхамаях<span class="page-num"> — 279</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-bhaja-bhakata-vatsala-shri-gaurahari">бгаджа бгаката-ватсала шрī-ґаурахарі<span class="page-num"> — 58</span></a></p>
@@ -8847,6 +8898,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="0"><a href="#song-mayura-mukuta-pitambara-dhari">маюра-мукута пīта̄мбара-дга̄рī<span class="page-num"> — 203/2</span></a></p>
 <h2 class="first-line-group">Н</h2>
 <p class="first-line" data-translated="0"><a href="#song-nite-yasmin-nishiante-nayana-jala-bharaih">нīте ясмін нішянте наяна-джала-бгарайх<span class="page-num"> — 260</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">на дганам на джанам на сундарīм<span class="page-num"> — 186</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-nava-nalina-ganjitam-kusuma-dala">нава-наліна-ґаньджітам кусума-дала<span class="page-num"> — 282</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nagara-bhramiya-amara-gaura-elo-ghore">наґара бграмія а̄ма̄ра ґаура ело горе<span class="page-num"> — 249/2</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-nagare-nagare-gora-gay">наґаре наґаре ґора̄ ґа̄й<span class="page-num"> — 234</span></a></p>
@@ -8855,10 +8907,12 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="1"><a href="#song-namamishvaram-sachchidananda-rupam">нама̄мīшварам саччіда̄нанда рӯпам<span class="page-num"> — 229</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namas-te-narasimhaya">намас те нарасімга̄я<span class="page-num"> — 227</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-namah-om-vishnupadaya-krishna">намах ом вішнупа̄дая кришна<span class="page-num"> — 286</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">на̄мна̄м ака̄рі бахудга̄ ніджа-сарва-шяктіс<span class="page-num"> — 185/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namo-gaurakishoraya-bhaktavadhuta-murtaye">намо ґауракішора̄я бгакта̄вадгӯта мӯртає<span class="page-num"> — 16</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-namo-namah-tulasi-maharani">намо намах туласī маха̄ра̄нī<span class="page-num"> — 69</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-narada-muni-bajaya-vina">на̄рада муні, ба̄джа̄я вīна̄<span class="page-num"> — 140</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-naumi-shri-gurupadabjam">наумі шрī-ґурупа̄да̄бджам<span class="page-num"> — 275</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-aparadha-phole-mama">наянам ґалад-ашру-дга̄рая<span class="page-num"> — 188</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-nija-pati-bhuja-danda-chchhatra-bhavam">ніджа-паті-бгуджа-данда-ччхатра-бга̄вам</a></p>
 <p class="first-line" data-translated="1"><a href="#song-nitai-gunamani-amara-nitai-gunamani">ніта̄і ґунамані а̄ма̄ра ніта̄і ґунамані<span class="page-num"> — 113</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-nitai-pada-kamala-koti-chandra-sushitala">ніта̄і-пада-камала, котī-чандра-сушітала<span class="page-num"> — 111</span></a></p>
@@ -8866,7 +8920,7 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="1"><a href="#song-vaishnava-thakura-dayara-sagara">(охе) вайшнава тха̄кура, даяра са̄ґара<span class="page-num"> — 76</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-ohe-harinam-tava-mahima-apara">охе харіна̄м, тава махіма̄ апа̄ра<span class="page-num"> — 144</span></a></p>
 <h2 class="first-line-group">П</h2>
-<p class="first-line" data-translated="0"><a href="#song-pita-varana-kali-pavana-gora">пīта-варана калі-па̄вана ґора̄<span class="page-num"> — 184</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">пīта-варана калі-па̄вана ґора̄<span class="page-num"> — 184</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-parama-karuna-pahu-dui-jana">парама каруна, паху дӯі джана<span class="page-num"> — 115</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-prabhu-kohe-kohilan-ei-mahamantra">прабгу кохе—кохілан еі маха̄мантра<span class="page-num"> — 249/1</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">прабгу тава пада-джуґе мора ніведана<span class="page-num"> — 186</span></a></p>
@@ -8892,8 +8946,9 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="0"><a href="#song-sutra-vritti-tippanishta-sukshma-vachanadbhutam">сӯтра-вритті-тіппанīшта-сӯкшма-ва̄чана̄дбгутам<span class="page-num"> — 85</span></a></p>
 <h2 class="first-line-group">Т</h2>
 <p class="first-line" data-translated="0"><a href="#song-tatala-saikate-vari-bindu-sama">та̄тала сайкате ва̄рі бінду-сама<span class="page-num"> — 164</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">трина̄д апі сунīчена тарор іва сахішнуна̄<span class="page-num"> — 185/2</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-tumi-sarveshvareshvara-vrajendra-kumara">тумі сарвешварешвара, враджендра-кума̄ра!<span class="page-num"> — 162</span></a></p>
-<p class="first-line" data-translated="0"><a href="#song-tuhu-daya-sagara-tarayite-prani">туху дая-са̄ґара та̄раїте пра̄нī<span class="page-num"> — 185/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">туху дая-са̄ґара та̄раїте пра̄нī<span class="page-num"> — 185/1</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-gana-kori-ei-nivedana">тха̄кура вайшнава-ґана корі еі ніведана<span class="page-num"> — 54</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-thakura-vaishnava-pada-avanira">тха̄кура-вайшнава-пада, аванīра<span class="page-num"> — 134</span></a></p>
 <h2 class="first-line-group">У</h2>
@@ -8910,13 +8965,25 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="0"><a href="#song-he-deva-bhavantam-vande">хе дева бгавантам ванде<span class="page-num"> — 202</span></a></p>
 <h2 class="first-line-group">Ч</h2>
 <p class="first-line" data-translated="0"><a href="#song-chaudda-shiata-sata-shiake-masa-je-phalgun">чаудда-шята са̄та-шяке ма̄са дже пха̄лґун<span class="page-num"> — 242</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">чето-дарпана-ма̄рджанам<span class="page-num"> — 184</span></a></p>
 <h2 class="first-line-group">Ш</h2>
 <p class="first-line" data-translated="0"><a href="#song-bhai-re-shorira-avidya-jal-jodendriya-tahe-kal">шорīра авідья-джа̄л, джодендрія та̄хе ка̄л</a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-guru-charana-padma-kevala-bhakati">шрī ґуру чарана-падма, кевала-бгакаті<span class="page-num"> — 74</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-daya-kara-more">шрī кришна чайтанья прабгу дая кара море<span class="page-num"> — 75</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-shri-sanatananu-rupa-jiva-sampradayakam">шрī сана̄тана̄ну-рӯпа-джīва-сампрада̄якам<span class="page-num"> — 101</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-hari-vasare-hari-kirtana-vidhana">шрī харі-ва̄саре харі-кīртана-відга̄на<span class="page-num"> — 238</span></a></p>
-<p class="first-line" data-translated="0"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">шрī-кришна-кīртане джоді ма̄наса тоха̄ра<span class="page-num"> — 185/2</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-pita-varana-kali-pavana-gora">Шрī Шікша̄штакам – Пісня 1<span class="page-num"> — 184</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-tuhu-daya-sagara-tarayite-prani">Шрī Шікша̄штакам – Пісня 2<span class="page-num"> — 185/1</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">Шрī Шікша̄штакам – Пісня 3<span class="page-num"> — 185/2</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-prabhu-tava-pada-juge-mora-nivedana">Шрī Шікша̄штакам – Пісня 4<span class="page-num"> — 186</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-anadi-karama-phole">Шрī Шікша̄штакам – Пісня 5<span class="page-num"> — 187</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-aparadha-phole-mama">Шрī Шікша̄штакам – Пісня 6<span class="page-num"> — 188</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">Шрī Шікша̄штакам – Пісня 7 (а)<span class="page-num"> — 189</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-gaite-govinda-nam-upajilo-bhava-gram">Шрī Шікша̄штакам – Пісня 7 (б)<span class="page-num"> — 190</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-sakhi-go-kemote-dhoribo-paran">Шрī Шікша̄штакам – Пісня 7 (в)<span class="page-num"> — 191/1</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-bondhu-gon-shiunoho-vachana-mora">Шрī Шікша̄штакам – Пісня 8 (а)<span class="page-num"> — 191/2</span></a></p>
+<p class="first-line" data-translated="0"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">Шрī Шікша̄штакам – Пісня 8 (б)<span class="page-num"> — 192</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-shri-krishna-kirtane-jodi-manasa-tohara">шрī-кришна-кīртане джоді ма̄наса тоха̄ра<span class="page-num"> — 185/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-jive-daya-kori">шрī-кришна-чайтанья прабгу джīве дая корі’<span class="page-num"> — 50</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shri-krishna-chaitanya-prabhu-nityananda">шрī-кришна-чайтанья прабгу нітьянанда<span class="page-num"> — 24/1</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-shriman-rasa-rasarambhi">шрīма̄н ра̄са-раса̄рамбгī<span class="page-num"> — 21/1</span></a></p>
@@ -8928,6 +8995,8 @@ c:[["$","meta","0",{"name":"robots","content":"noindex, nofollow"}],["$","link",
 <p class="first-line" data-translated="0"><a href="#song-shrita-kamala-kuchha-mandala-dhrita">шріта-камала̄-кучха-мандала дгрита<span class="page-num"> — 211</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-shiuddha-bhakata-charana-renu">шюддга-бгаката-чарана-рену<span class="page-num"> — 240</span></a></p>
 <p class="first-line" data-translated="0"><a href="#song-shiuno-he-rasika-jon-krishna-guna-aganon">шюно, хе расіка джон кришна ґуна аґанон<span class="page-num"> — 209</span></a></p>
+<h2 class="first-line-group">Ю</h2>
+<p class="first-line" data-translated="0"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">юґа̄їтам німешена чакшуша̄ пра̄вриша̄їтам<span class="page-num"> — 189</span></a></p>
 <h2 class="first-line-group">Я</h2>
 <p class="first-line" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">яді те харі-па̄да-сароджа-судга̄</a></p>
 <p class="first-line" data-translated="0"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">ямуна̄мбу-кришна-ра̄дгіка̄лі-келі-мандалам<span class="page-num"> — 104</span></a></p>
