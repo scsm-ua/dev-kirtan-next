@@ -8,8 +8,7 @@ import {
   saveBookChoice,
   setAudioSort,
   setSongViewMode,
-  setSongWbwMode,
-  shouldShowHiddenBooks
+  setSongWbwMode
 } from '@/other/userPreferrences';
 
 describe('user preferences', () => {
@@ -74,11 +73,4 @@ describe('user preferences', () => {
     expect(JSON.stringify(localStorage)).not.toContain('title');
   });
 
-  it('shows hidden books only when the flag is set', () => {
-    expect(shouldShowHiddenBooks()).toBe(false);
-
-    localStorage.setItem('SHOW_HIDDEN_BOOKS', '1');
-
-    expect(shouldShowHiddenBooks()).toBe(true);
-  });
 });

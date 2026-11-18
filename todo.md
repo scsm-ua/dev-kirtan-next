@@ -1,4 +1,12 @@
-- feedback form with Cloudflare Worker
+# inbox
+
+- http://localhost:3333/ua/yoga-pithopari-sthita-ashta-sakhi-subeshtita/
+  - Другий кіртан Шрīли Бгактівінода Тха̄кура - Д letter cutted left 1px
+
+- back navigation bug:
+  Verse 1 https://kirtan.site/en/guru-kripa-bale-labhi-sambandha-vijniana/
+  back
+  Verse 11 https://kirtan.site/en/sakala-preyasi-shreshtha-vrishabhanu-suta/
 
 # seo
 
@@ -47,9 +55,7 @@ The fix I'd suggest is to create a fresh hidden SoundCloud iframe for each track
 
 - review tests findings
 
-- sonbgooks legacy songbooks section
 - en songbook link to https://scsmath.com/KirtanGuide/
-- another build and app js approach
 - do songbook images in resources
 
 - review: todo-songbook-info.md

@@ -2,6 +2,7 @@
 export type TBookDescription = {
   audio?: { filter?: { by_title?: Array<string> } };
   hidden?: boolean;
+  is_legacy?: boolean | { show_micro_thumbnail_on_main?: boolean };
   language?: string;
   render?: Record<string, boolean | number>;
   shortcuts?: Array<TShortcut>;

@@ -107,11 +107,11 @@ describe('AppRoot', () => {
       );
     });
 
-    it('book list: a card per book that is not hidden, the current book first', async () => {
+    it('book list: visible non-legacy books and the current book first', async () => {
       const page = await loadPage({ kind: 'book-list', bookId }, 'book-list');
       renderApp(page);
-      const shown = Object.values(page.data.booksMap).filter((book) => !book.hidden);
-      const titles = [...main().querySelectorAll('.BookCard__title')].map((title) => title.textContent);
+      const shown = Object.values(page.data.booksMap).filter((book) => !book.hidden && (!book.is_legacy || book.slug === bookId));
+      const titles = [...main().querySelectorAll('.BookCard:not(.BookCard--other) .BookCard__title')].map((title) => title.textContent);
 
       expect(titles).toHaveLength(shown.length);
       expect(titles[0]).toBe(page.data.booksMap[bookId].title);

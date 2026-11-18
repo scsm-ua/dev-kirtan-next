@@ -44,7 +44,7 @@ TPageData   // what was loaded: { build, kind, route, head, data }, discriminate
 | Field | Meaning |
 |---|---|
 | `build` | `getBuildId()` = `<commit>@<builtTime>` (`other/router/buildId.ts`). The client rejects data from another build. |
-| `kind` | `book-list`, `contents`, `a-z`, `authors`, `search`, `audio`, `audio-singer`, `song`, `page` |
+| `kind` | `book-list`, `other`, `contents`, `a-z`, `authors`, `search`, `audio`, `audio-singer`, `song`, `page` |
 | `route` | The route it answers. Narrowed per kind, e.g. a song has `route.slug`. |
 | `head` | `title`, `description`, `canonical`: what the client applies to `<head>` after navigation. Taken from the same `other/metadata/*` builders as `generateMetadata`. |
 | `data` | The view's props: `TIndexData`, `TSongData`, `TPageItemData`, … |

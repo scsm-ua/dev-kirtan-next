@@ -12,6 +12,7 @@ export const SONGBOOK_PAGE = {
   A_Z: 'a-z',
   CONTENTS: 'contents',
   EXPORT: 'export',
+  OTHER: 'other',
   SEARCH: 'search'
 } as const;
 

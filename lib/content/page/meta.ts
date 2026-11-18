@@ -2,7 +2,7 @@ import { getCommonMeta } from '@/other/metadata/helpers/getCommonMeta';
 import { getOG } from '@/other/metadata/helpers/getOG';
 import { getSongPath } from '@/other/paths';
 import { getTwitter } from '@/other/metadata/helpers/getTwitter';
-import { ROBOTS } from '@/other/metadata/helpers/constants';
+import { getBookRobots } from '@/other/metadata/helpers/getBookRobots';
 
 import type { Metadata } from 'next';
 import type { TMetaCtx } from '@/lib/content/handler';
@@ -24,7 +24,7 @@ export function getPageMeta(
     },
     description: title,
     openGraph: getOG(bookId, title, title, getSongPath(bookId, slug), 'article'),
-    robots: ROBOTS,
+    robots: getBookRobots(bookId),
     title: title,
     twitter: getTwitter(bookId, title, title)
   } as Metadata;

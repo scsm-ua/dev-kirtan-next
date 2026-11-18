@@ -1,9 +1,7 @@
-'use client';
 import classNames from 'classnames';
 
 import './SongBookItem.scss';
 import BookThumbnail from '@/components/common/BookThumnail/BookThumbnail';
-import { useHiddenBooks } from '@/other/hooks/useHiddenBooks';
 import { getBookLangLabel } from '@/other/helpers';
 import { TBookDescription } from '@/types/book';
 
@@ -18,7 +16,7 @@ type Props = {
  *
  */
 function SongBookItem({ description, href, isActive }: Props) {
-  if (!useHiddenBooks(description.hidden)) return null;
+  if (description.hidden) return null;
 
   const cls = (classNames as any)(
     'SongBookItem__title',

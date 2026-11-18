@@ -2,15 +2,16 @@ import { afterAll, describe, expect, it, vi } from 'vitest';
 
 import sitemap from '@/app/sitemap';
 import { getSingers } from '@/lib/audio';
-import { getBookIds, getBooksMap, getItems } from '@/tests/helpers/books';
+import { getSongbookPath } from '@/other/paths';
+import { getBooksMap, getItems } from '@/tests/helpers/books';
 
 // As in `next build`: lib/ caches the contents of the books.
 vi.stubEnv('NODE_ENV', 'production');
 afterAll(() => vi.unstubAllEnvs());
 
 const ORIGIN = process.env.NEXT_PUBLIC_ORIGIN;
-const booksMap = getBooksMap();
-const visibleBookIds = getBookIds().filter((bookId) => !booksMap[bookId].hidden);
+const books = Object.entries(getBooksMap());
+const visibleBookIds = books.filter(([, book]) => !book.hidden).map(([bookId]) => bookId);
 
 describe('sitemap', async () => {
   const entries = await sitemap();
@@ -33,6 +34,7 @@ describe('sitemap', async () => {
     const singers = getSingers(bookId);
     const expected = [
       `/${bookId}/`,
+      `/${bookId}/other/`,
       `/${bookId}/contents/`,
       `/${bookId}/a-z/`,
       `/${bookId}/authors/`,
@@ -44,12 +46,18 @@ describe('sitemap', async () => {
     expect(expected.filter((path) => !paths.has(path))).toEqual([]);
   });
 
-  it('has nothing else: no hidden books, no search, export or analyze pages', () => {
-    const hidden = getBookIds().filter((bookId) => booksMap[bookId].hidden);
+  it('has no pages from hidden books', () => {
+    const hiddenBookPaths = books
+      .filter(([, book]) => book.hidden)
+      .map(([bookId]) => getSongbookPath(bookId));
+
+    expect([...paths].filter((path) => hiddenBookPaths.some((prefix) => path.startsWith(prefix))))
+      .toEqual([]);
+  });
+
+  it('has no search, export or analyze pages', () => {
     const unwanted = [...paths].filter(
-      (path) =>
-        hidden.some((bookId) => path.startsWith(`/${bookId}/`)) ||
-        /^\/[^/]+\/(search|export|analyze)\/$/.test(path)
+      (path) => /^\/[^/]+\/(search|export|analyze)\/$/.test(path)
     );
 
     expect(unwanted).toEqual([]);

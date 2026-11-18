@@ -5,6 +5,7 @@ import AuthorsView from '@/components/app/views/AuthorsView';
 import AZView from '@/components/app/views/AZView';
 import BookListView from '@/components/app/views/BookListView';
 import ContentsView from '@/components/app/views/ContentsView';
+import OtherBooksView from '@/components/app/views/OtherBooksView';
 import PageBody from '@/components/content/PageBody';
 import SearchView from '@/components/app/views/SearchView';
 import SongBody from '@/components/content/SongBody';
@@ -20,6 +21,7 @@ import type { TViewProps } from '@/components/app/views/types';
 /**/
 const VIEWS: { [K in TPageKind]: ComponentType<TViewProps<K>> } = {
   'book-list': BookListView,
+  other: OtherBooksView,
   contents: ContentsView,
   'a-z': AZView,
   authors: AuthorsView,

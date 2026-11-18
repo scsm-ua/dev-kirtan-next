@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 
-import { getBookIdList, getBooksMap } from '@/lib/books';
+import { getBookIdList, getBookDescriptionById } from '@/lib/books';
 import { getContentsByBookId } from '@/lib/contents';
 import { getSingers, hasBookAudio } from '@/lib/audio';
 import {
@@ -23,6 +23,7 @@ export const dynamic = 'force-static';
 function mapGroups(groups: TContentGroup[], bookId) {
   const indexes = [
     getXmlItem(getSongbookPath(bookId), 0.9, 'monthly'),
+    getXmlItem(getSongbookPagePath(bookId, SONGBOOK_PAGE.OTHER), 0.8),
     getXmlItem(getSongbookPagePath(bookId, SONGBOOK_PAGE.CONTENTS), 1),
     getXmlItem(getSongbookPagePath(bookId, SONGBOOK_PAGE.A_Z), 1),
     getXmlItem(getSongbookPagePath(bookId, SONGBOOK_PAGE.AUTHORS), 1)
@@ -52,12 +53,9 @@ function mapGroups(groups: TContentGroup[], bookId) {
  *
  */
 async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const booksMap = getBooksMap();
-  const bookIds = getBookIdList().filter((bookId) => !booksMap[bookId]?.hidden);
-
-  return bookIds.flatMap((bookId) =>
-    mapGroups(getContentsByBookId(bookId), bookId)
-  );
+  return getBookIdList()
+    .filter((bookId) => !getBookDescriptionById(bookId).hidden)
+    .flatMap((bookId) => mapGroups(getContentsByBookId(bookId), bookId));
 }
 
 /**

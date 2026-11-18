@@ -18,6 +18,7 @@ const ROUTES: Array<[route: TRoute, path: string, dataUrl: string]> = [
   [{ kind: 'contents', bookId: 'en' }, '/en/contents/', '/data/en/contents.json'],
   [{ kind: 'a-z', bookId: 'en' }, '/en/a-z/', '/data/en/a-z.json'],
   [{ kind: 'authors', bookId: 'en' }, '/en/authors/', '/data/en/authors.json'],
+  [{ kind: 'other', bookId: 'en' }, '/en/other/', '/data/en/other.json'],
   [{ kind: 'search', bookId: 'en' }, '/en/search/', '/data/en/search.json'],
   [{ kind: 'audio', bookId: 'en' }, '/en/audio/', '/data/en/audio/index.json'],
   [

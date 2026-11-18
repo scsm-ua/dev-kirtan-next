@@ -2,6 +2,7 @@ import { getAudioSingerPageMeta, getAudioPageMeta } from '@/other/metadata/getAu
 import { getAuthorsPageMeta } from '@/other/metadata/getAuthorsPageMeta';
 import { getAzPageMeta } from '@/other/metadata/getAzPageMeta';
 import { getBookListPageMeta } from '@/other/metadata/getBookListPageMeta';
+import { getOtherPageMeta } from '@/other/metadata/getOtherPageMeta';
 import { getBooksMap } from '@/lib/books';
 import { getBuildId } from '@/other/router/buildId';
 import { getContentsPageMeta } from '@/other/metadata/getContentsPageMeta';
@@ -41,6 +42,11 @@ export async function loadPageData(route: TRoute): Promise<TPageData | null> {
   switch (route.kind) {
     case 'book-list':
       return make(route, 'book-list', toHead(await getBookListPageMeta({ params })), {
+        booksMap: getBooksMap()
+      });
+
+    case 'other':
+      return make(route, 'other', toHead(await getOtherPageMeta({ params })), {
         booksMap: getBooksMap()
       });
 

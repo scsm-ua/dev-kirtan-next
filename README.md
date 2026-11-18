@@ -11,7 +11,7 @@ Deliver a better and more future-proof user experience with a modern front-end s
 Follows the standard Next.js layout (App Router). The additions are:
 
 - `./source` — inputs consumed by the build pipeline. Two files are committed as the source of truth:
-  - `songbooks.json` — `slug → git repo URL` map of songbook packages. A value can also be an object with a `repository` URL plus per-book settings (e.g. `shortcuts`, `audio.filter.by_title` — person ids; only audio tracks with these titles are kept for the book). Settings are merged into the book info at build time and win over the package's `songbook.json`. The key order of this file is the book order on the site (`sort_order` from the package is ignored).
+  - `songbooks.json` — `slug → git repo URL` map of songbook packages. A value can also be an object with a `repository` URL plus per-book settings (e.g. `shortcuts`, `audio.filter.by_title` — person ids; only audio tracks with these titles are kept for the book). Settings are merged into the book info at build time and override matching package fields; other package fields are retained. `is_legacy` marks books for the app's “other” list and can include `show_micro_thumbnail_on_main` to show that book's cover in the root-page “other” button. The key order of this file is the book order on the site (`sort_order` from the package is ignored).
   - `resources.json` — `slug → git repo URL` for the shared resources package (audio metadata, persons).
   - `translations.json` — site i18n strings.
 
@@ -37,6 +37,8 @@ Each songbook folder under `./source/books/<slug>/` gets these generated helper 
 - `contents.json` — songs grouped by section.
 
 `./source/books/songbooks.json` holds the merged info of all songbooks: the package's `songbook.json` (title, subtitle, sort order…), the per-book settings from `./source/songbooks.json` (without `repository`) and `songsCount`. The app reads it only through `lib/books.ts`.
+
+The main book list shows regular books and the current book first, even when the current book is hidden; books marked `is_legacy` are listed at `/<bookId>/other/`. The link to that page appears only when at least one visible book has `is_legacy` set. Other hidden books are excluded from the lists and the translations popup. In the song translations popup, books marked `is_legacy` follow other books with a double separator between visible groups.
 
 ## Build pipeline
 

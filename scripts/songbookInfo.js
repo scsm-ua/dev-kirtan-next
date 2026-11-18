@@ -9,6 +9,8 @@ const songbooks = require('../source/songbooks.json');
  * repo URL string (legacy shorthand) or a settings object.
  * @typedef {Object} SongbookSettings
  * @property {string} repository - git repo URL of the songbook package.
+ * @property {boolean} [hidden]
+ * @property {boolean|{show_micro_thumbnail_on_main?: boolean}} [is_legacy]
  * @property {Object} [audio]
  * @property {Object} [audio.filter]
  * @property {Array<string>} [audio.filter.by_title] - person ids; only audio

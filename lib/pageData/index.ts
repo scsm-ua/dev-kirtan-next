@@ -31,6 +31,7 @@ export function listItemRoutes(bookId: string): Array<TRoute> {
     { kind: SONGBOOK_PAGE.CONTENTS, bookId },
     { kind: SONGBOOK_PAGE.A_Z, bookId },
     { kind: SONGBOOK_PAGE.AUTHORS, bookId },
+    { kind: SONGBOOK_PAGE.OTHER, bookId },
     { kind: SONGBOOK_PAGE.SEARCH, bookId },
     ...Array.from(slugs, (slug): TRoute => ({ kind: 'item', bookId, slug }))
   ];

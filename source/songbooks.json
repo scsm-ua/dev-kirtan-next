@@ -23,7 +23,22 @@
   "pt": "git+https://github.com/scsm-ua/kirtan-guide-pt.git",
   "lv": "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git",
   "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git",
-  "en-pe": "git+https://github.com/scsm-ua/kirtan-guide-pocket-edition.git",
-  "en-2022": "git+https://github.com/scsm-ua/kirtan-guide-en.git",
-  "ru-kdm": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru-kd-morning.git#morning-short"
+  "en-2022": {
+    "repository": "git+https://github.com/scsm-ua/kirtan-guide-en.git",
+    "is_legacy": {
+      "show_micro_thumbnail_on_main": true
+    },
+    "hidden": false
+    
+  },
+  "en-pe": {
+    "repository": "git+https://github.com/scsm-ua/kirtan-guide-pocket-edition.git",
+    "is_legacy": {
+      "show_micro_thumbnail_on_main": true
+    }
+  },
+  "ru-kdm": {
+    "repository": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru-kd-morning.git#morning-short",
+    "hidden": true
+  }
 }

@@ -114,8 +114,10 @@ const TRANSLATION_VALIDATION_SCHEMA = {
     BOOK_LIST_PAGE: {
       type: 'object',
       additionalProperties: false,
-      required: ['HEAD', 'SCHEMA', 'SONG_COUNT'],
+      required: ['HEAD', 'SCHEMA', 'SONG_COUNT', 'OTHER_SONGBOOKS', 'BACK'],
       properties: {
+        BACK: { type: 'string' },
+        OTHER_SONGBOOKS: { type: 'string' },
         HEAD: {
           type: 'object',
           additionalProperties: false,
@@ -591,6 +593,18 @@ const SONGBOOKS_VALIDATION_SCHEMA = {
 	properties: {
 		audio: { type: 'object' },
 		hidden: { type: 'boolean' },
+    is_legacy: {
+      anyOf: [
+        { type: 'boolean' },
+        {
+          type: 'object',
+          additionalProperties: false,
+          properties: {
+            show_micro_thumbnail_on_main: { type: 'boolean' }
+          }
+        }
+      ]
+    },
 		shortcuts: {
 			type: 'array',
 			items: {

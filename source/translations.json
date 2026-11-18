@@ -41,7 +41,9 @@
         "NAME": "Vaišnavu dziesmu krājumi",
         "DESCRIPTION": "Pieejamo Vaišnavu dziesmu grāmatu saraksts ar tekstiem un tulkojumiem."
       },
-      "SONG_COUNT": "dziesmas"
+      "SONG_COUNT": "dziesmas",
+      "OTHER_SONGBOOKS": "Citas dziesmu grāmatas...",
+      "BACK": "Atpakaļ"
     },
     "FOOTER": {
       "BOOKS": "Grāmatas",
@@ -199,7 +201,9 @@
         "NAME": "Vaishnava Songbooks",
         "DESCRIPTION": "List of available Vaishnava songbooks with lyrics and translations."
       },
-      "SONG_COUNT": "songs"
+      "SONG_COUNT": "songs",
+      "OTHER_SONGBOOKS": "Other songbooks...",
+      "BACK": "Back"
     },
     "FOOTER": {
       "BOOKS": "Books",
@@ -357,7 +361,9 @@
         "NAME": "Cancioneros Vaishnavas",
         "DESCRIPTION": "Lista de los cancioneros Vaishnavas disponibles con letras y traducciones."
       },
-      "SONG_COUNT": "canciones"
+      "SONG_COUNT": "canciones",
+      "OTHER_SONGBOOKS": "Otros cancioneros...",
+      "BACK": "Volver"
     },
     "FOOTER": {
       "BOOKS": "Libros",
@@ -515,7 +521,9 @@
         "NAME": "Вайшнавские песенники",
         "DESCRIPTION": "Список доступных вайшнавских песенников с текстами и переводами."
       },
-      "SONG_COUNT": "песен"
+      "SONG_COUNT": "песен",
+      "OTHER_SONGBOOKS": "Другие песенники...",
+      "BACK": "Назад"
     },
     "FOOTER": {
       "BOOKS": "Книги",
@@ -686,7 +694,9 @@
         "NAME": "Вайшнавські пісенники",
         "DESCRIPTION": "Список доступних вайшнавських пісенників із текстами та перекладами."
       },
-      "SONG_COUNT": "пісень"
+      "SONG_COUNT": "пісень",
+      "OTHER_SONGBOOKS": "Інші пісенники...",
+      "BACK": "Назад"
     },
     "FOOTER": {
       "BOOKS": "Книги",
@@ -857,7 +867,9 @@
         "NAME": "Cancioneiros Vaishnavas",
         "DESCRIPTION": "Lista dos cancioneiros vaisnavas disponíveis com letras e traduções."
       },
-      "SONG_COUNT": "canções"
+      "SONG_COUNT": "canções",
+      "OTHER_SONGBOOKS": "Outros cancioneiros...",
+      "BACK": "Voltar"
     },
     "FOOTER": {
       "BOOKS": "Livros",

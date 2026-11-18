@@ -10,6 +10,17 @@ test.beforeEach(() => {
   allowErrors(/Failed to load resource/);
 });
 
+test('other songbooks are available offline after precaching the current book', async ({ page, context }) => {
+  await page.goto('/en/');
+  await waitForApp(page);
+  await page.waitForFunction(() => !!localStorage.getItem('kirtan:precached:en'), null, { timeout: 20_000 });
+  await context.setOffline(true);
+
+  await page.locator('main a[href="/en/other/"]').click();
+  await expect(page).toHaveURL('/en/other/');
+  await expect(page.locator('main .BookCard a[href="/en-pe/a-z/"]')).toBeVisible();
+});
+
 test('a visited book keeps working offline, also on pages that were never opened', async ({ page, context }) => {
   const song = findPage('song', 'a song with another song in its book');
   const { bookId } = song.route;

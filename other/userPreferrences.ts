@@ -25,9 +25,6 @@ const SONG_VIEW_MODE = 'SONG_VIEW_MODE';
 const SONG_WBW_MODE = 'SONG_WBW_MODE';
 
 /**/
-const SHOW_HIDDEN_BOOKS = 'SHOW_HIDDEN_BOOKS';
-
-/**/
 export function getSongViewMode(): TViewMode {
   const val = localStorage.getItem(SONG_VIEW_MODE);
   if (val === VIEW_MODE.ALL || val === VIEW_MODE.VERSE || val === VIEW_MODE.TRANSLATION) {
@@ -53,11 +50,6 @@ export function getSongWbwMode(): TWbwMode {
 /**/
 export function setSongWbwMode(value: TWbwMode) {
   localStorage.setItem(SONG_WBW_MODE, value);
-}
-
-/**/
-export function shouldShowHiddenBooks(): boolean {
-  return !!localStorage.getItem(SHOW_HIDDEN_BOOKS);
 }
 
 /**/

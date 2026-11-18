@@ -33,6 +33,7 @@ In the table, `en` stands for any `bookId`, and every page file is under `app/[b
 | URL | Page file | Data file | `TRoute` → `TPageData.kind` | View | `generateMetadata` | Static params | `extras` (JSON-LD) |
 |---|---|---|---|---|---|---|---|
 | `/en/` | `page.tsx` | `/data/en/index.json` | `book-list` | `BookListView` | `getBookListPageMeta` | `getBookIdParamList` | `LdJson` (`BOOK_LIST_PAGE`) |
+| `/en/other/` | `other/page.tsx` | `/data/en/other.json` | `other` | `OtherBooksView` | `getOtherPageMeta` | `getBookIdParamList` | — |
 | `/en/contents/` | `contents/page.tsx` | `/data/en/contents.json` | `contents` | `ContentsView` | `getContentsPageMeta` | `getBookIdParamList` | `LdJson` (`CONTENTS_PAGE`) |
 | `/en/a-z/` | `a-z/page.tsx` | `/data/en/a-z.json` | `a-z` | `AZView` | `getAzPageMeta` | `getBookIdParamList` | `LdJson` (`A_Z_PAGE`) |
 | `/en/authors/` | `authors/page.tsx` | `/data/en/authors.json` | `authors` | `AuthorsView` | `getAuthorsPageMeta` | `getBookIdParamList` | `LdJson` (`AUTHORS_PAGE`) |
@@ -53,7 +54,7 @@ JSON handlers:
 
 | Handler | Emits | Lists routes with | Parses file with |
 |---|---|---|---|
-| `app/data/[bookId]/[file]/route.ts` | book root, contents, a-z, authors, search, every song/page | `listItemRoutes` (needs only `contents.json`, so it is cheap) | `parseItemFile` |
+| `app/data/[bookId]/[file]/route.ts` | book root, other, contents, a-z, authors, search, every song/page | `listItemRoutes` (needs only `contents.json`, so it is cheap) | `parseItemFile` |
 | `app/data/[bookId]/audio/[file]/route.ts` | audio index and singers (only for books with audio) | `listAudioRoutes` (scans song files) | `parseAudioFile` |
 | `app/data/[bookId]/bundle.json/route.ts` | `/data/en/bundle.json`, all of the above for one book | `listRoutes` = items + audio | — |
 

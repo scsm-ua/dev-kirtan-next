@@ -15,6 +15,7 @@ export type TRootPageKind =
   | typeof SONGBOOK_PAGE.AUDIO
   | typeof SONGBOOK_PAGE.AUTHORS
   | typeof SONGBOOK_PAGE.CONTENTS
+  | typeof SONGBOOK_PAGE.OTHER
   | typeof SONGBOOK_PAGE.SEARCH;
 
 /**
@@ -102,6 +103,7 @@ type TEnvelope<TKind extends string, TData, TRouteKind extends TRoute['kind'] = 
 /** Content of every page-data JSON file, discriminated by `kind`. */
 export type TPageData =
   | TEnvelope<'book-list', TBookListData>
+  | TEnvelope<'other', TBookListData>
   | TEnvelope<'contents', TIndexData>
   | TEnvelope<'a-z', TIndexData>
   | TEnvelope<'authors', TAuthorsData>

@@ -29,6 +29,7 @@ describe.each(getBookIds())('routes of %s', (bookId) => {
       { kind: 'contents', bookId },
       { kind: 'a-z', bookId },
       { kind: 'authors', bookId },
+      { kind: 'other', bookId },
       { kind: 'search', bookId },
       ...slugs.map((slug) => ({ kind: 'item', bookId, slug }))
     ]);
@@ -52,6 +53,10 @@ describe.each(getBookIds())('routes of %s', (bookId) => {
 
     expect(routes).toEqual([...listItemRoutes(bookId), ...listAudioRoutes(bookId)]);
     expect(new Set(urls).size).toBe(urls.length);
+  });
+
+  it('does not reserve an existing item slug for the other page', () => {
+    expect(getItems(bookId).map((item) => item.id)).not.toContain('other');
   });
 });
 

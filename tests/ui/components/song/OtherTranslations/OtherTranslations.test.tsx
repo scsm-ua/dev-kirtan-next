@@ -45,7 +45,8 @@ describe('OtherTranslations', () => {
   it('opens the song in every shown book that has it, the current book marked', async () => {
     renderButton();
     fireEvent.click(button());
-    const shown = page.data.descriptions.filter((description) => !description.hidden);
+    const visible = page.data.descriptions.filter((description) => !description.hidden);
+    const shown = [...visible.filter((book) => !book.is_legacy), ...visible.filter((book) => book.is_legacy)];
     await waitFor(() => expect(bookLinks()).toHaveLength(shown.length));
 
     expect(screen.getByRole('dialog')).toBeTruthy();
@@ -66,6 +67,33 @@ describe('OtherTranslations', () => {
     expect(screen.getByRole('dialog').getAttribute('style')).toContain('modal-out');
     endModalFadeOut();
     await waitFor(() => expect(screen.queryByRole('dialog')).toBeNull());
+  });
+
+  it('groups legacy books after regular books with a separator only between visible groups', () => {
+    const base = page.data.descriptions[0];
+    const books = [
+      { ...base, slug: 'en-pe', is_legacy: true, hidden: false },
+      { ...base, slug: 'en', is_legacy: false, hidden: false },
+      { ...base, slug: 'en-2022', is_legacy: true, hidden: true }
+    ];
+    const { container, rerender } = render(<SongbookList bookDescriptions={books} bookId="en-pe" slug="song" />);
+    expect(bookLinks().map((link) => link.getAttribute('href'))).toEqual(['/en/song/', '/en-pe/song/']);
+    expect(container.querySelectorAll('.SongbookList__separator')).toHaveLength(1);
+    expect(container.querySelector('.SongBookItem__title--active')).toBeTruthy();
+
+    rerender(<SongbookList bookDescriptions={books.filter((book) => book.is_legacy)} bookId="en-pe" slug="song" />);
+    expect(container.querySelectorAll('.SongbookList__separator')).toHaveLength(0);
+  });
+
+  it('does not show a separator when all legacy books are hidden', () => {
+    const base = page.data.descriptions[0];
+    const books = [
+      { ...base, slug: 'en', is_legacy: false, hidden: false },
+      { ...base, slug: 'en-pe', is_legacy: true, hidden: true }
+    ];
+    const { container } = render(<SongbookList bookDescriptions={books} bookId="en" slug="song" />);
+    expect(container.querySelector('.SongbookList__separator')).toBeNull();
+    expect(bookLinks().map((link) => link.getAttribute('href'))).toEqual(['/en/song/']);
   });
 
   it('when disabled, neither the button nor the hotkey opens it', () => {

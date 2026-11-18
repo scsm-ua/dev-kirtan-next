@@ -38,6 +38,50 @@
     height: 64.3%;
     overflow: hidden;
     position: relative;
+
+    &--other {
+      background-color: var(--gray);
+      display: flex;
+    }
+  }
+
+  &__otherCovers {
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  &__otherCover {
+    flex: 1 1 0;
+    min-height: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  &__otherDetails {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__otherIcon {
+    color: var(--darker-gray);
+    font-size: 88px;
+  }
+
+  &__otherMore {
+    color: var(--darker-gray);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  &__title--empty {
+    min-height: 1.2em;
   }
 
   &__lang {

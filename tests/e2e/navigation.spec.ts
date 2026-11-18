@@ -18,6 +18,27 @@ import type { Page } from '@playwright/test';
 
 const scroller = (page: Page) => page.locator('.Layout__content');
 
+test('other songbooks can be selected and appear first at their root', async ({ page }) => {
+  await page.goto('/en/');
+  await waitForApp(page);
+  const isSameDocument = await markDocument(page);
+
+  await page.locator('main a[href="/en/other/"]').click();
+  await expect(page).toHaveURL('/en/other/');
+  await expect(page.locator('main .BookCard a[href="/en-pe/a-z/"]')).toBeVisible();
+  await page.goBack();
+  await expect(page).toHaveURL('/en/');
+  await page.goForward();
+  await expect(page).toHaveURL('/en/other/');
+  await page.locator('main .BookCard a[href="/en-pe/a-z/"]').click();
+  await expect(page).toHaveURL('/en-pe/a-z/');
+  await expect.poll(() => page.evaluate(() => localStorage.getItem('CURRENT_BOOK_ID'))).toBe('en-pe');
+  await page.locator('a[href="/en-pe/"]').first().click();
+  await expect(page).toHaveURL('/en-pe/');
+  await expect(page.locator('main .BookCard a').first()).toHaveAttribute('href', '/en-pe/a-z/');
+  expect(await isSameDocument()).toBe(true);
+});
+
 /** Data files the page requested, as paths. */
 function recordDataRequests(page: Page): string[] {
   const paths: string[] = [];

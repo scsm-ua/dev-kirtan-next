@@ -8,7 +8,7 @@ import { getPageTitle } from '@/other/metadata/helpers/getPageTitle';
 import { getSongbookPagePath, getSongbookPath } from '@/other/paths';
 import { getTranslationsByBookId } from '@/other/i18n';
 import { getTwitter } from '@/other/metadata/helpers/getTwitter';
-import { ROBOTS } from '@/other/metadata/helpers/constants';
+import { getBookRobots } from '@/other/metadata/helpers/getBookRobots';
 
 import type { TSongbookPage } from '@/other/paths';
 
@@ -46,7 +46,7 @@ export function getPageMeta({
     alternates: getAlt(bookId, page, hasPage),
     description: description,
     openGraph: getOG(bookId, description, title, path),
-    robots: ROBOTS,
+    robots: getBookRobots(bookId),
     title: title,
     twitter: getTwitter(bookId, description, title)
   } as Metadata;

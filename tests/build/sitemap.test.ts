@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { getRoutePath } from '@/other/router/routes';
 import { getBookIds, getBooksMap } from '@/tests/helpers/books';
+import { getSongbookPath } from '@/other/paths';
 import {
   listSiteFiles,
   ORIGIN,
@@ -45,10 +46,9 @@ describe('sitemap.xml', () => {
     expect(problems).toEqual([]);
   });
 
-  it('lists every built app page of the visible books, except search', () => {
-    const books = getBooksMap();
+  it('lists every indexed app page of visible books only', () => {
     const expected = getBookIds()
-      .filter((bookId) => !books[bookId].hidden)
+      .filter((bookId) => !getBooksMap()[bookId].hidden)
       .flatMap((bookId) => listSiteFiles(`data/${bookId}`))
       .filter((file) => !file.endsWith('/bundle.json'))
       .map((file) => readJsonFile<TPageData>(file))
@@ -58,11 +58,6 @@ describe('sitemap.xml', () => {
     expect([...urls].sort()).toEqual(expected.sort());
   });
 
-  it('lists no page of a hidden book', () => {
-    const hidden = getBookIds().filter((bookId) => getBooksMap()[bookId].hidden);
-
-    expect(urls.filter((url) => hidden.some((bookId) => url.startsWith(`${ORIGIN}/${bookId}/`)))).toEqual([]);
-  });
 });
 
 describe('robots.txt', () => {
@@ -83,5 +78,8 @@ describe('robots.txt', () => {
     expect(urls.filter((url) => isDisallowed(new URL(url).pathname))).toEqual([]);
     expect(isDisallowed('/data/en/index.json')).toBe(true);
     expect(isDisallowed('/shell/')).toBe(true);
+    for (const bookId of getBookIds()) {
+      expect(isDisallowed(getSongbookPath(bookId)), bookId).toBe(!!getBooksMap()[bookId].hidden);
+    }
   });
 });

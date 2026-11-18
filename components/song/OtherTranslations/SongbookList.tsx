@@ -1,3 +1,5 @@
+import { Fragment } from 'react';
+
 import './SongbookList.scss';
 import SongBookItem from '@/components/song/OtherTranslations/SongBookItem';
 import { getSongPath } from '@/other/paths';
@@ -14,18 +16,26 @@ type Props = {
  *
  */
 function SongbookList({ bookId, bookDescriptions, slug }: Props) {
+  const visible = bookDescriptions.filter((description) => !description.hidden);
+  const regular = visible.filter((description) => !description.is_legacy);
+  const legacy = visible.filter((description) => description.is_legacy);
+
   return (
     <ul className="SongbookList">
-      {bookDescriptions.map((description: TBookDescription) => {
+      {[...regular, ...legacy].map((description: TBookDescription, index) => {
         const href = getSongPath(description.slug, slug);
 
         return (
-          <SongBookItem
-            description={description}
-            href={href}
-            isActive={description.slug === bookId}
-            key={description.slug}
-          />
+          <Fragment key={description.slug}>
+            {regular.length > 0 && legacy.length > 0 && index === regular.length && (
+              <li aria-hidden="true" className="SongbookList__separator" />
+            )}
+            <SongBookItem
+              description={description}
+              href={href}
+              isActive={description.slug === bookId}
+            />
+          </Fragment>
         );
       })}
     </ul>

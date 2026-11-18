@@ -1,6 +1,8 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
 import robots from '@/app/robots';
+import { getSongbookPath } from '@/other/paths';
+import { getBooksMap } from '@/tests/helpers/books';
 
 const ORIGIN = process.env.NEXT_PUBLIC_ORIGIN;
 
@@ -13,13 +15,17 @@ describe('robots', () => {
     expect(robots().rules).toEqual({ userAgent: '*', disallow: '/' });
   });
 
-  it('opens the production site, except search results and app data', () => {
+  it('opens the production site, except search, app data, the shell and hidden books', () => {
     vi.stubEnv('NEXT_PUBLIC_ENV', 'production');
+
+    const hiddenBookPaths = Object.entries(getBooksMap())
+      .filter(([, book]) => book.hidden)
+      .map(([bookId]) => getSongbookPath(bookId));
 
     expect(robots().rules).toEqual({
       userAgent: '*',
       allow: '/',
-      disallow: ['/*/search/', '/data/', '/shell/']
+      disallow: ['/*/search/', '/data/', '/shell/', ...hiddenBookPaths]
     });
   });
 

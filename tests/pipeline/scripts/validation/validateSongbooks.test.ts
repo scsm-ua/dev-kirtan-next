@@ -33,7 +33,10 @@ describe('validateSongbooks', () => {
   it('accepts a minimal book and optional settings', () => {
     const shortcuts = [{ icon: 'clock', slug: 'some-page', title: 'Some Page' }];
 
-    validateSongbooks(['en', 'ru'], { en: BOOK, ru: { ...BOOK, hidden: true, shortcuts } });
+    validateSongbooks(['en', 'ru'], {
+      en: BOOK,
+      ru: { ...BOOK, hidden: true, is_legacy: { show_micro_thumbnail_on_main: true }, shortcuts }
+    });
 
     expect(process.exit).not.toHaveBeenCalled();
   });
@@ -55,6 +58,11 @@ describe('validateSongbooks', () => {
 
   it('rejects a value of the wrong type', () => {
     expectFailure(['en'], { en: { ...BOOK, songsCount: '5' } });
+  });
+
+  it('rejects an invalid is_legacy value', () => {
+    expectFailure(['en'], { en: { ...BOOK, is_legacy: 'true' } });
+    expectFailure(['en'], { en: { ...BOOK, is_legacy: { show_micro_thumbnail_on_main: 'true' } } });
   });
 
   it('rejects an incomplete shortcut', () => {

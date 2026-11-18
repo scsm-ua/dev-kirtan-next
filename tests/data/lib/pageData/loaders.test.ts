@@ -31,6 +31,12 @@ describe('loadPageData', () => {
     expect(page.data.booksMap).toEqual(getBooksMap());
   });
 
+  it('gives the other page all books and its own canonical path', async () => {
+    const page = await loadPage({ kind: 'other', bookId: SOME_BOOK }, 'other');
+    expect(page.data.booksMap).toEqual(getBooksMap());
+    expect(page.head.canonical).toContain(`/${SOME_BOOK}/other/`);
+  });
+
   it.each(['contents', 'a-z'] as const)('gives the %s page the groups of its file', async (kind) => {
     const page = await loadPage({ kind, bookId: SOME_BOOK }, kind);
 

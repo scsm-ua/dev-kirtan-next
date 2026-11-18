@@ -22,6 +22,13 @@ describe('getSongbookRepositories', () => {
 });
 
 describe('createSongbookInfo', () => {
+  it('merges site settings and preserves package metadata', () => {
+    expect(createSongbookInfo('en-2022')).toMatchObject({ is_legacy: { show_micro_thumbnail_on_main: true } });
+    expect(createSongbookInfo('en-2022')).toMatchObject({ hidden: false });
+    expect(createSongbookInfo('en-pe')).toMatchObject({ is_legacy: { show_micro_thumbnail_on_main: true } });
+    expect(createSongbookInfo('ru-kdm')).toMatchObject({ hidden: true });
+  });
+
   it('has an entry in source/books/songbooks.json for every book, in order', () => {
     expect(getBookIds()).toEqual(SLUGS);
   });

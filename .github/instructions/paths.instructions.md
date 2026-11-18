@@ -21,7 +21,7 @@ All internal URLs are built by `other/paths.ts`. **Never hardcode** `` `/${bookI
 | `getSongPathWithPage(bookId, item, page?)` | `/bn/sri-guru/?p=12` | Song links from a `TContentItem` that may have page variations (contents list, search page-list, prev/next nav). Appends `?p=` **only** when the item has >1 pages and the target isn't the first (default) page |
 | `getAbsoluteUrl(path)` | `https://origin/bn/a-z/` | Absolute URLs: sitemap, OpenGraph, JSON-LD. Joins `SITE.ORIGIN` without producing `//` |
 
-`SONGBOOK_PAGE` is the single list of root-page URL segments (`analyze`, `audio`, `authors`, `a-z`, `contents`, `export`, `search`). Per-singer audio pages live at `audio/<singerId>` (`TAudioSingerPage`), built with `getAudioSingerPage(singerId)` (sub-path for `getPageMeta`/`LdJson`) or `getAudioSingerPath(bookId, singerId)` (`/bn/audio/<singerId>/`); `TSongbookPage` is the union of both, so `getSongbookPagePath`, `getPageMeta`, `getAlt` and `LdJson` accept either.
+`SONGBOOK_PAGE` is the single list of root-page URL segments (`analyze`, `audio`, `authors`, `a-z`, `contents`, `export`, `other`, `search`). `other` lists legacy books, uses the current book context, and is noindex. Per-singer audio pages live at `audio/<singerId>` (`TAudioSingerPage`), built with `getAudioSingerPage(singerId)` (sub-path for `getPageMeta`/`LdJson`) or `getAudioSingerPath(bookId, singerId)` (`/bn/audio/<singerId>/`); `TSongbookPage` is the union of both, so `getSongbookPagePath`, `getPageMeta`, `getAlt` and `LdJson` accept either.
 
 ## Two different `?p=` params
 

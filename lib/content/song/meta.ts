@@ -7,7 +7,8 @@ import { getPageTitle } from '@/other/metadata/helpers/getPageTitle';
 import { getSongPageTitle } from '@/other/metadata/helpers/getSongPageTitle';
 import { getSongPath } from '@/other/paths';
 import { getTwitter } from '@/other/metadata/helpers/getTwitter';
-import { KEYWORDS, ROBOTS } from '@/other/metadata/helpers/constants';
+import { KEYWORDS } from '@/other/metadata/helpers/constants';
+import { getBookRobots } from '@/other/metadata/helpers/getBookRobots';
 import { translate } from '@/other/i18n';
 
 import type { Metadata } from 'next';
@@ -51,7 +52,7 @@ export async function getSongMeta(
     description: description,
     keywords: getKeywords(song, authors),
     openGraph: getOG(bookId, description, title, getSongPath(bookId, slug), 'music.song'),
-    robots: ROBOTS,
+    robots: getBookRobots(bookId),
     title: getTitleTag(song),
     twitter: getTwitter(bookId, description, title)
   } as Metadata;

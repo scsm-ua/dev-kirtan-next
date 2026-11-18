@@ -1,5 +1,7 @@
 /**/
 export function displayVersionInfo() {
+  if (process.env.NODE_ENV === 'test') return;
+
   try {
     const styles = [
       'color: royalBlue',

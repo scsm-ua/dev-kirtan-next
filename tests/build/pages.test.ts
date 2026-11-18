@@ -3,7 +3,7 @@ import { beforeAll, describe, expect, it } from 'vitest';
 
 import { getBookLocale } from '@/other/helpers';
 import { getBookBundleUrl, getRoutePath } from '@/other/router/routes';
-import { getBookIds } from '@/tests/helpers/books';
+import { getBookIds, getBooksMap } from '@/tests/helpers/books';
 import { findBrokenReferences } from '@/tests/helpers/ldJson';
 import {
   getHtmlFile,
@@ -114,8 +114,10 @@ describe.each(getBookIds())('HTML pages of %s', (bookId) => {
     });
   });
 
-  it(`are ${IS_PRODUCTION ? '' : 'not '}indexed`, () => {
-    const expected = IS_PRODUCTION ? 'index, follow' : 'noindex, nofollow';
+  it('have the indexing policy of the book and environment', () => {
+    const expected = IS_PRODUCTION
+      ? `${getBooksMap()[bookId].hidden ? 'noindex' : 'index'}, follow`
+      : 'noindex, nofollow';
 
     checkPages(({ robots }) => robots !== expected && `robots "${robots}"`);
   });
@@ -134,7 +136,7 @@ describe.each(getBookIds())('HTML pages of %s', (bookId) => {
 
   it('have valid JSON-LD whose references point into the same graph or to a built page', () => {
     checkPages(({ page, ldJson }) => {
-      if (page.kind === 'search') return ldJson.length > 0 && 'unexpected JSON-LD';
+      if (page.kind === 'search' || page.kind === 'other') return ldJson.length > 0 && 'unexpected JSON-LD';
       if (!ldJson.length) return 'no JSON-LD';
 
       for (const json of ldJson as Array<{ '@context'?: string; '@graph'?: [] } | null>) {

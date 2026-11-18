@@ -8,13 +8,13 @@ import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';
 import { PATH } from '@/other/constants';
 import { saveBookChoice } from '@/other/userPreferrences';
 import { translate } from '@/other/i18n';
-import { useHiddenBooks } from '@/other/hooks/useHiddenBooks';
 
 import type { TBookDescription } from '@/types/book';
 
 /**/
 type Props = {
   bookDescription: TBookDescription;
+  showHidden?: boolean;
 };
 
 /**/
@@ -23,9 +23,9 @@ displayVersionInfo();
 /**
  *
  */
-function BookCard({ bookDescription }: Props) {
+function BookCard({ bookDescription, showHidden = false }: Props) {
   const { hidden, slug, songsCount, subtitle, title } = bookDescription;
-  if (!useHiddenBooks(hidden)) return null;
+  if (hidden && !showHidden) return null;
 
   const handleClick = () => saveBookChoice(slug);
   const href = getSongbookPagePath(slug, SONGBOOK_PAGE.A_Z);
