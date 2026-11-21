@@ -1,6 +1,8 @@
 /**/
 export function displayVersionInfo() {
   if (process.env.NODE_ENV === 'test') return;
+  // For the browser console only: the build loads this module in every worker.
+  if (typeof window === 'undefined') return;
 
   try {
     const styles = [

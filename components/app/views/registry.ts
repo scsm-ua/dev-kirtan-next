@@ -48,7 +48,7 @@ export function getChrome(page: TPageData): TLayoutChromeProps {
 
   switch (page.kind) {
     case 'book-list':
-      return { bookId, pageType: ANALYTICS_PAGE_TYPE.BOOK_LIST };
+      return { bookId, hideCacheStatus: true, pageType: ANALYTICS_PAGE_TYPE.BOOK_LIST };
     case 'audio-singer':
       return { bookId, itemId: page.route.singerId, pageType: ANALYTICS_PAGE_TYPE.AUDIO_SINGER };
     case 'song':

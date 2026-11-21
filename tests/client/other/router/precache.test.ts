@@ -1,10 +1,6 @@
 import { renderHook } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-import { getBuildId } from '@/other/router/buildId';
-import { usePrecacheBook } from '@/other/router/precache';
-
-const MARKER = 'kirtan:precached:en';
 const FALLBACK_DELAY_MS = 3000;
 
 type TPort = { onmessage: ((e: { data: unknown }) => void) | null };
@@ -12,19 +8,31 @@ type TPort = { onmessage: ((e: { data: unknown }) => void) | null };
 /** The worker's side of the conversation: what it was sent, and a way to answer. */
 let postMessage: ReturnType<typeof vi.fn>;
 let channels: Array<{ port1: TPort; port2: object }>;
+let persist: ReturnType<typeof vi.fn>;
+/** The `navigator.serviceWorker` of the test: a real event target, so `controllerchange` can be dispatched. */
+let container: EventTarget & { ready: Promise<unknown> };
 
 /** Lets the `serviceWorker.ready` promise and its `then` run. */
 const flush = () => vi.advanceTimersByTimeAsync(0);
+
+/** The hook and the store keep state in their modules, so every test loads fresh copies. */
+async function loadHook() {
+  vi.resetModules();
+  return (await import('@/other/router/precache')).usePrecacheBook;
+}
+
+/** Answers the last request with the final status of a run. */
+const reply = (status: object) => channels.at(-1).port1.onmessage({ data: status });
 
 beforeEach(() => {
   vi.useFakeTimers();
   postMessage = vi.fn();
   channels = [];
+  persist = vi.fn(() => Promise.resolve(true));
 
-  Object.defineProperty(navigator, 'serviceWorker', {
-    configurable: true,
-    value: { ready: Promise.resolve({ active: { postMessage } }) }
-  });
+  container = Object.assign(new EventTarget(), { ready: Promise.resolve({ active: { postMessage } }) });
+  Object.defineProperty(navigator, 'serviceWorker', { configurable: true, value: container });
+  Object.defineProperty(navigator, 'storage', { configurable: true, value: { persist } });
   vi.stubGlobal(
     'MessageChannel',
     class {
@@ -41,26 +49,38 @@ beforeEach(() => {
 afterEach(() => {
   delete (navigator as { serviceWorker?: unknown }).serviceWorker;
   delete (navigator as { connection?: unknown }).connection;
+  delete (navigator as { storage?: unknown }).storage;
+  localStorage.clear();
   vi.unstubAllGlobals();
   vi.unstubAllEnvs();
   vi.useRealTimers();
 });
 
 describe('usePrecacheBook', () => {
-  it('asks the worker to cache the book and the offline shell, once the browser had time to settle', async () => {
+  it('asks the worker to ensure the book, once the browser had time to settle', async () => {
+    const usePrecacheBook = await loadHook();
+
     renderHook(() => usePrecacheBook('en'));
     await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS - 1);
     expect(postMessage).not.toHaveBeenCalled();
 
     await vi.advanceTimersByTimeAsync(1);
 
-    expect(postMessage).toHaveBeenCalledExactlyOnceWith(
-      { type: 'PRECACHE_BOOK', bundleUrl: '/data/en/bundle.json', shellUrl: '/shell/' },
-      [channels[0].port2]
-    );
+    expect(postMessage).toHaveBeenCalledExactlyOnceWith({ type: 'ENSURE_BOOK', bookId: 'en' }, [channels[0].port2]);
+  });
+
+  it('asks the worker in development too', async () => {
+    vi.stubEnv('NODE_ENV', 'development');
+    const usePrecacheBook = await loadHook();
+
+    renderHook(() => usePrecacheBook('en'));
+    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
+
+    expect(postMessage).toHaveBeenCalledOnce();
   });
 
   it('uses the idle callback of the browser when there is one', async () => {
+    const usePrecacheBook = await loadHook();
     const requestIdleCallback = vi.fn((run: () => void) => {
       run();
       return 1;
@@ -78,31 +98,44 @@ describe('usePrecacheBook', () => {
     expect(cancelIdleCallback).toHaveBeenCalledExactlyOnceWith(1);
   });
 
-  it('remembers the build once the worker confirms, and then does not ask again', async () => {
-    renderHook(() => usePrecacheBook('en'));
-    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
-    expect(localStorage.getItem(MARKER)).toBeNull();
-
-    channels[0].port1.onmessage({ data: { ok: true } });
-    expect(localStorage.getItem(MARKER)).toBe(getBuildId());
+  it('asks again on every mount: the worker decides what is missing', async () => {
+    const usePrecacheBook = await loadHook();
 
     renderHook(() => usePrecacheBook('en'));
     await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
-    expect(postMessage).toHaveBeenCalledOnce();
+    reply({ bookId: 'en', pages: true, state: 'cached' });
+    renderHook(() => usePrecacheBook('en'));
+    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
+
+    expect(postMessage).toHaveBeenCalledTimes(2);
   });
 
-  it('asks again after a new build, and remembers nothing when the worker reports a failure', async () => {
-    localStorage.setItem(MARKER, 'an-older-build');
+  it('registers the book of the page: it is ensured again when a new worker takes over', async () => {
+    const usePrecacheBook = await loadHook();
+    const { unmount } = renderHook(() => usePrecacheBook('en'));
 
-    renderHook(() => usePrecacheBook('en'));
-    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
-    channels[0].port1.onmessage({ data: { ok: false } });
+    container.dispatchEvent(new Event('controllerchange'));
+    await flush();
+    reply({ build: 'new', books: {} });
+    await flush();
+    expect(postMessage.mock.calls.map(([message]) => message.type)).toEqual(['GET_CACHE_STATUS', 'ENSURE_BOOK']);
+    expect(postMessage.mock.lastCall[0]).toEqual({ type: 'ENSURE_BOOK', bookId: 'en' });
 
-    expect(postMessage).toHaveBeenCalledOnce();
-    expect(localStorage.getItem(MARKER)).toBe('an-older-build');
+    // After the page left the book, a worker change ensures nothing.
+    unmount();
+    container.dispatchEvent(new Event('controllerchange'));
+    await flush();
+    reply({ build: 'new', books: {} });
+    await flush();
+    expect(postMessage.mock.calls.map(([message]) => message.type)).toEqual([
+      'GET_CACHE_STATUS',
+      'ENSURE_BOOK',
+      'GET_CACHE_STATUS'
+    ]);
   });
 
-  it('precaches the next book when the user switches books', async () => {
+  it('ensures the next book when the user switches books', async () => {
+    const usePrecacheBook = await loadHook();
     const { rerender } = renderHook(({ bookId }) => usePrecacheBook(bookId), {
       initialProps: { bookId: 'en' }
     });
@@ -111,13 +144,38 @@ describe('usePrecacheBook', () => {
     rerender({ bookId: 'ua' });
     await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
 
-    expect(postMessage.mock.calls.map(([message]) => message.bundleUrl)).toEqual([
-      '/data/en/bundle.json',
-      '/data/ua/bundle.json'
-    ]);
+    expect(postMessage.mock.calls.map(([message]) => message.bookId)).toEqual(['en', 'ua']);
+  });
+
+  it('asks the browser once to keep the cache, after a book is cached', async () => {
+    const usePrecacheBook = await loadHook();
+
+    renderHook(() => usePrecacheBook('en'));
+    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
+    reply({ bookId: 'en', pages: false, state: 'error', error: 'QuotaExceededError' });
+    await flush();
+    expect(persist).not.toHaveBeenCalled();
+
+    renderHook(() => usePrecacheBook('en'));
+    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
+    reply({ bookId: 'en', pages: true, state: 'none' });
+    await flush();
+    expect(persist).not.toHaveBeenCalled();
+
+    renderHook(() => usePrecacheBook('en'));
+    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
+    reply({ bookId: 'en', pages: true, state: 'cached' });
+    await flush();
+    renderHook(() => usePrecacheBook('ua'));
+    await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);
+    reply({ bookId: 'ua', pages: true, state: 'cached' });
+    await flush();
+
+    expect(persist).toHaveBeenCalledOnce();
   });
 
   it('does not ask after the page was left before the delay passed', async () => {
+    const usePrecacheBook = await loadHook();
     const { unmount } = renderHook(() => usePrecacheBook('en'));
 
     unmount();
@@ -127,25 +185,21 @@ describe('usePrecacheBook', () => {
   });
 
   it.each([
-    ['there is no book', () => {}, undefined],
+    ['there is no book (the songbook list)', () => {}, undefined],
     ['the browser has no service workers', () => delete (navigator as { serviceWorker?: unknown }).serviceWorker, 'en'],
-    [
-      'the user asked to save data',
-      () => Object.defineProperty(navigator, 'connection', { configurable: true, value: { saveData: true } }),
-      'en'
-    ],
-    ['the site runs in development', () => vi.stubEnv('NODE_ENV', 'development'), 'en'],
+    ['the env prevents the worker', () => vi.stubEnv('NEXT_PUBLIC_PREVENT_SERVICE_WORKER', 'true'), 'en'],
     [
       'no worker is active yet',
       () =>
         Object.defineProperty(navigator, 'serviceWorker', {
           configurable: true,
-          value: { ready: Promise.resolve({ active: null }) }
+          value: Object.assign(new EventTarget(), { ready: Promise.resolve({ active: null }) })
         }),
       'en'
     ]
   ])('does nothing when %s', async (_name, arrange, bookId) => {
     arrange();
+    const usePrecacheBook = await loadHook();
 
     renderHook(() => usePrecacheBook(bookId));
     await vi.advanceTimersByTimeAsync(FALLBACK_DELAY_MS);

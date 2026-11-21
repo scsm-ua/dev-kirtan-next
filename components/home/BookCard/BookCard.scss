@@ -4,6 +4,11 @@
 .BookCard {
   animation: fadeIn var(--transition-duration);
 
+  &--disabled &__ratio {
+    opacity: 0.4;
+    cursor: default;
+  }
+
   &__link:focus {
     outline: none;
   }
@@ -21,6 +26,7 @@
   &__link {
     display: block;
     height: 100%;
+    position: relative;
   }
 
   &__ratio {
@@ -97,6 +103,22 @@
     border-radius: 50px;
     letter-spacing: 0.05em;
     pointer-events: none;
+  }
+
+  // Dark grey dot in the bottom-right corner: the songbook is available offline.
+  &__cached {
+    position: absolute;
+    bottom: 18px;
+    right: 18px;
+    display: flex;
+    pointer-events: none;
+
+    // Smaller and dark grey, unlike the green header dot.
+    .CacheLed[data-status] {
+      width: 6px;
+      height: 6px;
+      background-color: var(--dark-gray);
+    }
   }
 
   &__image {

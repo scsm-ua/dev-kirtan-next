@@ -1,8 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'path';
 
-import { PATH } from '@/other/constants';
-import resourcesConfig from '@/source/resources.json';
+import { FILES, PATH } from '@/other/constants';
+import {
+  IMG_PUBLIC_PREFIX,
+  createResourceLinkRe,
+  createResourceMdImageRe
+} from '@/scripts/resourceImageUrls';
 
 import type { TImage } from '@/types/resources';
 
@@ -15,30 +19,8 @@ export type TImageRenderer = (
   meta: TImageMeta | undefined
 ) => string;
 
-const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
-// "git+https://github.com/<owner>/<repo>.git#<ref>" -> "https://github.com/<owner>/<repo>"
-const RESOURCES_REPO_URL = resourcesConfig.resources
-  .replace(/^git\+/, '')
-  .replace(/#.*$/, '')
-  .replace(/\.git$/, '');
-const RESOURCES_RAW_URL = RESOURCES_REPO_URL.replace(
-  'https://github.com/',
-  'https://raw.githubusercontent.com/'
-);
-
-// `<repo>/(blob|raw)/<branch>/images/<path>?raw=true` or the
-// raw.githubusercontent.com equivalent; branch may contain slashes
-// (e.g. `feature/x`, `refs/heads/x`). Captures the path under images/.
-const RESOURCE_URL_PART = `(?:${escapeRegExp(RESOURCES_REPO_URL)}/(?:blob|raw)|${escapeRegExp(RESOURCES_RAW_URL)})/[^)\\s]+?/images/([^)?\\s]+)(?:\\?[^)\\s]*)?`;
-
-const RESOURCE_MD_IMAGE_RE = new RegExp(
-  `!\\[([^\\]]*)\\]\\(${RESOURCE_URL_PART}\\)`,
-  'g'
-);
-const RESOURCE_LINK_RE = new RegExp(`\\]\\(${RESOURCE_URL_PART}\\)`, 'g');
-
-const IMG_PUBLIC_PREFIX = '/images/resources/';
+const RESOURCE_MD_IMAGE_RE = createResourceMdImageRe();
+const RESOURCE_LINK_RE = createResourceLinkRe();
 
 let imagesMetaCache: Record<string, TImageMeta> | null = null;
 
@@ -56,6 +38,15 @@ export async function getImagesMeta(): Promise<Record<string, TImageMeta>> {
     }
   }
   return imagesMetaCache;
+}
+
+/**
+ * Public paths of the resource images a book's songs and pages show, sorted
+ * (`source/books/<bookId>/content-images.json`, written by install:post-fetch).
+ */
+export async function getContentImages(bookId: string): Promise<Array<string>> {
+  const p = path.join(process.cwd(), PATH.DIR.SOURCE_BOOKS, bookId, FILES.CONTENT_IMAGES);
+  return JSON.parse(await fs.readFile(p, 'utf8'));
 }
 
 /**

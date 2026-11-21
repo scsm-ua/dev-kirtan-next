@@ -14,6 +14,7 @@ export const FILES = {
   A_Z: 'a-z.json',
   AUTHORS: 'authors.json',
   CONTENTS: 'contents.json',
+  CONTENT_IMAGES: 'content-images.json',
   PERSONS: 'persons.json',
   RESOURCES: 'resources.json',
   SITEMAP: 'sitemap.xml',

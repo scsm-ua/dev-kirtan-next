@@ -35,6 +35,7 @@ Each songbook folder under `./source/books/<slug>/` gets these generated helper 
 - `a-z.json` — alphabetical song index.
 - `authors.json` — songs grouped by author.
 - `contents.json` — songs grouped by section.
+- `content-images.json` — sorted public paths (`/images/resources/…`) of the resource images the book's songs and pages show; the offline bundle lists them for the service worker.
 
 `./source/books/songbooks.json` holds the merged info of all songbooks: the package's `songbook.json` (title, subtitle, sort order…), the per-book settings from `./source/songbooks.json` (without `repository`) and `songsCount`. The app reads it only through `lib/books.ts`.
 

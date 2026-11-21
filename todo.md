@@ -1,3 +1,16 @@
+# cache issues
+
+- test not images cached
+- test page with 404 data
+  - what happen when page-data.json is 404 - bad result, just white browser error
+- how to react when cache gone on fly (manually)
+- better design for sw.js offline page
+  - show cached urls?
+- error in the popup. The popup shows "Not saved" for error and for none alike; status.error is not shown anywhere.
+  - show error
+  - test (simulate) error
+- ?? offline - white page, not loaded when network is back
+
 # inbox
 
 - http://localhost:3333/ua/yoga-pithopari-sthita-ashta-sakhi-subeshtita/
@@ -12,7 +25,6 @@
 
 - implement seo plan
 
-- root page '/' render fist songbook without redirect
 
 - contents (non song page) - SEO
   - all languages
@@ -21,19 +33,9 @@
 # Todo afrter build js app
 
 - player title click - where to return?
-- keyboard next prev navigation - could be faster without animation
 - allow scroll down with dock player - to show footer
-
 - refactor routes to simpler way
-
 - review: AppRoot__progress
-- sw.js offline response make nicer
-- review Offline page: page.tsx is an empty app page
-- review sw.js priorities, is_local?
-- offline - book images not cached
-- offline - white page, not loaded when network is back
-- offline - forward from noncached to cached not working
-- offline - (navigator as TNavigator).connection?.saveData) - save only for images precache, which is not implemented  yet
 
 ### GA possible issue
 

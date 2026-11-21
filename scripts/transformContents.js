@@ -2,6 +2,7 @@ const path = require('node:path');
 const { CONST } = require('./constants');
 const { sortSingers } = require('../other/sortSingers');
 const { readFile, writeFile } = require('./ioHelpers');
+const { findResourceImages } = require('./resourceImageUrls');
 
 /**
  * @param targetDir {string} - directory of the songbook.
@@ -12,15 +13,23 @@ const { readFile, writeFile } = require('./ioHelpers');
  * @param options.language {string} - book language key, picks the singer name.
  */
 function transformContents(targetDir, resourceMap, options = {}) {
+  /** @type {Set<string>} */
+  const images = new Set();
   const input = transform(
     readFile(targetDir, CONST.FILES.CONTENTS),
     resourceMap,
     targetDir,
-    options
+    options,
+    images
   );
 
   const output = JSON.stringify(input, null, 2);
   writeFile(targetDir, CONST.FILES.CONTENTS, output);
+  writeFile(
+    targetDir,
+    CONST.FILES.CONTENT_IMAGES,
+    JSON.stringify([...images].sort(), null, 2)
+  );
 }
 
 /**
@@ -30,9 +39,10 @@ function transformContents(targetDir, resourceMap, options = {}) {
  * @param options {Object}
  * @param options.audioTitleFilter {Array<string> | null}
  * @param options.language {string}
+ * @param images {Set<string>} - collects the public paths of the book's resource images.
  * @return {Array<ContentGroup>}
  */
-function transform(groups, resourceMap, targetDir, options) {
+function transform(groups, resourceMap, targetDir, options, images) {
   const pageIdxDict = getherPageIdxDict(groups, targetDir);
 
   // Per-book: detects a song's repeat occurrence to pick its second page number.
@@ -57,6 +67,7 @@ function transform(groups, resourceMap, targetDir, options) {
 				const song = { ...rawSong, resources };
 
 				applyPageIdxDict(song, itemIdx, pageIdxDict);
+				getItemImages(song, getItemType(item)).forEach((src) => images.add(src));
 				itemIdx++;
 	
 				writeFile(
@@ -103,6 +114,26 @@ function mapResources(resource, audioTitleFilter, language) {
     ...(audio.length ? { audio } : {}),
     ...(image ? { image } : {})
   };
+}
+
+/**
+ * Public paths of the resource images an item shows: the song's head image
+ * and the resources-repo images in the markdown the content loaders localize
+ * (song verse translations, page body).
+ * @param song {Song}
+ * @param type {'song' | 'page'}
+ * @return {Array<string>}
+ */
+function getItemImages(song, type) {
+  const texts =
+    type === 'page'
+      ? [song.body || '']
+      : (song.verses || []).flatMap((v) => v.translation || []);
+
+  return [
+    ...(song.resources?.image ? [song.resources.image.src] : []),
+    ...texts.flatMap(findResourceImages)
+  ];
 }
 
 /**
@@ -282,6 +313,7 @@ function mapItem(item, song, seenSongIds) {
 module.exports = {
   applyPageIdxDict,
   getAltFirstLines,
+  getItemImages,
   getItemType,
   getPage,
   getPages,

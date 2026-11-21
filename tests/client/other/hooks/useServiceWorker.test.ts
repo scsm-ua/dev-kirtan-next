@@ -5,9 +5,12 @@ import { useServiceWorker } from '@/other/hooks/useServiceWorker';
 import { getBuildId } from '@/other/router/buildId';
 
 /** jsdom has no service worker: give `navigator` one whose `register` is a mock. */
-function stubServiceWorker(register: () => Promise<unknown>) {
+function stubServiceWorker(register: () => Promise<unknown>, registrations: Array<{ unregister: () => void }> = []) {
   const mock = vi.fn(register);
-  Object.defineProperty(navigator, 'serviceWorker', { configurable: true, value: { register: mock } });
+  Object.defineProperty(navigator, 'serviceWorker', {
+    configurable: true,
+    value: { register: mock, getRegistrations: async () => registrations }
+  });
   return mock;
 }
 
@@ -58,6 +61,26 @@ describe('useServiceWorker', () => {
     rtl.renderHook(() => fresh.useServiceWorker());
     rtl.cleanup();
 
+    expect(register).not.toHaveBeenCalled();
+  });
+
+  it('registers in development', () => {
+    const register = stubServiceWorker(async () => ({ scope: '/' }));
+    vi.stubEnv('NODE_ENV', 'development');
+
+    renderHook(() => useServiceWorker());
+
+    expect(register).toHaveBeenCalledOnce();
+  });
+
+  it('unregisters a leftover worker when the environment turns the worker off', async () => {
+    const leftover = { unregister: vi.fn() };
+    const register = stubServiceWorker(async () => ({ scope: '/' }), [leftover]);
+    vi.stubEnv('NEXT_PUBLIC_PREVENT_SERVICE_WORKER', 'true');
+
+    renderHook(() => useServiceWorker());
+
+    await waitFor(() => expect(leftover.unregister).toHaveBeenCalledOnce());
     expect(register).not.toHaveBeenCalled();
   });
 });

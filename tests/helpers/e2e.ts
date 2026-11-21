@@ -4,7 +4,8 @@ import path from 'node:path';
 import { expect, test as base } from '@playwright/test';
 
 import type { Page, TestInfo } from '@playwright/test';
-import type { TBookBundle, TPageData, TPageDataOf, TPageKind } from '@/types/pageData';
+import type { TBookCacheInfo, TBookCacheStatus, TCacheStatusReply } from '@/types/offline';
+import type { TBookBundle, TPageData, TPageDataOf, TPageKind, TSharedAssets } from '@/types/pageData';
 import type { TNavItem } from '@/types/song';
 
 /**
@@ -113,6 +114,120 @@ export async function waitForApp(page: Page): Promise<void> {
   await page.waitForFunction(() => !!(history.state && '__kirtanKey' in history.state));
 }
 
+/* Offline cache (public/sw.js) ---------------------------------------------- */
+
+/** Sends a message to the page's service worker and resolves with its reply. */
+function askWorker<T>(page: Page, message: object): Promise<T> {
+  return page.evaluate(
+    async (data) => {
+      const registration = await navigator.serviceWorker.ready;
+      return new Promise((resolve) => {
+        const channel = new MessageChannel();
+        channel.port1.onmessage = (event) => resolve(event.data);
+        registration.active.postMessage(data, [channel.port2]);
+      });
+    },
+    message
+  ) as Promise<T>;
+}
+
+/** Waits until the service worker controls the page: from then on its requests pass the worker. */
+export async function waitForWorker(page: Page): Promise<void> {
+  await page.waitForFunction(() => !!navigator.serviceWorker.controller);
+}
+
+/** State of a book as the worker reports it; `undefined` when nothing of it is cached. */
+export async function getBookCacheStatus(page: Page, bookId: string): Promise<TBookCacheStatus | undefined> {
+  return (await askWorker<TCacheStatusReply>(page, { type: 'GET_CACHE_STATUS', bookIds: [bookId] })).books[bookId];
+}
+
+/**
+ * Waits until the header dot of the book is green: the worker reported the
+ * book as cached (bundle and status records), i.e. the job the app started
+ * has ended. The page on screen must be a page of that book.
+ */
+export async function waitForBookCached(page: Page, bookId: string): Promise<void> {
+  await expect(
+    page.locator(`.Header .CacheStatusButton[data-book="${bookId}"] .CacheLed[data-status="cached"]`),
+    `${bookId} is cached`
+  ).toBeVisible({ timeout: 30_000 });
+}
+
+/** Runs the book job in the worker now (or joins the running one) and gives its final status. */
+export function ensureBookNow(page: Page, bookId: string, { storeBigImages = true } = {}): Promise<TBookCacheStatus> {
+  return askWorker<TBookCacheStatus>(page, { type: 'ENSURE_BOOK', bookId, storeBigImages });
+}
+
+/** A status record as the worker has it (it answers the URL from its cache only); `null` when there is none. */
+export function getStatusRecord<T>(page: Page, url: string): Promise<T | null> {
+  return page.evaluate(async (recordUrl) => {
+    const response = await fetch(recordUrl);
+    return response.ok ? response.json() : null;
+  }, url);
+}
+
+/** Details of a cached book (`GET_BOOK_CACHE_INFO`). */
+export function getBookCacheInfo(page: Page, bookId: string): Promise<TBookCacheInfo> {
+  return askWorker<TBookCacheInfo>(page, { type: 'GET_BOOK_CACHE_INFO', bookId });
+}
+
+/**
+ * Site paths (`/data/en/bundle.json`) of every entry in the worker's caches.
+ * The status records are among them: the shared `/data/cache-status.json`
+ * since install, and `/data/<book>/cache-status.json` of a cached book.
+ */
+export function listCachedPaths(page: Page): Promise<string[]> {
+  return page.evaluate(async () => {
+    const paths: string[] = [];
+    for (const name of await caches.keys()) {
+      for (const request of await (await caches.open(name)).keys()) {
+        const url = new URL(request.url);
+        paths.push(url.pathname + url.search);
+      }
+    }
+    return paths;
+  });
+}
+
+/** Deletes cache entries by site path, as the browser does when it evicts them. */
+export async function deleteCached(page: Page, paths: string[]): Promise<void> {
+  const missing = await page.evaluate(async (list) => {
+    const deleted = new Set<string>();
+    for (const name of await caches.keys()) {
+      const cache = await caches.open(name);
+      for (const path of list) if (await cache.delete(path)) deleted.add(path);
+    }
+    return list.filter((path) => !deleted.has(path));
+  }, paths);
+  expect(missing, 'entries to delete were in the cache').toEqual([]);
+}
+
+/**
+ * Paths of the requests to `pathname` (or to one of several), also those the
+ * service worker sends. With `isWorkerOnly`, only those: what the worker asked
+ * the network for, without the page requests it answered from its cache.
+ */
+export function recordRequests(page: Page, pathname: string | string[], { isWorkerOnly = false } = {}): string[] {
+  const wanted = new Set([pathname].flat());
+  const paths: string[] = [];
+  page.context().on('request', (request) => {
+    const path = new URL(request.url()).pathname;
+    if (wanted.has(path) && (!isWorkerOnly || request.serviceWorker())) paths.push(path);
+  });
+  return paths;
+}
+
+/** Every file the book job of the worker may fetch for a book: its bundle and its static files. */
+export function getBookJobFiles(bookId: string): string[] {
+  return [`/data/${bookId}/bundle.json`, ...getSharedImages(), ...getBookBundle(bookId).assets.contentImages];
+}
+
+/** Logos and covers of all songbooks, as `/shell/assets.json` of the build lists them: unique, in its order. */
+export function getSharedImages(): string[] {
+  const { bookImages, shell }: TSharedAssets = JSON.parse(readFileSync(path.join(SITE_DIR, 'shell', 'assets.json'), 'utf8'));
+  return [...new Set([...shell, ...bookImages])];
+}
+
 /* Data finders (R1, R2: never a song name, always a feature) ---------------- */
 
 /** Book ids of the build. */
@@ -122,13 +237,23 @@ export function getBookIds(): string[] {
 
 const bundles = new Map<string, TBookBundle>();
 
-/** Every page of a book, as the build has it. */
-export function getBookPages(bookId: string): TPageData[] {
+/** The offline bundle of a book, as the build has it. */
+export function getBookBundle(bookId: string): TBookBundle {
   if (!bundles.has(bookId)) {
     bundles.set(bookId, JSON.parse(readFileSync(path.join(SITE_DIR, 'data', bookId, 'bundle.json'), 'utf8')));
   }
 
-  return Object.values(bundles.get(bookId).pages);
+  return bundles.get(bookId);
+}
+
+/** Every page of a book, as the build has it. */
+export function getBookPages(bookId: string): TPageData[] {
+  return Object.values(getBookBundle(bookId).pages);
+}
+
+/** Data URL of a page found with the finders below, e.g. `/data/en/x.json`. */
+export function dataUrlOf(page: TPageData): string {
+  return Object.entries(getBookBundle(page.route.bookId).pages).find(([, candidate]) => candidate === page)[0];
 }
 
 /** First page of this kind, over all books, that matches; fails the test when none does. */

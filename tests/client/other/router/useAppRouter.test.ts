@@ -1,9 +1,12 @@
 import { act, renderHook, waitFor } from '@testing-library/react';
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
+import { PREFERENCES } from '@/other/constants';
+import { getBookLocale } from '@/other/helpers';
 import { useAppLocation } from '@/other/router/location';
 import { navigate } from '@/other/router/navigate';
 import { loadRoute } from '@/other/router/pageStore';
+import { ROOT_PENDING_ATTR } from '@/other/router/pickRootBookId';
 import { isInitialPage, useAppRouter } from '@/other/router/useAppRouter';
 import { getBookIds, getSongItems } from '@/tests/helpers/books';
 import { mockDataFetch } from '@/tests/helpers/dataServer';
@@ -367,6 +370,110 @@ describe('useAppRouter', () => {
 
       expect(expected.length).toBeGreaterThan(0);
       expect(fetchMock.mock.calls.map(([url]) => url).sort()).toEqual([...new Set(expected)].sort());
+    });
+  });
+
+  describe('on the root page', () => {
+    // The page store keeps what it loaded for the whole file, so a book that must fail is one not loaded before.
+    const [firstBookId, otherBookId, failingBookId, failingShellBookId] = getBookIds();
+    const listUrl = (id: string) => `/data/${id}/index.json`;
+    let firstList: TPageDataOf<'book-list'>;
+
+    beforeAll(async () => {
+      firstList = await loadPage({ kind: 'book-list', bookId: firstBookId }, 'book-list');
+    });
+
+    beforeEach(() => {
+      window.history.replaceState(null, '', '/');
+      document.documentElement.setAttribute(ROOT_PENDING_ATTR, '');
+      Object.defineProperty(navigator, 'language', { configurable: true, value: 'ja-JP' });
+    });
+
+    afterEach(() => {
+      localStorage.clear();
+      document.documentElement.removeAttribute(ROOT_PENDING_ATTR);
+      delete (navigator as { language?: string }).language;
+    });
+
+    const isPending = () => document.documentElement.hasAttribute(ROOT_PENDING_ATTR);
+
+    it('only changes the URL to the first songbook when that is the reader\'s book', async () => {
+      const entries = window.history.length;
+      const { result } = renderRouter(firstList);
+      await waitFor(() => expect(window.location.pathname).toBe(`/${firstBookId}/`));
+
+      expect(result.current.page).toBe(firstList);
+      expect(result.current.location.pathname).toBe(`/${firstBookId}/`);
+      expect(fetchMock).not.toHaveBeenCalled();
+      expect(window.history.length).toBe(entries);
+      expect(isPending()).toBe(false);
+      expect(location.assign).not.toHaveBeenCalled();
+    });
+
+    it('keeps the query and the hash', async () => {
+      window.history.replaceState(null, '', '/?utm=1#top');
+      renderRouter(firstList);
+      await waitFor(() => expect(window.location.pathname).toBe(`/${firstBookId}/`));
+
+      expect(window.location.search + window.location.hash).toBe('?utm=1#top');
+    });
+
+    it('moves to the songbook the reader chose before, in place of the root entry, without a document load', async () => {
+      localStorage.setItem(PREFERENCES.PREFERRED_BOOK_ID, otherBookId);
+      const entries = window.history.length;
+      const { result } = renderRouter(firstList);
+      await waitFor(() => expect(result.current.page?.route).toEqual({ kind: 'book-list', bookId: otherBookId }));
+
+      expect(window.location.pathname).toBe(`/${otherBookId}/`);
+      expect(fetchMock).toHaveBeenCalledExactlyOnceWith(listUrl(otherBookId));
+      expect(window.history.length).toBe(entries);
+      expect(document.title).toBe(result.current.page.head.title);
+      expect(isPending()).toBe(false);
+      expect(location.assign).not.toHaveBeenCalled();
+    });
+
+    it('moves to the songbook in the language of the browser', async () => {
+      Object.defineProperty(navigator, 'language', { configurable: true, value: `${getBookLocale(otherBookId)}-XX` });
+      const { result } = renderRouter(firstList);
+      await waitFor(() => expect(result.current.page?.route.bookId).toBe(otherBookId));
+
+      expect(window.location.pathname).toBe(`/${otherBookId}/`);
+    });
+
+    it('stays on the first songbook when the reader\'s book cannot be loaded', async () => {
+      localStorage.setItem(PREFERENCES.PREFERRED_BOOK_ID, failingBookId);
+      fetchMock.mockRejectedValueOnce(new TypeError('Failed to fetch'));
+      const { result } = renderRouter(firstList);
+      await waitFor(() => expect(window.location.pathname).toBe(`/${firstBookId}/`));
+
+      expect(fetchMock).toHaveBeenCalledExactlyOnceWith(`/data/${failingBookId}/index.json`);
+      expect(result.current.page).toBe(firstList);
+      expect(result.current.isFailed).toBe(false);
+      expect(isPending()).toBe(false);
+      expect(location.assign).not.toHaveBeenCalled();
+    });
+
+    describe('in the offline shell document', () => {
+      it('loads the reader\'s songbook', async () => {
+        localStorage.setItem(PREFERENCES.PREFERRED_BOOK_ID, otherBookId);
+        const { result } = renderRouter(null);
+        await waitFor(() => expect(result.current.page?.route).toEqual({ kind: 'book-list', bookId: otherBookId }));
+
+        expect(window.location.pathname).toBe(`/${otherBookId}/`);
+        expect(result.current.isFailed).toBe(false);
+      });
+
+      it('loads the first songbook when the reader\'s book cannot be loaded', async () => {
+        localStorage.setItem(PREFERENCES.PREFERRED_BOOK_ID, failingShellBookId);
+        fetchMock.mockRejectedValueOnce(new TypeError('Failed to fetch'));
+        const { result } = renderRouter(null);
+        await waitFor(() => expect(result.current.page?.route).toEqual({ kind: 'book-list', bookId: firstBookId }));
+
+        expect(window.location.pathname).toBe(`/${firstBookId}/`);
+        expect(result.current.isFailed).toBe(false);
+        expect(isPending()).toBe(false);
+        expect(location.assign).not.toHaveBeenCalled();
+      });
     });
   });
 

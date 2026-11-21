@@ -24,7 +24,11 @@ type Props = {
  */
 function AppRoot({ extras, initial }: Props) {
   const { isFailed, isLoading, page } = useAppRouter(initial);
-  usePrecacheBook(page?.route.bookId);
+  // The songbook list starts no book job. The hook cannot sit inside an `if`
+  // (rules of hooks), so `undefined` means "no book". Changing from a book id
+  // to `undefined` also runs the hook's cleanup for the book the reader left:
+  // it unregisters that book and cancels its precache if not yet started.
+  usePrecacheBook(page && page.kind !== 'book-list' ? page.route.bookId : undefined);
 
   return (
     <>

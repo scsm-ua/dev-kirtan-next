@@ -36,7 +36,6 @@ describe('navigate', () => {
 
   it.each([
     ['a page outside the app', '/en/export/', `${ORIGIN}/en/export/`],
-    ['the home page', '/', `${ORIGIN}/`],
     ['another site', 'https://example.com/en/contents/', 'https://example.com/en/contents/']
   ])('loads %s as a document', (_name, href, expected) => {
     navigate(href);

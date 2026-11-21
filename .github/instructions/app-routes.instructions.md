@@ -1,5 +1,5 @@
 ---
-description: "Use when adding, renaming or removing a page/URL/route, or when asking which file declares a route: the registry of every app route (HTML page.tsx, /data/ JSON handler, TRoute/TPageData kind, loader, view, chrome, metadata, JSON-LD, static params) and of the full-load routes (home, analyze, export, shell, test, 404, sitemap, robots, manifest, legacy .html). Has step-by-step recipes for a new root page, a parametrized page, a new content item type, and a full-load page."
+description: "Use when adding, renaming or removing a page/URL/route, or when asking which file declares a route: the registry of every app route (HTML page.tsx, /data/ JSON handler, TRoute/TPageData kind, loader, view, chrome, metadata, JSON-LD, static params; the root page) and of the full-load routes (analyze, export, shell, test, 404, sitemap, robots, manifest, legacy .html). Has step-by-step recipes for a new root page, a parametrized page, a new content item type, and a full-load page."
 applyTo: ["app/**/page.tsx", "app/**/route.ts", "other/router/routes.ts", "components/app/views/**", "lib/pageData/**", "types/pageData.ts"]
 ---
 
@@ -32,6 +32,7 @@ In the table, `en` stands for any `bookId`, and every page file is under `app/[b
 
 | URL | Page file | Data file | `TRoute` → `TPageData.kind` | View | `generateMetadata` | Static params | `extras` (JSON-LD) |
 |---|---|---|---|---|---|---|---|
+| `/` | `app/page.tsx` (not under `[bookId]`) | `/data/<firstBook>/index.json` | `book-list` of the first book | `BookListView` | `getBookListPageMeta` of the first book | — | `LdJson` (`BOOK_LIST_PAGE`) |
 | `/en/` | `page.tsx` | `/data/en/index.json` | `book-list` | `BookListView` | `getBookListPageMeta` | `getBookIdParamList` | `LdJson` (`BOOK_LIST_PAGE`) |
 | `/en/other/` | `other/page.tsx` | `/data/en/other.json` | `other` | `OtherBooksView` | `getOtherPageMeta` | `getBookIdParamList` | — |
 | `/en/contents/` | `contents/page.tsx` | `/data/en/contents.json` | `contents` | `ContentsView` | `getContentsPageMeta` | `getBookIdParamList` | `LdJson` (`CONTENTS_PAGE`) |
@@ -45,6 +46,7 @@ In the table, `en` stands for any `bookId`, and every page file is under `app/[b
 
 Where things live for these routes:
 
+- **Root page `/`:** the same page as `/<firstBook>/` (first key of the songbooks, `getFirstBookId` / `__BOOK_IDS__[0]`); `parsePath('/')` gives that `book-list` route and `getRoutePath` gives `/<firstBook>/`, which is also its canonical. On start the router replaces it with the reader's songbook. See "Root page" in `app-architecture.instructions.md`.
 - **Views:** `components/app/views/` (`SongBody` and `PageBody` are in `components/content/`).
 - **Metadata builders:** `other/metadata/`.
 - **`bookId` static params:** the root `app/layout.tsx` (Next issue #53717).
@@ -66,10 +68,10 @@ All three handlers set `dynamic = 'force-static'` and `dynamicParams = false`, a
 
 | URL | File | Notes |
 |---|---|---|
-| `/` | `app/page.tsx` | `PrefRedirect` to the preferred book |
 | `/en/analyze/` | `app/[bookId]/analyze/page.tsx` | Old `Layout`, noindex. See `analyze-songbooks.instructions.md` |
 | `/en/export/` | `app/[bookId]/export/page.tsx` + `layout.tsx` | Bare document, noindex. See `songbook-export.instructions.md` |
 | `/shell/` | `app/shell/page.tsx` | `AppDocument page={null}`, noindex; offline fallback for the service worker |
+| `/shell/assets.json` | `app/shell/assets.json/route.ts` | `getSharedAssets()`: logos and covers the service worker caches on install |
 | `/test/`, `/test/player/` | `app/test/**` | Playgrounds |
 | 404 | `app/global-not-found.tsx` → `NotFound` | Static `404.html`; also redirects old `.html` URLs on the client |
 | `/en/<slug>.html` | `scripts/postbuild.js` | Meta-refresh redirects to the new URLs |

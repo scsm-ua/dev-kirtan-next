@@ -1,6 +1,6 @@
 ---
-description: "Use when working on the app architecture: static HTML + JSON page data + client-side navigation. Covers how next build produces HTML and /data/ JSON from one loader, the page-data envelope (TPageData), AppDocument/AppRoot, the client router (other/router: parsePath, navigate, pageStore, useAppLocation, useAppRouter), head sync, analytics on navigation, the persistent player dock, the service worker, offline precache and the /shell/ page, and dev-mode differences."
-applyTo: ["components/app/**", "other/router/**", "lib/pageData/**", "types/pageData.ts", "app/data/**", "app/shell/**", "public/sw.js", "other/hooks/useServiceWorker.ts"]
+description: "Use when working on the app architecture: static HTML + JSON page data + client-side navigation. Covers how next build produces HTML and /data/ JSON from one loader, the page-data envelope (TPageData), AppDocument/AppRoot, the client router (other/router: parsePath, navigate, pageStore, useAppLocation, useAppRouter), head sync, analytics on navigation, the persistent player dock, the root page /, the /shell/ page (offline details are in offline-mode.instructions.md), and dev-mode differences."
+applyTo: ["components/app/**", "other/router/**", "lib/pageData/**", "types/pageData.ts", "app/data/**", "app/shell/**", "app/page.tsx"]
 ---
 
 # App architecture: static HTML + JSON navigation
@@ -49,7 +49,11 @@ TPageData   // what was loaded: { build, kind, route, head, data }, discriminate
 | `head` | `title`, `description`, `canonical`: what the client applies to `<head>` after navigation. Taken from the same `other/metadata/*` builders as `generateMetadata`. |
 | `data` | The view's props: `TIndexData`, `TSongData`, `TPageItemData`, … |
 
-`TPageDataOf<'song'>` picks one kind. `TBookBundle` = `{ build, pages: { [dataUrl]: TPageData } }`.
+`TPageDataOf<'song'>` picks one kind. `TBookBundle` = `{ assets, build, pages: { [dataUrl]: TPageData } }`. `assets` lists the files the service worker caches with the book, because it cannot list directories. All paths are site-relative and sorted:
+
+- `bookImages`: every file in `public/images/cover` and `public/images/thumbnail` (all songbooks, both densities).
+- `contentImages`: the `/images/resources/**` images of the book's songs and pages, from `source/books/<book>/content-images.json`. `install:post-fetch` writes it (`transformContents`: song head image + resources-repo images in verse translations and page bodies), using the same link pattern as the loaders (`scripts/resourceImageUrls.js`).
+- `shell`: the files in `public/images/svg` (logo).
 
 ## Build output (`next build` → `out/`)
 
@@ -59,6 +63,7 @@ TPageData   // what was loaded: { build, kind, route, head, data }, discriminate
 | `/data/<book>/<file>.json` | `app/data/[bookId]/[file]/route.ts` (root pages, songs, pages) |
 | `/data/<book>/audio/<file>.json` | `app/data/[bookId]/audio/[file]/route.ts` (audio index, singers) |
 | `/data/<book>/bundle.json` | `app/data/[bookId]/bundle.json/route.ts` |
+| `/index.html` (root page) | `app/page.tsx`: the songbook list of the first songbook (`getFirstBookId`), same page data and head as `/<firstBook>/` (so its canonical is `/<firstBook>/`), plus the inline script of `getRootPendingScript` in `<head>` |
 | `/shell/index.html` | `app/shell/page.tsx`: `AppDocument` with `page={null}` (offline fallback) |
 | `/<book>/<slug>.html` legacy redirects, `.nojekyll` | `scripts/postbuild.js` (unchanged) |
 | `sitemap.xml`, `robots.txt`, `manifest.json`, `404.html` | Next metadata routes / `global-not-found.tsx` (unchanged) |
@@ -101,7 +106,7 @@ sequenceDiagram
 
 | File | Role |
 |---|---|
-| `routes.ts` | URL ↔ route ↔ data URL. `parsePath(pathname)` returns `null` for non-app paths (home, analyze, export, test, shell, files, `.html`). `getRoutePath`, `getRouteDataUrl`, `getRouteFile`, `parseItemFile`, `parseAudioFile`, `getBookBundleUrl`, `SHELL_PATH`. |
+| `routes.ts` | URL ↔ route ↔ data URL. `parsePath(pathname)` returns `null` for non-app paths (analyze, export, test, shell, files, `.html`); `/` is the songbook list of the first songbook (`__BOOK_IDS__[0]`). `getRoutePath`, `getRouteDataUrl`, `getRouteFile`, `parseItemFile`, `parseAudioFile`, `getBookBundleUrl`, `SHELL_PATH`. |
 | `pageStore.ts` | `loadRoute` (memory cache + in-flight dedupe, rejects on 404 or a build mismatch), `prefetchRoute`, `seedRoute`. Cache and prefetch are **off in development**. |
 | `navigate.ts` | `navigate(href)`: programmatic navigation. Falls back to `location.assign` outside the app or for non-app paths. |
 | `location.ts` | `useAppLocation()` (`{ pathname, search }`, `null` while hydrating) and `notifyLocationChange()`. |
@@ -128,26 +133,28 @@ How links behave:
 
 ## Offline (service worker)
 
-- **Registration:** `other/hooks/useServiceWorker.ts` registers `sw.js?v=<getBuildId()>`, so each build gets its own cache (`kirtan-<build>`); `activate` deletes older caches. `.env.local` disables registration with `NEXT_PUBLIC_PREVENT_SERVICE_WORKER=true`.
-- **`public/sw.js` strategies:**
+Full description: `offline-mode.instructions.md` (worker strategies, book job, status records, messages, status store, dot and popup, debugging). In short:
 
-  | Request | Strategy |
-  |---|---|
-  | `/data/**` JSON | Cache-first (network-first on localhost) |
-  | HTML | Network-first; offline: cached page → cached `/shell/` → built-in offline message |
-  | Other assets | Cache-first (network-first on localhost) |
-  | Non-GET | Not handled (straight to the network) |
-- **Connectivity:** `other/connectivity.ts` is one shared store, read with `useIsOnline()` (`other/hooks/useIsOnline.ts`). `navigator.onLine` is trusted only when `false`; otherwise a `HEAD /sw.js` probe decides. It checks on start, on `online`/`offline`, when the tab becomes visible, every 10 s while offline, and when `checkConnectivity()` is called after a failed request (the player does this).
-- **Precache:** `usePrecacheBook` (in `AppRoot`) posts `PRECACHE_BOOK` on idle, once per book per build (localStorage marker `kirtan:precached:<book>`). It skips dev and Save-Data. The worker then:
-  1. fetches `bundle.json` and stores each page under its own data URL;
-  2. stores `/shell/` and the JS/CSS it references.
-- **Shell:** `/shell/` is `AppDocument` with no data. Served for an uncached URL, `useAppRouter` loads that URL's JSON (from cache) and renders it. If that fails it shows "You're offline". Next keeps the real URL; it does not rewrite to `/shell/`.
+- **Registration:** `other/hooks/useServiceWorker.ts` registers `sw.js?v=<getBuildId()>`, so each build gets its own cache (`kirtan-<build>`). Dev registers no worker.
+- **Shell:** `/shell/` is `AppDocument` with no data, cached when the worker installs. Served offline for an uncached URL, `useAppRouter` loads that URL's JSON (from the cache) and renders it. If that fails it shows "You're offline". Next keeps the real URL; it does not rewrite to `/shell/`.
+- **Page data offline:** the worker answers `/data/<book>/<file>.json` from the book's cached `bundle.json`; the bundle is the store of a book's pages.
+- **Precache:** `usePrecacheBook` (in `AppRoot`) asks the worker on idle to cache the book of the current page (bundle, shell files, covers, content images). The songbook list `/<book>/` starts no caching.
+- **State:** `useBookCacheState(bookId)` and the header dot show whether a book is cached; `useIsOnline()` is the connectivity flag.
+
+## Root page `/`
+
+`/` is a real app page: its HTML is the songbook list of the first songbook, so crawlers get content and the installed app (`start_url: '/'`) has a start page. On start the app moves the reader to their own songbook, without a document load:
+
+- **Pick** (`other/router/pickRootBookId.ts`): 1) the book chosen before (`PREFERENCES.PREFERRED_BOOK_ID` in `localStorage`), if it exists; 2) the main book in the browser language (`ua` is `uk`; variants such as `en-pe` are never picked); 3) the first book.
+- **Move** (`useAppRouter`, `openRootBook`, on mount when the path is `/`): a `replace` navigation to `/<book>/`, query and hash kept. For the first book the page data is the one in the HTML (no request). For another book its `index.json` is loaded (from the cache when the book is cached). When that fails (offline, not cached) the first book stays and the URL becomes `/<firstBook>/`.
+- **No flash:** the inline script in `<head>` (`getRootPendingScript`) runs the same pick before the first paint. It gets the rules as data (ids, language map), because it cannot import. When the pick is not the first book it sets `data-root-pending` on `<html>`; `AppRoot.scss` hides `.Layout` while it is set. The router removes it after the commit or on failure; the script removes it after 5 s in any case. `<html>` has `suppressHydrationWarning` for this attribute.
+- **No in-app links to `/`.** The pick runs only on document load (mount). Client navigation to `/` shows the first book's list without the pick. Link to `getSongbookPath(bookId)` instead.
+- **Offline:** the worker does not precache `/`. Without a cached `/` it serves `/shell/`, and the router runs the same pick there (`initial` is `null`): the reader's book, else the first book, else the "You're offline" note.
 
 ## What stays a plain document (no client navigation)
 
 | Path | Why |
 |---|---|
-| `/` | `PrefRedirect` decides the book |
 | `/<book>/analyze/`, `/<book>/export/` | Admin views. They use `Layout` or their own layout, not `AppDocument`; export must stay component-free. |
 | `/test/**`, `/shell/` | Dev playgrounds / offline fallback |
 | 404 (`global-not-found.tsx`) | Static; also redirects legacy `.html` URLs |
@@ -182,4 +189,4 @@ pnpm start                  # serve out/
 
 - **Network panel:** clicking around shows only `/data/…json` requests (no Document, no `.txt`).
 - **View source of a page:** full content, title, canonical, JSON-LD.
-- **Offline:** build with `NEXT_PUBLIC_PREVENT_SERVICE_WORKER=false`, open a page, wait for the precache, stop the server, browse.
+- **Offline:** build with `NEXT_PUBLIC_PREVENT_SERVICE_WORKER=false`, open a page, wait for the precache, stop the server, browse. E2E helpers for the cache (`waitForBookCached`, `ensureBookNow`, `getBookCacheStatus`, `getBookCacheInfo`, `listCachedPaths`, `deleteCached`, `recordRequests`) are in `tests/helpers/e2e.ts`.

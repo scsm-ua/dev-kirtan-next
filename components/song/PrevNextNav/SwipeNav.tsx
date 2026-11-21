@@ -2,6 +2,7 @@
 import './SwipeNav.scss';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
+import { onLocationChange } from '@/other/router/location';
 import { navigate } from '@/other/router/navigate';
 
 import type { TNavItems } from '@/types/song';
@@ -23,11 +24,44 @@ const SVG_CENTER = SVG_SIZE / 2;
 const RING_RADIUS = SVG_CENTER - STROKE_WIDTH / 2; // keep stroke inside viewBox boundary
 const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
 
+// Swipe only: how long the circle takes to fly off the screen after a swipe
+// completes. Navigation starts at the same moment, so this delays nothing.
 const EXIT_DURATION_MS = 400;
 
-// Hotkey animation consts.
-const ENTER_DURATION_MS = 220; // matches `left 220ms` in the entry transition
-const HOLD_MS = 60;            // brief pause at peak so the filled circle is visible before exit
+// — hotkey animation (← / → keys) —
+// The page switches first; the circle plays afterwards, over the new song,
+// as a hint of the direction taken. It sits beside the white content panel
+// (.SongText, also used by markdown pages): left of it for the previous song,
+// right of it for the next one. "Resting spot" = KEY_PANEL_GAP px outside the
+// panel's side. When there is no room there (narrow screens) or no panel, it
+// falls back to PULL_DISTANCE px in from the screen edge, like a swipe.
+// Phases: enter → hold → exit. Total visible time = ENTER + HOLD + EXIT.
+
+// Enter: the circle fades from invisible to fully visible while moving
+// KEY_SHIFT px from the edge side into its resting spot.
+const KEY_ENTER_MS = 150;
+
+// Hold: the circle stays still and fully visible at the resting spot.
+const KEY_HOLD_MS = 200;
+
+// Exit: the circle fades out while moving another KEY_SHIFT px away from the
+// edge, towards the screen center.
+const KEY_EXIT_MS = 150;
+
+// Gap in px between the panel's side and the circle's visible (scaled) edge.
+const KEY_PANEL_GAP = 16;
+
+// Distance in px the circle moves during enter, and again during exit.
+// 0 = the circle doesn't move, it only fades in and out.
+const KEY_SHIFT = 50;
+
+// How long to wait for the new page after a key press. If it hasn't appeared
+// by then (a slow load, a full page reload, an error), the animation is skipped,
+// so the circle can't show up late over an unrelated page.
+const KEY_SWITCH_TIMEOUT_MS = 3000;
+
+// Size multiplier for a "ready" circle (ACTIVE_CIRCLE_SIZE px instead of
+// CIRCLE_SIZE px). The keyboard circle always uses it.
 const SCALE = ACTIVE_CIRCLE_SIZE / CIRCLE_SIZE;
 
 // CSS custom properties shared by every circle instance — never changes
@@ -66,6 +100,87 @@ function flyOut(el: HTMLElement, direction: Direction): void {
   el.style.opacity = '0';
 }
 
+// Keyboard circle: one element on <body>, outside React, so it outlives the
+// song view that is replaced by the navigation it animates.
+let keyCircle: HTMLDivElement | null = null;
+let keyTimer: ReturnType<typeof setTimeout> | undefined;
+let cancelPendingKeyNav: (() => void) | null = null;
+
+function getKeyCircle(): HTMLDivElement {
+  if (keyCircle?.isConnected) return keyCircle;
+  const el = document.createElement('div');
+  el.className = 'SwipeNav SwipeNav--ready';
+  el.setAttribute('aria-hidden', 'true');
+  for (const [name, value] of Object.entries(SHARED_STYLE)) el.style.setProperty(name, String(value));
+  el.style.opacity = '0';
+  el.innerHTML =
+    `<svg class="SwipeNav__ring" viewBox="0 0 ${SVG_SIZE} ${SVG_SIZE}">` +
+    `<circle class="SwipeNav__ring-fg" cx="${SVG_CENTER}" cy="${SVG_CENTER}" r="${RING_RADIUS}" ` +
+    `stroke-dasharray="${RING_CIRCUMFERENCE}" stroke-dashoffset="0"></circle></svg>` +
+    '<span></span>';
+  document.body.appendChild(el);
+  keyCircle = el;
+  return el;
+}
+
+// `left` for the keyboard circle: just outside the content panel's side, or
+// the swipe resting spot when the panel is missing or leaves no room.
+function keyRestingLeft(onLeftEdge: boolean): number {
+  const panel = document.querySelector('.SongText')?.getBoundingClientRect();
+  if (!panel) return restingLeft(onLeftEdge);
+
+  const half = (CIRCLE_SIZE * SCALE) / 2; // the circle is scaled around its center
+  const center = onLeftEdge
+    ? panel.left - KEY_PANEL_GAP - half
+    : panel.right + KEY_PANEL_GAP + half;
+  const fits = center - half >= 0 && center + half <= window.innerWidth;
+  return fits ? center - CIRCLE_SIZE / 2 : restingLeft(onLeftEdge);
+}
+
+// Fades the filled circle in at its resting spot, then fades it out, with a small
+// drift inward from its screen edge.
+function playKeyAnimation(direction: Direction): void {
+  const el = getKeyCircle();
+  const onLeftEdge = direction === 'right';
+  const inward = onLeftEdge ? 1 : -1;
+  const shifted = (px: number) => `translateY(-50%) translateX(${px}px) scale(${SCALE})`;
+  clearTimeout(keyTimer);
+
+  el.lastElementChild!.className = arrowCls(onLeftEdge);
+  el.style.transition = 'none';
+  el.style.left = `${keyRestingLeft(onLeftEdge)}px`;
+  el.style.transform = shifted(-inward * KEY_SHIFT);
+  el.style.opacity = '0';
+  void el.offsetWidth; // apply the start position before transitioning from it
+
+  el.style.transition = `transform ${KEY_ENTER_MS}ms ease-out, opacity ${KEY_ENTER_MS}ms ease-out`;
+  el.style.transform = shifted(0);
+  el.style.opacity = '1';
+
+  keyTimer = setTimeout(() => {
+    el.style.transition = `transform ${KEY_EXIT_MS}ms ease-in, opacity ${KEY_EXIT_MS}ms ease-in`;
+    el.style.transform = shifted(inward * KEY_SHIFT);
+    el.style.opacity = '0';
+  }, KEY_ENTER_MS + KEY_HOLD_MS);
+}
+
+// Navigates at once; the circle animation follows when the new page is shown.
+function keyNavigate(path: string, direction: Direction): void {
+  cancelPendingKeyNav?.();
+  const stop = onLocationChange(() => {
+    cancel();
+    playKeyAnimation(direction);
+  });
+  const timer = setTimeout(() => cancel(), KEY_SWITCH_TIMEOUT_MS);
+  const cancel = () => {
+    stop();
+    clearTimeout(timer);
+    cancelPendingKeyNav = null;
+  };
+  cancelPendingKeyNav = cancel;
+  navigate(path);
+}
+
 // The SVG progress ring, shared between swipe and keyboard circles.
 function NavRing({ progress }: { progress: number }) {
   return (
@@ -86,8 +201,6 @@ export function SwipeNav({ prevNext }: Props) {
   const [swipe, setSwipe] = useState<SwipeState>(INITIAL);
   const [releasing, setReleasing] = useState<Direction>(null);
   const circleRef = useRef<HTMLDivElement>(null);
-  const keyCircleRef = useRef<HTMLDivElement>(null);
-  const keyArrowRef = useRef<HTMLSpanElement>(null);
   const stateRef = useRef<SwipeState>(INITIAL);
   const prevNextRef = useRef(prevNext);
   const didVibrate = useRef(false);
@@ -193,49 +306,15 @@ export function SwipeNav({ prevNext }: Props) {
     };
   }, []);
 
-  // Hotkey swipe workflow.
+  // Hotkey workflow: navigate immediately, animate after the page switch.
   useEffect(() => {
-    const animateAndGo = (direction: Direction) => {
+    const go = (direction: Direction) => {
       const target = pickTarget(prevNextRef.current, direction);
-      if (!target) return;
-
-      const el = keyCircleRef.current;
-      if (!el) return;
-
-      const onLeftEdge = direction === 'right';
-      const startLeft = onLeftEdge ? -CIRCLE_SIZE : window.innerWidth;
-      const endLeft = restingLeft(onLeftEdge);
-
-      if (keyArrowRef.current) {
-        keyArrowRef.current.className = arrowCls(onLeftEdge);
-      }
-
-      // Reset to start position without transition
-      el.style.transition = 'none';
-      el.style.transform = 'translateY(-50%) scale(1)';
-      el.style.opacity = '0';
-      el.style.left = `${startLeft}px`;
-
-      // Two rAFs ensure the browser has painted the reset before animating
-      requestAnimationFrame(() => requestAnimationFrame(() => {
-        el.style.transition =
-          `left ${ENTER_DURATION_MS}ms ease-out, opacity 120ms ease, transform 180ms ease`;
-        el.style.left = `${endLeft}px`;
-        el.style.opacity = '1';
-        el.style.transform = `translateY(-50%) scale(${SCALE})`;
-
-        // Wait for the slide-in to finish, then hold briefly at peak before exiting.
-        // Navigation fires together with flyOut — the exit animation is cosmetic cover
-        // while the next page loads; perceived latency stays at ENTER_DURATION_MS + HOLD_MS.
-        setTimeout(() => {
-          flyOut(el, direction);
-          navigate(target.path);
-        }, ENTER_DURATION_MS + HOLD_MS);
-      }));
+      if (target) keyNavigate(target.path, direction);
     };
 
-    const goPrev = () => animateAndGo('right');
-    const goNext = () => animateAndGo('left');
+    const goPrev = () => go('right');
+    const goNext = () => go('left');
     window.addEventListener('kirtan:prevSong', goPrev);
     window.addEventListener('kirtan:nextSong', goNext);
     return () => {
@@ -271,17 +350,6 @@ export function SwipeNav({ prevNext }: Props) {
           <span className={arrowCls(swipeOnLeftEdge)} />
         </div>
       )}
-
-      {/* Keyboard navigation animation — always mounted, driven imperatively */}
-      <div
-        ref={keyCircleRef}
-        className="SwipeNav SwipeNav--ready"
-        style={{ opacity: 0, left: 0, ...SHARED_STYLE }}
-        aria-hidden="true"
-      >
-        <NavRing progress={1} />
-        <span ref={keyArrowRef} className={arrowCls(false)} />
-      </div>
     </>
   );
 }

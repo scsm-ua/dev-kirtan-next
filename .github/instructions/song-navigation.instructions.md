@@ -12,7 +12,7 @@ The prev/next song flow has **three independent input sources** that all converg
 | Input | Source | Triggers |
 |---|---|---|
 | Touch swipe | `components/song/PrevNextNav/SwipeNav.tsx` (touch listeners on `document.body`) | Immediate navigation when progress fills the ring |
-| Keyboard hotkey | `other/hooks/useGlobalHotkeys.ts` dispatches `kirtan:prevSong` / `kirtan:nextSong` window events | `SwipeNav` listens, plays a synthetic slide-in animation, then calls `navigate()` |
+| Keyboard hotkey | `other/hooks/useGlobalHotkeys.ts` dispatches `kirtan:prevSong` / `kirtan:nextSong` window events | `SwipeNav` listens, calls `navigate()` at once, then plays the circle animation once the new page is shown |
 | Visible buttons | `components/song/PrevNextNav/PrevNextLink.tsx` (plain `<a href>`) | Intercepted by the app router (`useAppRouter` click listener) |
 
 `PrevNextNav.tsx` is the container — it computes `prevNext` from `navMap` + `usePageQuery()` and passes it to both `PrevNextLink` and `SwipeNav`. **It does not listen for hotkey events** — that belongs in `SwipeNav` because the animation is owned there. Prev/next songs are prefetched by the router 1s after a song renders, so these navigations are usually instant. Never use `window.location.href` here; it would reload the document and stop the player.
@@ -43,24 +43,28 @@ Use the helpers — do not re-derive:
 
 ## Animation Timing (hotkey flow)
 
-All timings are named constants at the top of `SwipeNav.tsx`. If you change one of these, prefer adjusting the constant over inlining a different number:
+The hotkey flow navigates **first** and animates **after**: `keyNavigate()` subscribes with `onLocationChange()` (`other/router/location.ts`), calls `navigate()`, and plays the circle when the router fires `notifyLocationChange()`, which happens in the router's layout effect once the new page is committed. So the animation runs over the new song and never delays navigation. If the page hasn't switched within `KEY_SWITCH_TIMEOUT_MS` (a full document load, or a failed load), no animation plays. A new key press cancels a pending one.
+
+All timings are named constants at the top of `SwipeNav.tsx`:
 
 | Constant | Meaning |
 |---|---|
-| `ENTER_DURATION_MS` (220) | Slide-in duration. **Must match** the `left` value in the entry transition string |
-| `HOLD_MS` (60) | Brief pause at peak so the user perceives the filled circle |
-| `EXIT_DURATION_MS` (400) | Fly-off duration. Mostly cosmetic — see below |
+| `KEY_ENTER_MS` | Hotkey: fade in while drifting to the resting spot |
+| `KEY_HOLD_MS` | Hotkey: pause at the resting spot |
+| `KEY_EXIT_MS` | Hotkey: fade out while drifting on |
+| `KEY_SHIFT` | Hotkey: px of drift in each phase (toward the screen center) |
+| `KEY_PANEL_GAP` (16) | Hotkey: gap between the white content panel (`.SongText`) and the circle. Falls back to the swipe resting spot when the panel is missing or there is no room beside it |
+| `KEY_SWITCH_TIMEOUT_MS` (3000) | Hotkey: give up on the animation if the page hasn't switched |
+| `EXIT_DURATION_MS` (400) | Swipe: fly-off duration |
 
-**Navigation fires together with `flyOut`**, not after it. The exit animation is cosmetic cover while the next page loads; since the next song is usually prefetched it often appears at once and the animation is cut short, which is the desired tradeoff (no perceived latency penalty). Do not wrap navigation in `setTimeout(..., EXIT_DURATION_MS)` "to let the animation finish" — that adds 400ms to every navigation.
+For the swipe flow, **navigation fires together with `flyOut`**, not after it. The exit animation is cosmetic cover while the next page loads. Do not wrap navigation in `setTimeout(..., EXIT_DURATION_MS)` "to let the animation finish" — that adds 400ms to every navigation.
 
 ## The Two Circles
 
-`SwipeNav` renders **two** indicator `<div>`s:
+1. **Swipe circle** is rendered by `SwipeNav` only while a swipe is active (`{direction && swipeTarget && ...}`). It is driven by React state (`progress`, `direction`) while the finger drags.
+2. **Keyboard circle** is a single element that `getKeyCircle()` creates lazily and appends to `<body>`, outside React. It is driven imperatively by `playKeyAnimation()`. It lives outside React so that it outlives the song view that the navigation replaces.
 
-1. **Swipe circle** — conditionally rendered (`{direction && swipeTarget && ...}`), driven by React state (`progress`, `direction`), used during finger drag
-2. **Keyboard circle** — always mounted, hidden by `opacity: 0`, driven imperatively via `keyCircleRef` / `keyArrowRef`. Always mounted so `requestAnimationFrame` has a painted element to animate from
-
-Both share `SHARED_STYLE` (CSS custom properties) and the `<NavRing>` SVG component.
+Both use the `.SwipeNav` styles and `SHARED_STYLE`. The keyboard circle writes the `<NavRing>` SVG markup by hand.
 
 ## Hooks-Rules Gotcha
 

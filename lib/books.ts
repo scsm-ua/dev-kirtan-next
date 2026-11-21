@@ -33,6 +33,11 @@ export function getBookIdList(): Array<string> {
   return Object.keys(getBooksMap());
 }
 
+/** The songbook the root page `/` shows: the first one in site order. */
+export function getFirstBookId(): string {
+  return getBookIdList()[0];
+}
+
 /**
  *
  */

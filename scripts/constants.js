@@ -4,6 +4,7 @@ const CONST = {
 		A_Z: 'a-z.json',
 		BOOK_INFO: 'songbook.json',
 		CONTENTS: 'contents.json',
+		CONTENT_IMAGES: 'content-images.json',
 		IMAGES: 'images.json',
 		NPMRC: '.npmrc',
 		PACKAGE_JSON: 'package.json',

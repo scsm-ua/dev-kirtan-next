@@ -12,7 +12,7 @@ import {
   resolveSitePath
 } from '@/tests/helpers/site';
 
-import type { TBookBundle, TPageData, TRoute } from '@/types/pageData';
+import type { TBookBundle, TPageData, TRoute, TSharedAssets } from '@/types/pageData';
 
 /**
  * The page data of the build: one loader gives the HTML pages, the
@@ -90,6 +90,13 @@ describe.each(getBookIds())('page data of %s', (bookId) => {
     expect(Object.keys(bundle.pages).sort()).toEqual(Object.keys(expected).sort());
     expect(bundle.pages).toEqual(expected);
   });
+
+  it('lists in the bundle only asset files that exist in the build', () => {
+    const { assets } = readJsonFile<TBookBundle>(toFile(getBookBundleUrl(bookId)));
+    const missing = Object.values(assets).flat().filter((file) => !resolveSitePath(file));
+
+    expect(missing).toEqual([]);
+  });
 });
 
 describe('page data of the whole build', () => {
@@ -100,5 +107,14 @@ describe('page data of the whole build', () => {
 
     expect(ids.size).toBe(1);
     expect([...ids][0]).toMatch(/^\w+@.+/);
+  });
+});
+
+describe('/shell/assets.json', () => {
+  it('lists the logos and covers, all of them files of the build', () => {
+    const assets = readJsonFile<TSharedAssets>('shell/assets.json');
+
+    expect([...assets.bookImages, ...assets.shell].filter((file) => !resolveSitePath(file))).toEqual([]);
+    expect(assets.bookImages.length).toBeGreaterThan(0);
   });
 });

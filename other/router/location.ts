@@ -11,6 +11,14 @@ export function notifyLocationChange(): void {
   listeners.forEach((listener) => listener());
 }
 
+/**
+ * Runs `listener` after each URL change (client navigation once the new page
+ * is committed, back/forward). Returns the unsubscribe function.
+ */
+export function onLocationChange(listener: () => void): () => void {
+  return subscribe(listener);
+}
+
 /**/
 function subscribe(listener: () => void): () => void {
   listeners.add(listener);

@@ -117,7 +117,20 @@ export type TPageData =
 export type TPageKind = TPageData['kind'];
 
 /** Every page of a songbook in one file, keyed by data URL; used to precache a book for offline use. */
+/** Site-relative images every songbook shares (`/shell/assets.json`); the worker cannot list directories. */
+export type TSharedAssets = {
+  /** Covers and thumbnails of all songbooks, both densities. */
+  bookImages: Array<string>;
+  /** Files of `/images/svg/` (logo), sorted. */
+  shell: Array<string>;
+};
+
 export type TBookBundle = {
+  /** Site-relative files the service worker caches with the book; logos and covers are in `TSharedAssets`. */
+  assets: {
+    /** `/images/resources/**` used by this book. */
+    contentImages: Array<string>;
+  };
   build: string;
   pages: Record<string, TPageData>;
 };

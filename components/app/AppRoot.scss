@@ -46,3 +46,10 @@
     cursor: pointer;
   }
 }
+
+// Root page `/`: its HTML shows the first songbook. While the app moves to
+// the reader's songbook (mark set by the inline script, before the first
+// paint), the content is hidden, so the wrong book never flashes.
+html[data-root-pending] .Layout {
+  visibility: hidden;
+}

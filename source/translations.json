@@ -157,6 +157,18 @@
         },
         "SUBMIT": "Nosūtīt atsauksmi"
       }
+    },
+    "OFFLINE": {
+      "AVAILABLE": "Saglabāts",
+      "NOT_SAVED": "Nav saglabāts",
+      "SAVING": "Saglabā…",
+      "TEXTS": "Dziesmu grāmatas teksti",
+      "BOOK_IMAGES": "Dziesmu grāmatas attēli",
+      "APP_IMAGES": "Lietotnes attēli",
+      "APP_RESOURCES": "Citi lietotnes faili",
+      "APP_HTML": "Lietotnes lapas (HTML)",
+      "BOOK_TOTAL": "Dziesmu grāmatas kopējais izmērs",
+      "ALL_TOTAL": "Visu dziesmu grāmatu izmērs"
     }
   },
   "en": {
@@ -317,6 +329,18 @@
         },
         "SUBMIT": "Submit Feedback"
       }
+    },
+    "OFFLINE": {
+      "AVAILABLE": "Available offline",
+      "NOT_SAVED": "Not saved",
+      "SAVING": "Saving…",
+      "TEXTS": "Songbook texts",
+      "BOOK_IMAGES": "Songbook images",
+      "APP_IMAGES": "App images",
+      "APP_RESOURCES": "Other app files",
+      "APP_HTML": "App pages (HTML)",
+      "BOOK_TOTAL": "Songbook total size",
+      "ALL_TOTAL": "All songbooks size"
     }
   },
   "es": {
@@ -477,6 +501,18 @@
         },
         "SUBMIT": "Enviar comentarios"
       }
+    },
+    "OFFLINE": {
+      "AVAILABLE": "Guardado",
+      "NOT_SAVED": "No guardado",
+      "SAVING": "Guardando…",
+      "TEXTS": "Textos del cancionero",
+      "BOOK_IMAGES": "Imágenes del cancionero",
+      "APP_IMAGES": "Imágenes de la app",
+      "APP_RESOURCES": "Otros archivos de la app",
+      "APP_HTML": "Páginas de la app (HTML)",
+      "BOOK_TOTAL": "Tamaño total del cancionero",
+      "ALL_TOTAL": "Tamaño de todos los cancioneros"
     }
   },
   "ru": {
@@ -650,6 +686,18 @@
         },
         "SUBMIT": "Отправить отзыв"
       }
+    },
+    "OFFLINE": {
+      "AVAILABLE": "Сохранено",
+      "NOT_SAVED": "Не сохранено",
+      "SAVING": "Сохранение…",
+      "TEXTS": "Тексты песенника",
+      "BOOK_IMAGES": "Изображения песенника",
+      "APP_IMAGES": "Изображения приложения",
+      "APP_RESOURCES": "Другие файлы приложения",
+      "APP_HTML": "Страницы приложения (HTML)",
+      "BOOK_TOTAL": "Полный размер песенника",
+      "ALL_TOTAL": "Размер всех песенников"
     }
   },
   "ua": {
@@ -823,6 +871,18 @@
         },
         "SUBMIT": "Надіслати відгук"
       }
+    },
+    "OFFLINE": {
+      "AVAILABLE": "Збережено",
+      "NOT_SAVED": "Не збережено",
+      "SAVING": "Збереження…",
+      "TEXTS": "Тексти пісенника",
+      "BOOK_IMAGES": "Зображення пісенника",
+      "APP_IMAGES": "Зображення застосунку",
+      "APP_RESOURCES": "Інші файли застосунку",
+      "APP_HTML": "Сторінки застосунку (HTML)",
+      "BOOK_TOTAL": "Повний розмір пісенника",
+      "ALL_TOTAL": "Розмір всіх пісенників"
     }
   },
   "pt": {
@@ -983,6 +1043,18 @@
         },
         "SUBMIT": "Enviar feedback"
       }
+    },
+    "OFFLINE": {
+      "AVAILABLE": "Salvo",
+      "NOT_SAVED": "Não salvo",
+      "SAVING": "Salvando…",
+      "TEXTS": "Textos do cancioneiro",
+      "BOOK_IMAGES": "Imagens do cancioneiro",
+      "APP_IMAGES": "Imagens do app",
+      "APP_RESOURCES": "Outros arquivos do app",
+      "APP_HTML": "Páginas do app (HTML)",
+      "BOOK_TOTAL": "Tamanho total do cancioneiro",
+      "ALL_TOTAL": "Tamanho de todos os cancioneiros"
     }
   }
 }

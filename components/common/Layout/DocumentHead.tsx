@@ -5,7 +5,7 @@ import { PATH } from '@/other/constants';
  * Shared `<head>` of every app page (icons, manifest, theme). Next adds the
  * per-page metadata into it.
  */
-function DocumentHead() {
+function DocumentHead({ children }: { children?: React.ReactNode }) {
   const path = PATH.IMG.FAV;
 
   return (
@@ -34,6 +34,7 @@ function DocumentHead() {
         content={`${path}ms-icon-144x144.png`}
       />
       <meta name="theme-color" content="#ffffff" />
+      {children}
     </head>
   );
 }

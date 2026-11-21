@@ -1,3 +1,7 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
+import { getContentImages } from '@/lib/content/resourceImages';
 import { getContentsByBookId } from '@/lib/contents';
 import { getBuildId } from '@/other/router/buildId';
 import { getRouteDataUrl } from '@/other/router/routes';
@@ -6,7 +10,7 @@ import { loadPageData } from '@/lib/pageData/loaders';
 import { SONGBOOK_PAGE } from '@/other/paths';
 
 import type { TContentGroup } from '@/types/common';
-import type { TBookBundle, TRoute } from '@/types/pageData';
+import type { TBookBundle, TRoute, TSharedAssets } from '@/types/pageData';
 
 export { loadPageData };
 
@@ -59,6 +63,17 @@ export function listRoutes(bookId: string): Array<TRoute> {
   return [...listItemRoutes(bookId), ...listAudioRoutes(bookId)];
 }
 
+/**
+ * Images every songbook shares: logos and the covers of all songbooks.
+ * Served as `/shell/assets.json`; the service worker caches them on install.
+ */
+export function getSharedAssets(): TSharedAssets {
+  return {
+    bookImages: listPublicFiles('images/cover', 'images/thumbnail'),
+    shell: listPublicFiles('images/svg')
+  };
+}
+
 /** All page data of a book, keyed by data URL. */
 export async function loadBookBundle(bookId: string): Promise<TBookBundle> {
   const pages: TBookBundle['pages'] = {};
@@ -66,5 +81,23 @@ export async function loadBookBundle(bookId: string): Promise<TBookBundle> {
     const page = await loadPageData(route);
     if (page) pages[getRouteDataUrl(route)] = page;
   }
-  return { build: getBuildId(), pages };
+  return {
+    assets: {
+      contentImages: await getContentImages(bookId)
+    },
+    build: getBuildId(),
+    pages
+  };
+}
+
+/** Files directly in the given `public/` directories, as sorted site-relative paths. */
+function listPublicFiles(...dirs: Array<string>): Array<string> {
+  return dirs
+    .flatMap((dir) =>
+      fs
+        .readdirSync(path.join(process.cwd(), 'public', dir), { withFileTypes: true })
+        .filter((entry) => entry.isFile() && !entry.name.startsWith('.'))
+        .map((entry) => `/${dir}/${entry.name}`)
+    )
+    .sort();
 }

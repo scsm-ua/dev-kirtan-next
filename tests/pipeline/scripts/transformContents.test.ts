@@ -6,6 +6,7 @@ import { describe, expect, it } from 'vitest';
 import {
   applyPageIdxDict,
   getAltFirstLines,
+  getItemImages,
   getItemType,
   getPage,
   getPages,
@@ -13,7 +14,12 @@ import {
   mapResources,
   transformContents
 } from '@/scripts/transformContents';
+import resourcesConfig from '@/source/resources.json';
 import { useTempDirs } from '@/tests/helpers/tempDirs';
+
+/** Markdown image of the shared resources repo, by its path under `images/`. */
+const resourceImage = (rel: string) =>
+  `![](${resourcesConfig.resources.replace(/^git\+/, '').replace(/#.*$/, '').replace(/\.git$/, '')}/blob/main/images/${rel}?raw=true)`;
 
 /**/
 function audio(personId: string, personSlug: string, title: Record<string, string>) {
@@ -187,6 +193,31 @@ describe('mapItem', () => {
   });
 });
 
+describe('getItemImages', () => {
+  const head = { src: '/images/resources/en/1.jpg', type: 'image/jpeg', width: 1, height: 1, length: 1 };
+
+  it('gives the head image and the images in the verse translations of a song', () => {
+    const song = {
+      meta: {},
+      resources: { image: head },
+      verses: [{ text: [resourceImage('en/9.jpg')], translation: [`a ${resourceImage('en/2.jpg')}`] }, { text: [] }]
+    };
+
+    expect(getItemImages(song, 'song')).toEqual(['/images/resources/en/1.jpg', '/images/resources/en/2.jpg']);
+  });
+
+  it('gives the images in the body of a page', () => {
+    expect(getItemImages({ meta: {}, body: `x ${resourceImage('ru/3.png')}` }, 'page')).toEqual([
+      '/images/resources/ru/3.png'
+    ]);
+  });
+
+  it('gives nothing for an item without images', () => {
+    expect(getItemImages({ meta: {} }, 'song')).toEqual([]);
+    expect(getItemImages({ meta: {} }, 'page')).toEqual([]);
+  });
+});
+
 describe('transformContents', () => {
   const makeTempDir = useTempDirs();
   const readJson = (...parts: string[]) => JSON.parse(readFileSync(path.join(...parts), 'utf8'));
@@ -265,5 +296,35 @@ describe('transformContents', () => {
     });
     expect(readJson(dir, 'songs/two.json').meta.page).toBe('5/2');
     expect(readJson(dir, 'pages/about.json')).toEqual({ meta: { title: 'About', page: 1 }, body: 'text' });
+    expect(readJson(dir, 'content-images.json')).toEqual([]);
+  });
+
+  it('writes the images of all songs and pages of the book, sorted and unique', () => {
+    const dir = makeTempDir();
+    const write = (file: string, data: unknown) => {
+      mkdirSync(path.dirname(path.join(dir, file)), { recursive: true });
+      writeFileSync(path.join(dir, file), JSON.stringify(data));
+    };
+
+    write('contents.json', [
+      {
+        name: 'Group',
+        items: [
+          { id: 'one', title: 'One', filepath: 'songs/one.md' },
+          { id: 'about', title: 'About', filepath: 'pages/about.md' }
+        ]
+      }
+    ]);
+    write('songs/one.json', { meta: { first_line: 'first one' }, verses: [{ translation: [resourceImage('en/2.jpg')] }] });
+    write('pages/about.json', { meta: { title: 'About' }, body: `${resourceImage('en/2.jpg')} ${resourceImage('en/10.jpg')}` });
+
+    const image = { src: '/images/resources/en/1.jpg', type: 'image/jpeg', width: 1, height: 1, length: 1 };
+    transformContents(dir, { one: { image } }, { audioTitleFilter: null, language: 'en' });
+
+    expect(readJson(dir, 'content-images.json')).toEqual([
+      '/images/resources/en/1.jpg',
+      '/images/resources/en/10.jpg',
+      '/images/resources/en/2.jpg'
+    ]);
   });
 });

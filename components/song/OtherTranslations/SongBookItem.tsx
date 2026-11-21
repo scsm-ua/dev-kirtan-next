@@ -10,12 +10,14 @@ type Props = {
   description: TBookDescription;
   href: string;
   isActive?: boolean;
+  /** Not reachable now (offline and not cached): greyed out, not a link. */
+  disabled?: boolean;
 };
 
 /**
  *
  */
-function SongBookItem({ description, href, isActive }: Props) {
+function SongBookItem({ description, disabled, href, isActive }: Props) {
   if (description.hidden) return null;
 
   const cls = (classNames as any)(
@@ -23,24 +25,37 @@ function SongBookItem({ description, href, isActive }: Props) {
     isActive && 'SongBookItem__title--active'
   );
 
-  return (
-    <li className="SongBookItem">
-      <a href={href}>
-        <div className="SongBookItem__container">
-          <BookThumbnail bookId={description.slug} />
+  const content = (
+    <div className="SongBookItem__container">
+      <BookThumbnail bookId={description.slug} />
 
-          <div className="SongBookItem__info">
-            <h5 className={cls}>
-              <span className="SongBookItem__lang">{getBookLangLabel(description.slug)}</span>
-              {description.title}
-            </h5>
+      <div className="SongBookItem__info">
+        <h5 className={cls}>
+          <span className="SongBookItem__lang">
+            {getBookLangLabel(description.slug)}
+          </span>
+          {description.title}
+        </h5>
 
-            <div className="ellipsis SongBookItem__subtitle">
-              {description.subtitle}
-            </div>
-          </div>
+        <div className="ellipsis SongBookItem__subtitle">
+          {description.subtitle}
         </div>
-      </a>
+      </div>
+    </div>
+  );
+
+  return (
+    <li
+      className={classNames(
+        'SongBookItem',
+        disabled && 'SongBookItem--disabled'
+      )}
+    >
+      {disabled ? (
+        <span aria-disabled="true">{content}</span>
+      ) : (
+        <a href={href}>{content}</a>
+      )}
     </li>
   );
 }

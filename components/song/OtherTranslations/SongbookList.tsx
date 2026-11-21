@@ -1,7 +1,9 @@
+'use client';
 import { Fragment } from 'react';
 
 import './SongbookList.scss';
 import SongBookItem from '@/components/song/OtherTranslations/SongBookItem';
+import { useIsBookReachable } from '@/other/hooks/useCacheStatus';
 import { getSongPath } from '@/other/paths';
 import type { TBookDescription } from '@/types/book';
 
@@ -19,6 +21,7 @@ function SongbookList({ bookId, bookDescriptions, slug }: Props) {
   const visible = bookDescriptions.filter((description) => !description.hidden);
   const regular = visible.filter((description) => !description.is_legacy);
   const legacy = visible.filter((description) => description.is_legacy);
+  const isReachable = useIsBookReachable();
 
   return (
     <ul className="SongbookList">
@@ -32,6 +35,7 @@ function SongbookList({ bookId, bookDescriptions, slug }: Props) {
             )}
             <SongBookItem
               description={description}
+              disabled={description.slug !== bookId && !isReachable(description.slug)}
               href={href}
               isActive={description.slug === bookId}
             />

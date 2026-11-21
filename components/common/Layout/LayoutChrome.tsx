@@ -13,6 +13,7 @@ import type { TAnalyticsPageType } from '@/other/analytics';
 export type TLayoutChromeProps = {
   bookId: string;
   className?: string;
+  hideCacheStatus?: boolean; // No offline dot in the header (songbook list: it caches no book).
   itemId?: string;       // Analytics: song slug, page slug or singer id.
   page?: string | string[];
   pageType?: TAnalyticsPageType;
@@ -26,6 +27,7 @@ function LayoutChrome({
   bookId,
   children,
   className,
+  hideCacheStatus,
   itemId,
   page,
   pageType
@@ -36,7 +38,7 @@ function LayoutChrome({
     <>
       <div className="Layout">
         <div className="Layout__content" tabIndex={-1}>
-          <Header bookId={bookId} />
+          <Header bookId={bookId} hideCacheStatus={hideCacheStatus} />
           <main className={cls}>
             {children}
           </main>

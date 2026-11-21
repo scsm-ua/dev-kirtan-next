@@ -10,6 +10,8 @@ import {
   parsePath
 } from '@/other/router/routes';
 
+import { getBookIds } from '@/tests/helpers/books';
+
 import type { TRoute } from '@/types/pageData';
 
 /** One route of every kind, with its page URL and data URL. */
@@ -46,8 +48,11 @@ describe('parsePath', () => {
     expect(parsePath('/en/some%20song/')).toEqual({ kind: 'item', bookId: 'en', slug: 'some song' });
   });
 
+  it('takes the root page for the songbook list of the first songbook', () => {
+    expect(parsePath('/')).toEqual({ kind: 'book-list', bookId: getBookIds()[0] });
+  });
+
   it.each([
-    ['home', '/'],
     ['no trailing slash', '/en'],
     ['no trailing slash on an item', '/en/some-song'],
     ['legacy .html', '/en/some-song.html'],

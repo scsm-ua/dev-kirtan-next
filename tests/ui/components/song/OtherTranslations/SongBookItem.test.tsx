@@ -15,7 +15,7 @@ beforeAll(async () => {
   hidden = { ...description, hidden: true };
 });
 
-const renderItem = (props: Partial<{ description: TBookDescription; isActive: boolean }> = {}) =>
+const renderItem = (props: Partial<{ description: TBookDescription; disabled: boolean; isActive: boolean }> = {}) =>
   render(
     <ul>
       <SongBookItem description={description} href="/somewhere/" {...props} />
@@ -46,4 +46,12 @@ describe('SongBookItem', () => {
     expect(screen.queryByRole('link')).toBeNull();
   });
 
+  it('when disabled, is greyed out and not a link', () => {
+    renderItem({ disabled: true });
+
+    expect(screen.queryByRole('link')).toBeNull();
+    expect(document.querySelector('.SongBookItem--disabled [aria-disabled="true"] .SongBookItem__title').textContent).toBe(
+      getBookLangLabel(description.slug) + description.title
+    );
+  });
 });

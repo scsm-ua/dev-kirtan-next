@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import './Header.scss';
+import CacheStatusButton from '@/components/common/CacheStatus/CacheStatusButton';
 import FeedbackWidget from '@/components/feedback/FeedbackWidget';
 import HotkeyHint from '@/components/common/GlobalHotkeys/HotkeyHint';
 import { getSongbookPath } from '@/other/paths';
@@ -10,7 +11,7 @@ import { PATH } from '@/other/constants';
 /**
  *
  */
-function Header({ bookId }: { bookId: string }) {
+function Header({ bookId, hideCacheStatus }: { bookId: string; hideCacheStatus?: boolean }) {
   const href = getSongbookPath(bookId);
 
   return (
@@ -26,6 +27,7 @@ function Header({ bookId }: { bookId: string }) {
           </a>
 
           <div className="Header__actions">
+            {!hideCacheStatus && <CacheStatusButton bookId={bookId} />}
             <HotkeyHint />
             <FeedbackWidget bookId={bookId} />
           </div>

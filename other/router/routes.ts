@@ -78,8 +78,8 @@ export function getRoutePath(route: TRoute): string {
 
 /**
  * Route of an app page path such as `/en/contents/`, or `null` for anything
- * served as a separate document (home, analyze, export, test, files, legacy
- * `.html`). Unknown books and slugs still parse; their data request fails and
+ * served as a separate document (analyze, export, test, files, legacy
+ * `.html`). The root page `/` is the songbook list of the first songbook. Unknown books and slugs still parse; their data request fails and
  * the router falls back to a full load, which shows the static 404.
  */
 export function parsePath(pathname: string): TRoute | null {
@@ -88,7 +88,7 @@ export function parsePath(pathname: string): TRoute | null {
   const segments = pathname.split('/').filter(Boolean).map(safeDecode);
   if (segments.some((s) => !s || s.includes('.'))) return null;
 
-  const [bookId, page, singerId, ...rest] = segments;
+  const [bookId = getFirstBookId(), page, singerId, ...rest] = segments;
   if (!bookId || NON_APP_ROOTS.has(bookId) || rest.length) return null;
   if (!page) return { kind: 'book-list', bookId };
 
@@ -103,6 +103,11 @@ export function parsePath(pathname: string): TRoute | null {
   return rootPage
     ? { kind: rootPage, bookId }
     : { kind: 'item', bookId, slug: page };
+}
+
+/** Ids of all songbooks are a build-time constant (`next.config.ts`), in site order. */
+function getFirstBookId(): string | undefined {
+  return __BOOK_IDS__[0];
 }
 
 /** First path segments that are not songbooks. */

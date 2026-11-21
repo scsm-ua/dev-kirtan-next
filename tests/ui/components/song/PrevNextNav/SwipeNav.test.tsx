@@ -2,6 +2,7 @@ import { act, render } from '@testing-library/react';
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { SwipeNav } from '@/components/song/PrevNextNav/SwipeNav';
+import { notifyLocationChange } from '@/other/router/location';
 import { setNavigationHandler } from '@/other/router/navigate';
 import { getBookIds, getItems } from '@/tests/helpers/books';
 import { loadPage } from '@/tests/helpers/pageData';
@@ -91,23 +92,23 @@ describe('SwipeNav: finger swipe', () => {
     const { container } = render(<SwipeNav prevNext={both} />);
     swipe(-100, 0, { lift: false });
 
-    expect(circles(container)).toHaveLength(2);
+    expect(circles(container)).toHaveLength(1);
     expect(circles(container)[0].classList.contains('SwipeNav--ready')).toBe(false);
 
     touch('touchend', 0, 0);
 
     expect(navigatedTo()).toEqual([]);
-    expect(circles(container)).toHaveLength(1);
+    expect(circles(container)).toHaveLength(0);
   });
 
   it('shows the indicator only after 30 px and marks it ready at full length', () => {
     const { container } = render(<SwipeNav prevNext={both} />);
 
     swipe(-25, 0, { lift: false });
-    expect(circles(container)).toHaveLength(1);
+    expect(circles(container)).toHaveLength(0);
 
     touch('touchmove', 200 - 150, 300);
-    expect(circles(container)).toHaveLength(2);
+    expect(circles(container)).toHaveLength(1);
     expect(circles(container)[0].classList.contains('SwipeNav--ready')).toBe(true);
   });
 
@@ -128,14 +129,14 @@ describe('SwipeNav: finger swipe', () => {
     touch('touchend', 0, 0);
 
     expect(navigatedTo()).toEqual([pathOf(both.next)]);
-    expect(circles(container)).toHaveLength(1);
+    expect(circles(container)).toHaveLength(0);
   });
 
   it('does nothing towards a side with no song', () => {
     const { container } = render(<SwipeNav prevNext={onlyNext} />);
     swipe(200, 0, { lift: false });
 
-    expect(circles(container)).toHaveLength(1);
+    expect(circles(container)).toHaveLength(0);
 
     touch('touchend', 0, 0);
     expect(navigatedTo()).toEqual([]);
@@ -213,15 +214,35 @@ describe('SwipeNav: hotkeys', () => {
   it.each([
     ['kirtan:nextSong', 'next'],
     ['kirtan:prevSong', 'prev']
-  ] as const)('%s opens the %s song after the circle animation', (event, side) => {
+  ] as const)('%s opens the %s song at once', (event, side) => {
     render(<SwipeNav prevNext={both} />);
     press(event);
 
-    vi.advanceTimersByTime(250);
-    expect(navigatedTo()).toEqual([]);
-
-    vi.advanceTimersByTime(100);
     expect(navigatedTo()).toEqual([pathOf(both[side])]);
+  });
+
+  it('shows the circle only after the page has switched', () => {
+    render(<SwipeNav prevNext={both} />);
+    press('kirtan:nextSong');
+    const circle = () => document.body.querySelector<HTMLElement>(':scope > .SwipeNav');
+    expect(circle()?.style.opacity ?? '0').toBe('0');
+
+    act(() => notifyLocationChange());
+    expect(circle()?.style.opacity).toBe('1');
+    expect(circle()?.querySelector('.SwipeNav__arrow--flip')).toBeNull();
+
+    vi.advanceTimersByTime(1000);
+    expect(circle()?.style.opacity).toBe('0');
+  });
+
+  it('skips the circle when the page does not switch in time', () => {
+    render(<SwipeNav prevNext={both} />);
+    press('kirtan:prevSong');
+    vi.advanceTimersByTime(5000);
+    const before = document.body.querySelector<HTMLElement>(':scope > .SwipeNav')?.style.opacity;
+
+    act(() => notifyLocationChange());
+    expect(document.body.querySelector<HTMLElement>(':scope > .SwipeNav')?.style.opacity).toBe(before);
   });
 
   it('does nothing when there is no song on that side', () => {

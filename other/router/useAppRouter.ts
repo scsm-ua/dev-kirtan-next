@@ -5,6 +5,7 @@ import { getRoutePath, parsePath } from '@/other/router/routes';
 import { loadRoute, prefetchRoute, seedRoute } from '@/other/router/pageStore';
 import { notifyLocationChange } from '@/other/router/location';
 import { setNavigationHandler } from '@/other/router/navigate';
+import { pickRootBookIdInBrowser, ROOT_PATH, ROOT_PENDING_ATTR } from '@/other/router/pickRootBookId';
 
 import type { TNavigateOptions } from '@/other/router/navigate';
 import type { TPageData } from '@/types/pageData';
@@ -36,6 +37,7 @@ type TAppRouter = {
  * Client router of the app root: renders page data fetched from `/data/`,
  * intercepts internal links and keeps history, scroll and head in sync.
  * `initial` is `null` in the offline shell; the page for the URL loads on mount.
+ * On the root page `/` it moves on to the reader's songbook (`pickRootBookId`).
  */
 export function useAppRouter(initial: TPageData | null): TAppRouter {
   const [state, setState] = useState<TState>({ page: initial });
@@ -49,10 +51,11 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
 
   useEffect(() => {
     entryKey.current = ensureEntryKey();
+    const isRoot = window.location.pathname === ROOT_PATH;
     if (initial) {
       seedRoute(initial);
       renderedPath.current = window.location.pathname;
-    } else {
+    } else if (!isRoot) {
       const route = parsePath(window.location.pathname);
       (route ? loadRoute(route) : Promise.reject(new Error('Not an app page'))).then(
         (page) => setState({ page, scroll: window.location.hash || 0 }),
@@ -60,7 +63,8 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
       );
     }
 
-    const go = async (url: URL, options: TNavigateOptions, popKey?: string) => {
+    // `onFail` replaces the fallback to a document load.
+    const go = async (url: URL, options: TNavigateOptions, popKey?: string, onFail?: () => void) => {
       const isPop = popKey !== undefined;
 
       if (url.pathname === renderedPath.current) {
@@ -88,7 +92,8 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
         page = await loadRoute(route);
       } catch {
         if (id !== navId.current) return;
-        if (isPop) window.location.reload();
+        if (onFail) onFail();
+        else if (isPop) window.location.reload();
         else window.location.assign(url.href);
         return;
       } finally {
@@ -137,6 +142,29 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
       if (route && url.pathname !== renderedPath.current) prefetchRoute(route);
     };
 
+    // The root page shows the first songbook. Move to the reader's songbook:
+    // the URL becomes `/<book>/`, the list comes from the page data (cached
+    // when that book is), with no document load. When it cannot be loaded
+    // (offline, book not cached) the first songbook stays.
+    const openRootBook = () => {
+      const [firstBookId] = __BOOK_IDS__;
+      const target = pickRootBookIdInBrowser(__BOOK_IDS__);
+      const urlOf = (bookId: string) =>
+        new URL(getRoutePath({ kind: 'book-list', bookId }) + window.location.search + window.location.hash, window.location.href);
+      const fail = () => {
+        clearRootPending();
+        if (!initial) setFailed(true);
+      };
+
+      go(
+        urlOf(target),
+        { replace: true },
+        undefined,
+        target === firstBookId ? fail : () => go(urlOf(firstBookId), { replace: true }, undefined, fail)
+      );
+    };
+    if (isRoot) openRootBook();
+
     setNavigationHandler((url, options) => go(url, options));
     document.addEventListener('click', onClick);
     document.addEventListener('pointerover', onIntent, { passive: true });
@@ -168,6 +196,7 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
     notifyLocationChange();
     applyHead(page);
     scrollTo(scroll ?? 0);
+    clearRootPending();
   }, [state]);
 
   // Neighbouring songs are the likeliest next pages.
@@ -192,6 +221,11 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
 /** Whether `page` is the one the document was rendered with (server-only extras belong to it). */
 export function isInitialPage(page: TPageData, initial: TPageData | null): boolean {
   return !!initial && getRoutePath(page.route) === getRoutePath(initial.route);
+}
+
+/** Shows the content the inline script of the root page has hidden. */
+function clearRootPending(): void {
+  document.documentElement.removeAttribute(ROOT_PENDING_ATTR);
 }
 
 /** URL of a left click on an internal app link, or `null` to let the browser handle it. */

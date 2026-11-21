@@ -5,6 +5,7 @@ import {
   listAudioRoutes,
   listItemRoutes,
   listRoutes,
+  getSharedAssets,
   loadBookBundle,
   loadPageData,
   respondWithPageData
@@ -88,5 +89,38 @@ describe('loadBookBundle', () => {
     for (const route of routes) {
       expect(bundle.pages[getRouteDataUrl(route)].route, getRouteDataUrl(route)).toEqual(route);
     }
+  });
+
+  it('lists the files to cache with the book: sorted, unique and site-relative', async () => {
+    const { assets } = await loadBookBundle(SMALL_BOOK);
+
+    for (const [name, files] of Object.entries(assets)) {
+      expect(files, name).toEqual([...new Set(files)].sort());
+      for (const file of files) expect(file, name).toMatch(/^\/images\/[^/]/);
+    }
+
+    expect(Object.keys(assets)).toEqual(['contentImages']);
+    expect(assets.contentImages.every((file) => file.startsWith('/images/resources/'))).toBe(true);
+  });
+
+  it.each(getBookIds())('lists exactly the content images that the pages of %s show', async (bookId) => {
+    const { assets, pages } = await loadBookBundle(bookId);
+    const shown = new Set(JSON.stringify(pages).match(/\/images\/resources\/[^"'\\\s)]+/g));
+
+    expect(assets.contentImages).toEqual([...shown].sort());
+  });
+});
+
+describe('getSharedAssets', () => {
+  it('lists the logos and the covers of all songbooks: sorted, unique and site-relative', () => {
+    const assets = getSharedAssets();
+
+    for (const [name, files] of Object.entries(assets)) {
+      expect(files, name).toEqual([...new Set(files)].sort());
+      for (const file of files) expect(file, name).toMatch(/^\/images\/[^/]/);
+    }
+    expect(assets.bookImages).toContain(`/images/cover/banner-${SMALL_BOOK}.jpg`);
+    expect(assets.bookImages.every((file) => /^\/images\/(cover|thumbnail)\//.test(file))).toBe(true);
+    expect(assets.shell).toContain('/images/svg/kirtan-site.svg');
   });
 });

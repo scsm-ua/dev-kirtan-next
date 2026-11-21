@@ -1,53 +1,51 @@
 import { useEffect } from 'react';
 
-import { getBookBundleUrl, SHELL_PATH } from '@/other/router/routes';
-import { getBuildId } from '@/other/router/buildId';
+import { ensureBook, getCacheStatus, setCurrentBook } from '@/other/offline/cacheStatus';
+import { isServiceWorkerEnabled } from '@/other/offline/serviceWorkerEnabled';
 
 /** Delay before precaching when the browser has no idle callback (Safari). */
 const FALLBACK_DELAY_MS = 3000;
 
-// `saveData` (Network Information API) is true when the user enabled "Data Saver" / "Reduce data usage"; not in TS's Navigator type, and absent in Safari/Firefox.
-type TNavigator = Navigator & { connection?: { saveData?: boolean } };
+let isPersistRequested = false;
+
+/** Once a book is cached, asks the browser to keep the cache (less likely to be evicted). */
+function requestPersistence(bookId: string): void {
+  if (isPersistRequested || getCacheStatus().books[bookId]?.state !== 'cached') return;
+  isPersistRequested = true;
+  navigator.storage?.persist?.().catch(() => {});
+}
 
 /**
- * Asks the service worker to cache every page of the songbook (and the
- * offline shell) once per build, when the browser is idle. Skipped in dev,
- * without a service worker and when the user asked to save data.
+ * Asks the service worker, when the browser is idle, to make sure the
+ * songbook is fully cached; on every session and every book change. The
+ * worker fetches only what is missing, so a cached book costs no traffic.
+ * The book is also registered in the status store, which ensures it again
+ * when a new worker takes over. Skipped without a book id (the songbook
+ * list) and when the worker is off (`isServiceWorkerEnabled`).
  */
 export function usePrecacheBook(bookId: string | undefined): void {
   useEffect(() => {
-    if (!bookId || process.env.NODE_ENV === 'development') return;
-    if (!('serviceWorker' in navigator) || (navigator as TNavigator).connection?.saveData) return;
+    if (!bookId || !isServiceWorkerEnabled()) return;
 
-    const marker = `kirtan:precached:${bookId}`;
-    const build = getBuildId();
-    if (localStorage.getItem(marker) === build) return;
-
+    setCurrentBook(bookId);
     let isCancelled = false;
     const run = () => {
-      navigator.serviceWorker.ready.then((registration) => {
-        if (isCancelled || !registration.active) return;
-        const channel = new MessageChannel();
-        channel.port1.onmessage = (e) => {
-          if (e.data?.ok) localStorage.setItem(marker, build);
-        };
-        registration.active.postMessage(
-          { type: 'PRECACHE_BOOK', bundleUrl: getBookBundleUrl(bookId), shellUrl: SHELL_PATH },
-          [channel.port2]
-        );
-      });
+      if (isCancelled) return;
+      ensureBook(bookId).then(() => requestPersistence(bookId));
     };
 
     if ('requestIdleCallback' in window) {
       const id = window.requestIdleCallback(run, { timeout: 10000 });
       return () => {
         isCancelled = true;
+        setCurrentBook(undefined);
         window.cancelIdleCallback(id);
       };
     }
     const timer = setTimeout(run, FALLBACK_DELAY_MS);
     return () => {
       isCancelled = true;
+      setCurrentBook(undefined);
       clearTimeout(timer);
     };
   }, [bookId]);

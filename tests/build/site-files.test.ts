@@ -42,6 +42,23 @@ describe('files of the build', () => {
     expect(readRobots('shell/index.html')).toContain('noindex');
   });
 
+  it('has a root page with the songbook list of the first songbook, canonical to that songbook', () => {
+    const [firstBookId] = getBookIds();
+    const html = readSiteFile('index.html');
+    const bookHtml = readSiteFile(getHtmlFile(getRoutePath({ kind: 'book-list', bookId: firstBookId })));
+    const canonical = (source: string) => /<link rel="canonical" href="([^"]*)"/.exec(source)?.[1];
+
+    expect((readHtmlPageData(html) as TPageData).route).toEqual({ kind: 'book-list', bookId: firstBookId });
+    expect(readHtmlPageData(html)).toEqual(readHtmlPageData(bookHtml));
+    expect(canonical(html)).toBe(canonical(bookHtml));
+    expect(new URL(canonical(html)).pathname).toBe(`/${firstBookId}/`);
+    expect(readRobots('index.html')).toBe(readRobots(getHtmlFile(`/${firstBookId}/`)));
+    // Server-rendered content for crawlers, and the script that hides it for readers of another book.
+    expect(html).toContain('class="BookCard"');
+    expect(html).toContain('data-root-pending');
+    expect(bookHtml).not.toContain('data-root-pending');
+  });
+
   it('has a 404 page that is not indexed', () => {
     expect(readRobots('404.html')).toContain('noindex');
   });
@@ -58,7 +75,8 @@ describe.each(getBookIds())('full-load pages of %s', (bookId) => {
       .filter((file) => !file.endsWith('/bundle.json'))
       .map((file) => readJsonFile<TPageData>(file))
       .find((page) => page.kind === 'song');
-    const everyPage = new Set(readStylesheets('index.html'));
+    // The 404 page is outside the app: it has only the styles every page has.
+    const everyPage = new Set(readStylesheets('404.html'));
     const appStyles = readStylesheets(getHtmlFile(getRoutePath(song.route))).filter((href) => !everyPage.has(href));
 
     expect(appStyles.length).toBeGreaterThan(0);

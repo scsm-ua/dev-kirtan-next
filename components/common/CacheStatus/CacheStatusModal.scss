@@ -1,0 +1,85 @@
+.CacheStatusModal {
+  min-width: 240px;
+
+  &__state {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__offline {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 6px 14px;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--error);
+    background-color: var(--offline-bg);
+    border: solid 1px var(--offline-border-color);
+    border-radius: 16px;
+  }
+
+  &__progress {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  &__bar {
+    flex: 1;
+    height: 6px;
+    overflow: hidden;
+    background-color: var(--light-gray);
+    border-radius: 3px;
+  }
+
+  &__fill {
+    height: 100%;
+    background-color: var(--cache-pending-color);
+    border-radius: 3px;
+    transition: width var(--transition-duration);
+  }
+
+  &__percent {
+    min-width: 44px;
+    font-size: 14px;
+    text-align: right;
+    color: var(--text-color);
+    font-variant-numeric: tabular-nums;
+  }
+
+  &__rows {
+    margin: 0;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 7px 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    // The two totals close the list.
+    &[data-row='bookTotal'] {
+      border-top: 2px solid var(--border-color);
+    }
+  }
+
+  &__label {
+    font-size: 14px;
+    color: var(--text-color);
+  }
+
+  &__value {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--title-color);
+    font-variant-numeric: tabular-nums;
+  }
+}

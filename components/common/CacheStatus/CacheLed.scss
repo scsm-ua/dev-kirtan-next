@@ -1,0 +1,25 @@
+.CacheLed {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--cache-pending-color);
+
+  &[data-status='cached'] {
+    background-color: var(--cache-ready-color);
+  }
+
+  &[data-status='caching'] {
+    animation: cache-led-pulse 1.2s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes cache-led-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}

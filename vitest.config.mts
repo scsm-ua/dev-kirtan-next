@@ -18,6 +18,9 @@ export default defineConfig({
     alias: { '@': root }
   },
   define: {
+    __BOOK_IDS__: JSON.stringify(
+      Object.keys(JSON.parse(readFileSync(path.join(root, 'source/books/songbooks.json'), 'utf8')))
+    ),
     __BUILD_INFO__: JSON.stringify({
       branch: 'test',
       commit: 'test',

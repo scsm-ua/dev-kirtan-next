@@ -13,7 +13,8 @@ const TRANSLATION_VALIDATION_SCHEMA = {
     'SONG_PAGE',
     'DISPLAY_MODE_MENU',
     // 'i18n',
-    'META'
+    'META',
+    'OFFLINE'
   ],
   properties: {
     A_Z_PAGE: {
@@ -451,6 +452,34 @@ const TRANSLATION_VALIDATION_SCHEMA = {
         TRANSLATION_NAME: {
           type: 'string'
         }
+      }
+    },
+    OFFLINE: {
+      type: 'object',
+      additionalProperties: false,
+      required: [
+        'ALL_TOTAL',
+        'APP_HTML',
+        'APP_IMAGES',
+        'APP_RESOURCES',
+        'AVAILABLE',
+        'BOOK_IMAGES',
+        'BOOK_TOTAL',
+        'NOT_SAVED',
+        'SAVING',
+        'TEXTS'
+      ],
+      properties: {
+        ALL_TOTAL: { type: 'string' },
+        APP_HTML: { type: 'string' },
+        APP_IMAGES: { type: 'string' },
+        APP_RESOURCES: { type: 'string' },
+        AVAILABLE: { type: 'string' },
+        BOOK_IMAGES: { type: 'string' },
+        BOOK_TOTAL: { type: 'string' },
+        NOT_SAVED: { type: 'string' },
+        SAVING: { type: 'string' },
+        TEXTS: { type: 'string' }
       }
     },
 		FEEDBACK: {
