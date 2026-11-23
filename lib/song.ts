@@ -213,13 +213,29 @@ function contents2slugs(contents: TContentGroup[]): Array<{ slug: string }> {
 }
 
 /**
- *
+ * Contents as prev/next navigation walks them. A song listed several times
+ * with the same page has one URL and one nav entry, so only its last listing
+ * counts and the earlier ones are skipped. Listings with different pages
+ * (`?p=`) all stay.
+ */
+function getNavSongs(songs: TContentItem[]): TContentItem[] {
+  const key = (item: TContentItem) => `${item.id}\n${item.page ?? ''}`;
+  const lastIdx = new Map(songs.map((item, idx) => [key(item), idx]));
+
+  return songs.filter((item, idx) => lastIdx.get(key(item)) === idx);
+}
+
+/**
+ * Prev/next of a song, per page number it is listed with (`_` when it has
+ * no page). Neighbours are taken from `getNavSongs`.
  */
 function getNavItemsBySlug(
   songSlug: string,
   bookId: string,
-  songs: TContentItem[]
+  contents: TContentItem[]
 ) {
+  const songs = getNavSongs(contents);
+
   const indexes = songs.reduce(
     (arr: number[], item: TContentItem, idx: number) => {
       if (item.id === songSlug) arr.push(idx);

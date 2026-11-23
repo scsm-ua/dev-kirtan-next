@@ -131,6 +131,12 @@ p {
   min-height: calc(100% - var(--header-height));
   background-color: var(--main-bg-color);
 
+  // With the player dock the bottom-bar footer is in the flow, after main:
+  // on a short page it sits right above the dock, with nothing to scroll.
+  .has-player-dock & {
+    min-height: calc(100% - var(--header-height) - var(--footer-height));
+  }
+
   // Was for fixed header.
   // @include mixins.breakpoint($min: variables.$bp768) {
   //   //min-height: 100%;

@@ -174,6 +174,7 @@ class SearchModule extends PureComponent<Props, State> {
     const { bookId, pages } = this.props;
     const { hasMore, hasNotFound, isLoading, pendingPage, pendingPageDurationMs, query, results } = this.state;
 
+    const isSearchStarted = hasNotFound || isLoading || results.length > 0;
     const isNumericQuery = /^\d+$/.test(query);
     const filteredPages = isNumericQuery
       ? pages.filter((p) => p.page.startsWith(query))
@@ -184,6 +185,7 @@ class SearchModule extends PureComponent<Props, State> {
         <header className="SearchModule__header">
           <SearchControls
             bookId={bookId}
+            showNumpad={!isSearchStarted}
             value={query}
             onInput={this.handleInput}
             onClear={this.handleClear}
@@ -192,7 +194,7 @@ class SearchModule extends PureComponent<Props, State> {
         </header>
 
         <div className="SearchModule__content">
-          {hasNotFound || isLoading || results.length > 0 || <PageList bookId={bookId} pages={filteredPages} pendingPage={pendingPage} pendingPageDurationMs={pendingPageDurationMs} />}
+          {isSearchStarted || <PageList bookId={bookId} pages={filteredPages} pendingPage={pendingPage} pendingPageDurationMs={pendingPageDurationMs} />}
 
           {hasNotFound && (
             <div className="SearchModule__nothing">

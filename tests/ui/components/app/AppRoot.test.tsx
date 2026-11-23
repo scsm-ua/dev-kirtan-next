@@ -197,6 +197,13 @@ describe('AppRoot', () => {
       expect(document.querySelector('.AppRoot__progress')).toBeNull();
     });
 
+    it('keeps the footer inside the scroller, after main, so it can scroll above the player dock', () => {
+      renderApp(contents);
+
+      expect(main().nextElementSibling).toBe(document.querySelector('.Layout__content > footer.Footer'));
+      expect(document.querySelectorAll('.Footer')).toHaveLength(1);
+    });
+
     it('marks the footer link of the shown page, and none on a song', async () => {
       const first = renderApp(contents);
       expect(currentFooterLinks().map((link) => link.getAttribute('href'))).toEqual([`/${bookId}/contents/`]);

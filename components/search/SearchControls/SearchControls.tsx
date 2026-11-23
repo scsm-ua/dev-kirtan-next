@@ -7,6 +7,7 @@ import { translate } from '@/other/i18n';
 /**/
 type Props = {
   bookId: string;
+  showNumpad?: boolean;
   value: string;
   onClear: () => void;
   onInput: (value: string) => void;
@@ -16,7 +17,7 @@ type Props = {
 /**
  *
  */
-function SearchControls({ bookId, value, onClear, onInput, onSubmit }: Props) {
+function SearchControls({ bookId, showNumpad = true, value, onClear, onInput, onSubmit }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -63,21 +64,22 @@ function SearchControls({ bookId, value, onClear, onInput, onSubmit }: Props) {
         <span className="icon-search" />
       </button>
 
-
-      <div className="SearchControls__numpad-wrapper">
-        <span className="SearchControls__numpad-label">{translate(bookId, 'SEARCH_PAGE.OR_ENTER_PAGE')}</span>
-        <div className="SearchControls__numpad">
-          {['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].map((d) => (
-            <button
-              key={d}
-              className="SearchControls__numpad-btn"
-              onClick={() => handleNumpad(d)}
-            >
-              {d}
-            </button>
-          ))}
+      {showNumpad && (
+        <div className="SearchControls__numpad-wrapper">
+          <span className="SearchControls__numpad-label">{translate(bookId, 'SEARCH_PAGE.OR_ENTER_PAGE')}</span>
+          <div className="SearchControls__numpad">
+            {['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].map((d) => (
+              <button
+                key={d}
+                className="SearchControls__numpad-btn"
+                onClick={() => handleNumpad(d)}
+              >
+                {d}
+              </button>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

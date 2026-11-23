@@ -42,9 +42,9 @@ function LayoutChrome({
           <main className={cls}>
             {children}
           </main>
+          {/* Inside the scroller: with the player dock it is the last element of the page. */}
+          <Footer bookId={bookId} page={page} />
         </div>
-
-        <Footer bookId={bookId} page={page} />
       </div>
 
       <GoogleAnalytics bookId={bookId} itemId={itemId} pageType={pageType} />

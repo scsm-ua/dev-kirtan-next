@@ -5,6 +5,7 @@ import { describe, expect, it } from 'vitest';
 
 import {
   applyPageIdxDict,
+  findSplitDuplicates,
   getAltFirstLines,
   getItemImages,
   getItemType,
@@ -145,6 +146,30 @@ describe('applyPageIdxDict', () => {
     applyPageIdxDict(song, 0, {});
 
     expect(song).toEqual({ meta: { first_line: 'line' } });
+  });
+});
+
+describe('findSplitDuplicates', () => {
+  const items = (ids: string, pages: Record<string, unknown> = {}) =>
+    ids.split(' ').map((id) => ({ id, page: id in pages ? pages[id] : 1 }));
+  const split = (ids: string, pages?: Record<string, unknown>) =>
+    findSplitDuplicates(items(ids, pages)).map((item: { id: string }) => item.id);
+
+  it('accepts listings that follow each other and repeated blocks', () => {
+    expect(split('a b c')).toEqual([]);
+    expect(split('a a b')).toEqual([]);
+    expect(split('a b a b c')).toEqual([]);
+    expect(split('a b a x b')).toEqual([]);
+  });
+
+  it('reports a listing with other songs before its repeat', () => {
+    expect(split('a x a')).toEqual(['a']);
+    expect(split('a b x a b')).toEqual(['a', 'b']);
+  });
+
+  it('compares the page too, and treats items without a page as the same place', () => {
+    expect(findSplitDuplicates([{ id: 'a', page: 5 }, { id: 'x', page: 6 }, { id: 'a', page: 9 }])).toEqual([]);
+    expect(split('a x a', { a: null })).toEqual(['a']);
   });
 });
 

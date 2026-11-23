@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { act, fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
@@ -6,8 +6,11 @@ import Playlist from '@/components/audio/Playlist';
 import { translate } from '@/other/i18n';
 import { getSongPathWithPage } from '@/other/paths';
 import { playerManager } from '@/other/player/PlayerManager';
+import { PagePathContext } from '@/other/router/pagePath';
 import { getBookIds } from '@/tests/helpers/books';
 import { loadPage } from '@/tests/helpers/pageData';
+import { fakeAllSources } from '@/tests/helpers/player';
+import { closePlayerPage } from '@/tests/helpers/playerPage';
 
 import type { TAudioTrack } from '@/types/audio';
 
@@ -45,8 +48,10 @@ beforeEach(() => {
   refresh = vi.spyOn(playerManager, 'refresh');
 });
 
-afterEach(() => {
+afterEach(async () => {
+  await closePlayerPage();
   vi.restoreAllMocks();
+  sessionStorage.clear();
   window.history.replaceState(null, '', '/');
 });
 
@@ -95,7 +100,7 @@ describe('Playlist', () => {
     expect(subtitles()).toEqual(sorted.map((track) => (track.item.title !== track.label ? track.label : undefined)));
     expect(radio('SHOW_TITLES').checked).toBe(true);
     expect(sessionStorage.getItem('AUDIO_SORT')).toBe('title');
-    // The dock's prev/next and title follow the new order.
+    // The dock's title, and prev/next on the page of the playing playlist, follow the new order.
     expect(refresh).toHaveBeenCalled();
   });
 
@@ -141,5 +146,103 @@ describe('Playlist', () => {
     render(<Playlist bookId={bookId} tracks={tracks} />);
 
     expect(playFirst).not.toHaveBeenCalled();
+  });
+
+  describe('the page of the playing playlist', () => {
+    const PAGE_PATH = '/book/audio/singer/';
+
+    // The real sources are SoundCloud: play them on the fake source.
+    beforeAll(fakeAllSources);
+
+    const page = (path = PAGE_PATH) => (
+      <PagePathContext.Provider value={path}>
+        <Playlist bookId={bookId} tracks={tracks} />
+      </PagePathContext.Provider>
+    );
+
+    /** Starts the second track, then leaves the page as a client navigation does. */
+    async function playAndLeave(unmount: () => void) {
+      fireEvent.click(items()[1].querySelector('.PlayerWidget button'));
+      unmount();
+      // Widgets unregister in a microtask after unmount.
+      await act(() => Promise.resolve());
+    }
+
+    it('comes back in the order it was played in, whatever was chosen on other pages', async () => {
+      const { unmount } = render(page());
+      await userEvent.click(radio('SHOW_TITLES'));
+      await playAndLeave(unmount);
+      sessionStorage.setItem('AUDIO_SORT', 'firstLine');
+
+      render(page());
+
+      expect(titles()).toEqual(byTitle(tracks).map((track) => track.item.title));
+      expect(radio('SHOW_TITLES').checked).toBe(true);
+      expect(document.querySelector('.PlaylistSort--animated')).toBeNull();
+      expect(items()[1].querySelector('.PlayerWidget--active')).toBeTruthy();
+      // Only a click on the control changes the choice of the session.
+      expect(sessionStorage.getItem('AUDIO_SORT')).toBe('firstLine');
+    });
+
+    it('is a loop: after the last track "next" plays the first one', () => {
+      render(page());
+      fireEvent.click(items().at(-1).querySelector('.PlayerWidget button'));
+      expect(playerManager.getSnapshot().hasNext).toBe(true);
+
+      act(() => playerManager.playNext());
+
+      expect(items()[0].querySelector('.PlayerWidget--active')).toBeTruthy();
+    });
+
+    it('comes back with the same shuffle', async () => {
+      vi.spyOn(Math, 'random').mockReturnValue(0);
+      const { unmount } = render(page());
+      await userEvent.click(radio('SHOW_SHUFFLE'));
+      const shuffled = titles();
+      await playAndLeave(unmount);
+      vi.mocked(Math.random).mockReturnValue(0.99);
+
+      render(page());
+
+      expect(titles()).toEqual(shuffled);
+      expect(radio('SHOW_SHUFFLE').checked).toBe(true);
+    });
+
+    it('a sort chosen there while it plays changes the playlist, and it comes back that way', async () => {
+      vi.spyOn(Math, 'random').mockReturnValue(0);
+      const { unmount } = render(page());
+      await userEvent.click(radio('SHOW_TITLES'));
+      fireEvent.click(items()[1].querySelector('.PlayerWidget button'));
+      await userEvent.click(radio('SHOW_SHUFFLE'));
+      const shuffled = titles();
+      // "Next" is the next row of the shuffled list.
+      const playing = items().findIndex((li) => li.querySelector('.PlayerWidget--active'));
+      act(() => playerManager.playNext());
+      expect(items()[playing + 1].querySelector('.PlayerWidget--active')).toBeTruthy();
+      unmount();
+      await act(() => Promise.resolve());
+      vi.mocked(Math.random).mockReturnValue(0.99);
+      sessionStorage.setItem('AUDIO_SORT', 'firstLine');
+
+      render(page());
+
+      expect(titles()).toEqual(shuffled);
+      expect(radio('SHOW_SHUFFLE').checked).toBe(true);
+    });
+
+    it('does not change the order of other pages, nor of its own once the dock is closed', async () => {
+      const { unmount } = render(page());
+      await userEvent.click(radio('SHOW_TITLES'));
+      await playAndLeave(unmount);
+      sessionStorage.setItem('AUDIO_SORT', 'firstLine');
+
+      const other = render(page('/book/audio/other/'));
+      expect(titles()).toEqual(tracks.map((track) => track.label));
+      other.unmount();
+
+      act(() => playerManager.clearActive());
+      render(page());
+      expect(titles()).toEqual(tracks.map((track) => track.label));
+    });
   });
 });

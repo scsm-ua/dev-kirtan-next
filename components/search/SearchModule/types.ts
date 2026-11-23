@@ -8,8 +8,9 @@ export type TSearchResultItem = {
 
 /**/
 export type TSearchResponse = {
-  items: Array<TSearchResultItem>;
-  searchInformation: {
+  error?: { code?: number; message?: string };
+  items?: Array<TSearchResultItem>;
+  searchInformation?: {
     totalResults: string;
   };
 };

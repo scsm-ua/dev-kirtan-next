@@ -15,10 +15,10 @@ const PAGE_PATH = '/en/some-song/';
 const flush = () => act(() => Promise.resolve());
 
 /** Renders the hook as a widget on the page does. */
-function renderPlayer(name: string, title = 'Title', autoAdvance?: boolean) {
+function renderPlayer(name: string, title = 'Title', autoAdvance?: boolean, path = PAGE_PATH) {
   const element = document.body.appendChild(document.createElement('div'));
   const wrapper = ({ children }: { children: ReactNode }) =>
-    createElement(PagePathContext.Provider, { value: PAGE_PATH }, children);
+    createElement(PagePathContext.Provider, { value: path }, children);
 
   return renderHook(
     (props: { title: string }) =>
@@ -102,6 +102,31 @@ describe('usePlayer', () => {
     expect(getFakeAdapter('a').destroy).not.toHaveBeenCalled();
     expect(playerManager.getSnapshot().active).toBe(controller);
     expect(renderPlayer('a').result.current.controller).toBe(controller);
+  });
+
+  it('mirrors the playing track of another page: shows and toggles it, never starts its own', async () => {
+    const first = renderPlayer('a');
+    const playing = first.result.current.controller;
+    act(() => playing.play());
+    act(() => getFakeAdapter('a').events.onStatus('playing'));
+    first.unmount();
+    await flush();
+
+    const { result } = renderPlayer('a', 'Title', false, '/en/other-page/');
+
+    expect(result.current.controller).toBe(playing);
+    expect(result.current.isActive).toBe(true);
+    expect(result.current.snapshot.status).toBe('playing');
+
+    act(() => result.current.controller.toggle());
+    expect(getFakeAdapter('a').pause).toHaveBeenCalledOnce();
+    expect(playerManager.getSnapshot().active).toBe(playing);
+
+    // The dock is closed: the widget is on its own again.
+    act(() => playerManager.clearActive());
+    expect(result.current.controller).not.toBe(playing);
+    expect(result.current.controller.originPath).toBe('/en/other-page/');
+    expect(result.current.isActive).toBe(false);
   });
 });
 

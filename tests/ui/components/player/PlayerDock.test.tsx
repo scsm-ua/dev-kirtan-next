@@ -206,6 +206,34 @@ describe('PlayerDock', () => {
       expect(navigate).toHaveBeenCalledExactlyOnceWith(PAGE_PATH);
     });
 
+    it('the title leads back from a page that shows the same track, and "next" stays with the first page', async () => {
+      const { rerender } = render(<Page />);
+      play('b');
+      rerender(
+        <>
+          <PagePathContext.Provider value="/test/other/">
+            <PlayerWidget
+              autoAdvance={false}
+              className="Test__mirror"
+              source={{ type: FAKE_TYPE, url: fakeUrl('b') }}
+              title="Mirror"
+            />
+          </PagePathContext.Provider>
+          <PlayerDock />
+        </>
+      );
+      await act(async () => {});
+
+      expect(document.querySelector('.Test__mirror').classList).toContain('PlayerWidget--active');
+      expect(document.querySelector('.Test__mirror').classList).toContain('PlayerWidget--playing');
+      fireEvent.click(titleButton());
+      expect(navigate).toHaveBeenCalledExactlyOnceWith(PAGE_PATH);
+
+      fireEvent.click(button('Next track'));
+      expect(getFakeAdapter('c').play).toHaveBeenCalledOnce();
+      expect(document.querySelector('.Test__mirror').classList).not.toContain('PlayerWidget--active');
+    });
+
     it('the title on the same page does not navigate', () => {
       render(<Page />);
       play('b');

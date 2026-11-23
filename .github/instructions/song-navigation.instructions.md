@@ -17,6 +17,15 @@ The prev/next song flow has **three independent input sources** that all converg
 
 `PrevNextNav.tsx` is the container — it computes `prevNext` from `navMap` + `usePageQuery()` and passes it to both `PrevNextLink` and `SwipeNav`. **It does not listen for hotkey events** — that belongs in `SwipeNav` because the animation is owned there. Prev/next songs are prefetched by the router 1s after a song renders, so these navigations are usually instant. Never use `window.location.href` here; it would reload the document and stop the player.
 
+## Songs Listed Twice in the Contents
+
+`navMap` is built by `getNavItems` in `lib/song.ts`, one entry per page number the song is listed with.
+
+- **Different pages** (`meta.page: [39, 60]`): one entry per page. The second listing has a `?p=60` URL, and each entry has the neighbours of its own listing.
+- **The same page** (a block of songs repeated in another contents group): the song has one URL and one entry. Navigation walks the contents without the earlier listings (`getNavSongs`), so only the last listing counts. Prev and next then give the same walk in both directions.
+
+The build (`scripts/transformContents.js`, `findSplitDuplicates`) warns when a skipped listing is not directly followed by its repeat: a reader would not reach the song at its first place. The fix is in the songbook: give the listings different page numbers.
+
 ## Hotkey Bindings (in `useGlobalHotkeys.ts`)
 
 | Keys | Event dispatched |

@@ -6,7 +6,6 @@ import { playerManager } from '@/other/player/PlayerManager';
 import {
   fakeUrl,
   getFakeAdapter,
-  leavePage,
   makeController,
   mountPlayer,
   mountPlayers,
@@ -291,20 +290,5 @@ describe('PlayerController', () => {
 
     expect(adapter.destroy).toHaveBeenCalledOnce();
     expect(controller.getSnapshot()).toEqual({ status: 'idle', position: 0, duration: null });
-  });
-
-  it('hands a running source over to the same track on a new page', () => {
-    const old = startPlaying('a');
-    old.adapter.events.onProgress(20, 100);
-    leavePage();
-    const next = makeController('a');
-
-    next.adoptFrom(old.controller);
-    old.adapter.events.onProgress(21, 100);
-    old.controller.destroy();
-
-    expect(next.getSnapshot()).toEqual({ status: 'playing', position: 21, duration: 100 });
-    expect(old.controller.getSnapshot().status).toBe('idle');
-    expect(old.adapter.destroy).not.toHaveBeenCalled();
   });
 });

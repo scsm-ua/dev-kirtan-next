@@ -93,7 +93,7 @@ sequenceDiagram
 
 - `components/app/AppDocument.tsx` (server): `<html lang>`, `DocumentHead`, `<body>` with `AppRoot`.
 - `components/app/AppRoot.tsx` (client): holds the current page via `useAppRouter`. It renders:
-  - `LayoutChrome {...getChrome(page)}` (header, `<main>`, footer, GA, service worker registration, hotkeys) — **persistent**.
+  - `LayoutChrome {...getChrome(page)}` (header, `<main>`, footer, GA, service worker registration, hotkeys) — **persistent**. Header, `<main>` and footer are all inside the scroller `.Layout__content` (footer positioning: `player-widget.instructions.md`, "Dock layout contract").
   - `PagePathContext` + `renderView(page, extras)` — the view, **keyed by path**, so it remounts per page.
   - `PlayerDock` — **persistent**, so playback survives navigation.
 - `components/app/views/registry.ts`:

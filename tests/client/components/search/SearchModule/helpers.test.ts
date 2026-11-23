@@ -47,4 +47,18 @@ describe('lookFor', () => {
   it('returns the results and their total number', async () => {
     expect(await lookFor('query', 1)).toEqual({ items: [{ title: 'Result' }], itemsTotal: 25 });
   });
+
+  it('rejects with the message of an error answer from Google', async () => {
+    fetchMock.mockResolvedValueOnce(
+      Response.json({ error: { code: 400, message: 'API key not valid.' } }, { status: 400 })
+    );
+
+    await expect(lookFor('query', 1)).rejects.toThrow('Search request failed: API key not valid.');
+  });
+
+  it('rejects when the answer has no search information', async () => {
+    fetchMock.mockResolvedValueOnce(Response.json({}));
+
+    await expect(lookFor('query', 1)).rejects.toThrow('no search information');
+  });
 });

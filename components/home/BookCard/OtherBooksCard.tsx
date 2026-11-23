@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import './BookCard.scss';
 import { PATH } from '@/other/constants';
 import { getSongbookPagePath, SONGBOOK_PAGE } from '@/other/paths';

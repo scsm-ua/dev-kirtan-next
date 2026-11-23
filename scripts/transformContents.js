@@ -50,7 +50,7 @@ function transform(groups, resourceMap, targetDir, options, images) {
   const seenSongIds = new Set();
 
   let itemIdx = 0;
-  return groups.map((group) => {
+  const result = groups.map((group) => {
     return {
       name: group.name,
       items: group.items.map((item) => {
@@ -85,6 +85,51 @@ function transform(groups, resourceMap, targetDir, options, images) {
 			})
     };
   });
+
+  findSplitDuplicates(result.flatMap((group) => group.items)).forEach((item) => {
+    console.warn(
+      `Duplicated "${item.id}" (page ${item.page}) is listed apart from its repeat: prev/next skips the first listing. Give the listings different page numbers.`
+    );
+  });
+
+  return result;
+}
+
+/**
+ * Prev/next navigation skips a listing that has a later listing with the same
+ * id and page (lib/song.ts, `getNavSongs`). That is fine when the listings
+ * follow each other or a block of songs is repeated: then the repeat of the
+ * first skipped item of a run comes right after the run. Returns the skipped
+ * items of the runs where it does not.
+ * @param items {Array<{ id: string, page: * }>} - flat contents items.
+ * @return {Array<{ id: string, page: * }>}
+ */
+function findSplitDuplicates(items) {
+  const key = (item) => `${item.id}\n${item.page ?? ''}`;
+  const lastIdx = new Map(items.map((item, idx) => [key(item), idx]));
+  const isSkipped = (idx) => lastIdx.get(key(items[idx])) !== idx;
+
+  const split = [];
+  let idx = 0;
+
+  while (idx < items.length) {
+    if (!isSkipped(idx)) {
+      idx++;
+      continue;
+    }
+
+    let end = idx;
+    while (end + 1 < items.length && isSkipped(end + 1)) end++;
+
+    const repeat = items[end + 1];
+    if (!repeat || key(repeat) !== key(items[idx])) {
+      split.push(...items.slice(idx, end + 1));
+    }
+
+    idx = end + 1;
+  }
+
+  return split;
 }
 
 /**
@@ -312,6 +357,7 @@ function mapItem(item, song, seenSongIds) {
 /**/
 module.exports = {
   applyPageIdxDict,
+  findSplitDuplicates,
   getAltFirstLines,
   getItemImages,
   getItemType,

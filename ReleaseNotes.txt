@@ -1,3 +1,72 @@
+v3.0.0
+22 November 2026
+  - Offline mode: a whole songbook can be saved for offline use; a status dot and popup show how much is cached.
+  - The app now switches pages without full reloads; the header, footer and audio player stay in place.
+  - New "Other songbooks" page for less-used songbooks.
+  - Structured data for text pages (search engines).
+  - Fix: previous/next navigation for songs listed twice on the same page.
+  - Fix: footer navigation stays reachable while the player bar is shown.
+  - Fix: playback keeps following the playlist where Play was pressed; the player bar title links back to that page and its sort order.
+  - Fix: search numpad layout after a search starts.
+  - Internal: full test suite (Vitest + Playwright).
+_________________________________________________________
+
+v2.8.0
+13 November 2026
+  - New English songbook.
+  - Audio:
+    - New "All audio" page and per-singer pages, with sorting and a collapsible singer list.
+    - New player bar at the bottom of the screen; previous/next and auto-play of the next track.
+    - Improved inline player on song pages; SoundCloud support.
+    - New recordings by Manasa Krishna Prabhu and Kamal Krishna Prabhu (en songbook); improved singer ordering.
+    - Structured data for audio pages (search engines).
+  - Small images stay visible when the translation is hidden.
+  - Updated analytics events.
+  - Fix: song and image rendering; images lazy loading; learn mode rendering.
+  - Fix: footnote button width on desktop.
+  - Fix: links no longer open in a new tab.
+  - Internal: songbook data format refactored.
+_________________________________________________________
+
+v2.7.0
+27 October 2026
+  - Songbooks can include text pages besides songs, with a new look for the contents page.
+  - Images in songs and pages.
+  - Analyze songbooks page (a table of each songbook's data).
+  - Verse separators.
+  - Improved search engine visibility: structured data for songs, better titles, previews and sitemap.
+  - Old .html URLs redirect to their current address.
+  - Authors page: "Unknown author" section showing first lines; songs sorted per author.
+  - A–Z index: similar diacritic letters are grouped together.
+  - Fix: hidden verses with partial data; wide verse styles; long titles in the vertical footer.
+  - Fix: pages for duplicated content items.
+  - Fix: default icon on /favicon.ico; 404 for search bots on legacy .html paths.
+  - Internal: refactored URL generation.
+_________________________________________________________
+
+v2.6.0
+30 September 2026
+  - A song can appear several times in the index; page numbers can be overridden.
+  - Song headings support line breaks; bold inline subtitles.
+  - Clearer audio labels; audio can be filtered by title for specific songbooks.
+  - Other translations: the list is hidden when there is only one translation and shown as disabled when there are none.
+  - Fix: bold text and escaped asterisks; sorting of index lines with numbers; "no-author" no longer shown as an author.
+_________________________________________________________
+
+v2.5.0
+16 August 2026
+  - Songbook HTML export page, with an option to hide translations.
+  - Fix: page number centering in search results.
+  - Internal: pnpm and Node 24; reviewed deployment.
+_________________________________________________________
+
+v2.4.1
+10 July 2026
+  - Learn mode: better word splitting (apostrophes as separators), tuned font and content width.
+  - Telegraph link in the share form.
+  - Fix: verse font size and padding on mobile; first verse margin; default translation font weight; spacing of learn verses without a number.
+_________________________________________________________
+
 v2.4.0
 29 June 2026
   - Learn mode: word-by-word translation rendered inline under each source word.
@@ -19,6 +88,14 @@ _________________________________________________________
 v2.2.1
 21 April 2026
   - Fix: hard coded lang attribute.
+_________________________________________________________
+v2.2.0
+7 April 2026
+  - Progressive web app: installable, with offline pages cached by the service worker.
+  - Links in song text.
+  - Cleaner URLs (trailing slash; ?p=<page> only when needed).
+  - Only translated songs are counted.
+  - Fix: service worker refresh for the current page; pages now load from the network first.
 _________________________________________________________
 v2.1.0
 18 March 2026

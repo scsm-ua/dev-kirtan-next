@@ -1,6 +1,10 @@
 .Collapse {
   &__content {
     overflow: hidden;
+    // Side room so glyph overhang (e.g. italic first letter) is not clipped;
+    // the negative margin keeps the content where it was.
+    padding-inline: 4px;
+    margin-inline: -4px;
 
     &[data-state='open'] {
       animation: slideDown var(--transition-duration) ease-out;

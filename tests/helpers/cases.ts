@@ -32,6 +32,19 @@ const SONG_CASES = {
   'no-author': ({ song }) => song.meta['no-author'] === 1,
   'listed-twice-with-several-pages': ({ item, occurrences }) =>
     occurrences > 1 && item.pages.length > 1,
+  // Its listings are one block repeat: only repeated songs stand between them.
+  'listed-twice-with-same-page': ({ bookId, item }) => {
+    const all = getItems(bookId);
+    const places = all.flatMap((other, i) => (other.id === item.id ? [i] : []));
+    const count = (id: string) => all.filter((other) => other.id === id).length;
+
+    return (
+      places.length > 1 &&
+      places[0] > 0 &&
+      places.every((i) => all[i].page === item.page) &&
+      all.slice(places[0] + 1, places[places.length - 1]).every((other) => count(other.id) > 1)
+    );
+  },
   'alt-first-lines': ({ item }) => !!item.altAliasNames?.length,
   'no-translation': ({ item }) => !item.has.translation,
   'no-audio': ({ song }) => !song.resources?.audio?.length,

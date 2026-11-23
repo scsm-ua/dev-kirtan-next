@@ -13,16 +13,24 @@ export const RESTART_THRESHOLD = 3;
  * App-wide coordinator: one active player at a time (sync), prev/next and
  * auto-advance through a queue, and dock state.
  *
- * The queue is the DOM order of the players on the page where the active one
- * lives. When that page is left (client navigation), the queue freezes and its
- * players stay alive without widgets, so playback and prev/next continue. It is
- * released when the dock is closed or a player from another page starts.
+ * The queue is the playlist where play was pressed: the DOM order of the players
+ * of that page. It follows a new sort of that page (`refresh`) and nothing else:
+ * it survives navigation, its players stay alive without widgets, so playback and
+ * prev/next continue, and other pages cannot change it. It is taken again when the
+ * user starts another track, and released when the dock is closed. A page that
+ * has the playing track only mirrors it (`getShown`), the queue stays.
  */
 class PlayerManager {
   /** Players with a mounted widget. */
   private controllers = new Set<PlayerController>();
   private queue: Array<PlayerController> = [];
   private active: PlayerController | null = null;
+  /** True while the manager itself moves through the queue (next, previous, auto-advance). */
+  private isQueueMove = false;
+  /** State of the page shown now (e.g. its sort), as its component last reported it. */
+  private pageView: { path: string; view: unknown } | null = null;
+  /** `pageView` of the queue's page when the queue was last taken, restored when that page is shown again. */
+  private playlistView: unknown = null;
   private snapshot: TPlayerDockSnapshot = { active: null, hasPrev: false, hasNext: false };
   private listeners = new Set<() => void>();
   private unsubscribeActive: (() => void) | null = null;
@@ -42,20 +50,42 @@ class PlayerManager {
 
   register(controller: PlayerController): void {
     this.controllers.add(controller);
-    const { active } = this;
-    // The active track's page was left and the new page has the same track: continue in its widget.
-    if (
-      active &&
-      active !== controller &&
-      !active.element?.isConnected &&
-      active.source.url === controller.source.url
-    ) {
-      controller.adoptFrom(active);
-      this.releaseDetached();
-      this.setActive(controller);
-      return;
-    }
     this.queueEmit();
+  }
+
+  /**
+   * Player a widget shows: the active one when it plays the same track from another page
+   * (the widget mirrors it, the queue stays), otherwise the widget's own.
+   */
+  getShown = (controller: PlayerController): PlayerController => {
+    const { active } = this;
+    return active &&
+      active !== controller &&
+      active.originPath !== controller.originPath &&
+      active.source.url === controller.source.url
+      ? active
+      : controller;
+  };
+
+  /** The active player while the shown page has it: as its own widget or mirrored. */
+  getActiveOnPage = (): PlayerController | null => {
+    const { active } = this;
+    if (!active) return null;
+    if (active.element?.isConnected) return active;
+    for (const c of this.controllers) {
+      if (c !== active && this.getShown(c) === active) return active;
+    }
+    return null;
+  };
+
+  /** A page reports its current state (before `refresh`); it is kept with the queue taken on that page. */
+  setPageView(path: string, view: unknown): void {
+    this.pageView = { path, view };
+  }
+
+  /** State the page of the queue had when it was last shown; `null` for any other page. */
+  getPlaylistView(originPath: string): unknown {
+    return this.active?.originPath === originPath ? this.playlistView : null;
   }
 
   /** Widget unmounted. Returns `true` when the player is kept alive in the frozen queue. */
@@ -77,14 +107,24 @@ class PlayerManager {
     });
   }
 
-  /** Call after players were reordered in the DOM or retitled. */
+  /**
+   * Call after players were reordered in the DOM or retitled. On the page of the queue the
+   * queue follows the new order; on any other page only the dock is updated.
+   */
   refresh(): void {
-    if (this.active) this.emit();
+    const { active } = this;
+    if (!active) return;
+    if (active.element?.isConnected) this.takeQueue(active);
+    this.emit();
   }
 
   requestPlay(controller: PlayerController): void {
     if (this.active && this.active !== controller) this.active.pause();
-    if (!this.queue.includes(controller)) this.releaseDetached();
+    const isInQueue = this.queue.includes(controller);
+    if (!isInQueue) this.releaseDetached();
+    // The user started a track (not resume, next, previous or auto-advance): its page as it
+    // looks now becomes the playlist.
+    if (!isInQueue || (!this.isQueueMove && this.active !== controller)) this.takeQueue(controller);
     this.setActive(controller);
   }
 
@@ -107,26 +147,52 @@ class PlayerManager {
   };
 
   playNext = (): void => {
-    this.getNeighbour(1)?.play();
+    this.move(this.getNeighbour(1));
   };
 
   playPrev = (): void => {
     const { active } = this;
     if (!active) return;
     const prev = this.getNeighbour(-1);
-    if (prev && active.getSnapshot().position <= RESTART_THRESHOLD) prev.play();
+    if (prev && active.getSnapshot().position <= RESTART_THRESHOLD) this.move(prev);
     else active.seek(0);
   };
 
   handleEnded(controller: PlayerController): void {
     if (controller !== this.active || !controller.autoAdvance) return;
-    this.getNeighbour(1)?.play();
+    this.move(this.getNeighbour(1));
   }
 
-  /** Player after (1) or before (-1) the active one in the queue. */
+  /** Plays another player of the queue without taking the queue again. */
+  private move(controller: PlayerController | null): void {
+    this.isQueueMove = true;
+    try {
+      controller?.play();
+    } finally {
+      this.isQueueMove = false;
+    }
+  }
+
+  /** The page of `controller`, as it looks now, becomes the queue. */
+  private takeQueue(controller: PlayerController): void {
+    const order = this.getPageOrder();
+    this.queue = order.includes(controller) ? order : [controller];
+    const { pageView } = this;
+    this.playlistView = pageView?.path === controller.originPath ? pageView.view : null;
+  }
+
+  /**
+   * Player after (1) or before (-1) the active one in the queue. A looped queue is a circle:
+   * after its last player comes the first one, before the first one the last. Its only player
+   * is its own next (it plays again when it ends), but has no previous.
+   */
   private getNeighbour(direction: 1 | -1): PlayerController | null {
-    const index = this.active ? this.queue.indexOf(this.active) : -1;
-    return index < 0 ? null : (this.queue[index + direction] ?? null);
+    const { active, queue } = this;
+    const index = active ? queue.indexOf(active) : -1;
+    if (index < 0) return null;
+    const { length } = queue;
+    if (!active.loop || (length === 1 && direction === -1)) return queue[index + direction] ?? null;
+    return queue[(index + direction + length) % length];
   }
 
   /** Connected players in DOM order. */
@@ -142,6 +208,7 @@ class PlayerManager {
   private releaseDetached(): void {
     const detached = this.queue.filter((c) => !this.controllers.has(c));
     this.queue = [];
+    this.playlistView = null;
     detached.forEach((c) => c.destroy());
   }
 
@@ -198,13 +265,13 @@ class PlayerManager {
   /**/
   private emit(): void {
     const { active } = this;
-    // A disconnected active player means its page was left: keep the queue it came from.
-    if (active?.element?.isConnected) this.queue = this.getPageOrder();
     const index = active ? this.queue.indexOf(active) : -1;
+    // A looped queue has a previous and a next track at its ends too, unless it is a single track.
+    const isCircle = index >= 0 && active.loop && this.queue.length > 1;
     this.snapshot = {
       active,
-      hasPrev: index > 0,
-      hasNext: index >= 0 && index < this.queue.length - 1
+      hasPrev: index > 0 || isCircle,
+      hasNext: (index >= 0 && index < this.queue.length - 1) || isCircle
     };
     this.syncMediaSession();
     this.listeners.forEach((listener) => listener());

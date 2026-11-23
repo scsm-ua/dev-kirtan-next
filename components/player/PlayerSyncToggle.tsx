@@ -10,16 +10,15 @@ type Props = {
   className?: string;
 };
 
-/** The active player only while its widget is on the shown page. */
-const getActive = () => {
-  const { active } = playerManager.getSnapshot();
-  return active?.element?.isConnected ? active : null;
-};
 const getServerActive = () => null;
 
-/** Play/pause bound to the page's active track; starts the first page track when none is active. */
+/** Play/pause bound to the active track while the page shows it (own or mirrored); starts the first page track when none is active. */
 function PlayerSyncToggle({ className }: Props) {
-  const active = useSyncExternalStore(playerManager.subscribe, getActive, getServerActive);
+  const active = useSyncExternalStore(
+    playerManager.subscribe,
+    playerManager.getActiveOnPage,
+    getServerActive
+  );
   const snapshot = useControllerSnapshot(active);
 
   return (

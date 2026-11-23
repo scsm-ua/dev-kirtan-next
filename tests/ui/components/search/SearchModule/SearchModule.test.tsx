@@ -50,6 +50,7 @@ const input = () => screen.getByPlaceholderText<HTMLInputElement>(t('INPUT_PLACE
 const shownPages = () => [...document.querySelectorAll('.PageList__buttonText')].map((el) => el.textContent);
 const pendingPages = () =>
   [...document.querySelectorAll('.PageList__button--pending')].map((el) => el.textContent);
+const numpad = () => document.querySelector('.SearchControls__numpad');
 const resultLinks = () => [...document.querySelectorAll('.SearchResults a')].map((a) => a.getAttribute('href'));
 const pageOf = (page: string) => data.pages.find((p) => p.page === page);
 
@@ -194,12 +195,11 @@ describe('SearchModule', () => {
     it('adds the digits pressed on the number pad to the input', () => {
       renderModule();
       const digits = data.exact.split('');
-      const numpad = document.querySelector('.SearchControls__numpad');
 
-      expect([...numpad.querySelectorAll('button')].map((b) => b.textContent)).toEqual(
+      expect([...numpad().querySelectorAll('button')].map((b) => b.textContent)).toEqual(
         '1234567890'.split('')
       );
-      digits.forEach((digit) => fireEvent.click(within(numpad as HTMLElement).getByRole('button', { name: digit })));
+      digits.forEach((digit) => fireEvent.click(within(numpad() as HTMLElement).getByRole('button', { name: digit })));
 
       expect(input().value).toBe(data.exact);
       expect(pendingPages()).toEqual([data.exact]);
@@ -225,7 +225,7 @@ describe('SearchModule', () => {
       expect(fetchMock).not.toHaveBeenCalled();
     });
 
-    it('asks Google on Enter and shows the results instead of the page list', async () => {
+    it('asks Google on Enter and shows the results instead of the page list and the number pad', async () => {
       const fetchMock = answerSearch(3);
       renderModule();
       await userEvent.type(input(), 'krishna{Enter}');
@@ -236,6 +236,7 @@ describe('SearchModule', () => {
       expect(document.querySelector('.SearchResults__title').innerHTML).toBe('<b>title 1</b>');
       expect(document.querySelector('.SearchResults__text').innerHTML).toBe('<i>snippet 1</i>');
       expect(document.querySelector('.PageList')).toBeNull();
+      expect(numpad()).toBeNull();
       expect(screen.queryByText(t('LOAD_MORE'))).toBeNull();
     });
 
@@ -278,10 +279,11 @@ describe('SearchModule', () => {
 
       expect(await screen.findByText(t('NO_RESULTS'))).toBeTruthy();
       expect(document.querySelector('.PageList')).toBeNull();
+      expect(numpad()).toBeNull();
       expect(resultLinks()).toEqual([]);
     });
 
-    it('a cleared search shows the page list again', async () => {
+    it('a cleared search shows the page list and the number pad again', async () => {
       answerSearch(3);
       renderModule();
       await userEvent.type(input(), 'krishna{Enter}');
@@ -290,6 +292,7 @@ describe('SearchModule', () => {
 
       expect(resultLinks()).toEqual([]);
       expect(shownPages()).toEqual(data.pages.map((p) => p.page));
+      expect(numpad()).not.toBeNull();
     });
 
     it('stops loading and keeps the page usable when the request fails', async () => {

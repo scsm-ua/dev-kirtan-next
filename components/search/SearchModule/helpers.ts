@@ -23,8 +23,15 @@ export function lookFor(
     headers: { 'Content-Type': 'application/json' }
   })
     .then((r) => r.json())
-    .then(({ items, searchInformation }: TSearchResponse) => ({
-      items: items as Array<TSearchResultItem>,
-      itemsTotal: parseInt(searchInformation.totalResults)
-    }));
+    .then(({ error, items, searchInformation }: TSearchResponse) => {
+      // Google answers errors (bad key, quota) as `{ error }` without `searchInformation`.
+      if (error || !searchInformation) {
+        throw new Error(`Search request failed: ${error?.message || 'no search information in the response'}`);
+      }
+
+      return {
+        items: items as Array<TSearchResultItem>,
+        itemsTotal: parseInt(searchInformation.totalResults)
+      };
+    });
 }

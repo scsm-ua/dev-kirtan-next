@@ -5,17 +5,33 @@
   height: var(--footer-height);
   max-height: var(--footer-height);
   overflow: hidden;
+  // Lives inside the scroller (.Layout__content), pinned to the strip below it.
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+
+  // Bottom bar + player dock: the dock takes the bottom strip, so the footer
+  // goes into the flow, as the last element of the page.
+  .has-player-dock & {
+    position: static;
+  }
 
   @include m.sidebar-mode {
-    position: fixed;
     top: 0;
     left: 0;
+    right: auto;
     bottom: 0;
     width: var(--sidebar-width);
     height: auto;
     max-height: none;
     overflow: visible;
-    z-index: 10;
+
+    &,
+    .has-player-dock & {
+      position: fixed;
+    }
   }
 
   &__container {

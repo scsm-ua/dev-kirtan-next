@@ -18,6 +18,8 @@ const INITIAL: TPlayerSnapshot = { status: 'idle', position: 0, duration: null }
 export type TPlayerControllerOptions = {
   /** Play the next queued player when this one ends. */
   autoAdvance?: boolean;
+  /** With `autoAdvance`: after the last player of the queue, go on with the first. */
+  loop?: boolean;
   /** Identifies the same player across remounts of its page (see `PlayerManager.acquire`). */
   key?: string;
   /** Page path of the widget, so the dock can lead back to it. */
@@ -32,6 +34,7 @@ export class PlayerController {
   readonly plugin: TPlayerSourcePlugin;
   readonly action: TPlayerAction | null;
   readonly autoAdvance: boolean;
+  readonly loop: boolean;
   readonly key: string;
   readonly originPath: string;
   element: HTMLElement | null = null;
@@ -47,8 +50,6 @@ export class PlayerController {
   }
 
   private adapter: TPlayerAdapter | null = null;
-  /** Which controller adapter events go to; moves along with the adapter on handover. */
-  private binding: { target: PlayerController } = { target: this };
   private snapshot: TPlayerSnapshot = INITIAL;
   private listeners = new Set<() => void>();
   /** True until the current track run reports `playing` (reset on switch/restart). */
@@ -59,11 +60,12 @@ export class PlayerController {
     public title?: string,
     public subtitle?: string,
     readonly trackInfo?: TPlayerTrackInfo,
-    { autoAdvance = true, key = source.url, originPath = '' }: TPlayerControllerOptions = {}
+    { autoAdvance = true, loop = false, key = source.url, originPath = '' }: TPlayerControllerOptions = {}
   ) {
     this.plugin = getPlugin(source.type ?? detectType(source.url));
     this.action = this.plugin.getAction?.(source.url) ?? null;
     this.autoAdvance = autoAdvance;
+    this.loop = loop;
     this.key = key;
     this.originPath = originPath;
   }
@@ -109,20 +111,6 @@ export class PlayerController {
     this.seek(Math.min(duration, Math.max(0, position + delta)));
   };
 
-  /** Takes over the running adapter and state of a same-source player whose widget is gone. */
-  adoptFrom(other: PlayerController): void {
-    this.adapter = other.adapter;
-    this.isStartPending = other.isStartPending;
-    this.binding = other.binding;
-    this.binding.target = this;
-    const { snapshot } = other;
-
-    other.adapter = null;
-    other.binding = { target: other };
-    other.update(INITIAL);
-    this.update(snapshot);
-  }
-
   destroy(): void {
     this.adapter?.destroy();
     this.adapter = null;
@@ -131,24 +119,22 @@ export class PlayerController {
 
   /**/
   private getAdapter(): TPlayerAdapter {
-    const { binding } = this;
     this.adapter ??= this.plugin.createAdapter(this.source.url, {
       onStatus: (status) => {
-        const self = binding.target;
-        self.update({ status });
-        if (status === 'playing' && self.isStartPending) {
-          self.isStartPending = false;
-          self.trackStart();
+        this.update({ status });
+        if (status === 'playing' && this.isStartPending) {
+          this.isStartPending = false;
+          this.trackStart();
         }
       },
-      onProgress: (position, duration) => binding.target.update({ position, duration }),
+      onProgress: (position, duration) => this.update({ position, duration }),
       onEnded: () => {
-        binding.target.update({ status: 'ended' });
-        playerManager.handleEnded(binding.target);
+        this.update({ status: 'ended' });
+        playerManager.handleEnded(this);
       },
       onError: (error) => {
         console.error('Player error:', this.source.url, error);
-        binding.target.update({ status: 'error' });
+        this.update({ status: 'error' });
         checkConnectivity();
       }
     });

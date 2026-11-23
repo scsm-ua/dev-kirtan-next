@@ -26,7 +26,8 @@ export function usePlayer(
   ref: RefObject<HTMLElement | null>,
   subtitle?: string,
   trackInfo?: TPlayerTrackInfo,
-  autoAdvance = true
+  autoAdvance = true,
+  loop = false
 ) {
   const originPath = useContext(PagePathContext) ?? '';
   // A player kept alive after its page was left is picked up again when the page returns.
@@ -34,13 +35,19 @@ export function usePlayer(
     const key = `${originPath}|${source.url}`;
     return playerManager.acquire(
       key,
-      () => new PlayerController(source, title, subtitle, trackInfo, { autoAdvance, key, originPath })
+      () => new PlayerController(source, title, subtitle, trackInfo, { autoAdvance, loop, key, originPath })
     );
   });
-  const snapshot = useControllerSnapshot(controller);
+  // The playing track of another page is mirrored here: its state is shown and toggled.
+  const shown = useSyncExternalStore(
+    playerManager.subscribe,
+    () => playerManager.getShown(controller),
+    () => controller
+  );
+  const snapshot = useControllerSnapshot(shown);
   const isActive = useSyncExternalStore(
     playerManager.subscribe,
-    () => playerManager.getSnapshot().active === controller,
+    () => playerManager.getSnapshot().active === shown,
     () => false
   );
 
@@ -67,5 +74,5 @@ export function usePlayer(
     controller.setTitle(title, subtitle);
   }, [controller, title, subtitle]);
 
-  return { controller, snapshot, isActive };
+  return { controller: shown, snapshot, isActive };
 }

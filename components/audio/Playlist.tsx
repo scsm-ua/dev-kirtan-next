@@ -1,6 +1,6 @@
 'use client';
 import classNames from 'classnames';
-import { useEffect, useId, useMemo, useState, useSyncExternalStore } from 'react';
+import { useContext, useEffect, useId, useMemo, useState, useSyncExternalStore } from 'react';
 
 import './Playlist.scss';
 import PlayerWidget from '@/components/player/PlayerWidget';
@@ -8,6 +8,7 @@ import PlaylistLink from '@/components/audio/PlaylistLink';
 import { AUTOPLAY_PARAM, getSongPathWithPage } from '@/other/paths';
 import { translate } from '@/other/i18n';
 import { playerManager } from '@/other/player/PlayerManager';
+import { PagePathContext } from '@/other/router/pagePath';
 import { getAudioSort, setAudioSort } from '@/other/userPreferrences';
 import { AUDIO_SORT } from '@/types/audio';
 
@@ -44,6 +45,21 @@ function shuffle<T>(list: Array<T>): Array<T> {
   return result;
 }
 
+/** What the page of the playing playlist looked like: its sort and the order of `track.order`. */
+type TPlaylistView = { sort: TAudioSort; order: Array<number> };
+
+/** The view saved with the playing playlist, when `path` is its page. */
+function getSavedView(path: string): TPlaylistView | null {
+  return (playerManager.getPlaylistView(path) as TPlaylistView | null) ?? null;
+}
+
+/** `tracks` in a saved order; tracks it does not know go last. */
+function restoreOrder(tracks: Array<TAudioTrack>, order: Array<number>): Array<TAudioTrack> {
+  const position = new Map(order.map((value, index) => [value, index]));
+  const at = (track: TAudioTrack) => position.get(track.order) ?? order.length;
+  return [...tracks].sort((a, b) => at(a) - at(b));
+}
+
 /**/
 const noopSubscribe = () => () => {};
 const getServerSort = (): TAudioSort => AUDIO_SORT.FIRST_LINE;
@@ -55,19 +71,27 @@ function Playlist({ bookId, tracks, showSinger }: Props) {
   const name = useId();
   // Static HTML is always first-line sorted; the stored choice applies after hydration.
   const stored = useSyncExternalStore(noopSubscribe, getAudioSort, getServerSort);
+  const path = useContext(PagePathContext) ?? '';
+  // The page of the playing playlist comes back as it was left: prev/next follow this order.
+  const [saved] = useState(() => getSavedView(path));
   const [picked, setPicked] = useState<TAudioSort | null>(null);
-  const sort = picked ?? stored;
+  const sort = picked ?? saved?.sort ?? stored;
   const isSortByTitleEnabled = sort === AUDIO_SORT.TITLE;
-  const [shuffled] = useState(() => shuffle(tracks));
+  const [shuffled] = useState(() =>
+    saved?.sort === AUDIO_SORT.SHUFFLE ? restoreOrder(tracks, saved.order) : shuffle(tracks)
+  );
   const sorted = useMemo(() => {
     if (sort === AUDIO_SORT.SHUFFLE) return shuffled;
     return isSortByTitleEnabled ? [...tracks].sort((a, b) => a.order - b.order) : tracks;
   }, [sort, isSortByTitleEnabled, shuffled, tracks]);
 
-  // Prev/next follow DOM order and the dock shows the track title; both just changed.
+  // The manager keeps the view with the playlist played from this page, to show the page the
+  // same way when it comes back. Then the dock: its title just changed, and on the page of the
+  // playing playlist prev/next follow the new order (on other pages they do not).
   useEffect(() => {
+    playerManager.setPageView(path, { sort, order: sorted.map((track) => track.order) });
     playerManager.refresh();
-  }, [sort]);
+  }, [path, sort, sorted]);
 
   // `?autoplay=1` (from a singer's play link): start the first track once, then drop the param.
   useEffect(() => {
@@ -123,6 +147,7 @@ function Playlist({ bookId, tracks, showSinger }: Props) {
             <li className="Playlist__item" key={track.order}>
               <PlayerWidget
                 className="Playlist__player"
+                loop
                 showSubtitleInline
                 source={{ url: track.url }}
                 subtitle={subtitle}

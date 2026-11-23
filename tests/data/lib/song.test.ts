@@ -92,7 +92,11 @@ describe.each(getBookIds())('songs of %s', (bookId) => {
 });
 
 describe.each(getBookIds())('getNavItems in %s', (bookId) => {
-  const items = getItems(bookId);
+  const all = getItems(bookId);
+  const samePlace = (a: TItem, b: TItem) => a.id === b.id && String(a.page) === String(b.page);
+
+  // Navigation skips a listing that is repeated later with the same page.
+  const items = all.filter((item, i) => !all.slice(i + 1).some((later) => samePlace(item, later)));
 
   const isLinkTo = (link: TNavItem | void, item: TItem | undefined) =>
     item
@@ -106,9 +110,9 @@ describe.each(getBookIds())('getNavItems in %s', (bookId) => {
       const nav = await getNavItems(slug, bookId);
       const places = items.flatMap((item, i) => (item.id === slug ? [i] : []));
       const pages = places.map((i) => items[i].page).filter(Boolean).map(String);
-      const keys = pages.length ? [...new Set(pages)] : ['_'];
+      const keys = pages.length ? pages : ['_'];
 
-      if (Object.keys(nav).sort().join() !== keys.sort().join()) {
+      if (Object.keys(nav).sort().join() !== [...keys].sort().join()) {
         problems.push(`${bookId}/${slug}: pages ${Object.keys(nav)} instead of ${keys}`);
         continue;
       }
@@ -128,12 +132,59 @@ describe.each(getBookIds())('getNavItems in %s', (bookId) => {
     expect(problems).toEqual([]);
   });
 
+  it('walks the same items forward with next and back with prev', async () => {
+    const navOf = async (item: TItem) => {
+      const nav = await getNavItems(item.id, bookId);
+      return nav[String(item.page)] ?? nav._;
+    };
+    const itemOf = (link: TNavItem | void) =>
+      link && items.find((item) => getSongPathWithPage(bookId, item) === link.path);
+
+    const walk = async (from: TItem, dir: 'prev' | 'next') => {
+      const paths: string[] = [];
+
+      for (let item = from; item && paths.length <= items.length; ) {
+        paths.push(getSongPathWithPage(bookId, item));
+        item = itemOf((await navOf(item))[dir]);
+      }
+
+      return paths;
+    };
+
+    const forward = await walk(items[0], 'next');
+    const back = await walk(items[items.length - 1], 'prev');
+
+    expect(forward).toEqual(items.map((item) => getSongPathWithPage(bookId, item)));
+    expect(back).toEqual([...forward].reverse());
+  });
+
   it('gives the first item no previous one and the last item no next one', async () => {
     const first = await getNavItems(items[0].id, bookId);
     const last = await getNavItems(items[items.length - 1].id, bookId);
 
     expect(Object.values(first).some(({ prev }) => !prev)).toBe(true);
     expect(Object.values(last).some(({ next }) => !next)).toBe(true);
+  });
+});
+
+describe('getNavItems of a song listed twice with the same page', () => {
+  it('has one entry: back leaves the first listing, forward leaves the last one', async () => {
+    const { bookId, slug } = findSong('listed-twice-with-same-page');
+    const all = getItems(bookId);
+    const places = all.flatMap((item, i) => (item.id === slug ? [i] : []));
+    const between = all.slice(places[0] + 1, places[places.length - 1]);
+    const listedOnce = (item: TItem) => all.filter((other) => other.id === item.id).length === 1;
+
+    const nav = await getNavItems(slug, bookId);
+    const [{ prev, next }] = Object.values(nav);
+
+    expect(Object.keys(nav)).toEqual([String(all[places[0]].page)]);
+    expect(next && next.path).toBe(
+      getSongPathWithPage(bookId, all[places[places.length - 1] + 1])
+    );
+    // Songs between the listings are repeats too; back never lands on the last of them.
+    expect(between.every((item) => !listedOnce(item))).toBe(true);
+    expect(prev && prev.path).toBe(getSongPathWithPage(bookId, all[places[0] - 1]));
   });
 });
 

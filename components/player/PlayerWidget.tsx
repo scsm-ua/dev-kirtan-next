@@ -11,6 +11,8 @@ import type { TPlayerSource, TPlayerTrackInfo } from '@/types/player';
 type Props = {
   /** Play the next player in the list when this one ends (playlists). */
   autoAdvance?: boolean;
+  /** After the last player of the list, go on with the first (looped playlists). */
+  loop?: boolean;
   /** Greyed out and not playable (e.g. offline). */
   disabled?: boolean;
   source: TPlayerSource;
@@ -27,6 +29,7 @@ type Props = {
 function PlayerWidget({
   autoAdvance,
   disabled,
+  loop,
   source,
   title,
   subtitle,
@@ -41,7 +44,8 @@ function PlayerWidget({
     ref,
     subtitle,
     trackInfo,
-    autoAdvance
+    autoAdvance,
+    loop
   );
   const { status, position, duration } = snapshot;
   const hasTwoRows = Boolean(title && showSubtitleInline && subtitle);

@@ -1,8 +1,10 @@
-import { fireEvent, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, describe, expect, it } from 'vitest';
 
 import PlayerSyncToggle from '@/components/player/PlayerSyncToggle';
-import { getFakeAdapter } from '@/tests/helpers/player';
+import PlayerWidget from '@/components/player/PlayerWidget';
+import { PagePathContext } from '@/other/router/pagePath';
+import { FAKE_TYPE, fakeUrl, getFakeAdapter } from '@/tests/helpers/player';
 import { closePlayerPage, renderPlayerPage, sourceSays } from '@/tests/helpers/playerPage';
 
 afterEach(closePlayerPage);
@@ -42,5 +44,31 @@ describe('PlayerSyncToggle', () => {
 
     expect(syncToggle().getAttribute('aria-label')).toBe('Play');
     expect(screen.getAllByRole('button')).toHaveLength(1);
+  });
+
+  it('follows the active player on another page that shows the same track', () => {
+    const page = (path: string, names: string[]) => (
+      <PagePathContext.Provider key={path} value={path}>
+        {names.map((name) => (
+          <PlayerWidget
+            className={`Test__${name}`}
+            key={name}
+            source={{ type: FAKE_TYPE, url: fakeUrl(name) }}
+            title={name}
+          />
+        ))}
+        <PlayerSyncToggle />
+      </PagePathContext.Provider>
+    );
+    const { rerender } = render(page('/first/', ['a', 'b']));
+    fireEvent.click(document.querySelector('.Test__b button'));
+    sourceSays('b', (events) => events.onStatus('playing'));
+    rerender(page('/second/', ['x', 'b']));
+
+    expect(syncToggle().getAttribute('aria-label')).toBe('Pause');
+    fireEvent.click(syncToggle());
+
+    expect(getFakeAdapter('b').pause).toHaveBeenCalledOnce();
+    expect(getFakeAdapter('x')).toBeUndefined();
   });
 });
