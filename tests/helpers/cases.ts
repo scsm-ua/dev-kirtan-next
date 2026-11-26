@@ -69,9 +69,6 @@ export const getAboutBookId = (bookId: string) =>
 const BOOK_CASES = {
   'audio-filter': (book) => !!book.audio?.filter?.by_title?.length,
   'markdown-pages': (book) => getItems(book.slug).some((item) => item.type === 'page'),
-  'own-about': (book) => hasOwnAbout(book.slug),
-  // No About page of its own, but the default-language book has one.
-  'about-of-default-book': (book) => !hasOwnAbout(book.slug) && hasOwnAbout(DEFAULT_LANGUAGE),
   hidden: (book) => !!book.hidden
 } satisfies Record<string, (book: TBookDescription) => boolean>;
 

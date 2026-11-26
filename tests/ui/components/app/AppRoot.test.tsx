@@ -1,17 +1,43 @@
 import { act, waitFor } from '@testing-library/react';
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
+import { getAboutLink } from '@/lib/about';
 import { translate } from '@/other/i18n';
-import { ABOUT_PAGE_SLUG, getSongbookPagePath, getSongbookPath, getSongPath, SONGBOOK_PAGE } from '@/other/paths';
+import { getSongbookPagePath, getSongbookPath, SONGBOOK_PAGE } from '@/other/paths';
 import { getRoutePath } from '@/other/router/routes';
 import { renderApp, stubBrowserApis } from '@/tests/helpers/app';
 import { getBookIds, getItems, getSongItems } from '@/tests/helpers/books';
-import { findBook, findSong, getAboutBookId } from '@/tests/helpers/cases';
+import { findBook, findSong } from '@/tests/helpers/cases';
 import { mockDataFetch } from '@/tests/helpers/dataServer';
 import { mockLocationMethods } from '@/tests/helpers/location';
 import { loadPage, loadSongPage } from '@/tests/helpers/pageData';
 
 import type { TPageDataOf } from '@/types/pageData';
+
+/**
+ * The real About link of a book; when no real book has an About page, a
+ * stand-in link to a real markdown page, so the header button is still shown.
+ */
+vi.mock('@/lib/about', async (importOriginal) => {
+  const actual = await importOriginal<typeof import('@/lib/about')>();
+  const { getSongPath } = await import('@/other/paths');
+  const { getItems } = await import('@/tests/helpers/books');
+  const { findBook } = await import('@/tests/helpers/cases');
+
+  return {
+    getAboutLink: vi.fn((id: string) => {
+      const real = actual.getAboutLink(id);
+      if (real) return real;
+
+      const pageBookId = findBook('markdown-pages');
+      const page = getItems(pageBookId).find((item) => item.type === 'page');
+      return { path: getSongPath(pageBookId, page.id), title: page.title };
+    })
+  };
+});
+
+/** Book id of a site path such as `/en/about/`. */
+const bookOfPath = (path: string) => path.split('/')[1];
 
 const [bookId] = getBookIds();
 
@@ -199,31 +225,28 @@ describe('AppRoot', () => {
       expect(document.querySelector('.AppRoot__progress')).toBeNull();
     });
 
-    it.each(['own-about', 'about-of-default-book'] as const)(
-      'has the info button on the songbook list only, to the About page (%s)',
-      async (name) => {
-        const listBookId = findBook(name);
-        const list = await loadPage({ kind: 'book-list', bookId: listBookId }, 'book-list');
-        renderApp(list);
+    it('has the info button on the songbook list only, to the About page', async () => {
+      const list = await loadPage({ kind: 'book-list', bookId }, 'book-list');
+      renderApp(list);
 
-        expect(aboutLink().getAttribute('href')).toBe(getSongPath(getAboutBookId(listBookId), ABOUT_PAGE_SLUG));
-        expect(aboutLink().getAttribute('aria-label')).toBe(list.data.about.title);
+      expect(aboutLink().getAttribute('href')).toBe(getAboutLink(bookId).path);
+      expect(aboutLink().getAttribute('aria-label')).toBe(getAboutLink(bookId).title);
 
-        click(footerLinks().find((link) => link.getAttribute('href') === getSongbookPagePath(listBookId, SONGBOOK_PAGE.CONTENTS)));
-        await waitFor(() => expect(main().querySelector('.Contents__title')).not.toBeNull());
-        expect(aboutLink()).toBeNull();
-      }
-    );
+      click(footerLinks().find((link) => link.getAttribute('href') === getSongbookPagePath(bookId, SONGBOOK_PAGE.CONTENTS)));
+      await waitFor(() => expect(main().querySelector('.Contents__title')).not.toBeNull());
+      expect(aboutLink()).toBeNull();
+    });
 
-    it('opens the About page of the default-language book from the list of a book without one', async () => {
-      const listBookId = findBook('about-of-default-book');
-      const aboutBookId = getAboutBookId(listBookId);
+    it('opens the About page of another book from the list of a book without one', async () => {
+      const listBookId = getBookIds().find((id) => bookOfPath(getAboutLink(id).path) !== id);
+      const { path } = getAboutLink(listBookId);
+      const aboutBookId = bookOfPath(path);
       renderApp(await loadPage({ kind: 'book-list', bookId: listBookId }, 'book-list'));
 
       click(aboutLink());
       await waitFor(() => expect(main().querySelector('.PageMarkdown')).not.toBeNull());
 
-      expect(window.location.pathname).toBe(getSongPath(aboutBookId, ABOUT_PAGE_SLUG));
+      expect(window.location.pathname).toBe(path);
       // The reader is in the book of the page now; the button belongs to the songbook list.
       expect(document.querySelector('.Header__home').getAttribute('href')).toBe(getSongbookPath(aboutBookId));
       expect(aboutLink()).toBeNull();

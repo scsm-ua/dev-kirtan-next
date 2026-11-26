@@ -1,6 +1,6 @@
 {
   "en": {
-    "repository": "git+https://github.com/scsm-ua/kirtan-guide-en-london.git",
+    "repository": "git+https://github.com/scsm-ua/kirtan-guide-en-london.git#5c3bc5c162e9faeb2bdec8eee673201754ea71af",
     "shortcuts": [{
       "icon": "clock",
       "title": "The Daily Programme",
@@ -22,7 +22,7 @@
   "es": "git+https://github.com/scsm-ua/kirtan-guide-es.git",
   "pt": "git+https://github.com/scsm-ua/kirtan-guide-pt.git",
   "lv": "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git",
-  "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git",
+  "ua": "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git#bdfa098fe21ce8fa1646cf9088dcc0a7b1f646a1",
   "en-2022": {
     "repository": "git+https://github.com/scsm-ua/kirtan-guide-en.git",
     "is_legacy": {
