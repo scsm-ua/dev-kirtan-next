@@ -56,6 +56,11 @@
 <priority>0.8</priority>
 </url>
 <url>
+<loc>https://dev.kirtan.site/en/about/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
 <loc>https://dev.kirtan.site/en/001-title/</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
@@ -4258,6 +4263,11 @@
 <url>
 <loc>https://dev.kirtan.site/ua/audio/caracas-temple/</loc>
 <changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://dev.kirtan.site/ua/about/</loc>
+<changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>

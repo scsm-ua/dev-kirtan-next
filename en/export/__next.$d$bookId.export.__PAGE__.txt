@@ -3,11 +3,12 @@
 6:I[5727,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tf24df,<h1 class="book-title">Kirtan Guide</h1>
+3:Tf2992,<h1 class="book-title">Kirtan Guide</h1>
 <p class="nav-links"><a href="#first-lines">↓ Index</a></p>
 <section class="toc" id="toc">
 <h1>Contents</h1>
 <h2 class="toc-item-group">Intro</h2>
+<p class="toc-item page" data-translated="1"><a href="#song-about">About Project</a></p>
 <p class="toc-item page" data-translated="1"><a href="#song-001-title">Kīrtan Guide<span class="page-num"> — 1</span></a></p>
 <p class="toc-item page" data-translated="1"><a href="#song-002-printed-and-published">Printed and Published<span class="page-num"> — 2</span></a></p>
 <p class="toc-item page" data-translated="1"><a href="#song-003-programme">Framework of The Daily Programme<span class="page-num"> — 3</span></a></p>
@@ -247,6 +248,21 @@
 </section>
 <section class="category">
 <h1>Intro</h1>
+<section class="song page" id="song-about" data-translated="1">
+<h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<div class="PageMarkdown"><h1>About This Project</h1>
+<p>This is the web edition of the <strong>Kīrtan Guide</strong>, Twelfth Edition, published by Sri Chaitanya Saraswat Math, London, in 2026.</p>
+<h2>Helpful Links and Tips</h2>
+<p>Pronunciation guides, recordings of the melodies, and details of the printed book and PDF:</p>
+<p><a href="https://scsmath.com/KirtanGuide/">scsmath.com/KirtanGuide</a></p>
+<h2>Contribute</h2>
+<p>The songbook and the web app are developed openly on GitHub. If you notice a mistake or have an idea for an improvement, please feel free to contribute and participate:</p>
+<ul>
+<li><a href="https://github.com/scsm-ua/kirtan-guide-en-london">github.com/scsm-ua/kirtan-guide-en-london</a> – songbook texts: the songs and pages of this book</li>
+<li><a href="https://github.com/scsm-ua/kirtan-next/">github.com/scsm-ua/kirtan-next</a> – web app code: the website itself</li>
+</ul>
+</div>
+</section>
 <section class="song page" id="song-001-title" data-translated="1">
 <h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
 <div class="PageMarkdown"><div style="text-align: center;"><p><i>All glories to Śrī Guru and Śrī Gaurāṅga</i></p>
@@ -11256,7 +11272,7 @@ The bees, intoxicated in the festival<br />of drinking the honey of the Lord’s
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita aṣṭa-sakhī-suveṣṭita<span class="page-num"> — 206</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-gaite-gaite-nama-ki-doshia-hoilo">yugāyitaṁ nimeṣeṇa chakṣuṣā prāvṛṣāyitam<span class="page-num"> — 202</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FIG9BJwzCv1vH2d3RlKMw"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-en","lang":"en","title":"Kirtan Guide"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DP6AM0tOtFB00cUYprv67"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

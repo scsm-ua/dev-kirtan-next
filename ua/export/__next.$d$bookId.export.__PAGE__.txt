@@ -3,11 +3,12 @@
 6:I[5727,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:Tc3fbd,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
+3:Tc44ea,<h1 class="book-title">Ґаудія Ґітанджалі</h1>
 <p class="nav-links"><a href="#first-lines">↓ Індекс</a></p>
 <section class="toc" id="toc">
 <h1>Зміст</h1>
 <h2 class="toc-item-group">Вступ</h2>
+<p class="toc-item page" data-translated="1"><a href="#song-about">Про проєкт</a></p>
 <p class="toc-item" data-translated="1"><a href="#song-vande-ham-shri-guroh-shri-yuta-pada-kamalam">Вандана̄<span class="page-num"> — 11</span></a></p>
 <p class="toc-item" data-translated="1"><a href="#song-acharya-varyam-gaura-dhama-nishtham">Прана̄м Мантра - Шрīла Бгакті Ранджан Мадгусӯдана Маха̄ра̄дж</a></p>
 <p class="toc-item" data-translated="1"><a href="#song-vande-vaikuntha-vritti-stham">Прана̄м Мантра - Шрīла Бгакті Бімал Авадгӯт Маха̄ра̄дж<span class="page-num"> — 11/1</span></a></p>
@@ -190,6 +191,19 @@
 </section>
 <section class="category">
 <h1>Вступ</h1>
+<section class="song page" id="song-about" data-translated="1">
+<h2> <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<div class="PageMarkdown"><h1>Про проєкт</h1>
+<p>Це вебверсія вайшнавського пісенника українською мовою <strong>«Ґаудія Ґітанджалі»</strong>, Шрі Чайтанья Сарасват Матх.</p>
+<p>Пісенник перебуває у процесі перекладу: частина пісень містить лише транслітерацію віршів.</p>
+<h2>Долучайтеся</h2>
+<p>Пісенник і вебзастосунок відкрито розробляються на GitHub. Якщо ви помітили помилку або маєте ідею, як щось покращити, будь ласка, долучайтеся:</p>
+<ul>
+<li><a href="https://github.com/scsm-ua/gaudiya-gitanjali-ua">github.com/scsm-ua/gaudiya-gitanjali-ua</a> – тексти цього пісенника</li>
+<li><a href="https://github.com/scsm-ua/kirtan-next/">github.com/scsm-ua/kirtan-next</a> – код сайту</li>
+</ul>
+</div>
+</section>
 <section class="song" id="song-vande-ham-shri-guroh-shri-yuta-pada-kamalam" data-translated="1">
 <div class="verse-block" data-number="">
 <h2>Вандана̄ <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
@@ -8988,7 +9002,7 @@
 <p class="first-line" data-translated="0"><a href="#song-yadi-te-hari-pada-saroja-sudha">яді те харі-па̄да-сароджа-судга̄</a></p>
 <p class="first-line" data-translated="0"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">ямуна̄мбу-кришна-ра̄дгіка̄лі-келі-мандалам<span class="page-num"> — 104</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"uk","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FIG9BJwzCv1vH2d3RlKMw"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-ua","lang":"uk","title":"Ґаудія Ґітанджалі"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DP6AM0tOtFB00cUYprv67"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
