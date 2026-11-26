@@ -3,7 +3,7 @@
 6:I[5727,[],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/css/d41aea12ff0698fe.css","style"]
-3:T61cc2,<h1 class="book-title">Gaudija Gītandžalī</h1>
+3:T624fe,<h1 class="book-title">Gaudija Gītandžalī</h1>
 <p class="nav-links"><a href="#first-lines">↓ Indekss</a></p>
 <section class="toc" id="toc">
 <h1>Saturs</h1>
@@ -108,6 +108,7 @@
 <p class="toc-item" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">Sakhi-vṛnde Vijñaptiḥ<span class="page-num"> — 205</span></a></p>
 <h2 class="toc-item-group">Šrīmatī Rādhārānī veltītas dziesmas</h2>
 <p class="toc-item" data-translated="1"><a href="#song-radhakundatata-kunjakutira">Rādhā-kuṇḍataṭa-kuñja-kuṭīra<span class="page-num"> — 199</span></a></p>
+<p class="toc-item" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">Śrī Rādhikā-stava<span class="page-num"> — 200</span></a></p>
 </section>
 <section class="category">
 <h1>Vandana</h1>
@@ -4404,6 +4405,34 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="translation">“Uzklausi mani, Kāna,” saka Bhaktivinoda, “Tu esi manas dzīves vienīgā gaisma.”</p>
 </div>
 </section>
+<section class="song" id="song-radhe-jaya-jaya-madhava-dayite" data-translated="1">
+<div class="verse-block" data-number="1">
+<h2>Śrī Rādhikā-stava <span class="nav-links">&nbsp;&nbsp;<a href="#toc">↑</a>&nbsp;&nbsp;<a href="#first-lines">↓</a></span></h2>
+<h4>Šrīla Rūpa Gosvāmī</h4>
+<h5>1</h5>
+<p class="verse"><strong>rādhe jaya jaya mādhava-dayite</strong><br>
+<strong>gokula-taruṇī-maṇḍala-mahite</strong></p>
+<p class="translation">Ak, Rādha, Madhavas mīļotā! Tevi pielūdz visas jaunās meitas Gokulā! Visa slava Tev! Visa slava Tev!</p>
+</div>
+<div class="verse-block" data-number="2">
+<h5>2</h5>
+<p class="verse"><strong>dāmodara-rati-vardhana-veśe</strong><br>
+<strong>hari-niṣkuṭa-vṛndā-vipineśe</strong></p>
+<p class="translation">Tu, kas greznojas tā, lai arvien vairotu Kunga Dāmodara mīlestību un pieķeršanos. Ak, Vrindāvanas karaliene, Kunga Harī prieka un rotaļu birzs.</p>
+</div>
+<div class="verse-block" data-number="3">
+<h5>3</h5>
+<p class="verse"><strong>vṛṣabhānūdadhi-nava-śaśi-lekhe</strong><br>
+<strong>lalitā-sakhi guṇa-ramita-viśākhe</strong></p>
+<p class="translation">Ak, jaunais mēness, kas uzausis no ķēniņa Vrišabhānu okeāna. Ak, Lalitas tuvā draudzene. Ak, tu, kuras brīnišķīgais draudzīgums, maigums un uzticība Krišnam ir padarījusi Višākhu par tavu uzticīgo pavadoni.</p>
+</div>
+<div class="verse-block" data-number="4">
+<h5>4</h5>
+<p class="verse"><strong>karuṇāṁ kuru moyi karuṇā-bhorite</strong><br>
+<strong>sanaka-sanātana-varṇita-charite</strong></p>
+<p class="translation">Ak, līdzjūtības pilnā. Ak, tu, kuras dievišķās īpašības apdzied diženi gudrie Sanaka un Sanātana. Ak, Rādha, lūdzu, esi žēlsirdīga pret mani.</p>
+</div>
+</section>
 </section>
 <section class="first-lines" id="first-lines">
 <h1>Indekss</h1>
@@ -4485,6 +4514,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-radha-krishna-prana-mora-jugala-kishora">rādhā-kṛṣṇa prāṇa mora jugala-kiśora<span class="page-num"> — 205</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radhakundatata-kunjakutira">rādhākuṇḍataṭa-kuñjakuṭīra<span class="page-num"> — 199</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-radha-madhava-kunja-bihari">rādhā-mādhava (jaya) kuñja-bihārī<span class="page-num"> — 203/2</span></a></p>
+<p class="first-line" data-translated="1"><a href="#song-radhe-jaya-jaya-madhava-dayite">rādhe jaya jaya mādhava-dayite<span class="page-num"> — 200</span></a></p>
 <h2 class="first-line-group">S</h2>
 <p class="first-line" data-translated="1"><a href="#song-sakala-vaishnava-pade-mora-namaskara">sakala vaiṣṇava-pade mora namaskāra<span class="page-num"> — 21/2</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-sakhi-go-kemote-dhoribo-paran">sakhi go kemote dhoribo parāṇ<span class="page-num"> — 191/1</span></a></p>
@@ -4519,7 +4549,7 @@ Piezīme pie dziesmas 8b: <i>Šrīla Šrīdhārs Mahārādža ieteica nedziedāt
 <p class="first-line" data-translated="1"><a href="#song-yamunambu-krishna-radhikali-keli-mandalam">yāmunāmbu-kṛṣṇa-rādhikāli-keli-maṇḍalam<span class="page-num"> — 104</span></a></p>
 <p class="first-line" data-translated="1"><a href="#song-yoga-pithopari-sthita-ashta-sakhi-subeshtita">yoga-pīṭhopari-sthita, aṣṭa-sakhī-subeṣṭita<span class="page-num"> — 192</span></a></p>
 </section>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"dK4mAvycVzqj0oINODfVa"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"body":"$3","fileName":"Songbook-Export-lv","lang":"lv","title":"Gaudija Gītandžalī"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FIG9BJwzCv1vH2d3RlKMw"}
 4:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d41aea12ff0698fe.css","precedence":"next"}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

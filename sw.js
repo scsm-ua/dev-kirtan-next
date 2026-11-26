@@ -83,6 +83,17 @@ function normalizeUrl(url) {
   return urlObj.href;
 }
 
+// URL of a document load with the trailing slash added (query kept; the browser keeps the hash),
+// or null when the URL has one or names a file (`.html`).
+function getSlashRedirectUrl(request) {
+  const urlObj = new URL(request.url);
+  if (request.mode !== 'navigate' || urlObj.pathname.endsWith('/') || urlObj.pathname.includes('.')) {
+    return null;
+  }
+  urlObj.pathname = urlObj.pathname + '/';
+  return urlObj.href;
+}
+
 // Fetch event - cache first for static assets, network first for HTML
 self.addEventListener('fetch', (event) => {
   const { request } = event;
@@ -128,6 +139,13 @@ self.addEventListener('fetch', (event) => {
           return response;
         })
         .catch(() => {
+          // Offline the host cannot redirect a page URL without the trailing slash;
+          // the app takes only URLs with it for its pages, so redirect here.
+          const slashUrl = getSlashRedirectUrl(request);
+          if (slashUrl) {
+            return Response.redirect(slashUrl, 302);
+          }
+
           // If network fails, try the cached page, then the app shell
           return caches.match(normalizedUrl)
             .then((cached) => cached || caches.match(SHELL_PATH))
