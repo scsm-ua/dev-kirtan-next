@@ -1,7 +1,10 @@
 import {
   allowErrors,
+  dataUrlOf,
   expect,
   findPage,
+  getBookIds,
+  getBookPages,
   getNeighbours,
   markDocument,
   pathOf,
@@ -10,6 +13,7 @@ import {
 } from '@/tests/helpers/e2e';
 
 import type { Page } from '@playwright/test';
+import type { TPageDataOf } from '@/types/pageData';
 
 /**
  * Client navigation in a real browser: links and keys open pages from
@@ -40,14 +44,9 @@ test('other songbooks can be selected and appear first at their root', async ({ 
 });
 
 test('the info button of a songbook list without an About page opens the page of another book; back returns', async ({ page }) => {
-  const list = findPage('book-list', 'a songbook list whose info button leads to another book', (candidate) =>
-    !!candidate.data.about && !candidate.data.about.path.startsWith(pathOf(candidate))
-  );
+  const list = await openListWithForeignAbout(page);
   const { path, title } = list.data.about;
   const dataRequests = recordDataRequests(page);
-
-  await page.goto(pathOf(list));
-  await waitForApp(page);
   const isSameDocument = await markDocument(page);
   const button = page.locator('.Header__about');
 
@@ -66,6 +65,42 @@ test('the info button of a songbook list without an About page opens the page of
   await expect(button).toBeVisible();
   expect(await isSameDocument()).toBe(true);
 });
+
+/**
+ * Opens a songbook list whose info button leads to another book. The build
+ * may have no About page at all (songbooks without one): then the data file
+ * of a list gets a stand-in link to a real markdown page of another book, and
+ * the list is reached by client navigation, so the app reads that file.
+ */
+async function openListWithForeignAbout(page: Page): Promise<TPageDataOf<'book-list'>> {
+  const isList = (candidate: { kind: string }): candidate is TPageDataOf<'book-list'> => candidate.kind === 'book-list';
+  const real = getBookIds()
+    .flatMap((bookId) => getBookPages(bookId).filter(isList))
+    .find((candidate) => !!candidate.data.about && !candidate.data.about.path.startsWith(pathOf(candidate)));
+
+  if (real) {
+    await page.goto(pathOf(real));
+    await waitForApp(page);
+    return real;
+  }
+
+  const markdown = findPage('page', 'a markdown page');
+  const original = findPage('book-list', 'a songbook list of another book', (candidate) =>
+    candidate.route.bookId !== markdown.route.bookId
+  );
+  const list = { ...original, data: { ...original.data, about: { path: pathOf(markdown), title: 'About (stand-in)' } } };
+  await page.context().route(dataUrlOf(original), (route) => route.fulfill({ json: list }));
+
+  const contents = findPage('contents', 'the contents of the list book', (candidate) =>
+    candidate.route.bookId === list.route.bookId
+  );
+  await page.goto(pathOf(contents));
+  await waitForApp(page);
+  await page.locator(`nav[aria-label="Songbook navigation"] a[href="${pathOf(list)}"]`).click();
+  await expect(page).toHaveURL(pathOf(list));
+
+  return list;
+}
 
 /** Data files the page requested, as paths. */
 function recordDataRequests(page: Page): string[] {
