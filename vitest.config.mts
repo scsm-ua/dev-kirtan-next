@@ -4,7 +4,7 @@ import { parseEnv } from 'node:util';
 
 import { defineConfig } from 'vitest/config';
 
-// Folder rules and layers: .github/plans/plan-tests.md (D7, D9).
+// Folder rules and layers: .github/plans/2026-11-16_plan-tests.md (D7, D9).
 const root = import.meta.dirname;
 const testEnv = parseEnv(readFileSync(path.join(root, 'env/.env.test'), 'utf8'));
 
