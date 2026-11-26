@@ -5,7 +5,7 @@ import { getContentItemBySlug } from '@/lib/contents';
 import { DEFAULT_LANGUAGE } from '@/other/i18n';
 import { ABOUT_PAGE_SLUG, getSongPath } from '@/other/paths';
 import { getBookIds, getItems } from '@/tests/helpers/books';
-import { getAboutBookId } from '@/tests/helpers/cases';
+import { getAboutBookId, hasOwnAbout } from '@/tests/helpers/cases';
 
 import type { TContentItem } from '@/types/common';
 
@@ -77,5 +77,12 @@ describe('getAboutLink', () => {
     });
 
     expect(getAboutLink(otherBookId)).toEqual(inlineLinkTo(DEFAULT_LANGUAGE));
+  });
+});
+
+describe('real songbooks', () => {
+  it('have the en songbook, with an About page', () => {
+    expect(getBookIds()).toContain('en');
+    expect(hasOwnAbout('en')).toBe(true);
   });
 });
