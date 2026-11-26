@@ -51,4 +51,4 @@ Phase 3 — Layout integration *(parallel with Phase 2)*
 
 **Further Considerations**
 1. 72px is tight for three rows; if the title row doesn't fit cleanly the var can be bumped (e.g. 88px) — the padding formula and sidebar reservation adapt automatically.
-2. In bottom-footer mode the dock hides footer navigation entirely while active — intended per request; nothing else needed. *Replaced later by `plan-keepFooterWIthDockPlayer.md`: the footer scrolls in above the dock at the end of the page.*
+2. In bottom-footer mode the dock hides footer navigation entirely while active — intended per request; nothing else needed. *Replaced later by `2026-11-23_plan-keepFooterWIthDockPlayer.md`: the footer scrolls in above the dock at the end of the page.*

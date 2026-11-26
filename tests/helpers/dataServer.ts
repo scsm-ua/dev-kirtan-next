@@ -1,19 +1,19 @@
 import { vi } from 'vitest';
 
 import { loadPageData } from '@/lib/pageData';
-import { parseAudioFile, parseItemFile } from '@/other/router/routes';
+import { parseDataFile } from '@/other/router/routes';
 
 import type { TRoute } from '@/types/pageData';
 
-const DATA_URL = /^\/data\/([^/]+)\/(audio\/)?([^/]+)$/;
+const DATA_URL = /^\/data\/([^/]+)\/(.+)$/;
 
 /** Route of a `/data/…json` URL, or `null`. */
 function parseDataUrl(pathname: string): TRoute | null {
   const match = DATA_URL.exec(pathname);
   if (!match) return null;
 
-  const [, bookId, audio, file] = match;
-  return audio ? parseAudioFile(bookId, file) : parseItemFile(bookId, file);
+  const [, bookId, file] = match;
+  return parseDataFile(bookId, file);
 }
 
 /**

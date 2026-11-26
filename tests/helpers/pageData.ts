@@ -8,7 +8,7 @@ import type { TSongCase } from '@/tests/helpers/cases';
 
 /**
  * Real page data for tests: never hand-written, always from `loadPageData`
- * (.github/plans/plan-tests.md, "Page data is never hand-written").
+ * (.github/plans/2026-11-16_plan-tests.md, "Page data is never hand-written").
  */
 
 /** Page data of a route; throws when the route gives another kind or nothing. */

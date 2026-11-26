@@ -17,6 +17,12 @@ export const SONGBOOK_PAGE = {
 } as const;
 
 /**
+ * Reserved slug of a songbook's About page (a markdown page item, optional
+ * per book).
+ */
+export const ABOUT_PAGE_SLUG = 'about';
+
+/**
  * Per-singer audio page sub-path: `audio/<singerId>`.
  */
 export type TAudioSingerPage = `${typeof SONGBOOK_PAGE.AUDIO}/${string}`;

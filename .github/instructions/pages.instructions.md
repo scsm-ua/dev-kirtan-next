@@ -1,6 +1,6 @@
 ---
-description: "Use when working on the markdown 'page' content type: the pages/ source JSON, the type discriminator on content items, the content-handler registry (lib/content), the page handler (load/meta/export), components/page (PageView, PageMarkdown), components/content (ContentShell, PageBody), the item branch of loadPageData, the shared [slug] route and metadata dispatch, or the withPages export option."
-applyTo: ["components/page/**", "components/content/**", "lib/page.ts", "lib/content/**", "types/page.ts", "other/markdown.ts", "source/books/**/pages/**", "app/[bookId]/[slug]/page.tsx", "other/metadata/getContentMeta.ts"]
+description: "Use when working on the markdown 'page' content type: the pages/ source JSON, the type discriminator on content items, the content-handler registry (lib/content), the page handler (load/meta/export), components/page (PageView, PageMarkdown), components/content (ContentShell, PageBody), the item branch of loadPageData, the shared [slug] route and metadata dispatch, the withPages export option, or the About page (reserved slug 'about', lib/about.ts, the info button in the header of the songbook list)."
+applyTo: ["components/page/**", "components/content/**", "lib/page.ts", "lib/about.ts", "lib/content/**", "types/page.ts", "other/markdown.ts", "source/books/**/pages/**", "app/[bookId]/[slug]/page.tsx", "other/metadata/getContentMeta.ts"]
 ---
 
 # Page Item Type (markdown)
@@ -24,15 +24,16 @@ registries branches on `ITEM_TYPE`.
   `index.ts` (handler), `meta.ts`, `export.ts`; loaders stay in `lib/song.ts` /
   `lib/page.ts`. Shared export primitives (`heading`, `NAV_SPAN`) are in
   `lib/content/exportHtml.ts`.
-- On the app side, `lib/pageData/loaders.ts` `loadItem` resolves the item type
-  and returns page data of kind `song` or `page`; `components/app/views/registry.ts`
+- On the app side, the `item` route object (`lib/pageData/routes/item.tsx`)
+  resolves the item type through its `ITEM_TYPES` map and returns page data of
+  kind `song` or `page`; `components/app/views/registry.ts`
   (`VIEWS`) maps that kind to the body view (`SongBody` / `PageBody`). Bodies
   compose `ContentShell` (the `ContentPage__*` header block, `PageNumber`,
   `PrevNextNav`; header/footer come from the persistent `AppRoot` chrome) via
   `controls`/`headerExtra`/`after` slots. Bodies are client-safe views: they
   receive page data only, never call loaders.
 - Adding a new item type = new folder in `lib/content/` + one entry in the lib
-  registry + a `loadItem` branch + a `TPageData` kind + a body view in `VIEWS`.
+  registry + an `ITEM_TYPES` entry in `lib/pageData/routes/item.tsx` + a `TPageData` kind + a `VIEWS` entry (body view, `chrome`, `prefetch`).
   Full recipe: `app-routes.instructions.md` (Recipe C). Do not add `item.type`
   branches elsewhere.
 
@@ -76,7 +77,7 @@ registries branches on `ITEM_TYPE`.
 - `other/markdown.ts` `renderMarkdownBody(body)` is the **single source of truth**
   for markdown → HTML (uses `marked`; pure, no React/DOM). Shared by the app view
   and the export builder so both render identically. Do not add a second parser.
-- The markdown is rendered at build time in `loadItem` and shipped as
+- The markdown is rendered at build time in `lib/pageData/routes/item.tsx` and shipped as
   `page.data.page.bodyHtml`, so the client bundle has no markdown parser.
 - `components/page/PageView/PageView.tsx` renders `bodyHtml` inside the same white
   panel songs use — it reuses `.SongText` (imports `SongText.scss`) and wraps the
@@ -86,6 +87,41 @@ registries branches on `ITEM_TYPE`.
 - `lib/content/page/export.ts` `renderPage` embeds the same `renderMarkdownBody`
   output in a `.PageMarkdown` div — never import `react-dom/server` into the app
   graph (Next forbids it), which is why the renderer is a plain string function.
+
+## About page
+
+The About page of a songbook is an ordinary page item with the reserved slug
+`about` (`ABOUT_PAGE_SLUG` in `other/paths.ts`): `pages/about.md` in the
+songbook repo, listed in its `contents.md`. It is optional per book and needs
+nothing on the route side: it has its HTML, data file, bundle and sitemap
+entry like any other page.
+
+- **Header button:** on the songbook list (`/<book>/` and `/`) the header
+  shows an info button ("i" in a circle, `.Header__about`) directly left of
+  Feedback. No other page shows it.
+- **Target** (`getAboutLink(bookId)` in `lib/about.ts`): the About page of
+  the book; else the one of the default-language book (`DEFAULT_LANGUAGE`,
+  `/en/about/`); else no button. A book qualifies when its `contents.json`
+  has an item with the slug `about` and `type: 'page'`.
+- **Fallback is a plain link to the `en` page.** There is no copy of the `en`
+  text under `/<book>/about/`. The reader lands in the `en` chrome (logo,
+  footer, interface language) and returns with the browser Back button.
+  `PREFERRED_BOOK_ID` is written only by a click in `BookCard`, so `/` still
+  opens their own book.
+- **Label** (`aria-label`, `title`): the title the target book's
+  `contents.json` lists the page with. It is in the language of the page it
+  opens, so `source/translations.json` has no key for it.
+- **Flow:** `loadPageData` (`book-list`) sets `data.about` (`TAboutLink`:
+  `{ path, title }`) → `getChrome` passes it as `about` → `LayoutChrome` →
+  `Header`. The view does no lookup (rule 1 of
+  `app-architecture.instructions.md`). The `other` page has the same data
+  type but no `about`.
+- **Icon:** inline SVG in `Header.tsx`, not a file in `public/images/svg`
+  (those are cached as shell assets).
+- **Offline and caching:** the songbook list caches no book, so the button
+  works offline only when the target book is cached. Opening `/en/about/`
+  from another book's list starts caching the `en` book, as any visit to a
+  page of a book does (`offline-mode.instructions.md`).
 
 ## Nav / search / sitemap (inherited, type-agnostic)
 

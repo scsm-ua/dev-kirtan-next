@@ -1,6 +1,16 @@
 # inbox
 
+- 'book-list' using strings for id - use contants?
+  - ldKey: 'CONTENTS_PAGE'
+  - ldKey: 'BOOK_LIST_PAGE'
+  - defineRootPage('search')
+  - kind === 'authors'
+  - const VIEWS: { [K in TPageKind]: TViewEntry<K> } = {
+    'book-list': {
+
 - keep song GA attribute?
+- subtitle shown for hidden text
+  - https://kirtan.site/en/vaishnava-thakura-dayara-sagara/
 
 # cache issues
 

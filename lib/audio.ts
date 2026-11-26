@@ -1,7 +1,6 @@
 import fs from 'node:fs';
 import path from 'path';
 
-import { getBookIdParamList } from '@/lib/books';
 import { getContentsByBookId } from '@/lib/contents';
 import { compareFirstLines } from '@/scripts/compareHelpers';
 import { PATH } from '@/other/constants';
@@ -55,11 +54,6 @@ export function hasBookAudio(bookId: string): boolean {
   return getSongAudioMap(bookId).size > 0;
 }
 
-/**/
-export function getAudioBookIdParamList(): Array<{ bookId: string }> {
-  return getBookIdParamList().filter(({ bookId }) => hasBookAudio(bookId));
-}
-
 /**
  * Singers with their recording count. First-appearance order in contents,
  * with Dev-Goswami Maharajs moved to the front.
@@ -104,13 +98,6 @@ export function getSingerTracks(bookId: string, singerId?: string): Array<TAudio
 /**/
 export function hasSinger(bookId: string, singerId: string): boolean {
   return getSingers(bookId).some((singer) => singer.id === singerId);
-}
-
-/**/
-export function getSingerParamList(): Array<{ bookId: string; singerId: string }> {
-  return getAudioBookIdParamList().flatMap(({ bookId }) =>
-    getSingers(bookId).map((singer) => ({ bookId, singerId: singer.id }))
-  );
 }
 
 /**

@@ -4,7 +4,7 @@ import path from 'node:path';
 import { ROOT } from '@/tests/helpers/books';
 
 /**
- * Reads the static build that L6 checks (.github/plans/plan-tests.md, L6):
+ * Reads the static build that L6 checks (.github/plans/2026-11-16_plan-tests.md, L6):
  * `KIRTAN_BUILD_DIR` (the test build by default, `out` in deploy).
  */
 

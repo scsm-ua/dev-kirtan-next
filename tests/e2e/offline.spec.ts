@@ -10,6 +10,7 @@ import {
   getSharedImages,
   getBookCacheStatus,
   getBookJobFiles,
+  getNeighbours,
   getStatusRecord,
   listCachedPaths,
   pathOf,
@@ -80,6 +81,30 @@ test('a visited book keeps working offline, also on pages that were never opened
   await expect(page.locator('script[type="application/ld+json"]')).toHaveCount(0);
 });
 
+test('offline, a page URL without the trailing slash is redirected to the one with it', async ({ page, context }) => {
+  const song = findPage('song', 'a song with another song in its book');
+  const { bookId } = song.route;
+  const other = findPage('song', 'another song of that book', (candidate) =>
+    candidate.route.bookId === bookId && candidate.route.slug !== song.route.slug
+  );
+  const withoutSlash = (path: string) => path.replace(/\/$/, '');
+
+  await page.goto(pathOf(song));
+  await waitForApp(page);
+  await waitForBookCached(page, bookId);
+  await context.setOffline(true);
+
+  // A page never opened: without the redirect the shell would not take the URL for an app page.
+  await page.goto(`${withoutSlash(pathOf(other))}?from=bookmark#top`);
+  await expect(page).toHaveURL(`${pathOf(other)}?from=bookmark#top`);
+  await expect(page.locator('h1')).toContainText(other.data.song.title[0].trim());
+
+  // A page with cached HTML.
+  await page.goto(withoutSlash(pathOf(song)));
+  await expect(page).toHaveURL(pathOf(song));
+  await expect(page.locator('h1')).toContainText(song.data.song.title[0].trim());
+});
+
 test('a book that was not cached says it is offline', async ({ page, context }) => {
   const song = findPage('song', 'any song');
   const otherBook = findPage('contents', 'another book', (candidate) => candidate.route.bookId !== song.route.bookId);
@@ -135,11 +160,18 @@ test('offline, client navigation to a book that was not cached ends at the offli
 
 /* The book job (bundle, status records, static files) --------------------------- */
 
-/** A song, and another song of the same book that the test opens later. */
+/**
+ * A song, and another song of the same book that the test opens later. Not a
+ * neighbour of the first: the router prefetches those 1 s after the page is
+ * shown, and a prefetch that is quicker than the book job stores its page.
+ */
 function findTwoSongs() {
   const song = findPage('song', 'a song with another song in its book');
-  const other = findPage('song', 'another song of that book', (candidate) =>
-    candidate.route.bookId === song.route.bookId && candidate.route.slug !== song.route.slug
+  const neighbours = Object.values(getNeighbours(song)).map((item) => item?.path.split('?')[0]);
+  const other = findPage('song', 'another song of that book, not next to it', (candidate) =>
+    candidate.route.bookId === song.route.bookId &&
+    candidate.route.slug !== song.route.slug &&
+    !neighbours.includes(pathOf(candidate))
   );
   return { bookId: song.route.bookId, other, song };
 }

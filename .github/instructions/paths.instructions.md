@@ -23,6 +23,8 @@ All internal URLs are built by `other/paths.ts`. **Never hardcode** `` `/${bookI
 
 `SONGBOOK_PAGE` is the single list of root-page URL segments (`analyze`, `audio`, `authors`, `a-z`, `contents`, `export`, `other`, `search`). `other` lists legacy books, uses the current book context, and is noindex. Per-singer audio pages live at `audio/<singerId>` (`TAudioSingerPage`), built with `getAudioSingerPage(singerId)` (sub-path for `getPageMeta`/`LdJson`) or `getAudioSingerPath(bookId, singerId)` (`/bn/audio/<singerId>/`); `TSongbookPage` is the union of both, so `getSongbookPagePath`, `getPageMeta`, `getAlt` and `LdJson` accept either.
 
+`ABOUT_PAGE_SLUG` (`'about'`) is the reserved item slug of a songbook's About page. Its path is `getSongPath(bookId, ABOUT_PAGE_SLUG)`; there is no separate builder. Which book's page the header button opens is decided in `lib/about.ts` (see "About page" in `pages.instructions.md`).
+
 ## Two different `?p=` params
 
 Do not confuse them:
@@ -32,10 +34,10 @@ Do not confuse them:
 
 ## Consumers map
 
-- **Components**: Header, Footer, AZ, Contents, ContentItem, BookCard, NotFound, SongHeader (`+ '#section-…'`), PageNumber, SongbookList, AnalyzeTable.
-- **Hotkeys**: `other/hooks/useGlobalHotkeys.ts` — all `navigate()` targets; its `NON_SONG_SEGMENTS` is derived from `Object.values(SONGBOOK_PAGE)`, so adding a constant automatically excludes that segment from song-page detection.
+- **Components**: Header (logo; the About link gets a ready path from page data), Footer, AZ, Contents, ContentItem, BookCard, NotFound, SongHeader (`+ '#section-…'`), PageNumber, SongbookList, AnalyzeTable.
+- **Hotkeys**: `other/hooks/useGlobalHotkeys.ts` — all `navigate()` targets; song-page detection is `parsePath(pathname)?.kind === ROUTE_KIND.ITEM`, so it follows the URL table in `other/router/routes.ts`.
 - **Router**: `other/router/routes.ts` maps these paths to routes and `/data/` JSON URLs (`parsePath`, `getRoutePath`, `getRouteDataUrl`). It's the only other place that knows the URL structure; keep it in sync (see `app-routes.instructions.md`).
-- **Libs**: `lib/search.ts`, `lib/song.ts` (prev/next), `lib/content/page/songRefs.ts` (export HTML).
+- **Libs**: `lib/search.ts`, `lib/song.ts` (prev/next), `lib/about.ts` (About link), `lib/content/page/songRefs.ts` (export HTML).
 - **SEO**: `app/sitemap.ts`, `other/metadata/helpers/getAlt.ts` (takes `page?: TSongbookPage`, builds canonical + language alternates), `getOG.ts` (takes a full relative path), `getPageMeta.ts` (`page?: TSongbookPage` option), `LdJson.tsx` (`page?: TSongbookPage` prop; omitted = book root), `LdJsonSong.tsx`, `LdJsonPage.tsx`, `lib/content/song/meta.ts`, `lib/content/page/meta.ts`.
 
 ## Adding a new root page

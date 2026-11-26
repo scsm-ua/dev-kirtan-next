@@ -354,22 +354,39 @@ describe('useAppRouter', () => {
       expect(fetchMock).not.toHaveBeenCalled();
     });
 
-    it('loads the neighbours of a song a second after the song is shown', async () => {
+    it('loads the pages the app root names a second after a page is shown', async () => {
       const slug = songs[songs.length - 2].id;
       const song = await loadPage({ kind: 'item', bookId, slug }, 'song');
-      const neighbours = Object.values(song.data.nav).flatMap(({ prev, next }) => [prev, next]);
-      const expected = neighbours.flatMap((item) => (item ? [dataUrl(item.path.split('/')[2])] : []));
+      const [first, second] = [freshSlug(), freshSlug()];
+      const getPrefetchPaths = vi.fn(() => [`/${bookId}/${first}/`, `/${bookId}/${second}/`, `/${bookId}/export/`]);
       window.history.replaceState(null, '', `/${bookId}/${slug}/`);
       vi.useFakeTimers({ toFake: ['setTimeout', 'clearTimeout'] });
 
-      renderRouter(song);
+      renderHook(() => useAppRouter(song, getPrefetchPaths));
       vi.advanceTimersByTime(999);
       expect(fetchMock).not.toHaveBeenCalled();
 
       vi.advanceTimersByTime(1);
 
-      expect(expected.length).toBeGreaterThan(0);
-      expect(fetchMock.mock.calls.map(([url]) => url).sort()).toEqual([...new Set(expected)].sort());
+      // Only app pages have page data.
+      expect(getPrefetchPaths).toHaveBeenCalledWith(song);
+      expect(fetchMock.mock.calls.map(([url]) => url)).toEqual([dataUrl(first), dataUrl(second)]);
+    });
+
+    it('loads nothing after a page is shown when the app root names no pages', async () => {
+      const slug = songs[songs.length - 2].id;
+      const song = await loadPage({ kind: 'item', bookId, slug }, 'song');
+      window.history.replaceState(null, '', `/${bookId}/${slug}/`);
+      vi.useFakeTimers({ toFake: ['setTimeout', 'clearTimeout'] });
+
+      const { unmount } = renderRouter(song);
+      vi.advanceTimersByTime(2000);
+      unmount();
+
+      renderHook(() => useAppRouter(song, () => []));
+      vi.advanceTimersByTime(2000);
+
+      expect(fetchMock).not.toHaveBeenCalled();
     });
   });
 

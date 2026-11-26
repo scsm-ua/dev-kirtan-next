@@ -5,9 +5,10 @@ import {
   getRouteDataUrl,
   getRouteFile,
   getRoutePath,
-  parseAudioFile,
-  parseItemFile,
-  parsePath
+  parseDataFile,
+  parsePath,
+  ROUTE_KIND,
+  ROUTES as ROUTE_TABLE
 } from '@/other/router/routes';
 
 import { getBookIds } from '@/tests/helpers/books';
@@ -73,26 +74,72 @@ describe('parsePath', () => {
   });
 });
 
+describe('ROUTE_KIND', () => {
+  it('names every kind of the table, in table order', () => {
+    expect(Object.values(ROUTE_KIND)).toEqual(Object.keys(ROUTE_TABLE));
+  });
+
+  // The values are in the page-data JSON (`kind`) and in analytics (`page_type`).
+  it('keeps the values of the kinds', () => {
+    expect(ROUTE_KIND).toEqual({
+      BOOK_LIST: 'book-list',
+      OTHER: 'other',
+      CONTENTS: 'contents',
+      A_Z: 'a-z',
+      AUTHORS: 'authors',
+      SEARCH: 'search',
+      AUDIO: 'audio',
+      AUDIO_SINGER: 'audio-singer',
+      ITEM: 'item'
+    });
+  });
+});
+
+describe('match priority', () => {
+  it('keeps the slug pattern last, so fixed segments win', () => {
+    expect(Object.keys(ROUTE_TABLE).at(-1)).toBe('item');
+  });
+
+  it.each(['other', 'contents', 'a-z', 'authors', 'search', 'audio'] as const)(
+    'takes "%s" for a root page, not for a slug',
+    (kind) => {
+      expect(parsePath(`/en/${kind}/`)).toEqual({ kind, bookId: 'en' });
+    }
+  );
+
+  it('takes the audio index file before a singer', () => {
+    expect(parseDataFile('en', 'audio/index.json')).toEqual({ kind: 'audio', bookId: 'en' });
+  });
+
+  it('takes file names that are no page path for a slug', () => {
+    expect(parsePath('/en/index/')).toEqual({ kind: 'item', bookId: 'en', slug: 'index' });
+    expect(parseDataFile('en', 'audio.json')).toEqual({ kind: 'item', bookId: 'en', slug: 'audio' });
+  });
+});
+
+describe('pattern params', () => {
+  it('reads a param from the page path and from the data file', () => {
+    const route = { kind: 'audio-singer', bookId: 'en', singerId: 'some-singer' };
+
+    expect(parsePath('/en/audio/some-singer/')).toEqual(route);
+    expect(parseDataFile('en', 'audio/some-singer.json')).toEqual(route);
+  });
+
+  it('does not match a fixed segment in place of a param', () => {
+    expect(parsePath('/en/contents/some-singer/')).toBeNull();
+    expect(parseDataFile('en', 'contents/some-singer.json')).toBeNull();
+  });
+});
+
 describe('data file names', () => {
-  const itemRoutes = ROUTES.map(([route]) => route).filter(
-    (route) => route.kind !== 'audio' && route.kind !== 'audio-singer'
+  it.each(ROUTES.map(([route]) => route))('parseDataFile reverses getRouteFile for %o', (route) => {
+    expect(parseDataFile(route.bookId, getRouteFile(route))).toEqual(route);
+  });
+
+  it.each(['some-song', 'some-song.txt', '.json', '', 'audio/.json', '/some-song.json', 'a/b/c.json'])(
+    'rejects "%s"',
+    (file) => {
+      expect(parseDataFile('en', file)).toBeNull();
+    }
   );
-  const audioRoutes = ROUTES.map(([route]) => route).filter(
-    (route) => route.kind === 'audio' || route.kind === 'audio-singer'
-  );
-
-  it.each(itemRoutes)('parseItemFile reverses getRouteFile for %o', (route) => {
-    expect(parseItemFile(route.bookId, getRouteFile(route))).toEqual(route);
-  });
-
-  it.each(audioRoutes)('parseAudioFile reverses getRouteFile for %o', (route) => {
-    const file = getRouteFile(route).replace(/^audio\//, '');
-
-    expect(parseAudioFile(route.bookId, file)).toEqual(route);
-  });
-
-  it.each(['some-song', 'some-song.txt', '.json', ''])('rejects "%s"', (file) => {
-    expect(parseItemFile('en', file)).toBeNull();
-    expect(parseAudioFile('en', file)).toBeNull();
-  });
 });

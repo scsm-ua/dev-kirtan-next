@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
 /**
- * The tests read the real songbooks (.github/plans/plan-tests.md, D4).
+ * The tests read the real songbooks (.github/plans/2026-11-16_plan-tests.md, D4).
  * Stops the run with one message when they are not installed.
  */
 export default function checkData(): void {

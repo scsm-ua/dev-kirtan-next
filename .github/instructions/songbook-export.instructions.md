@@ -149,7 +149,7 @@ The effect that writes `previewRef.current.innerHTML = getBody()` runs on **ever
 
 ## Discoverability
 
-Hidden from the UI on purpose. Reachable by URL and the `e` hotkey (`useGlobalHotkeys` → `navigate('/{bookId}/export')`, a full document load because `export` is in `NON_APP_PAGES` in `other/router/routes.ts`; listed in `HotkeysModal`). `export` is in `NON_SONG_SEGMENTS` in `useGlobalHotkeys.ts` — keep it there or the page gets treated as a song page. Page metadata is `noindex`; the route is not in `app/sitemap.ts`.
+Hidden from the UI on purpose. Reachable by URL and the `e` hotkey (`useGlobalHotkeys` → `navigate('/{bookId}/export')`, a full document load because `export` is in `NON_APP_PAGES` in `other/router/routes.ts`; listed in `HotkeysModal`). The same `NON_APP_PAGES` entry keeps `useGlobalHotkeys.ts` from treating it as a song page (`parsePath` gives no route). Page metadata is `noindex`; the route is not in `app/sitemap.ts`.
 
 ## Verification
 

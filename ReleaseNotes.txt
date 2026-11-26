@@ -1,3 +1,10 @@
+v3.1.0
+25 November 2026
+  - About button in the songbook list header: opens the songbook's About page, or the English one if the songbook has none.
+  - Fix: offline, page addresses without the trailing slash now open.
+  - Internal: simplified routing system.
+_________________________________________________________
+
 v3.0.0
 22 November 2026
   - Offline mode: a whole songbook can be saved for offline use; a status dot and popup show how much is cached.

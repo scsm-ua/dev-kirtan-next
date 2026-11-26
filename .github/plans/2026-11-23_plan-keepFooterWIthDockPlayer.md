@@ -41,7 +41,7 @@ No JS, no scroll listener, the scroll container stays the same element (router s
 
 - `.github/instructions/player-widget.instructions.md` → "Dock layout contract": new padding rule, footer is in flow above the dock in bottom mode.
 - `.github/instructions/app-architecture.instructions.md` (line ~96, `LayoutChrome` description) and `global-hotkeys.instructions.md` (scroll container section): footer now lives inside `.Layout__content`.
-- `.github/plans/plan-bottomDockPlayer.md`: note under "Further Considerations" item 2 that this plan replaces "dock hides footer navigation entirely".
+- `.github/plans/2026-11-10_plan-bottomDockPlayer.md`: note under "Further Considerations" item 2 that this plan replaces "dock hides footer navigation entirely".
 
 **Tests**
 

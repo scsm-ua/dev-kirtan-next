@@ -4,7 +4,6 @@ import {
   getBookDescriptionsByBook,
   getNavItems,
   getSongBySlug,
-  getSongSlugParam,
   getTelegraphUrl
 } from '@/lib/song';
 import { getSongPathWithPage } from '@/other/paths';
@@ -185,24 +184,6 @@ describe('getNavItems of a song listed twice with the same page', () => {
     // Songs between the listings are repeats too; back never lands on the last of them.
     expect(between.every((item) => !listedOnce(item))).toBe(true);
     expect(prev && prev.path).toBe(getSongPathWithPage(bookId, all[places[0] - 1]));
-  });
-});
-
-describe('getSongSlugParam', () => {
-  it('lists a param for every contents item of the book', async () => {
-    const [bookId] = getBookIds();
-    const expected = getItems(bookId).map((item) => ({ bookId, slug: item.id }));
-
-    expect(await getSongSlugParam({ params: { bookId } })).toEqual(expected);
-  });
-
-  it('reports an unknown book and returns one empty param', async () => {
-    const error = vi.spyOn(console, 'error').mockImplementation(() => {});
-
-    expect(await getSongSlugParam({ params: { bookId: 'no-such-book' } })).toEqual([
-      { bookId: 'no-such-book', slug: '' }
-    ]);
-    expect(error).toHaveBeenCalledOnce();
   });
 });
 

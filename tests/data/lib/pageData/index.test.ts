@@ -2,8 +2,6 @@ import { afterAll, describe, expect, it, vi } from 'vitest';
 
 import { getSingers } from '@/lib/audio';
 import {
-  listAudioRoutes,
-  listItemRoutes,
   listRoutes,
   getSharedAssets,
   loadBookBundle,
@@ -11,12 +9,17 @@ import {
   respondWithPageData
 } from '@/lib/pageData';
 import { getBuildId } from '@/other/router/buildId';
-import { getRouteDataUrl } from '@/other/router/routes';
+import { getRouteDataUrl, ROUTE_KINDS } from '@/other/router/routes';
 import { getBookIds, getItems } from '@/tests/helpers/books';
+
+import type { TRoute } from '@/types/pageData';
 
 // As in `next build`: lib/ caches the contents of the books.
 vi.stubEnv('NODE_ENV', 'production');
 afterAll(() => vi.unstubAllEnvs());
+
+/**/
+const byUrl = (a: TRoute, b: TRoute) => getRouteDataUrl(a).localeCompare(getRouteDataUrl(b));
 
 /** The book with the fewest items, to keep the bundle test quick. */
 const SMALL_BOOK = getBookIds().reduce((a, b) => (getItems(a).length <= getItems(b).length ? a : b));
@@ -25,12 +28,12 @@ describe.each(getBookIds())('routes of %s', (bookId) => {
   it('lists the book root, the root pages and every item once', () => {
     const slugs = [...new Set(getItems(bookId).map((item) => item.id))];
 
-    expect(listItemRoutes(bookId)).toEqual([
+    expect(listRoutes(bookId, '')).toEqual([
       { kind: 'book-list', bookId },
+      { kind: 'other', bookId },
       { kind: 'contents', bookId },
       { kind: 'a-z', bookId },
       { kind: 'authors', bookId },
-      { kind: 'other', bookId },
       { kind: 'search', bookId },
       ...slugs.map((slug) => ({ kind: 'item', bookId, slug }))
     ]);
@@ -45,14 +48,18 @@ describe.each(getBookIds())('routes of %s', (bookId) => {
         ]
       : [];
 
-    expect(listAudioRoutes(bookId)).toEqual(expected);
+    expect(listRoutes(bookId, 'audio')).toEqual(expected);
   });
 
-  it('lists all of them together, each with its own data URL', () => {
+  it('lists all of them together in the order of the URL table, each with its own data URL', () => {
     const routes = listRoutes(bookId);
     const urls = routes.map(getRouteDataUrl);
 
-    expect(routes).toEqual([...listItemRoutes(bookId), ...listAudioRoutes(bookId)]);
+    const kinds = [...new Set(routes.map((route) => route.kind))];
+
+    expect([...routes].sort(byUrl)).toEqual([...listRoutes(bookId, ''), ...listRoutes(bookId, 'audio')].sort(byUrl));
+    expect(kinds).toEqual(ROUTE_KINDS.filter((kind) => kinds.includes(kind)));
+    expect(listRoutes(bookId, 'no-such-folder')).toEqual([]);
     expect(new Set(urls).size).toBe(urls.length);
   });
 

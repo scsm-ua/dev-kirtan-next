@@ -2,10 +2,11 @@ import { act, waitFor } from '@testing-library/react';
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { translate } from '@/other/i18n';
+import { ABOUT_PAGE_SLUG, getSongbookPagePath, getSongbookPath, getSongPath, SONGBOOK_PAGE } from '@/other/paths';
 import { getRoutePath } from '@/other/router/routes';
 import { renderApp, stubBrowserApis } from '@/tests/helpers/app';
 import { getBookIds, getItems, getSongItems } from '@/tests/helpers/books';
-import { findBook, findSong } from '@/tests/helpers/cases';
+import { findBook, findSong, getAboutBookId } from '@/tests/helpers/cases';
 import { mockDataFetch } from '@/tests/helpers/dataServer';
 import { mockLocationMethods } from '@/tests/helpers/location';
 import { loadPage, loadSongPage } from '@/tests/helpers/pageData';
@@ -25,6 +26,7 @@ let fetchMock: ReturnType<typeof mockDataFetch>;
 const main = () => document.querySelector('main.Main');
 const footerLinks = () => [...document.querySelectorAll<HTMLAnchorElement>('nav[aria-label="Songbook navigation"] a')];
 const currentFooterLinks = () => footerLinks().filter((link) => link.getAttribute('aria-current') === 'page');
+const aboutLink = () => document.querySelector<HTMLAnchorElement>('.Header__about');
 
 /** Clicks a link the way a user does; jsdom cannot follow it, so the default action is always stopped. */
 function click(link: Element): void {
@@ -195,6 +197,36 @@ describe('AppRoot', () => {
       expect(dock.getAttribute('aria-hidden')).toBe('true');
       expect(dock.hasAttribute('inert')).toBe(true);
       expect(document.querySelector('.AppRoot__progress')).toBeNull();
+    });
+
+    it.each(['own-about', 'about-of-default-book'] as const)(
+      'has the info button on the songbook list only, to the About page (%s)',
+      async (name) => {
+        const listBookId = findBook(name);
+        const list = await loadPage({ kind: 'book-list', bookId: listBookId }, 'book-list');
+        renderApp(list);
+
+        expect(aboutLink().getAttribute('href')).toBe(getSongPath(getAboutBookId(listBookId), ABOUT_PAGE_SLUG));
+        expect(aboutLink().getAttribute('aria-label')).toBe(list.data.about.title);
+
+        click(footerLinks().find((link) => link.getAttribute('href') === getSongbookPagePath(listBookId, SONGBOOK_PAGE.CONTENTS)));
+        await waitFor(() => expect(main().querySelector('.Contents__title')).not.toBeNull());
+        expect(aboutLink()).toBeNull();
+      }
+    );
+
+    it('opens the About page of the default-language book from the list of a book without one', async () => {
+      const listBookId = findBook('about-of-default-book');
+      const aboutBookId = getAboutBookId(listBookId);
+      renderApp(await loadPage({ kind: 'book-list', bookId: listBookId }, 'book-list'));
+
+      click(aboutLink());
+      await waitFor(() => expect(main().querySelector('.PageMarkdown')).not.toBeNull());
+
+      expect(window.location.pathname).toBe(getSongPath(aboutBookId, ABOUT_PAGE_SLUG));
+      // The reader is in the book of the page now; the button belongs to the songbook list.
+      expect(document.querySelector('.Header__home').getAttribute('href')).toBe(getSongbookPath(aboutBookId));
+      expect(aboutLink()).toBeNull();
     });
 
     it('keeps the footer inside the scroller, after main, so it can scroll above the player dock', () => {

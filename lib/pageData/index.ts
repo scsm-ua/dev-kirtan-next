@@ -2,14 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 import { getContentImages } from '@/lib/content/resourceImages';
-import { getContentsByBookId } from '@/lib/contents';
-import { getBuildId } from '@/other/router/buildId';
-import { getRouteDataUrl } from '@/other/router/routes';
-import { getSingers, hasBookAudio } from '@/lib/audio';
 import { loadPageData } from '@/lib/pageData/loaders';
-import { SONGBOOK_PAGE } from '@/other/paths';
+import { SERVER_ROUTES } from '@/lib/pageData/routes';
+import { getBuildId } from '@/other/router/buildId';
+import { getRouteDataUrl, getRouteFolder, ROUTE_KINDS } from '@/other/router/routes';
 
-import type { TContentGroup } from '@/types/common';
 import type { TBookBundle, TRoute, TSharedAssets } from '@/types/pageData';
 
 export { loadPageData };
@@ -21,46 +18,15 @@ export async function respondWithPageData(route: TRoute | null): Promise<Respons
 }
 
 /**
- * Routes served by the items handler: book root, root pages, songs and pages.
- * Needs only `contents.json`.
+ * Routes that have page data, in the order of the URL table. With `folder`,
+ * only those whose data file is in that folder of `/data/<bookId>/` (`''` or
+ * `'audio'`): the routes of one JSON handler. Kinds of other folders are not
+ * listed at all, so `''` needs only `contents.json` and skips the audio scan.
  */
-export function listItemRoutes(bookId: string): Array<TRoute> {
-  const slugs = new Set<string>();
-  getContentsByBookId(bookId).forEach((group: TContentGroup) =>
-    group.items.forEach((item) => slugs.add(item.id))
+export function listRoutes(bookId: string, folder?: string): Array<TRoute> {
+  return ROUTE_KINDS.filter((kind) => folder === undefined || getRouteFolder(kind) === folder).flatMap(
+    (kind): Array<TRoute> => SERVER_ROUTES[kind].list(bookId)
   );
-
-  return [
-    { kind: 'book-list', bookId },
-    { kind: SONGBOOK_PAGE.CONTENTS, bookId },
-    { kind: SONGBOOK_PAGE.A_Z, bookId },
-    { kind: SONGBOOK_PAGE.AUTHORS, bookId },
-    { kind: SONGBOOK_PAGE.OTHER, bookId },
-    { kind: SONGBOOK_PAGE.SEARCH, bookId },
-    ...Array.from(slugs, (slug): TRoute => ({ kind: 'item', bookId, slug }))
-  ];
-}
-
-/**
- * Routes served by the audio handler. Scans the book's songs, so it is kept
- * apart from `listItemRoutes`.
- */
-export function listAudioRoutes(bookId: string): Array<TRoute> {
-  if (!hasBookAudio(bookId)) return [];
-
-  return [
-    { kind: SONGBOOK_PAGE.AUDIO, bookId },
-    ...getSingers(bookId).map((singer): TRoute => ({
-      kind: 'audio-singer',
-      bookId,
-      singerId: singer.id
-    }))
-  ];
-}
-
-/** Every route that has page data. */
-export function listRoutes(bookId: string): Array<TRoute> {
-  return [...listItemRoutes(bookId), ...listAudioRoutes(bookId)];
 }
 
 /**

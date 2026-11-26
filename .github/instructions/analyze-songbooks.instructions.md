@@ -102,6 +102,6 @@ horizontal scrollbar disappears (flex min-size).
 ## Hotkey
 
 `a` in `other/hooks/useGlobalHotkeys.ts` → `navigate('/{bookId}/analyze')`;
-`'analyze'` is in `NON_SONG_SEGMENTS`; cheat-sheet row in `HotkeysModal.tsx`
+`'analyze'` is in `NON_APP_PAGES` (`other/router/routes.ts`), so hotkeys do not treat it as a song page; cheat-sheet row in `HotkeysModal.tsx`
 (English fallback, `// TODO:` translation key). See
 `global-hotkeys.instructions.md`.

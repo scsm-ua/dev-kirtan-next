@@ -76,33 +76,6 @@ export async function getTelegraphUrl(
 }
 
 /**
- *
- */
-export async function getSongSlugParam({
-  params
-}: {
-  params: { bookId: string };
-}): Promise<Array<{ bookId: string; slug: string }>> {
-  const p = path.join(
-    process.cwd(),
-    PATH.DIR.SOURCE_BOOKS,
-    params.bookId || '',
-    FILES.CONTENTS
-  );
-
-  try {
-    const str = await fs.readFile(p, 'utf8');
-    return contents2slugs(JSON.parse(str) as TContentGroup[]).map((x) => ({
-      ...x,
-      bookId: params.bookId
-    }));
-  } catch (e) {
-    console.error(e);
-    return [{ bookId: params.bookId, slug: '' }];
-  }
-}
-
-/**
  * Returns book descriptions of those books that contain the song.
  */
 export function getBookDescriptionsByBook(

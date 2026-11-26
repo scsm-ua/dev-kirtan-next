@@ -1,27 +1,8 @@
-import { notFound } from 'next/navigation';
+import { definePage } from '@/lib/pageData/page';
+import { ROUTE_KIND } from '@/other/router/routes';
 
-import AppDocument from '@/components/app/AppDocument';
-import { getBookIdParamList } from '@/lib/books';
-import { getSearchPageMeta } from '@/other/metadata/getSearchPageMeta';
-import { loadPageData } from '@/lib/pageData';
-import { SONGBOOK_PAGE } from '@/other/paths';
-
-import type { BookListPageProps } from '@/types/book';
+const { generateMetadata, generateStaticParams, Page } = definePage(ROUTE_KIND.SEARCH);
 
 /**/
-export const generateMetadata = getSearchPageMeta;
-export const generateStaticParams = getBookIdParamList;
-
-/**
- *
- */
-async function SearchPage({ params }: BookListPageProps) {
-  const { bookId } = await params;
-  const page = await loadPageData({ kind: SONGBOOK_PAGE.SEARCH, bookId });
-  if (!page) notFound();
-
-  return <AppDocument page={page} />;
-}
-
-/**/
-export default SearchPage;
+export { generateMetadata, generateStaticParams };
+export default Page;

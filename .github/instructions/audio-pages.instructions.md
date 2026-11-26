@@ -12,7 +12,7 @@ Two statically generated routes share one view (`components/app/views/AudioView.
 | `/[bookId]/audio/` | `app/[bookId]/audio/page.tsx` | `/data/<bookId>/audio/index.json` (kind `audio`) | `SingerList` + playlist of all recordings ("All recordings" selected) |
 | `/[bookId]/audio/[singerId]/` | `app/[bookId]/audio/[singerId]/page.tsx` | `/data/<bookId>/audio/<singerId>.json` (kind `audio-singer`) | `SingerList` + playlist of that singer's recordings |
 
-Both use `dynamicParams = false`; `generateStaticParams` comes from `lib/audio.ts` (`getAudioBookIdParamList`, `getSingerParamList`). An unknown singer -> `notFound()`. Books without audio get no page. Page data is built in `lib/pageData/loaders.ts` (cases `audio` / `audio-singer`) and the JSON is emitted by `app/data/[bookId]/audio/[file]/route.ts` (listed by `listAudioRoutes`); see `app-routes.instructions.md`.
+Both page files are `definePage` stubs with `dynamicParams = false`. Their route objects are `lib/pageData/routes/audio.tsx` and `audioSinger.tsx`: `list` gives the audio page only to books with audio and one page per singer, `load` builds the page data (an unknown singer -> `null` -> `notFound()`), `jsonLd` renders `LdJsonAudio`. The JSON is emitted by `app/data/[bookId]/audio/[file]/route.ts` (`defineDataHandler('audio')`); see `app-routes.instructions.md`.
 
 ## Data (`lib/audio.ts`)
 

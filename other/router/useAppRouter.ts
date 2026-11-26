@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import { applyHead } from '@/other/router/head';
-import { getRoutePath, parsePath } from '@/other/router/routes';
+import { getRoutePath, parsePath, ROUTE_KIND } from '@/other/router/routes';
 import { loadRoute, prefetchRoute, seedRoute } from '@/other/router/pageStore';
 import { notifyLocationChange } from '@/other/router/location';
 import { setNavigationHandler } from '@/other/router/navigate';
@@ -12,6 +12,9 @@ import type { TPageData } from '@/types/pageData';
 
 /** Loading indicator shows only for navigations slower than this. */
 const LOADER_DELAY_MS = 150;
+
+/** The page is shown first; its likeliest next pages are prefetched this much later. */
+const PREFETCH_DELAY_MS = 1000;
 
 /** Our id in `history.state`, used to restore the scroll position on back/forward. */
 const KEY = '__kirtanKey';
@@ -38,8 +41,14 @@ type TAppRouter = {
  * intercepts internal links and keeps history, scroll and head in sync.
  * `initial` is `null` in the offline shell; the page for the URL loads on mount.
  * On the root page `/` it moves on to the reader's songbook (`pickRootBookId`).
+ * `getPrefetchPaths` names the pages to prefetch once a page is shown. The
+ * router must not import the views registry, so the app root passes it in;
+ * it must be a stable function.
  */
-export function useAppRouter(initial: TPageData | null): TAppRouter {
+export function useAppRouter(
+  initial: TPageData | null,
+  getPrefetchPaths?: (page: TPageData) => Array<string>
+): TAppRouter {
   const [state, setState] = useState<TState>({ page: initial });
   const [isLoading, setLoading] = useState(false);
   const [isFailed, setFailed] = useState(false);
@@ -150,7 +159,7 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
       const [firstBookId] = __BOOK_IDS__;
       const target = pickRootBookIdInBrowser(__BOOK_IDS__);
       const urlOf = (bookId: string) =>
-        new URL(getRoutePath({ kind: 'book-list', bookId }) + window.location.search + window.location.hash, window.location.href);
+        new URL(getRoutePath({ kind: ROUTE_KIND.BOOK_LIST, bookId }) + window.location.search + window.location.hash, window.location.href);
       const fail = () => {
         clearRootPending();
         if (!initial) setFailed(true);
@@ -199,21 +208,19 @@ export function useAppRouter(initial: TPageData | null): TAppRouter {
     clearRootPending();
   }, [state]);
 
-  // Neighbouring songs are the likeliest next pages.
+  // The likeliest next pages of the shown page, e.g. the neighbours of a song.
   useEffect(() => {
-    const { page } = state;
-    if (page?.kind !== 'song' && page?.kind !== 'page') return;
+    const paths = state.page && getPrefetchPaths ? getPrefetchPaths(state.page) : [];
+    if (!paths.length) return;
 
     const timer = setTimeout(() => {
-      Object.values(page.data.nav).forEach(({ prev, next }) =>
-        [prev, next].forEach((item) => {
-          const route = item && parsePath(new URL(item.path, window.location.href).pathname);
-          if (route) prefetchRoute(route);
-        })
-      );
-    }, 1000);
+      paths.forEach((path) => {
+        const route = parsePath(new URL(path, window.location.href).pathname);
+        if (route) prefetchRoute(route);
+      });
+    }, PREFETCH_DELAY_MS);
     return () => clearTimeout(timer);
-  }, [state]);
+  }, [state, getPrefetchPaths]);
 
   return { isFailed, isLoading, page: state.page };
 }

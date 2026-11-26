@@ -99,7 +99,7 @@ Re-run `install:post-fetch` after editing a locally linked songbook package to p
 
 ## Tests
 
-The tests use the real songbooks in `./source/books/` as data (no fixture books), so run the data steps first. All test code is under `./tests/`, one folder per layer; everything generated goes to `./.test-output/` (gitignored). Details: [.github/plans/plan-tests.md](.github/plans/plan-tests.md).
+The tests use the real songbooks in `./source/books/` as data (no fixture books), so run the data steps first. All test code is under `./tests/`, one folder per layer; everything generated goes to `./.test-output/` (gitignored). Details: [.github/plans/2026-11-16_plan-tests.md](.github/plans/2026-11-16_plan-tests.md).
 
 | Folder | Layer | Runner |
 | --- | --- | --- |

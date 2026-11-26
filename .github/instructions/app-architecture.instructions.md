@@ -12,13 +12,13 @@ The site is a Next.js **static export** (`output: 'export'`, `trailingSlash: tru
 - **What survives navigation:** the shell (header, footer, hotkeys, analytics) and the audio player.
 - **Offline:** a whole songbook can be cached by the service worker.
 
-Route-by-route details, and how to add a route, are in `app-routes.instructions.md`. Plan and measurements: `.github/plans/plan-improved-js-app.md`.
+Route-by-route details, and how to add a route, are in `app-routes.instructions.md`. Plan and measurements: `.github/plans/2026-11-15_plan-improved-js-app.md`.
 
 ## The core idea: one loader, two outputs
 
 ```mermaid
 flowchart LR
-  src[(source/books/*.json)] --> L["loadPageData(route)<br/>lib/pageData/loaders.ts"]
+  src[(source/books/*.json)] --> L["loadPageData(route)<br/>lib/pageData/loaders.ts<br/>+ route objects in lib/pageData/routes/"]
   L --> H["page.tsx<br/>AppDocument → HTML"]
   L --> J["app/data/**/route.ts<br/>→ /data/…/*.json"]
   L --> B["bundle.json/route.ts<br/>→ /data/&lt;book&gt;/bundle.json"]
@@ -59,9 +59,9 @@ TPageData   // what was loaded: { build, kind, route, head, data }, discriminate
 
 | Output | Produced by |
 |---|---|
-| `/<book>/…/index.html` for every reader page | `app/[bookId]/**/page.tsx` → `loadPageData` → `<AppDocument page extras>` |
-| `/data/<book>/<file>.json` | `app/data/[bookId]/[file]/route.ts` (root pages, songs, pages) |
-| `/data/<book>/audio/<file>.json` | `app/data/[bookId]/audio/[file]/route.ts` (audio index, singers) |
+| `/<book>/…/index.html` for every reader page | `app/[bookId]/**/page.tsx`, a stub of `definePage(kind)` (`lib/pageData/page.tsx`) → `loadPageData` → `<AppDocument page extras>` |
+| `/data/<book>/<file>.json` | `app/data/[bookId]/[file]/route.ts` = `defineDataHandler('')` (root pages, songs, pages) |
+| `/data/<book>/audio/<file>.json` | `app/data/[bookId]/audio/[file]/route.ts` = `defineDataHandler('audio')` (audio index, singers) |
 | `/data/<book>/bundle.json` | `app/data/[bookId]/bundle.json/route.ts` |
 | `/index.html` (root page) | `app/page.tsx`: the songbook list of the first songbook (`getFirstBookId`), same page data and head as `/<firstBook>/` (so its canonical is `/<firstBook>/`), plus the inline script of `getRootPendingScript` in `<head>` |
 | `/shell/index.html` | `app/shell/page.tsx`: `AppDocument` with `page={null}` (offline fallback) |
@@ -97,20 +97,22 @@ sequenceDiagram
   - `PagePathContext` + `renderView(page, extras)` — the view, **keyed by path**, so it remounts per page.
   - `PlayerDock` — **persistent**, so playback survives navigation.
 - `components/app/views/registry.ts`:
-  - `VIEWS` maps each kind to a view component.
+  - `VIEWS` has one entry per page kind (`TViewEntry`): the `View` component plus the client rules of the kind. Nothing outside this table tests for a single kind.
   - `renderView` builds the view element.
-  - `getChrome` gives the layout props per kind: `<main>` class, footer page number, analytics `pageType`/`itemId`.
+  - `getChrome` gives the layout props from the entry's `chrome`: `<main>` class, footer page number, analytics `pageType`/`itemId`; the default is `{ bookId, pageType: kind }`. For `book-list` it also sets `hideCacheStatus` and `about` (the header info button to the About page, from `page.data.about`; see "About page" in `pages.instructions.md`).
+  - `isPrecachePage` reads `precache`: `false` on `book-list`, so the songbook list starts no book caching (`AppRoot` → `usePrecacheBook`).
+  - `getPrefetchPaths` reads `prefetch`: the previous and next items of a `song` or `page`. `AppRoot` passes it to `useAppRouter`, because the router must not import the views.
 - **`extras`** is server-rendered content that can't come from JSON (JSON-LD). It is shown only while the initial page is displayed (`isInitialPage`); crawlers never navigate client-side.
 
 ### Router — `other/router/`
 
 | File | Role |
 |---|---|
-| `routes.ts` | URL ↔ route ↔ data URL. `parsePath(pathname)` returns `null` for non-app paths (analyze, export, test, shell, files, `.html`); `/` is the songbook list of the first songbook (`__BOOK_IDS__[0]`). `getRoutePath`, `getRouteDataUrl`, `getRouteFile`, `parseItemFile`, `parseAudioFile`, `getBookBundleUrl`, `SHELL_PATH`. |
+| `routes.ts` | URL ↔ route ↔ data URL. `parsePath(pathname)` returns `null` for non-app paths (analyze, export, test, shell, files, `.html`); `/` is the songbook list of the first songbook (`__BOOK_IDS__[0]`). All of it is derived from one table, `ROUTES` (path pattern and data file per kind), which also defines `TRoute`. `ROUTE_KIND` names the kinds; use it instead of string literals in values. `getRoutePath`, `getRouteDataUrl`, `getRouteFile`, `parseDataFile`, `getBookBundleUrl`, `SHELL_PATH`. |
 | `pageStore.ts` | `loadRoute` (memory cache + in-flight dedupe, rejects on 404 or a build mismatch), `prefetchRoute`, `seedRoute`. Cache and prefetch are **off in development**. |
 | `navigate.ts` | `navigate(href)`: programmatic navigation. Falls back to `location.assign` outside the app or for non-app paths. |
 | `location.ts` | `useAppLocation()` (`{ pathname, search }`, `null` while hydrating) and `notifyLocationChange()`. |
-| `useAppRouter.ts` | Click interception, back/forward, per-entry scroll memory (`__kirtanKey` in `history.state`), loading flag, full-load fallback, neighbour prefetch. |
+| `useAppRouter.ts` | Click interception, back/forward, per-entry scroll memory (`__kirtanKey` in `history.state`), loading flag, full-load fallback, prefetch of the paths `getPrefetchPaths` (second argument, from the views registry) names for the shown page. |
 | `head.ts` | `applyHead(page)`: `document.title`, meta description, canonical, `<html lang>`. |
 | `pagePath.ts` | `PagePathContext`: path of the rendered view. Needed because the new view renders **before** the URL changes. |
 | `precache.ts` | `usePrecacheBook(bookId)` — see Offline. |
@@ -171,13 +173,13 @@ Full description: `offline-mode.instructions.md` (worker strategies, book job, s
 
 ## Rules (keep the architecture intact)
 
-1. **Views get data, not loaders.** No `fs`, `lib/*` data functions, `marked` or `other/metadata/*` inside `components/app/views`, `components/content`, or anything they render. Add a field to the page data in `loadPageData` instead.
+1. **Views get data, not loaders.** No `fs`, `lib/*` data functions, `marked` or `other/metadata/*` inside `components/app/views`, `components/content`, or anything they render. Add a field to the page data in the route object (`lib/pageData/routes/`) instead.
 2. **Server-only markup** (JSON-LD) goes through `extras` from the route file.
 3. **URLs** come from `other/paths.ts` (pages) and `other/router/routes.ts` (data). Keep the trailing slash.
 4. **Navigation** uses `<a href>` (intercepted automatically) or `navigate()`. Never `router.push` or `window.location.href` for app pages.
 5. **Current URL in components:** `useAppLocation()` / `usePageQuery()`. Inside a view, prefer the route from page data or `PagePathContext`.
 6. **Keep `lib/content` handlers and `lib/export.ts` React-free.** The export page must not import views (their SCSS would leak into `export.html`).
-7. A new page kind needs **all** touch points listed in `app-routes.instructions.md`. TypeScript (`VIEWS` mapped type, `switch` on `kind`) flags most missing ones.
+7. A new page kind needs **all** touch points listed in `app-routes.instructions.md`. TypeScript (the `ROUTES` table → `TRoute`, the `SERVER_ROUTES` and `VIEWS` mapped types) flags the missing ones.
 
 ## Verifying a change
 

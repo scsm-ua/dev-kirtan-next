@@ -3,7 +3,12 @@
 import './AppRoot.scss';
 import LayoutChrome from '@/components/common/Layout/LayoutChrome';
 import PlayerDock from '@/components/player/PlayerDock';
-import { getChrome, renderView } from '@/components/app/views/registry';
+import {
+  getChrome,
+  getPrefetchPaths,
+  isPrecachePage,
+  renderView
+} from '@/components/app/views/registry';
 import { getRoutePath } from '@/other/router/routes';
 import { isInitialPage, useAppRouter } from '@/other/router/useAppRouter';
 import { PagePathContext } from '@/other/router/pagePath';
@@ -23,12 +28,12 @@ type Props = {
  * the current page data. Internal links render here without a reload.
  */
 function AppRoot({ extras, initial }: Props) {
-  const { isFailed, isLoading, page } = useAppRouter(initial);
-  // The songbook list starts no book job. The hook cannot sit inside an `if`
+  const { isFailed, isLoading, page } = useAppRouter(initial, getPrefetchPaths);
+  // Some pages (the songbook list) start no book job, see `precache` in the views registry. The hook cannot sit inside an `if`
   // (rules of hooks), so `undefined` means "no book". Changing from a book id
   // to `undefined` also runs the hook's cleanup for the book the reader left:
   // it unregisters that book and cancels its precache if not yet started.
-  usePrecacheBook(page && page.kind !== 'book-list' ? page.route.bookId : undefined);
+  usePrecacheBook(page && isPrecachePage(page) ? page.route.bookId : undefined);
 
   return (
     <>

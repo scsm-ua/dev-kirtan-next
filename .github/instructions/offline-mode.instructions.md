@@ -7,7 +7,7 @@ applyTo: ["public/sw.js", "other/offline/**", "other/hooks/useCacheStatus.ts", "
 
 An opened songbook is cached as a whole and then works offline, also on pages never opened. Caching is automatic; the UI only shows the state.
 
-How the app is built (page data, bundle, router, shell document) is in `app-architecture.instructions.md`. Design history, rejected ideas and open questions are in `.github/plans/plan-offlineMode.md`.
+How the app is built (page data, bundle, router, shell document) is in `app-architecture.instructions.md`. Design history, rejected ideas and open questions are in `.github/plans/2026-11-21_plan-offlineMode.md`.
 
 ## Parts
 
@@ -69,7 +69,7 @@ One flow everywhere; there is no localhost variant.
 | `/data/<book>/<file>.json` | Page entry of the cache → the book's bundle (memory, then cache) → network. See "Page data chain" |
 | `/data/cache-status.json`, `/data/<book>/cache-status.json` | The status records, from the cache only; 404 when there is none. Never fetched from the network |
 | `/images/**` | Cache → network. Covers and thumbnails fall back to the other density (`x.jpg` ↔ `x@2.jpg`) when both miss |
-| HTML | Network → cached page → cached `/shell/` → built-in "You're Offline" page (503). A fetched page is stored under its URL without the query |
+| HTML | Network → cached page → cached `/shell/` → built-in "You're Offline" page (503). A fetched page is stored under its URL without the query. When the network fails for a document load whose path has no trailing slash and no `.` (`/en/contents`), the worker answers with a 302 to the path with the slash, query kept (`getSlashRedirectUrl`): online the host does this redirect, and `parsePath` takes only paths with the slash for app pages, so the shell would show "You're offline" for it |
 | `/_next/static/**`, other files | Cache → network |
 | Non-GET, other origins | Not handled (straight to the network). The connectivity probe is a `HEAD`. Logos, covers, thumbnails and favicons are absolute `NEXT_PUBLIC_ORIGIN` URLs (`PATH.IMG`): a build opened on an address other than its origin (`www.`, another port, a LAN IP) sends them as other-origin requests, and they break offline. Intended: offline mode is supported only on the build's `NEXT_PUBLIC_ORIGIN` (a preview deploy is built with its own) |
 
@@ -203,7 +203,7 @@ Broadcast to every page of the site (also uncontrolled ones) on progress and at 
   - On `controllerchange` it asks again and then sends `ENSURE_BOOK` for the current book (`setCurrentBook`), because the last one may have gone to the old worker.
   - `ensureBook(bookId)` sends `ENSURE_BOOK`. `getBookCacheInfo(bookId)` sends `GET_BOOK_CACHE_INFO`; its reply is not stored.
 - **Hooks:** `useCacheStatus()` gives the store state. `useIsBookReachable()` gives `(bookId) => boolean`: true online or without a worker; offline only when the book's bundle is cached (`status.pages`), since its pages come from the bundle. `useBookCacheState(bookId)` gives `'unavailable' | 'none' | 'caching' | 'cached' | 'error'`; `unavailable` on the server and without a worker, so the static HTML has no dot and there is no hydration mismatch.
-- **Precache** `usePrecacheBook(bookId)` (called in `AppRoot`): registers the book with `setCurrentBook` and calls `ensureBook` on idle (`requestIdleCallback`, or 3 s in Safari). Once the book is `cached` it asks `navigator.storage.persist()` once. Skipped when `isServiceWorkerEnabled()` is false and on the songbook list `/<book>/` (kind `book-list`: `AppRoot` passes no book id).
+- **Precache** `usePrecacheBook(bookId)` (called in `AppRoot`): registers the book with `setCurrentBook` and calls `ensureBook` on idle (`requestIdleCallback`, or 3 s in Safari). Once the book is `cached` it asks `navigator.storage.persist()` once. Skipped when `isServiceWorkerEnabled()` is false and on the songbook list `/<book>/` (kind `book-list`: its `VIEWS` entry has `precache: false`, so `AppRoot` passes no book id).
 - **Connectivity:** `useIsOnline()`. `navigator.onLine` is trusted only when `false`; otherwise a `HEAD /sw.js` probe decides. It checks on start, on `online`/`offline`, when the tab becomes visible, every 10 s while offline, and when `checkConnectivity()` is called after a failed request.
 - **Shell document:** `/shell/` is `AppDocument` with no data. Served for an uncached URL, `useAppRouter` loads that URL's JSON and renders it; if that fails it shows "You're offline".
 
@@ -214,7 +214,7 @@ There is no button that starts or stops caching. Do not add one without a decisi
 | Component | What it does |
 |---|---|
 | `CacheLed` | 8 px dot, `data-status` = the state. Green: `cached`. Yellow: `none`, `error`. Yellow, pulsing: `caching`. Not rendered: `unavailable`. With `label` it is `role="img"`, else `aria-hidden` |
-| `CacheStatusButton` | In `Header__actions`, before `HotkeyHint`. Not on the songbook list (`/` and `/<book>/`, kind `book-list`: `getChrome` sets `hideCacheStatus`), which caches no book. Holds the dot of the header's book; `data-book` = the book id; `aria-label` = the state line. 32 × 32 px touch target. Opens the popup |
+| `CacheStatusButton` | In `Header__actions`, before `HotkeyHint`. Not on the songbook list (`/` and `/<book>/`, kind `book-list`: its `VIEWS` entry sets `hideCacheStatus` in `chrome` and `precache: false`), which caches no book; that page shows the About info button instead (`pages.instructions.md`, "About page"). Holds the dot of the header's book; `data-book` = the book id; `aria-label` = the state line. 32 × 32 px touch target. Opens the popup |
 | `CacheStatusModal` | `AppModal` with the state line and the details |
 | `BookCard` | Small dark grey dot (no backdrop) in the bottom right corner of the card when the book is `cached`; nothing otherwise (no yellow on cards). `OtherBooksCard` has no dot |
 | `BookCard` offline | Greyed out (`BookCard--disabled`), not a link, does not save the book choice when `useIsBookReachable()` says no |

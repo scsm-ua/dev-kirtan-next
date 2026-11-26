@@ -1,8 +1,6 @@
 import { afterAll, describe, expect, it, vi } from 'vitest';
 
 import {
-  getAudioBookIdParamList,
-  getSingerParamList,
   getSingers,
   getSingerTracks,
   hasBookAudio,
@@ -74,22 +72,5 @@ describe.each(getBookIds())('audio of %s', (bookId) => {
 
     expect(hasSinger(bookId, 'no-such-singer')).toBe(false);
     expect(getSingerTracks(bookId, 'no-such-singer')).toEqual([]);
-  });
-});
-
-describe('audio params', () => {
-  const audioBookIds = getBookIds().filter((bookId) => getRecordings(bookId).length > 0);
-
-  it('lists the books that have audio', () => {
-    expect(audioBookIds.length).toBeGreaterThan(0);
-    expect(getAudioBookIdParamList()).toEqual(audioBookIds.map((bookId) => ({ bookId })));
-  });
-
-  it('lists every singer of every book', () => {
-    const expected = audioBookIds.flatMap((bookId) =>
-      getSingers(bookId).map((singer) => ({ bookId, singerId: singer.id }))
-    );
-
-    expect(getSingerParamList()).toEqual(expected);
   });
 });

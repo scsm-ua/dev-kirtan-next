@@ -6,10 +6,20 @@ import { translate } from '@/other/i18n';
 
 import type { TSongbookPage } from '@/other/paths';
 
+/** Groups of `source/translations.json` that have `SCHEMA.NAME` and `SCHEMA.DESCRIPTION`. */
+export type TLdJsonPageKey =
+  | 'A_Z_PAGE'
+  | 'AUDIO_PAGE'
+  | 'AUTHORS_PAGE'
+  | 'BOOK_LIST_PAGE'
+  | 'CONTENTS_PAGE'
+  | 'NOT_FOUND_PAGE'
+  | 'SEARCH_PAGE';
+
 /**/
 type Props = {
   bookId: string;
-  pageKey: string;
+  pageKey: TLdJsonPageKey;
   page?: TSongbookPage;
 };
 

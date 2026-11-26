@@ -7,6 +7,7 @@ import {
   SONGBOOK_PAGE
 } from '@/other/paths';
 import { navigate } from '@/other/router/navigate';
+import { parsePath, ROUTE_KIND } from '@/other/router/routes';
 import { SHOW_UNKNOWN_AUTHORS_KEY } from '@/components/authors/UnknownAuthors';
 import { useAppLocation } from '@/other/router/location';
 import { VIEW_MODE, WBW_MODE } from '@/types/common';
@@ -23,8 +24,6 @@ const KEY_TO_WBW: Record<string, TWbwMode> = {
   '5': WBW_MODE.INLINE,
   '6': WBW_MODE.CLASSICAL,
 };
-
-const NON_SONG_SEGMENTS = new Set<string>(Object.values(SONGBOOK_PAGE));
 
 function isInputFocused(): boolean {
   const el = document.activeElement as HTMLElement | null;
@@ -56,13 +55,10 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
   }, [pathname]);
 
   useEffect(() => {
-    const segments = pathname.split('/').filter(Boolean);
-    const bookId = segments[0] ?? '';
-    const subPage = segments[1];
-    const isSongPage =
-      segments.length === 2 &&
-      subPage !== undefined &&
-      !NON_SONG_SEGMENTS.has(subPage);
+    const bookId = pathname.split('/').filter(Boolean)[0] ?? '';
+    // The page kind comes from the URL table; it is unknown on full-load pages (analyze, export).
+    const kind = parsePath(pathname)?.kind;
+    const isSongPage = kind === ROUTE_KIND.ITEM;  // Songs and markdown pages.
 
     function handleKeyDown(e: KeyboardEvent): void {
       if (isInputFocused()) return;
@@ -101,7 +97,7 @@ export function useGlobalHotkeys({ onShowHelp }: Config): void {
           break;
 
         case 'A':
-          if (subPage === SONGBOOK_PAGE.AUTHORS) {
+          if (kind === ROUTE_KIND.AUTHORS) {
             window.dispatchEvent(new CustomEvent('kirtan:toggleUnknownAuthors'));
           } else {
             sessionStorage.setItem(SHOW_UNKNOWN_AUTHORS_KEY, '1');

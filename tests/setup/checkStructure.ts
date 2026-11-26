@@ -3,7 +3,7 @@ import path from 'node:path';
 
 /**
  * Stops the run when the tests folder rules are broken
- * (.github/plans/plan-tests.md, D9: F1, F2, F3, F6, F7).
+ * (.github/plans/2026-11-16_plan-tests.md, D9: F1, F2, F3, F6, F7).
  */
 
 const ROOT = path.resolve(import.meta.dirname, '..', '..');
@@ -31,7 +31,7 @@ export default function checkStructure(): void {
 
   if (errors.length) {
     throw new Error(
-      'Tests folder structure is broken (see D9 in .github/plans/plan-tests.md):\n' +
+      'Tests folder structure is broken (see D9 in .github/plans/2026-11-16_plan-tests.md):\n' +
         errors.map((e) => `  - ${e}`).join('\n')
     );
   }

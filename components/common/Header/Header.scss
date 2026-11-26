@@ -49,4 +49,29 @@
     align-items: center;
     gap: 8px;
   }
+
+  // Info button: same height and states as the Feedback button next to it.
+  &__about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    border-radius: 50%;
+
+    &:hover {
+      color: var(--accent-color);
+    }
+
+    &:active {
+      color: var(--accent-color);
+      filter: brightness(2);
+      background: var(--brown);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--accent-color);
+    }
+  }
 }

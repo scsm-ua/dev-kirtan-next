@@ -1,32 +1,13 @@
 import type { TBookDescription, TBooksMap } from '@/types/book';
 import type { TAudioTrack, TSinger } from '@/types/audio';
 import type { TContentGroup } from '@/types/common';
-import type { SONGBOOK_PAGE } from '@/other/paths';
+import type { TRoute } from '@/other/router/routes';
 import type { TPage as TPageContent } from '@/types/page';
 import type { TPage as TSearchPage } from '@/types/search';
 import type { TNavItemsMap, TSong } from '@/types/song';
 
-/**
- * Root pages of a songbook that have a page-data file. `analyze` and `export`
- * stay full-page loads and are intentionally absent.
- */
-export type TRootPageKind =
-  | typeof SONGBOOK_PAGE.A_Z
-  | typeof SONGBOOK_PAGE.AUDIO
-  | typeof SONGBOOK_PAGE.AUTHORS
-  | typeof SONGBOOK_PAGE.CONTENTS
-  | typeof SONGBOOK_PAGE.OTHER
-  | typeof SONGBOOK_PAGE.SEARCH;
-
-/**
- * Identifies one page-data file. `item` is a song or markdown page; its real
- * type is only known after the contents lookup, so it lives in `TPageData.kind`.
- */
-export type TRoute =
-  | { kind: 'book-list'; bookId: string }
-  | { [K in TRootPageKind]: { kind: K; bookId: string } }[TRootPageKind]
-  | { kind: 'audio-singer'; bookId: string; singerId: string }
-  | { kind: 'item'; bookId: string; slug: string };
+/** Derived from the URL table in `other/router/routes.ts`. */
+export type { TRoute };
 
 /** Document head values the client applies after a navigation. */
 export type THead = {
@@ -35,8 +16,15 @@ export type THead = {
   title: string;
 };
 
-/**/
+/** Header link to an About page: of the book, or of the default-language book. */
+export type TAboutLink = {
+  path: string;
+  title: string;  // Label of the link, in the language of the page it opens.
+};
+
+/** `about` is set on the songbook list only (not on `other`), when there is an About page to open. */
 export type TBookListData = {
+  about?: TAboutLink;
   booksMap: TBooksMap;
 };
 

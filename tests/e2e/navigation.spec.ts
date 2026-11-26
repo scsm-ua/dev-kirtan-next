@@ -39,6 +39,34 @@ test('other songbooks can be selected and appear first at their root', async ({ 
   expect(await isSameDocument()).toBe(true);
 });
 
+test('the info button of a songbook list without an About page opens the page of another book; back returns', async ({ page }) => {
+  const list = findPage('book-list', 'a songbook list whose info button leads to another book', (candidate) =>
+    !!candidate.data.about && !candidate.data.about.path.startsWith(pathOf(candidate))
+  );
+  const { path, title } = list.data.about;
+  const dataRequests = recordDataRequests(page);
+
+  await page.goto(pathOf(list));
+  await waitForApp(page);
+  const isSameDocument = await markDocument(page);
+  const button = page.locator('.Header__about');
+
+  await expect(button).toHaveAttribute('href', path);
+  await expect(button).toHaveAccessibleName(title);
+  await button.click();
+
+  await expect(page).toHaveURL(path);
+  await expect(page.locator('main .PageMarkdown')).toBeVisible();
+  // The button belongs to the songbook list only.
+  await expect(button).toHaveCount(0);
+  expect(dataRequests).toContain(`/data${path.replace(/\/$/, '.json')}`);
+
+  await page.goBack();
+  await expect(page).toHaveURL(pathOf(list));
+  await expect(button).toBeVisible();
+  expect(await isSameDocument()).toBe(true);
+});
+
 /** Data files the page requested, as paths. */
 function recordDataRequests(page: Page): string[] {
   const paths: string[] = [];

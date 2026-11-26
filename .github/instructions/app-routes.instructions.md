@@ -9,56 +9,79 @@ Concepts (one loader, HTML + JSON, client router, offline) are in `app-architect
 
 ## How a route is declared
 
-An app page is declared in **eight places**. Each has one job, and TypeScript enforces most of the links between them.
+A route's code runs in three places that cannot share a module, so an app page is declared in **three layers**. In each layer it is one self-contained entry, and TypeScript enforces the links between them.
 
-| # | File | What you declare |
+| Layer | Runs in | File | What you declare |
+|---|---|---|---|
+| Shared | client bundle, build, tests | `other/router/routes.ts` | One entry in the `ROUTES` table: page path pattern and data file. `TRoute` (what to load) and the generic `parsePath`, `getRoutePath`, `getRouteFile`, `parseDataFile` are derived from it |
+| Build | Node only (`fs`) | `lib/pageData/routes/<kind>.tsx`, registered in `routes/index.ts` (`SERVER_ROUTES`) | One route object (`TServerRoute`): `list` (which pages the book has), `meta`, `load` (kind + data), `jsonLd`, `sitemap` |
+| Client | browser (React, SCSS) | `components/app/views/*` + `registry.ts` | View component and one `VIEWS` entry (`TViewEntry`): `View`, `chrome` (main class, footer page, analytics), `precache`, `prefetch` |
+
+Around them:
+
+- `other/paths.ts`: URL segment (`SONGBOOK_PAGE.*`) and the path builder components link with.
+- `types/pageData.ts`: `TPageData` kind with its data type, the contract between `load` and the view.
+- `app/[bookId]/**/page.tsx`: a stub of `definePage(kind)`. Next needs the file and a literal `dynamicParams`.
+
+**Kind names.** `ROUTE_KIND` in `other/router/routes.ts` names every route kind (`ROUTE_KIND.BOOK_LIST`, `ROUTE_KIND.ITEM`, …); the kind of a root page takes its value from `SONGBOOK_PAGE`. Page kinds that are no route kinds (`song`, `page`) are in `ITEM_TYPE`. Use these constants wherever a kind is a value: table keys, `definePage(…)`, `{ kind: … }`, comparisons. Keep string literals in type arguments (`TViewProps<'authors'>`, `TEnvelope<'a-z', …>`) and in tests, which pin the value that goes into the page-data JSON and analytics.
+
+The `ROUTES` table, by route kind:
+
+- `path` is the page path relative to `/<bookId>/`; `:name` is a route param (`'audio/:singerId'` → `route.singerId`).
+- `file` is the data file relative to `/data/<bookId>/`, without `.json`. It defaults to `path`.
+- Key order is the match priority, so `item` (`:slug`) is last. It is also the order of `listRoutes` and of the sitemap.
+
+Generic code built on `SERVER_ROUTES` (nothing here knows a single route):
+
+| Function | File | Does |
 |---|---|---|
-| 1 | `other/paths.ts` | URL segment (`SONGBOOK_PAGE.*`) and path builder |
-| 2 | `types/pageData.ts` | `TRoute` variant (what to load) and `TPageData` kind with its data type (what was loaded) |
-| 3 | `other/router/routes.ts` | URL → route (`parsePath`), route → URL (`getRoutePath`), route ↔ data file (`getRouteFile`, `parseItemFile` / `parseAudioFile`) |
-| 4 | `lib/pageData/loaders.ts` | `loadPageData` case: builds `data` and `head` from `lib/*` and `other/metadata/*` |
-| 5 | `lib/pageData/index.ts` | Route listing (`listItemRoutes` / `listAudioRoutes`) → JSON files and the offline bundle |
-| 6 | `app/data/[bookId]/**/route.ts` | JSON handler that emits `/data/…json` (usually an existing one) |
-| 7 | `components/app/views/*` + `registry.ts` | View component, `VIEWS` entry, `getChrome` case (main class, footer page, analytics) |
-| 8 | `app/[bookId]/**/page.tsx` | Static HTML: `generateStaticParams`, `generateMetadata`, `loadPageData` → `<AppDocument page extras>` |
+| `loadPageData(route)` | `lib/pageData/loaders.ts` | `load` + `meta` of the route object → `TPageData` (`build`, `head`, `route` added) |
+| `listRoutes(bookId, folder?)` | `lib/pageData/index.ts` | `list` of every kind, in table order. `folder` (`''` or `'audio'`) keeps only the kinds whose data file is in that folder of `/data/<bookId>/` |
+| `definePage(kind)` | `lib/pageData/page.tsx` | `generateMetadata`, `generateStaticParams` and the `Page` component of a `page.tsx` |
+| `defineDataHandler(folder)` | `lib/pageData/dataHandler.ts` | `generateStaticParams` and `GET` of a JSON handler |
+| sitemap | `app/sitemap.ts` | every listed route whose object has `sitemap`; hidden books are skipped |
 
-Plus, when relevant: `app/sitemap.ts`, JSON-LD in `other/metadata/LdJson*.tsx`, translations, hotkeys, and links in Header / Footer / index pages.
+Plus, when relevant: translations, hotkeys, and links in Header / Footer / index pages.
 
-Naming convention: for root pages, **kind = URL segment = data file name** (`contents` → `/en/contents/` → `/data/en/contents.json`). `getRoutePath` and `getRouteFile` fall back to `route.kind` for them, so root pages need no `switch` case.
+Naming convention: for root pages, **kind = URL segment = data file name** (`contents` → `/en/contents/` → `/data/en/contents.json`).
 
 ## App routes (rendered by `AppRoot`, navigated client-side)
 
-In the table, `en` stands for any `bookId`, and every page file is under `app/[bookId]/`.
+In the table, `en` stands for any `bookId`, and every page file is under `app/[bookId]/`. Metadata, static params, data, JSON-LD and the sitemap entry of a route all come from its route object.
 
-| URL | Page file | Data file | `TRoute` → `TPageData.kind` | View | `generateMetadata` | Static params | `extras` (JSON-LD) |
-|---|---|---|---|---|---|---|---|
-| `/` | `app/page.tsx` (not under `[bookId]`) | `/data/<firstBook>/index.json` | `book-list` of the first book | `BookListView` | `getBookListPageMeta` of the first book | — | `LdJson` (`BOOK_LIST_PAGE`) |
-| `/en/` | `page.tsx` | `/data/en/index.json` | `book-list` | `BookListView` | `getBookListPageMeta` | `getBookIdParamList` | `LdJson` (`BOOK_LIST_PAGE`) |
-| `/en/other/` | `other/page.tsx` | `/data/en/other.json` | `other` | `OtherBooksView` | `getOtherPageMeta` | `getBookIdParamList` | — |
-| `/en/contents/` | `contents/page.tsx` | `/data/en/contents.json` | `contents` | `ContentsView` | `getContentsPageMeta` | `getBookIdParamList` | `LdJson` (`CONTENTS_PAGE`) |
-| `/en/a-z/` | `a-z/page.tsx` | `/data/en/a-z.json` | `a-z` | `AZView` | `getAzPageMeta` | `getBookIdParamList` | `LdJson` (`A_Z_PAGE`) |
-| `/en/authors/` | `authors/page.tsx` | `/data/en/authors.json` | `authors` | `AuthorsView` | `getAuthorsPageMeta` | `getBookIdParamList` | `LdJson` (`AUTHORS_PAGE`) |
-| `/en/search/` | `search/page.tsx` | `/data/en/search.json` | `search` | `SearchView` | `getSearchPageMeta` | `getBookIdParamList` | — |
-| `/en/audio/` | `audio/page.tsx` | `/data/en/audio/index.json` | `audio` | `AudioView` | `getAudioPageMeta` | `getAudioBookIdParamList` | `LdJsonAudio` |
-| `/en/audio/<singerId>/` | `audio/[singerId]/page.tsx` | `/data/en/audio/<singerId>.json` | `audio-singer` | `AudioView` | `getAudioSingerPageMeta` | `getSingerParamList` | `LdJsonAudio` |
-| `/en/<slug>/` (song) | `[slug]/page.tsx` | `/data/en/<slug>.json` | `item` → `song` | `SongBody` | `getContentMeta` | `getSongSlugParam` | `LdJsonSong` |
-| `/en/<slug>/` (markdown page) | `[slug]/page.tsx` | `/data/en/<slug>.json` | `item` → `page` | `PageBody` | `getContentMeta` | `getSongSlugParam` | `LdJsonPage` |
+| URL | Page file (stub) | Data file | `TRoute` → `TPageData.kind` | View | Route object (`lib/pageData/routes/`) | JSON-LD |
+|---|---|---|---|---|---|---|
+| `/` | `app/page.tsx` (not under `[bookId]`) | `/data/<firstBook>/index.json` | `book-list` of the first book | `BookListView` | `bookList.tsx` | `LdJson` (`BOOK_LIST_PAGE`) |
+| `/en/` | `page.tsx` | `/data/en/index.json` | `book-list` | `BookListView` | `bookList.tsx` | `LdJson` (`BOOK_LIST_PAGE`) |
+| `/en/other/` | `other/page.tsx` | `/data/en/other.json` | `other` | `OtherBooksView` | `other.tsx` | — |
+| `/en/contents/` | `contents/page.tsx` | `/data/en/contents.json` | `contents` | `ContentsView` | `contents.tsx` | `LdJson` (`CONTENTS_PAGE`) |
+| `/en/a-z/` | `a-z/page.tsx` | `/data/en/a-z.json` | `a-z` | `AZView` | `az.tsx` | `LdJson` (`A_Z_PAGE`) |
+| `/en/authors/` | `authors/page.tsx` | `/data/en/authors.json` | `authors` | `AuthorsView` | `authors.tsx` | `LdJson` (`AUTHORS_PAGE`) |
+| `/en/search/` | `search/page.tsx` | `/data/en/search.json` | `search` | `SearchView` | `search.tsx` | — |
+| `/en/audio/` | `audio/page.tsx` | `/data/en/audio/index.json` | `audio` | `AudioView` | `audio.tsx` | `LdJsonAudio` |
+| `/en/audio/<singerId>/` | `audio/[singerId]/page.tsx` | `/data/en/audio/<singerId>.json` | `audio-singer` | `AudioView` | `audioSinger.tsx` | `LdJsonAudio` |
+| `/en/<slug>/` (song) | `[slug]/page.tsx` | `/data/en/<slug>.json` | `item` → `song` | `SongBody` | `item.tsx` | `LdJsonSong` |
+| `/en/<slug>/` (markdown page) | `[slug]/page.tsx` | `/data/en/<slug>.json` | `item` → `page` | `PageBody` | `item.tsx` | `LdJsonPage` |
 
 Where things live for these routes:
 
+- **Which pages exist:** only `list` of the route object decides (for example a book without audio has no audio pages). Static params, JSON files, the bundle and the sitemap all follow from it.
+- **Metadata builders:** `other/metadata/`; route objects call them.
 - **Root page `/`:** the same page as `/<firstBook>/` (first key of the songbooks, `getFirstBookId` / `__BOOK_IDS__[0]`); `parsePath('/')` gives that `book-list` route and `getRoutePath` gives `/<firstBook>/`, which is also its canonical. On start the router replaces it with the reader's songbook. See "Root page" in `app-architecture.instructions.md`.
 - **Views:** `components/app/views/` (`SongBody` and `PageBody` are in `components/content/`).
-- **Metadata builders:** `other/metadata/`.
 - **`bookId` static params:** the root `app/layout.tsx` (Next issue #53717).
-- **`dynamicParams = false`:** set on `[slug]` and `audio/[singerId]`.
+- **`dynamicParams = false`:** a literal in the stubs of `/en/`, `other`, `audio`, `audio/[singerId]` and `[slug]`.
+- **Root page `app/page.tsx`:** hand-written because of its head script; it takes metadata and JSON-LD from the `book-list` route object.
 
 JSON handlers:
 
-| Handler | Emits | Lists routes with | Parses file with |
-|---|---|---|---|
-| `app/data/[bookId]/[file]/route.ts` | book root, other, contents, a-z, authors, search, every song/page | `listItemRoutes` (needs only `contents.json`, so it is cheap) | `parseItemFile` |
-| `app/data/[bookId]/audio/[file]/route.ts` | audio index and singers (only for books with audio) | `listAudioRoutes` (scans song files) | `parseAudioFile` |
-| `app/data/[bookId]/bundle.json/route.ts` | `/data/en/bundle.json`, all of the above for one book | `listRoutes` = items + audio | — |
+| Handler | Emits | Declared as |
+|---|---|---|
+| `app/data/[bookId]/[file]/route.ts` | book root, other, contents, a-z, authors, search, every song/page | `defineDataHandler('')`: lists with `listRoutes(bookId, '')`, which needs only `contents.json`, so it is cheap |
+| `app/data/[bookId]/audio/[file]/route.ts` | audio index and singers (only for books with audio) | `defineDataHandler('audio')`: lists with `listRoutes(bookId, 'audio')`, which scans song files |
+| `app/data/[bookId]/bundle.json/route.ts` | `/data/en/bundle.json`, all of the above for one book | `loadBookBundle` → `listRoutes(bookId)` |
+
+The folder of a route's data file (`file` in `ROUTES`) decides its handler. Both handlers parse the file with `parseDataFile`.
 
 All three handlers set `dynamic = 'force-static'` and `dynamicParams = false`, and declare `generateStaticParams`.
 
@@ -84,79 +107,77 @@ All three handlers set `dynamic = 'force-static'` and `dynamicParams = false`, a
 
 Example: a `favorites` page with data `{ book, items }`.
 
-1. **Path** (`other/paths.ts`): add `FAVORITES: 'favorites'` to `SONGBOOK_PAGE`. Hotkey song detection picks it up automatically.
+1. **Path** (`other/paths.ts`): add `FAVORITES: 'favorites'` to `SONGBOOK_PAGE`. Hotkey song detection reads the URL table (`parsePath`), so step 3 covers it.
 2. **Types** (`types/pageData.ts`):
-   - Add `| typeof SONGBOOK_PAGE.FAVORITES` to `TRootPageKind`. The `TRoute` variant comes with it.
    - Add `export type TFavoritesData = { … }`. Use plain JSON only: no functions, Maps or Dates.
    - Add `| TEnvelope<'favorites', TFavoritesData>` to `TPageData`.
-3. **Router** (`other/router/routes.ts`): add the constant to `ITEM_ROOT_PAGES`. `parsePath` and `parseItemFile` then recognise it; `getRouteFile` and `getRoutePath` already fall back to `kind`.
-   - ⚠ A root segment shadows a song slug with the same name.
+3. **URL table** (`other/router/routes.ts`): add `FAVORITES: SONGBOOK_PAGE.FAVORITES` to `ROUTE_KIND` and `[ROUTE_KIND.FAVORITES]: { path: SONGBOOK_PAGE.FAVORITES }` to `ROUTES`, before `item`. The `TRoute` variant, `parsePath`, `parseDataFile`, `getRouteFile` and `getRoutePath` follow from it.
+   - ⚠ A root segment shadows a song slug with the same name. `about` is taken too: it is the reserved slug of the About page item (`ABOUT_PAGE_SLUG`).
 4. **Metadata** (`other/metadata/getFavoritesPageMeta.ts`): `({ params }) => Promise<Metadata>`, like `getContentsPageMeta`. Pass `page: SONGBOOK_PAGE.FAVORITES` to `getPageMeta` so canonical/hreflang are right.
-5. **Loader** (`lib/pageData/loaders.ts`): add a case:
+5. **Route object** (`lib/pageData/routes/favorites.tsx`), then one line in `SERVER_ROUTES` (`routes/index.ts`; TypeScript errors until you add it):
    ```ts
-   case 'favorites':
-     return make(route, 'favorites', toHead(await getFavoritesPageMeta({ params })), {
-       book,
-       items: getFavorites(bookId)
-     });
+   export const favoritesRoute = defineRootPage(ROUTE_KIND.FAVORITES, {
+     data: (bookId, book) => ({ book, items: getFavorites(bookId) }),
+     ldKey: 'FAVORITES_PAGE',           // JSON-LD from `<key>.SCHEMA.*` (add the group to `TLdJsonPageKey`); omit for none
+     meta: getFavoritesPageMeta,
+     sitemap: { priority: 0.8 }         // omit to keep the page out of the sitemap
+   });
    ```
-   Return `null` when the book has no such page (as `audio` does). Do **all** server work here, e.g. markdown → HTML or file reads.
-6. **Listing** (`lib/pageData/index.ts`): add `{ kind: SONGBOOK_PAGE.FAVORITES, bookId }` to `listItemRoutes`. The JSON file and the bundle entry follow automatically.
-7. **View** (`components/app/views/FavoritesView.tsx`):
+   - Do **all** server work in `data`, e.g. markdown → HTML or file reads.
+   - `defineRootPage` is for a page every book has. If only some books have it, write the object by hand like `audio.tsx`: `list` returns `[]` and `load` returns `null` for the others.
+   - The JSON file, the bundle entry, static params and the sitemap entry follow automatically.
+6. **View** (`components/app/views/FavoritesView.tsx`):
    ```tsx
    export default function FavoritesView({ page }: TViewProps<'favorites'>) { … }
    ```
    - Must be client-safe: no `lib/*` data calls and no `other/metadata/*`.
    - Import its SCSS here.
-   - Register it in `VIEWS` in `registry.ts`; TypeScript errors until you do.
-   - Add a `getChrome` case only if the default (`{ bookId, pageType: kind }`) isn't enough.
-8. **HTML route** (`app/[bookId]/favorites/page.tsx`): copy `contents/page.tsx`:
+   - Register it in `VIEWS` in `registry.ts` as `[ROUTE_KIND.FAVORITES]: { View: FavoritesView }`; TypeScript errors until you do.
+   - Add `chrome` to the entry only if the default (`{ bookId, pageType: kind }`) isn't enough.
+   - `precache: false` when opening the page must not start caching the book; `prefetch` to name the paths of the likeliest next pages.
+7. **HTML route** (`app/[bookId]/favorites/page.tsx`), the whole file:
    ```tsx
-   export const generateMetadata = getFavoritesPageMeta;
-   export const generateStaticParams = getBookIdParamList;
+   import { definePage } from '@/lib/pageData/page';
+   import { ROUTE_KIND } from '@/other/router/routes';
 
-   async function FavoritesPage({ params }: BookListPageProps) {
-     const { bookId } = await params;
-     const page = await loadPageData({ kind: SONGBOOK_PAGE.FAVORITES, bookId });
-     if (!page) notFound();
-     return <AppDocument extras={<LdJson … page={SONGBOOK_PAGE.FAVORITES} />} page={page} />;
-   }
+   const { generateMetadata, generateStaticParams, Page } = definePage(ROUTE_KIND.FAVORITES);
+
+   export { generateMetadata, generateStaticParams };
+   export default Page;
    ```
-9. **Extras:**
+8. **Extras:**
    - links built with `getSongbookPagePath(bookId, SONGBOOK_PAGE.FAVORITES)`;
-   - `app/sitemap.ts` if the page is indexed;
    - strings in `source/translations.json` + schema (`translations-schema.instructions.md`);
    - a hotkey (`global-hotkeys.instructions.md`).
-10. **Verify:** see the checklist at the end.
+9. **Verify:** see the checklist at the end.
 
-**Expensive data** (scans every song file, like audio): don't add it to `listItemRoutes`, because in dev that would slow every data request. Create `app/data/[bookId]/<segment>/[file]/route.ts` with its own `list<X>Routes` and `parse<X>File`, give it a `getRouteFile` case `<segment>/index.json`, and add the list to `listRoutes` so the bundle includes it. The audio handler is the template.
+**Expensive data** (scans every song file, like audio): keep its data file out of the book folder, because in dev that would slow every data request. Give the `ROUTES` entry `file: '<segment>/index'` and create `app/data/[bookId]/<segment>/[file]/route.ts` with `defineDataHandler('<segment>')`. The audio handler is the template. The bundle includes it automatically.
 
 ## Recipe B — page with a parameter (`/en/<segment>/<id>/`)
 
 Template: `audio-singer`.
 
-1. **`TRoute`:** `| { kind: 'x-item'; bookId: string; xId: string }`, plus a `TEnvelope<'x-item', TXItemData>`.
-2. **`routes.ts`:**
-   - Add a `parsePath` branch before the root-page lookup (`page === SEGMENT` → `xId ? x-item : x-index`). Paths have at most three segments; extend the `rest.length` check if you need more.
-   - Add `getRouteFile` → `` `${SEGMENT}/${route.xId}.json` `` and `getRoutePath` → a builder in `other/paths.ts`.
-   - Add `parseXFile`.
-3. **Loader:** look up the id and return `null` when it is unknown. HTML then gets `notFound()` and JSON gets a 404, so the client falls back to the static 404.
-4. **Handler** `app/data/[bookId]/<segment>/[file]/route.ts`:
-   - `generateStaticParams` returns `file` **without** the segment prefix and **with** `.json`.
-   - `GET` → `respondWithPageData(parseXFile(bookId, file))`.
-   - Add the list to `listRoutes`.
-5. **Page** `app/[bookId]/<segment>/[xId]/page.tsx`: `generateStaticParams` over all ids, `dynamicParams = false`, metadata builder, `AppDocument`.
-6. **View and registry** as in Recipe A. Add a `getChrome` case with `itemId: page.route.xId` so analytics tracks each item separately.
+1. **`types/pageData.ts`:** a `TEnvelope<'x-item', TXItemData>`.
+2. **`routes.ts`:** add `X_INDEX` and `X_ITEM: 'x-item'` to `ROUTE_KIND`, then to `ROUTES`, before `item`:
+   ```ts
+   [ROUTE_KIND.X_INDEX]: { path: SEGMENT, file: `${SEGMENT}/index` },
+   [ROUTE_KIND.X_ITEM]: { path: `${SEGMENT}/:xId` }
+   ```
+   `TRoute` gets `{ kind: 'x-item'; bookId: string; xId: string }`. Put the index entry first: its file `index` would also fit `:xId`. Add a link builder to `other/paths.ts` for components.
+3. **Route objects** (`lib/pageData/routes/`, template `audioSinger.tsx`): `list` returns a route per id; `load` looks up the id and returns `null` when it is unknown. HTML then gets `notFound()` and JSON gets a 404, so the client falls back to the static 404.
+4. **Handler** `app/data/[bookId]/<segment>/[file]/route.ts`: `defineDataHandler('<segment>')`, with the `dynamic` and `dynamicParams` literals of the audio handler.
+5. **Page** `app/[bookId]/<segment>/[xId]/page.tsx`: the `definePage(ROUTE_KIND.X_ITEM)` stub plus `export const dynamicParams = false`.
+6. **View and registry** as in Recipe A. Give the `VIEWS` entry a `chrome` with `itemId: page.route.xId` so analytics tracks each item separately.
 
 ## Recipe C — new content item type (shares `/en/<slug>/`)
 
-Songs and markdown pages share route kind `item`; the real type is resolved in `loadItem`.
+Songs and markdown pages share route kind `item`; the real type is resolved in `lib/pageData/routes/item.tsx` from the contents item.
 
 1. Content handler, type discriminator and source data: follow `pages.instructions.md` (`lib/content/<type>/`, `ITEM_TYPE`, `transformContents.js`).
 2. `types/pageData.ts`: `| TEnvelope<'<type>', T<Type>Data, 'item'>`. The third argument ties it to the `item` route.
-3. `lib/pageData/loaders.ts` `loadItem`: add a branch on `item.type` that loads through the handler and puts pre-rendered values into `data` (e.g. `bodyHtml`, not raw markdown).
-4. View (`components/content/<Type>Body.tsx` inside `ContentShell`) → `VIEWS` → `getChrome` case (`className: 'ContentPage'`, `itemId`, `page`, `pageType`).
-5. `app/[bookId]/[slug]/page.tsx`: add JSON-LD `extras` for the new kind if needed. Nothing else changes: listing, handler, `parsePath` and sitemap are slug-based.
+3. `lib/pageData/routes/item.tsx`: add one entry to the `ITEM_TYPES` map (TypeScript errors until you do). Its `load` goes through the handler and puts pre-rendered values into `data` (e.g. `bodyHtml`, not raw markdown); its `jsonLd` renders the JSON-LD of the type.
+4. View (`components/content/<Type>Body.tsx` inside `ContentShell`) → one `VIEWS` entry with `chrome` (`className: 'ContentPage'`, `itemId`, `page`, `pageType`) and `prefetch` (the neighbours from `data.nav`, as `song` and `page` do).
+5. Nothing else changes: listing, handler, page stub, `parsePath` and sitemap are slug-based.
 
 ## Recipe D — page that must stay a full document load
 
@@ -169,7 +190,7 @@ Admin, tool or one-off pages that don't use `AppDocument`:
 
 ## Removing or renaming a route
 
-Undo the same eight places. Search for the kind string and the `SONGBOOK_PAGE` constant. For a renamed public URL, consider a redirect page (`scripts/postbuild.js` pattern), because old links and the sitemap are indexed.
+Undo the same three layers (and the path, type and page stub around them). Search for the `ROUTE_KIND` constant (its literal in type arguments and tests) and the `SONGBOOK_PAGE` constant. For a renamed public URL, consider a redirect page (`scripts/postbuild.js` pattern), because old links and the sitemap are indexed.
 
 ## Gotchas
 

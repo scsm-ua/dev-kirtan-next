@@ -3,18 +3,10 @@
  */
 
 import type { SONGBOOK_PAGE } from '@/other/paths';
-import type { TItemType } from '@/types/common';
+import type { TPageKind } from '@/types/pageData';
 
-/** `page_type` values besides `TItemType` and the `SONGBOOK_PAGE` segments. */
-export const ANALYTICS_PAGE_TYPE = {
-  AUDIO_SINGER: 'audio-singer',
-  BOOK_LIST: 'book-list'
-} as const;
-
-export type TAnalyticsPageType =
-  | TItemType
-  | (typeof SONGBOOK_PAGE)[keyof typeof SONGBOOK_PAGE]
-  | (typeof ANALYTICS_PAGE_TYPE)[keyof typeof ANALYTICS_PAGE_TYPE];
+/** `page_type` values: the kind of an app page, or the segment of a full-load page (analyze, export). */
+export type TAnalyticsPageType = TPageKind | (typeof SONGBOOK_PAGE)[keyof typeof SONGBOOK_PAGE];
 
 export type TAnalyticsParams = Record<string, string | number | undefined>;
 

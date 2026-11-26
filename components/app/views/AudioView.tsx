@@ -1,12 +1,13 @@
 import AudioPage from '@/components/audio/AudioPage';
 import BookDescription from '@/components/common/BookDescription/BookDescription';
+import { ROUTE_KIND } from '@/other/router/routes';
 
 import type { TViewProps } from '@/components/app/views/types';
 
 /** Audio index and singer playlist share one view. */
 function AudioView({ extras, page }: TViewProps<'audio'> | TViewProps<'audio-singer'>) {
   const { book, singers, tracks } = page.data;
-  const selected = page.kind === 'audio-singer' ? page.data.selected : undefined;
+  const selected = page.kind === ROUTE_KIND.AUDIO_SINGER ? page.data.selected : undefined;
 
   return (
     <div className="Main__container AudioPage">

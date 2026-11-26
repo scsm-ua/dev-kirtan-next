@@ -18,7 +18,7 @@ useGlobalHotkeys (hook)  ──► navigate(...)                // client-side n
                        (SongText, OtherTranslations, SwipeNav, GlobalHotkeys itself)
 ```
 
-- **Listener owner**: `other/hooks/useGlobalHotkeys.ts` — a single `keydown` listener on `window`, scoped to the `useAppLocation()` path segments for context-aware routing.
+- **Listener owner**: `other/hooks/useGlobalHotkeys.ts` — a single `keydown` listener on `window`, scoped to the `useAppLocation()` path for context-aware routing: the book id is the first segment, and the page kind (song or page → `item`, `authors`) comes from `parsePath` of the URL table.
 - **Help modal owner**: `components/common/GlobalHotkeys/GlobalHotkeys.tsx` — mounts the hook + `HotkeysModal`, rendered by `components/common/Layout/LayoutChrome.tsx`, so it's available on every page (persistent in the app root, and in the old `Layout` for analyze/404).
 - **Cheat sheet**: `components/common/GlobalHotkeys/HotkeysModal.tsx` — translated keys via `translate(bookId, ...)`. Anything without a translation key falls back to English and gets a `// TODO:` comment.
 

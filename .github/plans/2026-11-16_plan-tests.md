@@ -173,7 +173,7 @@ Rule: **test a behaviour at the lowest layer that can see it.** L7 is only for w
 Notes:
 
 - `public/sw.js` gets no unit tests; its behaviour is covered in L7, where a real service worker runs.
-- L6 is the natural home for SEO regressions from [plan-seo-2026-11-15.md](plan-seo-2026-11-15.md) (for example "song text is in the HTML").
+- L6 is the natural home for SEO regressions from [2026-11-15_plan-seo-2026-11-15.md](2026-11-15_plan-seo-2026-11-15.md) (for example "song text is in the HTML").
 - `type-check`, `lint` and `validation` stay as they are and run before the tests.
 
 Expected shape: most tests in L1–L4, fewer in L5, about 20 invariants in L6, about 30 scenarios in L7.
@@ -294,7 +294,7 @@ Examples for F3:
    - `sitemap.test.ts`: unique URLs; each is a built page that names itself canonical; exactly the app pages of visible books, without search; `robots.txt` points to it and, in production, blocks none of its URLs but blocks `/data/` and `/shell/`.
    - `legacy-redirects.test.ts`: one `.html` per contents item, nothing else; canonical, meta refresh and script all lead to the built page.
    - `site-files.test.ts`: service worker, `.nojekyll`, manifest icons, the shell (no page data, noindex), 404, analyze and export (noindex), no app stylesheet on the export page.
-   14 planted faults in built files were all caught. "Song text is in the HTML" is **not** a rule yet: it is open SEO work (F1/A1 in [plan-seo-2026-11-15.md](plan-seo-2026-11-15.md)); add it to `pages.test.ts` together with A1.
+   14 planted faults in built files were all caught. "Song text is in the HTML" is **not** a rule yet: it is open SEO work (F1/A1 in [2026-11-15_plan-seo-2026-11-15.md](2026-11-15_plan-seo-2026-11-15.md)); add it to `pages.test.ts` together with A1.
    New helpers: `tests/helpers/site.ts` (`SITE_DIR`, `resolveSitePath` with GitHub Pages rules, `readHtmlPageData`), `tests/setup/build.ts` (one message when the build is missing).
    **L7 started (2026-11-16).** Playwright 1.65 (`playwright.config.ts`), `pnpm test:e2e` (builds if `.test-output/site/` is missing). 6 spec files, 42 tests (Chromium all, WebKit iPhone the `@mobile` ones), about 15 s, stable over 4 repeats. `serve` with `tests/setup/serve.json` behaves like GitHub Pages (directories serve `index.html`, `.html` files are served as they are, 404.html); the server is never reused.
    - `smoke.spec.ts`: first visit of every page kind hydrates without a console error; home redirects; analyze and export open.

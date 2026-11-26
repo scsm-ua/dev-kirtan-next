@@ -2,7 +2,7 @@ import path from 'node:path';
 
 import { defineConfig, devices } from '@playwright/test';
 
-// L7 runs against the test build of the real books (.github/plans/plan-tests.md, D3).
+// L7 runs against the test build of the real books (.github/plans/2026-11-16_plan-tests.md, D3).
 const PORT = 3337; // Same origin as NEXT_PUBLIC_ORIGIN in env/.env.test.
 const SITE_DIR = process.env.KIRTAN_BUILD_DIR || '.test-output/site';
 const OUTPUT = '.test-output/playwright';

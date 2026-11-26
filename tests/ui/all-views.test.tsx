@@ -56,7 +56,7 @@ function getName(el: Element): string {
 }
 
 /**
- * Open finding T8 (.github/plans/plan-tests.md): contents groups that share a
+ * Open finding T8 (.github/plans/2026-11-16_plan-tests.md): contents groups that share a
  * name get the same `section-<name>` id. Not decided yet whether the content
  * or the id scheme changes, so exactly these ids are left out of the rule.
  */

@@ -9,28 +9,88 @@ import OtherBooksView from '@/components/app/views/OtherBooksView';
 import PageBody from '@/components/content/PageBody';
 import SearchView from '@/components/app/views/SearchView';
 import SongBody from '@/components/content/SongBody';
-import { ANALYTICS_PAGE_TYPE } from '@/other/analytics';
-import { getRoutePath } from '@/other/router/routes';
+import { getRoutePath, ROUTE_KIND } from '@/other/router/routes';
 import { ITEM_TYPE } from '@/types/common';
 
 import type { ComponentType, ReactNode } from 'react';
 import type { TLayoutChromeProps } from '@/components/common/Layout/LayoutChrome';
-import type { TPageData, TPageKind } from '@/types/pageData';
+import type { TPageData, TPageDataOf, TPageKind } from '@/types/pageData';
+import type { TNavItemsMap } from '@/types/song';
 import type { TViewProps } from '@/components/app/views/types';
 
-/**/
-const VIEWS: { [K in TPageKind]: ComponentType<TViewProps<K>> } = {
-  'book-list': BookListView,
-  other: OtherBooksView,
-  contents: ContentsView,
-  'a-z': AZView,
-  authors: AuthorsView,
-  search: SearchView,
-  audio: AudioView,
-  'audio-singer': AudioView,
-  song: SongBody,
-  page: PageBody
+/** Client side of one page kind: its view and the rules the app root applies to it. */
+type TViewEntry<K extends TPageKind> = {
+  View: ComponentType<TViewProps<K>>;
+  /** Layout props (main class, header About link, footer page, analytics); default `{ bookId, pageType: kind }`. */
+  chrome?(page: TPageDataOf<K>): TLayoutChromeProps;
+  /** `false`: opening the page starts no book caching. Default `true`. */
+  precache?: boolean;
+  /** Paths to prefetch after the page is shown. */
+  prefetch?(page: TPageDataOf<K>): Array<string>;
 };
+
+/** Neighbouring items are the likeliest next pages. */
+function getNavPaths(nav: TNavItemsMap): Array<string> {
+  return Object.values(nav).flatMap(({ prev, next }) =>
+    [prev, next].flatMap((item) => (item ? [item.path] : []))
+  );
+}
+
+/** One entry per page kind (route kinds, with `item` split into the item types); a missing kind is a type error. */
+const VIEWS: { [K in TPageKind]: TViewEntry<K> } = {
+  [ROUTE_KIND.BOOK_LIST]: {
+    View: BookListView,
+    chrome: ({ data, route }) => ({
+      about: data.about,
+      bookId: route.bookId,
+      hideCacheStatus: true,
+      pageType: ROUTE_KIND.BOOK_LIST
+    }),
+    // The songbook list is not a page of one book.
+    precache: false
+  },
+  [ROUTE_KIND.OTHER]: { View: OtherBooksView },
+  [ROUTE_KIND.CONTENTS]: { View: ContentsView },
+  [ROUTE_KIND.A_Z]: { View: AZView },
+  [ROUTE_KIND.AUTHORS]: { View: AuthorsView },
+  [ROUTE_KIND.SEARCH]: { View: SearchView },
+  [ROUTE_KIND.AUDIO]: { View: AudioView },
+  [ROUTE_KIND.AUDIO_SINGER]: {
+    View: AudioView,
+    chrome: ({ route }) => ({
+      bookId: route.bookId,
+      itemId: route.singerId,
+      pageType: ROUTE_KIND.AUDIO_SINGER
+    })
+  },
+  [ITEM_TYPE.SONG]: {
+    View: SongBody,
+    chrome: ({ data, route }) => ({
+      bookId: route.bookId,
+      className: 'ContentPage',
+      itemId: route.slug,
+      page: data.song.meta?.page,
+      pageType: ITEM_TYPE.SONG
+    }),
+    prefetch: ({ data }) => getNavPaths(data.nav)
+  },
+  [ITEM_TYPE.PAGE]: {
+    View: PageBody,
+    chrome: ({ data, route }) => ({
+      bookId: route.bookId,
+      className: 'ContentPage',
+      itemId: route.slug,
+      page: data.page.meta?.page,
+      pageType: ITEM_TYPE.PAGE
+    }),
+    prefetch: ({ data }) => getNavPaths(data.nav)
+  }
+};
+
+/** Entry of the page's kind. The table ties each entry to its own kind; this lookup cannot show that to TypeScript. */
+function getEntry(page: TPageData): TViewEntry<TPageKind> {
+  return VIEWS[page.kind] as unknown as TViewEntry<TPageKind>;
+}
 
 /**
  * View of the page's kind, keyed by its path so each page mounts fresh.
@@ -38,36 +98,20 @@ const VIEWS: { [K in TPageKind]: ComponentType<TViewProps<K>> } = {
  * (react-hooks/static-components).
  */
 export function renderView(page: TPageData, extras?: ReactNode): ReactNode {
-  const View = VIEWS[page.kind] as ComponentType<{ extras?: ReactNode; page: TPageData }>;
-  return createElement(View, { extras, key: getRoutePath(page.route), page });
+  return createElement(getEntry(page).View, { extras, key: getRoutePath(page.route), page });
 }
 
-/** Layout props (main class, footer page, analytics) of the page's kind. */
+/** Layout props (main class, header About link, footer page, analytics) of the page's kind. */
 export function getChrome(page: TPageData): TLayoutChromeProps {
-  const { bookId } = page.route;
+  return getEntry(page).chrome?.(page) ?? { bookId: page.route.bookId, pageType: page.kind };
+}
 
-  switch (page.kind) {
-    case 'book-list':
-      return { bookId, hideCacheStatus: true, pageType: ANALYTICS_PAGE_TYPE.BOOK_LIST };
-    case 'audio-singer':
-      return { bookId, itemId: page.route.singerId, pageType: ANALYTICS_PAGE_TYPE.AUDIO_SINGER };
-    case 'song':
-      return {
-        bookId,
-        className: 'ContentPage',
-        itemId: page.route.slug,
-        page: page.data.song.meta?.page,
-        pageType: ITEM_TYPE.SONG
-      };
-    case 'page':
-      return {
-        bookId,
-        className: 'ContentPage',
-        itemId: page.route.slug,
-        page: page.data.page.meta?.page,
-        pageType: ITEM_TYPE.PAGE
-      };
-    default:
-      return { bookId, pageType: page.kind };
-  }
+/** Whether opening the page starts caching its book for offline use. */
+export function isPrecachePage(page: TPageData): boolean {
+  return getEntry(page).precache ?? true;
+}
+
+/** Paths to prefetch after the page is shown. */
+export function getPrefetchPaths(page: TPageData): Array<string> {
+  return getEntry(page).prefetch?.(page) ?? [];
 }

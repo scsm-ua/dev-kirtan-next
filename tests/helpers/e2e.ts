@@ -9,7 +9,7 @@ import type { TBookBundle, TPageData, TPageDataOf, TPageKind, TSharedAssets } fr
 import type { TNavItem } from '@/types/song';
 
 /**
- * Playwright fixtures and data finders for L7 (.github/plans/plan-tests.md, D3):
+ * Playwright fixtures and data finders for L7 (.github/plans/2026-11-16_plan-tests.md, D3):
  * nothing leaves the local server, and a test fails on any console error.
  */
 
